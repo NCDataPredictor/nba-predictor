@@ -1,0 +1,593 @@
+{
+ "date": "2026-11-14",
+ "source": "Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos); comparador covers.com/sport/basketball/nba/odds (ML de 9 casas en DEN@NOP); consenso scoresandodds.com/nba?date=2026-11-14 (~12:05 ET) en los 5",
+ "games": {
+  "DEN@NOP": {
+   "books": [
+    {
+     "book": "BetMGM",
+     "ml_away": -625,
+     "ml_home": 450
+    },
+    {
+     "book": "bet365",
+     "ml_away": -600,
+     "ml_home": 450
+    },
+    {
+     "book": "DraftKings",
+     "ml_away": -597,
+     "ml_home": 443
+    },
+    {
+     "book": "FanDuel",
+     "ml_away": -620,
+     "ml_home": 460
+    },
+    {
+     "book": "Fanatics",
+     "ml_away": -600,
+     "ml_home": 430
+    },
+    {
+     "book": "BetRivers",
+     "ml_away": -671,
+     "ml_home": 460
+    },
+    {
+     "book": "Caesars",
+     "ml_away": -599,
+     "ml_home": 430
+    },
+    {
+     "book": "theScore Bet",
+     "ml_away": -700,
+     "ml_home": 450
+    },
+    {
+     "book": "Hard Rock Bet",
+     "ml_away": -650,
+     "ml_home": 450
+    },
+    {
+     "book": "scoresandodds (consenso ~12:05 ET)",
+     "ml_away": -597,
+     "ml_home": 443,
+     "spread_away": [
+      -11.5,
+      -117
+     ],
+     "spread_home": [
+      11.5,
+      -104
+     ],
+     "total": [
+      235.5,
+      -107,
+      -113
+     ]
+    }
+   ]
+  },
+  "DAL@CLE": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso ~12:05 ET)",
+     "ml_away": 105,
+     "ml_home": -125,
+     "spread_away": [
+      1.5,
+      -110
+     ],
+     "spread_home": [
+      -1.5,
+      -110
+     ],
+     "total": [
+      231.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "DET@MIA": {
+   "books": [
+    {
+     "book": "BetMGM",
+     "ml_away": -185,
+     "ml_home": 150,
+     "spread_away": [
+      -4.5,
+      -115
+     ],
+     "spread_home": [
+      4.5,
+      -105
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "bet365",
+     "ml_away": -178,
+     "ml_home": 149,
+     "spread_away": [
+      -4.5,
+      -110
+     ],
+     "spread_home": [
+      4.5,
+      -110
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "DraftKings",
+     "ml_away": -181,
+     "ml_home": 152,
+     "spread_away": [
+      -5.5,
+      -106
+     ],
+     "spread_home": [
+      5.5,
+      -114
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "FanDuel",
+     "ml_away": -174,
+     "ml_home": 148,
+     "spread_away": [
+      -4.5,
+      -110
+     ],
+     "spread_home": [
+      4.5,
+      -110
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "Fanatics",
+     "ml_away": -180,
+     "ml_home": 150,
+     "spread_away": [
+      -5.5,
+      -105
+     ],
+     "spread_home": [
+      5.5,
+      -115
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "BetRivers",
+     "ml_away": -195,
+     "ml_home": 155,
+     "spread_away": [
+      -4.5,
+      -112
+     ],
+     "spread_home": [
+      4.5,
+      -110
+     ],
+     "total": [
+      225.5,
+      -112,
+      -110
+     ]
+    },
+    {
+     "book": "theScore Bet",
+     "ml_away": -185,
+     "ml_home": 155,
+     "spread_away": [
+      -5.5,
+      -105
+     ],
+     "spread_home": [
+      5.5,
+      -115
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "Hard Rock Bet",
+     "ml_away": -175,
+     "ml_home": 145,
+     "spread_away": [
+      -4.5,
+      -115
+     ],
+     "spread_home": [
+      4.5,
+      -105
+     ],
+     "total": [
+      226.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso ~12:05 ET)",
+     "ml_away": -191,
+     "ml_home": 160,
+     "spread_away": [
+      -4.5,
+      -112
+     ],
+     "spread_home": [
+      4.5,
+      -108
+     ],
+     "total": [
+      228.5,
+      -115,
+      -105
+     ]
+    }
+   ]
+  },
+  "CHI@MIN": {
+   "books": [
+    {
+     "book": "BetMGM",
+     "ml_away": 600,
+     "ml_home": -901,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "bet365",
+     "ml_away": 625,
+     "ml_home": -950,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -107,
+      -113
+     ]
+    },
+    {
+     "book": "DraftKings",
+     "ml_away": 580,
+     "ml_home": -840,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -108,
+      -112
+     ]
+    },
+    {
+     "book": "FanDuel",
+     "ml_away": 640,
+     "ml_home": -950,
+     "spread_away": [
+      14.5,
+      -114
+     ],
+     "spread_home": [
+      -14.5,
+      -106
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "Fanatics",
+     "ml_away": 575,
+     "ml_home": -850,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "BetRivers",
+     "ml_away": 525,
+     "ml_home": -833,
+     "spread_away": [
+      13.5,
+      -108
+     ],
+     "spread_home": [
+      -13.5,
+      -115
+     ],
+     "total": [
+      235.5,
+      -118,
+      -104
+     ]
+    },
+    {
+     "book": "Caesars",
+     "ml_away": 550,
+     "ml_home": -800,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "theScore Bet",
+     "ml_away": 600,
+     "ml_home": -1000,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "Hard Rock Bet",
+     "ml_away": 600,
+     "ml_home": -900,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      100
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "BKN@MEM": {
+   "books": [
+    {
+     "book": "BetMGM",
+     "ml_away": 165,
+     "ml_home": -200,
+     "spread_away": [
+      4.5,
+      -102
+     ],
+     "spread_home": [
+      -4.5,
+      -118
+     ],
+     "total": [
+      227.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "bet365",
+     "ml_away": 165,
+     "ml_home": -200,
+     "spread_away": [
+      4.5,
+      -107
+     ],
+     "spread_home": [
+      -4.5,
+      -113
+     ],
+     "total": [
+      227.5,
+      -109,
+      -111
+     ]
+    },
+    {
+     "book": "DraftKings",
+     "ml_away": 164,
+     "ml_home": -197,
+     "spread_away": [
+      4.5,
+      -105
+     ],
+     "spread_home": [
+      -4.5,
+      -115
+     ],
+     "total": [
+      227.5,
+      -112,
+      -108
+     ]
+    },
+    {
+     "book": "FanDuel",
+     "ml_away": 172,
+     "ml_home": -205,
+     "spread_away": [
+      5.5,
+      -114
+     ],
+     "spread_home": [
+      -5.5,
+      -106
+     ],
+     "total": [
+      227.5,
+      -106,
+      -114
+     ]
+    },
+    {
+     "book": "Fanatics",
+     "ml_away": 165,
+     "ml_home": -200,
+     "spread_away": [
+      4.5,
+      100
+     ],
+     "spread_home": [
+      -4.5,
+      -120
+     ],
+     "total": [
+      228.0,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "BetRivers",
+     "ml_away": 155,
+     "ml_home": -195,
+     "spread_away": [
+      5.5,
+      -125
+     ],
+     "spread_home": [
+      -5.5,
+      102
+     ],
+     "total": [
+      224.5,
+      -130,
+      106
+     ]
+    },
+    {
+     "book": "Caesars",
+     "ml_away": 162,
+     "ml_home": -195,
+     "spread_away": [
+      5.0,
+      -110
+     ],
+     "spread_home": [
+      -5.0,
+      -110
+     ],
+     "total": [
+      227.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "theScore Bet",
+     "ml_away": 165,
+     "ml_home": -195,
+     "spread_away": [
+      4.5,
+      -105
+     ],
+     "spread_home": [
+      -4.5,
+      -115
+     ],
+     "total": [
+      227.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "Hard Rock Bet",
+     "ml_away": 170,
+     "ml_home": -210,
+     "spread_away": [
+      4.5,
+      -105
+     ],
+     "spread_home": [
+      -4.5,
+      -115
+     ],
+     "total": [
+      227.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  }
+ }
+}
