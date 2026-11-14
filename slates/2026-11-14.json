@@ -1525,22 +1525,27 @@
    "market": {
     "ml_home": 443,
     "ml_away": -597,
-    "spread_home": 11.5,
-    "total": 235.5
+    "spread_home": 12.5,
+    "total": 234.5
    },
    "b2b": [
     "NOP"
    ],
-   "adj": {},
+   "adj": {
+    "NOP": {
+     "o": -1.5,
+     "d": 0.5,
+     "why": "Trey Murphy III OUT"
+    }
+   },
    "out": [
     "Dejounte Murray",
     "Bryce McGowens",
     "Yves Missi",
-    "Trendon Watford"
+    "Trendon Watford",
+    "Trey Murphy III"
    ],
-   "gtd": {
-    "Trey Murphy III": 0.7
-   },
+   "gtd": {},
    "notes": [
     "NOP en back-to-back (jugó el 13-nov vs MEM en Copa)",
     "D. Murray (tobillo, CBS hasta ≥20-nov), McGowens, Missi y Watford OUT (sin líneas de casa)",
@@ -1555,22 +1560,32 @@
    "tip_et": "19:30",
    "venue": "Rocket Arena, Cleveland",
    "market": {
-    "ml_home": -125,
-    "ml_away": 105,
-    "spread_home": -1.5,
+    "ml_home": 165,
+    "ml_away": -200,
+    "spread_home": 1.5,
     "total": 231.5
    },
    "b2b": [
     "CLE"
    ],
-   "adj": {},
+   "adj": {
+    "CLE": {
+     "o": -5.0,
+     "d": 2.5,
+     "why": "Mobley, Mitchell, Harden, Allen y Watson OUT (parte 17:45 ET)"
+    }
+   },
    "out": [
     "Evan Mobley",
     "Sam Merrill",
-    "Sergio de Larrea"
+    "Sergio de Larrea",
+    "Max Christie",
+    "Donovan Mitchell",
+    "James Harden",
+    "Jarrett Allen",
+    "Peyton Watson"
    ],
    "gtd": {
-    "Max Christie": 0.5,
     "Morez Johnson Jr.": 0.85
    },
    "notes": [
@@ -1587,10 +1602,10 @@
    "tip_et": "20:00",
    "venue": "Kaseya Center, Miami",
    "market": {
-    "ml_home": 150,
-    "ml_away": -180,
+    "ml_home": 169,
+    "ml_away": -203,
     "spread_home": 4.5,
-    "total": 226.5
+    "total": 228.5
    },
    "b2b": [
     "MIA"
@@ -1601,8 +1616,8 @@
     "Isaiah Joe"
    ],
    "gtd": {
-    "Klay Thompson": 0.7,
-    "Pelle Larsson": 0.7
+    "Klay Thompson": 0.85,
+    "Pelle Larsson": 0.25
    },
    "notes": [
     "MIA en back-to-back (jugó el 13-nov vs CLE)",
@@ -1616,10 +1631,10 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -880,
-    "ml_away": 599,
-    "spread_home": -14.5,
-    "total": 236.5
+    "ml_home": -970,
+    "ml_away": 640,
+    "spread_home": -15.5,
+    "total": 235.5
    },
    "b2b": [
     "CHI"
@@ -1632,7 +1647,7 @@
     "Anthony Edwards"
    ],
    "gtd": {
-    "Jalen Smith": 0.7
+    "Jalen Smith": 0.5
    },
    "notes": [
     "CHI en back-to-back (jugó el 13-nov vs ATL, con prórroga)",
@@ -1647,10 +1662,10 @@
    "tip_et": "20:00",
    "venue": "FedExForum, Memphis",
    "market": {
-    "ml_home": -197,
-    "ml_away": 164,
-    "spread_home": -4.5,
-    "total": 227.5
+    "ml_home": -155,
+    "ml_away": 131,
+    "spread_home": -3.5,
+    "total": 228.5
    },
    "b2b": [
     "MEM"
@@ -1658,12 +1673,14 @@
    "adj": {},
    "out": [
     "Quinten Post",
-    "Scotty Pippen Jr."
+    "Scotty Pippen Jr.",
+    "Ty Jerome"
    ],
    "gtd": {
     "Zach Edey": 0.65,
-    "Mikel Brown Jr.": 0.5,
-    "Nolan Traore": 0.9
+    "Mikel Brown Jr.": 0.85,
+    "Nolan Traore": 0.9,
+    "Jerami Grant": 0.5
    },
    "notes": [
     "MEM en back-to-back (jugó el 13-nov en NOP)",

@@ -19,7 +19,7 @@
    "Anthony Edwards"
   ],
   "gtd": {
-   "Jalen Smith": 0.7
+   "Jalen Smith": 0.5
   },
   "reserves": {
    "CHI": [
@@ -668,7 +668,7 @@
    "starter": true,
    "min": 23.4,
    "g_cur": 11,
-   "p_play": 0.7,
+   "p_play": 0.5,
    "cur": {
     "min": 24.7,
     "pts": 13.0,
@@ -1076,10 +1076,10 @@
  ],
  "market": {
   "source": "NBA.com/games 14-nov (5 partidos de liga); Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos) + ML del comparador de Covers (DEN@NOP) + consenso scoresandodds.com/nba?date=2026-11-14 en los 5; props de puntos de scoresandodds.com/nba/props/points?date=2026-11-14 (~12:00 ET, mejor cuota por lado)",
-  "ml_home": -880,
-  "ml_away": 599,
-  "spread_home": -14.5,
-  "total": 236.5
+  "ml_home": -970,
+  "ml_away": 640,
+  "spread_home": -15.5,
+  "total": 235.5
  },
  "prop_lines": {
   "Norman Powell": {

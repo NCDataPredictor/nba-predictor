@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "source": "Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos); comparador covers.com/sport/basketball/nba/odds (ML de 9 casas en DEN@NOP); consenso scoresandodds.com/nba?date=2026-11-14 (~12:05 ET) en los 5",
+ "source": "Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos); comparador covers.com/sport/basketball/nba/odds (ML de 9 casas en DEN@NOP); consenso scoresandodds.com/nba?date=2026-11-14 (~12:05 ET) en los 5 (en DAL@CLE seguía la de la mañana: solo ML del comparador de Covers 18:40 ET, 9 casas); consenso scoresandodds.com/nba (18:25 ET) en los 5 (en DAL@CLE seguía la de la mañana: solo ML del comparador de Covers 18:40 ET, 9 casas)",
  "games": {
   "DEN@NOP": {
    "books": [
@@ -66,6 +66,24 @@
       -107,
       -113
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:25 ET)",
+     "ml_away": -597,
+     "ml_home": 443,
+     "spread_away": [
+      -12.5,
+      -108
+     ],
+     "spread_home": [
+      12.5,
+      -112
+     ],
+     "total": [
+      234.5,
+      -107,
+      -113
+     ]
     }
    ]
   },
@@ -88,6 +106,51 @@
       -110,
       -110
      ]
+    },
+    {
+     "book": "BetMGM (Covers 18:40 ET)",
+     "ml_away": -200,
+     "ml_home": 165
+    },
+    {
+     "book": "bet365 (Covers 18:40 ET)",
+     "ml_away": -200,
+     "ml_home": 165
+    },
+    {
+     "book": "DraftKings (Covers 18:40 ET)",
+     "ml_away": -204,
+     "ml_home": 170
+    },
+    {
+     "book": "FanDuel (Covers 18:40 ET)",
+     "ml_away": -196,
+     "ml_home": 164
+    },
+    {
+     "book": "Fanatics (Covers 18:40 ET)",
+     "ml_away": -200,
+     "ml_home": 165
+    },
+    {
+     "book": "BetRivers (Covers 18:40 ET)",
+     "ml_away": -200,
+     "ml_home": 160
+    },
+    {
+     "book": "Caesars (Covers 18:40 ET)",
+     "ml_away": -205,
+     "ml_home": 170
+    },
+    {
+     "book": "theScore Bet (Covers 18:40 ET)",
+     "ml_away": -210,
+     "ml_home": 175
+    },
+    {
+     "book": "Hard Rock Bet (Covers 18:40 ET)",
+     "ml_away": -195,
+     "ml_home": 160
     }
    ]
   },
@@ -253,6 +316,24 @@
       228.5,
       -115,
       -105
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:25 ET)",
+     "ml_away": -203,
+     "ml_home": 169,
+     "spread_away": [
+      -4.5,
+      -117
+     ],
+     "spread_home": [
+      4.5,
+      -103
+     ],
+     "total": [
+      228.5,
+      -113,
+      -107
      ]
     }
    ]
@@ -420,6 +501,24 @@
       -110,
       -110
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:25 ET)",
+     "ml_away": 640,
+     "ml_home": -970,
+     "spread_away": [
+      15.5,
+      -112
+     ],
+     "spread_home": [
+      -15.5,
+      -108
+     ],
+     "total": [
+      235.5,
+      -105,
+      -115
+     ]
     }
    ]
   },
@@ -585,6 +684,24 @@
       227.5,
       -110,
       -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:25 ET)",
+     "ml_away": 131,
+     "ml_home": -155,
+     "spread_away": [
+      3.5,
+      -112
+     ],
+     "spread_home": [
+      -3.5,
+      -108
+     ],
+     "total": [
+      228.5,
+      -107,
+      -113
      ]
     }
    ]
