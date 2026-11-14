@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T03:04+00:00",
+ "updated": "2026-11-14T23:17+00:00",
  "list": [
   {
    "date": "2026-11-11",
@@ -209,6 +209,39 @@
    "source": "ESPN 13-nov 18:20 ET",
    "at": "2026-11-13T23:17+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-BKN-at-MEM",
+   "player": "Jerami Grant",
+   "team": "MEM",
+   "status": "duda",
+   "note": "cabeza, questionable",
+   "source": "Athlon Final Injury Report 14-nov",
+   "at": "2026-11-14T23:17+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-BKN-at-MEM",
+   "player": "Ty Jerome",
+   "team": "MEM",
+   "status": "out",
+   "note": "cadera, OUT en el parte final",
+   "source": "Athlon Final Injury Report 14-nov",
+   "at": "2026-11-14T23:17+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DEN-at-NOP",
+   "player": "Trey Murphy III",
+   "team": "NOP",
+   "status": "out",
+   "note": "rodilla, descartado vs DEN",
+   "source": "NBC Sports/Rotoworld 13:00 ET",
+   "at": "2026-11-14T23:17+00:00",
+   "sim": false
   }
  ]
 }
