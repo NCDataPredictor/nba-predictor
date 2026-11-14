@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:17+00:00",
+ "updated": "2026-11-14T23:20+00:00",
  "list": [
   {
    "date": "2026-11-11",
@@ -230,6 +230,61 @@
    "note": "cadera, OUT en el parte final",
    "source": "Athlon Final Injury Report 14-nov",
    "at": "2026-11-14T23:17+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DAL-at-CLE",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "status": "out",
+   "note": "OUT en el parte de las 17:45 ET",
+   "source": "Heavy/NBC Sports 18:03 ET",
+   "at": "2026-11-14T23:20+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DAL-at-CLE",
+   "player": "James Harden",
+   "team": "CLE",
+   "status": "out",
+   "note": "OUT en el parte de las 17:45 ET",
+   "source": "Heavy/NBC Sports 18:03 ET",
+   "at": "2026-11-14T23:20+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DAL-at-CLE",
+   "player": "Jarrett Allen",
+   "team": "CLE",
+   "status": "out",
+   "note": "OUT en el parte de las 17:45 ET",
+   "source": "Heavy/NBC Sports 18:03 ET",
+   "at": "2026-11-14T23:20+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DAL-at-CLE",
+   "player": "Peyton Watson",
+   "team": "CLE",
+   "status": "out",
+   "note": "OUT en el parte de las 17:45 ET",
+   "source": "Heavy/NBC Sports 18:03 ET",
+   "at": "2026-11-14T23:20+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DAL-at-CLE",
+   "player": "Max Christie",
+   "team": "DAL",
+   "status": "out",
+   "note": "OUT en el parte de las 17:45 ET",
+   "source": "Heavy/NBC Sports 18:03 ET",
+   "at": "2026-11-14T23:20+00:00",
    "sim": false
   },
   {
@@ -241,6 +296,17 @@
    "note": "rodilla, descartado vs DEN",
    "source": "NBC Sports/Rotoworld 13:00 ET",
    "at": "2026-11-14T23:17+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-DET-at-MIA",
+   "player": "Pelle Larsson",
+   "team": "MIA",
+   "status": "duda",
+   "note": "enfermedad, doubtful",
+   "source": "NBC Sports/Athlon 14-nov",
+   "at": "2026-11-14T23:20+00:00",
    "sim": false
   }
  ]
