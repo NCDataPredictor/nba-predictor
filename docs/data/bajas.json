@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:22+00:00",
+ "updated": "2026-11-15T00:01+00:00",
  "list": [
   {
    "date": "2026-11-11",
@@ -234,6 +234,17 @@
   },
   {
    "date": "2026-11-14",
+   "gid": "2026-11-14-CHI-at-MIN",
+   "player": "Jalen Smith",
+   "team": "CHI",
+   "status": "out",
+   "note": "Dedo; descartado vs MIN",
+   "source": "NBC Sports 18:38 ET",
+   "at": "2026-11-15T00:01+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
    "gid": "2026-11-14-DAL-at-CLE",
    "player": "Donovan Mitchell",
    "team": "CLE",
@@ -303,10 +314,10 @@
    "gid": "2026-11-14-DET-at-MIA",
    "player": "Pelle Larsson",
    "team": "MIA",
-   "status": "duda",
-   "note": "enfermedad, doubtful",
-   "source": "NBC Sports/Athlon 14-nov",
-   "at": "2026-11-14T23:20+00:00",
+   "status": "out",
+   "note": "Enfermedad; descartado vs DET",
+   "source": "NBC Sports 18:22 ET",
+   "at": "2026-11-15T00:01+00:00",
    "sim": false
   }
  ]
