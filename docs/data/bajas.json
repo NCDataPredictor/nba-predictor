@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:04+00:00",
+ "updated": "2026-11-15T00:10+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -92,12 +92,23 @@
   {
    "date": "2026-11-14",
    "gid": "2026-11-14-BKN-at-MEM",
+   "player": "Michael Porter Jr.",
+   "team": "BKN",
+   "status": "out",
+   "note": "personal; descartado vs MEM",
+   "source": "Underdog NBA (X, captura 19:08 ET)",
+   "at": "2026-11-15T00:10+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-BKN-at-MEM",
    "player": "Jerami Grant",
    "team": "MEM",
-   "status": "duda",
-   "note": "cabeza, questionable",
-   "source": "Athlon Final Injury Report 14-nov",
-   "at": "2026-11-14T23:17+00:00",
+   "status": "out",
+   "note": "cabeza; descartado vs BKN",
+   "source": "Underdog NBA (X, captura 19:08 ET)",
+   "at": "2026-11-15T00:10+00:00",
    "sim": false
   },
   {
@@ -121,6 +132,17 @@
    "source": "NBC Sports 18:38 ET",
    "at": "2026-11-15T00:01+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-14",
+   "gid": "2026-11-14-CHI-at-MIN",
+   "player": "Nic Claxton",
+   "team": "CHI",
+   "status": "out",
+   "note": "manejo de carga; descartado vs MIN",
+   "source": "Underdog NBA (X, captura 19:08 ET)",
+   "at": "2026-11-15T00:10+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-14",
