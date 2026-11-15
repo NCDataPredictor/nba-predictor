@@ -1,0 +1,35 @@
+# Avisos al celular (15-nov): cuando una revisión de bajas/cuotas sube docs/data/avisos.json a main, manda por
+# OneSignal los avisos nuevos. Necesita el secreto ONESIGNAL_REST_API_KEY y el App ID en docs/data/push.json.
+# "Run workflow" (a mano) manda un aviso de prueba.
+name: Avisos al celular
+on:
+  push:
+    branches: [main]
+    paths: [docs/data/avisos.json]
+  workflow_dispatch:
+    inputs:
+      mensaje:
+        description: Texto del aviso de prueba
+        required: false
+        default: "Prueba: así te llegará un aviso cuando cambien los picks de un partido."
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar avisos nuevos
+        if: github.event_name == 'push'
+        env:
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: python avisos.py send --before "${{ github.event.before }}"
+      - name: Aviso de prueba
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          MENSAJE: ${{ inputs.mensaje }}
+        run: python avisos.py test "$MENSAJE"
