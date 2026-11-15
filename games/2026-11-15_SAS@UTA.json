@@ -8,14 +8,17 @@
   "neutral": false,
   "notes": [
    "UTA: Hayes OUT (rodilla), Markkanen (mano, ~1 mes) y Jaren Jackson Jr. (MCL) OUT; Nurkic y T. Alexander fuera",
-   "SAS: Tobias Harris y Quaintance OUT (no están en cur.csv)"
+   "SAS: Tobias Harris y Quaintance OUT (no están en cur.csv)",
+   "SAS: Fox (cadera) QUESTIONABLE, NBC Sports 13:23 ET; ML -1540 -> -1200 (comparador Covers 14:50 ET)"
   ],
   "out": [
    "Jaxson Hayes",
    "Lauri Markkanen",
    "Jaren Jackson Jr."
   ],
-  "gtd": {},
+  "gtd": {
+   "De'Aaron Fox": 0.6
+  },
   "reserves": {
    "SAS": [
     {
@@ -705,7 +708,7 @@
    "starter": true,
    "min": 27.7,
    "g_cur": 13,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 28.5,
     "pts": 13.6,
@@ -989,8 +992,8 @@
  ],
  "market": {
   "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
-  "ml_home": 810,
-  "ml_away": -1340,
+  "ml_home": 750,
+  "ml_away": -1200,
   "spread_home": 15.5,
   "total": 225.5
  },

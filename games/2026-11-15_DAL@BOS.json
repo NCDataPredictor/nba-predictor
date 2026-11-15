@@ -10,7 +10,8 @@
    "DAL en back-to-back (jugó el 14-nov en CLE)",
    "DAL: Gafford, Christie, de Larrea, Lively y Biberovic OUT",
    "BOS: sin bajas; Paul George fuera del parte (juega)",
-   "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)"
+   "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
+   "ML BOS -835 -> -900 (comparador Covers 14:50 ET)"
   ],
   "out": [
    "Daniel Gafford",
@@ -1038,8 +1039,8 @@
  ],
  "market": {
   "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
-  "ml_home": -835,
-  "ml_away": 555,
+  "ml_home": -900,
+  "ml_away": 600,
   "spread_home": -13.5,
   "total": 219.5
  },
