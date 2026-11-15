@@ -12,14 +12,15 @@
    "BOS: sin bajas; Paul George fuera del parte (juega)",
    "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
    "ML BOS -835 -> -900 (comparador Covers 14:50 ET)",
-   "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable"
+   "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable",
+   "Revisión 16:30 ET: Kyrie Irving OUT (NBC 16:19 ET); Aldama sigue questionable"
   ],
   "out": [
    "Max Christie",
-   "Sergio de Larrea"
+   "Sergio de Larrea",
+   "Kyrie Irving"
   ],
   "gtd": {
-   "Kyrie Irving": 0.5,
    "Santi Aldama": 0.6
   },
   "reserves": {
@@ -112,13 +113,13 @@
     "pace": 102.9
    },
    "adj": {
-    "o": -1.25,
-    "d": 1.25,
+    "o": -2.5,
+    "d": 1.5,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": "Christie (tobillo) OUT/doubtful"
+    "roster_note": "Kyrie Irving (rodilla) OUT + Christie OUT"
    }
   }
  },
@@ -629,7 +630,7 @@
    "name": "Cooper Flagg",
    "pos": "SF",
    "starter": true,
-   "min": 32.5,
+   "min": 37.1,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -664,14 +665,14 @@
     "ftm": 4.04,
     "fta": 4.89
    },
-   "slot": "SF"
+   "slot": "SG"
   },
   {
    "team": "DAL",
    "name": "P.J. Washington",
    "pos": "PF",
    "starter": true,
-   "min": 30.5,
+   "min": 34.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -710,52 +711,10 @@
   },
   {
    "team": "DAL",
-   "name": "Kyrie Irving",
-   "pos": "PG",
-   "starter": true,
-   "min": 29.5,
-   "g_cur": 11,
-   "p_play": 0.5,
-   "cur": {
-    "min": 30.7,
-    "pts": 22.7,
-    "reb": 3.5,
-    "ast": 4.4,
-    "fg3m": 3.5,
-    "fgm": 8.2,
-    "fga": 17.3,
-    "fg3a": 8.9,
-    "stl": 1.3,
-    "blk": 0.5,
-    "tov": 1.7,
-    "pf": 2.4,
-    "ftm": 2.8,
-    "fta": 3.3
-   },
-   "prior": {
-    "min": 30.7,
-    "pts": 22.7,
-    "reb": 3.5,
-    "ast": 4.4,
-    "fg3m": 3.5,
-    "fgm": 8.2,
-    "fga": 17.3,
-    "fg3a": 8.9,
-    "stl": 1.17,
-    "blk": 0.38,
-    "tov": 2.01,
-    "pf": 2.67,
-    "ftm": 2.8,
-    "fta": 3.3
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "DAL",
    "name": "Naji Marshall",
    "pos": "SF",
    "starter": false,
-   "min": 24.1,
+   "min": 27.5,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -795,8 +754,8 @@
    "team": "DAL",
    "name": "Zaccharie Risacher",
    "pos": "SF",
-   "starter": false,
-   "min": 22.6,
+   "starter": true,
+   "min": 25.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -830,14 +789,15 @@
     "pf": 2.19,
     "ftm": 0.87,
     "fta": 1.34
-   }
+   },
+   "slot": "SF"
   },
   {
    "team": "DAL",
    "name": "Daniel Gafford",
    "pos": "C",
    "starter": true,
-   "min": 20.4,
+   "min": 23.2,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -879,7 +839,7 @@
    "name": "Caleb Martin",
    "pos": "SG",
    "starter": true,
-   "min": 19.6,
+   "min": 22.3,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -914,14 +874,14 @@
     "ftm": 0.64,
     "fta": 1.05
    },
-   "slot": "SG"
+   "slot": "PG"
   },
   {
    "team": "DAL",
    "name": "Walter Clayton Jr.",
    "pos": "PG",
    "starter": false,
-   "min": 15.9,
+   "min": 18.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -962,7 +922,7 @@
    "name": "Morez Johnson Jr.",
    "pos": "C",
    "starter": false,
-   "min": 15.9,
+   "min": 18.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -1003,7 +963,7 @@
    "name": "Marcus Sasser",
    "pos": "PG",
    "starter": false,
-   "min": 15.0,
+   "min": 17.1,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -1044,7 +1004,7 @@
    "name": "Santi Aldama",
    "pos": "PF",
    "starter": false,
-   "min": 14.0,
+   "min": 16.0,
    "g_cur": 5,
    "p_play": 0.6,
    "cur": {
@@ -1164,44 +1124,6 @@
     1.5,
     132,
     -140
-   ]
-  },
-  "Kyrie Irving": {
-   "pts": [
-    19.5,
-    -115,
-    -127,
-    20.5
-   ],
-   "reb": [
-    3.5,
-    -114,
-    -105
-   ],
-   "pr": [
-    23.5,
-    -112,
-    -105
-   ],
-   "pa": [
-    24.5,
-    -104,
-    -117
-   ],
-   "ra": [
-    7.5,
-    -118,
-    104
-   ],
-   "pra": [
-    27.5,
-    -115,
-    -106
-   ],
-   "fg3m": [
-    2.5,
-    -140,
-    120
    ]
   },
   "Paul George": {

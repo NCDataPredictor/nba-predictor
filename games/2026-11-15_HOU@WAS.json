@@ -9,19 +9,18 @@
   "notes": [
    "HOU: VanVleet OUT (manejo de carga rodilla), Capela OUT; Adams (gemelo) probable: 0.85",
    "WAS: Sarr (enfermedad), Tre Johnson (espalda) y Carrington (pecho) questionable: 0.6",
-   "Solo consenso scoresandodds (Covers matchup vacío); sin props de casa por la mañana"
+   "Solo consenso scoresandodds (Covers matchup vacío); sin props de casa por la mañana",
+   "Revisión 16:30 ET: Smart OUT (suspensión, parte 15:00 ET); Adams, Sarr y Carrington disponibles (NBC 12:34/14:45/14:46 ET); Tre Johnson sigue questionable"
   ],
   "out": [
    "Fred VanVleet",
    "Clint Capela",
    "Justin Champagnie",
-   "Reece Beekman"
+   "Reece Beekman",
+   "Marcus Smart"
   ],
   "gtd": {
-   "Steven Adams": 0.85,
-   "Alex Sarr": 0.6,
-   "Tre Johnson": 0.6,
-   "Bub Carrington": 0.6
+   "Tre Johnson": 0.6
   },
   "reserves": {
    "HOU": [
@@ -315,7 +314,7 @@
    "starter": true,
    "min": 25.2,
    "g_cur": 12,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 27.3,
     "pts": 11.2,
@@ -439,7 +438,7 @@
    "starter": false,
    "min": 16.9,
    "g_cur": 13,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 18.3,
     "pts": 4.8,
@@ -560,7 +559,7 @@
    "name": "Alperen Sengun",
    "pos": "C",
    "starter": true,
-   "min": 37.9,
+   "min": 38.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -602,7 +601,7 @@
    "name": "Jabari Smith Jr.",
    "pos": "PF",
    "starter": true,
-   "min": 37.2,
+   "min": 38.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -644,7 +643,7 @@
    "name": "Kevin Durant",
    "pos": "SF",
    "starter": true,
-   "min": 36.9,
+   "min": 38.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -686,7 +685,7 @@
    "name": "Amen Thompson",
    "pos": "SF",
    "starter": true,
-   "min": 36.3,
+   "min": 38.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -728,7 +727,7 @@
    "name": "Tari Eason",
    "pos": "PF",
    "starter": false,
-   "min": 26.3,
+   "min": 29.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -766,52 +765,10 @@
   },
   {
    "team": "HOU",
-   "name": "Marcus Smart",
-   "pos": "PG",
-   "starter": true,
-   "min": 23.1,
-   "g_cur": 9,
-   "p_play": 1.0,
-   "cur": {
-    "min": 21.4,
-    "pts": 8.3,
-    "reb": 2.6,
-    "ast": 2.0,
-    "fg3m": 1.8,
-    "fgm": 2.8,
-    "fga": 6.3,
-    "fg3a": 4.4,
-    "stl": 1.0,
-    "blk": 0.1,
-    "tov": 1.6,
-    "pf": 2.7,
-    "ftm": 1.0,
-    "fta": 1.2
-   },
-   "prior": {
-    "min": 28.5,
-    "pts": 9.34,
-    "reb": 2.77,
-    "ast": 2.98,
-    "fg3m": 1.56,
-    "fgm": 3.03,
-    "fga": 7.68,
-    "fg3a": 4.73,
-    "stl": 1.4,
-    "blk": 0.37,
-    "tov": 1.48,
-    "pf": 2.61,
-    "ftm": 1.71,
-    "fta": 2.08
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "HOU",
    "name": "Reed Sheppard",
    "pos": "PG",
-   "starter": false,
-   "min": 21.6,
+   "starter": true,
+   "min": 23.8,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -845,14 +802,15 @@
     "pf": 2.02,
     "ftm": 0.84,
     "fta": 1.05
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "HOU",
    "name": "Bogdan Bogdanović",
    "pos": "SG",
    "starter": false,
-   "min": 12.2,
+   "min": 13.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -893,9 +851,9 @@
    "name": "Steven Adams",
    "pos": "C",
    "starter": false,
-   "min": 8.6,
+   "min": 9.5,
    "g_cur": 1,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 8.0,
     "pts": 4.0,

@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "OKC: Holmgren, Jalen Williams, Wallace (largo plazo) y Jaylin Williams (espalda) OUT; Ajay Mitchell (tobillo) questionable con líneas: 0.7",
-   "SAC: Raynaud OUT; Keegan Murray (enfermedad, no entrenó el sábado) 0.5; Achiuwa (tobillo) con líneas: 0.7"
+   "SAC: Raynaud OUT; Keegan Murray (enfermedad, no entrenó el sábado) 0.5; Achiuwa (tobillo) con líneas: 0.7",
+   "Revisión 16:30 ET: Keegan Murray disponible (NBC 14:48 ET); Mitchell y Achiuwa siguen questionable"
   ],
   "out": [
    "Jaylin Williams",
@@ -18,7 +19,6 @@
   ],
   "gtd": {
    "Ajay Mitchell": 0.7,
-   "Keegan Murray": 0.5,
    "Precious Achiuwa": 0.7
   },
   "reserves": {
@@ -276,7 +276,7 @@
    "starter": false,
    "min": 23.0,
    "g_cur": 5,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 28.2,
     "pts": 10.2,
