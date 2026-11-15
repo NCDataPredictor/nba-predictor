@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-15T16:37+00:00",
+ "generated": "2026-11-15T17:24+00:00",
  "value_ev": 0.03,
  "model": "1.6.2",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "morning",
+ "last_stage": "pregame",
  "updates": {
   "2026-11-01": {
    "morning": "2026-11-01T16:31+00:00",
@@ -72,7 +72,8 @@
    "results": "2026-11-15T08:14+00:00"
   },
   "2026-11-15": {
-   "morning": "2026-11-15T16:37+00:00"
+   "morning": "2026-11-15T16:37+00:00",
+   "pregame": "2026-11-15T17:24+00:00"
   }
  },
  "history": [
@@ -123142,7 +123143,7 @@
    },
    "proj_total": 224.3,
    "used_db": true,
-   "n_value": 3,
+   "n_value": 2,
    "top_bets": [
     {
      "kind": "prop",
@@ -123153,17 +123154,17 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.854,
+     "p": 0.773,
      "implied": 0.58,
-     "fair": -585,
-     "edge": 0.274,
-     "ev": 0.473,
+     "fair": -341,
+     "edge": 0.193,
+     "ev": 0.333,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.854,
+     "p_model": 0.773,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123184,11 +123185,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       13.5,
       1.725
-     ],
-     "mean": 8.1
+     ]
     },
     {
      "kind": "prop",
@@ -123199,17 +123200,17 @@
      "odds": -123,
      "dec": 1.814,
      "odds_assumed": false,
-     "p": 0.74,
+     "p": 0.672,
      "implied": 0.551,
-     "fair": -285,
-     "edge": 0.189,
-     "ev": 0.342,
+     "fair": -205,
+     "edge": 0.121,
+     "ev": 0.219,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.74,
+     "p_model": 0.672,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123230,32 +123231,32 @@
        "n": 30
       }
      },
+     "mean": 11.6,
      "open": [
       13.5,
       1.814
-     ],
-     "mean": 10.3
+     ]
     },
     {
      "kind": "prop",
-     "label": "Kelly Oubre Jr. Under 12.5 Puntos",
-     "player": "Kelly Oubre Jr.",
-     "team": "IND",
-     "line": 12.5,
-     "odds": -138,
-     "dec": 1.725,
+     "label": "Anfernee Simons Over 10.5 Puntos",
+     "player": "Anfernee Simons",
+     "team": "PHI",
+     "line": 10.5,
+     "odds": -123,
+     "dec": 1.814,
      "odds_assumed": false,
-     "p": 0.754,
-     "implied": 0.58,
-     "fair": -307,
-     "edge": 0.174,
-     "ev": 0.301,
+     "p": 0.634,
+     "implied": 0.551,
+     "fair": -173,
+     "edge": 0.083,
+     "ev": 0.15,
      "value": false,
      "stat": "pts",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.754,
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.634,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123265,70 +123266,25 @@
        10
       ],
       "h2h": [
-       0,
-       1
+       3,
+       5
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 10,
-       "value": 19.5,
-       "lg": 20.1,
+       "pos": "SG",
+       "rank": 24,
+       "value": 26.1,
+       "lg": 24.0,
        "n": 30
       }
      },
+     "mean": 14.4,
      "open": [
-      12.5,
-      1.725
-     ],
-     "mean": 9.3
+      10.5,
+      1.814
+     ]
     }
    ],
    "value_bets": [
-    {
-     "kind": "prop",
-     "label": "Ivica Zubac Under 10.5 Rebotes",
-     "player": "Ivica Zubac",
-     "team": "IND",
-     "line": 10.5,
-     "odds": -130,
-     "dec": 1.771,
-     "odds_assumed": false,
-     "p": 0.603,
-     "implied": 0.565,
-     "fair": -152,
-     "edge": 0.039,
-     "ev": 0.069,
-     "value": true,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.845,
-     "p_mkt": 0.523,
-     "cand": true,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 5,
-       "value": 12.9,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "open": [
-      10.5,
-      1.771
-     ],
-     "mean": 6.5
-    },
     {
      "kind": "prop",
      "label": "Dean Wade Under 5.5 Puntos",
@@ -123340,15 +123296,15 @@
      "odds_assumed": false,
      "p": 0.588,
      "implied": 0.556,
-     "fair": -142,
+     "fair": -143,
      "edge": 0.032,
-     "ev": 0.057,
+     "ev": 0.058,
      "value": true,
      "stat": "pts",
      "side": "under",
      "odds_ref": -113,
      "dec_ref": 1.885,
-     "p_model": 0.806,
+     "p_model": 0.808,
      "p_mkt": 0.515,
      "cand": true,
      "hr": {
@@ -123368,56 +123324,56 @@
        "n": 30
       }
      },
+     "mean": 3.5,
      "open": [
       5.5,
       1.799
-     ],
-     "mean": 3.5
+     ]
     },
     {
      "kind": "prop",
-     "label": "Kelly Oubre Jr. Under 4.5 Rebotes",
-     "player": "Kelly Oubre Jr.",
+     "label": "Ivica Zubac Under 10.5 Rebotes",
+     "player": "Ivica Zubac",
      "team": "IND",
-     "line": 4.5,
-     "odds": -140,
-     "dec": 1.713,
+     "line": 10.5,
+     "odds": -130,
+     "dec": 1.771,
      "odds_assumed": false,
-     "p": 0.608,
-     "implied": 0.584,
-     "fair": -155,
-     "edge": 0.024,
-     "ev": 0.041,
+     "p": 0.584,
+     "implied": 0.565,
+     "fair": -141,
+     "edge": 0.02,
+     "ev": 0.035,
      "value": true,
      "stat": "reb",
      "side": "under",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.81,
-     "p_mkt": 0.541,
+     "p_model": 0.769,
+     "p_mkt": 0.523,
      "cand": true,
      "hr": {
       "l10": [
-       8,
+       5,
        10
       ],
       "h2h": [
        1,
-       1
+       2
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 22,
-       "value": 8.5,
-       "lg": 8.0,
+       "pos": "C",
+       "rank": 5,
+       "value": 12.9,
+       "lg": 14.7,
        "n": 30
       }
      },
+     "mean": 7.7,
      "open": [
-      4.5,
-      1.713
-     ],
-     "mean": 2.8
+      10.5,
+      1.771
+     ]
     }
    ],
    "parlays": [
@@ -123431,38 +123387,64 @@
        "line": 4.5,
        "stat": "reb",
        "side": "under",
-       "p": 0.608,
+       "p": 0.597,
        "dec": 1.713,
-       "ev": 0.041,
+       "ev": 0.023,
        "gid": "2026-11-15-IND-at-PHI",
        "game": "IND @ PHI"
       },
       {
        "kind": "prop",
-       "label": "Ivica Zubac Under 10.5 Rebotes",
-       "player": "Ivica Zubac",
-       "team": "IND",
-       "line": 10.5,
-       "stat": "reb",
+       "label": "Dean Wade Under 5.5 Puntos",
+       "player": "Dean Wade",
+       "team": "PHI",
+       "line": 5.5,
+       "stat": "pts",
        "side": "under",
-       "p": 0.603,
-       "dec": 1.771,
-       "ev": 0.069,
+       "p": 0.588,
+       "dec": 1.799,
+       "ev": 0.058,
        "gid": "2026-11-15-IND-at-PHI",
        "game": "IND @ PHI"
       }
      ],
      "n": 2,
-     "p": 0.367,
-     "p_indep": 0.367,
+     "p": 0.35,
+     "p_indep": 0.351,
      "corr": 1.0,
-     "dec": 3.03,
-     "fair": 2.72,
-     "ev": 0.114,
+     "dec": 3.08,
+     "fair": 2.85,
+     "ev": 0.08,
      "type": "sgp"
     }
    ],
    "model_picks": [
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "stat": "fga",
+     "side": "over",
+     "line": 15.5,
+     "p": 0.527,
+     "fair": 1.9,
+     "min_dec": 1.95,
+     "ref": 15.9,
+     "p_model": 0.591,
+     "label": "Pascal Siakam Over 15.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       3
+      ]
+     },
+     "mean": 17.5
+    },
     {
      "kind": "prop",
      "model_only": true,
@@ -123471,11 +123453,11 @@
      "stat": "fga",
      "side": "over",
      "line": 9.5,
-     "p": 0.527,
+     "p": 0.526,
      "fair": 1.9,
-     "min_dec": 1.95,
+     "min_dec": 1.96,
      "ref": 9.7,
-     "p_model": 0.59,
+     "p_model": 0.586,
      "label": "Anfernee Simons Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -123497,11 +123479,11 @@
      "stat": "fg2m",
      "side": "over",
      "line": 6.5,
-     "p": 0.526,
+     "p": 0.525,
      "fair": 1.9,
      "min_dec": 1.96,
      "ref": 6.8,
-     "p_model": 0.586,
+     "p_model": 0.585,
      "label": "Tyrese Maxey Over 6.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -123518,42 +123500,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "stat": "fgm",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.524,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": 7.0,
-     "p_model": 0.58,
-     "label": "Pascal Siakam Over 6.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ]
-     },
-     "mean": 8.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Anfernee Simons",
      "team": "PHI",
      "stat": "fg3a",
      "side": "over",
      "line": 6.5,
-     "p": 0.523,
+     "p": 0.524,
      "fair": 1.91,
-     "min_dec": 1.97,
+     "min_dec": 1.96,
      "ref": 6.5,
-     "p_model": 0.578,
+     "p_model": 0.581,
      "label": "Anfernee Simons Over 6.5 Triples intentados",
      "hr": {
       "l10": [
@@ -123570,16 +123526,68 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "stat": "fgm",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.519,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 7.9,
+     "p_model": 0.562,
+     "label": "Pascal Siakam Over 7.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       3
+      ]
+     },
+     "mean": 9.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "LeBron James",
+     "team": "PHI",
+     "stat": "fgm",
+     "side": "under",
+     "line": 6.5,
+     "p": 0.518,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 7.1,
+     "p_model": 0.56,
+     "label": "LeBron James Under 6.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 6.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "LeBron James",
      "team": "PHI",
      "stat": "fg2a",
      "side": "under",
      "line": 10.5,
-     "p": 0.518,
+     "p": 0.517,
      "fair": 1.93,
      "min_dec": 1.99,
      "ref": 11.1,
-     "p_model": 0.56,
+     "p_model": 0.557,
      "label": "LeBron James Under 10.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -123598,66 +123606,14 @@
      "model_only": true,
      "player": "LeBron James",
      "team": "PHI",
-     "stat": "fgm",
-     "side": "under",
-     "line": 6.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 7.1,
-     "p_model": 0.558,
-     "label": "LeBron James Under 6.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 6.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "stat": "fga",
-     "side": "over",
-     "line": 14.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 14.0,
-     "p_model": 0.557,
-     "label": "Pascal Siakam Over 14.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ]
-     },
-     "mean": 16.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "LeBron James",
-     "team": "PHI",
      "stat": "pf",
      "side": "over",
      "line": 1.5,
-     "p": 0.552,
+     "p": 0.553,
      "fair": 1.81,
-     "min_dec": 1.87,
+     "min_dec": 1.86,
      "ref": 1.9,
-     "p_model": 0.552,
+     "p_model": 0.553,
      "label": "LeBron James Over 1.5 Faltas",
      "hr": {
       "l10": [
@@ -123674,49 +123630,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "stat": "tov",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.551,
-     "fair": 1.81,
-     "min_dec": 1.87,
-     "ref": 1.8,
-     "p_model": 0.551,
-     "label": "Pascal Siakam Over 1.5 Pérdidas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 17,
-       "value": 3.1,
-       "lg": 3.1,
-       "n": 30
-      }
-     },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "LeBron James",
      "team": "PHI",
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.416,
-     "fair": 2.4,
-     "min_dec": 2.48,
+     "p": 0.423,
+     "fair": 2.36,
+     "min_dec": 2.43,
      "ref": null,
-     "p_model": 0.416,
+     "p_model": 0.423,
      "label": "LeBron James Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -123737,11 +123660,11 @@
      "stat": "td",
      "side": "over",
      "line": 0.5,
-     "p": 0.075,
-     "fair": 13.26,
-     "min_dec": 13.66,
+     "p": 0.079,
+     "fair": 12.58,
+     "min_dec": 12.96,
      "ref": null,
-     "p_model": 0.075,
+     "p_model": 0.079,
      "label": "LeBron James Triple-doble: Sí",
      "hr": {
       "l10": [
@@ -123765,16 +123688,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.854,
+     "p": 0.773,
      "implied": 0.58,
-     "edge": 0.274,
-     "ev": 0.473,
+     "edge": 0.193,
+     "ev": 0.333,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.854,
+     "p_model": 0.773,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123795,11 +123718,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       13.5,
       1.725
-     ],
-     "mean": 8.1
+     ]
     },
     {
      "kind": "prop",
@@ -123810,16 +123733,16 @@
      "odds": -123,
      "dec": 1.814,
      "odds_assumed": false,
-     "p": 0.74,
+     "p": 0.672,
      "implied": 0.551,
-     "edge": 0.189,
-     "ev": 0.342,
+     "edge": 0.121,
+     "ev": 0.219,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.74,
+     "p_model": 0.672,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123840,11 +123763,56 @@
        "n": 30
       }
      },
+     "mean": 11.6,
      "open": [
       13.5,
       1.814
-     ],
-     "mean": 10.3
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Anfernee Simons Over 10.5 Puntos",
+     "player": "Anfernee Simons",
+     "team": "PHI",
+     "line": 10.5,
+     "odds": -123,
+     "dec": 1.814,
+     "odds_assumed": false,
+     "p": 0.634,
+     "implied": 0.551,
+     "edge": 0.083,
+     "ev": 0.15,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.634,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 24,
+       "value": 26.1,
+       "lg": 24.0,
+       "n": 30
+      }
+     },
+     "mean": 14.4,
+     "open": [
+      10.5,
+      1.814
+     ]
     },
     {
      "kind": "prop",
@@ -123855,16 +123823,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.754,
+     "p": 0.665,
      "implied": 0.58,
-     "edge": 0.174,
-     "ev": 0.301,
+     "edge": 0.085,
+     "ev": 0.147,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.754,
+     "p_model": 0.665,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -123885,189 +123853,11 @@
        "n": 30
       }
      },
+     "mean": 10.8,
      "open": [
       12.5,
       1.725
-     ],
-     "mean": 9.3
-    },
-    {
-     "kind": "prop",
-     "label": "Anfernee Simons Over 10.5 Puntos",
-     "player": "Anfernee Simons",
-     "team": "PHI",
-     "line": 10.5,
-     "odds": -123,
-     "dec": 1.814,
-     "odds_assumed": false,
-     "p": 0.632,
-     "implied": 0.551,
-     "edge": 0.081,
-     "ev": 0.146,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.632,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 24,
-       "value": 26.1,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "open": [
-      10.5,
-      1.814
-     ],
-     "mean": 14.4
-    },
-    {
-     "kind": "prop",
-     "label": "Pascal Siakam Under 21.5 Puntos",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 21.5,
-     "odds": -104,
-     "dec": 1.965,
-     "odds_assumed": false,
-     "p": 0.554,
-     "implied": 0.509,
-     "edge": 0.045,
-     "ev": 0.089,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": 105,
-     "dec_ref": 2.05,
-     "p_model": 0.554,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 16,
-       "value": 23.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      21.5,
-      1.965
-     ],
-     "mean": 21.9
-    },
-    {
-     "kind": "prop",
-     "label": "Ivica Zubac Under 10.5 Rebotes",
-     "player": "Ivica Zubac",
-     "team": "IND",
-     "line": 10.5,
-     "odds": -130,
-     "dec": 1.771,
-     "odds_assumed": false,
-     "p": 0.603,
-     "implied": 0.565,
-     "edge": 0.039,
-     "ev": 0.069,
-     "value": true,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.845,
-     "p_mkt": 0.523,
-     "cand": true,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 5,
-       "value": 12.9,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "open": [
-      10.5,
-      1.771
-     ],
-     "mean": 6.5
-    },
-    {
-     "kind": "prop",
-     "label": "Dean Wade Under 5.5 Puntos",
-     "player": "Dean Wade",
-     "team": "PHI",
-     "line": 5.5,
-     "odds": -125,
-     "dec": 1.799,
-     "odds_assumed": false,
-     "p": 0.588,
-     "implied": 0.556,
-     "edge": 0.032,
-     "ev": 0.057,
-     "value": true,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.806,
-     "p_mkt": 0.515,
-     "cand": true,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 21.7,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      5.5,
-      1.799
-     ],
-     "mean": 3.5
+     ]
     },
     {
      "kind": "prop",
@@ -124078,16 +123868,16 @@
      "odds": -115,
      "dec": 1.871,
      "odds_assumed": false,
-     "p": 0.563,
+     "p": 0.566,
      "implied": 0.535,
-     "edge": 0.029,
-     "ev": 0.053,
+     "edge": 0.032,
+     "ev": 0.059,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -105,
      "dec_ref": 1.952,
-     "p_model": 0.563,
+     "p_model": 0.566,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -124108,11 +123898,55 @@
        "n": 30
       }
      },
+     "mean": 17.3,
      "open": [
       17.5,
       1.871
-     ],
-     "mean": 17.3
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dean Wade Under 5.5 Puntos",
+     "player": "Dean Wade",
+     "team": "PHI",
+     "line": 5.5,
+     "odds": -125,
+     "dec": 1.799,
+     "odds_assumed": false,
+     "p": 0.588,
+     "implied": 0.556,
+     "edge": 0.032,
+     "ev": 0.058,
+     "value": true,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.808,
+     "p_mkt": 0.515,
+     "cand": true,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 21.7,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 3.5,
+     "open": [
+      5.5,
+      1.799
+     ]
     },
     {
      "kind": "prop",
@@ -124123,16 +123957,16 @@
      "odds": -137,
      "dec": 1.731,
      "odds_assumed": false,
-     "p": 0.603,
+     "p": 0.599,
      "implied": 0.578,
-     "edge": 0.025,
-     "ev": 0.044,
+     "edge": 0.021,
+     "ev": 0.037,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -124,
      "dec_ref": 1.806,
-     "p_model": 0.603,
+     "p_model": 0.599,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -124153,11 +123987,55 @@
        "n": 30
       }
      },
+     "mean": 15.5,
      "open": [
       12.5,
       1.731
-     ],
-     "mean": 15.5
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ivica Zubac Under 10.5 Rebotes",
+     "player": "Ivica Zubac",
+     "team": "IND",
+     "line": 10.5,
+     "odds": -130,
+     "dec": 1.771,
+     "odds_assumed": false,
+     "p": 0.584,
+     "implied": 0.565,
+     "edge": 0.02,
+     "ev": 0.035,
+     "value": true,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.769,
+     "p_mkt": 0.523,
+     "cand": true,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 5,
+       "value": 12.9,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 7.7,
+     "open": [
+      10.5,
+      1.771
+     ]
     },
     {
      "kind": "prop",
@@ -124168,18 +124046,18 @@
      "odds": -140,
      "dec": 1.713,
      "odds_assumed": false,
-     "p": 0.608,
+     "p": 0.597,
      "implied": 0.584,
-     "edge": 0.024,
-     "ev": 0.041,
-     "value": true,
+     "edge": 0.013,
+     "ev": 0.023,
+     "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.81,
+     "p_model": 0.767,
      "p_mkt": 0.541,
-     "cand": true,
+     "cand": false,
      "hr": {
       "l10": [
        8,
@@ -124197,11 +124075,55 @@
        "n": 30
       }
      },
+     "mean": 3.1,
      "open": [
       4.5,
       1.713
-     ],
-     "mean": 2.8
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Obi Toppin Over 9.5 Puntos",
+     "player": "Obi Toppin",
+     "team": "IND",
+     "line": 9.5,
+     "odds": -115,
+     "dec": 1.871,
+     "odds_assumed": false,
+     "p": 0.546,
+     "implied": 0.535,
+     "edge": 0.012,
+     "ev": 0.022,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.546,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 16,
+       "value": 23.3,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 11.6,
+     "open": [
+      9.5,
+      1.871
+     ]
     },
     {
      "kind": "prop",
@@ -124212,16 +124134,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.586,
+     "p": 0.587,
      "implied": 0.58,
-     "edge": 0.006,
-     "ev": 0.011,
+     "edge": 0.007,
+     "ev": 0.012,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -118,
      "dec_ref": 1.847,
-     "p_model": 0.734,
+     "p_model": 0.737,
      "p_mkt": 0.537,
      "cand": false,
      "hr": {
@@ -124241,11 +124163,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       3.5,
       1.725
-     ],
-     "mean": 5.6
+     ]
     },
     {
      "kind": "prop",
@@ -124256,16 +124178,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.585,
+     "p": 0.579,
      "implied": 0.58,
-     "edge": 0.005,
-     "ev": 0.009,
+     "edge": -0.001,
+     "ev": -0.001,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.585,
+     "p_model": 0.579,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -124285,55 +124207,11 @@
        "n": 30
       }
      },
+     "mean": 7.2,
      "open": [
       7.5,
       1.725
-     ],
-     "mean": 7.1
-    },
-    {
-     "kind": "prop",
-     "label": "Obi Toppin Under 10.5 Puntos",
-     "player": "Obi Toppin",
-     "team": "IND",
-     "line": 10.5,
-     "odds": -140,
-     "dec": 1.713,
-     "odds_assumed": false,
-     "p": 0.586,
-     "implied": 0.584,
-     "edge": 0.002,
-     "ev": 0.004,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -127,
-     "dec_ref": 1.787,
-     "p_model": 0.586,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 16,
-       "value": 23.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      10.5,
-      1.713
-     ],
-     "mean": 10.4
+     ]
     },
     {
      "kind": "prop",
@@ -124347,13 +124225,13 @@
      "p": 0.527,
      "implied": 0.528,
      "edge": -0.001,
-     "ev": -0.002,
+     "ev": -0.001,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -102,
      "dec_ref": 1.98,
-     "p_model": 0.641,
+     "p_model": 0.643,
      "p_mkt": 0.489,
      "cand": false,
      "hr": {
@@ -124373,11 +124251,11 @@
        "n": 30
       }
      },
+     "mean": 8.3,
      "open": [
       6.5,
       1.894
-     ],
-     "mean": 8.3
+     ]
     },
     {
      "kind": "prop",
@@ -124388,16 +124266,16 @@
      "odds": -122,
      "dec": 1.822,
      "odds_assumed": false,
-     "p": 0.544,
+     "p": 0.547,
      "implied": 0.549,
-     "edge": -0.005,
-     "ev": -0.009,
+     "edge": -0.002,
+     "ev": -0.003,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -111,
      "dec_ref": 1.901,
-     "p_model": 0.544,
+     "p_model": 0.547,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -124417,11 +124295,99 @@
        "n": 30
       }
      },
+     "mean": 24.7,
      "open": [
       24.5,
       1.822
-     ],
-     "mean": 24.8
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Pascal Siakam Over 20.5 Puntos",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 20.5,
+     "odds": -132,
+     "dec": 1.757,
+     "odds_assumed": false,
+     "p": 0.561,
+     "implied": 0.569,
+     "edge": -0.008,
+     "ev": -0.014,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.561,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 16,
+       "value": 23.3,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 24.2,
+     "open": [
+      20.5,
+      1.757
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Obi Toppin Over 3.5 Rebotes",
+     "player": "Obi Toppin",
+     "team": "IND",
+     "line": 3.5,
+     "odds": -146,
+     "dec": 1.685,
+     "odds_assumed": false,
+     "p": 0.583,
+     "implied": 0.593,
+     "edge": -0.011,
+     "ev": -0.018,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.682,
+     "p_mkt": 0.549,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 19,
+       "value": 10.6,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 5.5,
+     "open": [
+      3.5,
+      1.685
+     ]
     },
     {
      "kind": "ml",
@@ -124430,14 +124396,14 @@
      "team": "IND",
      "line": null,
      "odds": 219,
-     "dec": 3.187,
+     "dec": 3.194,
      "odds_assumed": false,
      "p": 0.302,
-     "implied": 0.314,
+     "implied": 0.313,
      "edge": -0.011,
-     "ev": -0.036,
+     "ev": -0.035,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": null,
@@ -124463,16 +124429,16 @@
      "odds": -167,
      "dec": 1.598,
      "odds_assumed": false,
-     "p": 0.602,
+     "p": 0.604,
      "implied": 0.626,
-     "edge": -0.024,
-     "ev": -0.038,
+     "edge": -0.022,
+     "ev": -0.035,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -150,
      "dec_ref": 1.667,
-     "p_model": 0.602,
+     "p_model": 0.604,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -124492,55 +124458,11 @@
        "n": 30
       }
      },
+     "mean": 6.8,
      "open": [
       5.5,
       1.598
-     ],
-     "mean": 6.8
-    },
-    {
-     "kind": "prop",
-     "label": "Obi Toppin Over 3.5 Rebotes",
-     "player": "Obi Toppin",
-     "team": "IND",
-     "line": 3.5,
-     "odds": -146,
-     "dec": 1.685,
-     "odds_assumed": false,
-     "p": 0.57,
-     "implied": 0.593,
-     "edge": -0.023,
-     "ev": -0.039,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.632,
-     "p_mkt": 0.549,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 19,
-       "value": 10.6,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "open": [
-      3.5,
-      1.685
-     ],
-     "mean": 5.1
+     ]
     },
     {
      "kind": "total",
@@ -124558,12 +124480,12 @@
      "value": false,
      "n_books": 6,
      "best": {
-      "book": "BetMGM",
-      "line": 224.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.502,
-      "ev": -0.042
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": 225.5,
+      "odds": -113,
+      "dec": 1.885,
+      "p": 0.522,
+      "ev": -0.016
      },
      "p_model": 0.506,
      "p_mkt": 0.501,
@@ -124571,6 +124493,37 @@
      "open": [
       224.5,
       1.905
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "PHI gana",
+     "player": null,
+     "team": "PHI",
+     "line": null,
+     "odds": -271,
+     "dec": 1.369,
+     "odds_assumed": false,
+     "p": 0.698,
+     "implied": 0.731,
+     "edge": -0.032,
+     "ev": -0.044,
+     "value": false,
+     "n_books": 10,
+     "best": {
+      "book": "BetRivers",
+      "line": null,
+      "odds": -250,
+      "dec": 1.4,
+      "p": 0.698,
+      "ev": -0.023
+     },
+     "p_model": 0.692,
+     "p_mkt": 0.7,
+     "cand": false,
+     "open": [
+      null,
+      1.369
      ]
     },
     {
@@ -124605,34 +124558,47 @@
      ]
     },
     {
-     "kind": "ml",
-     "label": "PHI gana",
-     "player": null,
-     "team": "PHI",
-     "line": null,
-     "odds": -271,
-     "dec": 1.369,
+     "kind": "prop",
+     "label": "Pascal Siakam Over 6.5 Rebotes",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 6.5,
+     "odds": 108,
+     "dec": 2.077,
      "odds_assumed": false,
-     "p": 0.698,
-     "implied": 0.73,
-     "edge": -0.033,
-     "ev": -0.045,
+     "p": 0.46,
+     "implied": 0.482,
+     "edge": -0.021,
+     "ev": -0.044,
      "value": false,
-     "n_books": 9,
-     "best": {
-      "book": "BetRivers",
-      "line": null,
-      "odds": -250,
-      "dec": 1.4,
-      "p": 0.698,
-      "ev": -0.023
-     },
-     "p_model": 0.692,
-     "p_mkt": 0.7,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 115,
+     "dec_ref": 2.15,
+     "p_model": 0.504,
+     "p_mkt": 0.446,
      "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 19,
+       "value": 10.6,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 7.0,
      "open": [
-      null,
-      1.369
+      6.5,
+      2.077
      ]
     },
     {
@@ -124699,226 +124665,6 @@
     },
     {
      "kind": "prop",
-     "label": "Tyrese Maxey Over 26.5 Puntos",
-     "player": "Tyrese Maxey",
-     "team": "PHI",
-     "line": 26.5,
-     "odds": -122,
-     "dec": 1.823,
-     "odds_assumed": false,
-     "p": 0.518,
-     "implied": 0.549,
-     "edge": -0.03,
-     "ev": -0.055,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.549,
-     "p_mkt": 0.508,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 16,
-       "value": 27.1,
-       "lg": 27.1,
-       "n": 30
-      }
-     },
-     "open": [
-      26.5,
-      1.823
-     ],
-     "mean": 30.0
-    },
-    {
-     "kind": "prop",
-     "label": "Andrew Nembhard Over 15.5 Puntos",
-     "player": "Andrew Nembhard",
-     "team": "IND",
-     "line": 15.5,
-     "odds": -123,
-     "dec": 1.816,
-     "odds_assumed": false,
-     "p": 0.513,
-     "implied": 0.551,
-     "edge": -0.038,
-     "ev": -0.069,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.521,
-     "p_mkt": 0.51,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 3,
-       "value": 23.2,
-       "lg": 27.1,
-       "n": 30
-      }
-     },
-     "open": [
-      15.5,
-      1.816
-     ],
-     "mean": 17.3
-    },
-    {
-     "kind": "prop",
-     "label": "Aaron Nesmith Under 3.5 Rebotes",
-     "player": "Aaron Nesmith",
-     "team": "IND",
-     "line": 3.5,
-     "odds": -122,
-     "dec": 1.82,
-     "odds_assumed": false,
-     "p": 0.51,
-     "implied": 0.549,
-     "edge": -0.039,
-     "ev": -0.071,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.515,
-     "p_mkt": 0.509,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 7.8,
-       "lg": 6.7,
-       "n": 30
-      }
-     },
-     "open": [
-      3.5,
-      1.82
-     ],
-     "mean": 3.8
-    },
-    {
-     "kind": "prop",
-     "label": "Pascal Siakam Over 6.5 Rebotes",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 6.5,
-     "odds": 108,
-     "dec": 2.077,
-     "odds_assumed": false,
-     "p": 0.446,
-     "implied": 0.482,
-     "edge": -0.036,
-     "ev": -0.074,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": 115,
-     "dec_ref": 2.15,
-     "p_model": 0.445,
-     "p_mkt": 0.446,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 19,
-       "value": 10.6,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "open": [
-      6.5,
-      2.077
-     ],
-     "mean": 6.5
-    },
-    {
-     "kind": "prop",
-     "label": "Pascal Siakam Under 6.5 Rebotes",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 6.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.554,
-     "implied": 0.598,
-     "edge": -0.044,
-     "ev": -0.074,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -137,
-     "dec_ref": 1.73,
-     "p_model": 0.555,
-     "p_mkt": 0.554,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 19,
-       "value": 10.6,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "open": [
-      6.5,
-      1.671
-     ],
-     "mean": 6.5
-    },
-    {
-     "kind": "prop",
      "label": "Aaron Nesmith Over 3.5 Rebotes",
      "player": "Aaron Nesmith",
      "team": "IND",
@@ -124926,16 +124672,16 @@
      "odds": -113,
      "dec": 1.885,
      "odds_assumed": false,
-     "p": 0.49,
+     "p": 0.504,
      "implied": 0.531,
-     "edge": -0.041,
-     "ev": -0.077,
+     "edge": -0.027,
+     "ev": -0.05,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -105,
      "dec_ref": 1.952,
-     "p_model": 0.485,
+     "p_model": 0.542,
      "p_mkt": 0.491,
      "cand": false,
      "hr": {
@@ -124955,55 +124701,99 @@
        "n": 30
       }
      },
+     "mean": 4.1,
      "open": [
       3.5,
       1.885
-     ],
-     "mean": 3.8
+     ]
     },
     {
      "kind": "prop",
-     "label": "Andrew Nembhard Under 15.5 Puntos",
-     "player": "Andrew Nembhard",
-     "team": "IND",
-     "line": 15.5,
-     "odds": -113,
-     "dec": 1.889,
+     "label": "Tyrese Maxey Over 26.5 Puntos",
+     "player": "Tyrese Maxey",
+     "team": "PHI",
+     "line": 26.5,
+     "odds": -122,
+     "dec": 1.823,
      "odds_assumed": false,
-     "p": 0.487,
-     "implied": 0.529,
-     "edge": -0.042,
-     "ev": -0.079,
+     "p": 0.519,
+     "implied": 0.549,
+     "edge": -0.03,
+     "ev": -0.054,
      "value": false,
      "stat": "pts",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.479,
-     "p_mkt": 0.49,
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.551,
+     "p_mkt": 0.508,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       6,
        10
       ],
       "h2h": [
-       0,
+       4,
        4
       ],
       "dvp": {
        "pos": "PG",
-       "rank": 3,
-       "value": 23.2,
+       "rank": 16,
+       "value": 27.1,
        "lg": 27.1,
        "n": 30
       }
      },
+     "mean": 30.1,
      "open": [
-      15.5,
-      1.889
-     ],
-     "mean": 17.3
+      26.5,
+      1.823
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Pascal Siakam Under 21.5 Puntos",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 21.5,
+     "odds": -104,
+     "dec": 1.965,
+     "odds_assumed": false,
+     "p": 0.474,
+     "implied": 0.509,
+     "edge": -0.035,
+     "ev": -0.069,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": 105,
+     "dec_ref": 2.05,
+     "p_model": 0.474,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 16,
+       "value": 23.3,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 24.2,
+     "open": [
+      21.5,
+      1.965
+     ]
     },
     {
      "kind": "prop",
@@ -125014,16 +124804,16 @@
      "odds": -113,
      "dec": 1.882,
      "odds_assumed": false,
-     "p": 0.482,
+     "p": 0.481,
      "implied": 0.531,
      "edge": -0.05,
-     "ev": -0.093,
+     "ev": -0.094,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -103,
      "dec_ref": 1.971,
-     "p_model": 0.451,
+     "p_model": 0.449,
      "p_mkt": 0.492,
      "cand": false,
      "hr": {
@@ -125043,76 +124833,32 @@
        "n": 30
       }
      },
+     "mean": 30.1,
      "open": [
       26.5,
       1.882
-     ],
-     "mean": 30.0
+     ]
     },
     {
      "kind": "prop",
-     "label": "Jaylen Brown Over 23.5 Puntos",
-     "player": "Jaylen Brown",
-     "team": "PHI",
-     "line": 23.5,
-     "odds": -123,
-     "dec": 1.814,
-     "odds_assumed": false,
-     "p": 0.49,
-     "implied": 0.551,
-     "edge": -0.061,
-     "ev": -0.111,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.49,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 11,
-       "value": 19.8,
-       "lg": 20.1,
-       "n": 30
-      }
-     },
-     "open": [
-      23.5,
-      1.814
-     ],
-     "mean": 24.8
-    },
-    {
-     "kind": "prop",
-     "label": "Obi Toppin Over 9.5 Puntos",
-     "player": "Obi Toppin",
+     "label": "Aaron Nesmith Under 3.5 Rebotes",
+     "player": "Aaron Nesmith",
      "team": "IND",
-     "line": 9.5,
-     "odds": -115,
-     "dec": 1.871,
+     "line": 3.5,
+     "odds": -122,
+     "dec": 1.82,
      "odds_assumed": false,
-     "p": 0.475,
-     "implied": 0.535,
-     "edge": -0.059,
-     "ev": -0.111,
+     "p": 0.496,
+     "implied": 0.549,
+     "edge": -0.053,
+     "ev": -0.097,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.475,
-     "p_mkt": null,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.458,
+     "p_mkt": 0.509,
      "cand": false,
      "hr": {
       "l10": [
@@ -125124,18 +124870,62 @@
        2
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 16,
-       "value": 23.3,
-       "lg": 23.4,
+       "pos": "SG",
+       "rank": 26,
+       "value": 7.8,
+       "lg": 6.7,
        "n": 30
       }
      },
+     "mean": 4.1,
      "open": [
-      9.5,
-      1.871
-     ],
-     "mean": 10.4
+      3.5,
+      1.82
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Pascal Siakam Under 6.5 Rebotes",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 6.5,
+     "odds": -149,
+     "dec": 1.671,
+     "odds_assumed": false,
+     "p": 0.54,
+     "implied": 0.598,
+     "edge": -0.059,
+     "ev": -0.098,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -137,
+     "dec_ref": 1.73,
+     "p_model": 0.496,
+     "p_mkt": 0.554,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 19,
+       "value": 10.6,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 7.0,
+     "open": [
+      6.5,
+      1.671
+     ]
     },
     {
      "kind": "prop",
@@ -125146,16 +124936,16 @@
      "odds": -146,
      "dec": 1.685,
      "odds_assumed": false,
-     "p": 0.524,
+     "p": 0.528,
      "implied": 0.594,
-     "edge": -0.069,
-     "ev": -0.117,
+     "edge": -0.065,
+     "ev": -0.11,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -132,
      "dec_ref": 1.758,
-     "p_model": 0.524,
+     "p_model": 0.528,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125175,32 +124965,32 @@
        "n": 30
       }
      },
+     "mean": 7.2,
      "open": [
       6.5,
       1.685
-     ],
-     "mean": 7.1
+     ]
     },
     {
      "kind": "prop",
-     "label": "Obi Toppin Under 3.5 Rebotes",
-     "player": "Obi Toppin",
-     "team": "IND",
-     "line": 3.5,
-     "odds": 105,
-     "dec": 2.055,
+     "label": "Jaylen Brown Over 23.5 Puntos",
+     "player": "Jaylen Brown",
+     "team": "PHI",
+     "line": 23.5,
+     "odds": -123,
+     "dec": 1.814,
      "odds_assumed": false,
-     "p": 0.43,
-     "implied": 0.487,
-     "edge": -0.057,
-     "ev": -0.117,
+     "p": 0.488,
+     "implied": 0.551,
+     "edge": -0.063,
+     "ev": -0.115,
      "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 128,
-     "dec_ref": 2.28,
-     "p_model": 0.368,
-     "p_mkt": 0.451,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.488,
+     "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
@@ -125208,22 +124998,66 @@
        10
       ],
       "h2h": [
-       0,
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 11,
+       "value": 19.8,
+       "lg": 20.1,
+       "n": 30
+      }
+     },
+     "mean": 24.7,
+     "open": [
+      23.5,
+      1.814
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Obi Toppin Under 10.5 Puntos",
+     "player": "Obi Toppin",
+     "team": "IND",
+     "line": 10.5,
+     "odds": -140,
+     "dec": 1.713,
+     "odds_assumed": false,
+     "p": 0.514,
+     "implied": 0.584,
+     "edge": -0.07,
+     "ev": -0.12,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -127,
+     "dec_ref": 1.787,
+     "p_model": 0.514,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
        2
       ],
       "dvp": {
        "pos": "PF",
-       "rank": 19,
-       "value": 10.6,
-       "lg": 10.4,
+       "rank": 16,
+       "value": 23.3,
+       "lg": 23.4,
        "n": 30
       }
      },
+     "mean": 11.6,
      "open": [
-      3.5,
-      2.055
-     ],
-     "mean": 5.1
+      10.5,
+      1.713
+     ]
     },
     {
      "kind": "prop",
@@ -125234,16 +125068,16 @@
      "odds": -146,
      "dec": 1.685,
      "odds_assumed": false,
-     "p": 0.515,
+     "p": 0.514,
      "implied": 0.594,
-     "edge": -0.078,
-     "ev": -0.132,
+     "edge": -0.079,
+     "ev": -0.134,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -132,
      "dec_ref": 1.758,
-     "p_model": 0.515,
+     "p_model": 0.514,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125263,11 +125097,55 @@
        "n": 30
       }
      },
+     "mean": 6.8,
      "open": [
       6.5,
       1.685
-     ],
-     "mean": 6.8
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Obi Toppin Under 3.5 Rebotes",
+     "player": "Obi Toppin",
+     "team": "IND",
+     "line": 3.5,
+     "odds": 105,
+     "dec": 2.055,
+     "odds_assumed": false,
+     "p": 0.417,
+     "implied": 0.487,
+     "edge": -0.069,
+     "ev": -0.142,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 128,
+     "dec_ref": 2.28,
+     "p_model": 0.318,
+     "p_mkt": 0.451,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 19,
+       "value": 10.6,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 5.5,
+     "open": [
+      3.5,
+      2.055
+     ]
     },
     {
      "kind": "prop",
@@ -125280,14 +125158,14 @@
      "odds_assumed": false,
      "p": 0.473,
      "implied": 0.552,
-     "edge": -0.079,
-     "ev": -0.143,
+     "edge": -0.08,
+     "ev": -0.144,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.359,
+     "p_model": 0.357,
      "p_mkt": 0.511,
      "cand": false,
      "hr": {
@@ -125307,11 +125185,11 @@
        "n": 30
       }
      },
+     "mean": 8.3,
      "open": [
       6.5,
       1.811
-     ],
-     "mean": 8.3
+     ]
     },
     {
      "kind": "prop",
@@ -125322,16 +125200,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.481,
+     "p": 0.479,
      "implied": 0.569,
-     "edge": -0.088,
-     "ev": -0.155,
+     "edge": -0.09,
+     "ev": -0.158,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.481,
+     "p_model": 0.479,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125351,99 +125229,11 @@
        "n": 30
       }
      },
+     "mean": 17.3,
      "open": [
       16.5,
       1.757
-     ],
-     "mean": 17.3
-    },
-    {
-     "kind": "prop",
-     "label": "Pascal Siakam Over 20.5 Puntos",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 20.5,
-     "odds": -132,
-     "dec": 1.757,
-     "odds_assumed": false,
-     "p": 0.48,
-     "implied": 0.569,
-     "edge": -0.089,
-     "ev": -0.157,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.48,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 16,
-       "value": 23.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      20.5,
-      1.757
-     ],
-     "mean": 21.9
-    },
-    {
-     "kind": "prop",
-     "label": "Tyrese Maxey Under 3.5 Rebotes",
-     "player": "Tyrese Maxey",
-     "team": "PHI",
-     "line": 3.5,
-     "odds": -100,
-     "dec": 1.999,
-     "odds_assumed": false,
-     "p": 0.414,
-     "implied": 0.5,
-     "edge": -0.086,
-     "ev": -0.173,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 114,
-     "dec_ref": 2.14,
-     "p_model": 0.266,
-     "p_mkt": 0.463,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 30,
-       "value": 7.3,
-       "lg": 5.7,
-       "n": 30
-      }
-     },
-     "open": [
-      3.5,
-      1.999
-     ],
-     "mean": 5.6
+     ]
     },
     {
      "kind": "prop",
@@ -125454,16 +125244,16 @@
      "odds": -121,
      "dec": 1.829,
      "odds_assumed": false,
-     "p": 0.451,
+     "p": 0.455,
      "implied": 0.547,
-     "edge": -0.096,
-     "ev": -0.175,
+     "edge": -0.092,
+     "ev": -0.168,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -110,
      "dec_ref": 1.909,
-     "p_model": 0.451,
+     "p_model": 0.455,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125483,11 +125273,55 @@
        "n": 30
       }
      },
+     "mean": 15.5,
      "open": [
       13.5,
       1.829
-     ],
-     "mean": 15.5
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Tyrese Maxey Under 3.5 Rebotes",
+     "player": "Tyrese Maxey",
+     "team": "PHI",
+     "line": 3.5,
+     "odds": -100,
+     "dec": 1.999,
+     "odds_assumed": false,
+     "p": 0.413,
+     "implied": 0.5,
+     "edge": -0.087,
+     "ev": -0.174,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 114,
+     "dec_ref": 2.14,
+     "p_model": 0.263,
+     "p_mkt": 0.463,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 30,
+       "value": 7.3,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 5.6,
+     "open": [
+      3.5,
+      1.999
+     ]
     },
     {
      "kind": "prop",
@@ -125498,16 +125332,16 @@
      "odds": 102,
      "dec": 2.015,
      "odds_assumed": false,
-     "p": 0.392,
+     "p": 0.403,
      "implied": 0.496,
-     "edge": -0.104,
-     "ev": -0.21,
+     "edge": -0.093,
+     "ev": -0.188,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": 120,
      "dec_ref": 2.2,
-     "p_model": 0.19,
+     "p_model": 0.233,
      "p_mkt": 0.459,
      "cand": false,
      "hr": {
@@ -125527,55 +125361,11 @@
        "n": 30
       }
      },
+     "mean": 3.1,
      "open": [
       4.5,
       2.015
-     ],
-     "mean": 2.8
-    },
-    {
-     "kind": "prop",
-     "label": "Dean Wade Over 5.5 Puntos",
-     "player": "Dean Wade",
-     "team": "PHI",
-     "line": 5.5,
-     "odds": -110,
-     "dec": 1.908,
-     "odds_assumed": false,
-     "p": 0.412,
-     "implied": 0.524,
-     "edge": -0.112,
-     "ev": -0.213,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.194,
-     "p_mkt": 0.485,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 21.7,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      5.5,
-      1.908
-     ],
-     "mean": 3.5
+     ]
     },
     {
      "kind": "prop",
@@ -125586,16 +125376,16 @@
      "odds": -106,
      "dec": 1.941,
      "odds_assumed": false,
-     "p": 0.397,
+     "p": 0.416,
      "implied": 0.515,
-     "edge": -0.119,
-     "ev": -0.23,
+     "edge": -0.1,
+     "ev": -0.193,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": 105,
      "dec_ref": 2.05,
-     "p_model": 0.155,
+     "p_model": 0.231,
      "p_mkt": 0.477,
      "cand": false,
      "hr": {
@@ -125615,11 +125405,55 @@
        "n": 30
       }
      },
+     "mean": 7.7,
      "open": [
       10.5,
       1.941
-     ],
-     "mean": 6.5
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dean Wade Over 5.5 Puntos",
+     "player": "Dean Wade",
+     "team": "PHI",
+     "line": 5.5,
+     "odds": -110,
+     "dec": 1.908,
+     "odds_assumed": false,
+     "p": 0.412,
+     "implied": 0.524,
+     "edge": -0.112,
+     "ev": -0.214,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.192,
+     "p_mkt": 0.485,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 21.7,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 3.5,
+     "open": [
+      5.5,
+      1.908
+     ]
     },
     {
      "kind": "prop",
@@ -125659,55 +125493,11 @@
        "n": 30
       }
      },
+     "mean": 14.4,
      "open": [
       11.5,
       1.663
-     ],
-     "mean": 14.4
-    },
-    {
-     "kind": "prop",
-     "label": "Aaron Nesmith Over 12.5 Puntos",
-     "player": "Aaron Nesmith",
-     "team": "IND",
-     "line": 12.5,
-     "odds": -132,
-     "dec": 1.757,
-     "odds_assumed": false,
-     "p": 0.307,
-     "implied": 0.569,
-     "edge": -0.262,
-     "ev": -0.461,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.307,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 25,
-       "value": 26.1,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "open": [
-      12.5,
-      1.757
-     ],
-     "mean": 10.3
+     ]
     },
     {
      "kind": "prop",
@@ -125718,16 +125508,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.294,
+     "p": 0.389,
      "implied": 0.569,
-     "edge": -0.275,
-     "ev": -0.483,
+     "edge": -0.18,
+     "ev": -0.317,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.294,
+     "p_model": 0.389,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125747,11 +125537,55 @@
        "n": 30
       }
      },
+     "mean": 10.8,
      "open": [
       11.5,
       1.757
-     ],
-     "mean": 9.3
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Aaron Nesmith Over 12.5 Puntos",
+     "player": "Aaron Nesmith",
+     "team": "IND",
+     "line": 12.5,
+     "odds": -132,
+     "dec": 1.757,
+     "odds_assumed": false,
+     "p": 0.382,
+     "implied": 0.569,
+     "edge": -0.187,
+     "ev": -0.329,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.382,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 25,
+       "value": 26.1,
+       "lg": 24.0,
+       "n": 30
+      }
+     },
+     "mean": 11.6,
+     "open": [
+      12.5,
+      1.757
+     ]
     },
     {
      "kind": "prop",
@@ -125762,16 +125596,16 @@
      "odds": -126,
      "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.18,
+     "p": 0.271,
      "implied": 0.558,
-     "edge": -0.378,
-     "ev": -0.677,
+     "edge": -0.287,
+     "ev": -0.514,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.18,
+     "p_model": 0.271,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -125791,11 +125625,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       12.5,
       1.792
-     ],
-     "mean": 8.1
+     ]
     }
    ],
    "wo": {
@@ -125803,160 +125637,157 @@
      "model": {
       "Pascal Siakam": [
        [
-        "Andrew Nembhard",
-        3.1,
+        "Obi Toppin",
+        2.8,
         3.6
        ],
        [
-        "Obi Toppin",
-        2.3,
-        3.1
+        "Aaron Nesmith",
+        2.5,
+        3.7
        ],
        [
-        "Aaron Nesmith",
-        2.1,
-        3.1
+        "Kelly Oubre Jr.",
+        2.5,
+        3.7
        ]
       ],
-      "Andrew Nembhard": [
+      "Aaron Nesmith": [
        [
         "Pascal Siakam",
-        2.1,
-        2.6
+        1.6,
+        2.3
+       ],
+       [
+        "Obi Toppin",
+        0.9,
+        1.7
+       ],
+       [
+        "Kelly Oubre Jr.",
+        0.8,
+        1.9
+       ]
+      ],
+      "Kelly Oubre Jr.": [
+       [
+        "Pascal Siakam",
+        2.0,
+        3.0
        ],
        [
         "Aaron Nesmith",
         1.2,
+        2.7
+       ],
+       [
+        "Obi Toppin",
+        1.2,
+        2.4
+       ]
+      ],
+      "Jarace Walker": [
+       [
+        "Pascal Siakam",
+        1.7,
+        2.8
+       ],
+       [
+        "Obi Toppin",
+        1.0,
+        2.1
+       ],
+       [
+        "Aaron Nesmith",
+        0.9,
+        2.5
+       ]
+      ],
+      "Quenton Jackson": [
+       [
+        "Pascal Siakam",
+        1.9,
+        2.7
+       ],
+       [
+        "Obi Toppin",
+        1.1,
         2.0
+       ],
+       [
+        "Aaron Nesmith",
+        1.0,
+        2.4
+       ]
+      ],
+      "Ivica Zubac": [
+       [
+        "Pascal Siakam",
+        1.8,
+        2.7
+       ],
+       [
+        "Aaron Nesmith",
+        1.1,
+        2.4
+       ],
+       [
+        "Obi Toppin",
+        1.1,
+        2.1
+       ]
+      ],
+      "Obi Toppin": [
+       [
+        "Pascal Siakam",
+        2.3,
+        2.3
+       ],
+       [
+        "Aaron Nesmith",
+        1.1,
+        2.1
        ],
        [
         "Kelly Oubre Jr.",
         1.1,
         2.0
        ]
-      ],
-      "Aaron Nesmith": [
+      ]
+     },
+     "real": {
+      "Andrew Nembhard": [
        [
-        "Pascal Siakam",
-        1.3,
-        2.0
+        "Jay Huff",
+        8.9,
+        2,
+        7
        ],
        [
-        "Andrew Nembhard",
-        1.1,
-        1.9
+        "Jarace Walker",
+        5.9,
+        2,
+        7
        ],
        [
-        "Obi Toppin",
-        0.7,
-        1.4
-       ]
-      ],
-      "Jarace Walker": [
-       [
-        "Pascal Siakam",
-        1.4,
-        2.5
-       ],
-       [
-        "Andrew Nembhard",
-        1.2,
-        2.5
-       ],
-       [
-        "Aaron Nesmith",
-        0.9,
-        2.1
-       ]
-      ],
-      "Quenton Jackson": [
-       [
-        "Pascal Siakam",
-        1.6,
-        2.4
-       ],
-       [
-        "Andrew Nembhard",
-        1.3,
-        2.4
-       ],
-       [
-        "Aaron Nesmith",
-        0.9,
-        2.0
-       ]
-      ],
-      "Kelly Oubre Jr.": [
-       [
-        "Pascal Siakam",
-        1.7,
-        2.6
-       ],
-       [
-        "Andrew Nembhard",
-        1.4,
-        2.6
-       ],
-       [
-        "Aaron Nesmith",
-        0.9,
-        2.1
-       ]
-      ],
-      "T.J. McConnell": [
-       [
-        "Pascal Siakam",
-        1.1,
-        1.2
-       ],
-       [
-        "Andrew Nembhard",
-        0.8,
-        1.1
-       ],
-       [
-        "Aaron Nesmith",
-        0.6,
-        0.9
+        "Jalen Slawson",
+        4.4,
+        2,
+        7
        ]
       ]
      },
-     "real": {},
      "doubt": [
-      [
-       "Andrew Nembhard",
-       0.7
-      ],
       [
        "Aaron Nesmith",
        0.7
-      ],
-      [
-       "T.J. McConnell",
-       0.86
       ]
      ],
      "planb": {
       "Pascal Siakam": {
        "p_play": 1.0,
-       "min": 30.3,
+       "min": 32.5,
        "picks": [
-        {
-         "kind": "prop",
-         "label": "Andrew Nembhard Over 15.5 Puntos",
-         "player": "Andrew Nembhard",
-         "team": "IND",
-         "stat": "pts",
-         "side": "over",
-         "line": 15.5,
-         "dec": 1.816,
-         "p": 0.596,
-         "base_p": 0.513,
-         "ev": 0.081,
-         "if_out": "Pascal Siakam",
-         "mean": 20.4,
-         "mean0": 17.3
-        },
         {
          "kind": "prop",
          "label": "Obi Toppin Over 3.5 Rebotes",
@@ -125966,12 +125797,12 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.685,
-         "p": 0.624,
-         "base_p": 0.57,
-         "ev": 0.051,
+         "p": 0.642,
+         "base_p": 0.583,
+         "ev": 0.082,
          "if_out": "Pascal Siakam",
-         "mean": 6.0,
-         "mean0": 5.1
+         "mean": 6.5,
+         "mean0": 5.5
         },
         {
          "kind": "prop",
@@ -125982,12 +125813,176 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.885,
-         "p": 0.547,
-         "base_p": 0.49,
-         "ev": 0.031,
+         "p": 0.562,
+         "base_p": 0.504,
+         "ev": 0.06,
          "if_out": "Pascal Siakam",
-         "mean": 4.3,
-         "mean0": 3.8
+         "mean": 4.7,
+         "mean0": 4.1
+        }
+       ]
+      },
+      "Aaron Nesmith": {
+       "p_play": 0.7,
+       "min": 25.1,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.502,
+         "base_p": 0.46,
+         "ev": 0.043,
+         "if_out": "Aaron Nesmith",
+         "mean": 7.5,
+         "mean0": 7.0
+        }
+       ]
+      },
+      "Kelly Oubre Jr.": {
+       "p_play": 1.0,
+       "min": 23.9,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.512,
+         "base_p": 0.46,
+         "ev": 0.063,
+         "if_out": "Kelly Oubre Jr.",
+         "mean": 7.6,
+         "mean0": 7.0
+        },
+        {
+         "kind": "prop",
+         "label": "Obi Toppin Over 3.5 Rebotes",
+         "player": "Obi Toppin",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 3.5,
+         "dec": 1.685,
+         "p": 0.623,
+         "base_p": 0.583,
+         "ev": 0.051,
+         "if_out": "Kelly Oubre Jr.",
+         "mean": 6.2,
+         "mean0": 5.5
+        },
+        {
+         "kind": "prop",
+         "label": "Aaron Nesmith Over 3.5 Rebotes",
+         "player": "Aaron Nesmith",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 3.5,
+         "dec": 1.885,
+         "p": 0.549,
+         "base_p": 0.504,
+         "ev": 0.035,
+         "if_out": "Kelly Oubre Jr.",
+         "mean": 4.6,
+         "mean0": 4.1
+        }
+       ]
+      },
+      "Jarace Walker": {
+       "p_play": 1.0,
+       "min": 23.7,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.509,
+         "base_p": 0.46,
+         "ev": 0.057,
+         "if_out": "Jarace Walker",
+         "mean": 7.6,
+         "mean0": 7.0
+        }
+       ]
+      },
+      "Quenton Jackson": {
+       "p_play": 1.0,
+       "min": 23.0,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.508,
+         "base_p": 0.46,
+         "ev": 0.055,
+         "if_out": "Quenton Jackson",
+         "mean": 7.6,
+         "mean0": 7.0
+        }
+       ]
+      },
+      "Ivica Zubac": {
+       "p_play": 1.0,
+       "min": 21.3,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.508,
+         "base_p": 0.46,
+         "ev": 0.055,
+         "if_out": "Ivica Zubac",
+         "mean": 7.6,
+         "mean0": 7.0
+        }
+       ]
+      },
+      "Obi Toppin": {
+       "p_play": 1.0,
+       "min": 20.3,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Pascal Siakam Over 6.5 Rebotes",
+         "player": "Pascal Siakam",
+         "team": "IND",
+         "stat": "reb",
+         "side": "over",
+         "line": 6.5,
+         "dec": 2.077,
+         "p": 0.501,
+         "base_p": 0.46,
+         "ev": 0.04,
+         "if_out": "Obi Toppin",
+         "mean": 7.5,
+         "mean0": 7.0
         }
        ]
       }
@@ -125998,18 +125993,18 @@
       "Tyrese Maxey": [
        [
         "Jaylen Brown",
-        6.1,
+        6.2,
         3.8
        ],
        [
-        "Anfernee Simons",
+        "LeBron James",
         4.8,
-        4.7
+        4.6
        ],
        [
-        "LeBron James",
+        "Anfernee Simons",
         4.7,
-        4.6
+        4.7
        ]
       ],
       "Jaylen Brown": [
@@ -126020,7 +126015,7 @@
        ],
        [
         "Anfernee Simons",
-        4.0,
+        4.1,
         4.7
        ],
        [
@@ -126032,18 +126027,18 @@
       "VJ Edgecombe": [
        [
         "Tyrese Maxey",
-        3.2,
+        3.1,
         3.4
        ],
        [
-        "Anfernee Simons",
+        "Jaylen Brown",
         2.9,
-        4.6
+        3.6
        ],
        [
-        "Jaylen Brown",
-        2.7,
-        3.6
+        "Anfernee Simons",
+        2.8,
+        4.6
        ]
       ],
       "LeBron James": [
@@ -126075,9 +126070,9 @@
         3.2
        ],
        [
-        "VJ Edgecombe",
+        "Jaylen Brown",
         0.5,
-        3.2
+        2.8
        ]
       ],
       "Anfernee Simons": [
@@ -126088,7 +126083,7 @@
        ],
        [
         "Jaylen Brown",
-        2.8,
+        2.9,
         2.7
        ],
        [
@@ -126100,18 +126095,18 @@
       "Kentavious Caldwell-Pope": [
        [
         "Tyrese Maxey",
-        1.3,
+        1.2,
+        2.4
+       ],
+       [
+        "Jaylen Brown",
+        1.2,
         2.4
        ],
        [
         "Anfernee Simons",
-        1.3,
+        1.2,
         2.7
-       ],
-       [
-        "Jaylen Brown",
-        1.1,
-        2.4
        ]
       ]
      },
@@ -126140,9 +126135,9 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.894,
-         "p": 0.586,
+         "p": 0.584,
          "base_p": 0.527,
-         "ev": 0.109,
+         "ev": 0.106,
          "if_out": "Tyrese Maxey",
          "mean": 9.2,
          "mean0": 8.3
@@ -126162,12 +126157,12 @@
          "side": "over",
          "line": 26.5,
          "dec": 1.823,
-         "p": 0.619,
-         "base_p": 0.518,
-         "ev": 0.129,
+         "p": 0.622,
+         "base_p": 0.519,
+         "ev": 0.133,
          "if_out": "Jaylen Brown",
-         "mean": 35.5,
-         "mean0": 30.0
+         "mean": 35.6,
+         "mean0": 30.1
         }
        ]
       },
@@ -126184,9 +126179,9 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.894,
-         "p": 0.583,
+         "p": 0.579,
          "base_p": 0.527,
-         "ev": 0.103,
+         "ev": 0.096,
          "if_out": "VJ Edgecombe",
          "mean": 9.1,
          "mean0": 8.3
@@ -126201,11 +126196,11 @@
          "line": 26.5,
          "dec": 1.823,
          "p": 0.581,
-         "base_p": 0.518,
-         "ev": 0.059,
+         "base_p": 0.519,
+         "ev": 0.058,
          "if_out": "VJ Edgecombe",
          "mean": 33.2,
-         "mean0": 30.0
+         "mean0": 30.1
         }
        ]
       },
@@ -126222,11 +126217,11 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.894,
-         "p": 0.582,
+         "p": 0.58,
          "base_p": 0.527,
-         "ev": 0.102,
+         "ev": 0.098,
          "if_out": "LeBron James",
-         "mean": 9.2,
+         "mean": 9.1,
          "mean0": 8.3
         },
         {
@@ -126238,12 +126233,12 @@
          "side": "over",
          "line": 26.5,
          "dec": 1.823,
-         "p": 0.591,
-         "base_p": 0.518,
-         "ev": 0.077,
+         "p": 0.593,
+         "base_p": 0.519,
+         "ev": 0.081,
          "if_out": "LeBron James",
-         "mean": 33.7,
-         "mean0": 30.0
+         "mean": 33.8,
+         "mean0": 30.1
         }
        ]
       },
@@ -126264,7 +126259,7 @@
          "base_p": 0.527,
          "ev": 0.076,
          "if_out": "Dean Wade",
-         "mean": 9.0,
+         "mean": 8.9,
          "mean0": 8.3
         }
        ]
@@ -126282,9 +126277,9 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.894,
-         "p": 0.569,
+         "p": 0.568,
          "base_p": 0.527,
-         "ev": 0.078,
+         "ev": 0.075,
          "if_out": "Anfernee Simons",
          "mean": 8.9,
          "mean0": 8.3
@@ -126298,12 +126293,12 @@
          "side": "over",
          "line": 26.5,
          "dec": 1.823,
-         "p": 0.582,
-         "base_p": 0.518,
-         "ev": 0.061,
+         "p": 0.585,
+         "base_p": 0.519,
+         "ev": 0.066,
          "if_out": "Anfernee Simons",
-         "mean": 33.3,
-         "mean0": 30.0
+         "mean": 33.4,
+         "mean0": 30.1
         }
        ]
       }
@@ -126376,11 +126371,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       5.5,
       1.668
-     ],
-     "mean": 4.4
+     ]
     },
     {
      "kind": "prop",
@@ -126422,11 +126417,11 @@
        "n": 30
       }
      },
+     "mean": 12.6,
      "open": [
       10.5,
       1.829
-     ],
-     "mean": 12.6
+     ]
     },
     {
      "kind": "prop",
@@ -126468,11 +126463,11 @@
        "n": 30
       }
      },
+     "mean": 11.9,
      "open": [
       8.5,
       1.668
-     ],
-     "mean": 11.9
+     ]
     }
    ],
    "value_bets": [],
@@ -126906,11 +126901,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       5.5,
       1.668
-     ],
-     "mean": 4.4
+     ]
     },
     {
      "kind": "prop",
@@ -126951,11 +126946,11 @@
        "n": 30
       }
      },
+     "mean": 12.6,
      "open": [
       10.5,
       1.829
-     ],
-     "mean": 12.6
+     ]
     },
     {
      "kind": "prop",
@@ -126996,11 +126991,11 @@
        "n": 30
       }
      },
+     "mean": 11.9,
      "open": [
       8.5,
       1.668
-     ],
-     "mean": 11.9
+     ]
     },
     {
      "kind": "prop",
@@ -127040,11 +127035,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       6.5,
       1.759
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -127084,11 +127079,11 @@
        "n": 30
       }
      },
+     "mean": 11.1,
      "open": [
       14.5,
       1.802
-     ],
-     "mean": 11.1
+     ]
     },
     {
      "kind": "prop",
@@ -127128,11 +127123,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       3.5,
       1.668
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "total",
@@ -127140,15 +127135,15 @@
      "player": null,
      "team": null,
      "line": 226.5,
-     "odds": -109,
-     "dec": 1.914,
+     "odds": -110,
+     "dec": 1.913,
      "odds_assumed": false,
      "p": 0.528,
      "implied": 0.523,
      "edge": 0.005,
      "ev": 0.01,
      "value": false,
-     "n_books": 6,
+     "n_books": 7,
      "best": {
       "book": "Fanatics",
       "line": 226.0,
@@ -127158,7 +127153,7 @@
       "ev": 0.031
      },
      "p_model": 0.616,
-     "p_mkt": 0.498,
+     "p_mkt": 0.499,
      "cand": false,
      "open": [
       226.5,
@@ -127203,11 +127198,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       13.5,
       1.852
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -127247,11 +127242,11 @@
        "n": 30
       }
      },
+     "mean": 19.4,
      "open": [
       14.5,
       1.795
-     ],
-     "mean": 19.4
+     ]
     },
     {
      "kind": "prop",
@@ -127291,11 +127286,11 @@
        "n": 30
       }
      },
+     "mean": 6.2,
      "open": [
       6.5,
       1.891
-     ],
-     "mean": 6.2
+     ]
     },
     {
      "kind": "prop",
@@ -127335,11 +127330,11 @@
        "n": 30
       }
      },
+     "mean": 10.8,
      "open": [
       11.5,
       1.795
-     ],
-     "mean": 10.8
+     ]
     },
     {
      "kind": "prop",
@@ -127379,11 +127374,11 @@
        "n": 30
       }
      },
+     "mean": 42.0,
      "open": [
       35.5,
       1.852
-     ],
-     "mean": 42.0
+     ]
     },
     {
      "kind": "prop",
@@ -127423,11 +127418,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       4.5,
       1.783
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "ml",
@@ -127436,14 +127431,14 @@
      "team": "PHX",
      "line": null,
      "odds": 129,
-     "dec": 2.287,
+     "dec": 2.288,
      "odds_assumed": false,
      "p": 0.421,
      "implied": 0.437,
      "edge": -0.016,
      "ev": -0.038,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": null,
@@ -127498,11 +127493,11 @@
        "n": 30
       }
      },
+     "mean": 13.2,
      "open": [
       10.5,
       1.836
-     ],
-     "mean": 13.2
+     ]
     },
     {
      "kind": "prop",
@@ -127542,11 +127537,11 @@
        "n": 30
       }
      },
+     "mean": 5.7,
      "open": [
       5.5,
       1.941
-     ],
-     "mean": 5.7
+     ]
     },
     {
      "kind": "ml",
@@ -127555,14 +127550,14 @@
      "team": "LAL",
      "line": null,
      "odds": -153,
-     "dec": 1.652,
+     "dec": 1.651,
      "odds_assumed": false,
      "p": 0.579,
-     "implied": 0.605,
+     "implied": 0.606,
      "edge": -0.026,
      "ev": -0.043,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "theScore Bet",
       "line": null,
@@ -127617,11 +127612,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       5.5,
       2.051
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "spread",
@@ -127639,11 +127634,11 @@
      "value": false,
      "n_books": 7,
      "best": {
-      "book": "theScore Bet",
-      "line": -2.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.51,
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": -3.5,
+      "odds": 103,
+      "dec": 2.03,
+      "p": 0.48,
       "ev": -0.026
      },
      "p_model": 0.513,
@@ -127692,11 +127687,11 @@
        "n": 30
       }
      },
+     "mean": 16.8,
      "open": [
       14.5,
       1.912
-     ],
-     "mean": 16.8
+     ]
     },
     {
      "kind": "prop",
@@ -127736,11 +127731,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       14.5,
       1.682
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "spread",
@@ -127811,11 +127806,11 @@
        "n": 30
       }
      },
+     "mean": 25.9,
      "open": [
       25.5,
       1.744
-     ],
-     "mean": 25.9
+     ]
     },
     {
      "kind": "prop",
@@ -127855,11 +127850,11 @@
        "n": 30
       }
      },
+     "mean": 10.6,
      "open": [
       8.5,
       1.759
-     ],
-     "mean": 10.6
+     ]
     },
     {
      "kind": "prop",
@@ -127899,11 +127894,11 @@
        "n": 30
       }
      },
+     "mean": 8.2,
      "open": [
       7.5,
       1.843
-     ],
-     "mean": 8.2
+     ]
     },
     {
      "kind": "prop",
@@ -127943,11 +127938,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       6.5,
       1.852
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -127987,11 +127982,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       6.5,
       1.852
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -128031,11 +128026,11 @@
        "n": 30
       }
      },
+     "mean": 8.2,
      "open": [
       7.5,
       1.861
-     ],
-     "mean": 8.2
+     ]
     },
     {
      "kind": "prop",
@@ -128075,11 +128070,11 @@
        "n": 30
       }
      },
+     "mean": 10.6,
      "open": [
       8.5,
       1.955
-     ],
-     "mean": 10.6
+     ]
     },
     {
      "kind": "prop",
@@ -128119,11 +128114,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       5.5,
       1.688
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "total",
@@ -128132,14 +128127,14 @@
      "team": null,
      "line": 226.5,
      "odds": -111,
-     "dec": 1.902,
+     "dec": 1.903,
      "odds_assumed": false,
      "p": 0.472,
-     "implied": 0.526,
+     "implied": 0.525,
      "edge": -0.054,
      "ev": -0.102,
      "value": false,
-     "n_books": 6,
+     "n_books": 7,
      "best": {
       "book": "BetRivers",
       "line": 226.5,
@@ -128149,7 +128144,7 @@
       "ev": -0.095
      },
      "p_model": 0.384,
-     "p_mkt": 0.502,
+     "p_mkt": 0.501,
      "cand": false,
      "open": [
       226.5,
@@ -128194,11 +128189,11 @@
        "n": 30
       }
      },
+     "mean": 16.8,
      "open": [
       14.5,
       1.795
-     ],
-     "mean": 16.8
+     ]
     },
     {
      "kind": "prop",
@@ -128238,11 +128233,11 @@
        "n": 30
       }
      },
+     "mean": 25.9,
      "open": [
       23.5,
       1.725
-     ],
-     "mean": 25.9
+     ]
     },
     {
      "kind": "prop",
@@ -128282,11 +128277,11 @@
        "n": 30
       }
      },
+     "mean": 5.7,
      "open": [
       5.5,
       1.771
-     ],
-     "mean": 5.7
+     ]
     },
     {
      "kind": "prop",
@@ -128326,11 +128321,11 @@
        "n": 30
       }
      },
+     "mean": 13.2,
      "open": [
       10.5,
       1.868
-     ],
-     "mean": 13.2
+     ]
     },
     {
      "kind": "prop",
@@ -128370,11 +128365,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       14.5,
       2.06
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "prop",
@@ -128414,11 +128409,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       4.5,
       1.926
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -128458,11 +128453,11 @@
        "n": 30
       }
      },
+     "mean": 42.0,
      "open": [
       35.5,
       1.852
-     ],
-     "mean": 42.0
+     ]
     },
     {
      "kind": "prop",
@@ -128502,11 +128497,11 @@
        "n": 30
       }
      },
+     "mean": 10.8,
      "open": [
       11.5,
       1.912
-     ],
-     "mean": 10.8
+     ]
     },
     {
      "kind": "prop",
@@ -128546,11 +128541,11 @@
        "n": 30
       }
      },
+     "mean": 6.2,
      "open": [
       6.5,
       1.814
-     ],
-     "mean": 6.2
+     ]
     },
     {
      "kind": "prop",
@@ -128590,11 +128585,11 @@
        "n": 30
       }
      },
+     "mean": 19.4,
      "open": [
       14.5,
       1.912
-     ],
-     "mean": 19.4
+     ]
     },
     {
      "kind": "prop",
@@ -128634,11 +128629,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       13.5,
       1.852
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -128678,11 +128673,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       4.5,
       1.576
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -128722,11 +128717,11 @@
        "n": 30
       }
      },
+     "mean": 11.1,
      "open": [
       14.5,
       1.904
-     ],
-     "mean": 11.1
+     ]
     },
     {
      "kind": "prop",
@@ -128766,11 +128761,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       6.5,
       1.955
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -128810,11 +128805,11 @@
        "n": 30
       }
      },
+     "mean": 11.9,
      "open": [
       9.5,
       1.871
-     ],
-     "mean": 11.9
+     ]
     },
     {
      "kind": "prop",
@@ -128854,11 +128849,11 @@
        "n": 30
       }
      },
+     "mean": 12.6,
      "open": [
       11.5,
       1.643
-     ],
-     "mean": 12.6
+     ]
     },
     {
      "kind": "prop",
@@ -128898,11 +128893,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       4.5,
       1.668
-     ],
-     "mean": 4.4
+     ]
     }
    ],
    "wo": {
@@ -129752,8 +129747,54 @@
    },
    "proj_total": 220.4,
    "used_db": true,
-   "n_value": 1,
+   "n_value": 0,
    "top_bets": [
+    {
+     "kind": "prop",
+     "label": "Coby White Under 14.5 Puntos",
+     "player": "Coby White",
+     "team": "CHA",
+     "line": 14.5,
+     "odds": -129,
+     "dec": 1.778,
+     "odds_assumed": false,
+     "p": 0.815,
+     "implied": 0.563,
+     "fair": -441,
+     "edge": 0.253,
+     "ev": 0.449,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -117,
+     "dec_ref": 1.855,
+     "p_model": 0.815,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 2,
+       "value": 23.0,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 9.5,
+     "open": [
+      14.5,
+      1.78
+     ]
+    },
     {
      "kind": "prop",
      "label": "Brook Lopez Under 5.5 Rebotes",
@@ -129794,11 +129835,11 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       5.5,
       1.695
-     ],
-     "mean": 3.6
+     ]
     },
     {
      "kind": "prop",
@@ -129840,148 +129881,15 @@
        "n": 30
       }
      },
+     "mean": 4.1,
      "open": [
       4.5,
       1.871
-     ],
-     "mean": 4.1
-    },
-    {
-     "kind": "prop",
-     "label": "Naz Reid Under 8.5 Rebotes",
-     "player": "Naz Reid",
-     "team": "CHA",
-     "line": 8.5,
-     "odds": -150,
-     "dec": 1.668,
-     "odds_assumed": false,
-     "p": 0.672,
-     "implied": 0.599,
-     "fair": -205,
-     "edge": 0.072,
-     "ev": 0.121,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.672,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 3,
-       "value": 8.8,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "open": [
-      8.5,
-      1.668
-     ],
-     "mean": 7.2
+     ]
     }
    ],
-   "value_bets": [
-    {
-     "kind": "prop",
-     "label": "Coby White Under 14.5 Puntos",
-     "player": "Coby White",
-     "team": "CHA",
-     "line": 14.5,
-     "odds": -128,
-     "dec": 1.78,
-     "odds_assumed": false,
-     "p": 0.594,
-     "implied": 0.562,
-     "fair": -146,
-     "edge": 0.032,
-     "ev": 0.057,
-     "value": true,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.815,
-     "p_mkt": 0.52,
-     "cand": true,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 2,
-       "value": 23.0,
-       "lg": 27.1,
-       "n": 30
-      }
-     },
-     "open": [
-      14.5,
-      1.78
-     ],
-     "mean": 9.5
-    }
-   ],
-   "parlays": [
-    {
-     "legs": [
-      {
-       "kind": "prop",
-       "label": "Coby White Under 14.5 Puntos",
-       "player": "Coby White",
-       "team": "CHA",
-       "line": 14.5,
-       "stat": "pts",
-       "side": "under",
-       "p": 0.594,
-       "dec": 1.78,
-       "ev": 0.057,
-       "gid": "2026-11-15-CHA-at-LAC",
-       "game": "CHA @ LAC"
-      },
-      {
-       "kind": "prop",
-       "label": "Kris Dunn Under 3.5 Rebotes",
-       "player": "Kris Dunn",
-       "team": "LAC",
-       "line": 3.5,
-       "stat": "reb",
-       "side": "under",
-       "p": 0.581,
-       "dec": 1.723,
-       "ev": 0.001,
-       "gid": "2026-11-15-CHA-at-LAC",
-       "game": "CHA @ LAC"
-      }
-     ],
-     "n": 2,
-     "p": 0.345,
-     "p_indep": 0.345,
-     "corr": 1.0,
-     "dec": 3.07,
-     "fair": 2.9,
-     "ev": 0.057,
-     "type": "sgp"
-    }
-   ],
+   "value_bets": [],
+   "parlays": [],
    "model_picks": [
     {
      "kind": "prop",
@@ -130377,6 +130285,51 @@
    "all_bets": [
     {
      "kind": "prop",
+     "label": "Coby White Under 14.5 Puntos",
+     "player": "Coby White",
+     "team": "CHA",
+     "line": 14.5,
+     "odds": -129,
+     "dec": 1.778,
+     "odds_assumed": false,
+     "p": 0.815,
+     "implied": 0.563,
+     "edge": 0.253,
+     "ev": 0.449,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -117,
+     "dec_ref": 1.855,
+     "p_model": 0.815,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 2,
+       "value": 23.0,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 9.5,
+     "open": [
+      14.5,
+      1.78
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Brook Lopez Under 5.5 Rebotes",
      "player": "Brook Lopez",
      "team": "LAC",
@@ -130414,11 +130367,11 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       5.5,
       1.695
-     ],
-     "mean": 3.6
+     ]
     },
     {
      "kind": "prop",
@@ -130459,11 +130412,11 @@
        "n": 30
       }
      },
+     "mean": 4.1,
      "open": [
       4.5,
       1.871
-     ],
-     "mean": 4.1
+     ]
     },
     {
      "kind": "prop",
@@ -130504,11 +130457,11 @@
        "n": 30
       }
      },
+     "mean": 7.2,
      "open": [
       8.5,
       1.668
-     ],
-     "mean": 7.2
+     ]
     },
     {
      "kind": "prop",
@@ -130549,59 +130502,15 @@
        "n": 30
       }
      },
+     "mean": 12.8,
      "open": [
       9.5,
       1.792
      ],
-     "mean": 12.8,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
      }
-    },
-    {
-     "kind": "prop",
-     "label": "Coby White Under 14.5 Puntos",
-     "player": "Coby White",
-     "team": "CHA",
-     "line": 14.5,
-     "odds": -128,
-     "dec": 1.78,
-     "odds_assumed": false,
-     "p": 0.594,
-     "implied": 0.562,
-     "edge": 0.032,
-     "ev": 0.057,
-     "value": true,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.815,
-     "p_mkt": 0.52,
-     "cand": true,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 2,
-       "value": 23.0,
-       "lg": 27.1,
-       "n": 30
-      }
-     },
-     "open": [
-      14.5,
-      1.78
-     ],
-     "mean": 9.5
     },
     {
      "kind": "prop",
@@ -130642,11 +130551,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       5.5,
       1.598
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -130686,11 +130595,11 @@
        "n": 30
       }
      },
+     "mean": 3.0,
      "open": [
       3.5,
       1.955
-     ],
-     "mean": 3.0
+     ]
     },
     {
      "kind": "ml",
@@ -130823,11 +130732,11 @@
        "n": 30
       }
      },
+     "mean": 2.7,
      "open": [
       3.5,
       1.723
-     ],
-     "mean": 2.7
+     ]
     },
     {
      "kind": "prop",
@@ -130867,11 +130776,11 @@
        "n": 30
       }
      },
+     "mean": 3.2,
      "open": [
       3.5,
       1.898
-     ],
-     "mean": 3.2
+     ]
     },
     {
      "kind": "prop",
@@ -130911,11 +130820,11 @@
        "n": 30
       }
      },
+     "mean": 5.3,
      "open": [
       5.5,
       1.912
-     ],
-     "mean": 5.3
+     ]
     },
     {
      "kind": "prop",
@@ -130955,11 +130864,11 @@
        "n": 30
       }
      },
+     "mean": 13.7,
      "open": [
       14.5,
       1.861
-     ],
-     "mean": 13.7
+     ]
     },
     {
      "kind": "prop",
@@ -130999,11 +130908,11 @@
        "n": 30
       }
      },
+     "mean": 20.7,
      "open": [
       21.5,
       1.89
-     ],
-     "mean": 20.7
+     ]
     },
     {
      "kind": "prop",
@@ -131043,11 +130952,11 @@
        "n": 30
       }
      },
+     "mean": 16.6,
      "open": [
       17.5,
       1.812
-     ],
-     "mean": 16.6
+     ]
     },
     {
      "kind": "prop",
@@ -131087,11 +130996,11 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       4.5,
       1.852
-     ],
-     "mean": 4.2
+     ]
     },
     {
      "kind": "prop",
@@ -131131,11 +131040,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       4.5,
       2.016
-     ],
-     "mean": 4.8
+     ]
     },
     {
      "kind": "prop",
@@ -131175,11 +131084,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       11.5,
       1.855
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -131219,11 +131128,11 @@
        "n": 30
       }
      },
+     "mean": 10.7,
      "open": [
       10.5,
       1.855
-     ],
-     "mean": 10.7
+     ]
     },
     {
      "kind": "prop",
@@ -131263,11 +131172,11 @@
        "n": 30
       }
      },
+     "mean": 9.1,
      "open": [
       8.5,
       1.93
-     ],
-     "mean": 9.1
+     ]
     },
     {
      "kind": "prop",
@@ -131307,11 +131216,11 @@
        "n": 30
       }
      },
+     "mean": 6.9,
      "open": [
       7.5,
       1.634
-     ],
-     "mean": 6.9
+     ]
     },
     {
      "kind": "prop",
@@ -131351,11 +131260,11 @@
        "n": 30
       }
      },
+     "mean": 16.8,
      "open": [
       14.5,
       1.852
-     ],
-     "mean": 16.8
+     ]
     },
     {
      "kind": "prop",
@@ -131395,11 +131304,11 @@
        "n": 30
       }
      },
+     "mean": 9.8,
      "open": [
       9.5,
       1.808
-     ],
-     "mean": 9.8
+     ]
     },
     {
      "kind": "prop",
@@ -131439,11 +131348,11 @@
        "n": 30
       }
      },
+     "mean": 22.3,
      "open": [
       20.5,
       1.856
-     ],
-     "mean": 22.3
+     ]
     },
     {
      "kind": "prop",
@@ -131483,11 +131392,11 @@
        "n": 30
       }
      },
+     "mean": 22.3,
      "open": [
       20.5,
       1.848
-     ],
-     "mean": 22.3
+     ]
     },
     {
      "kind": "prop",
@@ -131527,11 +131436,11 @@
        "n": 30
       }
      },
+     "mean": 9.8,
      "open": [
       9.5,
       1.898
-     ],
-     "mean": 9.8
+     ]
     },
     {
      "kind": "spread",
@@ -131602,11 +131511,11 @@
        "n": 30
       }
      },
+     "mean": 16.8,
      "open": [
       14.5,
       1.852
-     ],
-     "mean": 16.8
+     ]
     },
     {
      "kind": "prop",
@@ -131646,11 +131555,11 @@
        "n": 30
       }
      },
+     "mean": 9.1,
      "open": [
       8.5,
       1.78
-     ],
-     "mean": 9.1
+     ]
     },
     {
      "kind": "total",
@@ -131752,11 +131661,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       11.5,
       1.848
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -131796,11 +131705,11 @@
        "n": 30
       }
      },
+     "mean": 10.7,
      "open": [
       10.5,
       1.848
-     ],
-     "mean": 10.7
+     ]
     },
     {
      "kind": "prop",
@@ -131840,11 +131749,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       4.5,
       1.712
-     ],
-     "mean": 4.8
+     ]
     },
     {
      "kind": "prop",
@@ -131884,11 +131793,11 @@
        "n": 30
       }
      },
+     "mean": 6.9,
      "open": [
       7.5,
       2.136
-     ],
-     "mean": 6.9
+     ]
     },
     {
      "kind": "prop",
@@ -131928,11 +131837,11 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       4.5,
       1.852
-     ],
-     "mean": 4.2
+     ]
     },
     {
      "kind": "prop",
@@ -131972,11 +131881,11 @@
        "n": 30
       }
      },
+     "mean": 16.6,
      "open": [
       17.5,
       1.894
-     ],
-     "mean": 16.6
+     ]
     },
     {
      "kind": "prop",
@@ -132016,11 +131925,11 @@
        "n": 30
       }
      },
+     "mean": 20.7,
      "open": [
       21.5,
       1.815
-     ],
-     "mean": 20.7
+     ]
     },
     {
      "kind": "prop",
@@ -132060,11 +131969,11 @@
        "n": 30
       }
      },
+     "mean": 13.7,
      "open": [
       14.5,
       1.843
-     ],
-     "mean": 13.7
+     ]
     },
     {
      "kind": "prop",
@@ -132104,11 +132013,11 @@
        "n": 30
       }
      },
+     "mean": 5.3,
      "open": [
       5.5,
       1.795
-     ],
-     "mean": 5.3
+     ]
     },
     {
      "kind": "prop",
@@ -132148,11 +132057,11 @@
        "n": 30
       }
      },
+     "mean": 3.2,
      "open": [
       3.5,
       1.808
-     ],
-     "mean": 3.2
+     ]
     },
     {
      "kind": "prop",
@@ -132192,11 +132101,11 @@
        "n": 30
       }
      },
+     "mean": 3.0,
      "open": [
       3.5,
       1.759
-     ],
-     "mean": 3.0
+     ]
     },
     {
      "kind": "prop",
@@ -132236,11 +132145,11 @@
        "n": 30
       }
      },
+     "mean": 4.1,
      "open": [
       3.5,
       1.576
-     ],
-     "mean": 4.1
+     ]
     },
     {
      "kind": "prop",
@@ -132280,11 +132189,11 @@
        "n": 30
       }
      },
+     "mean": 2.7,
      "open": [
       3.5,
       2.002
-     ],
-     "mean": 2.7
+     ]
     },
     {
      "kind": "prop",
@@ -132324,55 +132233,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       4.5,
       1.695
-     ],
-     "mean": 4.7
-    },
-    {
-     "kind": "prop",
-     "label": "Coby White Over 14.5 Puntos",
-     "player": "Coby White",
-     "team": "CHA",
-     "line": 14.5,
-     "odds": -108,
-     "dec": 1.93,
-     "odds_assumed": false,
-     "p": 0.406,
-     "implied": 0.518,
-     "edge": -0.112,
-     "ev": -0.216,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.185,
-     "p_mkt": 0.48,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 2,
-       "value": 23.0,
-       "lg": 27.1,
-       "n": 30
-      }
-     },
-     "open": [
-      14.5,
-      1.93
-     ],
-     "mean": 9.5
+     ]
     },
     {
      "kind": "prop",
@@ -132412,11 +132277,11 @@
        "n": 30
       }
      },
+     "mean": 12.8,
      "open": [
       10.5,
       1.757
      ],
-     "mean": 12.8,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
@@ -132460,11 +132325,11 @@
        "n": 30
       }
      },
+     "mean": 7.2,
      "open": [
       7.5,
       1.695
-     ],
-     "mean": 7.2
+     ]
     },
     {
      "kind": "prop",
@@ -132504,11 +132369,55 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       4.5,
       1.598
-     ],
-     "mean": 3.6
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Coby White Over 13.5 Puntos",
+     "player": "Coby White",
+     "team": "CHA",
+     "line": 13.5,
+     "odds": -132,
+     "dec": 1.757,
+     "odds_assumed": false,
+     "p": 0.22,
+     "implied": 0.569,
+     "edge": -0.349,
+     "ev": -0.613,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.22,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 2,
+       "value": 23.0,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 9.5,
+     "open": [
+      14.5,
+      1.93
+     ]
     }
    ],
    "wo": {
@@ -133124,11 +133033,11 @@
        "n": 30
       }
      },
+     "mean": 13.8,
      "open": [
       9.5,
       1.829
-     ],
-     "mean": 13.8
+     ]
     },
     {
      "kind": "prop",
@@ -133170,11 +133079,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       5.5,
       1.557
-     ],
-     "mean": 4.4
+     ]
     },
     {
      "kind": "prop",
@@ -133215,11 +133124,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       15.5,
       1.953
-     ],
-     "mean": 13.4
+     ]
     }
    ],
    "value_bets": [],
@@ -133655,11 +133564,11 @@
        "n": 30
       }
      },
+     "mean": 13.8,
      "open": [
       9.5,
       1.829
-     ],
-     "mean": 13.8
+     ]
     },
     {
      "kind": "prop",
@@ -133700,11 +133609,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       5.5,
       1.557
-     ],
-     "mean": 4.4
+     ]
     },
     {
      "kind": "prop",
@@ -133744,11 +133653,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       15.5,
       1.953
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "prop",
@@ -133788,11 +133697,11 @@
        "n": 30
       }
      },
+     "mean": 4.9,
      "open": [
       3.5,
       1.576
-     ],
-     "mean": 4.9
+     ]
     },
     {
      "kind": "total",
@@ -133863,11 +133772,11 @@
        "n": 30
       }
      },
+     "mean": 25.6,
      "open": [
       19.5,
       1.875
-     ],
-     "mean": 25.6
+     ]
     },
     {
      "kind": "spread",
@@ -133885,12 +133794,12 @@
      "value": false,
      "n_books": 9,
      "best": {
-      "book": "FanDuel",
-      "line": -16.5,
-      "odds": -112,
-      "dec": 1.893,
-      "p": 0.525,
-      "ev": -0.006
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": -15.5,
+      "odds": -114,
+      "dec": 1.877,
+      "p": 0.552,
+      "ev": 0.036
      },
      "p_model": 0.572,
      "p_mkt": 0.51,
@@ -133938,11 +133847,11 @@
        "n": 30
       }
      },
+     "mean": 5.1,
      "open": [
       4.5,
       1.814
-     ],
-     "mean": 5.1
+     ]
     },
     {
      "kind": "prop",
@@ -133982,11 +133891,11 @@
        "n": 30
       }
      },
+     "mean": 16.0,
      "open": [
       13.5,
       1.936
-     ],
-     "mean": 16.0
+     ]
     },
     {
      "kind": "ml",
@@ -133994,25 +133903,25 @@
      "player": null,
      "team": "SAS",
      "line": null,
-     "odds": -1599,
-     "dec": 1.063,
+     "odds": -1567,
+     "dec": 1.064,
      "odds_assumed": false,
-     "p": 0.906,
-     "implied": 0.941,
+     "p": 0.905,
+     "implied": 0.94,
      "edge": -0.035,
      "ev": -0.037,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "DraftKings",
+      "book": "scoresandodds (consenso 12:25 ET)",
       "line": null,
-      "odds": -1460,
-      "dec": 1.068,
-      "p": 0.906,
-      "ev": -0.032
+      "odds": -1340,
+      "dec": 1.075,
+      "p": 0.905,
+      "ev": -0.027
      },
      "p_model": 0.917,
-     "p_mkt": 0.902,
+     "p_mkt": 0.901,
      "cand": false,
      "open": [
       null,
@@ -134057,11 +133966,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       3.5,
       1.664
-     ],
-     "mean": 4.8
+     ]
     },
     {
      "kind": "prop",
@@ -134101,11 +134010,11 @@
        "n": 30
       }
      },
+     "mean": 10.7,
      "open": [
       11.5,
       1.739
-     ],
-     "mean": 10.7
+     ]
     },
     {
      "kind": "prop",
@@ -134145,11 +134054,11 @@
        "n": 30
       }
      },
+     "mean": 5.9,
      "open": [
       5.5,
       2.104
-     ],
-     "mean": 5.9
+     ]
     },
     {
      "kind": "prop",
@@ -134189,11 +134098,11 @@
        "n": 30
       }
      },
+     "mean": 27.1,
      "open": [
       27.5,
       1.829
-     ],
-     "mean": 27.1
+     ]
     },
     {
      "kind": "prop",
@@ -134233,11 +134142,11 @@
        "n": 30
       }
      },
+     "mean": 4.9,
      "open": [
       4.5,
       2.077
      ],
-     "mean": 4.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -134281,11 +134190,11 @@
        "n": 30
       }
      },
+     "mean": 18.9,
      "open": [
       18.5,
       1.911
      ],
-     "mean": 18.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -134329,11 +134238,11 @@
        "n": 30
       }
      },
+     "mean": 15.4,
      "open": [
       15.5,
       1.814
-     ],
-     "mean": 15.4
+     ]
     },
     {
      "kind": "prop",
@@ -134373,11 +134282,11 @@
        "n": 30
       }
      },
+     "mean": 3.4,
      "open": [
       3.5,
       1.731
-     ],
-     "mean": 3.4
+     ]
     },
     {
      "kind": "prop",
@@ -134417,11 +134326,11 @@
        "n": 30
       }
      },
+     "mean": 15.5,
      "open": [
       13.5,
       1.852
-     ],
-     "mean": 15.5
+     ]
     },
     {
      "kind": "prop",
@@ -134461,11 +134370,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       4.5,
       1.664
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -134505,11 +134414,11 @@
        "n": 30
       }
      },
+     "mean": 3.7,
      "open": [
       3.5,
       1.877
-     ],
-     "mean": 3.7
+     ]
     },
     {
      "kind": "prop",
@@ -134549,11 +134458,11 @@
        "n": 30
       }
      },
+     "mean": 10.0,
      "open": [
       9.5,
       1.78
-     ],
-     "mean": 10.0
+     ]
     },
     {
      "kind": "prop",
@@ -134593,11 +134502,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       4.5,
       2.148
-     ],
-     "mean": 5.6
+     ]
     },
     {
      "kind": "prop",
@@ -134637,11 +134546,11 @@
        "n": 30
       }
      },
+     "mean": 7.7,
      "open": [
       7.5,
       1.74
-     ],
-     "mean": 7.7
+     ]
     },
     {
      "kind": "prop",
@@ -134681,11 +134590,11 @@
        "n": 30
       }
      },
+     "mean": 12.2,
      "open": [
       11.5,
       1.815
-     ],
-     "mean": 12.2
+     ]
     },
     {
      "kind": "prop",
@@ -134725,11 +134634,11 @@
        "n": 30
       }
      },
+     "mean": 5.1,
      "open": [
       5.5,
       1.55
-     ],
-     "mean": 5.1
+     ]
     },
     {
      "kind": "spread",
@@ -134760,37 +134669,6 @@
      "open": [
       16.5,
       1.947
-     ]
-    },
-    {
-     "kind": "ml",
-     "label": "UTA gana",
-     "player": null,
-     "team": "UTA",
-     "line": null,
-     "odds": 880,
-     "dec": 9.8,
-     "odds_assumed": false,
-     "p": 0.094,
-     "implied": 0.102,
-     "edge": -0.008,
-     "ev": -0.077,
-     "value": false,
-     "n_books": 9,
-     "best": {
-      "book": "Fanatics",
-      "line": null,
-      "odds": 900,
-      "dec": 10.0,
-      "p": 0.094,
-      "ev": -0.06
-     },
-     "p_model": 0.083,
-     "p_mkt": 0.098,
-     "cand": false,
-     "open": [
-      null,
-      9.8
      ]
     },
     {
@@ -134831,11 +134709,42 @@
        "n": 30
       }
      },
+     "mean": 12.2,
      "open": [
       11.5,
       1.89
-     ],
-     "mean": 12.2
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "UTA gana",
+     "player": null,
+     "team": "UTA",
+     "line": null,
+     "odds": 873,
+     "dec": 9.73,
+     "odds_assumed": false,
+     "p": 0.095,
+     "implied": 0.103,
+     "edge": -0.008,
+     "ev": -0.079,
+     "value": false,
+     "n_books": 10,
+     "best": {
+      "book": "Fanatics",
+      "line": null,
+      "odds": 900,
+      "dec": 10.0,
+      "p": 0.095,
+      "ev": -0.05
+     },
+     "p_model": 0.083,
+     "p_mkt": 0.099,
+     "cand": false,
+     "open": [
+      null,
+      9.8
+     ]
     },
     {
      "kind": "prop",
@@ -134875,11 +134784,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       4.5,
       1.628
-     ],
-     "mean": 5.6
+     ]
     },
     {
      "kind": "prop",
@@ -134919,11 +134828,11 @@
        "n": 30
       }
      },
+     "mean": 7.7,
      "open": [
       7.5,
       1.979
-     ],
-     "mean": 7.7
+     ]
     },
     {
      "kind": "prop",
@@ -134963,11 +134872,11 @@
        "n": 30
       }
      },
+     "mean": 10.0,
      "open": [
       9.5,
       1.93
-     ],
-     "mean": 10.0
+     ]
     },
     {
      "kind": "prop",
@@ -135007,11 +134916,11 @@
        "n": 30
       }
      },
+     "mean": 3.7,
      "open": [
       3.5,
       1.828
-     ],
-     "mean": 3.7
+     ]
     },
     {
      "kind": "prop",
@@ -135051,11 +134960,11 @@
        "n": 30
       }
      },
+     "mean": 15.5,
      "open": [
       13.5,
       1.852
-     ],
-     "mean": 15.5
+     ]
     },
     {
      "kind": "prop",
@@ -135095,11 +135004,11 @@
        "n": 30
       }
      },
+     "mean": 3.4,
      "open": [
       3.5,
       1.99
-     ],
-     "mean": 3.4
+     ]
     },
     {
      "kind": "prop",
@@ -135139,11 +135048,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       4.5,
       2.087
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -135183,11 +135092,11 @@
        "n": 30
       }
      },
+     "mean": 4.9,
      "open": [
       4.5,
       1.67
      ],
-     "mean": 4.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -135231,11 +135140,11 @@
        "n": 30
       }
      },
+     "mean": 15.4,
      "open": [
       15.5,
       1.891
-     ],
-     "mean": 15.4
+     ]
     },
     {
      "kind": "prop",
@@ -135275,11 +135184,11 @@
        "n": 30
       }
      },
+     "mean": 18.9,
      "open": [
       18.5,
       1.796
      ],
-     "mean": 18.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -135323,11 +135232,11 @@
        "n": 30
       }
      },
+     "mean": 5.9,
      "open": [
       5.5,
       1.654
-     ],
-     "mean": 5.9
+     ]
     },
     {
      "kind": "total",
@@ -135345,12 +135254,12 @@
      "value": false,
      "n_books": 5,
      "best": {
-      "book": "BetMGM",
-      "line": 223.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.473,
-      "ev": -0.097
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": 225.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.512,
+      "ev": -0.043
      },
      "p_model": 0.387,
      "p_mkt": 0.501,
@@ -135398,11 +135307,11 @@
        "n": 30
       }
      },
+     "mean": 27.1,
      "open": [
       27.5,
       1.875
-     ],
-     "mean": 27.1
+     ]
     },
     {
      "kind": "prop",
@@ -135442,11 +135351,11 @@
        "n": 30
       }
      },
+     "mean": 16.0,
      "open": [
       13.5,
       1.774
-     ],
-     "mean": 16.0
+     ]
     },
     {
      "kind": "prop",
@@ -135486,11 +135395,11 @@
        "n": 30
       }
      },
+     "mean": 10.7,
      "open": [
       11.5,
       1.98
-     ],
-     "mean": 10.7
+     ]
     },
     {
      "kind": "prop",
@@ -135530,11 +135439,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       3.5,
       2.087
-     ],
-     "mean": 4.8
+     ]
     },
     {
      "kind": "prop",
@@ -135574,11 +135483,11 @@
        "n": 30
       }
      },
+     "mean": 25.6,
      "open": [
       19.5,
       1.829
-     ],
-     "mean": 25.6
+     ]
     },
     {
      "kind": "prop",
@@ -135618,11 +135527,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       15.5,
       1.761
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "prop",
@@ -135662,11 +135571,11 @@
        "n": 30
       }
      },
+     "mean": 4.9,
      "open": [
       4.5,
       1.598
-     ],
-     "mean": 4.9
+     ]
     },
     {
      "kind": "prop",
@@ -135706,11 +135615,11 @@
        "n": 30
       }
      },
+     "mean": 4.4,
      "open": [
       4.5,
       1.695
-     ],
-     "mean": 4.4
+     ]
     },
     {
      "kind": "prop",
@@ -135750,11 +135659,11 @@
        "n": 30
       }
      },
+     "mean": 13.8,
      "open": [
       10.5,
       1.668
-     ],
-     "mean": 13.8
+     ]
     }
    ],
    "wo": {
@@ -136792,11 +136701,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       6.5,
       1.725
      ],
-     "mean": 4.8,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -136842,11 +136751,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       27.5,
       1.763
-     ],
-     "mean": 22.7
+     ]
     },
     {
      "kind": "prop",
@@ -136888,11 +136797,11 @@
        "n": 30
       }
      },
+     "mean": 10.5,
      "open": [
       12.5,
       1.685
-     ],
-     "mean": 10.5
+     ]
     }
    ],
    "value_bets": [],
@@ -137534,11 +137443,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       6.5,
       1.725
      ],
-     "mean": 4.8,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -137583,11 +137492,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       27.5,
       1.763
-     ],
-     "mean": 22.7
+     ]
     },
     {
      "kind": "prop",
@@ -137628,11 +137537,11 @@
        "n": 30
       }
      },
+     "mean": 10.5,
      "open": [
       12.5,
       1.685
-     ],
-     "mean": 10.5
+     ]
     },
     {
      "kind": "prop",
@@ -137673,11 +137582,11 @@
        "n": 30
       }
      },
+     "mean": 17.5,
      "open": [
       13.5,
       1.792
-     ],
-     "mean": 17.5
+     ]
     },
     {
      "kind": "prop",
@@ -137717,11 +137626,11 @@
        "n": 30
       }
      },
+     "mean": 14.0,
      "open": [
       14.5,
       1.719
-     ],
-     "mean": 14.0
+     ]
     },
     {
      "kind": "prop",
@@ -137761,11 +137670,11 @@
        "n": 30
       }
      },
+     "mean": 7.9,
      "open": [
       8.5,
       1.668
-     ],
-     "mean": 7.9
+     ]
     },
     {
      "kind": "prop",
@@ -137805,11 +137714,11 @@
        "n": 30
       }
      },
+     "mean": 8.1,
      "open": [
       6.5,
       1.643
-     ],
-     "mean": 8.1
+     ]
     },
     {
      "kind": "total",
@@ -137849,14 +137758,14 @@
      "team": "BOS",
      "line": -13.5,
      "odds": -112,
-     "dec": 1.896,
+     "dec": 1.897,
      "odds_assumed": false,
      "p": 0.521,
      "implied": 0.527,
      "edge": -0.006,
      "ev": -0.012,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "BetMGM",
       "line": -13.5,
@@ -137911,11 +137820,11 @@
        "n": 30
       }
      },
+     "mean": 23.5,
      "open": [
       22.5,
       1.862
-     ],
-     "mean": 23.5
+     ]
     },
     {
      "kind": "prop",
@@ -137955,11 +137864,11 @@
        "n": 30
       }
      },
+     "mean": 7.8,
      "open": [
       6.5,
       1.953
-     ],
-     "mean": 7.8
+     ]
     },
     {
      "kind": "prop",
@@ -137999,11 +137908,11 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       3.5,
       2.009
-     ],
-     "mean": 4.2
+     ]
     },
     {
      "kind": "prop",
@@ -138043,11 +137952,11 @@
        "n": 30
       }
      },
+     "mean": 19.9,
      "open": [
       19.5,
       1.778
-     ],
-     "mean": 19.9
+     ]
     },
     {
      "kind": "prop",
@@ -138087,11 +137996,11 @@
        "n": 30
       }
      },
+     "mean": 9.4,
      "open": [
       9.5,
       1.906
-     ],
-     "mean": 9.4
+     ]
     },
     {
      "kind": "ml",
@@ -138099,22 +138008,22 @@
      "player": null,
      "team": "BOS",
      "line": null,
-     "odds": -797,
-     "dec": 1.125,
+     "odds": -792,
+     "dec": 1.126,
      "odds_assumed": false,
-     "p": 0.859,
-     "implied": 0.889,
+     "p": 0.858,
+     "implied": 0.888,
      "edge": -0.03,
      "ev": -0.034,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "Hard Rock Bet",
       "line": null,
       "odds": -750,
       "dec": 1.133,
-      "p": 0.859,
-      "ev": -0.027
+      "p": 0.858,
+      "ev": -0.028
      },
      "p_model": 0.881,
      "p_mkt": 0.851,
@@ -138162,11 +138071,11 @@
        "n": 30
       }
      },
+     "mean": 3.5,
      "open": [
       3.5,
       1.889
      ],
-     "mean": 3.5,
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 11 partidos esta temporada"
@@ -138210,11 +138119,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       4.5,
       1.904
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -138254,11 +138163,11 @@
        "n": 30
       }
      },
+     "mean": 11.6,
      "open": [
       10.5,
       1.906
-     ],
-     "mean": 11.6
+     ]
     },
     {
      "kind": "prop",
@@ -138298,11 +138207,11 @@
        "n": 30
       }
      },
+     "mean": 6.1,
      "open": [
       5.5,
       1.912
-     ],
-     "mean": 6.1
+     ]
     },
     {
      "kind": "prop",
@@ -138342,11 +138251,11 @@
        "n": 30
       }
      },
+     "mean": 6.6,
      "open": [
       6.5,
       1.745
-     ],
-     "mean": 6.6
+     ]
     },
     {
      "kind": "prop",
@@ -138386,11 +138295,11 @@
        "n": 30
       }
      },
+     "mean": 6.6,
      "open": [
       6.5,
       1.973
-     ],
-     "mean": 6.6
+     ]
     },
     {
      "kind": "spread",
@@ -138399,14 +138308,14 @@
      "team": "DAL",
      "line": 13.5,
      "odds": -109,
-     "dec": 1.921,
+     "dec": 1.92,
      "odds_assumed": false,
      "p": 0.479,
      "implied": 0.521,
      "edge": -0.042,
      "ev": -0.08,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "Caesars",
       "line": 14.0,
@@ -138461,11 +138370,11 @@
        "n": 30
       }
      },
+     "mean": 7.9,
      "open": [
       7.5,
       1.917
-     ],
-     "mean": 7.9
+     ]
     },
     {
      "kind": "prop",
@@ -138505,11 +138414,11 @@
        "n": 30
       }
      },
+     "mean": 6.1,
      "open": [
       5.5,
       1.795
-     ],
-     "mean": 6.1
+     ]
     },
     {
      "kind": "prop",
@@ -138549,11 +138458,11 @@
        "n": 30
       }
      },
+     "mean": 23.5,
      "open": [
       21.5,
       1.814
-     ],
-     "mean": 23.5
+     ]
     },
     {
      "kind": "prop",
@@ -138593,11 +138502,11 @@
        "n": 30
       }
      },
+     "mean": 11.6,
      "open": [
       10.5,
       1.801
-     ],
-     "mean": 11.6
+     ]
     },
     {
      "kind": "prop",
@@ -138637,11 +138546,11 @@
        "n": 30
       }
      },
+     "mean": 21.3,
      "open": [
       20.5,
       1.713
      ],
-     "mean": 21.3,
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 11 partidos esta temporada"
@@ -138663,12 +138572,12 @@
      "value": false,
      "n_books": 9,
      "best": {
-      "book": "BetMGM",
-      "line": 217.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.477,
-      "ev": -0.089
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": 219.5,
+      "odds": -113,
+      "dec": 1.885,
+      "p": 0.518,
+      "ev": -0.024
      },
      "p_model": 0.408,
      "p_mkt": 0.5,
@@ -138684,22 +138593,22 @@
      "player": null,
      "team": "DAL",
      "line": null,
-     "odds": 543,
-     "dec": 6.426,
+     "odds": 541,
+     "dec": 6.413,
      "odds_assumed": false,
-     "p": 0.141,
+     "p": 0.142,
      "implied": 0.156,
      "edge": -0.014,
      "ev": -0.091,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "DraftKings",
       "line": null,
       "odds": 558,
       "dec": 6.58,
-      "p": 0.141,
-      "ev": -0.072
+      "p": 0.142,
+      "ev": -0.066
      },
      "p_model": 0.119,
      "p_mkt": 0.149,
@@ -138747,11 +138656,11 @@
        "n": 30
       }
      },
+     "mean": 4.7,
      "open": [
       4.5,
       1.802
-     ],
-     "mean": 4.7
+     ]
     },
     {
      "kind": "prop",
@@ -138791,11 +138700,11 @@
        "n": 30
       }
      },
+     "mean": 21.3,
      "open": [
       19.5,
       1.792
      ],
-     "mean": 21.3,
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 11 partidos esta temporada"
@@ -138839,11 +138748,11 @@
        "n": 30
       }
      },
+     "mean": 3.5,
      "open": [
       3.5,
       1.816
      ],
-     "mean": 3.5,
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 11 partidos esta temporada"
@@ -138887,11 +138796,11 @@
        "n": 30
       }
      },
+     "mean": 9.4,
      "open": [
       9.5,
       1.801
-     ],
-     "mean": 9.4
+     ]
     },
     {
      "kind": "prop",
@@ -138931,11 +138840,11 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       3.5,
       1.717
-     ],
-     "mean": 4.2
+     ]
     },
     {
      "kind": "prop",
@@ -138975,11 +138884,11 @@
        "n": 30
       }
      },
+     "mean": 7.8,
      "open": [
       6.5,
       1.761
-     ],
-     "mean": 7.8
+     ]
     },
     {
      "kind": "prop",
@@ -139019,11 +138928,11 @@
        "n": 30
       }
      },
+     "mean": 8.1,
      "open": [
       7.5,
       1.757
-     ],
-     "mean": 8.1
+     ]
     },
     {
      "kind": "prop",
@@ -139063,11 +138972,11 @@
        "n": 30
       }
      },
+     "mean": 19.9,
      "open": [
       18.5,
       1.725
-     ],
-     "mean": 19.9
+     ]
     },
     {
      "kind": "prop",
@@ -139107,11 +139016,11 @@
        "n": 30
       }
      },
+     "mean": 14.0,
      "open": [
       13.5,
       1.822
-     ],
-     "mean": 14.0
+     ]
     },
     {
      "kind": "prop",
@@ -139151,11 +139060,11 @@
        "n": 30
       }
      },
+     "mean": 17.5,
      "open": [
       14.5,
       1.685
-     ],
-     "mean": 17.5
+     ]
     },
     {
      "kind": "prop",
@@ -139195,11 +139104,11 @@
        "n": 30
       }
      },
+     "mean": 10.5,
      "open": [
       11.5,
       1.871
-     ],
-     "mean": 10.5
+     ]
     },
     {
      "kind": "prop",
@@ -139239,11 +139148,11 @@
        "n": 30
       }
      },
+     "mean": 4.8,
      "open": [
       5.5,
       1.799
      ],
-     "mean": 4.8,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -139287,11 +139196,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       26.5,
       1.792
-     ],
-     "mean": 22.7
+     ]
     }
    ],
    "wo": {
@@ -142665,11 +142574,11 @@
        "n": 30
       }
      },
+     "mean": 13.2,
      "open": [
       16.5,
       1.757
      ],
-     "mean": 13.2,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 9 partidos esta temporada"
@@ -142715,11 +142624,11 @@
        "n": 30
       }
      },
+     "mean": 8.8,
      "open": [
       10.5,
       1.792
-     ],
-     "mean": 8.8
+     ]
     },
     {
      "kind": "prop",
@@ -142761,11 +142670,11 @@
        "n": 30
       }
      },
+     "mean": 12.3,
      "open": [
       8.5,
       1.643
-     ],
-     "mean": 12.3
+     ]
     }
    ],
    "value_bets": [],
@@ -143101,11 +143010,11 @@
        "n": 30
       }
      },
+     "mean": 13.2,
      "open": [
       16.5,
       1.757
      ],
-     "mean": 13.2,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 9 partidos esta temporada"
@@ -143150,11 +143059,11 @@
        "n": 30
       }
      },
+     "mean": 8.8,
      "open": [
       10.5,
       1.792
-     ],
-     "mean": 8.8
+     ]
     },
     {
      "kind": "prop",
@@ -143195,11 +143104,11 @@
        "n": 30
       }
      },
+     "mean": 12.3,
      "open": [
       8.5,
       1.643
-     ],
-     "mean": 12.3
+     ]
     },
     {
      "kind": "prop",
@@ -143240,11 +143149,11 @@
        "n": 30
       }
      },
+     "mean": 12.2,
      "open": [
       14.5,
       1.77
-     ],
-     "mean": 12.2
+     ]
     },
     {
      "kind": "prop",
@@ -143285,11 +143194,11 @@
        "n": 30
       }
      },
+     "mean": 6.4,
      "open": [
       4.5,
       1.643
-     ],
-     "mean": 6.4
+     ]
     },
     {
      "kind": "prop",
@@ -143330,11 +143239,11 @@
        "n": 30
       }
      },
+     "mean": 13.3,
      "open": [
       9.5,
       1.668
-     ],
-     "mean": 13.3
+     ]
     },
     {
      "kind": "prop",
@@ -143375,11 +143284,11 @@
        "n": 30
       }
      },
+     "mean": 22.0,
      "open": [
       22.5,
       1.829
-     ],
-     "mean": 22.0
+     ]
     },
     {
      "kind": "prop",
@@ -143420,11 +143329,11 @@
        "n": 30
       }
      },
+     "mean": 7.6,
      "open": [
       5.5,
       1.62
-     ],
-     "mean": 7.6
+     ]
     },
     {
      "kind": "prop",
@@ -143464,11 +143373,11 @@
        "n": 30
       }
      },
+     "mean": 16.0,
      "open": [
       13.5,
       1.814
-     ],
-     "mean": 16.0
+     ]
     },
     {
      "kind": "prop",
@@ -143508,11 +143417,42 @@
        "n": 30
       }
      },
+     "mean": 2.9,
      "open": [
       3.5,
       1.852
-     ],
-     "mean": 2.9
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "HOU -8.5",
+     "player": null,
+     "team": "HOU",
+     "line": -8.5,
+     "odds": -112,
+     "dec": 1.893,
+     "odds_assumed": false,
+     "p": 0.53,
+     "implied": 0.528,
+     "edge": 0.001,
+     "ev": 0.003,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": -8.5,
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.53,
+      "ev": 0.003
+     },
+     "p_model": 0.606,
+     "p_mkt": 0.504,
+     "cand": false,
+     "open": [
+      -9.5,
+      1.952
+     ]
     },
     {
      "kind": "prop",
@@ -143552,11 +143492,11 @@
        "n": 30
       }
      },
+     "mean": 11.0,
      "open": [
       9.5,
       1.757
-     ],
-     "mean": 11.0
+     ]
     },
     {
      "kind": "prop",
@@ -143596,11 +143536,11 @@
        "n": 30
       }
      },
+     "mean": 24.2,
      "open": [
       21.5,
       1.846
-     ],
-     "mean": 24.2
+     ]
     },
     {
      "kind": "prop",
@@ -143640,41 +143580,10 @@
        "n": 30
       }
      },
+     "mean": 17.2,
      "open": [
       17.5,
       1.757
-     ],
-     "mean": 17.2
-    },
-    {
-     "kind": "spread",
-     "label": "HOU -9.5",
-     "player": null,
-     "team": "HOU",
-     "line": -9.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.511,
-     "implied": 0.512,
-     "edge": -0.001,
-     "ev": -0.003,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso ~11:40 ET)",
-      "line": -9.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.511,
-      "ev": -0.003
-     },
-     "p_model": 0.579,
-     "p_mkt": 0.488,
-     "cand": false,
-     "open": [
-      -9.5,
-      1.952
      ]
     },
     {
@@ -143746,11 +143655,11 @@
        "n": 30
       }
      },
+     "mean": 20.1,
      "open": [
       17.5,
       1.829
-     ],
-     "mean": 20.1
+     ]
     },
     {
      "kind": "prop",
@@ -143790,11 +143699,42 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       12.5,
       1.725
-     ],
-     "mean": 12.5
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "HOU gana",
+     "player": null,
+     "team": "HOU",
+     "line": null,
+     "odds": -380,
+     "dec": 1.263,
+     "odds_assumed": false,
+     "p": 0.774,
+     "implied": 0.792,
+     "edge": -0.018,
+     "ev": -0.023,
+     "value": false,
+     "n_books": 2,
+     "best": {
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": null,
+      "odds": -359,
+      "dec": 1.279,
+      "p": 0.774,
+      "ev": -0.01
+     },
+     "p_model": 0.812,
+     "p_mkt": 0.761,
+     "cand": false,
+     "open": [
+      null,
+      1.247
+     ]
     },
     {
      "kind": "prop",
@@ -143834,41 +143774,10 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       6.5,
       1.843
-     ],
-     "mean": 8.0
-    },
-    {
-     "kind": "ml",
-     "label": "HOU gana",
-     "player": null,
-     "team": "HOU",
-     "line": null,
-     "odds": -405,
-     "dec": 1.247,
-     "odds_assumed": false,
-     "p": 0.781,
-     "implied": 0.802,
-     "edge": -0.021,
-     "ev": -0.026,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso ~11:40 ET)",
-      "line": null,
-      "odds": -405,
-      "dec": 1.247,
-      "p": 0.781,
-      "ev": -0.026
-     },
-     "p_model": 0.812,
-     "p_mkt": 0.771,
-     "cand": false,
-     "open": [
-      null,
-      1.247
      ]
     },
     {
@@ -143909,11 +143818,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       7.5,
       1.757
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -143953,11 +143862,11 @@
        "n": 30
       }
      },
+     "mean": 23.4,
      "open": [
       20.5,
       1.878
-     ],
-     "mean": 23.4
+     ]
     },
     {
      "kind": "prop",
@@ -143997,11 +143906,11 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       6.5,
       1.739
-     ],
-     "mean": 8.0
+     ]
     },
     {
      "kind": "prop",
@@ -144041,11 +143950,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       5.5,
       1.77
      ],
-     "mean": 5.6,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 9 partidos esta temporada"
@@ -144089,11 +143998,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       4.5,
       1.576
      ],
-     "mean": 5.6,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 9 partidos esta temporada"
@@ -144137,11 +144046,11 @@
        "n": 30
       }
      },
+     "mean": 16.2,
      "open": [
       14.5,
       1.815
-     ],
-     "mean": 16.2
+     ]
     },
     {
      "kind": "prop",
@@ -144181,41 +144090,10 @@
        "n": 30
       }
      },
+     "mean": 4.5,
      "open": [
       4.5,
       1.668
-     ],
-     "mean": 4.5
-    },
-    {
-     "kind": "ml",
-     "label": "WAS gana",
-     "player": null,
-     "team": "WAS",
-     "line": null,
-     "odds": 319,
-     "dec": 4.19,
-     "odds_assumed": false,
-     "p": 0.219,
-     "implied": 0.239,
-     "edge": -0.02,
-     "ev": -0.082,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso ~11:40 ET)",
-      "line": null,
-      "odds": 319,
-      "dec": 4.19,
-      "p": 0.219,
-      "ev": -0.082
-     },
-     "p_model": 0.188,
-     "p_mkt": 0.229,
-     "cand": false,
-     "open": [
-      null,
-      4.19
      ]
     },
     {
@@ -144256,11 +144134,11 @@
        "n": 30
       }
      },
+     "mean": 16.2,
      "open": [
       14.5,
       1.89
-     ],
-     "mean": 16.2
+     ]
     },
     {
      "kind": "prop",
@@ -144300,11 +144178,11 @@
        "n": 30
       }
      },
+     "mean": 4.5,
      "open": [
       3.5,
       1.539
-     ],
-     "mean": 4.5
+     ]
     },
     {
      "kind": "total",
@@ -144322,12 +144200,12 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso ~11:40 ET)",
-      "line": 222.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.478,
-      "ev": -0.087
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": 223.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.499,
+      "ev": -0.067
      },
      "p_model": 0.413,
      "p_mkt": 0.5,
@@ -144338,18 +144216,49 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "WAS +9.5",
+     "kind": "ml",
+     "label": "WAS gana",
      "player": null,
      "team": "WAS",
-     "line": 9.5,
-     "odds": -116,
-     "dec": 1.862,
+     "line": null,
+     "odds": 303,
+     "dec": 4.025,
      "odds_assumed": false,
-     "p": 0.489,
-     "implied": 0.537,
-     "edge": -0.048,
-     "ev": -0.089,
+     "p": 0.226,
+     "implied": 0.248,
+     "edge": -0.022,
+     "ev": -0.09,
+     "value": false,
+     "n_books": 2,
+     "best": {
+      "book": "scoresandodds (consenso ~11:40 ET)",
+      "line": null,
+      "odds": 319,
+      "dec": 4.19,
+      "p": 0.226,
+      "ev": -0.053
+     },
+     "p_model": 0.188,
+     "p_mkt": 0.239,
+     "cand": false,
+     "open": [
+      null,
+      4.19
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "WAS +8.5",
+     "player": null,
+     "team": "WAS",
+     "line": 8.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.47,
+     "implied": 0.519,
+     "edge": -0.049,
+     "ev": -0.094,
      "value": false,
      "n_books": 1,
      "best": {
@@ -144357,11 +144266,11 @@
       "line": 9.5,
       "odds": -116,
       "dec": 1.862,
-      "p": 0.489,
-      "ev": -0.089
+      "p": 0.497,
+      "ev": -0.075
      },
-     "p_model": 0.421,
-     "p_mkt": 0.512,
+     "p_model": 0.394,
+     "p_mkt": 0.496,
      "cand": false,
      "open": [
       9.5,
@@ -144406,11 +144315,11 @@
        "n": 30
       }
      },
+     "mean": 20.1,
      "open": [
       18.5,
       1.822
-     ],
-     "mean": 20.1
+     ]
     },
     {
      "kind": "prop",
@@ -144450,11 +144359,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       6.5,
       1.598
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -144494,11 +144403,11 @@
        "n": 30
       }
      },
+     "mean": 23.4,
      "open": [
       20.5,
       1.827
-     ],
-     "mean": 23.4
+     ]
     },
     {
      "kind": "prop",
@@ -144538,11 +144447,11 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       6.5,
       1.98
-     ],
-     "mean": 8.0
+     ]
     },
     {
      "kind": "prop",
@@ -144582,11 +144491,11 @@
        "n": 30
       }
      },
+     "mean": 24.2,
      "open": [
       22.5,
       1.814
-     ],
-     "mean": 24.2
+     ]
     },
     {
      "kind": "prop",
@@ -144626,11 +144535,11 @@
        "n": 30
       }
      },
+     "mean": 16.0,
      "open": [
       14.5,
       1.792
-     ],
-     "mean": 16.0
+     ]
     },
     {
      "kind": "prop",
@@ -144670,11 +144579,11 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       6.5,
       1.861
-     ],
-     "mean": 8.0
+     ]
     },
     {
      "kind": "prop",
@@ -144714,11 +144623,11 @@
        "n": 30
       }
      },
+     "mean": 2.9,
      "open": [
       3.5,
       1.852
-     ],
-     "mean": 2.9
+     ]
     },
     {
      "kind": "prop",
@@ -144758,11 +144667,11 @@
        "n": 30
       }
      },
+     "mean": 17.2,
      "open": [
       16.5,
       1.757
-     ],
-     "mean": 17.2
+     ]
     },
     {
      "kind": "prop",
@@ -144802,11 +144711,11 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       11.5,
       1.725
-     ],
-     "mean": 12.5
+     ]
     },
     {
      "kind": "prop",
@@ -144846,11 +144755,11 @@
        "n": 30
       }
      },
+     "mean": 11.0,
      "open": [
       10.5,
       1.638
-     ],
-     "mean": 11.0
+     ]
     },
     {
      "kind": "prop",
@@ -144890,11 +144799,11 @@
        "n": 30
       }
      },
+     "mean": 22.0,
      "open": [
       21.5,
       1.814
-     ],
-     "mean": 22.0
+     ]
     },
     {
      "kind": "prop",
@@ -144934,11 +144843,11 @@
        "n": 30
       }
      },
+     "mean": 7.6,
      "open": [
       6.5,
       1.725
-     ],
-     "mean": 7.6
+     ]
     },
     {
      "kind": "prop",
@@ -144978,11 +144887,11 @@
        "n": 30
       }
      },
+     "mean": 6.4,
      "open": [
       5.5,
       1.757
-     ],
-     "mean": 6.4
+     ]
     },
     {
      "kind": "prop",
@@ -145022,11 +144931,11 @@
        "n": 30
       }
      },
+     "mean": 13.3,
      "open": [
       10.5,
       1.792
-     ],
-     "mean": 13.3
+     ]
     },
     {
      "kind": "prop",
@@ -145066,11 +144975,11 @@
        "n": 30
       }
      },
+     "mean": 8.8,
      "open": [
       9.5,
       1.792
-     ],
-     "mean": 8.8
+     ]
     },
     {
      "kind": "prop",
@@ -145110,11 +145019,11 @@
        "n": 30
       }
      },
+     "mean": 12.2,
      "open": [
       13.5,
       1.757
-     ],
-     "mean": 12.2
+     ]
     },
     {
      "kind": "prop",
@@ -145154,11 +145063,11 @@
        "n": 30
       }
      },
+     "mean": 13.2,
      "open": [
       15.5,
       1.897
      ],
-     "mean": 13.2,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 9 partidos esta temporada"
@@ -145202,11 +145111,11 @@
        "n": 30
       }
      },
+     "mean": 12.3,
      "open": [
       9.5,
       1.829
-     ],
-     "mean": 12.3
+     ]
     }
    ],
    "wo": {
@@ -145906,8 +145815,54 @@
    },
    "proj_total": 230.5,
    "used_db": true,
-   "n_value": 1,
+   "n_value": 0,
    "top_bets": [
+    {
+     "kind": "prop",
+     "label": "Onyeka Okongwu Under 13.5 Puntos",
+     "player": "Onyeka Okongwu",
+     "team": "ATL",
+     "line": 13.5,
+     "odds": -115,
+     "dec": 1.871,
+     "odds_assumed": false,
+     "p": 0.712,
+     "implied": 0.535,
+     "fair": -247,
+     "edge": 0.178,
+     "ev": 0.332,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.712,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 25.8,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 10.9,
+     "open": [
+      13.5,
+      1.912
+     ]
+    },
     {
      "kind": "prop",
      "label": "Kyle Kuzma Under 5.5 Rebotes",
@@ -145948,11 +145903,11 @@
        "n": 30
       }
      },
+     "mean": 3.8,
      "open": [
       5.5,
       1.58
-     ],
-     "mean": 3.8
+     ]
     },
     {
      "kind": "prop",
@@ -145994,106 +145949,14 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       6.5,
       1.725
-     ],
-     "mean": 5.8
-    },
-    {
-     "kind": "prop",
-     "label": "Kyle Kuzma Under 12.5 Puntos",
-     "player": "Kyle Kuzma",
-     "team": "MIL",
-     "line": 12.5,
-     "odds": -130,
-     "dec": 1.77,
-     "odds_assumed": false,
-     "p": 0.61,
-     "implied": 0.565,
-     "fair": -156,
-     "edge": 0.045,
-     "ev": 0.08,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -118,
-     "dec_ref": 1.847,
-     "p_model": 0.61,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 21,
-       "value": 25.0,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "open": [
-      12.5,
-      1.77
-     ],
-     "mean": 11.7
+     ]
     }
    ],
-   "value_bets": [
-    {
-     "kind": "prop",
-     "label": "Onyeka Okongwu Under 13.5 Puntos",
-     "player": "Onyeka Okongwu",
-     "team": "ATL",
-     "line": 13.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.541,
-     "implied": 0.523,
-     "fair": -118,
-     "edge": 0.018,
-     "ev": 0.035,
-     "value": true,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.712,
-     "p_mkt": 0.484,
-     "cand": true,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 25.8,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "open": [
-      13.5,
-      1.912
-     ],
-     "mean": 10.9
-    }
-   ],
+   "value_bets": [],
    "parlays": [],
    "model_picks": [
     {
@@ -146306,6 +146169,51 @@
    "all_bets": [
     {
      "kind": "prop",
+     "label": "Onyeka Okongwu Under 13.5 Puntos",
+     "player": "Onyeka Okongwu",
+     "team": "ATL",
+     "line": 13.5,
+     "odds": -115,
+     "dec": 1.871,
+     "odds_assumed": false,
+     "p": 0.712,
+     "implied": 0.535,
+     "edge": 0.178,
+     "ev": 0.332,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.712,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 25.8,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 10.9,
+     "open": [
+      13.5,
+      1.912
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Kyle Kuzma Under 5.5 Rebotes",
      "player": "Kyle Kuzma",
      "team": "MIL",
@@ -146343,11 +146251,11 @@
        "n": 30
       }
      },
+     "mean": 3.8,
      "open": [
       5.5,
       1.58
-     ],
-     "mean": 3.8
+     ]
     },
     {
      "kind": "prop",
@@ -146388,11 +146296,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       6.5,
       1.725
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -146433,11 +146341,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       12.5,
       1.77
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -146478,11 +146386,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       8.5,
       1.668
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -146523,11 +146431,11 @@
        "n": 30
       }
      },
+     "mean": 21.6,
      "open": [
       22.5,
       1.757
-     ],
-     "mean": 21.6
+     ]
     },
     {
      "kind": "prop",
@@ -146568,55 +146476,11 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       12.5,
       1.814
-     ],
-     "mean": 12.5
-    },
-    {
-     "kind": "prop",
-     "label": "Onyeka Okongwu Under 13.5 Puntos",
-     "player": "Onyeka Okongwu",
-     "team": "ATL",
-     "line": 13.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.541,
-     "implied": 0.523,
-     "edge": 0.018,
-     "ev": 0.035,
-     "value": true,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.712,
-     "p_mkt": 0.484,
-     "cand": true,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 25.8,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "open": [
-      13.5,
-      1.912
-     ],
-     "mean": 10.9
+     ]
     },
     {
      "kind": "prop",
@@ -146657,11 +146521,11 @@
        "n": 30
       }
      },
+     "mean": 12.9,
      "open": [
       10.5,
       1.799
-     ],
-     "mean": 12.9
+     ]
     },
     {
      "kind": "prop",
@@ -146701,11 +146565,11 @@
        "n": 30
       }
      },
+     "mean": 9.4,
      "open": [
       11.5,
       1.833
      ],
-     "mean": 9.4,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -146749,11 +146613,11 @@
        "n": 30
       }
      },
+     "mean": 6.9,
      "open": [
       8.5,
       1.833
      ],
-     "mean": 6.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
@@ -146797,11 +146661,42 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       4.5,
       2.06
-     ],
-     "mean": 4.2
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 234.5",
+     "player": null,
+     "team": null,
+     "line": 234.5,
+     "odds": -109,
+     "dec": 1.913,
+     "odds_assumed": false,
+     "p": 0.519,
+     "implied": 0.523,
+     "edge": -0.003,
+     "ev": -0.006,
+     "value": false,
+     "n_books": 6,
+     "best": {
+      "book": "theScore Bet",
+      "line": 235.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.538,
+      "ev": 0.006
+     },
+     "p_model": 0.581,
+     "p_mkt": 0.499,
+     "cand": false,
+     "open": [
+      234.5,
+      1.909
+     ]
     },
     {
      "kind": "prop",
@@ -146841,41 +146736,10 @@
        "n": 30
       }
      },
+     "mean": 8.7,
      "open": [
       9.5,
       1.912
-     ],
-     "mean": 8.7
-    },
-    {
-     "kind": "total",
-     "label": "Under 234.5",
-     "player": null,
-     "team": null,
-     "line": 234.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.52,
-     "implied": 0.524,
-     "edge": -0.004,
-     "ev": -0.007,
-     "value": false,
-     "n_books": 5,
-     "best": {
-      "book": "theScore Bet",
-      "line": 235.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.539,
-      "ev": 0.008
-     },
-     "p_model": 0.581,
-     "p_mkt": 0.5,
-     "cand": false,
-     "open": [
-      234.5,
-      1.909
      ]
     },
     {
@@ -146947,11 +146811,11 @@
        "n": 30
       }
      },
+     "mean": 2.7,
      "open": [
       3.5,
       1.656
      ],
-     "mean": 2.7,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
@@ -146995,11 +146859,11 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       8.5,
       1.871
-     ],
-     "mean": 8.0
+     ]
     },
     {
      "kind": "ml",
@@ -147007,25 +146871,25 @@
      "player": null,
      "team": "ATL",
      "line": null,
-     "odds": -309,
-     "dec": 1.324,
+     "odds": -310,
+     "dec": 1.322,
      "odds_assumed": false,
-     "p": 0.733,
-     "implied": 0.755,
+     "p": 0.734,
+     "implied": 0.756,
      "edge": -0.022,
      "ev": -0.029,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": null,
       "odds": -290,
       "dec": 1.345,
-      "p": 0.733,
-      "ev": -0.014
+      "p": 0.734,
+      "ev": -0.013
      },
      "p_model": 0.767,
-     "p_mkt": 0.722,
+     "p_mkt": 0.723,
      "cand": false,
      "open": [
       null,
@@ -147070,11 +146934,11 @@
        "n": 30
       }
      },
+     "mean": 21.2,
      "open": [
       21.5,
       1.871
-     ],
-     "mean": 21.2
+     ]
     },
     {
      "kind": "prop",
@@ -147114,11 +146978,11 @@
        "n": 30
       }
      },
+     "mean": 22.5,
      "open": [
       22.5,
       1.852
-     ],
-     "mean": 22.5
+     ]
     },
     {
      "kind": "prop",
@@ -147158,11 +147022,11 @@
        "n": 30
       }
      },
+     "mean": 10.4,
      "open": [
       10.5,
       1.668
-     ],
-     "mean": 10.4
+     ]
     },
     {
      "kind": "prop",
@@ -147202,11 +147066,11 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       5.5,
       1.725
      ],
-     "mean": 5.6,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -147250,11 +147114,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       9.5,
       1.946
-     ],
-     "mean": 9.7
+     ]
     },
     {
      "kind": "prop",
@@ -147294,11 +147158,11 @@
        "n": 30
       }
      },
+     "mean": 16.5,
      "open": [
       16.5,
       1.759
-     ],
-     "mean": 16.5
+     ]
     },
     {
      "kind": "prop",
@@ -147338,11 +147202,11 @@
        "n": 30
       }
      },
+     "mean": 3.9,
      "open": [
       3.5,
       1.987
-     ],
-     "mean": 3.9
+     ]
     },
     {
      "kind": "prop",
@@ -147382,11 +147246,11 @@
        "n": 30
       }
      },
+     "mean": 4.5,
      "open": [
       4.5,
       1.768
-     ],
-     "mean": 4.5
+     ]
     },
     {
      "kind": "prop",
@@ -147426,11 +147290,11 @@
        "n": 30
       }
      },
+     "mean": 4.6,
      "open": [
       3.5,
       1.628
-     ],
-     "mean": 4.6
+     ]
     },
     {
      "kind": "prop",
@@ -147470,11 +147334,11 @@
        "n": 30
       }
      },
+     "mean": 15.4,
      "open": [
       14.5,
       1.833
-     ],
-     "mean": 15.4
+     ]
     },
     {
      "kind": "prop",
@@ -147514,11 +147378,11 @@
        "n": 30
       }
      },
+     "mean": 5.5,
      "open": [
       5.5,
       1.685
-     ],
-     "mean": 5.5
+     ]
     },
     {
      "kind": "prop",
@@ -147558,11 +147422,11 @@
        "n": 30
       }
      },
+     "mean": 12.9,
      "open": [
       11.5,
       1.917
-     ],
-     "mean": 12.9
+     ]
     },
     {
      "kind": "prop",
@@ -147602,11 +147466,11 @@
        "n": 30
       }
      },
+     "mean": 7.6,
      "open": [
       6.5,
       1.69
-     ],
-     "mean": 7.6
+     ]
     },
     {
      "kind": "prop",
@@ -147646,15 +147510,46 @@
        "n": 30
       }
      },
+     "mean": 5.6,
      "open": [
       4.5,
       1.62
      ],
-     "mean": 5.6,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
      }
+    },
+    {
+     "kind": "ml",
+     "label": "MIL gana",
+     "player": null,
+     "team": "MIL",
+     "line": null,
+     "odds": 246,
+     "dec": 3.457,
+     "odds_assumed": false,
+     "p": 0.266,
+     "implied": 0.289,
+     "edge": -0.024,
+     "ev": -0.081,
+     "value": false,
+     "n_books": 10,
+     "best": {
+      "book": "theScore Bet",
+      "line": null,
+      "odds": 270,
+      "dec": 3.7,
+      "p": 0.266,
+      "ev": -0.016
+     },
+     "p_model": 0.233,
+     "p_mkt": 0.277,
+     "cand": false,
+     "open": [
+      null,
+      3.44
+     ]
     },
     {
      "kind": "spread",
@@ -147725,11 +147620,11 @@
        "n": 30
       }
      },
+     "mean": 7.6,
      "open": [
       6.5,
       2.047
-     ],
-     "mean": 7.6
+     ]
     },
     {
      "kind": "prop",
@@ -147769,41 +147664,10 @@
        "n": 30
       }
      },
+     "mean": 15.4,
      "open": [
       14.5,
       1.871
-     ],
-     "mean": 15.4
-    },
-    {
-     "kind": "ml",
-     "label": "MIL gana",
-     "player": null,
-     "team": "MIL",
-     "line": null,
-     "odds": 244,
-     "dec": 3.44,
-     "odds_assumed": false,
-     "p": 0.267,
-     "implied": 0.291,
-     "edge": -0.024,
-     "ev": -0.083,
-     "value": false,
-     "n_books": 9,
-     "best": {
-      "book": "theScore Bet",
-      "line": null,
-      "odds": 270,
-      "dec": 3.7,
-      "p": 0.267,
-      "ev": -0.012
-     },
-     "p_model": 0.233,
-     "p_mkt": 0.278,
-     "cand": false,
-     "open": [
-      null,
-      3.44
      ]
     },
     {
@@ -147813,24 +147677,24 @@
      "team": null,
      "line": 234.5,
      "odds": -110,
-     "dec": 1.909,
+     "dec": 1.905,
      "odds_assumed": false,
-     "p": 0.48,
-     "implied": 0.524,
+     "p": 0.481,
+     "implied": 0.525,
      "edge": -0.044,
-     "ev": -0.084,
+     "ev": -0.085,
      "value": false,
-     "n_books": 5,
+     "n_books": 6,
      "best": {
       "book": "FanDuel",
       "line": 233.5,
       "odds": -110,
       "dec": 1.909,
-      "p": 0.499,
-      "ev": -0.047
+      "p": 0.5,
+      "ev": -0.045
      },
      "p_model": 0.419,
-     "p_mkt": 0.5,
+     "p_mkt": 0.501,
      "cand": false,
      "open": [
       234.5,
@@ -147875,11 +147739,11 @@
        "n": 30
       }
      },
+     "mean": 3.9,
      "open": [
       3.5,
       1.734
-     ],
-     "mean": 3.9
+     ]
     },
     {
      "kind": "prop",
@@ -147919,11 +147783,11 @@
        "n": 30
       }
      },
+     "mean": 4.5,
      "open": [
       4.5,
       1.944
-     ],
-     "mean": 4.5
+     ]
     },
     {
      "kind": "prop",
@@ -147963,11 +147827,11 @@
        "n": 30
       }
      },
+     "mean": 16.5,
      "open": [
       16.5,
       1.955
-     ],
-     "mean": 16.5
+     ]
     },
     {
      "kind": "prop",
@@ -148007,11 +147871,11 @@
        "n": 30
       }
      },
+     "mean": 4.6,
      "open": [
       3.5,
       2.148
-     ],
-     "mean": 4.6
+     ]
     },
     {
      "kind": "prop",
@@ -148051,11 +147915,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       9.5,
       1.766
-     ],
-     "mean": 9.7
+     ]
     },
     {
      "kind": "prop",
@@ -148095,11 +147959,11 @@
        "n": 30
       }
      },
+     "mean": 22.5,
      "open": [
       22.5,
       1.852
-     ],
-     "mean": 22.5
+     ]
     },
     {
      "kind": "prop",
@@ -148139,11 +148003,11 @@
        "n": 30
       }
      },
+     "mean": 21.2,
      "open": [
       21.5,
       1.833
-     ],
-     "mean": 21.2
+     ]
     },
     {
      "kind": "prop",
@@ -148183,11 +148047,11 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       11.5,
       1.814
-     ],
-     "mean": 12.5
+     ]
     },
     {
      "kind": "prop",
@@ -148227,11 +148091,11 @@
        "n": 30
       }
      },
+     "mean": 5.5,
      "open": [
       4.5,
       1.522
-     ],
-     "mean": 5.5
+     ]
     },
     {
      "kind": "prop",
@@ -148271,11 +148135,11 @@
        "n": 30
       }
      },
+     "mean": 10.4,
      "open": [
       9.5,
       1.757
-     ],
-     "mean": 10.4
+     ]
     },
     {
      "kind": "prop",
@@ -148315,11 +148179,11 @@
        "n": 30
       }
      },
+     "mean": 8.0,
      "open": [
       8.5,
       1.833
-     ],
-     "mean": 8.0
+     ]
     },
     {
      "kind": "prop",
@@ -148359,11 +148223,11 @@
        "n": 30
       }
      },
+     "mean": 8.7,
      "open": [
       9.5,
       1.795
-     ],
-     "mean": 8.7
+     ]
     },
     {
      "kind": "prop",
@@ -148403,11 +148267,11 @@
        "n": 30
       }
      },
+     "mean": 4.2,
      "open": [
       4.5,
       1.682
-     ],
-     "mean": 4.2
+     ]
     },
     {
      "kind": "prop",
@@ -148447,11 +148311,11 @@
        "n": 30
       }
      },
+     "mean": 7.5,
      "open": [
       7.5,
       1.897
-     ],
-     "mean": 7.5
+     ]
     },
     {
      "kind": "prop",
@@ -148491,11 +148355,11 @@
        "n": 30
       }
      },
+     "mean": 2.7,
      "open": [
       3.5,
       2.1
      ],
-     "mean": 2.7,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
@@ -148539,11 +148403,11 @@
        "n": 30
       }
      },
+     "mean": 6.9,
      "open": [
       8.5,
       1.871
      ],
-     "mean": 6.9,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 11 partidos esta temporada"
@@ -148587,59 +148451,15 @@
        "n": 30
       }
      },
+     "mean": 9.4,
      "open": [
       11.5,
       1.871
      ],
-     "mean": 9.4,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
      }
-    },
-    {
-     "kind": "prop",
-     "label": "Onyeka Okongwu Over 13.5 Puntos",
-     "player": "Onyeka Okongwu",
-     "team": "ATL",
-     "line": 13.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.459,
-     "implied": 0.557,
-     "edge": -0.098,
-     "ev": -0.176,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.288,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 25.8,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "open": [
-      13.5,
-      1.795
-     ],
-     "mean": 10.9
     },
     {
      "kind": "prop",
@@ -148679,11 +148499,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       5.5,
       1.695
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -148723,11 +148543,11 @@
        "n": 30
       }
      },
+     "mean": 11.7,
      "open": [
       11.5,
       1.757
-     ],
-     "mean": 11.7
+     ]
     },
     {
      "kind": "prop",
@@ -148767,11 +148587,55 @@
        "n": 30
       }
      },
+     "mean": 21.6,
      "open": [
       21.5,
       1.757
-     ],
-     "mean": 21.6
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Onyeka Okongwu Over 12.5 Puntos",
+     "player": "Onyeka Okongwu",
+     "team": "ATL",
+     "line": 12.5,
+     "odds": -132,
+     "dec": 1.757,
+     "odds_assumed": false,
+     "p": 0.343,
+     "implied": 0.569,
+     "edge": -0.226,
+     "ev": -0.397,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.343,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 25.8,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 10.9,
+     "open": [
+      13.5,
+      1.795
+     ]
     },
     {
      "kind": "prop",
@@ -148811,11 +148675,11 @@
        "n": 30
       }
      },
+     "mean": 3.8,
      "open": [
       4.5,
       1.62
-     ],
-     "mean": 3.8
+     ]
     }
    ],
    "wo": {
@@ -149501,11 +149365,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       12.5,
       1.719
-     ],
-     "mean": 9.7
+     ]
     },
     {
      "kind": "prop",
@@ -149547,11 +149411,11 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       5.5,
       1.569
-     ],
-     "mean": 3.6
+     ]
     },
     {
      "kind": "prop",
@@ -149593,11 +149457,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       24.5,
       1.814
      ],
-     "mean": 22.7,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -150010,11 +149874,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       12.5,
       1.719
-     ],
-     "mean": 9.7
+     ]
     },
     {
      "kind": "prop",
@@ -150055,11 +149919,11 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       5.5,
       1.569
-     ],
-     "mean": 3.6
+     ]
     },
     {
      "kind": "prop",
@@ -150100,11 +149964,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       24.5,
       1.814
      ],
-     "mean": 22.7,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -150149,11 +150013,11 @@
        "n": 30
       }
      },
+     "mean": 5.0,
      "open": [
       3.5,
       1.598
-     ],
-     "mean": 5.0
+     ]
     },
     {
      "kind": "prop",
@@ -150193,11 +150057,11 @@
        "n": 30
       }
      },
+     "mean": 7.0,
      "open": [
       8.5,
       1.93
-     ],
-     "mean": 7.0
+     ]
     },
     {
      "kind": "spread",
@@ -150206,14 +150070,14 @@
      "team": "OKC",
      "line": -10.5,
      "odds": -108,
-     "dec": 1.927,
+     "dec": 1.925,
      "odds_assumed": false,
      "p": 0.532,
      "implied": 0.519,
      "edge": 0.013,
      "ev": 0.025,
      "value": false,
-     "n_books": 7,
+     "n_books": 8,
      "best": {
       "book": "BetRivers",
       "line": -10.5,
@@ -150223,7 +150087,7 @@
       "ev": 0.038
      },
      "p_model": 0.642,
-     "p_mkt": 0.495,
+     "p_mkt": 0.496,
      "cand": false,
      "open": [
       -10.5,
@@ -150268,11 +150132,11 @@
        "n": 30
       }
      },
+     "mean": 16.4,
      "open": [
       18.5,
       1.89
-     ],
-     "mean": 16.4
+     ]
     },
     {
      "kind": "prop",
@@ -150312,11 +150176,11 @@
        "n": 30
       }
      },
+     "mean": 3.8,
      "open": [
       4.5,
       1.76
-     ],
-     "mean": 3.8
+     ]
     },
     {
      "kind": "prop",
@@ -150356,11 +150220,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       15.5,
       1.759
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "ml",
@@ -150373,10 +150237,10 @@
      "odds_assumed": false,
      "p": 0.81,
      "implied": 0.824,
-     "edge": -0.014,
-     "ev": -0.017,
+     "edge": -0.013,
+     "ev": -0.016,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "bet365",
       "line": null,
@@ -150431,11 +150295,11 @@
        "n": 30
       }
      },
+     "mean": 3.0,
      "open": [
       3.5,
       1.775
-     ],
-     "mean": 3.0
+     ]
     },
     {
      "kind": "prop",
@@ -150475,11 +150339,11 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       13.5,
       1.815
-     ],
-     "mean": 12.5
+     ]
     },
     {
      "kind": "prop",
@@ -150519,11 +150383,11 @@
        "n": 30
       }
      },
+     "mean": 6.2,
      "open": [
       6.5,
       1.898
      ],
-     "mean": 6.2,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -150567,11 +150431,11 @@
        "n": 30
       }
      },
+     "mean": 8.4,
      "open": [
       8.5,
       1.912
-     ],
-     "mean": 8.4
+     ]
     },
     {
      "kind": "prop",
@@ -150611,11 +150475,11 @@
        "n": 30
       }
      },
+     "mean": 3.5,
      "open": [
       3.5,
       1.966
      ],
-     "mean": 3.5,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -150659,11 +150523,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       6.5,
       1.72
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -150703,46 +150567,15 @@
        "n": 30
       }
      },
+     "mean": 9.5,
      "open": [
       9.5,
       1.892
      ],
-     "mean": 9.5,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
      }
-    },
-    {
-     "kind": "total",
-     "label": "Over 221.5",
-     "player": null,
-     "team": null,
-     "line": 221.5,
-     "odds": -114,
-     "dec": 1.874,
-     "odds_assumed": false,
-     "p": 0.515,
-     "implied": 0.534,
-     "edge": -0.019,
-     "ev": -0.036,
-     "value": false,
-     "n_books": 4,
-     "best": {
-      "book": "BetRivers",
-      "line": 221.5,
-      "odds": -112,
-      "dec": 1.893,
-      "p": 0.515,
-      "ev": -0.025
-     },
-     "p_model": 0.533,
-     "p_mkt": 0.509,
-     "cand": false,
-     "open": [
-      221.5,
-      1.874
-     ]
     },
     {
      "kind": "prop",
@@ -150782,11 +150615,42 @@
        "n": 30
       }
      },
+     "mean": 12.0,
      "open": [
       9.5,
       1.815
-     ],
-     "mean": 12.0
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 222.5",
+     "player": null,
+     "team": null,
+     "line": 222.5,
+     "odds": -106,
+     "dec": 1.939,
+     "odds_assumed": false,
+     "p": 0.496,
+     "implied": 0.516,
+     "edge": -0.02,
+     "ev": -0.038,
+     "value": false,
+     "n_books": 4,
+     "best": {
+      "book": "BetRivers",
+      "line": 221.5,
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.516,
+      "ev": -0.023
+     },
+     "p_model": 0.513,
+     "p_mkt": 0.49,
+     "cand": false,
+     "open": [
+      221.5,
+      1.874
+     ]
     },
     {
      "kind": "prop",
@@ -150826,11 +150690,11 @@
        "n": 30
       }
      },
+     "mean": 12.3,
      "open": [
       10.5,
       1.852
-     ],
-     "mean": 12.3
+     ]
     },
     {
      "kind": "prop",
@@ -150870,11 +150734,11 @@
        "n": 30
       }
      },
+     "mean": 3.9,
      "open": [
       4.5,
       1.666
-     ],
-     "mean": 3.9
+     ]
     },
     {
      "kind": "prop",
@@ -150914,11 +150778,11 @@
        "n": 30
       }
      },
+     "mean": 3.3,
      "open": [
       3.5,
       1.754
-     ],
-     "mean": 3.3
+     ]
     },
     {
      "kind": "prop",
@@ -150958,11 +150822,11 @@
        "n": 30
       }
      },
+     "mean": 13.7,
      "open": [
       13.5,
       1.875
-     ],
-     "mean": 13.7
+     ]
     },
     {
      "kind": "prop",
@@ -151002,37 +150866,37 @@
        "n": 30
       }
      },
+     "mean": 17.3,
      "open": [
       17.5,
       1.78
-     ],
-     "mean": 17.3
+     ]
     },
     {
      "kind": "total",
-     "label": "Under 221.5",
+     "label": "Under 222.5",
      "player": null,
      "team": null,
-     "line": 221.5,
-     "odds": -106,
-     "dec": 1.939,
+     "line": 222.5,
+     "odds": -115,
+     "dec": 1.866,
      "odds_assumed": false,
-     "p": 0.485,
-     "implied": 0.516,
-     "edge": -0.03,
-     "ev": -0.059,
+     "p": 0.504,
+     "implied": 0.536,
+     "edge": -0.032,
+     "ev": -0.06,
      "value": false,
      "n_books": 4,
      "best": {
-      "book": "bet365",
-      "line": 222.5,
-      "odds": -114,
-      "dec": 1.877,
-      "p": 0.505,
-      "ev": -0.052
+      "book": "scoresandodds (consenso 12:25 ET)",
+      "line": 223.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.524,
+      "ev": -0.02
      },
-     "p_model": 0.467,
-     "p_mkt": 0.491,
+     "p_model": 0.487,
+     "p_mkt": 0.51,
      "cand": false,
      "open": [
       221.5,
@@ -151077,11 +150941,11 @@
        "n": 30
       }
      },
+     "mean": 12.9,
      "open": [
       11.5,
       1.695
-     ],
-     "mean": 12.9
+     ]
     },
     {
      "kind": "prop",
@@ -151121,11 +150985,11 @@
        "n": 30
       }
      },
+     "mean": 36.3,
      "open": [
       32.5,
       1.784
-     ],
-     "mean": 36.3
+     ]
     },
     {
      "kind": "prop",
@@ -151165,11 +151029,11 @@
        "n": 30
       }
      },
+     "mean": 12.9,
      "open": [
       12.5,
       1.792
-     ],
-     "mean": 12.9
+     ]
     },
     {
      "kind": "prop",
@@ -151209,11 +151073,11 @@
        "n": 30
       }
      },
+     "mean": 36.3,
      "open": [
       32.5,
       1.925
-     ],
-     "mean": 36.3
+     ]
     },
     {
      "kind": "prop",
@@ -151253,11 +151117,11 @@
        "n": 30
       }
      },
+     "mean": 17.3,
      "open": [
       17.5,
       1.93
-     ],
-     "mean": 17.3
+     ]
     },
     {
      "kind": "prop",
@@ -151297,11 +151161,11 @@
        "n": 30
       }
      },
+     "mean": 13.7,
      "open": [
       13.5,
       1.829
-     ],
-     "mean": 13.7
+     ]
     },
     {
      "kind": "prop",
@@ -151341,11 +151205,11 @@
        "n": 30
       }
      },
+     "mean": 3.3,
      "open": [
       3.5,
       1.961
-     ],
-     "mean": 3.3
+     ]
     },
     {
      "kind": "prop",
@@ -151385,11 +151249,11 @@
        "n": 30
       }
      },
+     "mean": 12.3,
      "open": [
       10.5,
       1.852
-     ],
-     "mean": 12.3
+     ]
     },
     {
      "kind": "prop",
@@ -151429,11 +151293,11 @@
        "n": 30
       }
      },
+     "mean": 12.0,
      "open": [
       9.5,
       1.89
-     ],
-     "mean": 12.0
+     ]
     },
     {
      "kind": "prop",
@@ -151473,11 +151337,11 @@
        "n": 30
       }
      },
+     "mean": 3.5,
      "open": [
       3.5,
       1.75
      ],
-     "mean": 3.5,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -151521,11 +151385,11 @@
        "n": 30
       }
      },
+     "mean": 9.5,
      "open": [
       9.5,
       1.813
      ],
-     "mean": 9.5,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -151538,14 +151402,14 @@
      "team": "SAC",
      "line": 10.5,
      "odds": -112,
-     "dec": 1.89,
+     "dec": 1.892,
      "odds_assumed": false,
      "p": 0.468,
-     "implied": 0.529,
+     "implied": 0.528,
      "edge": -0.061,
      "ev": -0.115,
      "value": false,
-     "n_books": 7,
+     "n_books": 8,
      "best": {
       "book": "BetMGM",
       "line": 10.5,
@@ -151555,7 +151419,7 @@
       "ev": -0.107
      },
      "p_model": 0.358,
-     "p_mkt": 0.505,
+     "p_mkt": 0.504,
      "cand": false,
      "open": [
       10.5,
@@ -151600,11 +151464,11 @@
        "n": 30
       }
      },
+     "mean": 8.4,
      "open": [
       8.5,
       1.795
-     ],
-     "mean": 8.4
+     ]
     },
     {
      "kind": "prop",
@@ -151644,11 +151508,11 @@
        "n": 30
       }
      },
+     "mean": 3.9,
      "open": [
       4.5,
       2.084
-     ],
-     "mean": 3.9
+     ]
     },
     {
      "kind": "prop",
@@ -151688,11 +151552,11 @@
        "n": 30
       }
      },
+     "mean": 6.2,
      "open": [
       6.5,
       1.808
      ],
-     "mean": 6.2,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
@@ -151736,11 +151600,11 @@
        "n": 30
       }
      },
+     "mean": 5.8,
      "open": [
       6.5,
       2.006
-     ],
-     "mean": 5.8
+     ]
     },
     {
      "kind": "prop",
@@ -151780,11 +151644,11 @@
        "n": 30
       }
      },
+     "mean": 12.5,
      "open": [
       13.5,
       1.89
-     ],
-     "mean": 12.5
+     ]
     },
     {
      "kind": "ml",
@@ -151792,15 +151656,15 @@
      "player": null,
      "team": "SAC",
      "line": null,
-     "odds": 356,
-     "dec": 4.562,
+     "odds": 357,
+     "dec": 4.568,
      "odds_assumed": false,
      "p": 0.19,
      "implied": 0.219,
      "edge": -0.029,
-     "ev": -0.134,
+     "ev": -0.133,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "Hard Rock Bet",
       "line": null,
@@ -151855,11 +151719,11 @@
        "n": 30
       }
      },
+     "mean": 3.0,
      "open": [
       3.5,
       1.936
-     ],
-     "mean": 3.0
+     ]
     },
     {
      "kind": "prop",
@@ -151899,11 +151763,11 @@
        "n": 30
       }
      },
+     "mean": 13.4,
      "open": [
       15.5,
       1.955
-     ],
-     "mean": 13.4
+     ]
     },
     {
      "kind": "prop",
@@ -151943,11 +151807,11 @@
        "n": 30
       }
      },
+     "mean": 3.8,
      "open": [
       4.5,
       1.954
-     ],
-     "mean": 3.8
+     ]
     },
     {
      "kind": "prop",
@@ -151987,11 +151851,11 @@
        "n": 30
       }
      },
+     "mean": 16.4,
      "open": [
       18.5,
       1.815
-     ],
-     "mean": 16.4
+     ]
     },
     {
      "kind": "prop",
@@ -152031,11 +151895,11 @@
        "n": 30
       }
      },
+     "mean": 7.0,
      "open": [
       8.5,
       1.78
-     ],
-     "mean": 7.0
+     ]
     },
     {
      "kind": "prop",
@@ -152075,11 +151939,11 @@
        "n": 30
       }
      },
+     "mean": 5.0,
      "open": [
       4.5,
       1.61
-     ],
-     "mean": 5.0
+     ]
     },
     {
      "kind": "prop",
@@ -152119,11 +151983,11 @@
        "n": 30
       }
      },
+     "mean": 22.7,
      "open": [
       23.5,
       1.778
      ],
-     "mean": 22.7,
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 12 partidos esta temporada"
@@ -152167,11 +152031,11 @@
        "n": 30
       }
      },
+     "mean": 9.7,
      "open": [
       11.5,
       1.814
-     ],
-     "mean": 9.7
+     ]
     },
     {
      "kind": "prop",
@@ -152211,11 +152075,11 @@
        "n": 30
       }
      },
+     "mean": 3.6,
      "open": [
       4.5,
       1.695
-     ],
-     "mean": 3.6
+     ]
     }
    ],
    "wo": {
