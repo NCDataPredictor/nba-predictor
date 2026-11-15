@@ -7,15 +7,14 @@
   "tip_et": "16:00",
   "neutral": false,
   "notes": [
-   "Reaves OUT (talón, descartado vs PHX); Thiero (tobillo) y Sexton (cabeza) questionable",
+   "Reaves OUT (talón, descartado vs PHX); Thiero (tobillo) questionable; Sexton (ojo) disponible (NBC 15-nov, rev. 15:30 ET)",
    "PHX: Mark Williams OUT largo plazo (no está en la rotación)"
   ],
   "out": [
    "Austin Reaves"
   ],
   "gtd": {
-   "Adou Thiero": 0.5,
-   "Collin Sexton": 0.5
+   "Adou Thiero": 0.5
   },
   "reserves": {
    "LAL": [
@@ -901,7 +900,7 @@
    "starter": false,
    "min": 18.7,
    "g_cur": 12,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 17.8,
     "pts": 10.3,
