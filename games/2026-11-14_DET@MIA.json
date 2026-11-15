@@ -13,11 +13,11 @@
   ],
   "out": [
    "Jalen Duren",
-   "Isaiah Joe"
+   "Isaiah Joe",
+   "Pelle Larsson"
   ],
   "gtd": {
-   "Klay Thompson": 0.85,
-   "Pelle Larsson": 0.25
+   "Klay Thompson": 0.85
   },
   "reserves": {
    "DET": [
@@ -147,7 +147,7 @@
    "name": "Davion Mitchell",
    "pos": "PG",
    "starter": true,
-   "min": 34.3,
+   "min": 38.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -189,7 +189,7 @@
    "name": "Bam Adebayo",
    "pos": "C",
    "starter": true,
-   "min": 31.9,
+   "min": 36.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -231,7 +231,7 @@
    "name": "Giannis Antetokounmpo",
    "pos": "PF",
    "starter": true,
-   "min": 30.9,
+   "min": 35.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -270,51 +270,10 @@
   },
   {
    "team": "MIA",
-   "name": "Pelle Larsson",
-   "pos": "SG",
-   "starter": false,
-   "min": 28.1,
-   "g_cur": 11,
-   "p_play": 0.25,
-   "cur": {
-    "min": 29.5,
-    "pts": 11.4,
-    "reb": 3.5,
-    "ast": 3.5,
-    "fg3m": 1.4,
-    "fgm": 3.3,
-    "fga": 7.0,
-    "fg3a": 2.9,
-    "stl": 1.3,
-    "blk": 0.1,
-    "tov": 1.9,
-    "pf": 2.9,
-    "ftm": 3.5,
-    "fta": 3.8
-   },
-   "prior": {
-    "min": 26.5,
-    "pts": 11.43,
-    "reb": 3.49,
-    "ast": 3.37,
-    "fg3m": 0.89,
-    "fgm": 3.96,
-    "fga": 7.99,
-    "fg3a": 2.74,
-    "stl": 0.7,
-    "blk": 0.23,
-    "tov": 1.44,
-    "pf": 2.11,
-    "ftm": 2.63,
-    "fta": 3.3
-   }
-  },
-  {
-   "team": "MIA",
    "name": "Andrew Wiggins",
    "pos": "SF",
    "starter": true,
-   "min": 24.9,
+   "min": 28.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -356,7 +315,7 @@
    "name": "Klay Thompson",
    "pos": "SF",
    "starter": true,
-   "min": 23.6,
+   "min": 26.7,
    "g_cur": 11,
    "p_play": 0.85,
    "cur": {
@@ -398,7 +357,7 @@
    "name": "Bobby Portis Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 18.9,
+   "min": 21.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -439,7 +398,7 @@
    "name": "Tim Hardaway Jr.",
    "pos": "SG",
    "starter": false,
-   "min": 14.5,
+   "min": 16.4,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -480,7 +439,7 @@
    "name": "Ryan Conwell",
    "pos": "SG",
    "starter": false,
-   "min": 13.8,
+   "min": 15.6,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -521,7 +480,7 @@
    "name": "Nikola Jović",
    "pos": "PF",
    "starter": false,
-   "min": 11.5,
+   "min": 13.0,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -562,7 +521,7 @@
    "name": "Dru Smith",
    "pos": "SG",
    "starter": false,
-   "min": 7.6,
+   "min": 8.6,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -975,10 +934,10 @@
  ],
  "market": {
   "source": "NBA.com/games 14-nov (5 partidos de liga); Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos) + ML del comparador de Covers (DEN@NOP) + consenso scoresandodds.com/nba?date=2026-11-14 en los 5; props de puntos de scoresandodds.com/nba/props/points?date=2026-11-14 (~12:00 ET, mejor cuota por lado)",
-  "ml_home": 169,
-  "ml_away": -203,
+  "ml_home": 144,
+  "ml_away": -173,
   "spread_home": 4.5,
-  "total": 228.5
+  "total": 226.5
  },
  "prop_lines": {
   "Giannis Antetokounmpo": {
@@ -1228,13 +1187,6 @@
     -130,
     -123,
     11.5
-   ]
-  },
-  "Pelle Larsson": {
-   "pts": [
-    10.5,
-    -111,
-    100
    ]
   },
   "Kevin Huerter": {
