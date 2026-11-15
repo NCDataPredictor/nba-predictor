@@ -61,6 +61,11 @@ VALUE_EV = 0.03  # EV mínimo para marcar una apuesta como "con valor"
 #   asistencias, robos/tapones...) y MAX_DAILY picks en total, los de mayor EV. "cand" = pasa el filtro por apuesta;
 #   "value" = además entra en el tope de la jornada.
 MKT_W = 0.25
+# Probabilidad mínima de un pick (15-nov, pedido de Nicolas): salían como pick con valor (y pick del día) Overs 0.5
+# triples de pívots y aleros a cuota ~4 con 26-29% de probabilidad, solo porque el EV daba positivo. Desde el 1-nov los
+# candidatos con p < 50% fueron 123 (38,6% acertados, −11,8 u) y los de p >= 50% 474 (+25,9 u). Por debajo de MIN_P la
+# apuesta se muestra pero no se recomienda; las de cuota alta siguen disponibles para el soñador y los parlays.
+MIN_P = 0.50
 MAX_PER_PLAYER = 2
 MAX_DAILY = 15
 # Versiones del modelo por jornada (pedido de Nicolas, 8-nov): el historial separa picks y unidades por versión para
@@ -178,6 +183,8 @@ def market_blend(bets, flags=None, w=MKT_W):
             why = "línea alternativa: solo para parlays y el soñador"
         elif b.get("side") == "under" and (flags.get(b["player"]) or {}).get("t") in NO_UNDER_FLAGS:
             why = "sin Unders de rookies ni de quien no jugó la temporada pasada"
+        elif p < MIN_P:
+            why = f"probabilidad menor al {MIN_P:.0%}"
         b["cand"] = bool(ev >= VALUE_EV and why is None)
         b["value"] = b["cand"]
         if why and ev >= VALUE_EV:
@@ -190,7 +197,10 @@ def market_blend(bets, flags=None, w=MKT_W):
 
 def daily_cap(rs, max_player=MAX_PER_PLAYER, max_daily=MAX_DAILY):
     """1.5: entre los partidos sin jugar de una jornada, deja con valor solo los mejores candidatos por EV."""
-    cands = sorted(((b["ev"], i, b) for i, r in enumerate(rs) for b in r["bets"]
+    # orden por EV x prob. (15-nov): entre dos picks de EV parecido entra el más probable. Backtest 1-14 nov con
+    # MIN_P: por EV 157 picks +19,5 u; por EV x p 157 picks 58,6% +20,7 u; solo por prob. +0,6 u (las muy probables
+    # pagan poco y el modelo se pasa de confiado en ellas)
+    cands = sorted(((b["ev"] * b["p"], i, b) for i, r in enumerate(rs) for b in r["bets"]
                     if b.get("cand", b.get("value"))), key=lambda x: -x[0])
     for r in rs:
         for b in r["bets"]:
@@ -1218,7 +1228,7 @@ def plan_b_bets(cfg, base, flags, absent, team, sw):
             continue
         p = min(max(b["p"] + PLANB_SHIFT * (w["p"] - b["p_model"]), 0.01), 0.99)
         ev = p * b["dec"] - 1
-        if ev < VALUE_EV or p - b["p"] < PLANB_GAIN:
+        if ev < VALUE_EV or p < MIN_P or p - b["p"] < PLANB_GAIN:
             continue
         d = sw["players"][w["player"]]["draws"]
         on = d["min"] > 0
@@ -1643,7 +1653,7 @@ def main():
         day = stage_for or max((os.path.basename(p)[:10] for p in paths), default=last)
         updates.setdefault(day, {})[stage] = now
     updates = {d: updates[d] for d in sorted(updates)[-14:]}
-    json.dump(dict(generated=now, value_ev=VALUE_EV, model=MODEL, mkt_w=MKT_W, max_daily=MAX_DAILY, last_stage=stage or index.get("last_stage"), updates=updates,
+    json.dump(dict(generated=now, value_ev=VALUE_EV, min_p=MIN_P, model=MODEL, mkt_w=MKT_W, max_daily=MAX_DAILY, last_stage=stage or index.get("last_stage"), updates=updates,
                    history=history, versions=versions, parlays=cross, dream=dream, cup=cup_summary(), games=games), open(idx_path, "w"), ensure_ascii=False, indent=1)
     try:  # pestaña Liga: equipos, líderes y margen de las casas (docs/data/league.json)
         import league_view

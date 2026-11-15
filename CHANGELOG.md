@@ -1,5 +1,14 @@
 # Cambios del modelo
 
+## 2026-11-15: probabilidad mínima de 50% para los picks con valor
+- Pedido de Nicolas: salían como pick con valor (y pick del día) Overs 0.5 triples a cuota ~4 con 26-29% de
+  probabilidad (Paul Reed 14-nov, Amen Thompson 15-nov). `MIN_P = 0.50` en build_site: por debajo se muestran pero no
+  se recomiendan (tampoco en plan B). Backtest 1-14 nov: candidatos con p < 50% 123 (38,6%, −11,8 u); con p >= 50%
+  474 (+25,9 u). Subir el mínimo a 52-55% bajaba las unidades (las muy probables pagan poco).
+- El tope de 15 por jornada ordena por EV × probabilidad (antes solo EV): +20,7 u vs +19,5 u en el mismo backtest.
+- Aplicado a la jornada del 15-nov sin re-simular (salvo IND@PHI, ya empezado): salen Thompson O0.5 triples,
+  Booker U1.5 triples y Gillespie O2.5 triples.
+
 ## Modelo 1.6.2 — 2026-11-13: tiros, libres, pérdidas y faltas (mercados de bucketsbase)
 - Pedido de Nicolas tras ver en bucketsbase props de tiros de campo, triples, dobles y libres (anotados e intentados),
   pérdidas y faltas. El modelo ya los simulaba (1.3.4-1.3.6) y la web los proyectaba; ninguna fuente que leemos
