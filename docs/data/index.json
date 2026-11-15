@@ -126329,7 +126329,7 @@
    },
    "proj_total": 232.5,
    "used_db": true,
-   "n_value": 4,
+   "n_value": 2,
    "top_bets": [
     {
      "kind": "prop",
@@ -126537,96 +126537,6 @@
      "open": [
       15.5,
       2.104
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Booker Under 1.5 Triples",
-     "player": "Devin Booker",
-     "team": "PHX",
-     "line": 1.5,
-     "odds": 130,
-     "dec": 2.296,
-     "odds_assumed": false,
-     "p": 0.454,
-     "implied": 0.436,
-     "fair": 120,
-     "edge": 0.018,
-     "ev": 0.042,
-     "value": true,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 135,
-     "dec_ref": 2.35,
-     "p_model": 0.605,
-     "p_mkt": 0.403,
-     "cand": true,
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 4.1,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 1.4,
-     "open": [
-      1.5,
-      2.296
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Collin Gillespie Over 2.5 Triples",
-     "player": "Collin Gillespie",
-     "team": "PHX",
-     "line": 2.5,
-     "odds": 136,
-     "dec": 2.356,
-     "odds_assumed": false,
-     "p": 0.437,
-     "implied": 0.425,
-     "fair": 129,
-     "edge": 0.013,
-     "ev": 0.03,
-     "value": true,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 154,
-     "dec_ref": 2.54,
-     "p_model": 0.57,
-     "p_mkt": 0.393,
-     "cand": true,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 4.1,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 3.3,
-     "open": [
-      2.5,
-      2.356
      ]
     }
    ],
@@ -127284,14 +127194,14 @@
      "implied": 0.436,
      "edge": 0.018,
      "ev": 0.042,
-     "value": true,
+     "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": 135,
      "dec_ref": 2.35,
      "p_model": 0.605,
      "p_mkt": 0.403,
-     "cand": true,
+     "cand": false,
      "hr": {
       "l10": [
        1,
@@ -127313,7 +127223,8 @@
      "open": [
       1.5,
       2.296
-     ]
+     ],
+     "no_value_why": "probabilidad menor al 50%"
     },
     {
      "kind": "prop",
@@ -127328,14 +127239,14 @@
      "implied": 0.425,
      "edge": 0.013,
      "ev": 0.03,
-     "value": true,
+     "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 154,
      "dec_ref": 2.54,
      "p_model": 0.57,
      "p_mkt": 0.393,
-     "cand": true,
+     "cand": false,
      "hr": {
       "l10": [
        4,
@@ -127357,7 +127268,8 @@
      "open": [
       2.5,
       2.356
-     ]
+     ],
+     "no_value_why": "probabilidad menor al 50%"
     },
     {
      "kind": "prop",
@@ -133358,22 +133270,6 @@
         },
         {
          "kind": "prop",
-         "label": "Collin Gillespie Over 2.5 Triples",
-         "player": "Collin Gillespie",
-         "team": "PHX",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.356,
-         "p": 0.492,
-         "base_p": 0.437,
-         "ev": 0.159,
-         "if_out": "Devin Booker",
-         "mean": 3.8,
-         "mean0": 3.3
-        },
-        {
-         "kind": "prop",
          "label": "Miles Bridges Over 22.5 PTS+REB+AST",
          "player": "Miles Bridges",
          "team": "PHX",
@@ -133409,22 +133305,6 @@
          "if_out": "Miles Bridges",
          "mean": 11.8,
          "mean0": 10.5
-        },
-        {
-         "kind": "prop",
-         "label": "Collin Gillespie Over 2.5 Triples",
-         "player": "Collin Gillespie",
-         "team": "PHX",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.356,
-         "p": 0.487,
-         "base_p": 0.437,
-         "ev": 0.148,
-         "if_out": "Miles Bridges",
-         "mean": 3.7,
-         "mean0": 3.3
         },
         {
          "kind": "prop",
@@ -133495,22 +133375,6 @@
          "if_out": "Dillon Brooks",
          "mean": 11.7,
          "mean0": 10.5
-        },
-        {
-         "kind": "prop",
-         "label": "Collin Gillespie Over 2.5 Triples",
-         "player": "Collin Gillespie",
-         "team": "PHX",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.356,
-         "p": 0.485,
-         "base_p": 0.437,
-         "ev": 0.143,
-         "if_out": "Dillon Brooks",
-         "mean": 3.7,
-         "mean0": 3.3
         },
         {
          "kind": "prop",
@@ -133619,22 +133483,6 @@
          "if_out": "Jalen Green",
          "mean": 11.6,
          "mean0": 10.5
-        },
-        {
-         "kind": "prop",
-         "label": "Collin Gillespie Over 2.5 Triples",
-         "player": "Collin Gillespie",
-         "team": "PHX",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.356,
-         "p": 0.481,
-         "base_p": 0.437,
-         "ev": 0.132,
-         "if_out": "Jalen Green",
-         "mean": 3.7,
-         "mean0": 3.3
         },
         {
          "kind": "prop",
@@ -140343,22 +140191,6 @@
          "if_out": "Rui Hachimura",
          "mean": 18.2,
          "mean0": 16.0
-        },
-        {
-         "kind": "prop",
-         "label": "Keaton Wagler Over 1.5 Triples",
-         "player": "Keaton Wagler",
-         "team": "LAC",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 1.5,
-         "dec": 2.255,
-         "p": 0.466,
-         "base_p": 0.423,
-         "ev": 0.052,
-         "if_out": "Rui Hachimura",
-         "mean": 1.9,
-         "mean0": 1.7
         }
        ]
       },
@@ -140397,22 +140229,6 @@
          "if_out": "Derrick Jones Jr.",
          "mean": 34.5,
          "mean0": 31.4
-        },
-        {
-         "kind": "prop",
-         "label": "Keaton Wagler Over 1.5 Triples",
-         "player": "Keaton Wagler",
-         "team": "LAC",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 1.5,
-         "dec": 2.255,
-         "p": 0.464,
-         "base_p": 0.423,
-         "ev": 0.047,
-         "if_out": "Derrick Jones Jr.",
-         "mean": 1.9,
-         "mean0": 1.7
         },
         {
          "kind": "prop",
@@ -147056,22 +146872,6 @@
         },
         {
          "kind": "prop",
-         "label": "De'Aaron Fox Over 1.5 Triples",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 1.5,
-         "dec": 2.547,
-         "p": 0.445,
-         "base_p": 0.397,
-         "ev": 0.133,
-         "if_out": "Stephon Castle",
-         "mean": 2.0,
-         "mean0": 1.8
-        },
-        {
-         "kind": "prop",
          "label": "De'Aaron Fox Over 23.5 PTS+REB+AST",
          "player": "De'Aaron Fox",
          "team": "SAS",
@@ -147123,22 +146923,6 @@
          "if_out": "Devin Vassell",
          "mean": 12.8,
          "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 1.5 Triples",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 1.5,
-         "dec": 2.547,
-         "p": 0.441,
-         "base_p": 0.397,
-         "ev": 0.122,
-         "if_out": "Devin Vassell",
-         "mean": 2.0,
-         "mean0": 1.8
         },
         {
          "kind": "prop",
@@ -147248,22 +147032,6 @@
        "p_play": 1.0,
        "min": 27.7,
        "picks": [
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 1.5 Triples",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 1.5,
-         "dec": 2.547,
-         "p": 0.443,
-         "base_p": 0.397,
-         "ev": 0.128,
-         "if_out": "Dylan Harper",
-         "mean": 2.0,
-         "mean0": 1.8
-        },
         {
          "kind": "prop",
          "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
@@ -147923,22 +147691,6 @@
          "if_out": "Brice Sensabaugh",
          "mean": 10.1,
          "mean0": 9.4
-        },
-        {
-         "kind": "prop",
-         "label": "Ace Bailey Over 5.5 Rebotes",
-         "player": "Ace Bailey",
-         "team": "UTA",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 2.104,
-         "p": 0.497,
-         "base_p": 0.456,
-         "ev": 0.045,
-         "if_out": "Brice Sensabaugh",
-         "mean": 6.3,
-         "mean0": 5.9
         }
        ]
       },
@@ -148053,22 +147805,6 @@
          "if_out": "Josh Green",
          "mean": 10.2,
          "mean0": 9.4
-        },
-        {
-         "kind": "prop",
-         "label": "Ace Bailey Over 5.5 Rebotes",
-         "player": "Ace Bailey",
-         "team": "UTA",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 2.104,
-         "p": 0.497,
-         "base_p": 0.456,
-         "ev": 0.045,
-         "if_out": "Josh Green",
-         "mean": 6.4,
-         "mean0": 5.9
         }
        ]
       }
@@ -155185,22 +154921,6 @@
          "if_out": "Sam Hauser",
          "mean": 15.9,
          "mean0": 14.6
-        },
-        {
-         "kind": "prop",
-         "label": "Paul George Over 8.5 REB+AST",
-         "player": "Paul George",
-         "team": "BOS",
-         "stat": "ra",
-         "side": "over",
-         "line": 8.5,
-         "dec": 2.079,
-         "p": 0.499,
-         "base_p": 0.442,
-         "ev": 0.037,
-         "if_out": "Sam Hauser",
-         "mean": 8.9,
-         "mean0": 8.2
         }
        ]
       },
@@ -155309,22 +155029,6 @@
          "if_out": "Baylor Scheierman",
          "mean": 15.8,
          "mean0": 14.6
-        },
-        {
-         "kind": "prop",
-         "label": "Paul George Over 8.5 REB+AST",
-         "player": "Paul George",
-         "team": "BOS",
-         "stat": "ra",
-         "side": "over",
-         "line": 8.5,
-         "dec": 2.079,
-         "p": 0.496,
-         "base_p": 0.442,
-         "ev": 0.031,
-         "if_out": "Baylor Scheierman",
-         "mean": 8.9,
-         "mean0": 8.2
         }
        ]
       }
@@ -160371,7 +160075,7 @@
    },
    "proj_total": 227.0,
    "used_db": true,
-   "n_value": 1,
+   "n_value": 0,
    "top_bets": [
     {
      "kind": "prop",
@@ -160516,53 +160220,7 @@
      ]
     }
    ],
-   "value_bets": [
-    {
-     "kind": "prop",
-     "label": "Amen Thompson Over 0.5 Triples",
-     "player": "Amen Thompson",
-     "team": "HOU",
-     "line": 0.5,
-     "odds": 340,
-     "dec": 4.398,
-     "odds_assumed": false,
-     "p": 0.258,
-     "implied": 0.227,
-     "fair": 287,
-     "edge": 0.031,
-     "ev": 0.137,
-     "value": true,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 350,
-     "dec_ref": 4.5,
-     "p_model": 0.402,
-     "p_mkt": 0.211,
-     "cand": true,
-     "hr": {
-      "l10": [
-       0,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 4,
-       "value": 1.8,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 0.5,
-     "open": [
-      0.5,
-      4.398
-     ]
-    }
-   ],
+   "value_bets": [],
    "parlays": [],
    "model_picks": [
     {
@@ -161053,14 +160711,14 @@
      "implied": 0.227,
      "edge": 0.031,
      "ev": 0.137,
-     "value": true,
+     "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 350,
      "dec_ref": 4.5,
      "p_model": 0.402,
      "p_mkt": 0.211,
-     "cand": true,
+     "cand": false,
      "hr": {
       "l10": [
        0,
@@ -161082,7 +160740,8 @@
      "open": [
       0.5,
       4.398
-     ]
+     ],
+     "no_value_why": "probabilidad menor al 50%"
     },
     {
      "kind": "prop",
@@ -176271,22 +175930,6 @@
         },
         {
          "kind": "prop",
-         "label": "CJ McCollum Over 2.5 Triples",
-         "player": "CJ McCollum",
-         "team": "ATL",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.249,
-         "p": 0.481,
-         "base_p": 0.428,
-         "ev": 0.082,
-         "if_out": "Dyson Daniels",
-         "mean": 3.1,
-         "mean0": 2.7
-        },
-        {
-         "kind": "prop",
          "label": "Onyeka Okongwu Over 10.5 REB+AST",
          "player": "Onyeka Okongwu",
          "team": "ATL",
@@ -176370,22 +176013,6 @@
          "if_out": "Onyeka Okongwu",
          "mean": 19.6,
          "mean0": 17.7
-        },
-        {
-         "kind": "prop",
-         "label": "CJ McCollum Over 2.5 Triples",
-         "player": "CJ McCollum",
-         "team": "ATL",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.249,
-         "p": 0.477,
-         "base_p": 0.428,
-         "ev": 0.072,
-         "if_out": "Onyeka Okongwu",
-         "mean": 3.1,
-         "mean0": 2.7
         }
        ]
       },
@@ -176440,22 +176067,6 @@
          "if_out": "Aaron Wiggins",
          "mean": 14.5,
          "mean0": 13.1
-        },
-        {
-         "kind": "prop",
-         "label": "CJ McCollum Over 2.5 Triples",
-         "player": "CJ McCollum",
-         "team": "ATL",
-         "stat": "fg3m",
-         "side": "over",
-         "line": 2.5,
-         "dec": 2.249,
-         "p": 0.469,
-         "base_p": 0.428,
-         "ev": 0.054,
-         "if_out": "Aaron Wiggins",
-         "mean": 3.0,
-         "mean0": 2.7
         }
        ]
       },
@@ -183958,22 +183569,6 @@
          "if_out": "Alex Caruso",
          "mean": 13.4,
          "mean0": 12.3
-        },
-        {
-         "kind": "prop",
-         "label": "Ajay Mitchell Over 7.5 REB+AST",
-         "player": "Ajay Mitchell",
-         "team": "OKC",
-         "stat": "ra",
-         "side": "over",
-         "line": 7.5,
-         "dec": 2.108,
-         "p": 0.494,
-         "base_p": 0.442,
-         "ev": 0.041,
-         "if_out": "Alex Caruso",
-         "mean": 8.1,
-         "mean0": 7.4
         }
        ]
       },
@@ -184012,22 +183607,6 @@
          "if_out": "Aday Mara",
          "mean": 13.4,
          "mean0": 12.3
-        },
-        {
-         "kind": "prop",
-         "label": "Ajay Mitchell Over 7.5 REB+AST",
-         "player": "Ajay Mitchell",
-         "team": "OKC",
-         "stat": "ra",
-         "side": "over",
-         "line": 7.5,
-         "dec": 2.108,
-         "p": 0.496,
-         "base_p": 0.442,
-         "ev": 0.046,
-         "if_out": "Aday Mara",
-         "mean": 8.0,
-         "mean0": 7.4
         },
         {
          "kind": "prop",
@@ -184387,5 +183966,6 @@
     }
    }
   }
- ]
+ ],
+ "min_p": 0.5
 }

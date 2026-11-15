@@ -3452,7 +3452,7 @@ const GUIDE = [
     <dt>Mejor casa</dt><dd>La casa donde esa apuesta rinde más. Las marcadas con <span class="co">CO</span> son casas de Colombia (Rushbet, BetPlay).</dd></dl>`],
   ["ev", "EV y colores", "EV (valor esperado) y colores", () => `<p>El EV dice cuánto ganarías de media por cada 100 apostados si hicieras esa misma apuesta muchas veces. Se calcula con la probabilidad del modelo y la cuota:</p>
     <div class="ex">EV = prob. modelo × cuota − 1<br>Prob. 55% y cuota 2.00 → 0.55 × 2.00 − 1 = <b>+10%</b>: a la larga, +10 por cada 100 apostados.</div>
-    <dl><dt><span class="pill value">Verde</span></dt><dd>Pick con valor: EV de al menos +${((INDEX?.value_ev ?? .03) * 100).toFixed(0)}% con la probabilidad mezclada con la de la casa (modelo ${INDEX?.model || "1.6"}). Son los que se recomiendan, como mucho ${INDEX?.max_daily || 15} por jornada.</dd>
+    <dl><dt><span class="pill value">Verde</span></dt><dd>Pick con valor: EV de al menos +${((INDEX?.value_ev ?? .03) * 100).toFixed(0)}% y probabilidad de al menos ${Math.round((INDEX?.min_p ?? .5) * 100)}%, con la probabilidad mezclada con la de la casa (modelo ${INDEX?.model || "1.6"}). Son los que se recomiendan, como mucho ${INDEX?.max_daily || 15} por jornada, primero los de mejor EV × probabilidad.</dd>
     <dt><span class="pill flat">Azul</span></dt><dd>EV positivo pero pequeño: margen demasiado justo para recomendarlo.</dd>
     <dt><span class="pill neg">Rojo</span></dt><dd>EV negativo: la casa paga menos de lo que vale. Mejor evitarlo.</dd></dl>
     <p>Un EV muy alto (+15% o más) no es "más seguro": suele indicar que al modelo le falta algo (una baja de última hora, un cambio de rotación). Conviene revisar el contexto del partido.</p>`],
