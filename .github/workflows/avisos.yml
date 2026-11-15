@@ -16,20 +16,19 @@ jobs:
   enviar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      # Sin acciones externas (checkout/setup-python): solo git y el python3 del runner.
+      - name: Bajar el repo
+        run: git clone --quiet "https://github.com/${{ github.repository }}" repo && git -C repo checkout --quiet "${{ github.sha }}"
       - name: Enviar avisos nuevos
         if: github.event_name == 'push'
         env:
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
-        run: python avisos.py send --before "${{ github.event.before }}"
+        working-directory: repo
+        run: python3 avisos.py send --before "${{ github.event.before }}"
       - name: Aviso de prueba
         if: github.event_name == 'workflow_dispatch'
         env:
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
           MENSAJE: ${{ inputs.mensaje }}
-        run: python avisos.py test "$MENSAJE"
+        working-directory: repo
+        run: python3 avisos.py test "$MENSAJE"
