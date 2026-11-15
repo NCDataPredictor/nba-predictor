@@ -4739,7 +4739,10 @@ function avPushBox() {
     return `<div class="av-push"><p>Este navegador no admite avisos. Los cambios siguen apareciendo aquí.</p></div>`;
   }
   if (Notification.permission === "denied") return `<div class="av-push"><p><b>Los avisos están bloqueados</b> para esta web. Permítelos en los ajustes del navegador (o del iPhone: Ajustes → Notificaciones → NBA Predictor) y vuelve aquí.</p></div>`;
-  const on = AV.os && AV.os.User.PushSubscription.optedIn;
+  // optedIn solo dice que el usuario aceptó; la suscripción existe en OneSignal cuando hay id y token (15-nov: un iPhone
+  // marcaba activado sin estar registrado porque el primer intento fue antes de configurar la plataforma Web).
+  const PS = AV.os && AV.os.User.PushSubscription, on = PS && PS.optedIn && PS.id && PS.token;
+  if (PS && PS.optedIn && !on) return `<div class="av-push"><p><b>Falta terminar el registro de este dispositivo.</b> Toca el botón para volver a intentarlo.</p><p><button type="button" class="btn" data-av="retry">Registrar este dispositivo</button></p><p class="muted" id="av-msg" role="status"></p></div>`;
   return `<div class="av-push">${on
     ? `<p><b>Avisos activados en este dispositivo.</b> Te llegará uno cuando una revisión de bajas cambie los picks o las bajas de un partido que aún no empieza.</p><p><button type="button" class="btn ghost" data-av="off">Desactivar avisos</button></p>`
     : `<p><b>Recibe un aviso</b> cuando una revisión de bajas cambie los picks de un partido, aunque no tengas la web abierta.</p><p><button type="button" class="btn" data-av="on">Activar avisos</button></p>`}
@@ -4766,7 +4769,8 @@ $("#avisos").addEventListener("click", async e => {
   b.disabled = true; msg("Un momento…");
   try {
     const OS = await avLoadOS();
-    if (b.dataset.av === "on") { await OS.Notifications.requestPermission(); if (Notification.permission === "granted") await OS.User.PushSubscription.optIn(); }
+    if (b.dataset.av === "retry") { await OS.User.PushSubscription.optOut(); await new Promise(r => setTimeout(r, 800)); await OS.Notifications.requestPermission(); await OS.User.PushSubscription.optIn(); await new Promise(r => setTimeout(r, 2500)); }
+    else if (b.dataset.av === "on") { await OS.Notifications.requestPermission(); if (Notification.permission === "granted") await OS.User.PushSubscription.optIn(); }
     else await OS.User.PushSubscription.optOut();
     avDraw();
   } catch (err) { b.disabled = false; msg("No se pudo cambiar: " + (err && err.message || err)); }
