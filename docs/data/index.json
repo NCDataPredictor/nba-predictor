@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T19:49+00:00",
+ "generated": "2026-11-15T20:32+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.6.2",
@@ -74,7 +74,7 @@
   },
   "2026-11-15": {
    "morning": "2026-11-15T16:37+00:00",
-   "pregame": "2026-11-15T19:49+00:00"
+   "pregame": "2026-11-15T20:32+00:00"
   }
  },
  "history": [
@@ -126380,52 +126380,6 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Over 10.5 Rebotes",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 10.5,
-     "odds": -121,
-     "dec": 1.829,
-     "odds_assumed": false,
-     "p": 0.605,
-     "implied": 0.547,
-     "fair": -153,
-     "edge": 0.058,
-     "ev": 0.107,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.605,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 17.0,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 12.6,
-     "open": [
-      10.5,
-      1.829
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Dillon Brooks Under 5.5 REB+AST",
      "player": "Dillon Brooks",
      "team": "PHX",
@@ -126460,6 +126414,52 @@
      "open": [
       5.5,
       1.829
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Collin Gillespie Over 8.5 Puntos",
+     "player": "Collin Gillespie",
+     "team": "PHX",
+     "line": 8.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.637,
+     "implied": 0.599,
+     "fair": -175,
+     "edge": 0.037,
+     "ev": 0.063,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.637,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 24,
+       "value": 29.4,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 11.9,
+     "open": [
+      8.5,
+      1.668
      ]
     }
    ],
@@ -126514,14 +126514,14 @@
      "p": 0.503,
      "implied": 0.475,
      "fair": -101,
-     "edge": 0.027,
-     "ev": 0.057,
+     "edge": 0.028,
+     "ev": 0.058,
      "value": true,
      "stat": "pr",
      "side": "under",
      "odds_ref": 115,
      "dec_ref": 2.15,
-     "p_model": 0.69,
+     "p_model": 0.691,
      "p_mkt": 0.44,
      "cand": true,
      "hr": {
@@ -126665,6 +126665,32 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Ziaire Williams",
+     "team": "LAL",
+     "stat": "fg2m",
+     "side": "under",
+     "line": 1.5,
+     "p": 0.525,
+     "fair": 1.91,
+     "min_dec": 1.96,
+     "ref": 2.0,
+     "p_model": 0.583,
+     "label": "Ziaire Williams Under 1.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 1.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Collin Gillespie",
      "team": "PHX",
      "stat": "fga",
@@ -126687,58 +126713,6 @@
       ]
      },
      "mean": 9.8
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 11.5,
-     "p": 0.524,
-     "fair": 1.91,
-     "min_dec": 1.96,
-     "ref": 11.9,
-     "p_model": 0.582,
-     "label": "Luka Dončić Over 11.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 13.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.524,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": 6.9,
-     "p_model": 0.58,
-     "label": "Luka Dončić Over 6.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 8.5
     },
     {
      "kind": "prop",
@@ -126769,105 +126743,28 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Walker Kessler",
+     "player": "Luka Dončić",
      "team": "LAL",
-     "stat": "dd",
+     "stat": "fg2m",
      "side": "over",
-     "line": 0.5,
-     "p": 0.568,
-     "fair": 1.76,
-     "min_dec": 1.81,
-     "ref": null,
-     "p_model": 0.568,
-     "label": "Walker Kessler Doble-doble: Sí",
+     "line": 6.5,
+     "p": 0.517,
+     "fair": 1.94,
+     "min_dec": 1.99,
+     "ref": 6.9,
+     "p_model": 0.556,
+     "label": "Luka Dončić Over 6.5 Dobles anotados",
      "hr": {
       "l10": [
-       7,
+       4,
        10
       ],
       "h2h": [
        1,
-       2
-      ]
-     }
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Quentin Grimes",
-     "team": "LAL",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.562,
-     "fair": 1.78,
-     "min_dec": 1.83,
-     "ref": 1.8,
-     "p_model": 0.562,
-     "label": "Quentin Grimes Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
+       3
       ]
      },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Quentin Grimes",
-     "team": "LAL",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 3.7,
-     "p_model": 0.561,
-     "label": "Quentin Grimes Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 4.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Ziaire Williams",
-     "team": "LAL",
-     "stat": "fg2m",
-     "side": "under",
-     "line": 1.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 2.0,
-     "p_model": 0.558,
-     "label": "Ziaire Williams Under 1.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 1.7
+     "mean": 8.1
     },
     {
      "kind": "prop",
@@ -126898,28 +126795,53 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Sandro Mamukelashvili",
+     "player": "Luka Dončić",
      "team": "LAL",
-     "stat": "fga",
+     "stat": "fg2a",
      "side": "over",
-     "line": 8.5,
-     "p": 0.515,
+     "line": 11.5,
+     "p": 0.516,
      "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 8.5,
-     "p_model": 0.55,
-     "label": "Sandro Mamukelashvili Over 8.5 Tiros de campo intentados",
+     "min_dec": 1.99,
+     "ref": 11.9,
+     "p_model": 0.554,
+     "label": "Luka Dončić Over 11.5 Dobles intentados",
      "hr": {
       "l10": [
-       5,
+       4,
        10
       ],
       "h2h": [
-       0,
-       2
+       1,
+       3
       ]
      },
-     "mean": 9.5
+     "mean": 13.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.529,
+     "fair": 1.89,
+     "min_dec": 1.95,
+     "ref": null,
+     "p_model": 0.529,
+     "label": "Walker Kessler Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     }
     },
     {
      "kind": "prop",
@@ -126929,11 +126851,11 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.493,
-     "fair": 2.03,
-     "min_dec": 2.09,
+     "p": 0.468,
+     "fair": 2.14,
+     "min_dec": 2.2,
      "ref": null,
-     "p_model": 0.493,
+     "p_model": 0.468,
      "label": "Luka Dončić Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -126954,11 +126876,11 @@
      "stat": "td",
      "side": "over",
      "line": 0.5,
-     "p": 0.092,
-     "fair": 10.89,
-     "min_dec": 11.22,
+     "p": 0.083,
+     "fair": 12.05,
+     "min_dec": 12.41,
      "ref": null,
-     "p_model": 0.092,
+     "p_model": 0.083,
      "label": "Luka Dončić Triple-doble: Sí",
      "hr": {
       "l10": [
@@ -127016,51 +126938,6 @@
      "open": [
       5.5,
       1.668
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Over 10.5 Rebotes",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 10.5,
-     "odds": -121,
-     "dec": 1.829,
-     "odds_assumed": false,
-     "p": 0.605,
-     "implied": 0.547,
-     "edge": 0.058,
-     "ev": 0.107,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.605,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 17.0,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 12.6,
-     "open": [
-      10.5,
-      1.829
      ]
     },
     {
@@ -127156,14 +127033,14 @@
      "odds_assumed": false,
      "p": 0.503,
      "implied": 0.475,
-     "edge": 0.027,
-     "ev": 0.057,
+     "edge": 0.028,
+     "ev": 0.058,
      "value": true,
      "stat": "pr",
      "side": "under",
      "odds_ref": 115,
      "dec_ref": 2.15,
-     "p_model": 0.69,
+     "p_model": 0.691,
      "p_mkt": 0.44,
      "cand": true,
      "hr": {
@@ -127180,6 +127057,51 @@
      "open": [
       15.5,
       2.104
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Walker Kessler Over 10.5 Rebotes",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 10.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.577,
+     "implied": 0.547,
+     "edge": 0.03,
+     "ev": 0.055,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.577,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 17.0,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 12.1,
+     "open": [
+      10.5,
+      1.829
      ]
     },
     {
@@ -127203,6 +127125,7 @@
      "p_model": 0.605,
      "p_mkt": 0.403,
      "cand": false,
+     "no_value_why": "probabilidad menor al 50%",
      "hr": {
       "l10": [
        1,
@@ -127224,8 +127147,7 @@
      "open": [
       1.5,
       2.296
-     ],
-     "no_value_why": "probabilidad menor al 50%"
+     ]
     },
     {
      "kind": "prop",
@@ -127248,6 +127170,7 @@
      "p_model": 0.57,
      "p_mkt": 0.393,
      "cand": false,
+     "no_value_why": "probabilidad menor al 50%",
      "hr": {
       "l10": [
        4,
@@ -127269,8 +127192,7 @@
      "open": [
       2.5,
       2.356
-     ],
-     "no_value_why": "probabilidad menor al 50%"
+     ]
     },
     {
      "kind": "prop",
@@ -127328,13 +127250,13 @@
      "p": 0.57,
      "implied": 0.555,
      "edge": 0.015,
-     "ev": 0.026,
+     "ev": 0.027,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.737,
+     "p_model": 0.739,
      "p_mkt": 0.514,
      "cand": false,
      "hr": {
@@ -127354,7 +127276,7 @@
        "n": 30
       }
      },
-     "mean": 11.1,
+     "mean": 11.0,
      "open": [
       14.5,
       1.802
@@ -127378,7 +127300,7 @@
      "side": "under",
      "odds_ref": -104,
      "dec_ref": 1.962,
-     "p_model": 0.693,
+     "p_model": 0.694,
      "p_mkt": 0.488,
      "cand": false,
      "hr": {
@@ -127391,54 +127313,10 @@
        2
       ]
      },
-     "mean": 13.7,
+     "mean": 13.6,
      "open": [
       16.5,
       1.897
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jake LaRavia Over 3.5 Rebotes",
-     "player": "Jake LaRavia",
-     "team": "LAL",
-     "line": 3.5,
-     "odds": -150,
-     "dec": 1.668,
-     "odds_assumed": false,
-     "p": 0.612,
-     "implied": 0.599,
-     "edge": 0.012,
-     "ev": 0.021,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.612,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 23,
-       "value": 11.1,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.7,
-     "open": [
-      3.5,
-      1.668
      ]
     },
     {
@@ -127487,16 +127365,16 @@
      "odds": -132,
      "dec": 1.759,
      "odds_assumed": false,
-     "p": 0.575,
+     "p": 0.576,
      "implied": 0.568,
      "edge": 0.007,
-     "ev": 0.012,
+     "ev": 0.013,
      "value": false,
      "stat": "pra",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.722,
+     "p_model": 0.724,
      "p_mkt": 0.526,
      "cand": false,
      "hr": {
@@ -127680,6 +127558,50 @@
     },
     {
      "kind": "prop",
+     "label": "Jake LaRavia Under 6.5 Puntos",
+     "player": "Jake LaRavia",
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -112,
+     "dec": 1.891,
+     "odds_assumed": false,
+     "p": 0.525,
+     "implied": 0.529,
+     "edge": -0.003,
+     "ev": -0.006,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -108,
+     "dec_ref": 1.926,
+     "p_model": 0.633,
+     "p_mkt": 0.49,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 15,
+       "value": 22.7,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 5.9,
+     "open": [
+      6.5,
+      1.891
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Collin Gillespie Over 11.5 PTS+REB",
      "player": "Collin Gillespie",
      "team": "PHX",
@@ -127713,6 +127635,50 @@
      "open": [
       11.5,
       1.904
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Jake LaRavia Over 3.5 Rebotes",
+     "player": "Jake LaRavia",
+     "team": "LAL",
+     "line": 3.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.594,
+     "implied": 0.599,
+     "edge": -0.006,
+     "ev": -0.009,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.594,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 23,
+       "value": 11.1,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 4.5,
+     "open": [
+      3.5,
+      1.668
      ]
     },
     {
@@ -127754,68 +127720,24 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Over 27.5 PTS+REB+AST",
-     "player": "Walker Kessler",
+     "label": "Quentin Grimes Under 11.5 Puntos",
+     "player": "Quentin Grimes",
      "team": "LAL",
-     "line": 27.5,
-     "odds": -110,
-     "dec": 1.906,
+     "line": 11.5,
+     "odds": -126,
+     "dec": 1.795,
      "odds_assumed": false,
-     "p": 0.517,
-     "implied": 0.525,
+     "p": 0.55,
+     "implied": 0.557,
      "edge": -0.007,
-     "ev": -0.014,
+     "ev": -0.013,
      "value": false,
-     "stat": "pra",
-     "side": "over",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.612,
-     "p_mkt": 0.486,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 46.3,
-       "lg": 40.9,
-       "n": 30
-      }
-     },
-     "mean": 31.6,
-     "open": [
-      27.5,
-      1.906
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Over 12.5 REB+AST",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 12.5,
-     "odds": -113,
-     "dec": 1.883,
-     "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.531,
-     "edge": -0.008,
-     "ev": -0.016,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.616,
-     "p_mkt": 0.492,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.652,
+     "p_mkt": 0.516,
      "cand": false,
      "hr": {
       "l10": [
@@ -127823,14 +127745,21 @@
        10
       ],
       "h2h": [
-       2,
+       1,
        2
-      ]
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 26,
+       "value": 26.3,
+       "lg": 24.0,
+       "n": 30
+      }
      },
-     "mean": 14.8,
+     "mean": 10.1,
      "open": [
-      12.5,
-      1.883
+      11.5,
+      1.795
      ]
     },
     {
@@ -127953,87 +127882,6 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Over 25.5 PTS+REB",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 25.5,
-     "odds": -113,
-     "dec": 1.889,
-     "odds_assumed": false,
-     "p": 0.518,
-     "implied": 0.529,
-     "edge": -0.011,
-     "ev": -0.021,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.603,
-     "p_mkt": 0.49,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 29.3,
-     "open": [
-      25.5,
-      1.889
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jake LaRavia Under 6.5 Puntos",
-     "player": "Jake LaRavia",
-     "team": "LAL",
-     "line": 6.5,
-     "odds": -112,
-     "dec": 1.891,
-     "odds_assumed": false,
-     "p": 0.516,
-     "implied": 0.529,
-     "edge": -0.013,
-     "ev": -0.024,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.596,
-     "p_mkt": 0.49,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 15,
-       "value": 22.7,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "mean": 6.2,
-     "open": [
-      6.5,
-      1.891
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Jalen Green Under 18.5 PTS+REB+AST",
      "player": "Jalen Green",
      "team": "PHX",
@@ -128078,83 +127926,39 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 43.5 PTS+REB",
+     "label": "Luka Dončić Under 16.5 REB+AST",
      "player": "Luka Dončić",
      "team": "LAL",
-     "line": 43.5,
-     "odds": -116,
-     "dec": 1.86,
+     "line": 16.5,
+     "odds": -127,
+     "dec": 1.79,
      "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.538,
-     "edge": -0.015,
-     "ev": -0.027,
+     "p": 0.543,
+     "implied": 0.559,
+     "edge": -0.016,
+     "ev": -0.028,
      "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -106,
-     "dec_ref": 1.943,
-     "p_model": 0.599,
-     "p_mkt": 0.498,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.62,
+     "p_mkt": 0.517,
      "cand": false,
      "hr": {
       "l10": [
-       7,
+       6,
        10
       ],
       "h2h": [
-       2,
+       3,
        3
       ]
      },
-     "mean": 50.2,
+     "mean": 15.1,
      "open": [
-      43.5,
-      1.86
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 17.5,
-     "odds": -115,
-     "dec": 1.871,
-     "odds_assumed": false,
-     "p": 0.52,
-     "implied": 0.534,
-     "edge": -0.014,
-     "ev": -0.027,
-     "value": false,
-     "stat": "pra",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.596,
-     "p_mkt": 0.495,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 46.3,
-       "lg": 40.9,
-       "n": 30
-      }
-     },
-     "mean": 20.8,
-     "open": [
-      17.5,
-      1.871
+      16.5,
+      1.79
      ]
     },
     {
@@ -128196,6 +128000,43 @@
     },
     {
      "kind": "prop",
+     "label": "Walker Kessler Over 12.5 REB+AST",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 12.5,
+     "odds": -113,
+     "dec": 1.883,
+     "odds_assumed": false,
+     "p": 0.515,
+     "implied": 0.531,
+     "edge": -0.016,
+     "ev": -0.03,
+     "value": false,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.586,
+     "p_mkt": 0.492,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 14.3,
+     "open": [
+      12.5,
+      1.883
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Collin Sexton Under 1.5 Triples",
      "player": "Collin Sexton",
      "team": "LAL",
@@ -128203,16 +128044,16 @@
      "odds": -172,
      "dec": 1.582,
      "odds_assumed": false,
-     "p": 0.614,
+     "p": 0.612,
      "implied": 0.632,
-     "edge": -0.018,
-     "ev": -0.029,
+     "edge": -0.02,
+     "ev": -0.032,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -155,
      "dec_ref": 1.645,
-     "p_model": 0.699,
+     "p_model": 0.693,
      "p_mkt": 0.585,
      "cand": false,
      "hr": {
@@ -128240,68 +128081,24 @@
     },
     {
      "kind": "prop",
-     "label": "Quentin Grimes Under 11.5 Puntos",
-     "player": "Quentin Grimes",
+     "label": "Walker Kessler Over 27.5 PTS+REB+AST",
+     "player": "Walker Kessler",
      "team": "LAL",
-     "line": 11.5,
-     "odds": -126,
-     "dec": 1.795,
+     "line": 27.5,
+     "odds": -110,
+     "dec": 1.906,
      "odds_assumed": false,
-     "p": 0.54,
-     "implied": 0.557,
-     "edge": -0.017,
-     "ev": -0.03,
+     "p": 0.506,
+     "implied": 0.525,
+     "edge": -0.019,
+     "ev": -0.035,
      "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.614,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 26.3,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "mean": 10.8,
-     "open": [
-      11.5,
-      1.795
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 15.5 PTS+REB",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 15.5,
-     "odds": -121,
-     "dec": 1.824,
-     "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.548,
-     "edge": -0.016,
-     "ev": -0.03,
-     "value": false,
-     "stat": "pr",
+     "stat": "pra",
      "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.605,
-     "p_mkt": 0.508,
+     "odds_ref": -108,
+     "dec_ref": 1.926,
+     "p_model": 0.567,
+     "p_mkt": 0.486,
      "cand": false,
      "hr": {
       "l10": [
@@ -128311,56 +128108,19 @@
       "h2h": [
        1,
        2
-      ]
-     },
-     "mean": 19.0,
-     "open": [
-      15.5,
-      1.824
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Luka Dončić Over 35.5 Puntos",
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "line": 35.5,
-     "odds": -117,
-     "dec": 1.852,
-     "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.54,
-     "edge": -0.017,
-     "ev": -0.032,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.59,
-     "p_mkt": 0.5,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       3
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 20,
-       "value": 28.5,
-       "lg": 27.1,
+       "pos": "C",
+       "rank": 27,
+       "value": 46.3,
+       "lg": 40.9,
        "n": 30
       }
      },
-     "mean": 42.0,
+     "mean": 30.1,
      "open": [
-      35.5,
-      1.852
+      27.5,
+      1.906
      ]
     },
     {
@@ -128398,124 +128158,6 @@
      "open": [
       19.5,
       1.944
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 4.5 Rebotes",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 4.5,
-     "odds": -128,
-     "dec": 1.783,
-     "odds_assumed": false,
-     "p": 0.541,
-     "implied": 0.561,
-     "edge": -0.02,
-     "ev": -0.036,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.605,
-     "p_mkt": 0.519,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 17.0,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 5.8,
-     "open": [
-      4.5,
-      1.783
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 12.5 PTS+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 12.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.504,
-     "implied": 0.523,
-     "edge": -0.019,
-     "ev": -0.036,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.565,
-     "p_mkt": 0.484,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 15.0,
-     "open": [
-      12.5,
-      1.912
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Over 16.5 PTS+AST",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 16.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.519,
-     "edge": -0.019,
-     "ev": -0.037,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -102,
-     "dec_ref": 1.98,
-     "p_model": 0.557,
-     "p_mkt": 0.481,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 19.0,
-     "open": [
-      16.5,
-      1.926
      ]
     },
     {
@@ -128588,61 +128230,24 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 16.5 REB+AST",
-     "player": "Luka Dončić",
+     "label": "Walker Kessler Over 25.5 PTS+REB",
+     "player": "Walker Kessler",
      "team": "LAL",
-     "line": 16.5,
-     "odds": -127,
-     "dec": 1.79,
+     "line": 25.5,
+     "odds": -113,
+     "dec": 1.889,
      "odds_assumed": false,
-     "p": 0.536,
-     "implied": 0.559,
-     "edge": -0.022,
+     "p": 0.508,
+     "implied": 0.529,
+     "edge": -0.021,
      "ev": -0.04,
      "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.593,
-     "p_mkt": 0.517,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ]
-     },
-     "mean": 15.5,
-     "open": [
-      16.5,
-      1.79
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 6.5 REB+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 6.5,
-     "odds": -117,
-     "dec": 1.852,
-     "odds_assumed": false,
-     "p": 0.518,
-     "implied": 0.54,
-     "edge": -0.022,
-     "ev": -0.04,
-     "value": false,
-     "stat": "ra",
+     "stat": "pr",
      "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.573,
-     "p_mkt": 0.5,
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.562,
+     "p_mkt": 0.49,
      "cand": false,
      "hr": {
       "l10": [
@@ -128654,54 +128259,10 @@
        2
       ]
      },
-     "mean": 7.7,
+     "mean": 28.0,
      "open": [
-      6.5,
-      1.852
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 10.5 Puntos",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 10.5,
-     "odds": -120,
-     "dec": 1.836,
-     "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.545,
-     "edge": -0.022,
-     "ev": -0.041,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.576,
-     "p_mkt": 0.504,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 28,
-       "value": 25.9,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "mean": 13.2,
-     "open": [
-      10.5,
-      1.836
+      25.5,
+      1.889
      ]
     },
     {
@@ -128824,50 +128385,6 @@
      ]
     },
     {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Over 1.5 Triples",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 1.5,
-     "odds": 122,
-     "dec": 2.221,
-     "odds_assumed": false,
-     "p": 0.431,
-     "implied": 0.45,
-     "edge": -0.019,
-     "ev": -0.043,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 130,
-     "dec_ref": 2.3,
-     "p_model": 0.473,
-     "p_mkt": 0.417,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 4,
-       "value": 0.9,
-       "lg": 1.2,
-       "n": 30
-      }
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      2.221
-     ]
-    },
-    {
      "kind": "spread",
      "label": "LAL -2.5",
      "player": null,
@@ -128896,50 +128413,6 @@
      "open": [
       -2.5,
       1.877
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Over 14.5 Puntos",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 14.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.523,
-     "edge": -0.023,
-     "ev": -0.044,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.547,
-     "p_mkt": 0.484,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 28,
-       "value": 25.9,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "mean": 16.8,
-     "open": [
-      14.5,
-      1.912
      ]
     },
     {
@@ -129062,46 +128535,39 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 52.5 PTS+REB+AST",
+     "label": "Luka Dončić Over 43.5 PTS+REB",
      "player": "Luka Dončić",
      "team": "LAL",
-     "line": 52.5,
-     "odds": -117,
-     "dec": 1.856,
+     "line": 43.5,
+     "odds": -116,
+     "dec": 1.86,
      "odds_assumed": false,
-     "p": 0.515,
-     "implied": 0.539,
+     "p": 0.514,
+     "implied": 0.538,
      "edge": -0.024,
      "ev": -0.045,
      "value": false,
-     "stat": "pra",
+     "stat": "pr",
      "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.562,
-     "p_mkt": 0.499,
+     "odds_ref": -106,
+     "dec_ref": 1.943,
+     "p_model": 0.561,
+     "p_mkt": 0.498,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       7,
        10
       ],
       "h2h": [
        2,
        3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 16,
-       "value": 41.3,
-       "lg": 40.8,
-       "n": 30
-      }
+      ]
      },
-     "mean": 57.5,
+     "mean": 48.3,
      "open": [
-      52.5,
-      1.856
+      43.5,
+      1.86
      ]
     },
     {
@@ -129150,39 +128616,127 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 44.5 PTS+AST",
-     "player": "Luka Dončić",
+     "label": "Sandro Mamukelashvili Over 15.5 PTS+REB",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 44.5,
+     "line": 15.5,
+     "odds": -121,
+     "dec": 1.824,
+     "odds_assumed": false,
+     "p": 0.523,
+     "implied": 0.548,
+     "edge": -0.025,
+     "ev": -0.046,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.569,
+     "p_mkt": 0.508,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 18.0,
+     "open": [
+      15.5,
+      1.824
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 17.5,
      "odds": -115,
-     "dec": 1.872,
+     "dec": 1.871,
      "odds_assumed": false,
      "p": 0.51,
      "implied": 0.534,
      "edge": -0.025,
      "ev": -0.046,
      "value": false,
-     "stat": "pa",
+     "stat": "pra",
      "side": "over",
-     "odds_ref": -109,
-     "dec_ref": 1.917,
-     "p_model": 0.554,
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.555,
      "p_mkt": 0.495,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       5,
        10
       ],
       "h2h": [
        1,
-       3
-      ]
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 46.3,
+       "lg": 40.9,
+       "n": 30
+      }
      },
-     "mean": 49.3,
+     "mean": 19.8,
      "open": [
-      44.5,
-      1.872
+      17.5,
+      1.871
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Under 4.5 Triples",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 4.5,
+     "odds": -107,
+     "dec": 1.934,
+     "odds_assumed": false,
+     "p": 0.493,
+     "implied": 0.517,
+     "edge": -0.025,
+     "ev": -0.047,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.534,
+     "p_mkt": 0.479,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 26,
+       "value": 4.3,
+       "lg": 3.7,
+       "n": 30
+      }
+     },
+     "mean": 4.7,
+     "open": [
+      4.5,
+      1.934
      ]
     },
     {
@@ -129214,6 +128768,50 @@
      "open": [
       2.5,
       1.941
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Over 35.5 Puntos",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 35.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.514,
+     "implied": 0.54,
+     "edge": -0.026,
+     "ev": -0.048,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.556,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 20,
+       "value": 28.5,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 40.3,
+     "open": [
+      35.5,
+      1.852
      ]
     },
     {
@@ -129251,6 +128849,50 @@
      "open": [
       18.5,
       1.813
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Over 4.5 Rebotes",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 4.5,
+     "odds": -128,
+     "dec": 1.783,
+     "odds_assumed": false,
+     "p": 0.533,
+     "implied": 0.561,
+     "edge": -0.027,
+     "ev": -0.049,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.576,
+     "p_mkt": 0.519,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 17.0,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 5.6,
+     "open": [
+      4.5,
+      1.783
      ]
     },
     {
@@ -129387,90 +129029,157 @@
     },
     {
      "kind": "prop",
-     "label": "Ziaire Williams Over 8.5 Puntos",
-     "player": "Ziaire Williams",
+     "label": "Sandro Mamukelashvili Over 1.5 Triples",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 8.5,
-     "odds": -132,
-     "dec": 1.759,
+     "line": 1.5,
+     "odds": 122,
+     "dec": 2.221,
      "odds_assumed": false,
-     "p": 0.539,
-     "implied": 0.568,
-     "edge": -0.03,
-     "ev": -0.053,
+     "p": 0.427,
+     "implied": 0.45,
+     "edge": -0.023,
+     "ev": -0.052,
      "value": false,
-     "stat": "pts",
+     "stat": "fg3m",
      "side": "over",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.575,
-     "p_mkt": 0.526,
+     "odds_ref": 130,
+     "dec_ref": 2.3,
+     "p_model": 0.457,
+     "p_mkt": 0.417,
      "cand": false,
      "hr": {
       "l10": [
-       9,
+       5,
        10
       ],
       "h2h": [
-       2,
+       0,
        2
       ],
       "dvp": {
-       "pos": "SF",
+       "pos": "C",
        "rank": 4,
-       "value": 16.6,
-       "lg": 20.1,
+       "value": 0.9,
+       "lg": 1.2,
        "n": 30
       }
      },
-     "mean": 10.6,
+     "mean": 1.6,
      "open": [
-      8.5,
-      1.759
+      1.5,
+      2.221
      ]
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 4.5 Triples",
-     "player": "Luka Dončić",
+     "label": "Sandro Mamukelashvili Over 12.5 PTS+AST",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 4.5,
-     "odds": -107,
-     "dec": 1.934,
+     "line": 12.5,
+     "odds": -110,
+     "dec": 1.912,
      "odds_assumed": false,
-     "p": 0.489,
-     "implied": 0.517,
-     "edge": -0.029,
-     "ev": -0.055,
+     "p": 0.495,
+     "implied": 0.523,
+     "edge": -0.028,
+     "ev": -0.053,
      "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.518,
-     "p_mkt": 0.479,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.529,
+     "p_mkt": 0.484,
      "cand": false,
      "hr": {
       "l10": [
-       2,
+       5,
        10
       ],
       "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 4.3,
-       "lg": 3.7,
-       "n": 30
-      }
+       0,
+       2
+      ]
      },
-     "mean": 4.8,
+     "mean": 14.2,
      "open": [
-      4.5,
-      1.934
+      12.5,
+      1.912
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Over 6.5 REB+AST",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.51,
+     "implied": 0.54,
+     "edge": -0.03,
+     "ev": -0.055,
+     "value": false,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.541,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 7.4,
+     "open": [
+      6.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Walker Kessler Over 16.5 PTS+AST",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 16.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.49,
+     "implied": 0.519,
+     "edge": -0.029,
+     "ev": -0.056,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -102,
+     "dec_ref": 1.98,
+     "p_model": 0.519,
+     "p_mkt": 0.481,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 18.0,
+     "open": [
+      16.5,
+      1.926
      ]
     },
     {
@@ -129508,6 +129217,50 @@
      "open": [
       29.5,
       1.795
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Over 10.5 Puntos",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 10.5,
+     "odds": -120,
+     "dec": 1.836,
+     "odds_assumed": false,
+     "p": 0.514,
+     "implied": 0.545,
+     "edge": -0.031,
+     "ev": -0.057,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -114,
+     "dec_ref": 1.877,
+     "p_model": 0.542,
+     "p_mkt": 0.504,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 28,
+       "value": 25.9,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 12.5,
+     "open": [
+      10.5,
+      1.836
      ]
     },
     {
@@ -129556,46 +129309,46 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 7.5 Rebotes",
-     "player": "Luka Dončić",
+     "label": "Walker Kessler Over 14.5 Puntos",
+     "player": "Walker Kessler",
      "team": "LAL",
-     "line": 7.5,
-     "odds": -119,
-     "dec": 1.843,
+     "line": 14.5,
+     "odds": -110,
+     "dec": 1.912,
      "odds_assumed": false,
-     "p": 0.51,
-     "implied": 0.543,
-     "edge": -0.033,
-     "ev": -0.06,
+     "p": 0.491,
+     "implied": 0.523,
+     "edge": -0.032,
+     "ev": -0.062,
      "value": false,
-     "stat": "reb",
+     "stat": "pts",
      "side": "over",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.532,
-     "p_mkt": 0.502,
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.51,
+     "p_mkt": 0.484,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
-       2,
-       3
+       1,
+       2
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 21,
-       "value": 6.3,
-       "lg": 5.7,
+       "pos": "C",
+       "rank": 28,
+       "value": 25.9,
+       "lg": 22.0,
        "n": 30
       }
      },
-     "mean": 8.2,
+     "mean": 15.9,
      "open": [
-      7.5,
-      1.843
+      14.5,
+      1.912
      ]
     },
     {
@@ -129644,46 +129397,83 @@
     },
     {
      "kind": "prop",
-     "label": "Matisse Thybulle Over 6.5 Puntos",
-     "player": "Matisse Thybulle",
+     "label": "Luka Dončić Over 44.5 PTS+AST",
+     "player": "Luka Dončić",
      "team": "LAL",
-     "line": 6.5,
-     "odds": -117,
-     "dec": 1.852,
+     "line": 44.5,
+     "odds": -115,
+     "dec": 1.872,
      "odds_assumed": false,
-     "p": 0.505,
-     "implied": 0.54,
-     "edge": -0.035,
+     "p": 0.5,
+     "implied": 0.534,
+     "edge": -0.034,
+     "ev": -0.063,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -109,
+     "dec_ref": 1.917,
+     "p_model": 0.517,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ]
+     },
+     "mean": 47.4,
+     "open": [
+      44.5,
+      1.872
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Over 52.5 PTS+REB+AST",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 52.5,
+     "odds": -117,
+     "dec": 1.856,
+     "odds_assumed": false,
+     "p": 0.504,
+     "implied": 0.539,
+     "edge": -0.034,
      "ev": -0.064,
      "value": false,
-     "stat": "pts",
+     "stat": "pra",
      "side": "over",
      "odds_ref": -112,
      "dec_ref": 1.893,
      "p_model": 0.521,
-     "p_mkt": 0.5,
+     "p_mkt": 0.499,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
-       0,
-       1
+       2,
+       3
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 26.3,
-       "lg": 24.0,
+       "pos": "PG",
+       "rank": 16,
+       "value": 41.3,
+       "lg": 40.8,
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 55.4,
      "open": [
-      6.5,
-      1.852
+      52.5,
+      1.856
      ]
     },
     {
@@ -129728,6 +129518,138 @@
      "open": [
       21.5,
       1.924
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ziaire Williams Over 8.5 Puntos",
+     "player": "Ziaire Williams",
+     "team": "LAL",
+     "line": 8.5,
+     "odds": -132,
+     "dec": 1.759,
+     "odds_assumed": false,
+     "p": 0.53,
+     "implied": 0.568,
+     "edge": -0.038,
+     "ev": -0.068,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.541,
+     "p_mkt": 0.526,
+     "cand": false,
+     "hr": {
+      "l10": [
+       9,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 4,
+       "value": 16.6,
+       "lg": 20.1,
+       "n": 30
+      }
+     },
+     "mean": 10.0,
+     "open": [
+      8.5,
+      1.759
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Matisse Thybulle Under 6.5 Puntos",
+     "player": "Matisse Thybulle",
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.503,
+     "implied": 0.54,
+     "edge": -0.037,
+     "ev": -0.069,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.511,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 26,
+       "value": 26.3,
+       "lg": 24.0,
+       "n": 30
+      }
+     },
+     "mean": 7.1,
+     "open": [
+      6.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Over 7.5 Rebotes",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 7.5,
+     "odds": -119,
+     "dec": 1.843,
+     "odds_assumed": false,
+     "p": 0.505,
+     "implied": 0.543,
+     "edge": -0.038,
+     "ev": -0.07,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.511,
+     "p_mkt": 0.502,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 21,
+       "value": 6.3,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 8.0,
+     "open": [
+      7.5,
+      1.843
      ]
     },
     {
@@ -129880,6 +129802,94 @@
     },
     {
      "kind": "prop",
+     "label": "Luka Dončić Under 7.5 Rebotes",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 7.5,
+     "odds": -116,
+     "dec": 1.861,
+     "odds_assumed": false,
+     "p": 0.495,
+     "implied": 0.537,
+     "edge": -0.042,
+     "ev": -0.078,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.489,
+     "p_mkt": 0.498,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 21,
+       "value": 6.3,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 8.0,
+     "open": [
+      7.5,
+      1.861
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Matisse Thybulle Over 6.5 Puntos",
+     "player": "Matisse Thybulle",
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.497,
+     "implied": 0.54,
+     "edge": -0.043,
+     "ev": -0.079,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.489,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 26,
+       "value": 26.3,
+       "lg": 24.0,
+       "n": 30
+      }
+     },
+     "mean": 7.1,
+     "open": [
+      6.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Dillon Brooks Under 21.5 PTS+REB+AST",
      "player": "Dillon Brooks",
      "team": "PHX",
@@ -129924,72 +129934,109 @@
     },
     {
      "kind": "prop",
-     "label": "Matisse Thybulle Under 6.5 Puntos",
-     "player": "Matisse Thybulle",
+     "label": "Ziaire Williams Under 8.5 Puntos",
+     "player": "Ziaire Williams",
      "team": "LAL",
-     "line": 6.5,
-     "odds": -117,
-     "dec": 1.852,
+     "line": 8.5,
+     "odds": -105,
+     "dec": 1.955,
      "odds_assumed": false,
-     "p": 0.495,
-     "implied": 0.54,
-     "edge": -0.045,
-     "ev": -0.084,
+     "p": 0.47,
+     "implied": 0.512,
+     "edge": -0.042,
+     "ev": -0.081,
      "value": false,
      "stat": "pts",
      "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.479,
-     "p_mkt": 0.5,
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.459,
+     "p_mkt": 0.474,
      "cand": false,
      "hr": {
       "l10": [
-       7,
+       1,
        10
       ],
       "h2h": [
-       1,
-       1
+       0,
+       2
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 26.3,
-       "lg": 24.0,
+       "pos": "SF",
+       "rank": 4,
+       "value": 16.6,
+       "lg": 20.1,
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 10.0,
      "open": [
-      6.5,
-      1.852
+      8.5,
+      1.955
      ]
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 7.5 Rebotes",
+     "label": "Luka Dončić Under 44.5 PTS+AST",
      "player": "Luka Dončić",
      "team": "LAL",
-     "line": 7.5,
-     "odds": -116,
-     "dec": 1.861,
+     "line": 44.5,
+     "odds": -120,
+     "dec": 1.833,
      "odds_assumed": false,
-     "p": 0.49,
-     "implied": 0.537,
-     "edge": -0.047,
-     "ev": -0.088,
+     "p": 0.5,
+     "implied": 0.546,
+     "edge": -0.046,
+     "ev": -0.084,
      "value": false,
-     "stat": "reb",
+     "stat": "pa",
      "side": "under",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.468,
-     "p_mkt": 0.498,
+     "odds_ref": -114,
+     "dec_ref": 1.877,
+     "p_model": 0.483,
+     "p_mkt": 0.505,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 47.4,
+     "open": [
+      44.5,
+      1.833
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Under 52.5 PTS+REB+AST",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 52.5,
+     "odds": -118,
+     "dec": 1.848,
+     "odds_assumed": false,
+     "p": 0.496,
+     "implied": 0.541,
+     "edge": -0.046,
+     "ev": -0.084,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.479,
+     "p_mkt": 0.501,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
        10
       ],
       "h2h": [
@@ -129998,16 +130045,60 @@
       ],
       "dvp": {
        "pos": "PG",
-       "rank": 21,
-       "value": 6.3,
-       "lg": 5.7,
+       "rank": 16,
+       "value": 41.3,
+       "lg": 40.8,
        "n": 30
       }
      },
-     "mean": 8.2,
+     "mean": 55.4,
      "open": [
-      7.5,
-      1.861
+      52.5,
+      1.848
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Walker Kessler Under 14.5 Puntos",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 14.5,
+     "odds": -126,
+     "dec": 1.795,
+     "odds_assumed": false,
+     "p": 0.509,
+     "implied": 0.557,
+     "edge": -0.048,
+     "ev": -0.086,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.49,
+     "p_mkt": 0.516,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 28,
+       "value": 25.9,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 15.9,
+     "open": [
+      14.5,
+      1.795
      ]
     },
     {
@@ -130056,46 +130147,127 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 4.5 Triples",
-     "player": "Luka Dončić",
+     "label": "Sandro Mamukelashvili Under 1.5 Triples",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 4.5,
-     "odds": -129,
-     "dec": 1.776,
+     "line": 1.5,
+     "odds": -170,
+     "dec": 1.588,
      "odds_assumed": false,
-     "p": 0.511,
-     "implied": 0.563,
-     "edge": -0.052,
-     "ev": -0.092,
+     "p": 0.573,
+     "implied": 0.63,
+     "edge": -0.057,
+     "ev": -0.09,
      "value": false,
      "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -117,
-     "dec_ref": 1.855,
-     "p_model": 0.482,
-     "p_mkt": 0.521,
+     "side": "under",
+     "odds_ref": -155,
+     "dec_ref": 1.645,
+     "p_model": 0.543,
+     "p_mkt": 0.583,
      "cand": false,
      "hr": {
       "l10": [
-       8,
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 4,
+       "value": 0.9,
+       "lg": 1.2,
+       "n": 30
+      }
+     },
+     "mean": 1.6,
+     "open": [
+      1.5,
+      1.588
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Walker Kessler Under 16.5 PTS+AST",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 16.5,
+     "odds": -128,
+     "dec": 1.783,
+     "odds_assumed": false,
+     "p": 0.51,
+     "implied": 0.561,
+     "edge": -0.051,
+     "ev": -0.091,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.481,
+     "p_mkt": 0.519,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
        10
       ],
       "h2h": [
        1,
-       3
+       2
+      ]
+     },
+     "mean": 18.0,
+     "open": [
+      16.5,
+      1.783
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Under 10.5 Puntos",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 10.5,
+     "odds": -115,
+     "dec": 1.868,
+     "odds_assumed": false,
+     "p": 0.486,
+     "implied": 0.535,
+     "edge": -0.049,
+     "ev": -0.092,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.458,
+     "p_mkt": 0.496,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       2
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 4.3,
-       "lg": 3.7,
+       "pos": "C",
+       "rank": 28,
+       "value": 25.9,
+       "lg": 22.0,
        "n": 30
       }
      },
-     "mean": 4.8,
+     "mean": 12.5,
      "open": [
-      4.5,
-      1.776
+      10.5,
+      1.868
      ]
     },
     {
@@ -130133,6 +130305,80 @@
      "open": [
       29.5,
       1.912
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Under 6.5 REB+AST",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.49,
+     "implied": 0.54,
+     "edge": -0.05,
+     "ev": -0.093,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.459,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 7.4,
+     "open": [
+      6.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Sandro Mamukelashvili Under 12.5 PTS+AST",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 12.5,
+     "odds": -126,
+     "dec": 1.795,
+     "odds_assumed": false,
+     "p": 0.505,
+     "implied": 0.557,
+     "edge": -0.053,
+     "ev": -0.094,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.471,
+     "p_mkt": 0.516,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 14.2,
+     "open": [
+      12.5,
+      1.795
      ]
     },
     {
@@ -130177,50 +130423,6 @@
      "open": [
       33.5,
       1.824
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 1.5 Triples",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 1.5,
-     "odds": -170,
-     "dec": 1.588,
-     "odds_assumed": false,
-     "p": 0.569,
-     "implied": 0.63,
-     "edge": -0.061,
-     "ev": -0.096,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -155,
-     "dec_ref": 1.645,
-     "p_model": 0.527,
-     "p_mkt": 0.583,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 4,
-       "value": 0.9,
-       "lg": 1.2,
-       "n": 30
-      }
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      1.588
      ]
     },
     {
@@ -130313,50 +130515,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ziaire Williams Under 8.5 Puntos",
-     "player": "Ziaire Williams",
-     "team": "LAL",
-     "line": 8.5,
-     "odds": -105,
-     "dec": 1.955,
-     "odds_assumed": false,
-     "p": 0.461,
-     "implied": 0.512,
-     "edge": -0.05,
-     "ev": -0.098,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.425,
-     "p_mkt": 0.474,
-     "cand": false,
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 4,
-       "value": 16.6,
-       "lg": 20.1,
-       "n": 30
-      }
-     },
-     "mean": 10.6,
-     "open": [
-      8.5,
-      1.955
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Jalen Green Over 5.5 REB+AST",
      "player": "Jalen Green",
      "team": "PHX",
@@ -130390,6 +130548,50 @@
      "open": [
       5.5,
       1.713
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Over 4.5 Triples",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 4.5,
+     "odds": -129,
+     "dec": 1.776,
+     "odds_assumed": false,
+     "p": 0.507,
+     "implied": 0.563,
+     "edge": -0.056,
+     "ev": -0.099,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -117,
+     "dec_ref": 1.855,
+     "p_model": 0.466,
+     "p_mkt": 0.521,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 26,
+       "value": 4.3,
+       "lg": 3.7,
+       "n": 30
+      }
+     },
+     "mean": 4.7,
+     "open": [
+      4.5,
+      1.776
      ]
     },
     {
@@ -130475,6 +130677,50 @@
     },
     {
      "kind": "prop",
+     "label": "Luka Dončić Under 35.5 Puntos",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 35.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.486,
+     "implied": 0.54,
+     "edge": -0.054,
+     "ev": -0.1,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -113,
+     "dec_ref": 1.885,
+     "p_model": 0.444,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 20,
+       "value": 28.5,
+       "lg": 27.1,
+       "n": 30
+      }
+     },
+     "mean": 40.3,
+     "open": [
+      35.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Miles Bridges Over 22.5 PTS+REB+AST",
      "player": "Miles Bridges",
      "team": "PHX",
@@ -130519,39 +130765,46 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 44.5 PTS+AST",
-     "player": "Luka Dončić",
+     "label": "Sandro Mamukelashvili Under 4.5 Rebotes",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 44.5,
-     "odds": -120,
-     "dec": 1.833,
+     "line": 4.5,
+     "odds": -108,
+     "dec": 1.926,
      "odds_assumed": false,
-     "p": 0.49,
-     "implied": 0.546,
-     "edge": -0.055,
+     "p": 0.467,
+     "implied": 0.519,
+     "edge": -0.053,
      "ev": -0.101,
      "value": false,
-     "stat": "pa",
+     "stat": "reb",
      "side": "under",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.446,
-     "p_mkt": 0.505,
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.424,
+     "p_mkt": 0.481,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       6,
        10
       ],
       "h2h": [
-       2,
-       3
-      ]
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 17.0,
+       "lg": 14.7,
+       "n": 30
+      }
      },
-     "mean": 49.3,
+     "mean": 5.6,
      "open": [
-      44.5,
-      1.833
+      4.5,
+      1.926
      ]
     },
     {
@@ -130583,50 +130836,6 @@
      "open": [
       226.5,
       1.902
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Under 14.5 Puntos",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 14.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.557,
-     "edge": -0.057,
-     "ev": -0.102,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.453,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 28,
-       "value": 25.9,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "mean": 16.8,
-     "open": [
-      14.5,
-      1.795
      ]
     },
     {
@@ -130668,46 +130877,83 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 52.5 PTS+REB+AST",
-     "player": "Luka Dončić",
+     "label": "Sandro Mamukelashvili Under 17.5 PTS+REB+AST",
+     "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "line": 52.5,
-     "odds": -118,
-     "dec": 1.848,
+     "line": 17.5,
+     "odds": -120,
+     "dec": 1.833,
      "odds_assumed": false,
-     "p": 0.485,
-     "implied": 0.541,
-     "edge": -0.056,
-     "ev": -0.103,
+     "p": 0.49,
+     "implied": 0.546,
+     "edge": -0.055,
+     "ev": -0.102,
      "value": false,
      "stat": "pra",
      "side": "under",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.438,
-     "p_mkt": 0.501,
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.445,
+     "p_mkt": 0.505,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 46.3,
+       "lg": 40.9,
+       "n": 30
+      }
+     },
+     "mean": 19.8,
+     "open": [
+      17.5,
+      1.833
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luka Dončić Under 43.5 PTS+REB",
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "line": 43.5,
+     "odds": -119,
+     "dec": 1.844,
+     "odds_assumed": false,
+     "p": 0.486,
+     "implied": 0.542,
+     "edge": -0.056,
+     "ev": -0.103,
+     "value": false,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -108,
+     "dec_ref": 1.926,
+     "p_model": 0.439,
+     "p_mkt": 0.502,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
        10
       ],
       "h2h": [
        1,
        3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 16,
-       "value": 41.3,
-       "lg": 40.8,
-       "n": 30
-      }
+      ]
      },
-     "mean": 57.5,
+     "mean": 48.3,
      "open": [
-      52.5,
-      1.848
+      43.5,
+      1.844
      ]
     },
     {
@@ -130756,6 +131002,43 @@
     },
     {
      "kind": "prop",
+     "label": "Sandro Mamukelashvili Under 15.5 PTS+REB",
+     "player": "Sandro Mamukelashvili",
+     "team": "LAL",
+     "line": 15.5,
+     "odds": -114,
+     "dec": 1.881,
+     "odds_assumed": false,
+     "p": 0.477,
+     "implied": 0.532,
+     "edge": -0.055,
+     "ev": -0.103,
+     "value": false,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.431,
+     "p_mkt": 0.492,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 18.0,
+     "open": [
+      15.5,
+      1.881
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Khaman Maluach Over 5.5 Rebotes",
      "player": "Khaman Maluach",
      "team": "PHX",
@@ -130800,105 +131083,24 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Under 16.5 PTS+AST",
+     "label": "Walker Kessler Under 25.5 PTS+REB",
      "player": "Walker Kessler",
      "team": "LAL",
-     "line": 16.5,
-     "odds": -128,
-     "dec": 1.783,
+     "line": 25.5,
+     "odds": -123,
+     "dec": 1.816,
      "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.561,
-     "edge": -0.061,
-     "ev": -0.108,
+     "p": 0.492,
+     "implied": 0.551,
+     "edge": -0.059,
+     "ev": -0.107,
      "value": false,
-     "stat": "pa",
+     "stat": "pr",
      "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.443,
-     "p_mkt": 0.519,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 19.0,
-     "open": [
-      16.5,
-      1.783
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 10.5 Puntos",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 10.5,
-     "odds": -115,
-     "dec": 1.868,
-     "odds_assumed": false,
-     "p": 0.478,
-     "implied": 0.535,
-     "edge": -0.058,
-     "ev": -0.108,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.424,
-     "p_mkt": 0.496,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 28,
-       "value": 25.9,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "mean": 13.2,
-     "open": [
-      10.5,
-      1.868
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 6.5 REB+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 6.5,
-     "odds": -117,
-     "dec": 1.852,
-     "odds_assumed": false,
-     "p": 0.482,
-     "implied": 0.54,
-     "edge": -0.058,
-     "ev": -0.108,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.427,
-     "p_mkt": 0.5,
+     "odds_ref": -114,
+     "dec_ref": 1.877,
+     "p_model": 0.438,
+     "p_mkt": 0.51,
      "cand": false,
      "hr": {
       "l10": [
@@ -130910,10 +131112,10 @@
        2
       ]
      },
-     "mean": 7.7,
+     "mean": 28.0,
      "open": [
-      6.5,
-      1.852
+      25.5,
+      1.816
      ]
     },
     {
@@ -131036,102 +131238,28 @@
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Over 16.5 REB+AST",
-     "player": "Luka Dončić",
+     "label": "Walker Kessler Under 27.5 PTS+REB+AST",
+     "player": "Walker Kessler",
      "team": "LAL",
-     "line": 16.5,
-     "odds": -109,
-     "dec": 1.918,
+     "line": 27.5,
+     "odds": -125,
+     "dec": 1.801,
      "odds_assumed": false,
-     "p": 0.464,
-     "implied": 0.521,
-     "edge": -0.058,
-     "ev": -0.11,
+     "p": 0.494,
+     "implied": 0.555,
+     "edge": -0.061,
+     "ev": -0.111,
      "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.407,
-     "p_mkt": 0.483,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ]
-     },
-     "mean": 15.5,
-     "open": [
-      16.5,
-      1.918
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 12.5 PTS+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 12.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.496,
-     "implied": 0.557,
-     "edge": -0.062,
-     "ev": -0.11,
-     "value": false,
-     "stat": "pa",
+     "stat": "pra",
      "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.435,
-     "p_mkt": 0.516,
+     "odds_ref": -122,
+     "dec_ref": 1.82,
+     "p_model": 0.433,
+     "p_mkt": 0.514,
      "cand": false,
      "hr": {
       "l10": [
        5,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 15.0,
-     "open": [
-      12.5,
-      1.795
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 4.5 Rebotes",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 4.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.459,
-     "implied": 0.519,
-     "edge": -0.06,
-     "ev": -0.115,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.395,
-     "p_mkt": 0.481,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
        10
       ],
       "h2h": [
@@ -131141,37 +131269,37 @@
       "dvp": {
        "pos": "C",
        "rank": 27,
-       "value": 17.0,
-       "lg": 14.7,
+       "value": 46.3,
+       "lg": 40.9,
        "n": 30
       }
      },
-     "mean": 5.8,
+     "mean": 30.1,
      "open": [
-      4.5,
-      1.926
+      27.5,
+      1.801
      ]
     },
     {
      "kind": "prop",
-     "label": "Luka Dončić Under 35.5 Puntos",
-     "player": "Luka Dončić",
+     "label": "Walker Kessler Under 12.5 REB+AST",
+     "player": "Walker Kessler",
      "team": "LAL",
-     "line": 35.5,
-     "odds": -117,
-     "dec": 1.852,
+     "line": 12.5,
+     "odds": -122,
+     "dec": 1.822,
      "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.54,
-     "edge": -0.062,
-     "ev": -0.116,
+     "p": 0.485,
+     "implied": 0.549,
+     "edge": -0.064,
+     "ev": -0.117,
      "value": false,
-     "stat": "pts",
+     "stat": "ra",
      "side": "under",
-     "odds_ref": -113,
-     "dec_ref": 1.885,
-     "p_model": 0.41,
-     "p_mkt": 0.5,
+     "odds_ref": -107,
+     "dec_ref": 1.935,
+     "p_model": 0.414,
+     "p_mkt": 0.508,
      "cand": false,
      "hr": {
       "l10": [
@@ -131179,21 +131307,14 @@
        10
       ],
       "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 20,
-       "value": 28.5,
-       "lg": 27.1,
-       "n": 30
-      }
+       0,
+       2
+      ]
      },
-     "mean": 42.0,
+     "mean": 14.3,
      "open": [
-      35.5,
-      1.852
+      12.5,
+      1.822
      ]
     },
     {
@@ -131272,212 +131393,6 @@
     },
     {
      "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 15.5 PTS+REB",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 15.5,
-     "odds": -114,
-     "dec": 1.881,
-     "odds_assumed": false,
-     "p": 0.468,
-     "implied": 0.532,
-     "edge": -0.064,
-     "ev": -0.12,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.395,
-     "p_mkt": 0.492,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 19.0,
-     "open": [
-      15.5,
-      1.881
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Sandro Mamukelashvili Under 17.5 PTS+REB+AST",
-     "player": "Sandro Mamukelashvili",
-     "team": "LAL",
-     "line": 17.5,
-     "odds": -120,
-     "dec": 1.833,
-     "odds_assumed": false,
-     "p": 0.48,
-     "implied": 0.546,
-     "edge": -0.066,
-     "ev": -0.12,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.404,
-     "p_mkt": 0.505,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 46.3,
-       "lg": 40.9,
-       "n": 30
-      }
-     },
-     "mean": 20.8,
-     "open": [
-      17.5,
-      1.833
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Quentin Grimes Over 11.5 Puntos",
-     "player": "Quentin Grimes",
-     "team": "LAL",
-     "line": 11.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.46,
-     "implied": 0.523,
-     "edge": -0.063,
-     "ev": -0.121,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.387,
-     "p_mkt": 0.484,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 26.3,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "mean": 10.8,
-     "open": [
-      11.5,
-      1.912
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Luka Dončić Under 43.5 PTS+REB",
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "line": 43.5,
-     "odds": -119,
-     "dec": 1.844,
-     "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.542,
-     "edge": -0.065,
-     "ev": -0.121,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.401,
-     "p_mkt": 0.502,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 50.2,
-     "open": [
-      43.5,
-      1.844
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jake LaRavia Over 6.5 Puntos",
-     "player": "Jake LaRavia",
-     "team": "LAL",
-     "line": 6.5,
-     "odds": -123,
-     "dec": 1.814,
-     "odds_assumed": false,
-     "p": 0.484,
-     "implied": 0.551,
-     "edge": -0.067,
-     "ev": -0.122,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -118,
-     "dec_ref": 1.847,
-     "p_model": 0.404,
-     "p_mkt": 0.51,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 15,
-       "value": 22.7,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "mean": 6.2,
-     "open": [
-      6.5,
-      1.814
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Jalen Green Over 18.5 PTS+REB+AST",
      "player": "Jalen Green",
      "team": "PHX",
@@ -131522,120 +131437,83 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Under 25.5 PTS+REB",
-     "player": "Walker Kessler",
+     "label": "Luka Dončić Over 16.5 REB+AST",
+     "player": "Luka Dončić",
      "team": "LAL",
-     "line": 25.5,
-     "odds": -123,
-     "dec": 1.816,
+     "line": 16.5,
+     "odds": -109,
+     "dec": 1.918,
      "odds_assumed": false,
-     "p": 0.482,
-     "implied": 0.551,
-     "edge": -0.069,
-     "ev": -0.125,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.397,
-     "p_mkt": 0.51,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 29.3,
-     "open": [
-      25.5,
-      1.816
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Walker Kessler Under 12.5 REB+AST",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 12.5,
-     "odds": -122,
-     "dec": 1.822,
-     "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.549,
-     "edge": -0.072,
-     "ev": -0.131,
+     "p": 0.457,
+     "implied": 0.521,
+     "edge": -0.064,
+     "ev": -0.123,
      "value": false,
      "stat": "ra",
-     "side": "under",
-     "odds_ref": -107,
-     "dec_ref": 1.935,
-     "p_model": 0.384,
-     "p_mkt": 0.508,
+     "side": "over",
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.38,
+     "p_mkt": 0.483,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       4,
        10
       ],
       "h2h": [
        0,
-       2
+       3
       ]
      },
-     "mean": 14.8,
+     "mean": 15.1,
      "open": [
-      12.5,
-      1.822
+      16.5,
+      1.918
      ]
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Under 27.5 PTS+REB+AST",
-     "player": "Walker Kessler",
+     "label": "Jake LaRavia Under 4.5 Rebotes",
+     "player": "Jake LaRavia",
      "team": "LAL",
-     "line": 27.5,
-     "odds": -125,
-     "dec": 1.801,
+     "line": 4.5,
+     "odds": -173,
+     "dec": 1.576,
      "odds_assumed": false,
-     "p": 0.483,
-     "implied": 0.555,
-     "edge": -0.073,
-     "ev": -0.131,
+     "p": 0.554,
+     "implied": 0.634,
+     "edge": -0.081,
+     "ev": -0.127,
      "value": false,
-     "stat": "pra",
+     "stat": "reb",
      "side": "under",
-     "odds_ref": -122,
-     "dec_ref": 1.82,
-     "p_model": 0.388,
-     "p_mkt": 0.514,
+     "odds_ref": -155,
+     "dec_ref": 1.645,
+     "p_model": 0.554,
+     "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
-       1,
-       2
+       2,
+       5
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 46.3,
-       "lg": 40.9,
+       "pos": "PF",
+       "rank": 23,
+       "value": 11.1,
+       "lg": 10.4,
        "n": 30
       }
      },
-     "mean": 31.6,
+     "mean": 4.5,
      "open": [
-      27.5,
-      1.801
+      4.5,
+      1.576
      ]
     },
     {
@@ -131673,6 +131551,50 @@
      "open": [
       15.5,
       1.883
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Collin Sexton Over 1.5 Triples",
+     "player": "Collin Sexton",
+     "team": "LAL",
+     "line": 1.5,
+     "odds": 123,
+     "dec": 2.232,
+     "odds_assumed": false,
+     "p": 0.388,
+     "implied": 0.448,
+     "edge": -0.06,
+     "ev": -0.134,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": 132,
+     "dec_ref": 2.32,
+     "p_model": 0.307,
+     "p_mkt": 0.415,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 27,
+       "value": 4.0,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.1,
+     "open": [
+      1.5,
+      2.232
      ]
     },
     {
@@ -131758,46 +131680,90 @@
     },
     {
      "kind": "prop",
-     "label": "Collin Sexton Over 1.5 Triples",
-     "player": "Collin Sexton",
+     "label": "Jake LaRavia Over 6.5 Puntos",
+     "player": "Jake LaRavia",
      "team": "LAL",
-     "line": 1.5,
-     "odds": 123,
-     "dec": 2.232,
+     "line": 6.5,
+     "odds": -123,
+     "dec": 1.814,
      "odds_assumed": false,
-     "p": 0.386,
-     "implied": 0.448,
-     "edge": -0.062,
-     "ev": -0.138,
+     "p": 0.475,
+     "implied": 0.551,
+     "edge": -0.077,
+     "ev": -0.139,
      "value": false,
-     "stat": "fg3m",
+     "stat": "pts",
      "side": "over",
-     "odds_ref": 132,
-     "dec_ref": 2.32,
-     "p_model": 0.301,
-     "p_mkt": 0.415,
+     "odds_ref": -118,
+     "dec_ref": 1.847,
+     "p_model": 0.367,
+     "p_mkt": 0.51,
      "cand": false,
      "hr": {
       "l10": [
-       2,
+       5,
        10
       ],
       "h2h": [
        2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 15,
+       "value": 22.7,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 5.9,
+     "open": [
+      6.5,
+      1.814
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Quentin Grimes Over 11.5 Puntos",
+     "player": "Quentin Grimes",
+     "team": "LAL",
+     "line": 11.5,
+     "odds": -110,
+     "dec": 1.912,
+     "odds_assumed": false,
+     "p": 0.45,
+     "implied": 0.523,
+     "edge": -0.073,
+     "ev": -0.139,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.348,
+     "p_mkt": 0.484,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
        2
       ],
       "dvp": {
        "pos": "SG",
-       "rank": 27,
-       "value": 4.0,
-       "lg": 3.4,
+       "rank": 26,
+       "value": 26.3,
+       "lg": 24.0,
        "n": 30
       }
      },
-     "mean": 1.1,
+     "mean": 10.1,
      "open": [
-      1.5,
-      2.232
+      11.5,
+      1.912
      ]
     },
     {
@@ -132089,50 +132055,6 @@
     },
     {
      "kind": "prop",
-     "label": "Jake LaRavia Under 4.5 Rebotes",
-     "player": "Jake LaRavia",
-     "team": "LAL",
-     "line": 4.5,
-     "odds": -173,
-     "dec": 1.576,
-     "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.634,
-     "edge": -0.103,
-     "ev": -0.162,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -155,
-     "dec_ref": 1.645,
-     "p_model": 0.532,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 23,
-       "value": 11.1,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.7,
-     "open": [
-      4.5,
-      1.576
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Collin Sexton Over 16.5 PTS+AST",
      "player": "Collin Sexton",
      "team": "LAL",
@@ -132142,14 +132064,14 @@
      "odds_assumed": false,
      "p": 0.461,
      "implied": 0.553,
-     "edge": -0.092,
+     "edge": -0.093,
      "ev": -0.167,
      "value": false,
      "stat": "pa",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.307,
+     "p_model": 0.306,
      "p_mkt": 0.512,
      "cand": false,
      "hr": {
@@ -132162,7 +132084,7 @@
        2
       ]
      },
-     "mean": 13.7,
+     "mean": 13.6,
      "open": [
       16.5,
       1.808
@@ -132177,16 +132099,16 @@
      "odds": -105,
      "dec": 1.955,
      "odds_assumed": false,
-     "p": 0.425,
+     "p": 0.424,
      "implied": 0.512,
      "edge": -0.087,
-     "ev": -0.17,
+     "ev": -0.171,
      "value": false,
      "stat": "pra",
      "side": "over",
      "odds_ref": 100,
      "dec_ref": 2.0,
-     "p_model": 0.278,
+     "p_model": 0.276,
      "p_mkt": 0.474,
      "cand": false,
      "hr": {
@@ -132224,13 +132146,13 @@
      "p": 0.497,
      "implied": 0.605,
      "edge": -0.107,
-     "ev": -0.177,
+     "ev": -0.178,
      "value": false,
      "stat": "pr",
      "side": "over",
      "odds_ref": -145,
      "dec_ref": 1.69,
-     "p_model": 0.31,
+     "p_model": 0.309,
      "p_mkt": 0.56,
      "cand": false,
      "hr": {
@@ -132261,13 +132183,13 @@
      "p": 0.43,
      "implied": 0.525,
      "edge": -0.095,
-     "ev": -0.18,
+     "ev": -0.181,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": 100,
      "dec_ref": 2.0,
-     "p_model": 0.263,
+     "p_model": 0.261,
      "p_mkt": 0.486,
      "cand": false,
      "hr": {
@@ -132287,10 +132209,54 @@
        "n": 30
       }
      },
-     "mean": 11.1,
+     "mean": 11.0,
      "open": [
       14.5,
       1.904
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Walker Kessler Under 11.5 Rebotes",
+     "player": "Walker Kessler",
+     "team": "LAL",
+     "line": 11.5,
+     "odds": -156,
+     "dec": 1.643,
+     "odds_assumed": false,
+     "p": 0.498,
+     "implied": 0.609,
+     "edge": -0.111,
+     "ev": -0.182,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.498,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 27,
+       "value": 17.0,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 12.1,
+     "open": [
+      11.5,
+      1.643
      ]
     },
     {
@@ -132420,50 +132386,6 @@
     },
     {
      "kind": "prop",
-     "label": "Walker Kessler Under 11.5 Rebotes",
-     "player": "Walker Kessler",
-     "team": "LAL",
-     "line": 11.5,
-     "odds": -156,
-     "dec": 1.643,
-     "odds_assumed": false,
-     "p": 0.469,
-     "implied": 0.609,
-     "edge": -0.14,
-     "ev": -0.229,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.469,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 17.0,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 12.6,
-     "open": [
-      11.5,
-      1.643
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Oso Ighodaro Over 4.5 Rebotes",
      "player": "Oso Ighodaro",
      "team": "PHX",
@@ -132513,120 +132435,120 @@
       "Luka Dončić": [
        [
         "Walker Kessler",
-        6.3,
-        4.6
+        5.8,
+        4.8
        ],
        [
         "Sandro Mamukelashvili",
-        6.1,
-        5.5
+        5.2,
+        5.2
        ],
        [
-        "Ziaire Williams",
-        5.0,
-        5.0
+        "Collin Sexton",
+        4.9,
+        3.8
        ]
       ],
       "Walker Kessler": [
        [
         "Luka Dončić",
-        3.7,
-        2.5
+        3.6,
+        3.0
        ],
        [
         "Sandro Mamukelashvili",
-        2.6,
-        4.5
-       ],
-       [
-        "Ziaire Williams",
         2.2,
         4.3
+       ],
+       [
+        "Collin Sexton",
+        1.9,
+        3.1
        ]
       ],
       "Quentin Grimes": [
        [
         "Luka Dončić",
         2.3,
-        2.2
-       ],
-       [
-        "Sandro Mamukelashvili",
-        1.8,
-        3.7
+        2.6
        ],
        [
         "Walker Kessler",
-        1.6,
+        1.5,
+        3.6
+       ],
+       [
+        "Sandro Mamukelashvili",
+        1.5,
         3.5
        ]
       ],
       "Sandro Mamukelashvili": [
        [
         "Luka Dončić",
-        3.3,
-        2.1
+        3.2,
+        2.4
        ],
        [
         "Walker Kessler",
-        1.9,
+        1.7,
         3.2
        ],
        [
-        "Ziaire Williams",
-        1.6,
-        3.1
+        "Collin Sexton",
+        1.5,
+        2.2
        ]
       ],
       "Matisse Thybulle": [
        [
-        "Sandro Mamukelashvili",
+        "Luka Dončić",
         1.3,
-        3.4
+        2.4
        ],
        [
-        "Luka Dončić",
-        1.2,
-        2.1
+        "Sandro Mamukelashvili",
+        1.1,
+        3.2
        ],
        [
         "Walker Kessler",
-        1.1,
+        1.0,
         3.3
        ]
       ],
       "Ziaire Williams": [
        [
         "Luka Dončić",
-        2.4,
-        2.1
-       ],
-       [
-        "Sandro Mamukelashvili",
-        1.7,
-        3.3
+        2.3,
+        2.4
        ],
        [
         "Walker Kessler",
-        1.5,
-        3.2
+        1.4,
+        3.3
+       ],
+       [
+        "Sandro Mamukelashvili",
+        1.4,
+        3.1
        ]
       ],
       "Jake LaRavia": [
        [
         "Sandro Mamukelashvili",
-        1.2,
-        3.3
-       ],
-       [
-        "Ziaire Williams",
-        1.0,
+        0.9,
         3.1
        ],
        [
-        "Quentin Grimes",
+        "Collin Sexton",
         0.9,
-        3.6
+        2.2
+       ],
+       [
+        "Luka Dončić",
+        0.8,
+        2.4
        ]
       ]
      },
@@ -132635,24 +132557,8 @@
      "planb": {
       "Luka Dončić": {
        "p_play": 1.0,
-       "min": 38.7,
+       "min": 37.8,
        "picks": [
-        {
-         "kind": "prop",
-         "label": "Sandro Mamukelashvili Over 12.5 PTS+AST",
-         "player": "Sandro Mamukelashvili",
-         "team": "LAL",
-         "stat": "pa",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.912,
-         "p": 0.673,
-         "base_p": 0.504,
-         "ev": 0.286,
-         "if_out": "Luka Dončić",
-         "mean": 21.6,
-         "mean0": 15.0
-        },
         {
          "kind": "prop",
          "label": "Walker Kessler Over 27.5 PTS+REB+AST",
@@ -132662,12 +132568,28 @@
          "side": "over",
          "line": 27.5,
          "dec": 1.906,
-         "p": 0.67,
-         "base_p": 0.517,
-         "ev": 0.277,
+         "p": 0.671,
+         "base_p": 0.506,
+         "ev": 0.279,
          "if_out": "Luka Dončić",
-         "mean": 39.9,
-         "mean0": 31.6
+         "mean": 38.2,
+         "mean0": 30.1
+        },
+        {
+         "kind": "prop",
+         "label": "Sandro Mamukelashvili Over 12.5 PTS+AST",
+         "player": "Sandro Mamukelashvili",
+         "team": "LAL",
+         "stat": "pa",
+         "side": "over",
+         "line": 12.5,
+         "dec": 1.912,
+         "p": 0.661,
+         "base_p": 0.495,
+         "ev": 0.263,
+         "if_out": "Luka Dončić",
+         "mean": 19.8,
+         "mean0": 14.2
         },
         {
          "kind": "prop",
@@ -132678,12 +132600,12 @@
          "side": "over",
          "line": 11.5,
          "dec": 1.912,
-         "p": 0.655,
-         "base_p": 0.46,
-         "ev": 0.252,
+         "p": 0.635,
+         "base_p": 0.45,
+         "ev": 0.213,
          "if_out": "Luka Dončić",
-         "mean": 15.7,
-         "mean0": 10.8
+         "mean": 14.5,
+         "mean0": 10.1
         },
         {
          "kind": "prop",
@@ -132694,18 +132616,18 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.852,
-         "p": 0.665,
-         "base_p": 0.505,
-         "ev": 0.231,
+         "p": 0.653,
+         "base_p": 0.497,
+         "ev": 0.209,
          "if_out": "Luka Dončić",
-         "mean": 11.0,
-         "mean0": 7.5
+         "mean": 10.2,
+         "mean0": 7.1
         }
        ]
       },
       "Walker Kessler": {
        "p_play": 1.0,
-       "min": 34.3,
+       "min": 33.2,
        "picks": [
         {
          "kind": "prop",
@@ -132716,114 +132638,12 @@
          "side": "over",
          "line": 17.5,
          "dec": 1.871,
-         "p": 0.618,
-         "base_p": 0.52,
-         "ev": 0.155,
-         "if_out": "Walker Kessler",
-         "mean": 24.7,
-         "mean0": 20.8
-        },
-        {
-         "kind": "prop",
-         "label": "Sandro Mamukelashvili Over 6.5 REB+AST",
-         "player": "Sandro Mamukelashvili",
-         "team": "LAL",
-         "stat": "ra",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.852,
-         "p": 0.598,
-         "base_p": 0.518,
-         "ev": 0.108,
-         "if_out": "Walker Kessler",
-         "mean": 8.9,
-         "mean0": 7.7
-        },
-        {
-         "kind": "prop",
-         "label": "Ziaire Williams Over 8.5 Puntos",
-         "player": "Ziaire Williams",
-         "team": "LAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.759,
-         "p": 0.623,
-         "base_p": 0.539,
-         "ev": 0.096,
-         "if_out": "Walker Kessler",
-         "mean": 12.8,
-         "mean0": 10.6
-        },
-        {
-         "kind": "prop",
-         "label": "Matisse Thybulle Over 6.5 Puntos",
-         "player": "Matisse Thybulle",
-         "team": "LAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.852,
-         "p": 0.591,
-         "base_p": 0.505,
-         "ev": 0.095,
-         "if_out": "Walker Kessler",
-         "mean": 9.1,
-         "mean0": 7.5
-        }
-       ]
-      },
-      "Quentin Grimes": {
-       "p_play": 1.0,
-       "min": 30.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Walker Kessler Over 27.5 PTS+REB+AST",
-         "player": "Walker Kessler",
-         "team": "LAL",
-         "stat": "pra",
-         "side": "over",
-         "line": 27.5,
-         "dec": 1.906,
-         "p": 0.597,
-         "base_p": 0.517,
+         "p": 0.608,
+         "base_p": 0.51,
          "ev": 0.138,
-         "if_out": "Quentin Grimes",
-         "mean": 34.7,
-         "mean0": 31.6
-        },
-        {
-         "kind": "prop",
-         "label": "Walker Kessler Over 12.5 REB+AST",
-         "player": "Walker Kessler",
-         "team": "LAL",
-         "stat": "ra",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.883,
-         "p": 0.592,
-         "base_p": 0.523,
-         "ev": 0.115,
-         "if_out": "Quentin Grimes",
-         "mean": 16.3,
-         "mean0": 14.8
-        },
-        {
-         "kind": "prop",
-         "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
-         "player": "Sandro Mamukelashvili",
-         "team": "LAL",
-         "stat": "pra",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.871,
-         "p": 0.596,
-         "base_p": 0.52,
-         "ev": 0.115,
-         "if_out": "Quentin Grimes",
-         "mean": 23.7,
-         "mean0": 20.8
+         "if_out": "Walker Kessler",
+         "mean": 23.2,
+         "mean0": 19.8
         },
         {
          "kind": "prop",
@@ -132834,50 +132654,12 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.852,
-         "p": 0.588,
-         "base_p": 0.518,
-         "ev": 0.089,
-         "if_out": "Quentin Grimes",
-         "mean": 8.7,
-         "mean0": 7.7
-        }
-       ]
-      },
-      "Sandro Mamukelashvili": {
-       "p_play": 1.0,
-       "min": 27.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Walker Kessler Over 27.5 PTS+REB+AST",
-         "player": "Walker Kessler",
-         "team": "LAL",
-         "stat": "pra",
-         "side": "over",
-         "line": 27.5,
-         "dec": 1.906,
-         "p": 0.599,
-         "base_p": 0.517,
-         "ev": 0.141,
-         "if_out": "Sandro Mamukelashvili",
-         "mean": 34.9,
-         "mean0": 31.6
-        },
-        {
-         "kind": "prop",
-         "label": "Walker Kessler Over 12.5 REB+AST",
-         "player": "Walker Kessler",
-         "team": "LAL",
-         "stat": "ra",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.883,
-         "p": 0.588,
-         "base_p": 0.523,
-         "ev": 0.108,
-         "if_out": "Sandro Mamukelashvili",
-         "mean": 16.2,
-         "mean0": 14.8
+         "p": 0.593,
+         "base_p": 0.51,
+         "ev": 0.099,
+         "if_out": "Walker Kessler",
+         "mean": 8.5,
+         "mean0": 7.4
         },
         {
          "kind": "prop",
@@ -132888,12 +132670,12 @@
          "side": "over",
          "line": 43.5,
          "dec": 1.86,
-         "p": 0.574,
-         "base_p": 0.523,
-         "ev": 0.068,
-         "if_out": "Sandro Mamukelashvili",
-         "mean": 53.9,
-         "mean0": 50.2
+         "p": 0.577,
+         "base_p": 0.514,
+         "ev": 0.073,
+         "if_out": "Walker Kessler",
+         "mean": 52.6,
+         "mean0": 48.3
         },
         {
          "kind": "prop",
@@ -132904,18 +132686,158 @@
          "side": "over",
          "line": 8.5,
          "dec": 1.759,
-         "p": 0.603,
-         "base_p": 0.539,
-         "ev": 0.06,
+         "p": 0.61,
+         "base_p": 0.53,
+         "ev": 0.072,
+         "if_out": "Walker Kessler",
+         "mean": 11.8,
+         "mean0": 10.0
+        }
+       ]
+      },
+      "Quentin Grimes": {
+       "p_play": 1.0,
+       "min": 29.5,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Walker Kessler Over 27.5 PTS+REB+AST",
+         "player": "Walker Kessler",
+         "team": "LAL",
+         "stat": "pra",
+         "side": "over",
+         "line": 27.5,
+         "dec": 1.906,
+         "p": 0.589,
+         "base_p": 0.506,
+         "ev": 0.123,
+         "if_out": "Quentin Grimes",
+         "mean": 33.3,
+         "mean0": 30.1
+        },
+        {
+         "kind": "prop",
+         "label": "Walker Kessler Over 12.5 REB+AST",
+         "player": "Walker Kessler",
+         "team": "LAL",
+         "stat": "ra",
+         "side": "over",
+         "line": 12.5,
+         "dec": 1.883,
+         "p": 0.589,
+         "base_p": 0.515,
+         "ev": 0.11,
+         "if_out": "Quentin Grimes",
+         "mean": 15.9,
+         "mean0": 14.3
+        },
+        {
+         "kind": "prop",
+         "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
+         "player": "Sandro Mamukelashvili",
+         "team": "LAL",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.871,
+         "p": 0.584,
+         "base_p": 0.51,
+         "ev": 0.092,
+         "if_out": "Quentin Grimes",
+         "mean": 22.3,
+         "mean0": 19.8
+        },
+        {
+         "kind": "prop",
+         "label": "Sandro Mamukelashvili Over 6.5 REB+AST",
+         "player": "Sandro Mamukelashvili",
+         "team": "LAL",
+         "stat": "ra",
+         "side": "over",
+         "line": 6.5,
+         "dec": 1.852,
+         "p": 0.578,
+         "base_p": 0.51,
+         "ev": 0.07,
+         "if_out": "Quentin Grimes",
+         "mean": 8.3,
+         "mean0": 7.4
+        }
+       ]
+      },
+      "Sandro Mamukelashvili": {
+       "p_play": 1.0,
+       "min": 26.3,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Walker Kessler Over 27.5 PTS+REB+AST",
+         "player": "Walker Kessler",
+         "team": "LAL",
+         "stat": "pra",
+         "side": "over",
+         "line": 27.5,
+         "dec": 1.906,
+         "p": 0.589,
+         "base_p": 0.506,
+         "ev": 0.122,
          "if_out": "Sandro Mamukelashvili",
-         "mean": 12.2,
-         "mean0": 10.6
+         "mean": 33.3,
+         "mean0": 30.1
+        },
+        {
+         "kind": "prop",
+         "label": "Walker Kessler Over 12.5 REB+AST",
+         "player": "Walker Kessler",
+         "team": "LAL",
+         "stat": "ra",
+         "side": "over",
+         "line": 12.5,
+         "dec": 1.883,
+         "p": 0.581,
+         "base_p": 0.515,
+         "ev": 0.094,
+         "if_out": "Sandro Mamukelashvili",
+         "mean": 15.7,
+         "mean0": 14.3
+        },
+        {
+         "kind": "prop",
+         "label": "Luka Dončić Over 43.5 PTS+REB",
+         "player": "Luka Dončić",
+         "team": "LAL",
+         "stat": "pr",
+         "side": "over",
+         "line": 43.5,
+         "dec": 1.86,
+         "p": 0.567,
+         "base_p": 0.514,
+         "ev": 0.055,
+         "if_out": "Sandro Mamukelashvili",
+         "mean": 52.0,
+         "mean0": 48.3
+        },
+        {
+         "kind": "prop",
+         "label": "Ziaire Williams Over 8.5 Puntos",
+         "player": "Ziaire Williams",
+         "team": "LAL",
+         "stat": "pts",
+         "side": "over",
+         "line": 8.5,
+         "dec": 1.759,
+         "p": 0.59,
+         "base_p": 0.53,
+         "ev": 0.038,
+         "if_out": "Sandro Mamukelashvili",
+         "mean": 11.3,
+         "mean0": 10.0
         }
        ]
       },
       "Matisse Thybulle": {
        "p_play": 1.0,
-       "min": 26.5,
+       "min": 25.5,
        "picks": [
         {
          "kind": "prop",
@@ -132926,12 +132848,12 @@
          "side": "over",
          "line": 27.5,
          "dec": 1.906,
-         "p": 0.584,
-         "base_p": 0.517,
-         "ev": 0.113,
+         "p": 0.575,
+         "base_p": 0.506,
+         "ev": 0.096,
          "if_out": "Matisse Thybulle",
-         "mean": 34.1,
-         "mean0": 31.6
+         "mean": 32.7,
+         "mean0": 30.1
         },
         {
          "kind": "prop",
@@ -132942,12 +132864,12 @@
          "side": "over",
          "line": 12.5,
          "dec": 1.883,
-         "p": 0.588,
-         "base_p": 0.523,
-         "ev": 0.106,
+         "p": 0.582,
+         "base_p": 0.515,
+         "ev": 0.095,
          "if_out": "Matisse Thybulle",
-         "mean": 16.2,
-         "mean0": 14.8
+         "mean": 15.7,
+         "mean0": 14.3
         },
         {
          "kind": "prop",
@@ -132958,12 +132880,12 @@
          "side": "over",
          "line": 17.5,
          "dec": 1.871,
-         "p": 0.582,
-         "base_p": 0.52,
-         "ev": 0.088,
+         "p": 0.571,
+         "base_p": 0.51,
+         "ev": 0.068,
          "if_out": "Matisse Thybulle",
-         "mean": 23.1,
-         "mean0": 20.8
+         "mean": 21.8,
+         "mean0": 19.8
         },
         {
          "kind": "prop",
@@ -132974,18 +132896,18 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.852,
-         "p": 0.579,
-         "base_p": 0.518,
-         "ev": 0.072,
+         "p": 0.575,
+         "base_p": 0.51,
+         "ev": 0.064,
          "if_out": "Matisse Thybulle",
-         "mean": 8.6,
-         "mean0": 7.7
+         "mean": 8.2,
+         "mean0": 7.4
         }
        ]
       },
       "Ziaire Williams": {
        "p_play": 1.0,
-       "min": 26.2,
+       "min": 25.2,
        "picks": [
         {
          "kind": "prop",
@@ -132996,12 +132918,12 @@
          "side": "over",
          "line": 27.5,
          "dec": 1.906,
-         "p": 0.591,
-         "base_p": 0.517,
-         "ev": 0.127,
+         "p": 0.583,
+         "base_p": 0.506,
+         "ev": 0.11,
          "if_out": "Ziaire Williams",
-         "mean": 34.6,
-         "mean0": 31.6
+         "mean": 33.1,
+         "mean0": 30.1
         },
         {
          "kind": "prop",
@@ -133012,12 +132934,12 @@
          "side": "over",
          "line": 12.5,
          "dec": 1.883,
-         "p": 0.588,
-         "base_p": 0.523,
-         "ev": 0.106,
+         "p": 0.583,
+         "base_p": 0.515,
+         "ev": 0.098,
          "if_out": "Ziaire Williams",
-         "mean": 16.2,
-         "mean0": 14.8
+         "mean": 15.8,
+         "mean0": 14.3
         },
         {
          "kind": "prop",
@@ -133028,12 +132950,12 @@
          "side": "over",
          "line": 17.5,
          "dec": 1.871,
-         "p": 0.591,
-         "base_p": 0.52,
-         "ev": 0.105,
+         "p": 0.578,
+         "base_p": 0.51,
+         "ev": 0.082,
          "if_out": "Ziaire Williams",
-         "mean": 23.5,
-         "mean0": 20.8
+         "mean": 22.1,
+         "mean0": 19.8
         },
         {
          "kind": "prop",
@@ -133044,18 +132966,18 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.852,
-         "p": 0.579,
-         "base_p": 0.518,
-         "ev": 0.072,
+         "p": 0.574,
+         "base_p": 0.51,
+         "ev": 0.063,
          "if_out": "Ziaire Williams",
-         "mean": 8.6,
-         "mean0": 7.7
+         "mean": 8.2,
+         "mean0": 7.4
         }
        ]
       },
       "Jake LaRavia": {
        "p_play": 1.0,
-       "min": 26.1,
+       "min": 25.1,
        "picks": [
         {
          "kind": "prop",
@@ -133066,12 +132988,12 @@
          "side": "over",
          "line": 12.5,
          "dec": 1.883,
-         "p": 0.585,
-         "base_p": 0.523,
-         "ev": 0.102,
+         "p": 0.583,
+         "base_p": 0.515,
+         "ev": 0.097,
          "if_out": "Jake LaRavia",
-         "mean": 16.2,
-         "mean0": 14.8
+         "mean": 15.7,
+         "mean0": 14.3
         },
         {
          "kind": "prop",
@@ -133082,28 +133004,12 @@
          "side": "over",
          "line": 27.5,
          "dec": 1.906,
-         "p": 0.578,
-         "base_p": 0.517,
-         "ev": 0.101,
+         "p": 0.568,
+         "base_p": 0.506,
+         "ev": 0.083,
          "if_out": "Jake LaRavia",
-         "mean": 33.8,
-         "mean0": 31.6
-        },
-        {
-         "kind": "prop",
-         "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
-         "player": "Sandro Mamukelashvili",
-         "team": "LAL",
-         "stat": "pra",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.871,
-         "p": 0.579,
-         "base_p": 0.52,
-         "ev": 0.084,
-         "if_out": "Jake LaRavia",
-         "mean": 22.9,
-         "mean0": 20.8
+         "mean": 32.5,
+         "mean0": 30.1
         },
         {
          "kind": "prop",
@@ -133114,12 +133020,28 @@
          "side": "over",
          "line": 6.5,
          "dec": 1.852,
-         "p": 0.579,
-         "base_p": 0.518,
-         "ev": 0.072,
+         "p": 0.573,
+         "base_p": 0.51,
+         "ev": 0.061,
          "if_out": "Jake LaRavia",
-         "mean": 8.6,
-         "mean0": 7.7
+         "mean": 8.2,
+         "mean0": 7.4
+        },
+        {
+         "kind": "prop",
+         "label": "Sandro Mamukelashvili Over 17.5 PTS+REB+AST",
+         "player": "Sandro Mamukelashvili",
+         "team": "LAL",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.871,
+         "p": 0.565,
+         "base_p": 0.51,
+         "ev": 0.057,
+         "if_out": "Jake LaRavia",
+         "mean": 21.6,
+         "mean0": 19.8
         }
        ]
       }
@@ -133284,6 +133206,22 @@
          "if_out": "Devin Booker",
          "mean": 26.8,
          "mean0": 22.4
+        },
+        {
+         "kind": "prop",
+         "label": "Jalen Green Over 18.5 PTS+REB+AST",
+         "player": "Jalen Green",
+         "team": "PHX",
+         "stat": "pra",
+         "side": "over",
+         "line": 18.5,
+         "dec": 1.844,
+         "p": 0.6,
+         "base_p": 0.475,
+         "ev": 0.107,
+         "if_out": "Devin Booker",
+         "mean": 21.0,
+         "mean0": 17.4
         }
        ]
       },
@@ -133338,6 +133276,22 @@
          "if_out": "Miles Bridges",
          "mean": 40.6,
          "mean0": 36.5
+        },
+        {
+         "kind": "prop",
+         "label": "Collin Gillespie Over 5.5 REB+AST",
+         "player": "Collin Gillespie",
+         "team": "PHX",
+         "stat": "ra",
+         "side": "over",
+         "line": 5.5,
+         "dec": 1.755,
+         "p": 0.623,
+         "base_p": 0.565,
+         "ev": 0.093,
+         "if_out": "Miles Bridges",
+         "mean": 8.6,
+         "mean0": 7.6
         }
        ]
       },
@@ -133392,6 +133346,22 @@
          "if_out": "Dillon Brooks",
          "mean": 41.8,
          "mean0": 36.5
+        },
+        {
+         "kind": "prop",
+         "label": "Miles Bridges Over 22.5 PTS+REB+AST",
+         "player": "Miles Bridges",
+         "team": "PHX",
+         "stat": "pra",
+         "side": "over",
+         "line": 22.5,
+         "dec": 1.795,
+         "p": 0.607,
+         "base_p": 0.501,
+         "ev": 0.09,
+         "if_out": "Dillon Brooks",
+         "mean": 25.9,
+         "mean0": 22.4
         }
        ]
       },
@@ -133516,6 +133486,22 @@
          "if_out": "Jalen Green",
          "mean": 40.1,
          "mean0": 36.5
+        },
+        {
+         "kind": "prop",
+         "label": "Collin Gillespie Over 5.5 REB+AST",
+         "player": "Collin Gillespie",
+         "team": "PHX",
+         "stat": "ra",
+         "side": "over",
+         "line": 5.5,
+         "dec": 1.755,
+         "p": 0.618,
+         "base_p": 0.565,
+         "ev": 0.085,
+         "if_out": "Jalen Green",
+         "mean": 8.4,
+         "mean0": 7.6
         }
        ]
       },
