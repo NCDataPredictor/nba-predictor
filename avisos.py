@@ -76,6 +76,17 @@ def current(date):
     return state(_load(os.path.join(DATA, "index.json"), {}), _load(os.path.join(DATA, "bajas.json"), {}), date)
 
 
+def planb_picks(gid, players):
+    """Etiquetas de los picks plan B (index.json games[].wo[equipo].planb) de esos jugadores, si siguen en la simulación."""
+    g = next((x for x in _load(os.path.join(DATA, "index.json"), {}).get("games", []) if x.get("id") == gid), None)
+    out = []
+    for W in ((g or {}).get("wo") or {}).values():
+        for who, A in (W.get("planb") or {}).items():
+            if who in players:
+                out += [b["label"] for b in A.get("picks", [])]
+    return out
+
+
 def snap(date):
     os.makedirs(SNAP_DIR, exist_ok=True)
     p = os.path.join(SNAP_DIR, f"snap_{date}.json")
@@ -143,17 +154,21 @@ def diff(date, label="", ref="origin/main", force=False):
             parts.append("Línea movida: " + "; ".join(moved) + ".")
         if removed:
             parts.append(("Sale: " if len(removed) == 1 else "Salen: ") + "; ".join(removed) + ".")
-        if not (added or removed or moved):
+        pb = planb_picks(gid, outs + doubts)  # picks plan B de quien pasó a OUT o a duda (si no se re-simuló aún)
+        if pb:
+            parts.append("Plan B: " + "; ".join(pb[:3]) + ".")
+        if not (added or removed or moved or pb):
             parts.append("Los picks del modelo no cambian.")
         body = " ".join(parts)
         if len(body) > 230:
             body = body[:227].rstrip() + "…"
-        title = f"{a['away']} @ {a['home']} ({hhmm(a.get('tip'))} ET): " + ("cambian los picks" if (added or removed or moved) else "novedades de bajas")
+        title = f"{a['away']} @ {a['home']} ({hhmm(a.get('tip'))} ET): " + ("cambian los picks" if (added or removed or moved)
+                                                                           else "picks plan B" if pb else "novedades de bajas")
         at = now.isoformat(timespec="minutes")
         aid = hashlib.sha1(f"{gid}|{at}|{body}".encode()).hexdigest()[:16]
         new.append(dict(id=aid, at=at, date=date, gid=gid, title=title, body=body, label=label, url=SITE + "#" + gid,
                         added=added, removed=removed, moved=moved, outs=outs, doubts=doubts, back=back,
-                        picks_changed=bool(added or removed or moved)))
+                        planb=pb, picks_changed=bool(added or removed or moved or pb)))
     if not new:
         print("Sin cambios de picks ni bajas en partidos por empezar: no hay aviso.")
         return []

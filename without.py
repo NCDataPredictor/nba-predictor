@@ -141,9 +141,10 @@ def real_splits(team, absent, roster, date):
             "mates": mates}
 
 
-def without_view(cfg, s, n, seed=7):
+def without_view(cfg, s, n, seed=7, plan_b=None):
     """Para cada equipo: líneas base de los compañeros y, por cada jugador importante, la simulación sin él y sus
-    partidos reales sin él. `s` es la simulación publicada (mismo cfg, n y semilla)."""
+    partidos reales sin él. `s` es la simulación publicada (mismo cfg, n y semilla). plan_b(ausente, equipo, sim sin él)
+    -> lista de picks plan B (build_site.plan_b_bets) que se guardan en el ausente como "plan_b"."""
     g = cfg["game"]
     out = {}
     for t in (g["away"], g["home"]):
@@ -173,6 +174,10 @@ def without_view(cfg, s, n, seed=7):
                                team_pts=[round(float(s["sh" if t == g["home"] else "sa"].mean()), 1),
                                          round(float(sw["sh" if t == g["home"] else "sa"].mean()), 1)],
                                model=_rows(sw, t, lines), real=real_splits(t, p["name"], roster, g["date"])))
+            if plan_b:
+                pb = plan_b(p["name"], t, sw)
+                if pb:
+                    absent[-1]["plan_b"] = pb
         out_today = []
         outs = g.get("out", [])
         teams = _team_of(outs, g["date"]) if outs else {}

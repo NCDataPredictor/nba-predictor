@@ -15,6 +15,11 @@ por partido las apuestas con mayor valor (probabilidad del modelo vs cuota).
   marcando los de Copa.
 - `without.py`: sección "Si no juega…" de cada partido (compañeros con / sin cada titular: simulación sin él y
   partidos reales sin él); `build_site.py` la llama sola. Añade ~15 s por partido.
+  Con esa misma simulación sin él, `build_site.plan_b_bets` arma los **picks plan B** (15-nov): props de sus compañeros
+  con valor con la cuota de hoy si él no juega (p publicada + 75% del cambio del modelo, EV ≥ 3%, +4 pts de prob.,
+  máx. 4 por ausente). Van en `without[equipo].absent[].plan_b` y en index.json `wo[equipo].planb`; la portada los
+  muestra para los jugadores en duda (gtd < 0.95 o `bajas.py --duda`) y como "Activado" si `bajas.py add` lo da OUT.
+  No cuentan en el tope diario ni en las unidades; al liquidar quedan "void" si el ausente jugó.
 - `cup/`: NBA Cup. `cup/<temporada>.json` lista los partidos de Copa por fecha y grupo: `build_site.py` marca esos
   partidos como de Copa (pestaña NBA Cup) aunque su JSON no lo diga; añadir cada noche de Copa nueva (martes/viernes de
   la fase de grupos, nba.com/games los etiqueta). `cup/history.json` (de `python cup/cup_stats.py` con `cup/raw/`):
