@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:05+00:00",
+ "updated": "2026-11-15T21:32+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -226,10 +226,10 @@
    "gid": "2026-11-15-DAL-at-BOS",
    "player": "Kyrie Irving",
    "team": "DAL",
-   "status": "duda",
-   "note": "Rodilla (gestión, back-to-back); questionable vs BOS",
-   "source": "Athlon parte 14:00 ET",
-   "at": "2026-11-15T21:02+00:00",
+   "status": "out",
+   "note": "rodilla; descartado vs BOS",
+   "source": "NBC Sports 16:19 ET",
+   "at": "2026-11-15T21:32+00:00",
    "sim": false
   },
   {
@@ -241,6 +241,17 @@
    "note": "Tobillo; questionable vs BOS",
    "source": "Athlon parte 14:00 ET",
    "at": "2026-11-15T21:02+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-15",
+   "gid": "2026-11-15-HOU-at-WAS",
+   "player": "Marcus Smart",
+   "team": "HOU",
+   "status": "out",
+   "note": "suspensión (3 partidos)",
+   "source": "Parte oficial vía Athlon 15:00 ET",
+   "at": "2026-11-15T21:32+00:00",
    "sim": false
   },
   {
