@@ -908,12 +908,16 @@ def ladder_dream(rs):
     """Soñador escalonado: hasta 2 patas X+ por partido (como un Bet Builder) hasta cuota DREAM_MIN–DREAM_MAX."""
     import math
     from itertools import combinations
-    opts = []
+    opts, wide = [], {}  # wide: por partido (candidatas a reemplazo, muestra), como en _dream_parlay
     for r in rs:
         smp = read_sample(r["id"])
         if not smp:
             continue
         legs = sorted(ladder_legs(r, smp), key=lambda l: -(l["p"] * l["dec"]))
+        best_ps = {}  # reemplazos: el umbral de mejor EV de cada jugador y estadística
+        for l in legs:
+            best_ps.setdefault((l["player"], l["stat"]), l)
+        wide[r["id"]] = (list(best_ps.values())[:DREAM_SWAP_POOL], smp)
         # una por jugador-estadística de cada banda, las de mejor EV
         seen, pool = set(), []
         for l in legs:
@@ -956,8 +960,7 @@ def ladder_dream(rs):
     pl = parlay(list(legs), math.exp(lp))
     pl["dec"] = round(math.exp(ld), 2); pl["ev"] = round(math.exp(lp) * pl["dec"] - 1, 3)
     pl.update(type="dream", style="ladder", games=len({l["gid"] for l in legs}), max_under=1.0)
-    for l in pl["legs"]:
-        l["key"] = leg_key(l)
+    dream_swaps(pl, wide, 1.0)  # "No está en mi casa" (pedido de Nicolas, 15-nov): otras X+ con las mismas reglas
     return pl
 
 

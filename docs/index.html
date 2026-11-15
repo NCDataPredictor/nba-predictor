@@ -1960,7 +1960,8 @@ function dreamTot(legs, pl) {
   legs = legs.filter(l => !l._out);
   legs.forEach(l => (by[l.gid] = by[l.gid] || []).push(l));
   const p = Object.values(by).reduce((t, g) => t * (g.length === 2 ? Math.min(dreamPair(g[0], g[1], pl) * g[0].p * g[1].p, g[0].p, g[1].p) : g.reduce((x, l) => x * l.p, 1)), 1);
-  const d = legs.reduce((t, l) => t * l.dec, 1);
+  // escalonado: el Bet Builder cobra la correlación positiva de las 2 patas del mismo partido (como en build_site)
+  const d = Object.values(by).reduce((t, g) => t * g.reduce((x, l) => x * l.dec, 1) / (pl.style === "ladder" && g.length === 2 ? Math.max(dreamPair(g[0], g[1], pl) ?? 1, 1) : 1), 1);
   return { p, dec: d, fair: p ? 1 / p : null, ev: p * d - 1 };
 }
 // reemplazos que encajan para la pata i con lo demás ya elegido (las 3 mejores)
