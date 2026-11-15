@@ -1,0 +1,15 @@
+{
+ "name": "NBA Predictor",
+ "short_name": "NBA Predictor",
+ "description": "Simulaciones, picks y props de la NBA con avisos de cambios por bajas.",
+ "lang": "es",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0b1a3a",
+ "theme_color": "#0b1a3a",
+ "icons": [
+  {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+  {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+ ]
+}

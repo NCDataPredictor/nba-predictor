@@ -1,5 +1,13 @@
 <!doctype html><html lang="es"><meta charset="utf-8">
 <title>NBA Predictor</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0b1a3a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="NBA Predictor">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>/* iPhone acerca la página al tocar una casilla con letra < 16 px y la deja movida (Mis picks, 13-nov). En iOS,
@@ -1001,6 +1009,19 @@ table.sortable thead th[aria-sort="ascending"]::after { content: " ▲"; font-si
 .empty-s { color: var(--muted); font-size: 14px }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap }
 dialog.psearch { width: min(560px, calc(100vw - 16px)) }
+/* Avisos (15-nov): campana del encabezado con los cambios de picks por bajas y activación del push (OneSignal) */
+.bell-btn { position: relative }
+.bell-n { position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--stripe); color: #fff; font: 700 11px/18px var(--body); text-align: center }
+dialog.avisos { width: min(560px, calc(100vw - 16px)) }
+dialog.avisos .g-body { padding-top: 12px } dialog.avisos .g-body > * + * { margin-top: 14px }
+.av-push { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; background: var(--accent-soft) }
+.av-push p { margin: 0 0 8px } .av-push p:last-child { margin-bottom: 0 } .av-push ol { margin: 4px 0 8px 18px; padding: 0 }
+dialog.avisos .av-list { list-style: none; margin-left: 0; margin-right: 0; padding: 0; max-width: none; display: grid; gap: 10px }
+.av-list a { display: block; text-decoration: none; color: inherit; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px }
+.av-list a:hover, .av-list a:focus-visible { border-color: var(--accent); outline: none }
+.av-list b { display: block; font: 600 14px var(--body) } .av-list .av-b { display: block; margin-top: 3px; font-size: 14px }
+.av-list .av-t { display: block; margin-top: 4px; font: 500 11px var(--mono); color: var(--muted) }
+.av-list .new b::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--stripe); margin-right: 6px; vertical-align: 1px }
 dialog.psearch .g-head { gap: 8px }
 #ps-q { flex: 1; min-width: 0; font: 500 16px var(--body); padding: 10px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--ink) }
 #ps-q:focus { outline: 2px solid var(--accent); outline-offset: 1px }
@@ -1024,6 +1045,10 @@ dialog.psearch .g-head { gap: 8px }
       <span class="brand-t"><span>Simulaciones Monte Carlo · NBA</span><h1>NBA Predictor</h1></span></a>
     <div class="side">
       <div class="meta" id="meta"></div>
+      <button type="button" class="theme-btn bell-btn" id="bell-btn" aria-label="Avisos de cambios por bajas" title="Avisos de cambios por bajas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg>
+        <span class="bell-n" id="bell-n" hidden></span>
+      </button>
       <button type="button" class="theme-btn" id="search-btn" aria-label="Buscar un jugador" title="Buscar un jugador">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
       </button>
@@ -1079,6 +1104,10 @@ dialog.psearch .g-head { gap: 8px }
 <dialog class="guide gbox" id="gbox" aria-labelledby="gb-title">
   <div class="g-head"><div class="pc-head-t"><h2 id="gb-title">Partido</h2><div class="pc-sub" id="gb-sub"></div></div><button type="button" class="g-close" id="gb-close" aria-label="Cerrar partido">×</button></div>
   <div class="g-body" id="gb-body"></div>
+</dialog>
+<dialog class="guide avisos" id="avisos" aria-labelledby="av-title">
+  <div class="g-head"><div class="pc-head-t"><h2 id="av-title">Avisos</h2><div class="pc-sub">Cambios de picks y bajas en partidos por empezar</div></div><button type="button" class="g-close" id="av-close" aria-label="Cerrar avisos">×</button></div>
+  <div class="g-body" id="av-body"></div>
 </dialog>
 <dialog class="guide" id="guide" aria-labelledby="g-title">
   <div class="g-head"><h2 id="g-title">Cómo funciona</h2><button type="button" class="g-close" id="g-close" aria-label="Cerrar guía">×</button></div>
@@ -4567,4 +4596,83 @@ Promise.all([getJSON("data/index.json"), getJSON("data/bajas.json").catch(() => 
   drawCombo();
   window.addEventListener("hashchange", route);
 }).catch(e => { $("#app").innerHTML = `<p>No se pudo cargar <code>data/index.json</code>. Ejecuta <code>python build_site.py</code> para generarlo.</p>`; });
+
+/* ---------- Avisos (15-nov) ----------
+   docs/data/avisos.json lo escribe avisos.py en cada revisión de bajas/cuotas que cambia picks o bajas de un partido por
+   empezar. La campana los muestra (con contador de no vistos, guardado en este navegador) y permite activar el push:
+   OneSignal (App ID en docs/data/push.json) y la acción .github/workflows/avisos.yml envía cada aviso nuevo. En iPhone el
+   push solo funciona con la web añadida a la pantalla de inicio (iOS 16.4+) y abierta desde ese icono. */
+const AV = { list: [], app: "", os: null, ready: null };
+const avSeen = () => { try { return localStorage.getItem("nbap-avisos-seen") || ""; } catch (e) { return ""; } };
+const isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const isStandalone = () => (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+function avRecent() {
+  const cut = new Date(Date.now() - 36 * 3600e3).toISOString();
+  return AV.list.filter(x => x.at >= cut.slice(0, 16)).sort((a, b) => b.at.localeCompare(a.at));
+}
+function avBadge() {
+  const n = avRecent().filter(x => x.at > avSeen()).length, el = $("#bell-n");
+  el.hidden = !n; el.textContent = n > 9 ? "9+" : n;
+}
+function avLoadOS() {
+  if (AV.ready) return AV.ready;
+  AV.ready = new Promise((ok, ko) => {
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async OS => {
+      try {
+        await OS.init({ appId: AV.app, serviceWorkerPath: location.pathname.replace(/[^/]*$/, "").slice(1) + "OneSignalSDKWorker.js",
+          serviceWorkerParam: { scope: location.pathname.replace(/[^/]*$/, "") }, allowLocalhostAsSecureOrigin: true });
+        AV.os = OS; OS.User.PushSubscription.addEventListener("change", avDraw); ok(OS);
+      } catch (e) { ko(e); }
+    });
+    const sc = document.createElement("script"); sc.src = "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"; sc.defer = true;
+    sc.onerror = () => ko(new Error("No se pudo cargar OneSignal")); document.head.appendChild(sc);
+  });
+  return AV.ready;
+}
+function avPushBox() {
+  if (!AV.app) return `<div class="av-push"><p><b>Avisos al celular: muy pronto.</b> Mientras tanto, los cambios aparecen aquí y la campana marca cuántos hay nuevos.</p></div>`;
+  if (!("Notification" in window) || !("serviceWorker" in navigator)) {
+    if (isIOS && !isStandalone()) return `<div class="av-push"><p><b>Recibe un aviso en tu iPhone</b> cuando una baja cambie los picks de un partido:</p>
+      <ol><li>Toca <b>Compartir</b> <span aria-hidden="true">⎙</span> en Safari.</li><li>Elige <b>Añadir a pantalla de inicio</b>.</li><li>Abre NBA Predictor desde ese icono y vuelve a esta campana para activar los avisos.</li></ol>
+      <p class="muted">Necesita iOS 16.4 o posterior.</p></div>`;
+    return `<div class="av-push"><p>Este navegador no admite avisos. Los cambios siguen apareciendo aquí.</p></div>`;
+  }
+  if (Notification.permission === "denied") return `<div class="av-push"><p><b>Los avisos están bloqueados</b> para esta web. Permítelos en los ajustes del navegador (o del iPhone: Ajustes → Notificaciones → NBA Predictor) y vuelve aquí.</p></div>`;
+  const on = AV.os && AV.os.User.PushSubscription.optedIn;
+  return `<div class="av-push">${on
+    ? `<p><b>Avisos activados en este dispositivo.</b> Te llegará uno cuando una revisión de bajas cambie los picks o las bajas de un partido que aún no empieza.</p><p><button type="button" class="btn ghost" data-av="off">Desactivar avisos</button></p>`
+    : `<p><b>Recibe un aviso</b> cuando una revisión de bajas cambie los picks de un partido, aunque no tengas la web abierta.</p><p><button type="button" class="btn" data-av="on">Activar avisos</button></p>`}
+    <p class="muted" id="av-msg" role="status"></p></div>`;
+}
+function avDraw() {
+  const d = $("#avisos"); if (!d.open) return;
+  const seen = avSeen(), L = avRecent();
+  $("#av-body").innerHTML = avPushBox() + (L.length
+    ? `<ul class="av-list">${L.map(x => `<li><a href="#${esc(x.gid)}" data-av-go class="${x.at > seen ? "new" : ""}"><b>${esc(x.title)}</b><span class="av-b">${esc(x.body)}</span><span class="av-t">${esc(new Date(x.at).toLocaleString("es-CO", { weekday: "short", hour: "numeric", minute: "2-digit" }))}${x.label ? " · " + esc(x.label) : ""}</span></a></li>`).join("")}</ul>`
+    : `<p class="muted">Sin cambios por bajas en las últimas 36 horas. Cuando una revisión cambie los picks de un partido, aparecerá aquí.</p>`);
+}
+$("#bell-btn").addEventListener("click", () => {
+  const d = $("#avisos"); d.showModal ? d.showModal() : d.setAttribute("open", ""); avDraw();
+  const L = avRecent(); if (L.length) { try { localStorage.setItem("nbap-avisos-seen", L[0].at); } catch (e) {} }
+  avBadge();
+  if (AV.app && "Notification" in window && "serviceWorker" in navigator) avLoadOS().then(avDraw).catch(() => {});
+});
+$("#av-close").addEventListener("click", () => $("#avisos").close());
+$("#avisos").addEventListener("click", async e => {
+  if (e.target === e.currentTarget || e.target.closest("[data-av-go]")) { e.currentTarget.close(); return; }
+  const b = e.target.closest("[data-av]"); if (!b) return;
+  const msg = t => { const m = $("#av-msg"); if (m) m.textContent = t; };
+  b.disabled = true; msg("Un momento…");
+  try {
+    const OS = await avLoadOS();
+    if (b.dataset.av === "on") { await OS.Notifications.requestPermission(); if (Notification.permission === "granted") await OS.User.PushSubscription.optIn(); }
+    else await OS.User.PushSubscription.optOut();
+    avDraw();
+  } catch (err) { b.disabled = false; msg("No se pudo cambiar: " + (err && err.message || err)); }
+});
+Promise.all([getJSON("data/avisos.json").catch(() => null), getJSON("data/push.json").catch(() => null)]).then(([a, p]) => {
+  AV.list = (a && a.list) || []; AV.app = (p && p.onesignal_app_id) || ""; avBadge();
+  if (AV.app && "Notification" in window && Notification.permission === "granted") avLoadOS().catch(() => {});
+});
 </script>
