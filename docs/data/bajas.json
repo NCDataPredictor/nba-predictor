@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:12+00:00",
+ "updated": "2026-11-15T17:17+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -220,6 +220,17 @@
    "source": "NBC Sports 18:22 ET",
    "at": "2026-11-15T00:01+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-15",
+   "gid": "2026-11-15-IND-at-PHI",
+   "player": "Andrew Nembhard",
+   "team": "IND",
+   "status": "out",
+   "note": "Cadera izquierda; descartado vs PHI",
+   "source": "CBS/RotoWire 11:44 ET",
+   "at": "2026-11-15T17:17+00:00",
+   "sim": false
   }
  ]
 }
