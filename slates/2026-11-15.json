@@ -1,10 +1,10 @@
 {
  "date": "2026-11-15",
  "sources": {
-  "schedule_odds": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
+  "schedule_odds": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
   "players_cur": "raw/2026-11-14/cur.csv con los 18 equipos de hoy rehechos desde basketball-reference teams/<ABR>/2027.html (15-nov ~11:30 ET); DAL (B-Ref sin su partido del 14-nov) + box score de results/2026-11-14.json",
   "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
-  "injuries": "ESPN injuries y CBS injuries, 15-nov ~11:40 ET (notas del 14-nov) + capturas Underdog del 14-nov; en duda con p_play (más alta si las casas le dan líneas)",
+  "injuries": "ESPN injuries y CBS injuries, 15-nov ~11:40 ET (notas del 14-nov) + capturas Underdog del 14-nov; en duda con p_play (más alta si las casas le dan líneas); 12:20 ET: Nembhard OUT (CBS/RotoWire 11:44 ET)",
   "b2b": "DAL jugó el 14-nov en CLE",
   "db": "BD de rankings: snapshot del 15-nov (B-Ref 2026-27 sin los partidos del 14-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta el 14-nov)",
   "h2h": "h2h/2025-26.json: 22 partidos nuevos desde los game logs 2025-26 (IND-PHI y SAS-UTA ya estaban)"
@@ -222,9 +222,10 @@
   },
   "Coby White": {
    "pts": [
-    14.5,
-    -105,
-    -125
+    13.5,
+    -120,
+    -117,
+    14.5
    ]
   },
   "Royce O'Neale": {
@@ -393,9 +394,10 @@
   },
   "Onyeka Okongwu": {
    "pts": [
-    13.5,
+    12.5,
     -120,
-    -105
+    -105,
+    13.5
    ],
    "reb": [
     7.5,
@@ -1286,10 +1288,10 @@
    "tip_et": "13:00",
    "venue": "Xfinity Mobile Arena, Philadelphia",
    "market": {
-    "ml_home": -275,
-    "ml_away": 220,
-    "spread_home": -6.5,
-    "total": 224.5
+    "ml_home": -277,
+    "ml_away": 226,
+    "spread_home": -7.5,
+    "total": 225.5
    },
    "b2b": [],
    "adj": {
@@ -1303,10 +1305,10 @@
     "Tyrese Haliburton",
     "Ben Sheppard",
     "Joel Embiid",
-    "Adem Bona"
+    "Adem Bona",
+    "Andrew Nembhard"
    ],
    "gtd": {
-    "Andrew Nembhard": 0.7,
     "Aaron Nesmith": 0.7,
     "T.J. McConnell": 0.9
    },
@@ -1322,8 +1324,8 @@
    "venue": "Mortgage Matchup Center, Phoenix",
    "market": {
     "ml_home": 130,
-    "ml_away": -155,
-    "spread_home": 2.5,
+    "ml_away": -154,
+    "spread_home": 3.5,
     "total": 226.5
    },
    "b2b": [],
@@ -1375,10 +1377,10 @@
    "tip_et": "17:00",
    "venue": "Delta Center, Salt Lake City",
    "market": {
-    "ml_home": 875,
-    "ml_away": -1500,
-    "spread_home": 16.5,
-    "total": 223.5
+    "ml_home": 810,
+    "ml_away": -1340,
+    "spread_home": 15.5,
+    "total": 225.5
    },
    "b2b": [],
    "adj": {
@@ -1429,10 +1431,10 @@
    "tip_et": "18:00",
    "venue": "TD Garden, Boston",
    "market": {
-    "ml_home": -800,
-    "ml_away": 550,
+    "ml_home": -750,
+    "ml_away": 530,
     "spread_home": -13.5,
-    "total": 217.5
+    "total": 219.5
    },
    "b2b": [
     "DAL"
@@ -1462,10 +1464,10 @@
    "tip_et": "19:00",
    "venue": "Capital One Arena, Washington",
    "market": {
-    "ml_home": 319,
-    "ml_away": -405,
-    "spread_home": 9.5,
-    "total": 222.5
+    "ml_home": 286,
+    "ml_away": -359,
+    "spread_home": 8.5,
+    "total": 223.5
    },
    "b2b": [],
    "adj": {
@@ -1499,9 +1501,9 @@
    "tip_et": "20:00",
    "venue": "Fiserv Forum, Milwaukee",
    "market": {
-    "ml_home": 240,
-    "ml_away": -305,
-    "spread_home": 7.5,
+    "ml_home": 261,
+    "ml_away": -324,
+    "spread_home": 8.5,
     "total": 234.5
    },
    "b2b": [],
@@ -1523,10 +1525,10 @@
    "tip_et": "21:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 360,
-    "ml_away": -467,
+    "ml_home": 361,
+    "ml_away": -468,
     "spread_home": 10.5,
-    "total": 222.5
+    "total": 223.5
    },
    "b2b": [],
    "adj": {},

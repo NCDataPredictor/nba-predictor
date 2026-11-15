@@ -14,10 +14,10 @@
    "Tyrese Haliburton",
    "Ben Sheppard",
    "Joel Embiid",
-   "Adem Bona"
+   "Adem Bona",
+   "Andrew Nembhard"
   ],
   "gtd": {
-   "Andrew Nembhard": 0.7,
    "Aaron Nesmith": 0.7,
    "T.J. McConnell": 0.9
   },
@@ -454,52 +454,10 @@
   },
   {
    "team": "IND",
-   "name": "Andrew Nembhard",
-   "pos": "SG",
-   "starter": true,
-   "min": 28.0,
-   "g_cur": 11,
-   "p_play": 0.7,
-   "cur": {
-    "min": 33.4,
-    "pts": 16.6,
-    "reb": 2.3,
-    "ast": 7.6,
-    "fg3m": 2.3,
-    "fgm": 5.6,
-    "fga": 12.6,
-    "fg3a": 5.6,
-    "stl": 0.5,
-    "blk": 0.2,
-    "tov": 2.5,
-    "pf": 2.3,
-    "ftm": 3.1,
-    "fta": 3.5
-   },
-   "prior": {
-    "min": 31.3,
-    "pts": 16.95,
-    "reb": 2.81,
-    "ast": 7.67,
-    "fg3m": 1.88,
-    "fgm": 5.84,
-    "fga": 13.21,
-    "fg3a": 5.19,
-    "stl": 0.89,
-    "blk": 0.14,
-    "tov": 2.4,
-    "pf": 2.21,
-    "ftm": 3.39,
-    "fta": 4.11
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "IND",
    "name": "Pascal Siakam",
    "pos": "PF",
    "starter": true,
-   "min": 26.9,
+   "min": 30.5,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -541,7 +499,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "starter": true,
-   "min": 21.6,
+   "min": 24.5,
    "g_cur": 11,
    "p_play": 0.7,
    "cur": {
@@ -583,7 +541,7 @@
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 20.1,
+   "min": 22.8,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -625,7 +583,7 @@
    "name": "Ivica Zubac",
    "pos": "C",
    "starter": true,
-   "min": 19.6,
+   "min": 22.2,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -667,7 +625,7 @@
    "name": "Quenton Jackson",
    "pos": "PG",
    "starter": false,
-   "min": 18.0,
+   "min": 20.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -708,7 +666,7 @@
    "name": "Jarace Walker",
    "pos": "PF",
    "starter": false,
-   "min": 17.5,
+   "min": 19.8,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -749,7 +707,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "starter": false,
-   "min": 17.4,
+   "min": 19.6,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -790,7 +748,7 @@
    "name": "Jay Huff",
    "pos": "C",
    "starter": false,
-   "min": 14.0,
+   "min": 15.8,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -831,7 +789,7 @@
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 12.2,
+   "min": 13.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -872,7 +830,7 @@
    "name": "Jalen Slawson",
    "pos": "SF",
    "starter": false,
-   "min": 11.9,
+   "min": 13.5,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -913,7 +871,7 @@
    "name": "Kobe Brown",
    "pos": "PF",
    "starter": false,
-   "min": 11.5,
+   "min": 13.0,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -953,8 +911,8 @@
    "team": "IND",
    "name": "Braden Smith",
    "pos": "PG",
-   "starter": false,
-   "min": 11.1,
+   "starter": true,
+   "min": 12.6,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -988,14 +946,15 @@
     "pf": 1.16,
     "ftm": 0.3,
     "fta": 0.5
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "IND",
    "name": "T.J. McConnell",
    "pos": "PG",
    "starter": false,
-   "min": 10.1,
+   "min": 11.4,
    "g_cur": 4,
    "p_play": 0.9,
    "cur": {
@@ -1033,11 +992,11 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
-  "ml_home": -275,
-  "ml_away": 220,
-  "spread_home": -6.5,
-  "total": 224.5
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
+  "ml_home": -277,
+  "ml_away": 226,
+  "spread_home": -7.5,
+  "total": 225.5
  },
  "prop_lines": {
   "LeBron James": {
@@ -1052,13 +1011,6 @@
     -132,
     -125,
     7.5
-   ]
-  },
-  "Andrew Nembhard": {
-   "pts": [
-    15.5,
-    -114,
-    -105
    ]
   },
   "Dean Wade": {

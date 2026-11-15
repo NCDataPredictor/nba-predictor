@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:17+00:00",
+ "updated": "2026-11-15T17:24+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -230,7 +230,7 @@
    "note": "Cadera izquierda; descartado vs PHI",
    "source": "CBS/RotoWire 11:44 ET",
    "at": "2026-11-15T17:17+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }

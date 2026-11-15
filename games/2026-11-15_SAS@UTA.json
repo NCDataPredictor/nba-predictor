@@ -988,11 +988,11 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
-  "ml_home": 875,
-  "ml_away": -1500,
-  "spread_home": 16.5,
-  "total": 223.5
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
+  "ml_home": 810,
+  "ml_away": -1340,
+  "spread_home": 15.5,
+  "total": 225.5
  },
  "prop_lines": {
   "Victor Wembanyama": {
