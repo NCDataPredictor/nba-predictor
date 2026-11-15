@@ -10,7 +10,7 @@ Para cada games/<fecha>_<AWAY>@<HOME>.json corre el modelo (con la BD si el JSON
 y db/rankings_latest.json existe; si no existe intenta reconstruirla) y escribe:
     docs/data/index.json             lista de partidos con resumen y mejores apuestas
     docs/data/<id>.json              detalle completo de cada partido
-La web (docs/index.html) solo lee esos archivos, así que se puede servir gratis en GitHub Pages.
+La web (docs/index.html) solo lee esos archivos, así que se puede servir gratis en Cloudflare Pages.
 
 Partidos ya jugados: si existe results/<fecha>.json con el partido, NO se vuelve a simular; se toma la
 predicción publicada (docs/data/<id>.json), se le añade el resultado real y se liquida cada apuesta
