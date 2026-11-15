@@ -1,6 +1,7 @@
 {
- "generated": "2026-11-15T18:45+00:00",
+ "generated": "2026-11-15T19:49+00:00",
  "value_ev": 0.03,
+ "min_p": 0.5,
  "model": "1.6.2",
  "mkt_w": 0.25,
  "max_daily": 15,
@@ -73,7 +74,7 @@
   },
   "2026-11-15": {
    "morning": "2026-11-15T16:37+00:00",
-   "pregame": "2026-11-15T18:45+00:00"
+   "pregame": "2026-11-15T19:49+00:00"
   }
  },
  "history": [
@@ -140438,17 +140439,17 @@
      "odds": -121,
      "dec": 1.829,
      "odds_assumed": false,
-     "p": 0.665,
+     "p": 0.692,
      "implied": 0.547,
-     "fair": -199,
-     "edge": 0.118,
-     "ev": 0.216,
+     "fair": -225,
+     "edge": 0.145,
+     "ev": 0.266,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -110,
      "dec_ref": 1.909,
-     "p_model": 0.665,
+     "p_model": 0.692,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -140469,630 +140470,10 @@
        "n": 30
       }
      },
-     "mean": 13.8,
+     "mean": 14.6,
      "open": [
       9.5,
       1.829
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Stephon Castle Under 5.5 Rebotes",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 5.5,
-     "odds": -179,
-     "dec": 1.557,
-     "odds_assumed": false,
-     "p": 0.697,
-     "implied": 0.642,
-     "fair": -230,
-     "edge": 0.055,
-     "ev": 0.085,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -160,
-     "dec_ref": 1.625,
-     "p_model": 0.697,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 9.7,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.4,
-     "open": [
-      5.5,
-      1.557
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Under 15.5 Puntos",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 15.5,
-     "odds": -105,
-     "dec": 1.953,
-     "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.512,
-     "fair": -109,
-     "edge": 0.01,
-     "ev": 0.02,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -101,
-     "dec_ref": 1.99,
-     "p_model": 0.667,
-     "p_mkt": 0.474,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 2,
-       "value": 20.6,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "mean": 13.4,
-     "open": [
-      15.5,
-      1.953
-     ]
-    }
-   ],
-   "value_bets": [],
-   "parlays": [],
-   "model_picks": [
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "stat": "fgm",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.549,
-     "fair": 1.82,
-     "min_dec": 1.88,
-     "ref": 3.8,
-     "p_model": 0.663,
-     "label": "Keldon Johnson Over 3.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 5.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "stat": "fga",
-     "side": "over",
-     "line": 7.5,
-     "p": 0.546,
-     "fair": 1.83,
-     "min_dec": 1.89,
-     "ref": 7.9,
-     "p_model": 0.653,
-     "label": "Keldon Johnson Over 7.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 9.8
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "stat": "fgm",
-     "side": "under",
-     "line": 5.5,
-     "p": 0.531,
-     "fair": 1.88,
-     "min_dec": 1.94,
-     "ref": 6.5,
-     "p_model": 0.604,
-     "label": "Dylan Harper Under 5.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 5.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 5.5,
-     "p": 0.527,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 5.8,
-     "p_model": 0.589,
-     "label": "Keldon Johnson Over 5.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 7.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "stat": "fg2m",
-     "side": "under",
-     "line": 4.5,
-     "p": 0.526,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 5.3,
-     "p_model": 0.585,
-     "label": "Dylan Harper Under 4.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 4.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "stat": "fgm",
-     "side": "over",
-     "line": 4.5,
-     "p": 0.525,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 5.0,
-     "p_model": 0.584,
-     "label": "De'Aaron Fox Over 4.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 5.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.577,
-     "fair": 1.73,
-     "min_dec": 1.79,
-     "ref": 1.9,
-     "p_model": 0.577,
-     "label": "Julian Champagnie Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ]
-     },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.521,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 3.6,
-     "p_model": 0.571,
-     "label": "De'Aaron Fox Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 4.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.569,
-     "fair": 1.76,
-     "min_dec": 1.81,
-     "ref": 2.0,
-     "p_model": 0.569,
-     "label": "De'Aaron Fox Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Victor Wembanyama",
-     "team": "SAS",
-     "stat": "fta",
-     "side": "under",
-     "line": 6.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
-     "ref": 7.4,
-     "p_model": 0.564,
-     "label": "Victor Wembanyama Under 6.5 Tiros libres intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 6.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "stat": "fg2a",
-     "side": "under",
-     "line": 8.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 9.7,
-     "p_model": 0.561,
-     "label": "Dylan Harper Under 8.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 8.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "stat": "fga",
-     "side": "under",
-     "line": 11.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 13.0,
-     "p_model": 0.56,
-     "label": "Dylan Harper Under 11.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 11.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.516,
-     "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 3.8,
-     "p_model": 0.553,
-     "label": "Stephon Castle Over 3.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 4.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 7.5,
-     "p": 0.515,
-     "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 7.7,
-     "p_model": 0.551,
-     "label": "Stephon Castle Over 7.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 8.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Victor Wembanyama",
-     "team": "SAS",
-     "stat": "dd",
-     "side": "over",
-     "line": 0.5,
-     "p": 0.541,
-     "fair": 1.85,
-     "min_dec": 1.9,
-     "ref": null,
-     "p_model": 0.541,
-     "label": "Victor Wembanyama Doble-doble: Sí",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     }
-    }
-   ],
-   "all_bets": [
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Over 9.5 Puntos",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 9.5,
-     "odds": -121,
-     "dec": 1.829,
-     "odds_assumed": false,
-     "p": 0.665,
-     "implied": 0.547,
-     "edge": 0.118,
-     "ev": 0.216,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.665,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 8,
-       "value": 21.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "mean": 13.8,
-     "open": [
-      9.5,
-      1.829
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Stephon Castle Under 5.5 Rebotes",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 5.5,
-     "odds": -179,
-     "dec": 1.557,
-     "odds_assumed": false,
-     "p": 0.697,
-     "implied": 0.642,
-     "edge": 0.055,
-     "ev": 0.085,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -160,
-     "dec_ref": 1.625,
-     "p_model": 0.697,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 9.7,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.4,
-     "open": [
-      5.5,
-      1.557
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Under 15.5 Puntos",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 15.5,
-     "odds": -105,
-     "dec": 1.953,
-     "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.512,
-     "edge": 0.01,
-     "ev": 0.02,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -101,
-     "dec_ref": 1.99,
-     "p_model": 0.667,
-     "p_mkt": 0.474,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 2,
-       "value": 20.6,
-       "lg": 24.0,
-       "n": 30
-      }
-     },
-     "mean": 13.4,
-     "open": [
-      15.5,
-      1.953
      ]
     },
     {
@@ -141104,18 +140485,20 @@
      "odds": -173,
      "dec": 1.576,
      "odds_assumed": false,
-     "p": 0.641,
+     "p": 0.662,
      "implied": 0.634,
-     "edge": 0.006,
-     "ev": 0.01,
+     "fair": -196,
+     "edge": 0.027,
+     "ev": 0.043,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -155,
      "dec_ref": 1.645,
-     "p_model": 0.641,
+     "p_model": 0.662,
      "p_mkt": null,
      "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
      "hr": {
       "l10": [
        6,
@@ -141133,10 +140516,563 @@
        "n": 30
       }
      },
-     "mean": 4.9,
+     "mean": 5.2,
      "open": [
       3.5,
       1.576
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 5.5 Rebotes",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 5.5,
+     "odds": -179,
+     "dec": 1.557,
+     "odds_assumed": false,
+     "p": 0.664,
+     "implied": 0.642,
+     "fair": -198,
+     "edge": 0.022,
+     "ev": 0.034,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -160,
+     "dec_ref": 1.625,
+     "p_model": 0.664,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 9.7,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 4.6,
+     "open": [
+      5.5,
+      1.557
+     ]
+    }
+   ],
+   "value_bets": [],
+   "parlays": [],
+   "model_picks": [
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "stat": "fga",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.558,
+     "fair": 1.79,
+     "min_dec": 1.85,
+     "ref": 7.9,
+     "p_model": 0.692,
+     "label": "Keldon Johnson Over 7.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 10.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "stat": "fgm",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.557,
+     "fair": 1.79,
+     "min_dec": 1.85,
+     "ref": 3.8,
+     "p_model": 0.691,
+     "label": "Keldon Johnson Over 3.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 5.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 5.5,
+     "p": 0.537,
+     "fair": 1.86,
+     "min_dec": 1.92,
+     "ref": 5.8,
+     "p_model": 0.623,
+     "label": "Keldon Johnson Over 5.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 7.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Julian Champagnie",
+     "team": "SAS",
+     "stat": "pf",
+     "side": "over",
+     "line": 1.5,
+     "p": 0.604,
+     "fair": 1.66,
+     "min_dec": 1.71,
+     "ref": 1.9,
+     "p_model": 0.604,
+     "label": "Julian Champagnie Over 1.5 Faltas",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       5,
+       5
+      ]
+     },
+     "mean": 2.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.526,
+     "fair": 1.9,
+     "min_dec": 1.96,
+     "ref": 7.7,
+     "p_model": 0.586,
+     "label": "Stephon Castle Over 7.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 9.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.585,
+     "fair": 1.71,
+     "min_dec": 1.76,
+     "ref": null,
+     "p_model": 0.585,
+     "label": "Victor Wembanyama Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "stat": "fga",
+     "side": "over",
+     "line": 12.5,
+     "p": 0.526,
+     "fair": 1.9,
+     "min_dec": 1.96,
+     "ref": 12.9,
+     "p_model": 0.585,
+     "label": "Stephon Castle Over 12.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 14.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.524,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 4.7,
+     "p_model": 0.579,
+     "label": "Devin Vassell Over 4.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 5.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.523,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 3.8,
+     "p_model": 0.576,
+     "label": "Stephon Castle Over 3.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 4.7
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "stat": "fgm",
+     "side": "under",
+     "line": 5.5,
+     "p": 0.519,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 6.5,
+     "p_model": 0.563,
+     "label": "Dylan Harper Under 5.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 5.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "stat": "fg2m",
+     "side": "under",
+     "line": 4.5,
+     "p": 0.516,
+     "fair": 1.94,
+     "min_dec": 1.99,
+     "ref": 5.3,
+     "p_model": 0.554,
+     "label": "Dylan Harper Under 4.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 4.5
+    }
+   ],
+   "all_bets": [
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Over 9.5 Puntos",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 9.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.692,
+     "implied": 0.547,
+     "edge": 0.145,
+     "ev": 0.266,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.692,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 8,
+       "value": 21.3,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 14.6,
+     "open": [
+      9.5,
+      1.829
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Julian Champagnie Over 3.5 Rebotes",
+     "player": "Julian Champagnie",
+     "team": "SAS",
+     "line": 3.5,
+     "odds": -173,
+     "dec": 1.576,
+     "odds_assumed": false,
+     "p": 0.662,
+     "implied": 0.634,
+     "edge": 0.027,
+     "ev": 0.043,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -155,
+     "dec_ref": 1.645,
+     "p_model": 0.662,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 29,
+       "value": 9.3,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 5.2,
+     "open": [
+      3.5,
+      1.576
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 5.5 Rebotes",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 5.5,
+     "odds": -179,
+     "dec": 1.557,
+     "odds_assumed": false,
+     "p": 0.664,
+     "implied": 0.642,
+     "edge": 0.022,
+     "ev": 0.034,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -160,
+     "dec_ref": 1.625,
+     "p_model": 0.664,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 9.7,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 4.6,
+     "open": [
+      5.5,
+      1.557
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Over 4.5 Rebotes",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 4.5,
+     "odds": -123,
+     "dec": 1.814,
+     "odds_assumed": false,
+     "p": 0.566,
+     "implied": 0.551,
+     "edge": 0.015,
+     "ev": 0.027,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.566,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 17,
+       "value": 6.6,
+       "lg": 6.7,
+       "n": 30
+      }
+     },
+     "mean": 5.4,
+     "open": [
+      4.5,
+      1.814
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Over 14.5 PTS+REB",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 14.5,
+     "odds": -121,
+     "dec": 1.824,
+     "odds_assumed": false,
+     "p": 0.557,
+     "implied": 0.548,
+     "edge": 0.009,
+     "ev": 0.016,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -114,
+     "dec_ref": 1.877,
+     "p_model": 0.706,
+     "p_mkt": 0.508,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 20.7,
+     "open": [
+      14.5,
+      1.824
      ]
     },
     {
@@ -141150,14 +141086,14 @@
      "odds_assumed": false,
      "p": 0.397,
      "implied": 0.393,
-     "edge": 0.004,
-     "ev": 0.01,
+     "edge": 0.005,
+     "ev": 0.012,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 164,
      "dec_ref": 2.64,
-     "p_model": 0.496,
+     "p_model": 0.499,
      "p_mkt": 0.364,
      "cand": false,
      "hr": {
@@ -141253,24 +141189,68 @@
     },
     {
      "kind": "prop",
-     "label": "Keldon Johnson Over 14.5 PTS+REB",
+     "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
      "player": "Keldon Johnson",
      "team": "SAS",
-     "line": 14.5,
-     "odds": -121,
-     "dec": 1.824,
+     "line": 17.5,
+     "odds": -115,
+     "dec": 1.871,
      "odds_assumed": false,
-     "p": 0.549,
-     "implied": 0.548,
-     "edge": 0.001,
-     "ev": 0.002,
+     "p": 0.537,
+     "implied": 0.534,
+     "edge": 0.003,
+     "ev": 0.005,
      "value": false,
-     "stat": "pr",
+     "stat": "pra",
      "side": "over",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.675,
-     "p_mkt": 0.508,
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.665,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 5,
+       "value": 33.8,
+       "lg": 38.5,
+       "n": 30
+      }
+     },
+     "mean": 23.0,
+     "open": [
+      17.5,
+      1.871
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Over 9.5 REB+AST",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 9.5,
+     "odds": -115,
+     "dec": 1.873,
+     "odds_assumed": false,
+     "p": 0.536,
+     "implied": 0.534,
+     "edge": 0.002,
+     "ev": 0.004,
+     "value": false,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.662,
+     "p_mkt": 0.494,
      "cand": false,
      "hr": {
       "l10": [
@@ -141278,14 +141258,139 @@
        10
       ],
       "h2h": [
-       4,
+       3,
        5
       ]
      },
-     "mean": 19.6,
+     "mean": 11.9,
      "open": [
-      14.5,
-      1.824
+      9.5,
+      1.873
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Over 12.5 PTS+AST",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 12.5,
+     "odds": -110,
+     "dec": 1.912,
+     "odds_assumed": false,
+     "p": 0.523,
+     "implied": 0.523,
+     "edge": 0.0,
+     "ev": 0.001,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.641,
+     "p_mkt": 0.484,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 16.9,
+     "open": [
+      12.5,
+      1.912
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Over 0.5 Triples",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 0.5,
+     "odds": -115,
+     "dec": 1.871,
+     "odds_assumed": false,
+     "p": 0.535,
+     "implied": 0.534,
+     "edge": 0.001,
+     "ev": 0.001,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.656,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 11,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
+     },
+     "mean": 1.2,
+     "open": [
+      0.5,
+      1.871
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Under 15.5 Puntos",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 15.5,
+     "odds": -105,
+     "dec": 1.953,
+     "odds_assumed": false,
+     "p": 0.512,
+     "implied": 0.512,
+     "edge": 0.0,
+     "ev": 0.0,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -101,
+     "dec_ref": 1.99,
+     "p_model": 0.626,
+     "p_mkt": 0.474,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 2,
+       "value": 20.6,
+       "lg": 24.0,
+       "n": 30
+      }
+     },
+     "mean": 14.2,
+     "open": [
+      15.5,
+      1.953
      ]
     },
     {
@@ -141334,153 +141439,28 @@
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Under 21.5 PTS+REB",
-     "player": "Dylan Harper",
+     "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 21.5,
-     "odds": -128,
-     "dec": 1.783,
-     "odds_assumed": false,
-     "p": 0.559,
-     "implied": 0.561,
-     "edge": -0.002,
-     "ev": -0.003,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.679,
-     "p_mkt": 0.519,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 18.6,
-     "open": [
-      21.5,
-      1.783
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Over 0.5 Triples",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 0.5,
+     "line": 13.5,
      "odds": -115,
      "dec": 1.871,
      "odds_assumed": false,
-     "p": 0.531,
+     "p": 0.526,
      "implied": 0.534,
-     "edge": -0.003,
-     "ev": -0.006,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.641,
-     "p_mkt": 0.495,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 11,
-       "value": 2.4,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 1.2,
-     "open": [
-      0.5,
-      1.871
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Vassell Under 1.5 Triples",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 1.5,
-     "odds": -109,
-     "dec": 1.916,
-     "odds_assumed": false,
-     "p": 0.518,
-     "implied": 0.522,
-     "edge": -0.004,
-     "ev": -0.008,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.621,
-     "p_mkt": 0.483,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 11,
-       "value": 2.5,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 1.4,
-     "open": [
-      1.5,
-      1.916
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 17.5,
-     "odds": -115,
-     "dec": 1.871,
-     "odds_assumed": false,
-     "p": 0.529,
-     "implied": 0.534,
-     "edge": -0.006,
-     "ev": -0.011,
+     "edge": -0.009,
+     "ev": -0.016,
      "value": false,
      "stat": "pra",
      "side": "over",
      "odds_ref": -110,
      "dec_ref": 1.909,
-     "p_model": 0.63,
+     "p_model": 0.619,
      "p_mkt": 0.495,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       8,
        10
       ],
       "h2h": [
@@ -141488,91 +141468,17 @@
        5
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 5,
-       "value": 33.8,
-       "lg": 38.5,
+       "pos": "SF",
+       "rank": 26,
+       "value": 34.9,
+       "lg": 32.6,
        "n": 30
       }
      },
-     "mean": 21.8,
+     "mean": 16.8,
      "open": [
-      17.5,
+      13.5,
       1.871
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Over 12.5 PTS+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 12.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.516,
-     "implied": 0.523,
-     "edge": -0.007,
-     "ev": -0.014,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.61,
-     "p_mkt": 0.484,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 16.0,
-     "open": [
-      12.5,
-      1.912
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Over 9.5 REB+AST",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 9.5,
-     "odds": -115,
-     "dec": 1.873,
-     "odds_assumed": false,
-     "p": 0.526,
-     "implied": 0.534,
-     "edge": -0.008,
-     "ev": -0.015,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.62,
-     "p_mkt": 0.494,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 11.3,
-     "open": [
-      9.5,
-      1.873
      ]
     },
     {
@@ -141652,46 +141558,46 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Under 1.5 Triples",
-     "player": "Stephon Castle",
+     "label": "Devin Vassell Under 1.5 Triples",
+     "player": "Devin Vassell",
      "team": "SAS",
      "line": 1.5,
-     "odds": -114,
-     "dec": 1.88,
+     "odds": -109,
+     "dec": 1.916,
      "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.532,
-     "edge": -0.01,
+     "p": 0.513,
+     "implied": 0.522,
+     "edge": -0.009,
      "ev": -0.018,
      "value": false,
      "stat": "fg3m",
      "side": "under",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.611,
-     "p_mkt": 0.493,
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.601,
+     "p_mkt": 0.483,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
-       4,
-       5
+       2,
+       3
       ],
       "dvp": {
-       "pos": "PF",
+       "pos": "SF",
        "rank": 11,
-       "value": 2.4,
-       "lg": 2.6,
+       "value": 2.5,
+       "lg": 2.7,
        "n": 30
       }
      },
      "mean": 1.4,
      "open": [
       1.5,
-      1.88
+      1.916
      ]
     },
     {
@@ -141740,6 +141646,43 @@
     },
     {
      "kind": "prop",
+     "label": "Dylan Harper Under 21.5 PTS+REB",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 21.5,
+     "odds": -128,
+     "dec": 1.783,
+     "odds_assumed": false,
+     "p": 0.548,
+     "implied": 0.561,
+     "edge": -0.013,
+     "ev": -0.023,
+     "value": false,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.633,
+     "p_mkt": 0.519,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 19.6,
+     "open": [
+      21.5,
+      1.783
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Keyonte George Over 25.5 PTS+AST",
      "player": "Keyonte George",
      "team": "UTA",
@@ -141777,6 +141720,50 @@
     },
     {
      "kind": "prop",
+     "label": "Stephon Castle Under 1.5 Triples",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 1.5,
+     "odds": -114,
+     "dec": 1.88,
+     "odds_assumed": false,
+     "p": 0.516,
+     "implied": 0.532,
+     "edge": -0.016,
+     "ev": -0.031,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -108,
+     "dec_ref": 1.926,
+     "p_model": 0.585,
+     "p_mkt": 0.493,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 11,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
+     },
+     "mean": 1.5,
+     "open": [
+      1.5,
+      1.88
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Ace Bailey Over 6.5 REB+AST",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -141810,50 +141797,6 @@
      "open": [
       6.5,
       1.759
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Over 4.5 Rebotes",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 4.5,
-     "odds": -123,
-     "dec": 1.814,
-     "odds_assumed": false,
-     "p": 0.534,
-     "implied": 0.551,
-     "edge": -0.017,
-     "ev": -0.031,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.534,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 17,
-       "value": 6.6,
-       "lg": 6.7,
-       "n": 30
-      }
-     },
-     "mean": 5.1,
-     "open": [
-      4.5,
-      1.814
      ]
     },
     {
@@ -141902,72 +141845,65 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+     "label": "Julian Champagnie Over 13.5 PTS+REB",
      "player": "Julian Champagnie",
      "team": "SAS",
      "line": 13.5,
-     "odds": -115,
-     "dec": 1.871,
+     "odds": -110,
+     "dec": 1.91,
      "odds_assumed": false,
-     "p": 0.516,
-     "implied": 0.534,
-     "edge": -0.019,
+     "p": 0.505,
+     "implied": 0.523,
+     "edge": -0.018,
      "ev": -0.035,
      "value": false,
-     "stat": "pra",
+     "stat": "pr",
      "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.578,
-     "p_mkt": 0.495,
+     "odds_ref": -107,
+     "dec_ref": 1.935,
+     "p_model": 0.567,
+     "p_mkt": 0.485,
      "cand": false,
      "hr": {
       "l10": [
-       8,
+       7,
        10
       ],
       "h2h": [
        3,
        5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 34.9,
-       "lg": 32.6,
-       "n": 30
-      }
+      ]
      },
-     "mean": 15.9,
+     "mean": 15.8,
      "open": [
       13.5,
-      1.871
+      1.91
      ]
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Under 20.5 PTS+REB",
-     "player": "Stephon Castle",
+     "label": "Julian Champagnie Over 9.5 PTS+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 20.5,
-     "odds": -115,
-     "dec": 1.872,
+     "line": 9.5,
+     "odds": -110,
+     "dec": 1.912,
      "odds_assumed": false,
-     "p": 0.515,
-     "implied": 0.534,
-     "edge": -0.019,
-     "ev": -0.036,
+     "p": 0.505,
+     "implied": 0.523,
+     "edge": -0.018,
+     "ev": -0.035,
      "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -107,
-     "dec_ref": 1.935,
-     "p_model": 0.577,
-     "p_mkt": 0.495,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.567,
+     "p_mkt": 0.484,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
@@ -141975,36 +141911,36 @@
        5
       ]
      },
-     "mean": 19.9,
+     "mean": 11.6,
      "open": [
-      20.5,
-      1.872
+      9.5,
+      1.912
      ]
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Under 20.5 PTS+AST",
-     "player": "Dylan Harper",
+     "label": "Julian Champagnie Over 5.5 REB+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 20.5,
-     "odds": -120,
-     "dec": 1.831,
+     "line": 5.5,
+     "odds": 106,
+     "dec": 2.06,
      "odds_assumed": false,
-     "p": 0.526,
-     "implied": 0.546,
-     "edge": -0.02,
-     "ev": -0.036,
+     "p": 0.469,
+     "implied": 0.485,
+     "edge": -0.017,
+     "ev": -0.035,
      "value": false,
-     "stat": "pa",
-     "side": "under",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.588,
-     "p_mkt": 0.506,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": 110,
+     "dec_ref": 2.1,
+     "p_model": 0.526,
+     "p_mkt": 0.449,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
@@ -142012,10 +141948,10 @@
        5
       ]
      },
-     "mean": 19.6,
+     "mean": 6.2,
      "open": [
-      20.5,
-      1.831
+      5.5,
+      2.06
      ]
     },
     {
@@ -142024,25 +141960,25 @@
      "player": null,
      "team": "SAS",
      "line": null,
-     "odds": -1567,
-     "dec": 1.064,
+     "odds": -1526,
+     "dec": 1.066,
      "odds_assumed": false,
-     "p": 0.905,
-     "implied": 0.94,
-     "edge": -0.035,
-     "ev": -0.037,
+     "p": 0.904,
+     "implied": 0.938,
+     "edge": -0.034,
+     "ev": -0.036,
      "value": false,
-     "n_books": 10,
+     "n_books": 11,
      "best": {
-      "book": "scoresandodds (consenso 12:25 ET)",
+      "book": "comparador Covers (mediana 9 casas, 14:50 ET)",
       "line": null,
-      "odds": -1340,
-      "dec": 1.075,
-      "p": 0.905,
-      "ev": -0.027
+      "odds": -1200,
+      "dec": 1.083,
+      "p": 0.904,
+      "ev": -0.021
      },
      "p_model": 0.917,
-     "p_mkt": 0.901,
+     "p_mkt": 0.9,
      "cand": false,
      "open": [
       null,
@@ -142092,6 +142028,50 @@
     },
     {
      "kind": "prop",
+     "label": "Julian Champagnie Over 2.5 Triples",
+     "player": "Julian Champagnie",
+     "team": "SAS",
+     "line": 2.5,
+     "odds": 136,
+     "dec": 2.363,
+     "odds_assumed": false,
+     "p": 0.408,
+     "implied": 0.423,
+     "edge": -0.016,
+     "ev": -0.037,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": 142,
+     "dec_ref": 2.42,
+     "p_model": 0.455,
+     "p_mkt": 0.392,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 11,
+       "value": 2.5,
+       "lg": 2.7,
+       "n": 30
+      }
+     },
+     "mean": 2.7,
+     "open": [
+      2.5,
+      2.363
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Keyonte George Over 3.5 Rebotes",
      "player": "Keyonte George",
      "team": "UTA",
@@ -142136,127 +142116,39 @@
     },
     {
      "kind": "prop",
-     "label": "Victor Wembanyama Under 11.5 Rebotes",
-     "player": "Victor Wembanyama",
+     "label": "Keldon Johnson Over 6.5 REB+AST",
+     "player": "Keldon Johnson",
      "team": "SAS",
-     "line": 11.5,
-     "odds": -135,
-     "dec": 1.739,
+     "line": 6.5,
+     "odds": -147,
+     "dec": 1.682,
      "odds_assumed": false,
-     "p": 0.552,
-     "implied": 0.575,
-     "edge": -0.023,
+     "p": 0.571,
+     "implied": 0.595,
+     "edge": -0.024,
      "ev": -0.04,
      "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.611,
-     "p_mkt": 0.532,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.632,
+     "p_mkt": 0.551,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       8,
        10
       ],
       "h2h": [
        3,
        5
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 10.7,
-     "open": [
-      11.5,
-      1.739
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Under 25.5 PTS+REB+AST",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 25.5,
-     "odds": -115,
-     "dec": 1.868,
-     "odds_assumed": false,
-     "p": 0.514,
-     "implied": 0.535,
-     "edge": -0.021,
-     "ev": -0.04,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "odds_ref": -106,
-     "dec_ref": 1.943,
-     "p_model": 0.569,
-     "p_mkt": 0.496,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 2,
-       "value": 31.7,
-       "lg": 36.4,
-       "n": 30
-      }
-     },
-     "mean": 24.7,
-     "open": [
-      25.5,
-      1.868
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "De'Aaron Fox Under 9.5 REB+AST",
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "line": 9.5,
-     "odds": -139,
-     "dec": 1.72,
-     "odds_assumed": false,
-     "p": 0.558,
-     "implied": 0.581,
-     "edge": -0.023,
-     "ev": -0.04,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": -132,
-     "dec_ref": 1.758,
-     "p_model": 0.617,
-     "p_mkt": 0.538,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       4
       ]
      },
-     "mean": 8.7,
+     "mean": 8.4,
      "open": [
-      9.5,
-      1.72
+      6.5,
+      1.682
      ]
     },
     {
@@ -142305,90 +142197,39 @@
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Under 1.5 Triples",
-     "player": "Dylan Harper",
+     "label": "De'Aaron Fox Under 9.5 REB+AST",
+     "player": "De'Aaron Fox",
      "team": "SAS",
-     "line": 1.5,
-     "odds": -240,
-     "dec": 1.416,
+     "line": 9.5,
+     "odds": -139,
+     "dec": 1.72,
      "odds_assumed": false,
-     "p": 0.678,
-     "implied": 0.706,
-     "edge": -0.029,
+     "p": 0.557,
+     "implied": 0.581,
+     "edge": -0.024,
      "ev": -0.041,
      "value": false,
-     "stat": "fg3m",
+     "stat": "ra",
      "side": "under",
-     "odds_ref": -227,
-     "dec_ref": 1.441,
-     "p_model": 0.749,
-     "p_mkt": 0.654,
+     "odds_ref": -132,
+     "dec_ref": 1.758,
+     "p_model": 0.614,
+     "p_mkt": 0.538,
      "cand": false,
      "hr": {
       "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 9,
-       "value": 3.1,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      1.5,
-      1.416
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Victor Wembanyama Under 27.5 Puntos",
-     "player": "Victor Wembanyama",
-     "team": "SAS",
-     "line": 27.5,
-     "odds": -121,
-     "dec": 1.829,
-     "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.547,
-     "edge": -0.024,
-     "ev": -0.044,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -116,
-     "dec_ref": 1.862,
-     "p_model": 0.572,
-     "p_mkt": 0.506,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
+       6,
        10
       ],
       "h2h": [
        2,
-       5
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 8,
-       "value": 19.8,
-       "lg": 22.0,
-       "n": 30
-      }
+       4
+      ]
      },
-     "mean": 27.1,
+     "mean": 8.7,
      "open": [
-      27.5,
-      1.829
+      9.5,
+      1.72
      ]
     },
     {
@@ -142441,39 +142282,46 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Under 5.5 REB+AST",
-     "player": "Devin Vassell",
+     "label": "Keldon Johnson Over 4.5 Rebotes",
+     "player": "Keldon Johnson",
      "team": "SAS",
-     "line": 5.5,
-     "odds": -104,
-     "dec": 1.964,
+     "line": 4.5,
+     "odds": -151,
+     "dec": 1.664,
      "odds_assumed": false,
-     "p": 0.487,
-     "implied": 0.509,
-     "edge": -0.022,
+     "p": 0.575,
+     "implied": 0.601,
+     "edge": -0.026,
      "ev": -0.044,
      "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": 114,
-     "dec_ref": 2.14,
-     "p_model": 0.533,
-     "p_mkt": 0.471,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.629,
+     "p_mkt": 0.556,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       8,
        10
       ],
       "h2h": [
-       1,
-       3
-      ]
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 9.7,
+       "lg": 10.4,
+       "n": 30
+      }
      },
-     "mean": 5.6,
+     "mean": 6.1,
      "open": [
-      5.5,
-      1.964
+      4.5,
+      1.664
      ]
     },
     {
@@ -142570,6 +142418,87 @@
     },
     {
      "kind": "prop",
+     "label": "Dylan Harper Under 1.5 Triples",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 1.5,
+     "odds": -240,
+     "dec": 1.416,
+     "odds_assumed": false,
+     "p": 0.673,
+     "implied": 0.706,
+     "edge": -0.033,
+     "ev": -0.047,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -227,
+     "dec_ref": 1.441,
+     "p_model": 0.732,
+     "p_mkt": 0.654,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 9,
+       "value": 3.1,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.0,
+     "open": [
+      1.5,
+      1.416
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "De'Aaron Fox Over 17.5 PTS+REB",
+     "player": "De'Aaron Fox",
+     "team": "SAS",
+     "line": 17.5,
+     "odds": -116,
+     "dec": 1.864,
+     "odds_assumed": false,
+     "p": 0.511,
+     "implied": 0.536,
+     "edge": -0.026,
+     "ev": -0.048,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.552,
+     "p_mkt": 0.497,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ]
+     },
+     "mean": 19.8,
+     "open": [
+      17.5,
+      1.864
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Darryn Peterson Under 23.5 PTS+AST",
      "player": "Darryn Peterson",
      "team": "UTA",
@@ -142611,87 +142540,6 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Under 15.5 Puntos",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 15.5,
-     "odds": -123,
-     "dec": 1.814,
-     "odds_assumed": false,
-     "p": 0.524,
-     "implied": 0.551,
-     "edge": -0.027,
-     "ev": -0.05,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -118,
-     "dec_ref": 1.847,
-     "p_model": 0.564,
-     "p_mkt": 0.51,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 8,
-       "value": 21.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "mean": 15.4,
-     "open": [
-      15.5,
-      1.814
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "De'Aaron Fox Over 17.5 PTS+REB",
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "line": 17.5,
-     "odds": -116,
-     "dec": 1.864,
-     "odds_assumed": false,
-     "p": 0.51,
-     "implied": 0.536,
-     "edge": -0.027,
-     "ev": -0.05,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.549,
-     "p_mkt": 0.497,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 19.7,
-     "open": [
-      17.5,
-      1.864
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ace Bailey Over 19.5 PTS+REB",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -142729,286 +142577,6 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Under 26.5 PTS+REB+AST",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 26.5,
-     "odds": -129,
-     "dec": 1.777,
-     "odds_assumed": false,
-     "p": 0.533,
-     "implied": 0.563,
-     "edge": -0.029,
-     "ev": -0.052,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "odds_ref": -122,
-     "dec_ref": 1.82,
-     "p_model": 0.57,
-     "p_mkt": 0.521,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 5,
-       "value": 33.8,
-       "lg": 38.5,
-       "n": 30
-      }
-     },
-     "mean": 25.7,
-     "open": [
-      26.5,
-      1.777
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Over 5.5 REB+AST",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 5.5,
-     "odds": 106,
-     "dec": 2.06,
-     "odds_assumed": false,
-     "p": 0.46,
-     "implied": 0.485,
-     "edge": -0.025,
-     "ev": -0.052,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": 110,
-     "dec_ref": 2.1,
-     "p_model": 0.492,
-     "p_mkt": 0.449,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 5.9,
-     "open": [
-      5.5,
-      2.06
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Over 2.5 Triples",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 2.5,
-     "odds": 136,
-     "dec": 2.363,
-     "odds_assumed": false,
-     "p": 0.401,
-     "implied": 0.423,
-     "edge": -0.022,
-     "ev": -0.052,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 142,
-     "dec_ref": 2.42,
-     "p_model": 0.43,
-     "p_mkt": 0.392,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 11,
-       "value": 2.5,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 2.5,
-     "open": [
-      2.5,
-      2.363
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Over 9.5 PTS+AST",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 9.5,
-     "odds": -110,
-     "dec": 1.912,
-     "odds_assumed": false,
-     "p": 0.495,
-     "implied": 0.523,
-     "edge": -0.028,
-     "ev": -0.053,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.528,
-     "p_mkt": 0.484,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 11.0,
-     "open": [
-      9.5,
-      1.912
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Over 13.5 PTS+REB",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 13.5,
-     "odds": -110,
-     "dec": 1.91,
-     "odds_assumed": false,
-     "p": 0.495,
-     "implied": 0.523,
-     "edge": -0.028,
-     "ev": -0.054,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -107,
-     "dec_ref": 1.935,
-     "p_model": 0.526,
-     "p_mkt": 0.485,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 14.9,
-     "open": [
-      13.5,
-      1.91
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Vassell Under 3.5 Rebotes",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 3.5,
-     "odds": -137,
-     "dec": 1.731,
-     "odds_assumed": false,
-     "p": 0.546,
-     "implied": 0.578,
-     "edge": -0.031,
-     "ev": -0.054,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.581,
-     "p_mkt": 0.535,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 29,
-       "value": 9.3,
-       "lg": 8.0,
-       "n": 30
-      }
-     },
-     "mean": 3.4,
-     "open": [
-      3.5,
-      1.731
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Over 6.5 REB+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 6.5,
-     "odds": -147,
-     "dec": 1.682,
-     "odds_assumed": false,
-     "p": 0.562,
-     "implied": 0.595,
-     "edge": -0.032,
-     "ev": -0.054,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.598,
-     "p_mkt": 0.551,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 8.0,
-     "open": [
-      6.5,
-      1.682
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ace Bailey Over 15.5 PTS+AST",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -143042,6 +142610,80 @@
      "open": [
       15.5,
       1.852
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Over 14.5 PTS+REB",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 14.5,
+     "odds": -123,
+     "dec": 1.813,
+     "odds_assumed": false,
+     "p": 0.521,
+     "implied": 0.552,
+     "edge": -0.03,
+     "ev": -0.055,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.553,
+     "p_mkt": 0.511,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ]
+     },
+     "mean": 16.5,
+     "open": [
+      14.5,
+      1.813
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 20.5 PTS+REB",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 20.5,
+     "odds": -115,
+     "dec": 1.872,
+     "odds_assumed": false,
+     "p": 0.504,
+     "implied": 0.534,
+     "edge": -0.03,
+     "ev": -0.056,
+     "value": false,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -107,
+     "dec_ref": 1.935,
+     "p_model": 0.534,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ]
+     },
+     "mean": 20.9,
+     "open": [
+      20.5,
+      1.872
      ]
     },
     {
@@ -143090,87 +142732,6 @@
     },
     {
      "kind": "prop",
-     "label": "Keldon Johnson Over 4.5 Rebotes",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 4.5,
-     "odds": -151,
-     "dec": 1.664,
-     "odds_assumed": false,
-     "p": 0.567,
-     "implied": 0.601,
-     "edge": -0.034,
-     "ev": -0.056,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.6,
-     "p_mkt": 0.556,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 9.7,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 5.8,
-     "open": [
-      4.5,
-      1.664
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Stephon Castle Under 10.5 REB+AST",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 10.5,
-     "odds": -125,
-     "dec": 1.798,
-     "odds_assumed": false,
-     "p": 0.524,
-     "implied": 0.556,
-     "edge": -0.032,
-     "ev": -0.057,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.553,
-     "p_mkt": 0.515,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 10.3,
-     "open": [
-      10.5,
-      1.798
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Darryn Peterson Under 23.5 PTS+REB",
      "player": "Darryn Peterson",
      "team": "UTA",
@@ -143209,6 +142770,131 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 13 partidos esta temporada"
      }
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Under 20.5 PTS+AST",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 20.5,
+     "odds": -120,
+     "dec": 1.831,
+     "odds_assumed": false,
+     "p": 0.514,
+     "implied": 0.546,
+     "edge": -0.032,
+     "ev": -0.059,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.539,
+     "p_mkt": 0.506,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 20.7,
+     "open": [
+      20.5,
+      1.831
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Victor Wembanyama Under 11.5 Rebotes",
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "line": 11.5,
+     "odds": -135,
+     "dec": 1.739,
+     "odds_assumed": false,
+     "p": 0.541,
+     "implied": 0.575,
+     "edge": -0.034,
+     "ev": -0.06,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.565,
+     "p_mkt": 0.532,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 15,
+       "value": 14.7,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 11.3,
+     "open": [
+      11.5,
+      1.739
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Over 11.5 Puntos",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 11.5,
+     "odds": -112,
+     "dec": 1.89,
+     "odds_assumed": false,
+     "p": 0.497,
+     "implied": 0.529,
+     "edge": -0.032,
+     "ev": -0.06,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -103,
+     "dec_ref": 1.971,
+     "p_model": 0.519,
+     "p_mkt": 0.49,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 26,
+       "value": 22.4,
+       "lg": 20.1,
+       "n": 30
+      }
+     },
+     "mean": 12.9,
+     "open": [
+      11.5,
+      1.89
+     ]
     },
     {
      "kind": "prop",
@@ -143252,50 +142938,6 @@
      "open": [
       1.5,
       1.892
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "De'Aaron Fox Under 3.5 Rebotes",
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "line": 3.5,
-     "odds": -114,
-     "dec": 1.877,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.533,
-     "edge": -0.033,
-     "ev": -0.061,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.52,
-     "p_mkt": 0.493,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 20,
-       "value": 6.2,
-       "lg": 5.7,
-       "n": 30
-      }
-     },
-     "mean": 3.7,
-     "open": [
-      3.5,
-      1.877
      ]
     },
     {
@@ -143348,61 +142990,61 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Under 20.5 PTS+AST",
-     "player": "Stephon Castle",
+     "label": "Devin Vassell Under 5.5 REB+AST",
+     "player": "Devin Vassell",
      "team": "SAS",
-     "line": 20.5,
-     "odds": -110,
-     "dec": 1.912,
+     "line": 5.5,
+     "odds": -104,
+     "dec": 1.964,
      "odds_assumed": false,
-     "p": 0.491,
-     "implied": 0.523,
+     "p": 0.477,
+     "implied": 0.509,
      "edge": -0.032,
      "ev": -0.062,
      "value": false,
-     "stat": "pa",
+     "stat": "ra",
      "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.51,
-     "p_mkt": 0.484,
+     "odds_ref": 114,
+     "dec_ref": 2.14,
+     "p_model": 0.495,
+     "p_mkt": 0.471,
      "cand": false,
      "hr": {
       "l10": [
-       7,
+       4,
        10
       ],
       "h2h": [
        1,
-       5
+       3
       ]
      },
-     "mean": 21.3,
+     "mean": 5.9,
      "open": [
-      20.5,
-      1.912
+      5.5,
+      1.964
      ]
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Under 17.5 PTS+REB+AST",
+     "label": "Devin Vassell Over 17.5 PTS+REB+AST",
      "player": "Devin Vassell",
      "team": "SAS",
      "line": 17.5,
-     "odds": -120,
-     "dec": 1.833,
+     "odds": -115,
+     "dec": 1.872,
      "odds_assumed": false,
-     "p": 0.512,
-     "implied": 0.546,
+     "p": 0.5,
+     "implied": 0.534,
      "edge": -0.034,
-     "ev": -0.062,
+     "ev": -0.063,
      "value": false,
      "stat": "pra",
-     "side": "under",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.532,
-     "p_mkt": 0.505,
+     "side": "over",
+     "odds_ref": -109,
+     "dec_ref": 1.917,
+     "p_model": 0.517,
+     "p_mkt": 0.495,
      "cand": false,
      "hr": {
       "l10": [
@@ -143410,7 +143052,7 @@
        10
       ],
       "h2h": [
-       2,
+       1,
        3
       ],
       "dvp": {
@@ -143421,32 +143063,32 @@
        "n": 30
       }
      },
-     "mean": 17.8,
+     "mean": 18.8,
      "open": [
       17.5,
-      1.833
+      1.872
      ]
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Under 13.5 PTS+AST",
-     "player": "Devin Vassell",
+     "label": "Julian Champagnie Over 9.5 Puntos",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 13.5,
-     "odds": -107,
-     "dec": 1.939,
+     "line": 9.5,
+     "odds": -108,
+     "dec": 1.93,
      "odds_assumed": false,
-     "p": 0.483,
-     "implied": 0.516,
-     "edge": -0.032,
-     "ev": -0.063,
+     "p": 0.485,
+     "implied": 0.518,
+     "edge": -0.033,
+     "ev": -0.064,
      "value": false,
-     "stat": "pa",
-     "side": "under",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
      "p_model": 0.501,
-     "p_mkt": 0.478,
+     "p_mkt": 0.48,
      "cand": false,
      "hr": {
       "l10": [
@@ -143454,14 +143096,65 @@
        10
       ],
       "h2h": [
-       1,
-       3
-      ]
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 26,
+       "value": 22.4,
+       "lg": 20.1,
+       "n": 30
+      }
      },
-     "mean": 14.4,
+     "mean": 10.6,
      "open": [
-      13.5,
-      1.939
+      9.5,
+      1.93
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "De'Aaron Fox Under 3.5 Rebotes",
+     "player": "De'Aaron Fox",
+     "team": "SAS",
+     "line": 3.5,
+     "odds": -114,
+     "dec": 1.877,
+     "odds_assumed": false,
+     "p": 0.499,
+     "implied": 0.533,
+     "edge": -0.034,
+     "ev": -0.064,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.514,
+     "p_mkt": 0.493,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 20,
+       "value": 6.2,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 3.7,
+     "open": [
+      3.5,
+      1.877
      ]
     },
     {
@@ -143476,13 +143169,13 @@
      "p": 0.497,
      "implied": 0.532,
      "edge": -0.034,
-     "ev": -0.065,
+     "ev": -0.064,
      "value": false,
      "stat": "pa",
      "side": "over",
      "odds_ref": -105,
      "dec_ref": 1.952,
-     "p_model": 0.512,
+     "p_model": 0.513,
      "p_mkt": 0.492,
      "cand": false,
      "hr": {
@@ -143495,7 +143188,7 @@
        4
       ]
      },
-     "mean": 20.9,
+     "mean": 21.0,
      "open": [
       19.5,
       1.881
@@ -143510,16 +143203,16 @@
      "odds": -111,
      "dec": 1.903,
      "odds_assumed": false,
-     "p": 0.491,
+     "p": 0.492,
      "implied": 0.525,
      "edge": -0.034,
-     "ev": -0.065,
+     "ev": -0.064,
      "value": false,
      "stat": "pra",
      "side": "over",
      "odds_ref": -107,
      "dec_ref": 1.935,
-     "p_model": 0.506,
+     "p_model": 0.507,
      "p_mkt": 0.487,
      "cand": false,
      "hr": {
@@ -143547,24 +143240,149 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Under 9.5 Puntos",
-     "player": "Julian Champagnie",
+     "label": "Dylan Harper Under 25.5 PTS+REB+AST",
+     "player": "Dylan Harper",
      "team": "SAS",
-     "line": 9.5,
-     "odds": -128,
-     "dec": 1.78,
+     "line": 25.5,
+     "odds": -115,
+     "dec": 1.868,
      "odds_assumed": false,
-     "p": 0.524,
-     "implied": 0.562,
-     "edge": -0.037,
-     "ev": -0.067,
+     "p": 0.501,
+     "implied": 0.535,
+     "edge": -0.035,
+     "ev": -0.065,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "odds_ref": -106,
+     "dec_ref": 1.943,
+     "p_model": 0.516,
+     "p_mkt": 0.496,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 2,
+       "value": 31.7,
+       "lg": 36.4,
+       "n": 30
+      }
+     },
+     "mean": 26.1,
+     "open": [
+      25.5,
+      1.868
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Victor Wembanyama Under 27.5 Puntos",
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "line": 27.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.511,
+     "implied": 0.547,
+     "edge": -0.036,
+     "ev": -0.066,
      "value": false,
      "stat": "pts",
      "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.537,
-     "p_mkt": 0.52,
+     "odds_ref": -116,
+     "dec_ref": 1.862,
+     "p_model": 0.524,
+     "p_mkt": 0.506,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 8,
+       "value": 19.8,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 28.7,
+     "open": [
+      27.5,
+      1.829
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Over 20.5 PTS+AST",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 20.5,
+     "odds": -126,
+     "dec": 1.795,
+     "odds_assumed": false,
+     "p": 0.52,
+     "implied": 0.557,
+     "edge": -0.037,
+     "ev": -0.066,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.534,
+     "p_mkt": 0.516,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 22.4,
+     "open": [
+      20.5,
+      1.795
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Over 13.5 PTS+AST",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 13.5,
+     "odds": -129,
+     "dec": 1.773,
+     "odds_assumed": false,
+     "p": 0.527,
+     "implied": 0.564,
+     "edge": -0.037,
+     "ev": -0.066,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "odds_ref": -118,
+     "dec_ref": 1.847,
+     "p_model": 0.54,
+     "p_mkt": 0.522,
      "cand": false,
      "hr": {
       "l10": [
@@ -143572,21 +143390,58 @@
        10
       ],
       "h2h": [
-       3,
+       2,
+       3
+      ]
+     },
+     "mean": 15.2,
+     "open": [
+      13.5,
+      1.773
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 15.5 Puntos",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 15.5,
+     "odds": -123,
+     "dec": 1.814,
+     "odds_assumed": false,
+     "p": 0.515,
+     "implied": 0.551,
+     "edge": -0.037,
+     "ev": -0.067,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -118,
+     "dec_ref": 1.847,
+     "p_model": 0.527,
+     "p_mkt": 0.51,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
        5
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 22.4,
-       "lg": 20.1,
+       "pos": "PF",
+       "rank": 8,
+       "value": 21.3,
+       "lg": 23.4,
        "n": 30
       }
      },
-     "mean": 10.0,
+     "mean": 16.3,
      "open": [
-      9.5,
-      1.78
+      15.5,
+      1.814
      ]
     },
     {
@@ -143628,24 +143483,24 @@
     },
     {
      "kind": "prop",
-     "label": "Luke Kornet Under 4.5 Rebotes",
-     "player": "Luke Kornet",
+     "label": "Devin Vassell Under 3.5 Rebotes",
+     "player": "Devin Vassell",
      "team": "SAS",
-     "line": 4.5,
-     "odds": 115,
-     "dec": 2.148,
+     "line": 3.5,
+     "odds": -137,
+     "dec": 1.731,
      "odds_assumed": false,
-     "p": 0.434,
-     "implied": 0.466,
-     "edge": -0.031,
+     "p": 0.539,
+     "implied": 0.578,
+     "edge": -0.039,
      "ev": -0.067,
      "value": false,
      "stat": "reb",
      "side": "under",
-     "odds_ref": 120,
-     "dec_ref": 2.2,
-     "p_model": 0.444,
-     "p_mkt": 0.431,
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.551,
+     "p_mkt": 0.535,
      "cand": false,
      "hr": {
       "l10": [
@@ -143653,21 +143508,21 @@
        10
       ],
       "h2h": [
-       0,
-       4
+       2,
+       3
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.7,
+       "pos": "SF",
+       "rank": 29,
+       "value": 9.3,
+       "lg": 8.0,
        "n": 30
       }
      },
-     "mean": 5.6,
+     "mean": 3.5,
      "open": [
-      4.5,
-      2.148
+      3.5,
+      1.731
      ]
     },
     {
@@ -143764,24 +143619,24 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Under 11.5 Puntos",
-     "player": "Devin Vassell",
+     "label": "Luke Kornet Over 4.5 Rebotes",
+     "player": "Luke Kornet",
      "team": "SAS",
-     "line": 11.5,
-     "odds": -123,
-     "dec": 1.815,
+     "line": 4.5,
+     "odds": -159,
+     "dec": 1.628,
      "odds_assumed": false,
-     "p": 0.512,
-     "implied": 0.551,
-     "edge": -0.039,
-     "ev": -0.071,
+     "p": 0.572,
+     "implied": 0.614,
+     "edge": -0.042,
+     "ev": -0.069,
      "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.517,
-     "p_mkt": 0.51,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -150,
+     "dec_ref": 1.667,
+     "p_model": 0.581,
+     "p_mkt": 0.569,
      "cand": false,
      "hr": {
       "l10": [
@@ -143789,43 +143644,43 @@
        10
       ],
       "h2h": [
-       2,
-       3
+       4,
+       4
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 22.4,
-       "lg": 20.1,
+       "pos": "C",
+       "rank": 15,
+       "value": 14.7,
+       "lg": 14.7,
        "n": 30
       }
      },
-     "mean": 12.2,
+     "mean": 5.9,
      "open": [
-      11.5,
-      1.815
+      4.5,
+      1.628
      ]
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Under 5.5 Rebotes",
-     "player": "Dylan Harper",
+     "label": "Stephon Castle Over 10.5 REB+AST",
+     "player": "Stephon Castle",
      "team": "SAS",
-     "line": 5.5,
-     "odds": -182,
-     "dec": 1.55,
+     "line": 10.5,
+     "odds": -110,
+     "dec": 1.909,
      "odds_assumed": false,
-     "p": 0.598,
-     "implied": 0.645,
-     "edge": -0.047,
-     "ev": -0.073,
+     "p": 0.487,
+     "implied": 0.524,
+     "edge": -0.037,
+     "ev": -0.07,
      "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -162,
-     "dec_ref": 1.617,
-     "p_model": 0.598,
-     "p_mkt": null,
+     "stat": "ra",
+     "side": "over",
+     "odds_ref": 101,
+     "dec_ref": 2.01,
+     "p_model": 0.494,
+     "p_mkt": 0.485,
      "cand": false,
      "hr": {
       "l10": [
@@ -143833,95 +143688,58 @@
        10
       ],
       "h2h": [
-       3,
+       2,
+       5
+      ]
+     },
+     "mean": 10.8,
+     "open": [
+      10.5,
+      1.909
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Over 26.5 PTS+REB+AST",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 26.5,
+     "odds": -107,
+     "dec": 1.933,
+     "odds_assumed": false,
+     "p": 0.48,
+     "implied": 0.517,
+     "edge": -0.037,
+     "ev": -0.072,
+     "value": false,
+     "stat": "pra",
+     "side": "over",
+     "odds_ref": -102,
+     "dec_ref": 1.98,
+     "p_model": 0.483,
+     "p_mkt": 0.479,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
        5
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 17,
-       "value": 6.6,
-       "lg": 6.7,
+       "pos": "PF",
+       "rank": 5,
+       "value": 33.8,
+       "lg": 38.5,
        "n": 30
       }
      },
-     "mean": 5.1,
+     "mean": 27.1,
      "open": [
-      5.5,
-      1.55
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Vassell Over 14.5 PTS+REB",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 14.5,
-     "odds": -123,
-     "dec": 1.813,
-     "odds_assumed": false,
-     "p": 0.511,
-     "implied": 0.552,
-     "edge": -0.041,
-     "ev": -0.074,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.511,
-     "p_mkt": 0.511,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 15.6,
-     "open": [
-      14.5,
-      1.813
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Vassell Under 14.5 PTS+REB",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 14.5,
-     "odds": -112,
-     "dec": 1.892,
-     "odds_assumed": false,
-     "p": 0.489,
-     "implied": 0.528,
-     "edge": -0.039,
-     "ev": -0.074,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.489,
-     "p_mkt": 0.489,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ]
-     },
-     "mean": 15.6,
-     "open": [
-      14.5,
-      1.892
+      26.5,
+      1.933
      ]
     },
     {
@@ -143957,99 +143775,24 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Over 11.5 Puntos",
-     "player": "Devin Vassell",
+     "label": "Stephon Castle Under 26.5 PTS+REB+AST",
+     "player": "Stephon Castle",
      "team": "SAS",
-     "line": 11.5,
-     "odds": -112,
-     "dec": 1.89,
+     "line": 26.5,
+     "odds": -129,
+     "dec": 1.777,
      "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.529,
-     "edge": -0.041,
-     "ev": -0.077,
+     "p": 0.52,
+     "implied": 0.563,
+     "edge": -0.043,
+     "ev": -0.076,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -103,
-     "dec_ref": 1.971,
-     "p_model": 0.483,
-     "p_mkt": 0.49,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 22.4,
-       "lg": 20.1,
-       "n": 30
-      }
-     },
-     "mean": 12.2,
-     "open": [
-      11.5,
-      1.89
-     ]
-    },
-    {
-     "kind": "ml",
-     "label": "UTA gana",
-     "player": null,
-     "team": "UTA",
-     "line": null,
-     "odds": 873,
-     "dec": 9.73,
-     "odds_assumed": false,
-     "p": 0.095,
-     "implied": 0.103,
-     "edge": -0.008,
-     "ev": -0.079,
-     "value": false,
-     "n_books": 10,
-     "best": {
-      "book": "Fanatics",
-      "line": null,
-      "odds": 900,
-      "dec": 10.0,
-      "p": 0.095,
-      "ev": -0.05
-     },
-     "p_model": 0.083,
-     "p_mkt": 0.099,
-     "cand": false,
-     "open": [
-      null,
-      9.8
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Luke Kornet Over 4.5 Rebotes",
-     "player": "Luke Kornet",
-     "team": "SAS",
-     "line": 4.5,
-     "odds": -159,
-     "dec": 1.628,
-     "odds_assumed": false,
-     "p": 0.566,
-     "implied": 0.614,
-     "edge": -0.049,
-     "ev": -0.079,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.556,
-     "p_mkt": 0.569,
+     "stat": "pra",
+     "side": "under",
+     "odds_ref": -122,
+     "dec_ref": 1.82,
+     "p_model": 0.517,
+     "p_mkt": 0.521,
      "cand": false,
      "hr": {
       "l10": [
@@ -144057,7 +143800,88 @@
        10
       ],
       "h2h": [
+       1,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 5,
+       "value": 33.8,
+       "lg": 38.5,
+       "n": 30
+      }
+     },
+     "mean": 27.1,
+     "open": [
+      26.5,
+      1.777
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 10.5 REB+AST",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 10.5,
+     "odds": -125,
+     "dec": 1.798,
+     "odds_assumed": false,
+     "p": 0.513,
+     "implied": 0.556,
+     "edge": -0.043,
+     "ev": -0.078,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.506,
+     "p_mkt": 0.515,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 10.8,
+     "open": [
+      10.5,
+      1.798
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Luke Kornet Under 4.5 Rebotes",
+     "player": "Luke Kornet",
+     "team": "SAS",
+     "line": 4.5,
+     "odds": 115,
+     "dec": 2.148,
+     "odds_assumed": false,
+     "p": 0.428,
+     "implied": 0.466,
+     "edge": -0.037,
+     "ev": -0.08,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 120,
+     "dec_ref": 2.2,
+     "p_model": 0.419,
+     "p_mkt": 0.431,
+     "cand": false,
+     "hr": {
+      "l10": [
        4,
+       10
+      ],
+      "h2h": [
+       0,
        4
       ],
       "dvp": {
@@ -144068,10 +143892,41 @@
        "n": 30
       }
      },
-     "mean": 5.6,
+     "mean": 5.9,
      "open": [
       4.5,
-      1.628
+      2.148
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "UTA gana",
+     "player": null,
+     "team": "UTA",
+     "line": null,
+     "odds": 862,
+     "dec": 9.618,
+     "odds_assumed": false,
+     "p": 0.096,
+     "implied": 0.104,
+     "edge": -0.008,
+     "ev": -0.081,
+     "value": false,
+     "n_books": 11,
+     "best": {
+      "book": "Fanatics",
+      "line": null,
+      "odds": 900,
+      "dec": 10.0,
+      "p": 0.096,
+      "ev": -0.04
+     },
+     "p_model": 0.083,
+     "p_mkt": 0.1,
+     "cand": false,
+     "open": [
+      null,
+      9.8
      ]
     },
     {
@@ -144205,24 +144060,156 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Over 9.5 Puntos",
-     "player": "Julian Champagnie",
+     "label": "Victor Wembanyama Over 27.5 Puntos",
+     "player": "Victor Wembanyama",
      "team": "SAS",
-     "line": 9.5,
-     "odds": -108,
-     "dec": 1.93,
+     "line": 27.5,
+     "odds": -114,
+     "dec": 1.875,
      "odds_assumed": false,
-     "p": 0.476,
-     "implied": 0.518,
+     "p": 0.489,
+     "implied": 0.533,
+     "edge": -0.044,
+     "ev": -0.082,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.476,
+     "p_mkt": 0.494,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 8,
+       "value": 19.8,
+       "lg": 22.0,
+       "n": 30
+      }
+     },
+     "mean": 28.7,
+     "open": [
+      27.5,
+      1.875
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Over 15.5 Puntos",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 15.5,
+     "odds": -112,
+     "dec": 1.891,
+     "odds_assumed": false,
+     "p": 0.485,
+     "implied": 0.529,
      "edge": -0.043,
      "ev": -0.082,
      "value": false,
      "stat": "pts",
      "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.463,
-     "p_mkt": 0.48,
+     "odds_ref": -108,
+     "dec_ref": 1.926,
+     "p_model": 0.473,
+     "p_mkt": 0.49,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 8,
+       "value": 21.3,
+       "lg": 23.4,
+       "n": 30
+      }
+     },
+     "mean": 16.3,
+     "open": [
+      15.5,
+      1.891
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Over 3.5 Rebotes",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 3.5,
+     "odds": -101,
+     "dec": 1.99,
+     "odds_assumed": false,
+     "p": 0.461,
+     "implied": 0.502,
+     "edge": -0.041,
+     "ev": -0.082,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 115,
+     "dec_ref": 2.15,
+     "p_model": 0.449,
+     "p_mkt": 0.465,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 29,
+       "value": 9.3,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 3.5,
+     "open": [
+      3.5,
+      1.99
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Under 13.5 PTS+AST",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 13.5,
+     "odds": -107,
+     "dec": 1.939,
+     "odds_assumed": false,
+     "p": 0.473,
+     "implied": 0.516,
+     "edge": -0.042,
+     "ev": -0.082,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.46,
+     "p_mkt": 0.478,
      "cand": false,
      "hr": {
       "l10": [
@@ -144230,7 +144217,81 @@
        10
       ],
       "h2h": [
-       2,
+       1,
+       3
+      ]
+     },
+     "mean": 15.2,
+     "open": [
+      13.5,
+      1.939
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Under 20.5 PTS+AST",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 20.5,
+     "odds": -110,
+     "dec": 1.912,
+     "odds_assumed": false,
+     "p": 0.48,
+     "implied": 0.523,
+     "edge": -0.043,
+     "ev": -0.083,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.466,
+     "p_mkt": 0.484,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       5
+      ]
+     },
+     "mean": 22.4,
+     "open": [
+      20.5,
+      1.912
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Julian Champagnie Under 9.5 Puntos",
+     "player": "Julian Champagnie",
+     "team": "SAS",
+     "line": 9.5,
+     "odds": -128,
+     "dec": 1.78,
+     "odds_assumed": false,
+     "p": 0.515,
+     "implied": 0.562,
+     "edge": -0.047,
+     "ev": -0.083,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.499,
+     "p_mkt": 0.52,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
        5
       ],
       "dvp": {
@@ -144241,10 +144302,98 @@
        "n": 30
       }
      },
-     "mean": 10.0,
+     "mean": 10.6,
      "open": [
       9.5,
-      1.93
+      1.78
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Over 25.5 PTS+REB+AST",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 25.5,
+     "odds": -120,
+     "dec": 1.836,
+     "odds_assumed": false,
+     "p": 0.499,
+     "implied": 0.545,
+     "edge": -0.045,
+     "ev": -0.083,
+     "value": false,
+     "stat": "pra",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.484,
+     "p_mkt": 0.504,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 2,
+       "value": 31.7,
+       "lg": 36.4,
+       "n": 30
+      }
+     },
+     "mean": 26.1,
+     "open": [
+      25.5,
+      1.836
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "De'Aaron Fox Over 3.5 Rebotes",
+     "player": "De'Aaron Fox",
+     "team": "SAS",
+     "line": 3.5,
+     "odds": -121,
+     "dec": 1.828,
+     "odds_assumed": false,
+     "p": 0.501,
+     "implied": 0.547,
+     "edge": -0.046,
+     "ev": -0.083,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -111,
+     "dec_ref": 1.901,
+     "p_model": 0.486,
+     "p_mkt": 0.507,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 20,
+       "value": 6.2,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 3.7,
+     "open": [
+      3.5,
+      1.828
      ]
     },
     {
@@ -144258,14 +144407,14 @@
      "odds_assumed": false,
      "p": 0.503,
      "implied": 0.548,
-     "edge": -0.045,
+     "edge": -0.046,
      "ev": -0.083,
      "value": false,
      "stat": "pa",
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.488,
+     "p_model": 0.487,
      "p_mkt": 0.508,
      "cand": false,
      "hr": {
@@ -144278,7 +144427,7 @@
        4
       ]
      },
-     "mean": 20.9,
+     "mean": 21.0,
      "open": [
       19.5,
       1.824
@@ -144293,7 +144442,7 @@
      "odds": -125,
      "dec": 1.803,
      "odds_assumed": false,
-     "p": 0.509,
+     "p": 0.508,
      "implied": 0.555,
      "edge": -0.046,
      "ev": -0.083,
@@ -144302,7 +144451,7 @@
      "side": "under",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.494,
+     "p_model": 0.493,
      "p_mkt": 0.513,
      "cand": false,
      "hr": {
@@ -144330,24 +144479,61 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Over 13.5 PTS+AST",
+     "label": "Devin Vassell Over 5.5 REB+AST",
      "player": "Devin Vassell",
      "team": "SAS",
-     "line": 13.5,
-     "odds": -129,
-     "dec": 1.773,
+     "line": 5.5,
+     "odds": -133,
+     "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.517,
-     "implied": 0.564,
-     "edge": -0.047,
+     "p": 0.523,
+     "implied": 0.571,
+     "edge": -0.048,
      "ev": -0.084,
      "value": false,
-     "stat": "pa",
+     "stat": "ra",
      "side": "over",
-     "odds_ref": -118,
-     "dec_ref": 1.847,
-     "p_model": 0.499,
-     "p_mkt": 0.522,
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.505,
+     "p_mkt": 0.529,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 5.9,
+     "open": [
+      5.5,
+      1.752
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Under 17.5 PTS+REB+AST",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 17.5,
+     "odds": -120,
+     "dec": 1.833,
+     "odds_assumed": false,
+     "p": 0.5,
+     "implied": 0.546,
+     "edge": -0.046,
+     "ev": -0.084,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "odds_ref": -114,
+     "dec_ref": 1.877,
+     "p_model": 0.483,
+     "p_mkt": 0.505,
      "cand": false,
      "hr": {
       "l10": [
@@ -144357,12 +144543,19 @@
       "h2h": [
        2,
        3
-      ]
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 26,
+       "value": 34.9,
+       "lg": 32.6,
+       "n": 30
+      }
      },
-     "mean": 14.4,
+     "mean": 18.8,
      "open": [
-      13.5,
-      1.773
+      17.5,
+      1.833
      ]
     },
     {
@@ -144415,131 +144608,6 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Over 20.5 PTS+AST",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 20.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.509,
-     "implied": 0.557,
-     "edge": -0.048,
-     "ev": -0.086,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.49,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 21.3,
-     "open": [
-      20.5,
-      1.795
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "De'Aaron Fox Over 3.5 Rebotes",
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "line": 3.5,
-     "odds": -121,
-     "dec": 1.828,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.547,
-     "edge": -0.047,
-     "ev": -0.086,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -111,
-     "dec_ref": 1.901,
-     "p_model": 0.48,
-     "p_mkt": 0.507,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 20,
-       "value": 6.2,
-       "lg": 5.7,
-       "n": 30
-      }
-     },
-     "mean": 3.7,
-     "open": [
-      3.5,
-      1.828
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Devin Vassell Over 17.5 PTS+REB+AST",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 17.5,
-     "odds": -115,
-     "dec": 1.872,
-     "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.534,
-     "edge": -0.046,
-     "ev": -0.086,
-     "value": false,
-     "stat": "pra",
-     "side": "over",
-     "odds_ref": -109,
-     "dec_ref": 1.917,
-     "p_model": 0.468,
-     "p_mkt": 0.495,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 34.9,
-       "lg": 32.6,
-       "n": 30
-      }
-     },
-     "mean": 17.8,
-     "open": [
-      17.5,
-      1.872
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ace Bailey Over 1.5 Triples",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -144584,46 +144652,90 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Under 2.5 Triples",
-     "player": "Julian Champagnie",
+     "label": "Devin Vassell Under 11.5 Puntos",
+     "player": "Devin Vassell",
      "team": "SAS",
-     "line": 2.5,
-     "odds": -191,
-     "dec": 1.522,
+     "line": 11.5,
+     "odds": -123,
+     "dec": 1.815,
      "odds_assumed": false,
-     "p": 0.599,
-     "implied": 0.657,
-     "edge": -0.058,
-     "ev": -0.089,
+     "p": 0.503,
+     "implied": 0.551,
+     "edge": -0.048,
+     "ev": -0.087,
      "value": false,
-     "stat": "fg3m",
+     "stat": "pts",
      "side": "under",
-     "odds_ref": -179,
-     "dec_ref": 1.559,
-     "p_model": 0.57,
-     "p_mkt": 0.608,
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.481,
+     "p_mkt": 0.51,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
-       3,
-       5
+       2,
+       3
       ],
       "dvp": {
        "pos": "SF",
-       "rank": 11,
-       "value": 2.5,
-       "lg": 2.7,
+       "rank": 26,
+       "value": 22.4,
+       "lg": 20.1,
        "n": 30
       }
      },
-     "mean": 2.5,
+     "mean": 12.9,
      "open": [
-      2.5,
-      1.522
+      11.5,
+      1.815
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Victor Wembanyama Over 11.5 Rebotes",
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "line": 11.5,
+     "odds": -102,
+     "dec": 1.98,
+     "odds_assumed": false,
+     "p": 0.459,
+     "implied": 0.505,
+     "edge": -0.046,
+     "ev": -0.09,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 105,
+     "dec_ref": 2.05,
+     "p_model": 0.435,
+     "p_mkt": 0.468,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 15,
+       "value": 14.7,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 11.3,
+     "open": [
+      11.5,
+      1.98
      ]
     },
     {
@@ -144669,28 +144781,28 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Over 10.5 REB+AST",
-     "player": "Stephon Castle",
+     "label": "Dylan Harper Over 20.5 PTS+AST",
+     "player": "Dylan Harper",
      "team": "SAS",
-     "line": 10.5,
-     "odds": -110,
-     "dec": 1.909,
+     "line": 20.5,
+     "odds": -115,
+     "dec": 1.873,
      "odds_assumed": false,
-     "p": 0.476,
-     "implied": 0.524,
+     "p": 0.486,
+     "implied": 0.534,
      "edge": -0.048,
-     "ev": -0.092,
+     "ev": -0.09,
      "value": false,
-     "stat": "ra",
+     "stat": "pa",
      "side": "over",
-     "odds_ref": 101,
-     "dec_ref": 2.01,
-     "p_model": 0.447,
-     "p_mkt": 0.485,
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.461,
+     "p_mkt": 0.494,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
@@ -144698,10 +144810,47 @@
        5
       ]
      },
-     "mean": 10.3,
+     "mean": 20.7,
      "open": [
-      10.5,
-      1.909
+      20.5,
+      1.873
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Over 20.5 PTS+REB",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 20.5,
+     "odds": -120,
+     "dec": 1.832,
+     "odds_assumed": false,
+     "p": 0.496,
+     "implied": 0.546,
+     "edge": -0.05,
+     "ev": -0.092,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -112,
+     "dec_ref": 1.893,
+     "p_model": 0.466,
+     "p_mkt": 0.505,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 20.9,
+     "open": [
+      20.5,
+      1.832
      ]
     },
     {
@@ -144750,43 +144899,6 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Under 5.5 REB+AST",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 5.5,
-     "odds": -147,
-     "dec": 1.682,
-     "odds_assumed": false,
-     "p": 0.54,
-     "implied": 0.595,
-     "edge": -0.055,
-     "ev": -0.092,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.508,
-     "p_mkt": 0.551,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 5.9,
-     "open": [
-      5.5,
-      1.682
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ace Bailey Under 15.5 PTS+AST",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -144824,76 +144936,39 @@
     },
     {
      "kind": "prop",
-     "label": "Julian Champagnie Under 13.5 PTS+REB",
-     "player": "Julian Champagnie",
+     "label": "Devin Vassell Under 14.5 PTS+REB",
+     "player": "Devin Vassell",
      "team": "SAS",
-     "line": 13.5,
-     "odds": -125,
-     "dec": 1.797,
+     "line": 14.5,
+     "odds": -112,
+     "dec": 1.892,
      "odds_assumed": false,
-     "p": 0.505,
-     "implied": 0.557,
-     "edge": -0.052,
-     "ev": -0.093,
+     "p": 0.479,
+     "implied": 0.528,
+     "edge": -0.05,
+     "ev": -0.094,
      "value": false,
      "stat": "pr",
      "side": "under",
-     "odds_ref": -122,
-     "dec_ref": 1.82,
-     "p_model": 0.474,
-     "p_mkt": 0.515,
+     "odds_ref": -105,
+     "dec_ref": 1.952,
+     "p_model": 0.447,
+     "p_mkt": 0.489,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       5,
        10
       ],
       "h2h": [
        2,
-       5
+       3
       ]
      },
-     "mean": 14.9,
+     "mean": 16.5,
      "open": [
-      13.5,
-      1.797
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Under 9.5 PTS+AST",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 9.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.505,
-     "implied": 0.557,
-     "edge": -0.052,
-     "ev": -0.094,
-     "value": false,
-     "stat": "pa",
-     "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.472,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 11.0,
-     "open": [
-      9.5,
-      1.795
+      14.5,
+      1.892
      ]
     },
     {
@@ -144935,171 +145010,46 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Over 3.5 Rebotes",
-     "player": "Devin Vassell",
+     "label": "Julian Champagnie Under 2.5 Triples",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 3.5,
-     "odds": -101,
-     "dec": 1.99,
+     "line": 2.5,
+     "odds": -191,
+     "dec": 1.522,
      "odds_assumed": false,
-     "p": 0.454,
-     "implied": 0.502,
-     "edge": -0.049,
-     "ev": -0.097,
+     "p": 0.592,
+     "implied": 0.657,
+     "edge": -0.065,
+     "ev": -0.098,
      "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": 115,
-     "dec_ref": 2.15,
-     "p_model": 0.419,
-     "p_mkt": 0.465,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -179,
+     "dec_ref": 1.559,
+     "p_model": 0.545,
+     "p_mkt": 0.608,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       5,
        10
       ],
       "h2h": [
-       1,
-       3
+       3,
+       5
       ],
       "dvp": {
        "pos": "SF",
-       "rank": 29,
-       "value": 9.3,
-       "lg": 8.0,
+       "rank": 11,
+       "value": 2.5,
+       "lg": 2.7,
        "n": 30
       }
      },
-     "mean": 3.4,
+     "mean": 2.7,
      "open": [
-      3.5,
-      1.99
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 4.5 Rebotes",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 4.5,
-     "odds": 109,
-     "dec": 2.087,
-     "odds_assumed": false,
-     "p": 0.433,
-     "implied": 0.479,
-     "edge": -0.046,
-     "ev": -0.097,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 115,
-     "dec_ref": 2.15,
-     "p_model": 0.4,
-     "p_mkt": 0.444,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 9.7,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 5.8,
-     "open": [
-      4.5,
-      2.087
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Stephon Castle Over 26.5 PTS+REB+AST",
-     "player": "Stephon Castle",
-     "team": "SAS",
-     "line": 26.5,
-     "odds": -107,
-     "dec": 1.933,
-     "odds_assumed": false,
-     "p": 0.467,
-     "implied": 0.517,
-     "edge": -0.051,
-     "ev": -0.098,
-     "value": false,
-     "stat": "pra",
-     "side": "over",
-     "odds_ref": -102,
-     "dec_ref": 1.98,
-     "p_model": 0.43,
-     "p_mkt": 0.479,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 5,
-       "value": 33.8,
-       "lg": 38.5,
-       "n": 30
-      }
-     },
-     "mean": 25.7,
-     "open": [
-      26.5,
-      1.933
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "De'Aaron Fox Under 17.5 PTS+REB",
-     "player": "De'Aaron Fox",
-     "team": "SAS",
-     "line": 17.5,
-     "odds": -119,
-     "dec": 1.84,
-     "odds_assumed": false,
-     "p": 0.49,
-     "implied": 0.544,
-     "edge": -0.053,
-     "ev": -0.098,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.451,
-     "p_mkt": 0.503,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 19.7,
-     "open": [
-      17.5,
-      1.84
+      2.5,
+      1.522
      ]
     },
     {
@@ -145193,83 +145143,39 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Over 15.5 Puntos",
-     "player": "Stephon Castle",
+     "label": "De'Aaron Fox Under 17.5 PTS+REB",
+     "player": "De'Aaron Fox",
      "team": "SAS",
-     "line": 15.5,
-     "odds": -112,
-     "dec": 1.891,
+     "line": 17.5,
+     "odds": -119,
+     "dec": 1.84,
      "odds_assumed": false,
-     "p": 0.476,
-     "implied": 0.529,
-     "edge": -0.053,
+     "p": 0.489,
+     "implied": 0.544,
+     "edge": -0.054,
      "ev": -0.099,
      "value": false,
-     "stat": "pts",
-     "side": "over",
+     "stat": "pr",
+     "side": "under",
      "odds_ref": -108,
      "dec_ref": 1.926,
-     "p_model": 0.436,
-     "p_mkt": 0.49,
+     "p_model": 0.448,
+     "p_mkt": 0.503,
      "cand": false,
      "hr": {
       "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 8,
-       "value": 21.3,
-       "lg": 23.4,
-       "n": 30
-      }
-     },
-     "mean": 15.4,
-     "open": [
-      15.5,
-      1.891
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 6.5 REB+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 6.5,
-     "odds": 106,
-     "dec": 2.06,
-     "odds_assumed": false,
-     "p": 0.438,
-     "implied": 0.485,
-     "edge": -0.048,
-     "ev": -0.099,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "odds_ref": 110,
-     "dec_ref": 2.1,
-     "p_model": 0.402,
-     "p_mkt": 0.449,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
+       7,
        10
       ],
       "h2h": [
        2,
-       5
+       4
       ]
      },
-     "mean": 8.0,
+     "mean": 19.8,
      "open": [
-      6.5,
-      2.06
+      17.5,
+      1.84
      ]
     },
     {
@@ -145397,43 +145303,6 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Over 5.5 REB+AST",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 5.5,
-     "odds": -133,
-     "dec": 1.752,
-     "odds_assumed": false,
-     "p": 0.513,
-     "implied": 0.571,
-     "edge": -0.058,
-     "ev": -0.101,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.467,
-     "p_mkt": 0.529,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ]
-     },
-     "mean": 5.6,
-     "open": [
-      5.5,
-      1.752
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ace Bailey Under 20.5 PTS+REB+AST",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -145478,46 +145347,39 @@
     },
     {
      "kind": "prop",
-     "label": "Victor Wembanyama Over 27.5 Puntos",
-     "player": "Victor Wembanyama",
+     "label": "Julian Champagnie Under 5.5 REB+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 27.5,
-     "odds": -114,
-     "dec": 1.875,
+     "line": 5.5,
+     "odds": -147,
+     "dec": 1.682,
      "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.533,
-     "edge": -0.056,
-     "ev": -0.105,
+     "p": 0.531,
+     "implied": 0.595,
+     "edge": -0.063,
+     "ev": -0.106,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.428,
-     "p_mkt": 0.494,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.474,
+     "p_mkt": 0.551,
      "cand": false,
      "hr": {
       "l10": [
-       8,
+       4,
        10
       ],
       "h2h": [
-       3,
+       2,
        5
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 8,
-       "value": 19.8,
-       "lg": 22.0,
-       "n": 30
-      }
+      ]
      },
-     "mean": 27.1,
+     "mean": 6.2,
      "open": [
-      27.5,
-      1.875
+      5.5,
+      1.682
      ]
     },
     {
@@ -145563,72 +145425,65 @@
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Over 25.5 PTS+REB+AST",
-     "player": "Dylan Harper",
+     "label": "Julian Champagnie Under 13.5 PTS+REB",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 25.5,
-     "odds": -120,
-     "dec": 1.836,
+     "line": 13.5,
+     "odds": -125,
+     "dec": 1.797,
      "odds_assumed": false,
-     "p": 0.486,
-     "implied": 0.545,
-     "edge": -0.059,
-     "ev": -0.108,
+     "p": 0.495,
+     "implied": 0.557,
+     "edge": -0.062,
+     "ev": -0.111,
      "value": false,
-     "stat": "pra",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.431,
-     "p_mkt": 0.504,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -122,
+     "dec_ref": 1.82,
+     "p_model": 0.433,
+     "p_mkt": 0.515,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       3,
        10
       ],
       "h2h": [
-       3,
+       2,
        5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 2,
-       "value": 31.7,
-       "lg": 36.4,
-       "n": 30
-      }
+      ]
      },
-     "mean": 24.7,
+     "mean": 15.8,
      "open": [
-      25.5,
-      1.836
+      13.5,
+      1.797
      ]
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Over 20.5 PTS+REB",
-     "player": "Stephon Castle",
+     "label": "Julian Champagnie Under 9.5 PTS+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 20.5,
-     "odds": -120,
-     "dec": 1.832,
+     "line": 9.5,
+     "odds": -126,
+     "dec": 1.795,
      "odds_assumed": false,
-     "p": 0.485,
-     "implied": 0.546,
-     "edge": -0.061,
-     "ev": -0.112,
+     "p": 0.495,
+     "implied": 0.557,
+     "edge": -0.062,
+     "ev": -0.111,
      "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.423,
-     "p_mkt": 0.505,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.433,
+     "p_mkt": 0.516,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       3,
        10
       ],
       "h2h": [
@@ -145636,54 +145491,10 @@
        5
       ]
      },
-     "mean": 19.9,
+     "mean": 11.6,
      "open": [
-      20.5,
-      1.832
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Under 13.5 PTS+REB+AST",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 13.5,
-     "odds": -120,
-     "dec": 1.833,
-     "odds_assumed": false,
-     "p": 0.484,
-     "implied": 0.546,
-     "edge": -0.061,
-     "ev": -0.112,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.422,
-     "p_mkt": 0.505,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 26,
-       "value": 34.9,
-       "lg": 32.6,
-       "n": 30
-      }
-     },
-     "mean": 15.9,
-     "open": [
-      13.5,
-      1.833
+      9.5,
+      1.795
      ]
     },
     {
@@ -145732,87 +145543,6 @@
     },
     {
      "kind": "prop",
-     "label": "Victor Wembanyama Over 11.5 Rebotes",
-     "player": "Victor Wembanyama",
-     "team": "SAS",
-     "line": 11.5,
-     "odds": -102,
-     "dec": 1.98,
-     "odds_assumed": false,
-     "p": 0.448,
-     "implied": 0.505,
-     "edge": -0.057,
-     "ev": -0.113,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": 105,
-     "dec_ref": 2.05,
-     "p_model": 0.389,
-     "p_mkt": 0.468,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 10.7,
-     "open": [
-      11.5,
-      1.98
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Over 20.5 PTS+AST",
-     "player": "Dylan Harper",
-     "team": "SAS",
-     "line": 20.5,
-     "odds": -115,
-     "dec": 1.873,
-     "odds_assumed": false,
-     "p": 0.474,
-     "implied": 0.534,
-     "edge": -0.06,
-     "ev": -0.113,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.412,
-     "p_mkt": 0.494,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 19.6,
-     "open": [
-      20.5,
-      1.873
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "De'Aaron Fox Over 9.5 REB+AST",
      "player": "De'Aaron Fox",
      "team": "SAS",
@@ -145820,16 +145550,16 @@
      "odds": 101,
      "dec": 2.006,
      "odds_assumed": false,
-     "p": 0.442,
+     "p": 0.443,
      "implied": 0.499,
-     "edge": -0.057,
-     "ev": -0.113,
+     "edge": -0.056,
+     "ev": -0.112,
      "value": false,
      "stat": "ra",
      "side": "over",
      "odds_ref": 105,
      "dec_ref": 2.05,
-     "p_model": 0.383,
+     "p_model": 0.386,
      "p_mkt": 0.462,
      "cand": false,
      "hr": {
@@ -145846,6 +145576,131 @@
      "open": [
       9.5,
       2.006
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Under 4.5 Rebotes",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 4.5,
+     "odds": 109,
+     "dec": 2.087,
+     "odds_assumed": false,
+     "p": 0.425,
+     "implied": 0.479,
+     "edge": -0.054,
+     "ev": -0.112,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 115,
+     "dec_ref": 2.15,
+     "p_model": 0.371,
+     "p_mkt": 0.444,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 9.7,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 6.1,
+     "open": [
+      4.5,
+      2.087
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Stephon Castle Over 1.5 Triples",
+     "player": "Stephon Castle",
+     "team": "SAS",
+     "line": 1.5,
+     "odds": -121,
+     "dec": 1.825,
+     "odds_assumed": false,
+     "p": 0.484,
+     "implied": 0.548,
+     "edge": -0.064,
+     "ev": -0.116,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.415,
+     "p_mkt": 0.507,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 11,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
+     },
+     "mean": 1.5,
+     "open": [
+      1.5,
+      1.825
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Under 6.5 REB+AST",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 6.5,
+     "odds": 106,
+     "dec": 2.06,
+     "odds_assumed": false,
+     "p": 0.429,
+     "implied": 0.485,
+     "edge": -0.056,
+     "ev": -0.116,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": 110,
+     "dec_ref": 2.1,
+     "p_model": 0.368,
+     "p_mkt": 0.449,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ]
+     },
+     "mean": 8.4,
+     "open": [
+      6.5,
+      2.06
      ]
     },
     {
@@ -145890,6 +145745,50 @@
      "open": [
       3.5,
       2.087
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Under 5.5 Rebotes",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 5.5,
+     "odds": -182,
+     "dec": 1.55,
+     "odds_assumed": false,
+     "p": 0.567,
+     "implied": 0.645,
+     "edge": -0.078,
+     "ev": -0.121,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -162,
+     "dec_ref": 1.617,
+     "p_model": 0.567,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 17,
+       "value": 6.6,
+       "lg": 6.7,
+       "n": 30
+      }
+     },
+     "mean": 5.4,
+     "open": [
+      5.5,
+      1.55
      ]
     },
     {
@@ -145940,14 +145839,14 @@
      "odds_assumed": false,
      "p": 0.603,
      "implied": 0.687,
-     "edge": -0.084,
-     "ev": -0.122,
+     "edge": -0.085,
+     "ev": -0.123,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -197,
      "dec_ref": 1.508,
-     "p_model": 0.504,
+     "p_model": 0.501,
      "p_mkt": 0.636,
      "cand": false,
      "hr": {
@@ -146012,24 +145911,112 @@
     },
     {
      "kind": "prop",
-     "label": "Stephon Castle Over 1.5 Triples",
-     "player": "Stephon Castle",
+     "label": "Dylan Harper Over 1.5 Triples",
+     "player": "Dylan Harper",
      "team": "SAS",
      "line": 1.5,
-     "odds": -121,
-     "dec": 1.825,
+     "odds": 167,
+     "dec": 2.674,
      "odds_assumed": false,
-     "p": 0.478,
-     "implied": 0.548,
-     "edge": -0.07,
-     "ev": -0.128,
+     "p": 0.327,
+     "implied": 0.374,
+     "edge": -0.047,
+     "ev": -0.127,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": 172,
+     "dec_ref": 2.72,
+     "p_model": 0.268,
+     "p_mkt": 0.346,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
+       5
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 9,
+       "value": 3.1,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.0,
+     "open": [
+      1.5,
+      2.674
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Devin Vassell Over 1.5 Triples",
+     "player": "Devin Vassell",
+     "team": "SAS",
+     "line": 1.5,
+     "odds": -126,
+     "dec": 1.792,
+     "odds_assumed": false,
+     "p": 0.487,
+     "implied": 0.558,
+     "edge": -0.071,
+     "ev": -0.127,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.389,
-     "p_mkt": 0.507,
+     "p_model": 0.399,
+     "p_mkt": 0.517,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 11,
+       "value": 2.5,
+       "lg": 2.7,
+       "n": 30
+      }
+     },
+     "mean": 1.4,
+     "open": [
+      1.5,
+      1.792
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Over 21.5 PTS+REB",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 21.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.452,
+     "implied": 0.519,
+     "edge": -0.067,
+     "ev": -0.129,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "odds_ref": -102,
+     "dec_ref": 1.98,
+     "p_model": 0.367,
+     "p_mkt": 0.481,
      "cand": false,
      "hr": {
       "l10": [
@@ -146039,93 +146026,56 @@
       "h2h": [
        1,
        5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 11,
-       "value": 2.4,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 1.4,
-     "open": [
-      1.5,
-      1.825
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 12.5 PTS+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 12.5,
-     "odds": -126,
-     "dec": 1.795,
-     "odds_assumed": false,
-     "p": 0.484,
-     "implied": 0.557,
-     "edge": -0.073,
-     "ev": -0.131,
-     "value": false,
-     "stat": "pa",
-     "side": "under",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.39,
-     "p_mkt": 0.516,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
       ]
      },
-     "mean": 16.0,
+     "mean": 19.6,
      "open": [
-      12.5,
-      1.795
+      21.5,
+      1.926
      ]
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Under 9.5 REB+AST",
-     "player": "Dylan Harper",
+     "label": "Julian Champagnie Under 13.5 PTS+REB+AST",
+     "player": "Julian Champagnie",
      "team": "SAS",
-     "line": 9.5,
+     "line": 13.5,
      "odds": -120,
-     "dec": 1.831,
+     "dec": 1.833,
      "odds_assumed": false,
      "p": 0.474,
      "implied": 0.546,
-     "edge": -0.072,
-     "ev": -0.132,
+     "edge": -0.071,
+     "ev": -0.131,
      "value": false,
-     "stat": "ra",
+     "stat": "pra",
      "side": "under",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.38,
-     "p_mkt": 0.506,
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.381,
+     "p_mkt": 0.505,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       2,
        10
       ],
       "h2h": [
        2,
        5
-      ]
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 26,
+       "value": 34.9,
+       "lg": 32.6,
+       "n": 30
+      }
      },
-     "mean": 11.3,
+     "mean": 16.8,
      "open": [
-      9.5,
-      1.831
+      13.5,
+      1.833
      ]
     },
     {
@@ -146174,116 +146124,28 @@
     },
     {
      "kind": "prop",
-     "label": "Devin Vassell Over 1.5 Triples",
-     "player": "Devin Vassell",
-     "team": "SAS",
-     "line": 1.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.482,
-     "implied": 0.558,
-     "edge": -0.076,
-     "ev": -0.136,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.379,
-     "p_mkt": 0.517,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 11,
-       "value": 2.5,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 1.4,
-     "open": [
-      1.5,
-      1.792
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 17.5 PTS+REB+AST",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 17.5,
-     "odds": -120,
-     "dec": 1.833,
-     "odds_assumed": false,
-     "p": 0.471,
-     "implied": 0.546,
-     "edge": -0.074,
-     "ev": -0.136,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.37,
-     "p_mkt": 0.505,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 5,
-       "value": 33.8,
-       "lg": 38.5,
-       "n": 30
-      }
-     },
-     "mean": 21.8,
-     "open": [
-      17.5,
-      1.833
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Dylan Harper Over 1.5 Triples",
+     "label": "Dylan Harper Over 15.5 Puntos",
      "player": "Dylan Harper",
      "team": "SAS",
-     "line": 1.5,
-     "odds": 167,
-     "dec": 2.674,
+     "line": 15.5,
+     "odds": -131,
+     "dec": 1.761,
      "odds_assumed": false,
-     "p": 0.322,
-     "implied": 0.374,
-     "edge": -0.052,
-     "ev": -0.138,
+     "p": 0.488,
+     "implied": 0.568,
+     "edge": -0.08,
+     "ev": -0.141,
      "value": false,
-     "stat": "fg3m",
+     "stat": "pts",
      "side": "over",
-     "odds_ref": 172,
-     "dec_ref": 2.72,
-     "p_model": 0.251,
-     "p_mkt": 0.346,
+     "odds_ref": -126,
+     "dec_ref": 1.794,
+     "p_model": 0.374,
+     "p_mkt": 0.526,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
@@ -146292,60 +146154,16 @@
       ],
       "dvp": {
        "pos": "SG",
-       "rank": 9,
-       "value": 3.1,
-       "lg": 3.4,
+       "rank": 2,
+       "value": 20.6,
+       "lg": 24.0,
        "n": 30
       }
      },
-     "mean": 1.0,
+     "mean": 14.2,
      "open": [
-      1.5,
-      2.674
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 0.5 Triples",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 0.5,
-     "odds": -120,
-     "dec": 1.833,
-     "odds_assumed": false,
-     "p": 0.469,
-     "implied": 0.546,
-     "edge": -0.077,
-     "ev": -0.141,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.359,
-     "p_mkt": 0.505,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 11,
-       "value": 2.4,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 1.2,
-     "open": [
-      0.5,
-      1.833
+      15.5,
+      1.761
      ]
     },
     {
@@ -146394,24 +146212,24 @@
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Over 21.5 PTS+REB",
-     "player": "Dylan Harper",
+     "label": "Keldon Johnson Under 12.5 PTS+AST",
+     "player": "Keldon Johnson",
      "team": "SAS",
-     "line": 21.5,
-     "odds": -108,
-     "dec": 1.926,
+     "line": 12.5,
+     "odds": -126,
+     "dec": 1.795,
      "odds_assumed": false,
-     "p": 0.441,
-     "implied": 0.519,
-     "edge": -0.078,
-     "ev": -0.151,
+     "p": 0.476,
+     "implied": 0.557,
+     "edge": -0.081,
+     "ev": -0.145,
      "value": false,
-     "stat": "pr",
-     "side": "over",
-     "odds_ref": -102,
-     "dec_ref": 1.98,
-     "p_model": 0.321,
-     "p_mkt": 0.481,
+     "stat": "pa",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.358,
+     "p_mkt": 0.516,
      "cand": false,
      "hr": {
       "l10": [
@@ -146419,14 +146237,139 @@
        10
       ],
       "h2h": [
-       1,
+       2,
        5
       ]
      },
-     "mean": 18.6,
+     "mean": 16.9,
      "open": [
-      21.5,
-      1.926
+      12.5,
+      1.795
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Under 0.5 Triples",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 0.5,
+     "odds": -120,
+     "dec": 1.833,
+     "odds_assumed": false,
+     "p": 0.465,
+     "implied": 0.546,
+     "edge": -0.081,
+     "ev": -0.148,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.344,
+     "p_mkt": 0.505,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 11,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
+     },
+     "mean": 1.2,
+     "open": [
+      0.5,
+      1.833
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Dylan Harper Under 9.5 REB+AST",
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "line": 9.5,
+     "odds": -120,
+     "dec": 1.831,
+     "odds_assumed": false,
+     "p": 0.464,
+     "implied": 0.546,
+     "edge": -0.082,
+     "ev": -0.151,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.338,
+     "p_mkt": 0.506,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ]
+     },
+     "mean": 11.9,
+     "open": [
+      9.5,
+      1.831
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keldon Johnson Under 17.5 PTS+REB+AST",
+     "player": "Keldon Johnson",
+     "team": "SAS",
+     "line": 17.5,
+     "odds": -120,
+     "dec": 1.833,
+     "odds_assumed": false,
+     "p": 0.463,
+     "implied": 0.546,
+     "edge": -0.083,
+     "ev": -0.152,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.335,
+     "p_mkt": 0.505,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 5,
+       "value": 33.8,
+       "lg": 38.5,
+       "n": 30
+      }
+     },
+     "mean": 23.0,
+     "open": [
+      17.5,
+      1.833
      ]
     },
     {
@@ -146464,43 +146407,6 @@
      "open": [
       23.5,
       1.856
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keldon Johnson Under 14.5 PTS+REB",
-     "player": "Keldon Johnson",
-     "team": "SAS",
-     "line": 14.5,
-     "odds": -114,
-     "dec": 1.88,
-     "odds_assumed": false,
-     "p": 0.451,
-     "implied": 0.532,
-     "edge": -0.081,
-     "ev": -0.153,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "odds_ref": -107,
-     "dec_ref": 1.935,
-     "p_model": 0.325,
-     "p_mkt": 0.492,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       5
-      ]
-     },
-     "mean": 19.6,
-     "open": [
-      14.5,
-      1.88
      ]
     },
     {
@@ -146549,90 +146455,39 @@
     },
     {
      "kind": "prop",
-     "label": "Dylan Harper Over 15.5 Puntos",
-     "player": "Dylan Harper",
+     "label": "Keldon Johnson Under 14.5 PTS+REB",
+     "player": "Keldon Johnson",
      "team": "SAS",
-     "line": 15.5,
-     "odds": -131,
-     "dec": 1.761,
+     "line": 14.5,
+     "odds": -114,
+     "dec": 1.88,
      "odds_assumed": false,
-     "p": 0.478,
-     "implied": 0.568,
-     "edge": -0.09,
-     "ev": -0.159,
+     "p": 0.443,
+     "implied": 0.532,
+     "edge": -0.089,
+     "ev": -0.167,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -126,
-     "dec_ref": 1.794,
-     "p_model": 0.333,
-     "p_mkt": 0.526,
+     "stat": "pr",
+     "side": "under",
+     "odds_ref": -107,
+     "dec_ref": 1.935,
+     "p_model": 0.294,
+     "p_mkt": 0.492,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       4,
        10
       ],
       "h2h": [
        1,
        5
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 2,
-       "value": 20.6,
-       "lg": 24.0,
-       "n": 30
-      }
+      ]
      },
-     "mean": 13.4,
+     "mean": 20.7,
      "open": [
-      15.5,
-      1.761
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Julian Champagnie Under 4.5 Rebotes",
-     "player": "Julian Champagnie",
-     "team": "SAS",
-     "line": 4.5,
-     "odds": -167,
-     "dec": 1.598,
-     "odds_assumed": false,
-     "p": 0.502,
-     "implied": 0.626,
-     "edge": -0.124,
-     "ev": -0.198,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.502,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 29,
-       "value": 9.3,
-       "lg": 8.0,
-       "n": 30
-      }
-     },
-     "mean": 4.9,
-     "open": [
-      4.5,
-      1.598
+      14.5,
+      1.88
      ]
     },
     {
@@ -146644,16 +146499,16 @@
      "odds": -144,
      "dec": 1.695,
      "odds_assumed": false,
-     "p": 0.434,
+     "p": 0.469,
      "implied": 0.59,
-     "edge": -0.156,
-     "ev": -0.264,
+     "edge": -0.121,
+     "ev": -0.205,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -130,
      "dec_ref": 1.769,
-     "p_model": 0.434,
+     "p_model": 0.469,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -146673,10 +146528,54 @@
        "n": 30
       }
      },
-     "mean": 4.4,
+     "mean": 4.6,
      "open": [
       4.5,
       1.695
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Julian Champagnie Under 4.5 Rebotes",
+     "player": "Julian Champagnie",
+     "team": "SAS",
+     "line": 4.5,
+     "odds": -167,
+     "dec": 1.598,
+     "odds_assumed": false,
+     "p": 0.474,
+     "implied": 0.626,
+     "edge": -0.152,
+     "ev": -0.243,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -150,
+     "dec_ref": 1.667,
+     "p_model": 0.474,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 29,
+       "value": 9.3,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 5.2,
+     "open": [
+      4.5,
+      1.598
      ]
     },
     {
@@ -146688,16 +146587,16 @@
      "odds": -150,
      "dec": 1.668,
      "odds_assumed": false,
-     "p": 0.393,
+     "p": 0.362,
      "implied": 0.599,
-     "edge": -0.207,
-     "ev": -0.344,
+     "edge": -0.238,
+     "ev": -0.396,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -135,
      "dec_ref": 1.741,
-     "p_model": 0.393,
+     "p_model": 0.362,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -146717,7 +146616,7 @@
        "n": 30
       }
      },
-     "mean": 13.8,
+     "mean": 14.6,
      "open": [
       10.5,
       1.668
@@ -146730,129 +146629,134 @@
       "Stephon Castle": [
        [
         "Victor Wembanyama",
-        3.5,
+        4.0,
+        4.1
+       ],
+       [
+        "Keldon Johnson",
+        2.1,
         3.9
        ],
        [
         "De'Aaron Fox",
         2.0,
         3.9
-       ],
-       [
-        "Dylan Harper",
-        1.8,
-        3.9
        ]
       ],
       "Devin Vassell": [
        [
         "Victor Wembanyama",
-        2.8,
-        3.7
+        3.1,
+        4.0
+       ],
+       [
+        "Keldon Johnson",
+        1.8,
+        4.0
        ],
        [
         "Stephon Castle",
-        1.6,
-        3.8
-       ],
-       [
-        "De'Aaron Fox",
-        1.6,
-        3.7
-       ]
-      ],
-      "De'Aaron Fox": [
-       [
-        "Victor Wembanyama",
-        3.5,
-        3.8
-       ],
-       [
-        "Stephon Castle",
-        2.1,
+        1.7,
         3.9
-       ],
-       [
-        "Dylan Harper",
-        1.9,
-        3.8
        ]
       ],
       "Dylan Harper": [
        [
         "Victor Wembanyama",
-        3.0,
-        3.7
-       ],
-       [
-        "De'Aaron Fox",
-        1.8,
-        3.7
+        3.4,
+        3.9
        ],
        [
         "Stephon Castle",
-        1.7,
+        1.9,
+        3.8
+       ],
+       [
+        "Keldon Johnson",
+        1.8,
         3.8
        ]
       ],
       "Julian Champagnie": [
        [
         "Victor Wembanyama",
-        2.2,
-        3.0
+        2.7,
+        3.2
+       ],
+       [
+        "Keldon Johnson",
+        1.5,
+        3.3
        ],
        [
         "Stephon Castle",
         1.4,
-        3.1
-       ],
-       [
-        "Keldon Johnson",
-        1.3,
-        2.9
+        3.2
        ]
       ],
       "Victor Wembanyama": [
        [
-        "De'Aaron Fox",
-        3.8,
-        3.8
-       ],
-       [
         "Stephon Castle",
-        3.7,
+        4.1,
         4.0
        ],
        [
         "Dylan Harper",
-        3.4,
+        3.8,
+        4.0
+       ],
+       [
+        "De'Aaron Fox",
+        3.8,
         3.9
+       ]
+      ],
+      "De'Aaron Fox": [
+       [
+        "Victor Wembanyama",
+        2.1,
+        2.3
+       ],
+       [
+        "Stephon Castle",
+        1.2,
+        2.3
+       ],
+       [
+        "Dylan Harper",
+        1.1,
+        2.2
        ]
       ],
       "Keldon Johnson": [
        [
         "Victor Wembanyama",
-        3.0,
-        3.0
+        3.5,
+        3.2
        ],
        [
         "Stephon Castle",
-        1.8,
+        1.9,
         3.1
        ],
        [
-        "De'Aaron Fox",
-        1.7,
-        3.0
+        "Dylan Harper",
+        1.8,
+        3.1
        ]
       ]
      },
      "real": {},
-     "doubt": [],
+     "doubt": [
+      [
+       "De'Aaron Fox",
+       0.61
+      ]
+     ],
      "planb": {
       "Stephon Castle": {
        "p_play": 1.0,
-       "min": 29.0,
+       "min": 30.5,
        "picks": [
         {
          "kind": "prop",
@@ -146863,12 +146767,44 @@
          "side": "over",
          "line": 9.5,
          "dec": 1.873,
-         "p": 0.608,
-         "base_p": 0.526,
-         "ev": 0.138,
+         "p": 0.611,
+         "base_p": 0.536,
+         "ev": 0.144,
          "if_out": "Stephon Castle",
-         "mean": 12.9,
-         "mean0": 11.3
+         "mean": 13.5,
+         "mean0": 11.9
+        },
+        {
+         "kind": "prop",
+         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
+         "player": "Keldon Johnson",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.871,
+         "p": 0.604,
+         "base_p": 0.537,
+         "ev": 0.13,
+         "if_out": "Stephon Castle",
+         "mean": 26.3,
+         "mean0": 23.0
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 13.5,
+         "dec": 1.871,
+         "p": 0.594,
+         "base_p": 0.526,
+         "ev": 0.11,
+         "if_out": "Stephon Castle",
+         "mean": 19.1,
+         "mean0": 16.8
         },
         {
          "kind": "prop",
@@ -146880,33 +146816,17 @@
          "line": 23.5,
          "dec": 1.903,
          "p": 0.583,
-         "base_p": 0.491,
-         "ev": 0.108,
+         "base_p": 0.492,
+         "ev": 0.109,
          "if_out": "Stephon Castle",
          "mean": 27.9,
          "mean0": 24.7
-        },
-        {
-         "kind": "prop",
-         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
-         "player": "Keldon Johnson",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.871,
-         "p": 0.591,
-         "base_p": 0.529,
-         "ev": 0.106,
-         "if_out": "Stephon Castle",
-         "mean": 24.5,
-         "mean0": 21.8
         }
        ]
       },
       "Devin Vassell": {
        "p_play": 1.0,
-       "min": 28.3,
+       "min": 29.7,
        "picks": [
         {
          "kind": "prop",
@@ -146917,12 +146837,152 @@
          "side": "over",
          "line": 9.5,
          "dec": 1.873,
-         "p": 0.605,
-         "base_p": 0.526,
-         "ev": 0.133,
+         "p": 0.61,
+         "base_p": 0.536,
+         "ev": 0.142,
          "if_out": "Devin Vassell",
-         "mean": 12.8,
-         "mean0": 11.3
+         "mean": 13.5,
+         "mean0": 11.9
+        },
+        {
+         "kind": "prop",
+         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
+         "player": "Keldon Johnson",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.871,
+         "p": 0.599,
+         "base_p": 0.537,
+         "ev": 0.121,
+         "if_out": "Devin Vassell",
+         "mean": 26.0,
+         "mean0": 23.0
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 5.5 REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "ra",
+         "side": "over",
+         "line": 5.5,
+         "dec": 2.06,
+         "p": 0.538,
+         "base_p": 0.469,
+         "ev": 0.108,
+         "if_out": "Devin Vassell",
+         "mean": 7.0,
+         "mean0": 6.2
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 13.5,
+         "dec": 1.871,
+         "p": 0.591,
+         "base_p": 0.526,
+         "ev": 0.105,
+         "if_out": "Devin Vassell",
+         "mean": 18.9,
+         "mean0": 16.8
+        }
+       ]
+      },
+      "Dylan Harper": {
+       "p_play": 1.0,
+       "min": 29.2,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
+         "player": "Keldon Johnson",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.871,
+         "p": 0.602,
+         "base_p": 0.537,
+         "ev": 0.125,
+         "if_out": "Dylan Harper",
+         "mean": 25.9,
+         "mean0": 23.0
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 5.5 REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "ra",
+         "side": "over",
+         "line": 5.5,
+         "dec": 2.06,
+         "p": 0.536,
+         "base_p": 0.469,
+         "ev": 0.104,
+         "if_out": "Dylan Harper",
+         "mean": 7.0,
+         "mean0": 6.2
+        },
+        {
+         "kind": "prop",
+         "label": "Stephon Castle Over 26.5 PTS+REB+AST",
+         "player": "Stephon Castle",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 26.5,
+         "dec": 1.933,
+         "p": 0.571,
+         "base_p": 0.48,
+         "ev": 0.103,
+         "if_out": "Dylan Harper",
+         "mean": 30.4,
+         "mean0": 27.1
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 13.5,
+         "dec": 1.871,
+         "p": 0.589,
+         "base_p": 0.526,
+         "ev": 0.102,
+         "if_out": "Dylan Harper",
+         "mean": 18.9,
+         "mean0": 16.8
+        }
+       ]
+      },
+      "Julian Champagnie": {
+       "p_play": 1.0,
+       "min": 28.8,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Dylan Harper Over 9.5 REB+AST",
+         "player": "Dylan Harper",
+         "team": "SAS",
+         "stat": "ra",
+         "side": "over",
+         "line": 9.5,
+         "dec": 1.873,
+         "p": 0.598,
+         "base_p": 0.536,
+         "ev": 0.121,
+         "if_out": "Julian Champagnie",
+         "mean": 13.2,
+         "mean0": 11.9
         },
         {
          "kind": "prop",
@@ -146934,11 +146994,65 @@
          "line": 17.5,
          "dec": 1.871,
          "p": 0.587,
-         "base_p": 0.529,
-         "ev": 0.098,
-         "if_out": "Devin Vassell",
-         "mean": 24.3,
-         "mean0": 21.8
+         "base_p": 0.537,
+         "ev": 0.099,
+         "if_out": "Julian Champagnie",
+         "mean": 25.5,
+         "mean0": 23.0
+        },
+        {
+         "kind": "prop",
+         "label": "Stephon Castle Over 10.5 REB+AST",
+         "player": "Stephon Castle",
+         "team": "SAS",
+         "stat": "ra",
+         "side": "over",
+         "line": 10.5,
+         "dec": 1.909,
+         "p": 0.564,
+         "base_p": 0.487,
+         "ev": 0.076,
+         "if_out": "Julian Champagnie",
+         "mean": 12.0,
+         "mean0": 10.8
+        },
+        {
+         "kind": "prop",
+         "label": "Stephon Castle Over 26.5 PTS+REB+AST",
+         "player": "Stephon Castle",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 26.5,
+         "dec": 1.933,
+         "p": 0.554,
+         "base_p": 0.48,
+         "ev": 0.071,
+         "if_out": "Julian Champagnie",
+         "mean": 29.7,
+         "mean0": 27.1
+        }
+       ]
+      },
+      "Victor Wembanyama": {
+       "p_play": 1.0,
+       "min": 28.5,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Stephon Castle Over 26.5 PTS+REB+AST",
+         "player": "Stephon Castle",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 26.5,
+         "dec": 1.933,
+         "p": 0.62,
+         "base_p": 0.48,
+         "ev": 0.199,
+         "if_out": "Victor Wembanyama",
+         "mean": 32.7,
+         "mean0": 27.1
         },
         {
          "kind": "prop",
@@ -146949,17 +147063,49 @@
          "side": "over",
          "line": 23.5,
          "dec": 1.903,
-         "p": 0.572,
-         "base_p": 0.491,
-         "ev": 0.089,
-         "if_out": "Devin Vassell",
-         "mean": 27.5,
+         "p": 0.623,
+         "base_p": 0.492,
+         "ev": 0.185,
+         "if_out": "Victor Wembanyama",
+         "mean": 29.7,
          "mean0": 24.7
+        },
+        {
+         "kind": "prop",
+         "label": "Devin Vassell Over 17.5 PTS+REB+AST",
+         "player": "Devin Vassell",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.872,
+         "p": 0.63,
+         "base_p": 0.5,
+         "ev": 0.18,
+         "if_out": "Victor Wembanyama",
+         "mean": 23.0,
+         "mean0": 18.8
+        },
+        {
+         "kind": "prop",
+         "label": "Dylan Harper Over 25.5 PTS+REB+AST",
+         "player": "Dylan Harper",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 25.5,
+         "dec": 1.836,
+         "p": 0.642,
+         "base_p": 0.499,
+         "ev": 0.179,
+         "if_out": "Victor Wembanyama",
+         "mean": 31.5,
+         "mean0": 26.1
         }
        ]
       },
       "De'Aaron Fox": {
-       "p_play": 1.0,
+       "p_play": 0.6,
        "min": 28.0,
        "picks": [
         {
@@ -146971,12 +147117,12 @@
          "side": "over",
          "line": 9.5,
          "dec": 1.873,
-         "p": 0.605,
-         "base_p": 0.526,
-         "ev": 0.133,
+         "p": 0.583,
+         "base_p": 0.536,
+         "ev": 0.091,
          "if_out": "De'Aaron Fox",
          "mean": 12.8,
-         "mean0": 11.3
+         "mean0": 11.9
         },
         {
          "kind": "prop",
@@ -146986,191 +147132,13 @@
          "stat": "pra",
          "side": "over",
          "line": 17.5,
-         "dec": 1.871,
-         "p": 0.591,
-         "base_p": 0.529,
-         "ev": 0.105,
-         "if_out": "De'Aaron Fox",
-         "mean": 24.5,
-         "mean0": 21.8
-        },
-        {
-         "kind": "prop",
-         "label": "Stephon Castle Over 26.5 PTS+REB+AST",
-         "player": "Stephon Castle",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 26.5,
-         "dec": 1.933,
-         "p": 0.566,
-         "base_p": 0.467,
-         "ev": 0.094,
-         "if_out": "De'Aaron Fox",
-         "mean": 29.1,
-         "mean0": 25.7
-        },
-        {
-         "kind": "prop",
-         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
-         "player": "Julian Champagnie",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.871,
-         "p": 0.581,
-         "base_p": 0.516,
-         "ev": 0.088,
-         "if_out": "De'Aaron Fox",
-         "mean": 17.8,
-         "mean0": 15.9
-        }
-       ]
-      },
-      "Dylan Harper": {
-       "p_play": 1.0,
-       "min": 27.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
-         "player": "Keldon Johnson",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.871,
-         "p": 0.589,
-         "base_p": 0.529,
-         "ev": 0.102,
-         "if_out": "Dylan Harper",
-         "mean": 24.3,
-         "mean0": 21.8
-        },
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 23.5 PTS+REB+AST",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 23.5,
-         "dec": 1.903,
-         "p": 0.577,
-         "base_p": 0.491,
-         "ev": 0.099,
-         "if_out": "Dylan Harper",
-         "mean": 27.7,
-         "mean0": 24.7
-        },
-        {
-         "kind": "prop",
-         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
-         "player": "Julian Champagnie",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 13.5,
          "dec": 1.871,
          "p": 0.578,
-         "base_p": 0.516,
+         "base_p": 0.537,
          "ev": 0.081,
-         "if_out": "Dylan Harper",
-         "mean": 17.7,
-         "mean0": 15.9
-        }
-       ]
-      },
-      "Julian Champagnie": {
-       "p_play": 1.0,
-       "min": 27.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Dylan Harper Over 9.5 REB+AST",
-         "player": "Dylan Harper",
-         "team": "SAS",
-         "stat": "ra",
-         "side": "over",
-         "line": 9.5,
-         "dec": 1.873,
-         "p": 0.592,
-         "base_p": 0.526,
-         "ev": 0.109,
-         "if_out": "Julian Champagnie",
-         "mean": 12.5,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "Keldon Johnson Over 17.5 PTS+REB+AST",
-         "player": "Keldon Johnson",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.871,
-         "p": 0.577,
-         "base_p": 0.529,
-         "ev": 0.08,
-         "if_out": "Julian Champagnie",
-         "mean": 23.9,
-         "mean0": 21.8
-        },
-        {
-         "kind": "prop",
-         "label": "Stephon Castle Over 10.5 REB+AST",
-         "player": "Stephon Castle",
-         "team": "SAS",
-         "stat": "ra",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.909,
-         "p": 0.555,
-         "base_p": 0.476,
-         "ev": 0.059,
-         "if_out": "Julian Champagnie",
-         "mean": 11.4,
-         "mean0": 10.3
-        },
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 23.5 PTS+REB+AST",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 23.5,
-         "dec": 1.903,
-         "p": 0.556,
-         "base_p": 0.491,
-         "ev": 0.059,
-         "if_out": "Julian Champagnie",
-         "mean": 26.9,
-         "mean0": 24.7
-        }
-       ]
-      },
-      "Victor Wembanyama": {
-       "p_play": 1.0,
-       "min": 27.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 23.5 PTS+REB+AST",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 23.5,
-         "dec": 1.903,
-         "p": 0.623,
-         "base_p": 0.491,
-         "ev": 0.186,
-         "if_out": "Victor Wembanyama",
-         "mean": 29.7,
-         "mean0": 24.7
+         "if_out": "De'Aaron Fox",
+         "mean": 24.7,
+         "mean0": 23.0
         },
         {
          "kind": "prop",
@@ -147181,12 +147149,12 @@
          "side": "over",
          "line": 26.5,
          "dec": 1.933,
-         "p": 0.609,
-         "base_p": 0.467,
-         "ev": 0.177,
-         "if_out": "Victor Wembanyama",
-         "mean": 30.9,
-         "mean0": 25.7
+         "p": 0.543,
+         "base_p": 0.48,
+         "ev": 0.05,
+         "if_out": "De'Aaron Fox",
+         "mean": 29.2,
+         "mean0": 27.1
         },
         {
          "kind": "prop",
@@ -147197,34 +147165,18 @@
          "side": "over",
          "line": 17.5,
          "dec": 1.872,
-         "p": 0.618,
-         "base_p": 0.488,
-         "ev": 0.156,
-         "if_out": "Victor Wembanyama",
-         "mean": 21.6,
-         "mean0": 17.8
-        },
-        {
-         "kind": "prop",
-         "label": "Dylan Harper Over 25.5 PTS+REB+AST",
-         "player": "Dylan Harper",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 25.5,
-         "dec": 1.836,
-         "p": 0.625,
-         "base_p": 0.486,
-         "ev": 0.147,
-         "if_out": "Victor Wembanyama",
-         "mean": 29.6,
-         "mean0": 24.7
+         "p": 0.556,
+         "base_p": 0.5,
+         "ev": 0.041,
+         "if_out": "De'Aaron Fox",
+         "mean": 20.3,
+         "mean0": 18.8
         }
        ]
       },
       "Keldon Johnson": {
        "p_play": 1.0,
-       "min": 26.2,
+       "min": 27.6,
        "picks": [
         {
          "kind": "prop",
@@ -147235,44 +147187,12 @@
          "side": "over",
          "line": 9.5,
          "dec": 1.873,
-         "p": 0.588,
-         "base_p": 0.526,
-         "ev": 0.102,
+         "p": 0.595,
+         "base_p": 0.536,
+         "ev": 0.115,
          "if_out": "Keldon Johnson",
-         "mean": 12.5,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "De'Aaron Fox Over 23.5 PTS+REB+AST",
-         "player": "De'Aaron Fox",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 23.5,
-         "dec": 1.903,
-         "p": 0.568,
-         "base_p": 0.491,
-         "ev": 0.081,
-         "if_out": "Keldon Johnson",
-         "mean": 27.4,
-         "mean0": 24.7
-        },
-        {
-         "kind": "prop",
-         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
-         "player": "Julian Champagnie",
-         "team": "SAS",
-         "stat": "pra",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.871,
-         "p": 0.571,
-         "base_p": 0.516,
-         "ev": 0.068,
-         "if_out": "Keldon Johnson",
-         "mean": 17.5,
-         "mean0": 15.9
+         "mean": 13.2,
+         "mean0": 11.9
         },
         {
          "kind": "prop",
@@ -147283,12 +147203,44 @@
          "side": "over",
          "line": 26.5,
          "dec": 1.933,
-         "p": 0.552,
-         "base_p": 0.467,
-         "ev": 0.067,
+         "p": 0.564,
+         "base_p": 0.48,
+         "ev": 0.09,
          "if_out": "Keldon Johnson",
-         "mean": 28.6,
-         "mean0": 25.7
+         "mean": 30.1,
+         "mean0": 27.1
+        },
+        {
+         "kind": "prop",
+         "label": "Julian Champagnie Over 13.5 PTS+REB+AST",
+         "player": "Julian Champagnie",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 13.5,
+         "dec": 1.871,
+         "p": 0.582,
+         "base_p": 0.526,
+         "ev": 0.089,
+         "if_out": "Keldon Johnson",
+         "mean": 18.7,
+         "mean0": 16.8
+        },
+        {
+         "kind": "prop",
+         "label": "Devin Vassell Over 17.5 PTS+REB+AST",
+         "player": "Devin Vassell",
+         "team": "SAS",
+         "stat": "pra",
+         "side": "over",
+         "line": 17.5,
+         "dec": 1.872,
+         "p": 0.577,
+         "base_p": 0.5,
+         "ev": 0.081,
+         "if_out": "Keldon Johnson",
+         "mean": 20.9,
+         "mean0": 18.8
         }
        ]
       }
@@ -147691,6 +147643,22 @@
          "if_out": "Brice Sensabaugh",
          "mean": 10.1,
          "mean0": 9.4
+        },
+        {
+         "kind": "prop",
+         "label": "Ace Bailey Over 6.5 REB+AST",
+         "player": "Ace Bailey",
+         "team": "UTA",
+         "stat": "ra",
+         "side": "over",
+         "line": 6.5,
+         "dec": 1.759,
+         "p": 0.592,
+         "base_p": 0.551,
+         "ev": 0.042,
+         "if_out": "Brice Sensabaugh",
+         "mean": 8.5,
+         "mean0": 8.0
         }
        ]
       },
@@ -147805,6 +147773,22 @@
          "if_out": "Josh Green",
          "mean": 10.2,
          "mean0": 9.4
+        },
+        {
+         "kind": "prop",
+         "label": "Ace Bailey Over 6.5 REB+AST",
+         "player": "Ace Bailey",
+         "team": "UTA",
+         "stat": "ra",
+         "side": "over",
+         "line": 6.5,
+         "dec": 1.759,
+         "p": 0.592,
+         "base_p": 0.551,
+         "ev": 0.042,
+         "if_out": "Josh Green",
+         "mean": 8.6,
+         "mean0": 8.0
         }
        ]
       }
@@ -149651,37 +149635,6 @@
      ]
     },
     {
-     "kind": "ml",
-     "label": "BOS gana",
-     "player": null,
-     "team": "BOS",
-     "line": null,
-     "odds": -796,
-     "dec": 1.126,
-     "odds_assumed": false,
-     "p": 0.858,
-     "implied": 0.888,
-     "edge": -0.03,
-     "ev": -0.033,
-     "value": false,
-     "n_books": 11,
-     "best": {
-      "book": "Hard Rock Bet",
-      "line": null,
-      "odds": -750,
-      "dec": 1.133,
-      "p": 0.858,
-      "ev": -0.028
-     },
-     "p_model": 0.881,
-     "p_mkt": 0.851,
-     "cand": false,
-     "open": [
-      null,
-      1.125
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Payton Pritchard Under 2.5 Triples",
      "player": "Payton Pritchard",
@@ -149767,6 +149720,37 @@
      "open": [
       9.5,
       1.906
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "BOS gana",
+     "player": null,
+     "team": "BOS",
+     "line": null,
+     "odds": -804,
+     "dec": 1.124,
+     "odds_assumed": false,
+     "p": 0.859,
+     "implied": 0.889,
+     "edge": -0.03,
+     "ev": -0.034,
+     "value": false,
+     "n_books": 12,
+     "best": {
+      "book": "Hard Rock Bet",
+      "line": null,
+      "odds": -750,
+      "dec": 1.133,
+      "p": 0.859,
+      "ev": -0.027
+     },
+     "p_model": 0.881,
+     "p_mkt": 0.852,
+     "cand": false,
+     "open": [
+      null,
+      1.125
      ]
     },
     {
@@ -151993,25 +151977,25 @@
      "player": null,
      "team": "DAL",
      "line": null,
-     "odds": 543,
-     "dec": 6.425,
+     "odds": 547,
+     "dec": 6.473,
      "odds_assumed": false,
-     "p": 0.142,
-     "implied": 0.156,
+     "p": 0.141,
+     "implied": 0.154,
      "edge": -0.014,
-     "ev": -0.09,
+     "ev": -0.089,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
-      "book": "DraftKings",
+      "book": "comparador Covers (mediana 9 casas, 14:50 ET)",
       "line": null,
-      "odds": 558,
-      "dec": 6.58,
-      "p": 0.142,
-      "ev": -0.066
+      "odds": 600,
+      "dec": 7.0,
+      "p": 0.141,
+      "ev": -0.013
      },
      "p_model": 0.119,
-     "p_mkt": 0.149,
+     "p_mkt": 0.148,
      "cand": false,
      "open": [
       null,
@@ -183966,6 +183950,5 @@
     }
    }
   }
- ],
- "min_p": 0.5
+ ]
 }

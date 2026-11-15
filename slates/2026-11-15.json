@@ -3138,8 +3138,8 @@
    "tip_et": "17:00",
    "venue": "Delta Center, Salt Lake City",
    "market": {
-    "ml_home": 810,
-    "ml_away": -1340,
+    "ml_home": 750,
+    "ml_away": -1200,
     "spread_home": 15.5,
     "total": 225.5
    },
@@ -3156,10 +3156,13 @@
     "Lauri Markkanen",
     "Jaren Jackson Jr."
    ],
-   "gtd": {},
+   "gtd": {
+    "De'Aaron Fox": 0.6
+   },
    "notes": [
     "UTA: Hayes OUT (rodilla), Markkanen (mano, ~1 mes) y Jaren Jackson Jr. (MCL) OUT; Nurkic y T. Alexander fuera",
-    "SAS: Tobias Harris y Quaintance OUT (no están en cur.csv)"
+    "SAS: Tobias Harris y Quaintance OUT (no están en cur.csv)",
+    "SAS: Fox (cadera) QUESTIONABLE, NBC Sports 13:23 ET; ML -1540 -> -1200 (comparador Covers 14:50 ET)"
    ]
   },
   {
@@ -3193,8 +3196,8 @@
    "tip_et": "18:00",
    "venue": "TD Garden, Boston",
    "market": {
-    "ml_home": -835,
-    "ml_away": 555,
+    "ml_home": -900,
+    "ml_away": 600,
     "spread_home": -13.5,
     "total": 219.5
    },
@@ -3218,7 +3221,8 @@
     "DAL en back-to-back (jugó el 14-nov en CLE)",
     "DAL: Gafford, Christie, de Larrea, Lively y Biberovic OUT",
     "BOS: sin bajas; Paul George fuera del parte (juega)",
-    "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)"
+    "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
+    "ML BOS -835 -> -900 (comparador Covers 14:50 ET)"
    ]
   },
   {
