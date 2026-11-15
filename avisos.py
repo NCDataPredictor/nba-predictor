@@ -32,7 +32,6 @@ DATA = os.path.join(HERE, "docs", "data")
 PATH = os.path.join(DATA, "avisos.json")
 CONF = os.path.join(DATA, "push.json")
 SNAP_DIR = os.path.join(HERE, ".avisos")
-SITE = "https://ncerva1.github.io/nba-predictor/"
 KEEP_DAYS = 7
 ET = timezone(timedelta(hours=-5))  # hora del este (sin horario de verano en noviembre-marzo)
 
@@ -43,6 +42,10 @@ def _load(path, default):
             return json.load(f)
     except (OSError, ValueError):
         return default
+
+
+# Dirección pública de la web (para los enlaces de los avisos). Se cambia en docs/data/push.json → "site".
+SITE = _load(CONF, {}).get("site") or "https://nba-predictor.pages.dev/"
 
 
 def _git_json(ref, rel, default):

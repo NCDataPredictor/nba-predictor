@@ -1,4 +1,4 @@
-Proyecto NBA-Predictor 1.0 (repo ncerva1/nba-predictor). Revisión de bajas y cuotas del día FECHA pedida por Nicolas (DETALLE). Responde en español. Lee la memoria nba-injury-sources, nba-hourly-reviews y docs/README.md.
+Proyecto NBA-Predictor 1.0 (repo NCDataPredictor/nba-predictor). Revisión de bajas y cuotas del día FECHA pedida por Nicolas (DETALLE). Responde en español. Lee la memoria nba-injury-sources, nba-hourly-reviews y docs/README.md.
 
 AHORA = hora actual en ET (desde el 1-nov ET = hora de Bogotá). PENDIENTES = partidos de slates/FECHA.json cuyo tip_et es posterior a AHORA (los ya empezados no se tocan).
 0. Si no hay PENDIENTES, termina sin PR, sin mensaje y sin programar nada.

@@ -16,6 +16,32 @@ if (/iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIn
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Bebas+Neue&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap">
 <script>
+// Migración de dirección (15-nov): la web vieja (github.io) manda lo guardado en su navegador como
+// #migrar=<base64 de JSON {clave: valor}> con las claves nbap-*. "Mis picks" y "Mi combinada" se unen sin
+// duplicar (por k); el resto solo se copia si aquí no hay nada. Luego se limpia la dirección.
+(function () {
+  const m = /^#migrar=([^&]+)/.exec(location.hash);
+  if (!m) return;
+  let n = 0;
+  try {
+    const src = JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));
+    for (const [k, v] of Object.entries(src || {})) {
+      if (!/^nbap-[a-z-]+$/.test(k) || typeof v !== "string") continue;
+      if (k === "nbap-mine" || k === "nbap-combo") {
+        let cur = [], add = [];
+        try { cur = JSON.parse(localStorage.getItem(k) || "[]"); } catch (e) {}
+        try { add = JSON.parse(v); } catch (e) {}
+        if (!Array.isArray(cur)) cur = [];
+        if (!Array.isArray(add)) continue;
+        const seen = new Set(cur.map(x => x && x.k));
+        const nuevos = add.filter(x => x && x.k && !seen.has(x.k));
+        if (k === "nbap-mine") n += nuevos.length;
+        localStorage.setItem(k, JSON.stringify(cur.concat(nuevos)));
+      } else if (localStorage.getItem(k) === null) localStorage.setItem(k, v);
+    }
+  } catch (e) {}
+  history.replaceState(null, "", location.pathname + location.search + (n ? "#mis-picks" : ""));
+})();
 // Tema claro/oscuro: se aplica antes de pintar para que no parpadee. Sin preferencia guardada sigue al sistema.
 try { const t = localStorage.getItem("nbap-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
 </script>

@@ -73,10 +73,14 @@ falta bajarlos cada día. Para refrescar los % de una jornada ya publicada sin r
 `db/raw/HOY/team_pergame.csv` y `opp_pergame.csv` (formato B-Ref) y añade a `h2h/<temporada anterior>.json` los
 cruces que falten, sin WebFetch a basketball-reference. Si el CSV va atrasado, avisa: entonces se sigue con B-Ref.
 
-## Publicar gratis en GitHub Pages
-1. Crear un repositorio en GitHub (por ejemplo `nba-predictor`) y subir esta carpeta `nba_predictor/` como raíz.
-2. En el repo: Settings → Pages → Source: "Deploy from a branch" → Branch `main`, carpeta `/docs`.
-3. La web queda en `https://<usuario>.github.io/nba-predictor/` y cada partido en `#<id>` (p. ej. `#2026-10-26-IND-at-MIL`).
+## Publicación (Cloudflare Pages, desde 15-nov)
+- Repo: `NCDataPredictor/nba-predictor` (antes `ncerva1/nba-predictor`, transferido el 15-nov).
+- Cloudflare Pages publica la carpeta `docs/` de `main` en cada push (sin comando de build). Dirección:
+  `https://nba-predictor.pages.dev/` (más adelante, dominio propio); cada partido en `#<id>`.
+- Los enlaces de los avisos usan `docs/data/push.json` → `"site"`. Si cambia la dirección, actualízala ahí y
+  en OneSignal (Settings → Push & In-App → Web → Site URL).
+- `migracion/redireccion-github-io/index.html` es la página para la dirección vieja de github.io: redirige a la
+  nueva y le pasa lo guardado en el navegador (`#migrar=...`, la web nueva lo importa y une Mis picks/Mi combinada).
 
 ## Ver en local
 ```

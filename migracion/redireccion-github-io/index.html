@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>NBA Predictor se mudó</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0b1220; color: #e8eefc;
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 16px; box-sizing: border-box; }
+  main { max-width: 420px; text-align: center; }
+  a { color: #7fb2ff; }
+</style>
+<script>
+// Página que queda en la dirección vieja (github.io). Lleva al usuario a la web nueva y le pasa lo que tenía
+// guardado en este navegador (Mis picks, Mi combinada, tema, etc.) en #migrar=..., que la web nueva importa.
+// Cambia NUEVA por la dirección definitiva antes de publicarla.
+const NUEVA = "https://nba-predictor.pages.dev/";
+let destino = NUEVA + location.hash;
+try {
+  const datos = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (/^nbap-/.test(k)) datos[k] = localStorage.getItem(k);
+  }
+  if (Object.keys(datos).length) destino = NUEVA + "#migrar=" + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(datos)))));
+} catch (e) {}
+location.replace(destino);
+</script>
+</head>
+<body>
+<main>
+  <h1>NBA Predictor se mudó</h1>
+  <p>La web ahora está en <a id="l" href="https://nba-predictor.pages.dev/">nba-predictor.pages.dev</a>. Te llevamos en un momento, con tus picks guardados.</p>
+  <p>Si usas la app instalada en el celular, bórrala e instálala de nuevo desde la dirección nueva.</p>
+</main>
+<script>document.getElementById("l").href = destino;</script>
+</body>
+</html>
