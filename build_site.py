@@ -759,12 +759,17 @@ DREAM_RELAX = [dict(leg_p=0.52), dict(max_under=0.6), dict(leg_p=0.52, max_under
 
 def dream_parlay(rs):
     """rs = partidos publicados (sin jugar) de una jornada. Devuelve el parlay soñador o None (con las reglas
-    normales y, si no sale, con los escalones de DREAM_RELAX)."""
-    for i, kw in enumerate([{}] + DREAM_RELAX):
+    normales; si no sale, el escalonado de ladder_dream y luego los escalones de DREAM_RELAX)."""
+    pl = _dream_parlay(rs)
+    if pl:
+        return pl
+    pl = ladder_dream(rs)  # 1.er respaldo: Bet Builders de 2 patas X+ por partido (pedido de Nicolas, 15-nov)
+    if pl:
+        return pl
+    for i, kw in enumerate(DREAM_RELAX, 1):
         pl = _dream_parlay(rs, **kw)
         if pl:
-            if kw:
-                pl["relaxed"] = dict(kw, step=i)
+            pl["relaxed"] = dict(kw, step=i)
             return pl
     return None
 
@@ -841,6 +846,120 @@ def _dream_parlay(rs, leg_p=None, max_under=None):
     pl["max_under"] = max_under
     dream_swaps(pl, wide, max_under)
     return pl
+
+
+# Soñador escalonado (pedido de Nicolas, 15-nov, con su combinada de Betano de ejemplo): si con las reglas normales no
+# llega a cuota 50, se arma como él lo hace a mano: en cada partido un Bet Builder de hasta 2 patas "X+" (líneas más
+# bajas que la principal, siempre al Over), en 4-6 partidos. Las patas salen de la muestra de simulaciones
+# (docs/data/sims/<id>.bin) y solo de jugadores/estadísticas con línea principal de la casa, que sirve de ancla:
+# prob. = escalera del modelo movida en logit como la mezcla movió la línea principal (igual que `ladders`); cuota
+# ESTIMADA = la de la casa en ese umbral (escalera movida hasta la prob. sin margen de la casa) con el margen de una
+# casa colombiana (CO_OVERROUND). Dos patas del mismo partido: correlación >= DREAM_MIN_CORR, y a la cuota del par se
+# le quita la correlación positiva (el Bet Builder la cobra). Se elige la combinación con la mayor prob. conjunta.
+LAD_Q = (0.60, 0.90)      # prob. de cada pata
+LAD_MIN_DEC = 1.25        # cuota estimada mínima por pata
+LAD_LEG_EV = -0.06        # EV mínimo de cada pata a la cuota estimada (con el margen de la casa casi nada pasa de 0)
+LAD_POOL = 12             # patas candidatas por partido
+LAD_MAX_LEGS = 12
+LAD_STATS = ("pts", "reb", "ast", "fg3m", "pra", "pr", "pa", "ra")
+
+
+def ladder_legs(r, smp):
+    """Patas "X+" de un partido con cuota estimada de casa colombiana (ver arriba)."""
+    import math
+    lg = lambda p: math.log(p / (1 - p))
+    sg = lambda x: 1 / (1 + math.exp(-x))
+    g = r["game"]
+    pp = {p["name"]: p.get("p_play", 1) for p in r["summary"]["players"]}
+    anchor = {}
+    for b in r["bets"]:
+        if b["kind"] == "prop" and b.get("side") == "over" and not b.get("alt") and b.get("p_mkt") is not None \
+                and 0 < b.get("p_model", 0) < 1 and 0 < b["p"] < 1 and 0 < b["p_mkt"] < 1:
+            anchor[(b["player"], b["stat"])] = (lg(b["p"]) - lg(b["p_model"]), lg(b["p_mkt"]) - lg(b["p_model"]), b["team"])
+    out = []
+    for (pl, st), (sb, sm, team) in anchor.items():
+        if st not in LAD_STATS or pp.get(pl, 0) < PARLAY_P_PLAY:
+            continue
+        on = smp.get(f"{pl}|on")
+        parts = DREAM_STATS.get(st, (st,))
+        if on is None or any(f"{pl}|{p}" not in smp for p in parts):
+            continue
+        ok = on > 0
+        x = sum(smp[f"{pl}|{p}"] for p in parts)[ok]
+        if len(x) < 300:
+            continue
+        rungs = []
+        for k in range(1, int(x.max()) + 1):
+            pm = float((x >= k).mean())
+            if not 0.02 < pm < 0.98:
+                continue
+            q, qm = sg(lg(pm) + sb), sg(lg(pm) + sm)
+            dec = 1 / min(qm * CO_OVERROUND, 0.995)
+            if not LAD_Q[0] <= q <= LAD_Q[1] or dec < LAD_MIN_DEC or q * dec - 1 < LAD_LEG_EV:
+                continue
+            lab = f"{pl} {k}+ {STAT_LABEL.get(st, st)}"
+            rungs.append(dict(kind="prop", label=lab, player=pl, team=team, line=k - 0.5, stat=st, side="over",
+                              p=round(q, 3), dec=round(dec, 2), ev=round(q * dec - 1, 3), alt=True, est=True,
+                              gid=r["id"], game=f"{g['away']} @ {g['home']}"))
+        out += rungs
+    return out
+
+def ladder_dream(rs):
+    """Soñador escalonado: hasta 2 patas X+ por partido (como un Bet Builder) hasta cuota DREAM_MIN–DREAM_MAX."""
+    import math
+    from itertools import combinations
+    opts = []
+    for r in rs:
+        smp = read_sample(r["id"])
+        if not smp:
+            continue
+        legs = sorted(ladder_legs(r, smp), key=lambda l: -(l["p"] * l["dec"]))
+        # una por jugador-estadística de cada banda, las de mejor EV
+        seen, pool = set(), []
+        for l in legs:
+            k = (l["player"], l["stat"], round(l["p"], 1))
+            if k in seen: continue
+            seen.add(k); pool.append(l)
+        pool = pool[:LAD_POOL]
+        if not pool: continue
+        hits = [sample_hits(l, smp) for l in pool]
+        o = [(math.log(l["p"]), math.log(l["dec"]), (l,)) for l in pool]
+        for i, j in combinations(range(len(pool)), 2):
+            a, b = pool[i], pool[j]
+            if a["player"] == b["player"] or not hits[i] or not hits[j]:
+                continue
+            ok = hits[i][1] & hits[j][1]
+            if ok.sum() < 100: continue
+            pa, pb = hits[i][0][ok].mean(), hits[j][0][ok].mean()
+            c = (hits[i][0] & hits[j][0])[ok].mean() / (pa * pb) if pa * pb else 0
+            if c < DREAM_MIN_CORR: continue
+            p = min(c * a["p"] * b["p"], a["p"], b["p"])
+            d = a["dec"] * b["dec"] / max(c, 1.0)  # el Bet Builder cobra la correlación positiva
+            o.append((math.log(p), math.log(d), (dict(a, corr=round(c, 2)), dict(b, corr=round(c, 2)))))
+        opts.append(o)
+    top = math.log(DREAM_MAX)
+    best = {(0, 0): (0.0, (), 0.0)}
+    for o in opts:
+        nxt = dict(best)
+        for (n, d), (lp, ls, ld0) in best.items():
+            for olp, old, ol in o:
+                n2, ld = n + len(ol), ld0 + old
+                if n2 > LAD_MAX_LEGS or ld > top + 1e-9: continue
+                k = (n2, round(ld * 100))
+                if k not in nxt or nxt[k][0] < lp + olp:
+                    nxt[k] = (lp + olp, ls + ol, ld)
+        best = nxt
+    ok = [(lp, ls, ld) for (n, d), (lp, ls, ld) in best.items() if ls and math.log(DREAM_MIN) <= ld]
+    if not ok: return None
+    lp, legs, ld = max(ok, key=lambda x: x[0])
+    legs = sorted(legs, key=lambda l: (l["gid"], -l["p"]))
+    pl = parlay(list(legs), math.exp(lp))
+    pl["dec"] = round(math.exp(ld), 2); pl["ev"] = round(math.exp(lp) * pl["dec"] - 1, 3)
+    pl.update(type="dream", style="ladder", games=len({l["gid"] for l in legs}), max_under=1.0)
+    for l in pl["legs"]:
+        l["key"] = leg_key(l)
+    return pl
+
 
 
 # Reemplazos (pedido de Nicolas, 11-nov): si la casa no ofrece una pata (p. ej. el jugador no sale en Betano), la web
