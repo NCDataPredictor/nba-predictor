@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "source": "Covers matchup/<id>/odds (9 casas en IND@PHI, LAL@PHX, CHA@LAC, SAS@UTA, DAL@BOS, ATL@MIL; 8 en OKC@SAC; ~11:45 ET; NYK@TOR y HOU@WAS vacíos); comparador covers.com/sport/basketball/nba/odds (ML de 9 casas en NYK@TOR); consenso scoresandodds.com/nba?date=2026-11-15 (~11:40 ET) en NYK@TOR y HOU@WAS (scoresandodds etiqueta HOU@WAS al revés: cuadrado por favorito); consenso scoresandodds.com/nba 12:25 ET en 7 partidos",
+ "source": "Covers matchup/<id>/odds (9 casas en IND@PHI, LAL@PHX, CHA@LAC, SAS@UTA, DAL@BOS, ATL@MIL; 8 en OKC@SAC; ~11:45 ET; NYK@TOR y HOU@WAS vacíos); comparador covers.com/sport/basketball/nba/odds (ML de 9 casas en NYK@TOR); consenso scoresandodds.com/nba?date=2026-11-15 (~11:40 ET) en NYK@TOR y HOU@WAS (scoresandodds etiqueta HOU@WAS al revés: cuadrado por favorito); consenso scoresandodds.com/nba 12:25 ET en 7 partidos; revisión 13:25 ET: ML del comparador Covers (13:05 ET) en NYK@TOR y DAL@BOS",
  "games": {
   "IND@PHI": {
    "books": [
@@ -901,6 +901,11 @@
       -107,
       -113
      ]
+    },
+    {
+     "book": "comparador Covers (mediana 6 casas, 13:05 ET)",
+     "ml_away": 555,
+     "ml_home": -835
     }
    ]
   },
@@ -1318,6 +1323,11 @@
       -110,
       -110
      ]
+    },
+    {
+     "book": "comparador Covers (mediana 9 casas, 13:05 ET)",
+     "ml_away": -205,
+     "ml_home": 170
     }
    ]
   },

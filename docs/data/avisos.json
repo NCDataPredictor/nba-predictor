@@ -59,7 +59,130 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "59862b9a507e1bbb",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-LAL-at-PHX",
+   "title": "LAL @ PHX (4:00 pm ET): cambian los picks",
+   "body": "Picks nuevos: Dillon Brooks Under 5.5 REB+AST; Collin Sexton Under 15.5 PTS+REB; Devin Booker Under 1.5 Triples; Collin Gillespie Over 2.5 Triples.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-LAL-at-PHX",
+   "added": [
+    "Dillon Brooks Under 5.5 REB+AST",
+    "Collin Sexton Under 15.5 PTS+REB",
+    "Devin Booker Under 1.5 Triples",
+    "Collin Gillespie Over 2.5 Triples"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "198cdd1a9146be94",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-CHA-at-LAC",
+   "title": "CHA @ LAC (4:30 pm ET): cambian los picks",
+   "body": "Pick nuevo: Brook Lopez Under 6.5 REB+AST.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-CHA-at-LAC",
+   "added": [
+    "Brook Lopez Under 6.5 REB+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "70ca3a2edbf13856",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-NYK-at-TOR",
+   "title": "NYK @ TOR (6:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: OG Anunoby Under 22.5 PTS+REB.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-NYK-at-TOR",
+   "added": [
+    "OG Anunoby Under 22.5 PTS+REB"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "3b2f53eca637aa3c",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-HOU-at-WAS",
+   "title": "HOU @ WAS (7:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Amen Thompson Over 0.5 Triples.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-HOU-at-WAS",
+   "added": [
+    "Amen Thompson Over 0.5 Triples"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "29dd2632541b558f",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-ATL-at-MIL",
+   "title": "ATL @ MIL (8:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Kyle Kuzma Under 7.5 REB+AST.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-ATL-at-MIL",
+   "added": [
+    "Kyle Kuzma Under 7.5 REB+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "3fcaf6fe6c95b7f2",
+   "at": "2026-11-15T18:45+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-OKC-at-SAC",
+   "title": "OKC @ SAC (9:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Keegan Murray Under 1.5 Triples.",
+   "label": "Revisión 13:25 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-OKC-at-SAC",
+   "added": [
+    "Keegan Murray Under 1.5 Triples"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-15T17:24+00:00"
+ "updated": "2026-11-15T18:45+00:00"
 }

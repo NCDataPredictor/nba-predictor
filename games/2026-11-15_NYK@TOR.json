@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "TOR: Kawhi Leonard OUT (rodilla, hasta ~23-nov); Scottie Barnes (ingle) questionable: 0.5; Bittle OUT",
-   "Covers matchup vacío: ML de 9 casas del comparador + consenso scoresandodds (spread/total); sin props de casa por la mañana"
+   "Covers matchup vacío: ML de 9 casas del comparador + consenso scoresandodds (spread/total); sin props de casa por la mañana",
+   "Revisión 13:25 ET: ML NYK -185 → -205 (mediana de 9 casas, comparador Covers 13:05 ET)"
   ],
   "out": [
    "Kawhi Leonard"
@@ -1083,8 +1084,8 @@
  ],
  "market": {
   "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov); 12:25 ET: consenso scoresandodds.com/nba (spread/total/ML) en 7 partidos y props de puntos (White, Okongwu)",
-  "ml_home": 155,
-  "ml_away": -185,
+  "ml_home": 170,
+  "ml_away": -205,
   "spread_home": 4.5,
   "total": 217.5
  },
@@ -1108,6 +1109,31 @@
     -135,
     -150,
     6.5
+   ],
+   "pr": [
+    26.5,
+    -114,
+    -105
+   ],
+   "pa": [
+    24.5,
+    -125,
+    -104
+   ],
+   "ra": [
+    10.5,
+    104,
+    -120
+   ],
+   "pra": [
+    31.5,
+    -106,
+    -112
+   ],
+   "fg3m": [
+    1.5,
+    -135,
+    120
    ]
   },
   "Karl-Anthony Towns": {
@@ -1135,6 +1161,31 @@
     6.5,
     105,
     105
+   ],
+   "pr": [
+    24.5,
+    -112,
+    -106
+   ],
+   "pa": [
+    23.5,
+    -105,
+    -123
+   ],
+   "ra": [
+    11.5,
+    102,
+    -117
+   ],
+   "pra": [
+    29.5,
+    -110,
+    -107
+   ],
+   "fg3m": [
+    0.5,
+    -157,
+    145
    ]
   },
   "OG Anunoby": {
@@ -1149,6 +1200,31 @@
     -140,
     -157,
     5.5
+   ],
+   "pr": [
+    22.5,
+    -104,
+    -112
+   ],
+   "pa": [
+    18.5,
+    -115,
+    -104
+   ],
+   "ra": [
+    6.5,
+    -133,
+    110
+   ],
+   "pra": [
+    24.5,
+    -102,
+    -113
+   ],
+   "fg3m": [
+    2.5,
+    154,
+    -145
    ]
   },
   "Immanuel Quickley": {
@@ -1162,6 +1238,31 @@
     3.5,
     105,
     -112
+   ],
+   "pr": [
+    19.5,
+    -111,
+    -113
+   ],
+   "pa": [
+    21.5,
+    -105,
+    -105
+   ],
+   "ra": [
+    8.5,
+    -105,
+    -115
+   ],
+   "pra": [
+    24.5,
+    -115,
+    -109
+   ],
+   "fg3m": [
+    2.5,
+    -109,
+    -110
    ]
   },
   "Ja'Kobe Walter": {
@@ -1175,6 +1276,31 @@
     3.5,
     -125,
     106
+   ],
+   "pr": [
+    15.5,
+    100,
+    -121
+   ],
+   "pa": [
+    12.5,
+    -120,
+    -103
+   ],
+   "ra": [
+    5.5,
+    120,
+    -128
+   ],
+   "pra": [
+    16.5,
+    -115,
+    -105
+   ],
+   "fg3m": [
+    2.5,
+    120,
+    -140
    ]
   },
   "Jakob Poeltl": {
