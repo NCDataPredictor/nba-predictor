@@ -1138,7 +1138,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 360,
   "ml_away": -467,
   "spread_home": 10.5,
@@ -1150,6 +1150,12 @@
     8.5,
     -125,
     -105
+   ],
+   "reb": [
+    4.5,
+    -130,
+    -157,
+    5.5
    ]
   },
   "Precious Achiuwa": {
@@ -1157,6 +1163,11 @@
     8.5,
     -120,
     -105
+   ],
+   "reb": [
+    6.5,
+    110,
+    -125
    ]
   },
   "Isaiah Hartenstein": {
@@ -1164,6 +1175,11 @@
     9.5,
     -120,
     -110
+   ],
+   "reb": [
+    10.5,
+    100,
+    100
    ]
   },
   "Shai Gilgeous-Alexander": {
@@ -1171,6 +1187,12 @@
     32.5,
     -125,
     -106
+   ],
+   "reb": [
+    3.5,
+    -150,
+    -147,
+    4.5
    ]
   },
   "Zach LaVine": {
@@ -1185,6 +1207,11 @@
     17.5,
     -105,
     -125
+   ],
+   "reb": [
+    3.5,
+    100,
+    -120
    ]
   },
   "Domantas Sabonis": {
@@ -1192,6 +1219,12 @@
     13.5,
     -110,
     -120
+   ],
+   "reb": [
+    11.5,
+    -130,
+    -115,
+    12.5
    ]
   },
   "De'Andre Hunter": {
@@ -1199,6 +1232,11 @@
     13.5,
     -118,
     -112
+   ],
+   "reb": [
+    4.5,
+    122,
+    -129
    ]
   },
   "Jared McCain": {
@@ -1206,6 +1244,49 @@
     15.5,
     -102,
     -128
+   ],
+   "reb": [
+    3.5,
+    105,
+    -120
+   ]
+  },
+  "Darius Acuff Jr.": {
+   "pts": [
+    23.5,
+    -117,
+    -112,
+    24.5
+   ],
+   "reb": [
+    3.5,
+    -115,
+    110
+   ]
+  },
+  "Keegan Murray": {
+   "pts": [
+    11.5,
+    -112,
+    -126,
+    12.5
+   ],
+   "reb": [
+    4.5,
+    105,
+    -118
+   ]
+  },
+  "Aday Mara": {
+   "pts": [
+    9.5,
+    -115,
+    -105
+   ],
+   "reb": [
+    6.5,
+    100,
+    110
    ]
   }
  },

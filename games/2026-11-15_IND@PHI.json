@@ -1033,7 +1033,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": -275,
   "ml_away": 220,
   "spread_home": -6.5,
@@ -1046,6 +1046,12 @@
     -120,
     -105,
     17.5
+   ],
+   "reb": [
+    6.5,
+    -132,
+    -125,
+    7.5
    ]
   },
   "Andrew Nembhard": {
@@ -1068,6 +1074,11 @@
     -120,
     -125,
     12.5
+   ],
+   "reb": [
+    4.5,
+    120,
+    -115
    ]
   },
   "Ivica Zubac": {
@@ -1076,6 +1087,11 @@
     -115,
     -125,
     13.5
+   ],
+   "reb": [
+    10.5,
+    105,
+    -115
    ]
   },
   "VJ Edgecombe": {
@@ -1084,6 +1100,12 @@
     -124,
     -110,
     13.5
+   ],
+   "reb": [
+    5.5,
+    -150,
+    -132,
+    6.5
    ]
   },
   "Jaylen Brown": {
@@ -1092,6 +1114,11 @@
     -112,
     -111,
     24.5
+   ],
+   "reb": [
+    6.5,
+    -102,
+    -112
    ]
   },
   "Aaron Nesmith": {
@@ -1100,6 +1127,57 @@
     -120,
     -112,
     13.5
+   ],
+   "reb": [
+    3.5,
+    -105,
+    -113
+   ]
+  },
+  "Tyrese Maxey": {
+   "pts": [
+    26.5,
+    -110,
+    -103
+   ],
+   "reb": [
+    3.5,
+    -118,
+    114
+   ]
+  },
+  "Pascal Siakam": {
+   "pts": [
+    20.5,
+    -120,
+    105,
+    21.5
+   ],
+   "reb": [
+    6.5,
+    115,
+    -137
+   ]
+  },
+  "Anfernee Simons": {
+   "pts": [
+    10.5,
+    -112,
+    -136,
+    11.5
+   ]
+  },
+  "Obi Toppin": {
+   "pts": [
+    9.5,
+    -105,
+    -127,
+    10.5
+   ],
+   "reb": [
+    3.5,
+    -115,
+    128
    ]
   }
  },

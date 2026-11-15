@@ -988,7 +988,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 875,
   "ml_away": -1500,
   "spread_home": 16.5,
@@ -1000,6 +1000,11 @@
     27.5,
     -110,
     -116
+   ],
+   "reb": [
+    11.5,
+    105,
+    -125
    ]
   },
   "Darryn Peterson": {
@@ -1007,6 +1012,11 @@
     18.5,
     -121,
     -106
+   ],
+   "reb": [
+    4.5,
+    120,
+    -130
    ]
   },
   "Stephon Castle": {
@@ -1014,6 +1024,12 @@
     15.5,
     -108,
     -118
+   ],
+   "reb": [
+    4.5,
+    -130,
+    -160,
+    5.5
    ]
   },
   "Ace Bailey": {
@@ -1021,6 +1037,11 @@
     13.5,
     -113,
     -113
+   ],
+   "reb": [
+    5.5,
+    118,
+    -140
    ]
   },
   "Julian Champagnie": {
@@ -1028,6 +1049,12 @@
     9.5,
     -105,
     -125
+   ],
+   "reb": [
+    3.5,
+    -155,
+    -150,
+    4.5
    ]
   },
   "Dylan Harper": {
@@ -1035,6 +1062,12 @@
     15.5,
     -126,
     -101
+   ],
+   "reb": [
+    4.5,
+    -112,
+    -162,
+    5.5
    ]
   },
   "Keyonte George": {
@@ -1042,6 +1075,11 @@
     19.5,
     -112,
     -118
+   ],
+   "reb": [
+    3.5,
+    -140,
+    115
    ]
   },
   "De'Aaron Fox": {
@@ -1049,6 +1087,50 @@
     13.5,
     -103,
     -124
+   ],
+   "reb": [
+    3.5,
+    -111,
+    -105
+   ]
+  },
+  "Devin Vassell": {
+   "pts": [
+    11.5,
+    -103,
+    -112
+   ],
+   "reb": [
+    3.5,
+    115,
+    -115
+   ]
+  },
+  "Keldon Johnson": {
+   "pts": [
+    9.5,
+    -110,
+    -135,
+    10.5
+   ],
+   "reb": [
+    4.5,
+    -140,
+    115
+   ]
+  },
+  "Mo Bamba": {
+   "reb": [
+    7.5,
+    -100,
+    -132
+   ]
+  },
+  "Luke Kornet": {
+   "reb": [
+    4.5,
+    -150,
+    120
    ]
   }
  },

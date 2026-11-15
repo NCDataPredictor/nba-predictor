@@ -1110,7 +1110,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": -110,
   "ml_away": -108,
   "spread_home": -1.5,
@@ -1122,6 +1122,12 @@
     17.5,
     -110,
     -121
+   ],
+   "reb": [
+    7.5,
+    -130,
+    -135,
+    8.5
    ]
   },
   "Grayson Allen": {
@@ -1143,6 +1149,11 @@
     5.5,
     -120,
     -105
+   ],
+   "reb": [
+    3.5,
+    -125,
+    100
    ]
   },
   "Brook Lopez": {
@@ -1150,6 +1161,12 @@
     11.5,
     -115,
     -114
+   ],
+   "reb": [
+    4.5,
+    -150,
+    -130,
+    5.5
    ]
   },
   "Derrick Jones Jr.": {
@@ -1157,6 +1174,12 @@
     10.5,
     -115,
     -114
+   ],
+   "reb": [
+    3.5,
+    -155,
+    -105,
+    4.5
    ]
   },
   "Max Strus": {
@@ -1171,6 +1194,74 @@
     7.5,
     115,
     -155
+   ]
+  },
+  "Brandon Miller": {
+   "pts": [
+    21.5,
+    -111,
+    -102
+   ],
+   "reb": [
+    4.5,
+    -105,
+    -105
+   ]
+  },
+  "Darius Garland": {
+   "pts": [
+    20.5,
+    -105,
+    -106
+   ]
+  },
+  "Rui Hachimura": {
+   "pts": [
+    14.5,
+    -105,
+    -103
+   ],
+   "reb": [
+    4.5,
+    -130,
+    -150,
+    5.5
+   ]
+  },
+  "Keaton Wagler": {
+   "pts": [
+    9.5,
+    -115,
+    -120,
+    10.5
+   ]
+  },
+  "Moussa Diabaté": {
+   "reb": [
+    9.5,
+    105,
+    -105
+   ]
+  },
+  "Isaiah Jackson": {
+   "reb": [
+    4.5,
+    -135,
+    105
+   ]
+  },
+  "Sion James": {
+   "reb": [
+    3.5,
+    100,
+    110
+   ]
+  },
+  "Kris Dunn": {
+   "reb": [
+    3.5,
+    120,
+    -112
    ]
   }
  },

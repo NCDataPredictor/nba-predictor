@@ -1019,7 +1019,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 130,
   "ml_away": -155,
   "spread_home": 2.5,
@@ -1031,6 +1031,12 @@
     14.5,
     -105,
     -120
+   ],
+   "reb": [
+    10.5,
+    -110,
+    -140,
+    11.5
    ]
   },
   "Matisse Thybulle": {
@@ -1045,6 +1051,12 @@
     6.5,
     -118,
     -108
+   ],
+   "reb": [
+    3.5,
+    -135,
+    -155,
+    4.5
    ]
   },
   "Oso Ighodaro": {
@@ -1052,6 +1064,12 @@
     6.5,
     100,
     -125
+   ],
+   "reb": [
+    4.5,
+    -135,
+    -135,
+    5.5
    ]
   },
   "Dillon Brooks": {
@@ -1080,6 +1098,11 @@
     14.5,
     110,
     -140
+   ],
+   "reb": [
+    5.5,
+    -130,
+    115
    ]
   },
   "Luka Dončić": {
@@ -1087,6 +1110,60 @@
     35.5,
     -113,
     -113
+   ],
+   "reb": [
+    7.5,
+    100,
+    102
+   ]
+  },
+  "Devin Booker": {
+   "pts": [
+    23.5,
+    -125,
+    -122,
+    25.5
+   ]
+  },
+  "Collin Sexton": {
+   "pts": [
+    14.5,
+    100,
+    -112
+   ]
+  },
+  "Sandro Mamukelashvili": {
+   "pts": [
+    10.5,
+    -114,
+    -110
+   ],
+   "reb": [
+    4.5,
+    -115,
+    102
+   ]
+  },
+  "Collin Gillespie": {
+   "pts": [
+    8.5,
+    -135,
+    -105,
+    9.5
+   ]
+  },
+  "Ziaire Williams": {
+   "pts": [
+    8.5,
+    -125,
+    100
+   ]
+  },
+  "Khaman Maluach": {
+   "reb": [
+    5.5,
+    -115,
+    105
    ]
   }
  },
