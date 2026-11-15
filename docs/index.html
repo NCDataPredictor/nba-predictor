@@ -86,6 +86,9 @@ try { const t = localStorage.getItem("nbap-theme"); if (t === "light" || t === "
   --banner: #000000; --banner-2: #241d10; --ticker: #000000; --stripe: #e2b75a }
 * { box-sizing: border-box }
 body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); margin: 0 }
+/* App en la pantalla de inicio (iPhone, barra de estado translúcida, 15-nov): una franja del color del banner
+   tapa la zona del reloj y la batería para que el contenido no pase por debajo al bajar. En Safari normal mide 0. */
+body::before { content: ""; position: fixed; inset: 0 0 auto 0; height: env(safe-area-inset-top, 0px); background: var(--banner); z-index: 90; pointer-events: none }
 .gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
 .inner { max-width: 1080px; margin: 0 auto }
 h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: .01em; margin: 0; text-wrap: balance; line-height: 1.05 }
@@ -101,7 +104,7 @@ a { color: var(--accent) }
 .banner { background: linear-gradient(115deg, var(--banner) 0%, var(--banner) 55%, var(--banner-2) 100%); color: var(--banner-ink); position: relative }
 .banner::after { content: ""; position: absolute; inset: auto 0 0 0; height: 4px; background: linear-gradient(90deg, var(--stripe) 0 62%, var(--banner-ink) 62% 64%, var(--accent) 64%) }
 :root[data-mode="cup"] .banner::after { background: linear-gradient(90deg, #7a5a14, var(--stripe) 30%, #f6e2a6 55%, var(--stripe) 75%, #7a5a14) }
-.banner .inner { padding-block: 22px 0; display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between }
+.banner .inner { padding-block: calc(22px + env(safe-area-inset-top, 0px)) 0; display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between }
 .banner a.brand { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 14px }
 .banner .logo { flex: none; width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center; background: var(--stripe); box-shadow: inset 0 -3px 0 rgba(0,0,0,.25) }
 :root[data-mode="cup"] .banner .logo { background: linear-gradient(150deg, #f6e2a6, var(--stripe) 45%, #7a5a14) }
@@ -527,7 +530,7 @@ tr.detail td { background: var(--bg) }
   .dream-past { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); align-items: start }
 }
 .pgroup.day .pg-t { text-transform: capitalize }
-.to-top { position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 60; display: inline-flex; align-items: center; gap: 6px;
+.to-top { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 60; display: inline-flex; align-items: center; gap: 6px;
   border: 0; border-radius: 999px; padding: 10px 16px; background: var(--accent); color: var(--on-accent); font: 600 14px var(--body, inherit);
   box-shadow: 0 4px 14px rgba(0,0,0,.25); cursor: pointer; transition: opacity .2s, transform .2s }
 .to-top[hidden] { display: none }
@@ -746,7 +749,7 @@ body:has(dialog.guide[open]) { overflow: hidden }
   .intro { padding: 16px }
   .intro-steps { grid-template-columns: 1fr }
   .help-btn .lbl-t { display: none } .help-btn { width: 40px; padding: 0; justify-content: center }
-  dialog.guide { max-height: calc(100dvh - 16px) }
+  dialog.guide { max-height: calc(100dvh - 16px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) }
   .g-body dl { grid-template-columns: 1fr; gap: 2px } .g-body dd { margin-bottom: 8px }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -806,7 +809,8 @@ dialog.pcard .g-body > p.muted { margin-top: 8px }
 .pc-foot { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 13px }
 .pc-tbl td, .pc-tbl th { padding: 6px 8px }
 @media (max-width: 640px) {
-  dialog.pcard { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0 }
+  dialog.pcard { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; border: 0;
+    border-top: env(safe-area-inset-top, 0px) solid var(--banner); padding-bottom: env(safe-area-inset-bottom, 0px) }
   .pc-hr { grid-template-columns: repeat(3, minmax(0, 1fr)) }
   .pc-hr .v { font-size: 18px }
 }
@@ -849,7 +853,7 @@ dialog.pcard .g-body > p.muted { margin-top: 8px }
 details.hist-d > summary { cursor: pointer; color: var(--accent); font-size: 14px; padding: 4px 0 }
 details.hist-d[open] > summary { margin-bottom: 10px }
 details.hist-d { display: grid; gap: 12px }
-.gtabs { display: flex; gap: 6px; position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 8px 0; border-bottom: 1px solid var(--line) }
+.gtabs { display: flex; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding: 8px 0; border-bottom: 1px solid var(--line) }
 .gtabs button { font: 600 14px var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer }
 .gtabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface) }
 .gtabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
@@ -1028,7 +1032,24 @@ table.sortable thead th[aria-sort="ascending"]::after { content: " ▲"; font-si
 .bst li .muted { grid-column: 1 / -1; font-size: 11.5px }
 .bst .up { font: 700 14px var(--mono); color: var(--good) }
 /* picks plan B (15-nov): picks que valen si un jugador en duda no juega */
-.pb-grp { display: grid; gap: 8px; margin: 14px 0 6px } .pb-grp + .pb-grp { border-top: 1px solid var(--line); padding-top: 14px }
+.pb-list { display: grid; gap: 8px; margin-top: 12px }
+.pb-grp { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; min-width: 0 }
+.pb-grp > summary { list-style: none; cursor: pointer; display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; padding: 10px 12px; position: relative; padding-right: 34px }
+.pb-grp > summary::-webkit-details-marker { display: none }
+.pb-grp > summary::after { content: "▾"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--muted); transition: transform .15s }
+.pb-grp[open] > summary::after { transform: translateY(-50%) rotate(180deg) }
+.pb-grp > summary .pb-h { flex: 1 1 auto; min-width: 0 }
+.pb-n { font: 600 11.5px var(--mono); color: var(--good); white-space: nowrap }
+.pb-rows { list-style: none; margin: 0; padding: 0 12px 6px; display: grid }
+.pb-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); min-width: 0 }
+.pb-who { font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap } .pb-who .av { width: 24px; height: 24px; font-size: 9px }
+.pb-pick { grid-column: 1; font-size: 13.5px; min-width: 0 } .pb-pick .pcd-side { font-size: 10px; padding: 2px 6px }
+.pb-odd { color: var(--muted); font-size: 12.5px; margin-left: 4px }
+.pb-num { grid-column: 2; grid-row: 1 / span 2; display: grid; justify-items: end; gap: 4px }
+.pb-p { font-size: 12.5px; color: var(--muted) } .pb-p b { color: var(--ink) }
+.pb-act { grid-column: 1 / -1; display: flex; gap: 8px; flex-wrap: wrap } .pb-act .take, .pb-act button { margin-top: 0 }
+@media (min-width: 760px) { .pb-row { grid-template-columns: minmax(150px, 1.1fr) minmax(0, 1.6fr) auto auto; gap: 6px 14px }
+  .pb-pick { grid-column: auto } .pb-num { grid-column: auto; grid-row: auto; display: flex; align-items: center; gap: 10px } .pb-act { grid-column: auto; flex-wrap: nowrap } }
 .pb-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap } .pb-h .av { width: 36px; height: 36px; margin: 0; font-size: 12px }
 .pb-h b { font: 700 15px/1.2 var(--display); text-transform: uppercase; letter-spacing: .01em }
 .pb-h .tag { font: 600 10.5px var(--mono); text-transform: uppercase; letter-spacing: .04em; padding: 3px 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent) }
@@ -4012,12 +4033,18 @@ function lgBooks() {
   ${LEAGUE.books.map(b => `<tr><td class="head pk">${esc(b.book)} ${b.region === "CO" ? coTag({ region: "CO" }) : ""}</td><td class="r num" data-v="${b.ml ? b.ml[0] : ""}">${c(b.ml)}</td><td class="r num" data-v="${b.spread ? b.spread[0] : ""}">${c(b.spread)}</td><td class="r num" data-v="${b.total ? b.total[0] : ""}">${c(b.total)}</td><td class="r num" data-v="${b.props ? b.props[0] : ""}">${c(b.props)}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
-// Pick del día (idea 6): el pick con valor de mayor EV de la jornada, con su historial (el de mayor EV de cada jornada)
+// Pick del día (idea 6): el pick con valor de mayor EV de la jornada que sale al menos el 55% de las veces, con su
+// historial (calculado con la misma regla en cada jornada)
 // Cada pestaña tiene el suyo: Liga con los partidos de liga, NBA Cup con los de Copa (13-nov)
 function potd(date, scope = "reg") {
   const vb = INDEX.games.filter(g => g.date === date && inScope(g, scope)).flatMap(g => (g.value_bets || []).filter(notOut(g.id)).map(b => ({ ...b, _gid: g.id, _game: `${g.away} @ ${g.home}` })));
-  return vb.sort((a, b) => b.ev - a.ev)[0] || null;
+  // 15-nov: el de mayor EV entre los que salen al menos el 55% de las veces. Antes ganaba a veces un "Más de 0.5
+  // triples" al 26% con cuota 4.40: tiene valor, pero es una apuesta de cuota alta, no el pick más seguro del día.
+  // Si ninguno llega al 55%, el de mayor probabilidad.
+  const sure = vb.filter(b => b.p >= POTD_MIN_P);
+  return (sure.length ? sure.sort((a, b) => b.ev - a.ev) : vb.sort((a, b) => b.p - a.p))[0] || null;
 }
+const POTD_MIN_P = 0.55, LONG_P = 0.4;
 // Tarjetas de pick (13-nov): foto, el pick en grande, cuota, gráfica de sus últimos 10 partidos contra la línea de hoy
 // y sus cruces recientes contra el rival. Las gráficas se llenan después con docs/data/players/<fecha>.json
 // (hydrateSparks, que corre solo cuando cambia #app). En móvil las tarjetas se deslizan a los lados.
@@ -4029,7 +4056,7 @@ function pickCard(b, thr, big) {
   const rest = b.player && b.label.startsWith(b.player) ? b.label.slice(b.player.length).trim() : b.label;
   const m = rest.match(/^(Over|Under)\s+([\d.]+)\s+(.*)$/);
   return `<article class="pcd${b.ev >= thr ? " is-val" : ""}${big ? " big" : ""}">
-    <header class="pcd-h">${b.player ? face(b.player, true) : ""}<div class="pcd-who"><div class="pcd-n">${b.player ? pn(b.player, gid, b.stat, true) : esc(b.label)}${ftag(b.flag)}</div>
+    <header class="pcd-h">${b.player ? face(b.player, true) : ""}<div class="pcd-who"><div class="pcd-n">${b.player ? pn(b.player, gid, b.stat, true) : esc(b.label)}${ftag(b.flag)}${b.p < LONG_P ? ` <span class="pill flat long" title="Sale menos del ${pct(LONG_P, 0)} de las veces: tiene valor por la cuota alta, pero lo normal es perderlo. Mejor como apuesta pequeña.">Cuota alta · poco probable</span>` : ""}</div>
       <a class="pcd-g" href="#${esc(gid)}">${esc(game)}${g && g.tip_et && !g.result ? ` · ${esc(g.tip_et)} ET` : ""}</a></div>${evPill(b.ev, thr)}</header>
     <div class="pcd-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span><b class="pcd-ln num">${m[2]}</b><span class="pcd-st">${esc(m[3])}</span>` : `<span class="pcd-st">${esc(rest)}</span>`}
       <span class="pcd-odd"><small>Cuota</small><b class="num">${dc}</b>${mvTxt(b)}</span></div>
@@ -4121,14 +4148,34 @@ function planBGroups(todays) {
   return out.sort((x, y) => (x.st === "on" ? 0 : 1) - (y.st === "on" ? 0 : 1) || (tipMs(x.g) || 0) - (tipMs(y.g) || 0));
 }
 const planBHead = (x, link) => `<div class="pb-h">${face(x.who)}<b>Si ${esc(x.who)} no juega</b><span class="tag${x.st === "on" ? " on" : ""}">${x.st === "on" ? "Activado: está OUT" : `Duda${x.A.p_play < 1 ? ` · juega ${pct(x.A.p_play, 0)}` : ""}`}</span>${link ? `<span class="muted">${badge(x.t)} <a href="#${esc(x.g.id)}">${esc(x.g.away)} @ ${esc(x.g.home)}</a>${x.g.tip_et ? ` · ${esc(x.g.tip_et)} ET` : ""}</span>` : ""}</div>`;
+// Plan B compacto (15-nov): un plegable por jugador en duda (abierto solo si ya está activado) y una fila por pick
+// en vez de tarjetas, para que la portada no se alargue. La fila lleva el pick, la cuota, la prob. con y sin él,
+// el EV y los botones de siempre.
+function planBRow(b, thr) {
+  const k = regLeg(b, b._gid, b._game), dc = (b.dec || +dec(b.odds)).toFixed(2);
+  const rest = b.player && b.label.startsWith(b.player) ? b.label.slice(b.player.length).trim() : b.label;
+  const m = rest.match(/^(Over|Under)\s+([\d.]+)\s+(.*)$/);
+  return `<li class="pb-row">
+    <div class="pb-who">${b.player ? pn(b.player, b._gid, b.stat) : esc(b.label)}</div>
+    <div class="pb-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span> <b class="num">${m[2]}</b> ${esc(m[3])}` : esc(rest)}
+      <span class="pb-odd num">@ ${dc}</span></div>
+    <div class="pb-num"><span class="pb-p num" title="Prob. si juega → si no juega">${b.base_p != null ? `${pct(b.base_p, 0)} → ` : ""}<b>${pct(b.p, 0)}</b></span>${evPill(b.ev, thr)}</div>
+    <div class="pb-act">${takeBtn(k)}${addBtn(k)}</div>
+  </li>`;
+}
+function planBGroup(x, thr) {
+  const best = Math.max(...x.picks.map(b => b.ev));
+  return `<details class="pb-grp"${x.st === "on" ? " open" : ""}><summary>${planBHead(x, true)}<span class="pb-n">${x.picks.length} pick${x.picks.length === 1 ? "" : "s"} · mejor ${evTxt(best)}</span></summary>
+    <ul class="pb-rows">${x.picks.map(b => planBRow(b, thr)).join("")}</ul></details>`;
+}
 function planBSection(todays, thr) {
   const G = planBGroups(todays);
   if (!G.length) return "";
   const on = G.filter(x => x.st === "on").length;
   return `<section class="section" id="plan-b">
     <h2>Picks plan B ${qh("planb", "picks plan B")}</h2>
-    <p class="lede">Picks de los compañeros de un jugador en duda que tienen valor con la cuota de hoy <b>si él no juega</b>. La idea es tomarlos antes de que se confirme la baja: cuando sale el parte, la casa sube esas líneas y el valor desaparece. ${on ? `<b>${on === 1 ? "Uno ya está activado" : `${on} ya están activados`}</b>: la baja se confirmó y aún no se ha re-simulado, así que es el momento. ` : ""}Si al final juega, el pick vuelve a ser uno normal sin valor: es una apuesta condicional y no cuenta en las unidades del sistema. La probabilidad es la del pick publicado más el 75% de lo que el modelo cree que cambia sin él.</p>
-    ${G.map(x => `<div class="pb-grp">${planBHead(x, true)}${pickCards(x.picks, thr)}</div>`).join("")}
+    <p class="lede">Picks de compañeros que ganan valor <b>si el jugador en duda no juega</b>: tómalos antes del parte, cuando la casa aún no ha movido la línea. ${on ? `<b>${on === 1 ? "Uno ya está activado" : `${on} ya están activados`}</b>: la baja se confirmó. ` : ""}Es una apuesta condicional y no cuenta en las unidades. Toca un jugador para ver sus picks.</p>
+    <div class="pb-list">${G.map(x => planBGroup(x, thr)).join("")}</div>
   </section>`;
 }
 // cruces favorables: props de hoy contra un rival del sexto que más concede a su posición (Over) o del que menos (Under)
@@ -4206,7 +4253,7 @@ function potdCard(scope = "reg") {
   const w = past.filter(x => x.b.result === "won").length, l = past.filter(x => x.b.result === "lost").length, u = past.reduce((s, x) => s + (x.b.result === "won" ? x.b.dec - 1 : x.b.result === "lost" ? -1 : 0), 0);
   if (!b) return "";
   return `<section class="section potd" aria-labelledby="potd-t">
-    <span class="eyebrow">${scope === "cup" ? "NBA Cup · " : ""}${esc(DAY)} · el pick con valor de mayor EV ${scope === "cup" ? "de los partidos de Copa" : "de la jornada"}</span>
+    <span class="eyebrow">${scope === "cup" ? "NBA Cup · " : ""}${esc(DAY)} · el pick con valor de mayor EV entre los que salen ${pct(POTD_MIN_P, 0)} o más ${scope === "cup" ? "en los partidos de Copa" : "en la jornada"}</span>
     <h2 id="potd-t">Pick del día</h2>
     ${pickCard(b, thr, true)}
     ${past.length ? `<p class="muted potd-rec">Historial del pick del día: <b>${w}–${l}</b> · ${u >= 0 ? "+" : "−"}${Math.abs(u).toFixed(2)} u en ${past.length} jornada${past.length === 1 ? "" : "s"}.</p>` : ""}
