@@ -1183,6 +1183,65 @@ def apply_flags(r, flags):
     return r
 
 
+# Picks plan B (pedido de Nicolas, 15-nov): cuando un jugador está en duda, los compañeros que suben si no juega se
+# pueden tomar ANTES de que se confirme la baja, mientras la casa aún tiene la línea "con él" (después la sube y el
+# pick pierde el valor; p. ej. CLE sin sus titulares el 14-nov). Para cada jugador que without.py simula fuera:
+# p_plan_b = p publicada (modelo mezclado con la casa, con él según su prob. de jugar) + PLANB_SHIFT x (p del modelo
+# sin él - p del modelo publicada). Es decir: la mezcla con la casa se queda como está (el nivel lo pone la casa) y se
+# suma lo que el modelo cree que cambia por su ausencia (los minutos y tiros que reparte). PLANB_SHIFT < 1 porque
+# los suplentes no siempre heredan todo lo que el modelo les reparte. Pasa a plan B si con la cuota de hoy tiene
+# EV >= VALUE_EV y sube al menos PLANB_GAIN de probabilidad; solo compañeros de su equipo, mismas reglas de los picks
+# (cuota a ambos lados, sin Unders de rookies, 1 por familia y MAX_PER_PLAYER por jugador), como mucho PLANB_MAX por
+# ausente. No cuentan en el tope de MAX_DAILY ni en las unidades del sistema: son condicionales. Al liquidar se
+# guardan como "void" si el ausente al final jugó.
+PLANB_SHIFT = 0.75
+PLANB_GAIN = 0.04
+PLANB_MAX = 4
+PLANB_INDEX = ("kind", "label", "player", "team", "stat", "side", "line", "dec", "p", "base_p", "ev", "if_out", "mean",
+               "mean0")  # lo que va a index.json (la portada); el JSON del partido guarda todo
+PLANB_KEEP = ("kind", "label", "player", "team", "stat", "side", "line", "odds", "dec", "odds_ref", "dec_ref", "hr", "flag")
+
+
+def plan_b_bets(cfg, base, flags, absent, team, sw):
+    """base: {bet_key: apuesta publicada (ya mezclada)}; sw: simulación sin `absent`."""
+    out = []
+    pl = {nm: v for nm, v in cfg.get("prop_lines", {}).items()
+          if nm != absent and nm in sw["players"] and sw["players"][nm]["team"] == team
+          and (sw["players"][nm]["draws"]["min"] > 0).any()}
+    for w in prop_bets({"prop_lines": pl}, sw):
+        if w.get("alt") or w["team"] != team or w["player"] == absent:
+            continue
+        b = base.get(bet_key(w))
+        if not b or b.get("p_mkt") is None or b.get("line") != w["line"]:
+            continue
+        if w["side"] == "under" and (flags.get(w["player"]) or {}).get("t") in NO_UNDER_FLAGS:
+            continue
+        p = min(max(b["p"] + PLANB_SHIFT * (w["p"] - b["p_model"]), 0.01), 0.99)
+        ev = p * b["dec"] - 1
+        if ev < VALUE_EV or p - b["p"] < PLANB_GAIN:
+            continue
+        d = sw["players"][w["player"]]["draws"]
+        on = d["min"] > 0
+        x = {k: b[k] for k in PLANB_KEEP if k in b}
+        x.update(p=round(float(p), 3), ev=round(float(ev), 3), p_model=round(float(w["p"]), 3), base_p=b["p"],
+                 base_ev=b["ev"], fair=prob_to_american(p), if_out=absent,
+                 mean=round(float(d[w["stat"]][on].mean()), 1) if w["stat"] in d and on.any() else None,
+                 mean0=b.get("mean"))
+        out.append(x)
+    out.sort(key=lambda x: -x["ev"])
+    keep, per, fam = [], {}, set()
+    for x in out:
+        f = (x["player"], PICK_FAMILY.get(x["stat"], x["stat"]))
+        if f in fam or per.get(x["player"], 0) >= MAX_PER_PLAYER:
+            continue
+        fam.add(f)
+        per[x["player"]] = per.get(x["player"], 0) + 1
+        keep.append(x)
+        if len(keep) >= PLANB_MAX:
+            break
+    return keep
+
+
 def game_id(path):
     return os.path.basename(path)[:-5].replace("@", "-at-").replace("_", "-")
 
@@ -1260,7 +1319,10 @@ def run_game(path, n):
     r["model_picks"] = model_picks(cfg, s)
     add_hit_rates(cfg, r["bets"] + r["model_picks"])
     r["rotation"] = rotation_view(cfg, summ)
-    r["without"] = without_view(cfg, s, n)  # "Sin un jugador": compañeros con / sin cada titular
+    add_means(r)
+    base = {bet_key(b): b for b in r["bets"] if b["kind"] == "prop" and not b.get("alt")}
+    flags = player_flags(g["date"], path)
+    r["without"] = without_view(cfg, s, n, plan_b=lambda a, t, sw: plan_b_bets(cfg, base, flags, a, t, sw))  # "Sin un jugador" + picks plan B
     r["alt_bets"] = [b for b in r["bets"] if b.get("alt")]
     r["bets"] = [b for b in r["bets"] if not b.get("alt")]
     r["ladders"] = ladders(cfg, s, r["bets"] + r["alt_bets"])
@@ -1342,6 +1404,16 @@ def attach_result(r, res):
         b["result"] = "push" if x is None else ("won" if x else "lost")
     for pl in r.get("parlays", []):
         pl["result"] = settle_parlay(pl, {r["id"]: dict(game=g, res=res)})
+    for W in (r.get("without") or {}).values():  # picks plan B: solo cuentan si el ausente al final no jugó
+        for A in W.get("absent") or []:
+            if not A.get("plan_b"):
+                continue
+            al = actual_line(res["players"], A["name"])
+            met = not (al and al["min"] > 0)
+            A["plan_b_met"] = met
+            for b in A["plan_b"]:
+                x = settle(b, g, res) if met else None
+                b["result"] = "void" if not met else "push" if x is None else ("won" if x else "lost")
     return r
 
 
@@ -1370,8 +1442,13 @@ def wo_index(r):
                 real[O["name"]] = sorted(ms, key=lambda x: -x[1])[:3]
         doubt = [[p["name"], round(p["p_play"], 2)] for p in r["summary"]["players"]
                  if p["team"] == t and p.get("p_play", 1) < 0.95 and p["name"] in mod]
-        if mod or real:
+        planb = {A["name"]: dict(p_play=A.get("p_play", 1.0), min=A.get("min"),
+                                 picks=[{k: b[k] for k in PLANB_INDEX if b.get(k) is not None} for b in A["plan_b"]])
+                 for A in W.get("absent") or [] if A.get("plan_b")}
+        if mod or real or planb:
             out[t] = dict(model=mod, real=real, doubt=doubt)
+            if planb:
+                out[t]["planb"] = planb
     return out
 
 

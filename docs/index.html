@@ -263,7 +263,7 @@ tr.detail td { background: var(--bg) }
 .co { font: 600 9px var(--mono); letter-spacing: .04em; color: #fff; background: #1a4fa0; border-radius: 3px; padding: 1px 3px; margin-left: 4px; vertical-align: 1px }
 .bestco { margin-top: 3px }
 .res { font: 600 11px var(--mono); letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; white-space: nowrap }
-.res.won { background: var(--good-soft); color: var(--good) }
+.res.won { background: var(--good-soft); color: var(--good) } .res.void { background: var(--bg); color: var(--muted) }
 .res.lost { background: var(--bad-soft); color: var(--bad) }
 .res.push { background: var(--accent-soft); color: var(--accent) }
 .final { font: 500 13px var(--mono) }
@@ -1001,6 +1001,14 @@ table.sortable thead th[aria-sort="ascending"]::after { content: " ▲"; font-si
 .bst li .pname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
 .bst li .muted { grid-column: 1 / -1; font-size: 11.5px }
 .bst .up { font: 700 14px var(--mono); color: var(--good) }
+/* picks plan B (15-nov): picks que valen si un jugador en duda no juega */
+.pb-grp { display: grid; gap: 8px; margin: 14px 0 6px } .pb-grp + .pb-grp { border-top: 1px solid var(--line); padding-top: 14px }
+.pb-h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap } .pb-h .av { width: 36px; height: 36px; margin: 0; font-size: 12px }
+.pb-h b { font: 700 15px/1.2 var(--display); text-transform: uppercase; letter-spacing: .01em }
+.pb-h .tag { font: 600 10.5px var(--mono); text-transform: uppercase; letter-spacing: .04em; padding: 3px 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent) }
+.pb-h .tag.on { background: var(--good-soft); color: var(--good) }
+.pb-h .muted { font: 500 11.5px var(--mono) } .pb-h .muted a { color: inherit }
+.pcd-pb { font-size: 12px; padding: 6px 8px; border-radius: 8px; background: var(--accent-soft); color: var(--ink, inherit) }
 .mup-pick { font: 600 15px var(--body) }
 .mup-dvp { display: flex; align-items: center; gap: 10px; font-size: 13px }
 .mup-dvp .rk { display: grid; justify-items: center; flex: none; min-width: 52px; padding: 6px 4px; border-radius: 10px; font: 700 20px/1 var(--display) }
@@ -1278,7 +1286,7 @@ const coTag = o => o.region === "CO" ? `<span class="co" title="Casa de Colombia
 function bookList(b) {
   return `<div class="books">${b.books.map(o => `<span class="book${o.ev >= INDEX.value_ev ? " good" : o.ev < 0 ? " bad" : ""}"><b>${esc(o.book)}</b>${coTag(o)} ${esc(lineTxt(b, o.line))}@ ${o.dec.toFixed(2)} <i>${evTxt(o.ev)}</i></span>`).join("")}</div>`;
 }
-const RES = { won: "Ganada", lost: "Perdida", push: "Nula" };
+const RES = { won: "Ganada", lost: "Perdida", push: "Nula", void: "No aplicó" };
 // Las tres actualizaciones diarias (build_site.py --stage): resultados de madrugada, análisis de la mañana y
 // revisión de bajas antes del primer partido. INDEX.updates = {jornada: {etapa: hora UTC}}.
 const STAGE = { results: "Resultados de la jornada", morning: "Análisis y cuotas", pregame: "Revisión de bajas" };
@@ -1689,6 +1697,7 @@ function renderIndex(scope = "reg") {
     <div id="picks"></div>
     ${howto}
   </section>
+  ${planBSection(todays, thr)}
   ${boostSection(todays)}
   ${matchupSection(allBets, thr)}
   ${movesSection(allBets, todays)}
@@ -2505,6 +2514,7 @@ function woSection(d) {
 }
 function woBind(d) {
   const W = d.without; if (!W) return;
+  const g0 = d.game;
   const L0 = d.result ? [] : lateOuts(d.id);
   let t = L0.length ? L0[0].team : d.game.away, who = L0.length ? L0[0].player : null, k = "all";
   const delta = (x, y, p) => { if (x == null || y == null) return ""; const dl = y - x, s = p ? Math.round(dl * 100) : Math.round(dl * 10) / 10;
@@ -2541,6 +2551,12 @@ function woBind(d) {
         <div class="panel tbl-wrap"><table class="stack"><thead><tr><th>Compañero</th><th class="r">PJ sin</th>${ks.map(s => `<th class="r">${s === "min" ? "Min" : STAT_SHORT[s]}</th>`).join("")}</tr></thead><tbody>
         ${mates.map(([n, m]) => `<tr><td class="head">${esc(n)}</td><td class="r num" data-label="PJ sin él">${m.out.n}</td>${ks.map(s => `<td class="r num" data-label="${s === "min" ? "Minutos" : STAT_LABEL[s]}">${m.out[s] == null ? "—" : cell(m.in?.[s], m.out[s])}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div>`;
     } else if (M) html += `<p class="foot">Esta temporada ${esc(t)} no ha jugado ningún partido sin ${esc(A.name)}: solo hay proyección del modelo.</p>`;
+    if (A.plan_b && A.plan_b.length) {
+      const thr = INDEX.value_ev ?? 0.03, met = A.plan_b_met;
+      html = `<div class="wo-real"><h3>Picks plan B si no juega ${esc(A.name)}</h3>
+        <p class="muted">${d.result ? (met === false ? "Al final jugó: estos picks no aplicaron." : "Al final no jugó: así les fue.") : "Tienen valor con la cuota de hoy si él no juega; tómalos antes de que se confirme la baja y la casa mueva la línea."}</p>
+        ${pickCards(A.plan_b.map(b => ({ ...b, _gid: d.id, _game: `${g0.away} @ ${g0.home}` })), thr)}</div>` + html;
+    }
     if (M) html += `<p class="foot">Modelo: la misma simulación del partido con ${esc(A.name)} fuera. Sus minutos se reparten entre los demás y sus tiros pasan a los compañeros; al ataque de ${esc(t)} se le resta una parte de lo que aporta por encima de un suplente. Línea = la de la casa si existe, si no la línea justa con él; P(over) es la probabilidad de superar esa misma línea con y sin él. El color marca los cambios de 0.5 o más (3 puntos de probabilidad).</p>`;
     $("#wo-body").innerHTML = html;
   };
@@ -3433,6 +3449,11 @@ const GUIDE = [
     <ul><li><b>Modelo</b>: se repite la misma simulación del partido con ese jugador fuera. Sus minutos se reparten entre los que juegan y sus tiros pasan a los compañeros; el ataque del equipo baja un poco según lo que aporta por encima de un suplente. Verás la media <b>con él → sin él</b> y, por estadística, la probabilidad de superar la misma línea.</li>
     <li><b>Real</b>: los partidos de esta temporada en que su equipo jugó sin él, con el promedio de cada compañero con y sin él. Los que ya están <b>OUT hoy</b> solo tienen esta parte, porque el modelo ya los deja fuera.</li></ul>
     <p>Úsalo cuando se confirma una baja de última hora: los props que más suben son candidatos a over antes de que la casa mueva la línea.</p>`],
+  ["planb", "Picks plan B", "Picks plan B", () => `<p>Cuando un jugador está <b>en duda</b> (cuestionable o dudoso en el parte), el modelo repite la simulación del partido sin él y busca los props de sus compañeros que, con la cuota que la casa tiene hoy, tendrían valor <b>si él no juega</b>.</p>
+    <ul><li><b>Por qué antes</b>: cuando se confirma la baja, la casa sube las líneas de los que heredan sus minutos y tiros (o baja su cuota) y el valor desaparece. El plan B es para tomarlo antes, sabiendo que es una apuesta condicional.</li>
+    <li><b>Probabilidad</b>: la del pick publicado (modelo mezclado con la casa) más el 75% de lo que el modelo cree que cambia sin él. Pasa a plan B con EV ≥ +3% y si sube al menos 4 puntos; solo compañeros de su equipo, como mucho 4 por jugador en duda.</li>
+    <li><b>Activado</b>: si la baja se confirma antes de la re-simulación, el plan B sale primero con la marca <b>Activado</b>. Cuando se re-simula, ya sin él, sus picks pasan a los picks normales del día con la línea nueva.</li>
+    <li><b>Seguimiento</b>: no cuentan en las unidades del sistema ni en el tope de 15 picks. En el partido, si al final jugó, salen como <b>No aplicó</b>.</li></ul>`],
   ["props", "Player props", "Player props proyectados", () => `<dl>
     <dt>Min</dt><dd>Minutos que se espera que juegue.</dd>
     <dt>Media</dt><dd>Su promedio en las simulaciones.</dd>
@@ -3987,6 +4008,7 @@ function pickCard(b, thr, big) {
     <div class="pcd-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span><b class="pcd-ln num">${m[2]}</b><span class="pcd-st">${esc(m[3])}</span>` : `<span class="pcd-st">${esc(rest)}</span>`}
       <span class="pcd-odd"><small>Cuota</small><b class="num">${dc}</b>${mvTxt(b)}</span></div>
     ${bajaWarn(b, gid)}
+    ${b.if_out ? `<div class="pcd-pb">Si no juega <b>${esc(b.if_out)}</b>: prob. ${pct(b.base_p, 0)} → <b>${pct(b.p, 0)}</b>${b.mean0 != null && b.mean != null ? `, proyección ${b.mean0} → <b>${b.mean}</b>` : ""}${g && (g.value_bets || []).some(v => v.label === b.label) ? " (ya es pick del día)" : ""}</div>` : ""}
     ${spkTag(b, "pcd-viz")}
     <div class="pcd-stats"><div><small>Prob. modelo</small><b>${pct(b.p, 0)}</b></div><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div><small>DvP rival</small>${hrDvp(b)}</div>` : ""}</div>
     <footer class="pcd-f">${takeBtn(k)}${addBtn(k)}${b.result ? resPill(b.result) : ""}<a class="pcd-go" href="#${esc(gid)}">Ver partido →</a></footer>
@@ -4052,6 +4074,35 @@ function boostSection(todays) {
     <h2>Beneficiados por bajas</h2>
     <p class="lede">Quién sube si falta un compañero: bajas de última hora y dudas (con la simulación sin él) y los que ya están fuera hoy (lo que hicieron sus compañeros en los partidos reales sin él). Toca un nombre para ver su ficha.</p>
     ${miniWrap(items)}
+  </section>`;
+}
+// Picks plan B (15-nov, pedido de Nicolas): si un jugador está en duda (prob. de jugar < 95% en la simulación o
+// "duda" en bajas.json), los picks de sus compañeros que tienen valor con la cuota de hoy SI él no juega (index
+// "wo"[equipo].planb, de build_site.plan_b_bets). Si bajas.json lo da OUT antes de re-simular, el plan B queda
+// "activado" y sale primero: es el momento de tomarlo, antes de que la casa ajuste la línea.
+function planBGroups(todays) {
+  const out = [];
+  todays.filter(g => !g.result && g.wo && !gameLocked(g)).forEach(g => [g.away, g.home].forEach(t => {
+    const P = (g.wo[t] || {}).planb; if (!P) return;
+    Object.entries(P).forEach(([who, A]) => {
+      const bj = BAJAS.find(b => b.gid === g.id && nName(b.player) === nName(who));
+      const st = bj ? (bj.status === "out" ? (bj.sim ? null : "on") : "duda") : A.p_play < 0.95 ? "duda" : null;
+      if (!st) return;
+      const picks = A.picks.filter(b => !isOut(g.id, b.player)).map(b => ({ ...b, _gid: g.id, _game: `${g.away} @ ${g.home}` }));
+      if (picks.length) out.push({ g, t, who, A, st, picks });
+    });
+  }));
+  return out.sort((x, y) => (x.st === "on" ? 0 : 1) - (y.st === "on" ? 0 : 1) || (tipMs(x.g) || 0) - (tipMs(y.g) || 0));
+}
+const planBHead = (x, link) => `<div class="pb-h">${face(x.who)}<b>Si ${esc(x.who)} no juega</b><span class="tag${x.st === "on" ? " on" : ""}">${x.st === "on" ? "Activado: está OUT" : `Duda${x.A.p_play < 1 ? ` · juega ${pct(x.A.p_play, 0)}` : ""}`}</span>${link ? `<span class="muted">${badge(x.t)} <a href="#${esc(x.g.id)}">${esc(x.g.away)} @ ${esc(x.g.home)}</a>${x.g.tip_et ? ` · ${esc(x.g.tip_et)} ET` : ""}</span>` : ""}</div>`;
+function planBSection(todays, thr) {
+  const G = planBGroups(todays);
+  if (!G.length) return "";
+  const on = G.filter(x => x.st === "on").length;
+  return `<section class="section" id="plan-b">
+    <h2>Picks plan B ${qh("planb", "picks plan B")}</h2>
+    <p class="lede">Picks de los compañeros de un jugador en duda que tienen valor con la cuota de hoy <b>si él no juega</b>. La idea es tomarlos antes de que se confirme la baja: cuando sale el parte, la casa sube esas líneas y el valor desaparece. ${on ? `<b>${on === 1 ? "Uno ya está activado" : `${on} ya están activados`}</b>: la baja se confirmó y aún no se ha re-simulado, así que es el momento. ` : ""}Si al final juega, el pick vuelve a ser uno normal sin valor: es una apuesta condicional y no cuenta en las unidades del sistema. La probabilidad es la del pick publicado más el 75% de lo que el modelo cree que cambia sin él.</p>
+    ${G.map(x => `<div class="pb-grp">${planBHead(x, true)}${pickCards(x.picks, thr)}</div>`).join("")}
   </section>`;
 }
 // cruces favorables: props de hoy contra un rival del sexto que más concede a su posición (Over) o del que menos (Under)
