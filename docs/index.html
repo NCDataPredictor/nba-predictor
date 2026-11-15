@@ -1950,7 +1950,7 @@ function dreamPair(a, b, pl) {
 // ¿cumplen las patas las reglas duras? (jugador sin repetir, máx. 2 por partido y sin estorbarse, máx. mitad Unders)
 function dreamOk(legs, pl) {
   if (new Set(legs.map(l => l.player)).size < legs.length) return false;
-  if (legs.filter(l => l.side === "under").length > DREAM_RULES.under * legs.length) return false;
+  if (legs.filter(l => l.side === "under").length > (pl.max_under ?? DREAM_RULES.under) * legs.length) return false;
   const by = {};
   legs.forEach(l => (by[l.gid] = by[l.gid] || []).push(l));
   return Object.values(by).every(g => g.length <= DREAM_RULES.perGame && (g.length < 2 || (dreamPair(g[0], g[1], pl) ?? 0) >= DREAM_RULES.corr));
@@ -2002,6 +2002,7 @@ function dreamCard(pl, thr) {
       <div class="cell"><span class="k">Cuota justa</span><span class="v">${t.fair ? t.fair.toFixed(2) : "—"}</span></div>
       <div class="cell"><span class="k">${pl.units != null ? "Unidades" : "EV"}</span><span class="v">${pl.units != null ? `${pl.units >= 0 ? "+" : ""}${pl.units.toFixed(2)} u` : evPill(t.ev, thr)}</span></div>
     </div>
+    ${pl.relaxed ? `<p class="pl-corr">Hoy con las reglas normales no llegaba a cuota 50, así que se aflojaron un poco: ${[pl.relaxed.leg_p ? `patas desde ${Math.round(pl.relaxed.leg_p * 100)}% de prob. (en vez de 55%)` : "", pl.relaxed.max_under ? `hasta ${Math.round(pl.relaxed.max_under * 100)}% de Unders (en vez de la mitad)` : ""].filter(Boolean).join(" y ")}.</p>` : ""}
     ${legs.some((l, i) => pl.legs[i]._out) && pl.result == null ? `<p class="pl-corr bj-w">Baja de última hora: ${pl.legs.filter(l => l._out).map(l => esc(l.player)).join(" y ")} no juega${pl.legs.filter(l => l._out).length > 1 ? "n" : ""}. ${DREAM_AUTO.size ? "Su pata se cambió por la más probable que cumple las reglas del soñador." : "No hay reemplazo que cumpla las reglas: la pata queda anulada."}</p>` : ""}
     ${anySw ? `<p class="pl-corr">Con ${DREAM_AUTO.size && DREAM_AUTO.size === Object.keys(DREAM_SW).length ? "los cambios por bajas" : "tus reemplazos"}: la publicada era cuota ${pl.dec.toFixed(2)} y ${pct(pl.p)}.${out ? " La cuota total queda fuera de 50–200." : ""} El seguimiento del soñador sigue contando la publicada.${Object.keys(DREAM_SW).some(k => !DREAM_AUTO.has(+k)) ? ` <button type="button" class="ds-btn" data-dsw-reset>Volver a la publicada</button>` : ""}</p>` : ""}
     ${plAddBtn({ ...pl, legs: legs.filter(l => !l._out) })}
