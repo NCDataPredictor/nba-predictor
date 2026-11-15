@@ -11,14 +11,17 @@
    "DAL: Gafford, Christie, de Larrea, Lively y Biberovic OUT",
    "BOS: sin bajas; Paul George fuera del parte (juega)",
    "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
-   "ML BOS -835 -> -900 (comparador Covers 14:50 ET)"
+   "ML BOS -835 -> -900 (comparador Covers 14:50 ET)",
+   "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable"
   ],
   "out": [
-   "Daniel Gafford",
    "Max Christie",
    "Sergio de Larrea"
   ],
-  "gtd": {},
+  "gtd": {
+   "Kyrie Irving": 0.5,
+   "Santi Aldama": 0.6
+  },
   "reserves": {
    "DAL": [
     {
@@ -109,13 +112,13 @@
     "pace": 102.9
    },
    "adj": {
-    "o": -1.5,
-    "d": 1.5,
+    "o": -1.25,
+    "d": 1.25,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": "Gafford (cara) y Christie (tobillo) OUT"
+    "roster_note": "Christie (tobillo) OUT/doubtful"
    }
   }
  },
@@ -626,7 +629,7 @@
    "name": "Cooper Flagg",
    "pos": "SF",
    "starter": true,
-   "min": 35.6,
+   "min": 32.5,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -668,7 +671,7 @@
    "name": "P.J. Washington",
    "pos": "PF",
    "starter": true,
-   "min": 33.4,
+   "min": 30.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -703,16 +706,16 @@
     "ftm": 2.23,
     "fta": 3.25
    },
-   "slot": "C"
+   "slot": "PF"
   },
   {
    "team": "DAL",
    "name": "Kyrie Irving",
    "pos": "PG",
    "starter": true,
-   "min": 32.2,
+   "min": 29.5,
    "g_cur": 11,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 30.7,
     "pts": 22.7,
@@ -752,7 +755,7 @@
    "name": "Naji Marshall",
    "pos": "SF",
    "starter": false,
-   "min": 26.3,
+   "min": 24.1,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -792,8 +795,8 @@
    "team": "DAL",
    "name": "Zaccharie Risacher",
    "pos": "SF",
-   "starter": true,
-   "min": 24.7,
+   "starter": false,
+   "min": 22.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -827,15 +830,56 @@
     "pf": 2.19,
     "ftm": 0.87,
     "fta": 1.34
+   }
+  },
+  {
+   "team": "DAL",
+   "name": "Daniel Gafford",
+   "pos": "C",
+   "starter": true,
+   "min": 20.4,
+   "g_cur": 13,
+   "p_play": 1.0,
+   "cur": {
+    "min": 21.2,
+    "pts": 9.2,
+    "reb": 5.1,
+    "ast": 1.8,
+    "fg3m": 0.2,
+    "fgm": 3.6,
+    "fga": 5.1,
+    "fg3a": 0.2,
+    "stl": 0.6,
+    "blk": 1.7,
+    "tov": 1.3,
+    "pf": 3.2,
+    "ftm": 1.7,
+    "fta": 2.6
    },
-   "slot": "PF"
+   "prior": {
+    "min": 21.7,
+    "pts": 9.53,
+    "reb": 6.87,
+    "ast": 1.05,
+    "fg3m": 0.0,
+    "fgm": 3.76,
+    "fga": 5.75,
+    "fg3a": 0.0,
+    "stl": 0.76,
+    "blk": 1.25,
+    "tov": 1.15,
+    "pf": 2.62,
+    "ftm": 2.0,
+    "fta": 2.93
+   },
+   "slot": "C"
   },
   {
    "team": "DAL",
    "name": "Caleb Martin",
    "pos": "SG",
    "starter": true,
-   "min": 21.4,
+   "min": 19.6,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -877,7 +921,7 @@
    "name": "Walter Clayton Jr.",
    "pos": "PG",
    "starter": false,
-   "min": 17.4,
+   "min": 15.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -918,7 +962,7 @@
    "name": "Morez Johnson Jr.",
    "pos": "C",
    "starter": false,
-   "min": 17.4,
+   "min": 15.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -959,7 +1003,7 @@
    "name": "Marcus Sasser",
    "pos": "PG",
    "starter": false,
-   "min": 16.4,
+   "min": 15.0,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -1000,9 +1044,9 @@
    "name": "Santi Aldama",
    "pos": "PF",
    "starter": false,
-   "min": 15.3,
+   "min": 14.0,
    "g_cur": 5,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 14.6,
     "pts": 8.0,

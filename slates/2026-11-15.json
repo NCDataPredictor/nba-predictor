@@ -3148,20 +3148,25 @@
      "o": 0.0,
      "d": 0.5,
      "why": "Jaxson Hayes OUT (rodilla)"
+    },
+    "SAS": {
+     "o": -1.0,
+     "d": 0.5,
+     "why": "Fox (cadera) OUT"
     }
    },
    "out": [
     "Jaxson Hayes",
     "Lauri Markkanen",
-    "Jaren Jackson Jr."
+    "Jaren Jackson Jr.",
+    "De'Aaron Fox"
    ],
-   "gtd": {
-    "De'Aaron Fox": 0.6
-   },
+   "gtd": {},
    "notes": [
     "UTA: Hayes OUT (rodilla), Markkanen (mano, ~1 mes) y Jaren Jackson Jr. (MCL) OUT; Nurkic y T. Alexander fuera",
     "SAS: Tobias Harris y Quaintance OUT (no están en cur.csv)",
-    "SAS: Fox (cadera) QUESTIONABLE, NBC Sports 13:23 ET; ML -1540 -> -1200 (comparador Covers 14:50 ET)"
+    "SAS: Fox (cadera) QUESTIONABLE, NBC Sports 13:23 ET; ML -1540 -> -1200 (comparador Covers 14:50 ET)",
+    "Revisión 16:00 ET: Fox OUT (NBC/Rotoworld 15:29 ET); ML SAS -1200 sin cambios (comparador Covers)"
    ]
   },
   {
@@ -3205,23 +3210,26 @@
    ],
    "adj": {
     "DAL": {
-     "o": -0.5,
-     "d": 0.5,
-     "why": "Gafford (cara) y Christie (tobillo) OUT"
+     "o": -0.25,
+     "d": 0.25,
+     "why": "Christie (tobillo) OUT/doubtful"
     }
    },
    "out": [
-    "Daniel Gafford",
     "Max Christie",
     "Sergio de Larrea"
    ],
-   "gtd": {},
+   "gtd": {
+    "Kyrie Irving": 0.5,
+    "Santi Aldama": 0.6
+   },
    "notes": [
     "DAL en back-to-back (jugó el 14-nov en CLE)",
     "DAL: Gafford, Christie, de Larrea, Lively y Biberovic OUT",
     "BOS: sin bajas; Paul George fuera del parte (juega)",
     "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
-    "ML BOS -835 -> -900 (comparador Covers 14:50 ET)"
+    "ML BOS -835 -> -900 (comparador Covers 14:50 ET)",
+    "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable"
    ]
   },
   {

@@ -182,7 +182,54 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "eb84c77a0959338f",
+   "at": "2026-11-15T21:06+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-SAS-at-UTA",
+   "title": "SAS @ UTA (5:00 pm ET): cambian los picks",
+   "body": "Bajas: Fox OUT. Picks nuevos: Dylan Harper Over 9.5 REB+AST; Keldon Johnson Over 14.5 PTS+REB.",
+   "label": "Revisión 16:00 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-SAS-at-UTA",
+   "added": [
+    "Dylan Harper Over 9.5 REB+AST",
+    "Keldon Johnson Over 14.5 PTS+REB"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "De'Aaron Fox"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "ccf831121b575284",
+   "at": "2026-11-15T21:06+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-DAL-at-BOS",
+   "title": "DAL @ BOS (6:00 pm ET): picks plan B",
+   "body": "En duda: Irving, Aldama. Plan B: Naji Marshall Over 17.5 PTS+REB+AST; Cooper Flagg Over 28.5 PTS+REB.",
+   "label": "Revisión 16:00 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-DAL-at-BOS",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Kyrie Irving",
+    "Santi Aldama"
+   ],
+   "back": [],
+   "planb": [
+    "Naji Marshall Over 17.5 PTS+REB+AST",
+    "Cooper Flagg Over 28.5 PTS+REB"
+   ],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-15T18:45+00:00"
+ "updated": "2026-11-15T21:06+00:00"
 }

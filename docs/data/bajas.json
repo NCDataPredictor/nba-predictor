@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:02+00:00",
+ "updated": "2026-11-15T21:05+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -263,7 +263,7 @@
    "note": "Cadera; descartado vs UTA",
    "source": "NBC/Rotoworld 15:29 ET",
    "at": "2026-11-15T21:02+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }
