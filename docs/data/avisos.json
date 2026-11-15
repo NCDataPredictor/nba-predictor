@@ -291,7 +291,51 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "663556e1594bcac4",
+   "at": "2026-11-15T23:34+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-HOU-at-WAS",
+   "title": "HOU @ WAS (7:00 pm ET): cambian los picks",
+   "body": "Bajas: Johnson OUT. Sale: Tre Johnson Under 11.5 PTS+AST.",
+   "label": "Revisión 18:30 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-HOU-at-WAS",
+   "added": [],
+   "removed": [
+    "Tre Johnson Under 11.5 PTS+AST"
+   ],
+   "moved": [],
+   "outs": [
+    "Tre Johnson"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "98b1599d3f51595b",
+   "at": "2026-11-15T23:34+00:00",
+   "date": "2026-11-15",
+   "gid": "2026-11-15-ATL-at-MIL",
+   "title": "ATL @ MIL (8:00 pm ET): cambian los picks",
+   "body": "Bajas: Rollins OUT. Sale: Kyle Kuzma Under 7.5 REB+AST.",
+   "label": "Revisión 18:30 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-ATL-at-MIL",
+   "added": [],
+   "removed": [
+    "Kyle Kuzma Under 7.5 REB+AST"
+   ],
+   "moved": [],
+   "outs": [
+    "Ryan Rollins"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-15T22:33+00:00"
+ "updated": "2026-11-15T23:34+00:00"
 }

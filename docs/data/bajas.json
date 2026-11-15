@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:32+00:00",
+ "updated": "2026-11-15T23:33+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -230,7 +230,7 @@
    "note": "Enfermedad; descartado vs ATL",
    "source": "NBC Sports 18:19 ET",
    "at": "2026-11-15T23:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-15",
@@ -274,7 +274,7 @@
    "note": "Espalda; descartado vs HOU",
    "source": "NBC Sports/RotoWire 17:34 ET",
    "at": "2026-11-15T23:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-15",
