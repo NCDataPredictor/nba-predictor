@@ -1585,16 +1585,23 @@
     "Jarrett Allen",
     "Peyton Watson"
    ],
-   "gtd": {
-    "Morez Johnson Jr.": 0.85
-   },
+   "gtd": {},
    "notes": [
     "CLE en back-to-back (jugó el 13-nov en MIA)",
     "Mobley (dedo del pie) fue baja el 13-nov y no tiene línea hoy: OUT. Merrill (codo) OUT",
     "DAL: Lively, Biberovic y de Larrea OUT (CBS hasta ≥18-nov) (Lively no figura en la rotación de este año)",
     "Christie (tobillo) en duda: 0.5; Morez Johnson Jr. probable: 0.85",
     "Covers matchup y comparador vacíos: consenso scoresandodds (DAL +1.5, 231.5, ML +105/-125)"
-   ]
+   ],
+   "starters": {
+    "CLE": [
+     "Tyrese Proctor",
+     "Meleek Thomas",
+     "Jaylon Tyson",
+     "Mario Hezonja",
+     "Thomas Bryant"
+    ]
+   }
   },
   {
    "away": "DET",
@@ -1616,9 +1623,7 @@
     "Isaiah Joe",
     "Pelle Larsson"
    ],
-   "gtd": {
-    "Klay Thompson": 0.85
-   },
+   "gtd": {},
    "notes": [
     "MIA en back-to-back (jugó el 13-nov vs CLE)",
     "Klay Thompson (tobillo) y Pelle Larsson (enfermedad) fueron baja el 13-nov; las casas les dan líneas hoy: 0.7",
@@ -1645,7 +1650,8 @@
     "Dailyn Swain",
     "Tobe Awaka",
     "Anthony Edwards",
-    "Jalen Smith"
+    "Jalen Smith",
+    "Nic Claxton"
    ],
    "gtd": {},
    "notes": [
@@ -1669,17 +1675,22 @@
    "b2b": [
     "MEM"
    ],
-   "adj": {},
+   "adj": {
+    "BKN": {
+     "o": -2.0,
+     "d": 0.5,
+     "why": "Michael Porter Jr. OUT (personal, 19:02 ET)"
+    }
+   },
    "out": [
     "Quinten Post",
     "Scotty Pippen Jr.",
-    "Ty Jerome"
+    "Ty Jerome",
+    "Michael Porter Jr.",
+    "Jerami Grant"
    ],
    "gtd": {
-    "Zach Edey": 0.65,
-    "Mikel Brown Jr.": 0.85,
-    "Nolan Traore": 0.9,
-    "Jerami Grant": 0.5
+    "Zach Edey": 0.65
    },
    "notes": [
     "MEM en back-to-back (jugó el 13-nov en NOP)",

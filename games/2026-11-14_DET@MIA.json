@@ -16,9 +16,7 @@
    "Isaiah Joe",
    "Pelle Larsson"
   ],
-  "gtd": {
-   "Klay Thompson": 0.85
-  },
+  "gtd": {},
   "reserves": {
    "DET": [
     {
@@ -317,7 +315,7 @@
    "starter": true,
    "min": 26.7,
    "g_cur": 11,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 24.8,
     "pts": 14.4,

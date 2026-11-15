@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:10+00:00",
+ "updated": "2026-11-15T00:12+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -98,7 +98,7 @@
    "note": "personal; descartado vs MEM",
    "source": "Underdog NBA (X, captura 19:08 ET)",
    "at": "2026-11-15T00:10+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-14",
@@ -109,7 +109,7 @@
    "note": "cabeza; descartado vs BKN",
    "source": "Underdog NBA (X, captura 19:08 ET)",
    "at": "2026-11-15T00:10+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-14",
@@ -142,7 +142,7 @@
    "note": "manejo de carga; descartado vs MIN",
    "source": "Underdog NBA (X, captura 19:08 ET)",
    "at": "2026-11-15T00:10+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-14",

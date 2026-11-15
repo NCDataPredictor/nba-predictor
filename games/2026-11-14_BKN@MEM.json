@@ -14,13 +14,12 @@
   "out": [
    "Quinten Post",
    "Scotty Pippen Jr.",
-   "Ty Jerome"
+   "Ty Jerome",
+   "Michael Porter Jr.",
+   "Jerami Grant"
   ],
   "gtd": {
-   "Zach Edey": 0.65,
-   "Mikel Brown Jr.": 0.85,
-   "Nolan Traore": 0.9,
-   "Jerami Grant": 0.5
+   "Zach Edey": 0.65
   },
   "reserves": {
    "BKN": [
@@ -118,13 +117,13 @@
     "pace": 97.88
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -2.0,
+    "d": 0.5,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "Michael Porter Jr. OUT (personal, 19:02 ET)"
    }
   }
  },
@@ -138,7 +137,7 @@
    "name": "Cameron Boozer",
    "pos": "PF",
    "starter": true,
-   "min": 33.8,
+   "min": 37.8,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -180,7 +179,7 @@
    "name": "Cedric Coward",
    "pos": "SG",
    "starter": true,
-   "min": 30.4,
+   "min": 34.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -222,7 +221,7 @@
    "name": "Jaylen Wells",
    "pos": "SG",
    "starter": true,
-   "min": 29.1,
+   "min": 32.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -261,51 +260,10 @@
   },
   {
    "team": "MEM",
-   "name": "Jerami Grant",
-   "pos": "PF",
-   "starter": false,
-   "min": 25.4,
-   "g_cur": 12,
-   "p_play": 0.5,
-   "cur": {
-    "min": 23.8,
-    "pts": 11.6,
-    "reb": 2.1,
-    "ast": 2.0,
-    "fg3m": 1.8,
-    "fgm": 4.1,
-    "fga": 8.4,
-    "fg3a": 3.9,
-    "stl": 0.4,
-    "blk": 0.8,
-    "tov": 1.3,
-    "pf": 1.9,
-    "ftm": 1.7,
-    "fta": 2.2
-   },
-   "prior": {
-    "min": 29.8,
-    "pts": 18.6,
-    "reb": 3.47,
-    "ast": 2.14,
-    "fg3m": 2.39,
-    "fgm": 5.81,
-    "fga": 12.81,
-    "fg3a": 6.14,
-    "stl": 0.74,
-    "blk": 0.63,
-    "tov": 2.09,
-    "pf": 2.49,
-    "ftm": 4.6,
-    "fta": 5.65
-   }
-  },
-  {
-   "team": "MEM",
    "name": "Zach Edey",
    "pos": "C",
    "starter": true,
-   "min": 22.1,
+   "min": 24.7,
    "g_cur": 10,
    "p_play": 0.65,
    "cur": {
@@ -347,7 +305,7 @@
    "name": "Cam Spencer",
    "pos": "SG",
    "starter": false,
-   "min": 21.1,
+   "min": 23.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -388,7 +346,7 @@
    "name": "Javon Small",
    "pos": "PG",
    "starter": false,
-   "min": 20.1,
+   "min": 22.4,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -429,7 +387,7 @@
    "name": "Isaiah Stewart",
    "pos": "C",
    "starter": true,
-   "min": 19.7,
+   "min": 22.1,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -471,7 +429,7 @@
    "name": "GG Jackson",
    "pos": "PF",
    "starter": false,
-   "min": 17.2,
+   "min": 19.2,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -512,7 +470,7 @@
    "name": "Kris Murray",
    "pos": "SF",
    "starter": false,
-   "min": 11.4,
+   "min": 12.8,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -553,7 +511,7 @@
    "name": "Taylor Hendricks",
    "pos": "PF",
    "starter": false,
-   "min": 9.6,
+   "min": 10.7,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -594,7 +552,7 @@
    "name": "Julius Randle",
    "pos": "PF",
    "starter": true,
-   "min": 28.0,
+   "min": 31.6,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -629,56 +587,14 @@
     "ftm": 5.04,
     "fta": 6.28
    },
-   "slot": "PF"
-  },
-  {
-   "team": "BKN",
-   "name": "Michael Porter Jr.",
-   "pos": "SF",
-   "starter": true,
-   "min": 27.6,
-   "g_cur": 11,
-   "p_play": 1.0,
-   "cur": {
-    "min": 32.6,
-    "pts": 21.5,
-    "reb": 7.5,
-    "ast": 1.3,
-    "fg3m": 3.5,
-    "fgm": 7.0,
-    "fga": 15.4,
-    "fg3a": 9.5,
-    "stl": 1.3,
-    "blk": 0.4,
-    "tov": 2.1,
-    "pf": 2.6,
-    "ftm": 4.0,
-    "fta": 5.4
-   },
-   "prior": {
-    "min": 32.5,
-    "pts": 24.21,
-    "reb": 7.06,
-    "ast": 3.04,
-    "fg3m": 3.38,
-    "fgm": 8.54,
-    "fga": 18.42,
-    "fg3a": 9.33,
-    "stl": 1.06,
-    "blk": 0.25,
-    "tov": 2.35,
-    "pf": 2.23,
-    "ftm": 3.75,
-    "fta": 4.37
-   },
    "slot": "SF"
   },
   {
    "team": "BKN",
    "name": "Danny Wolf",
    "pos": "C",
-   "starter": false,
-   "min": 20.0,
+   "starter": true,
+   "min": 22.6,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -712,14 +628,15 @@
     "pf": 2.21,
     "ftm": 1.47,
     "fta": 1.91
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "BKN",
    "name": "Day'Ron Sharpe",
    "pos": "C",
    "starter": true,
-   "min": 19.7,
+   "min": 22.3,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -761,9 +678,9 @@
    "name": "Mikel Brown Jr.",
    "pos": "PG",
    "starter": false,
-   "min": 19.5,
+   "min": 22.1,
    "g_cur": 7,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 23.1,
     "pts": 12.9,
@@ -802,7 +719,7 @@
    "name": "Keon Ellis",
    "pos": "SG",
    "starter": false,
-   "min": 19.4,
+   "min": 21.9,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -843,9 +760,9 @@
    "name": "Nolan Traore",
    "pos": "PG",
    "starter": true,
-   "min": 18.7,
+   "min": 21.1,
    "g_cur": 10,
-   "p_play": 0.9,
+   "p_play": 1.0,
    "cur": {
     "min": 22.1,
     "pts": 12.9,
@@ -885,7 +802,7 @@
    "name": "Egor Dëmin",
    "pos": "PG",
    "starter": true,
-   "min": 18.6,
+   "min": 21.0,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -927,7 +844,7 @@
    "name": "Noah Clowney",
    "pos": "PF",
    "starter": false,
-   "min": 16.5,
+   "min": 18.6,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -968,7 +885,7 @@
    "name": "Chaney Johnson",
    "pos": "SF",
    "starter": false,
-   "min": 15.9,
+   "min": 18.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1009,7 +926,7 @@
    "name": "Moritz Wagner",
    "pos": "C",
    "starter": false,
-   "min": 15.5,
+   "min": 17.5,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1050,7 +967,7 @@
    "name": "Terance Mann",
    "pos": "SG",
    "starter": false,
-   "min": 13.5,
+   "min": 15.3,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -1091,7 +1008,7 @@
    "name": "Drake Powell",
    "pos": "SG",
    "starter": false,
-   "min": 7.2,
+   "min": 8.1,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -1136,49 +1053,6 @@
   "total": 227.5
  },
  "prop_lines": {
-  "Michael Porter Jr.": {
-   "pts": [
-    22.5,
-    -105,
-    -118,
-    23.5
-   ],
-   "reb": [
-    6.5,
-    -115,
-    101
-   ],
-   "ast": [
-    1.5,
-    -170,
-    146
-   ],
-   "fg3m": [
-    3.5,
-    116,
-    -115
-   ],
-   "pr": [
-    29.5,
-    -112,
-    -106
-   ],
-   "pa": [
-    25.5,
-    -106,
-    -119
-   ],
-   "ra": [
-    8.5,
-    -125,
-    107
-   ],
-   "pra": [
-    32.5,
-    -106,
-    -120
-   ]
-  },
   "Julius Randle": {
    "pts": [
     19.5,
@@ -1357,14 +1231,6 @@
     16.5,
     -115,
     -105
-   ]
-  },
-  "Jerami Grant": {
-   "pts": [
-    10.5,
-    -115,
-    -105,
-    11.5
    ]
   },
   "Jaylen Wells": {
