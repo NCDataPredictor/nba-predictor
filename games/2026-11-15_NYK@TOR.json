@@ -9,14 +9,13 @@
   "notes": [
    "TOR: Kawhi Leonard OUT (rodilla, hasta ~23-nov); Scottie Barnes (ingle) questionable: 0.5; Bittle OUT",
    "Covers matchup vacío: ML de 9 casas del comparador + consenso scoresandodds (spread/total); sin props de casa por la mañana",
-   "Revisión 13:25 ET: ML NYK -185 → -205 (mediana de 9 casas, comparador Covers 13:05 ET)"
+   "Revisión 13:25 ET: ML NYK -185 → -205 (mediana de 9 casas, comparador Covers 13:05 ET)",
+   "Revisión 17:30 ET: Scottie Barnes disponible (Rajaković antes del partido, BVM Sports 17:16 ET; RotoWire 'upgraded to probable')"
   ],
   "out": [
    "Kawhi Leonard"
   ],
-  "gtd": {
-   "Scottie Barnes": 0.5
-  },
+  "gtd": {},
   "reserves": {
    "NYK": [
     {
@@ -177,7 +176,7 @@
    "starter": true,
    "min": 32.8,
    "g_cur": 8,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 33.3,
     "pts": 23.5,
