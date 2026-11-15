@@ -751,10 +751,29 @@ def sample_hits(b, smp):
     return ((x >= b["line"]) if is_over(b) else (x <= b["line"])), on > 0
 
 
+# Escalones si con las reglas normales ninguna combinación llega a cuota 50 (15-nov: el 14 y el 15 salieron vacíos,
+# jornada corta con pocas Overs ≥ 55% y mañana solo con props de puntos/rebotes). Se prueban en orden y la jornada
+# queda marcada con `relaxed` para que la web lo diga. Backtest 9-15 nov: con el 1.er escalón sale el 14-nov.
+DREAM_RELAX = [dict(leg_p=0.52), dict(max_under=0.6), dict(leg_p=0.52, max_under=0.6)]  # 0.52 = DREAM_SWAP_MIN_P
+
+
 def dream_parlay(rs):
-    """rs = partidos publicados (sin jugar) de una jornada. Devuelve el parlay soñador o None."""
+    """rs = partidos publicados (sin jugar) de una jornada. Devuelve el parlay soñador o None (con las reglas
+    normales y, si no sale, con los escalones de DREAM_RELAX)."""
+    for i, kw in enumerate([{}] + DREAM_RELAX):
+        pl = _dream_parlay(rs, **kw)
+        if pl:
+            if kw:
+                pl["relaxed"] = dict(kw, step=i)
+            return pl
+    return None
+
+
+def _dream_parlay(rs, leg_p=None, max_under=None):
     from itertools import combinations
     import math
+    leg_p = DREAM_LEG_P if leg_p is None else leg_p
+    max_under = DREAM_MAX_UNDER if max_under is None else max_under
     opts = []  # por partido: [(log p, log cuota, patas)]
     wide = {}  # por partido: (patas candidatas, muestra de simulaciones), para los reemplazos
     for r in rs:
@@ -775,7 +794,7 @@ def dream_parlay(rs):
                             **({"flag": b["flag"]} if b.get("flag") else {}))
         smp = read_sample(r["id"])
         wide[r["id"]] = ([mk(b) for b in pool[:DREAM_SWAP_POOL]], smp)  # candidatas a reemplazo
-        legs = [mk(b) for b in pool if b["p"] >= DREAM_LEG_P][:DREAM_POOL]
+        legs = [mk(b) for b in pool if b["p"] >= leg_p][:DREAM_POOL]
         if not legs:
             continue
         o = [(math.log(l["p"]), math.log(l["dec"]), (l,)) for l in legs]
@@ -810,7 +829,7 @@ def dream_parlay(rs):
                 if k not in nxt or nxt[k][0] < lp + olp:
                     nxt[k] = (lp + olp, ls + ol)
         best = nxt
-    ok = [(lp, ls) for (n, u, d), (lp, ls) in best.items() if ls and u <= DREAM_MAX_UNDER * n
+    ok = [(lp, ls) for (n, u, d), (lp, ls) in best.items() if ls and u <= max_under * n
           and DREAM_MIN <= float(np.prod([l["dec"] for l in ls])) <= DREAM_MAX]
     if not ok:
         return None
@@ -819,7 +838,8 @@ def dream_parlay(rs):
     pl = parlay(list(legs), math.exp(lp))
     pl["type"] = "dream"
     pl["games"] = len({l["gid"] for l in legs})
-    dream_swaps(pl, wide)
+    pl["max_under"] = max_under
+    dream_swaps(pl, wide, max_under)
     return pl
 
 
@@ -842,7 +862,7 @@ def leg_key(l):
     return f"{l['player']}|{l['stat']}|{l['side']}|{l['line']}"
 
 
-def dream_swaps(pl, wide):
+def dream_swaps(pl, wide, max_under=DREAM_MAX_UNDER):
     legs = pl["legs"]
     n = len(legs)
     keys = {leg_key(l) for l in legs}
@@ -878,7 +898,7 @@ def dream_swaps(pl, wide):
             for c in cands:
                 if c["player"] in players or leg_key(c) in keys:
                     continue
-                if under - (l.get("side") == "under") + (c.get("side") == "under") > DREAM_MAX_UNDER * n:
+                if under - (l.get("side") == "under") + (c.get("side") == "under") > max_under * n:
                     continue
                 d = dec / l["dec"] * c["dec"]
                 if not DREAM_SWAP_DEC[0] <= d <= DREAM_SWAP_DEC[1]:
@@ -1597,6 +1617,14 @@ def main():
                         l["flag"] = all_flags[l["player"]]
     dream = index.get("dream", {})  # parlay soñador por jornada
     redo = {d for d, lbg in legs_by_date.items() if d in cross and len(lbg) == sum(g["date"] == d and "result" not in g for g in games)}
+    # Jornada sin soñador y sin ningún partido empezado: se vuelve a intentar en cada corrida (15-nov: por la mañana solo
+    # había props de puntos/rebotes y las combinadas llegaron en una revisión que no re-simuló todo, así que no se rehizo).
+    from zoneinfo import ZoneInfo
+    now_et = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M")
+    for d in {g["date"] for g in games if "result" not in g} - set(dream):
+        tips = [f"{d} {g.get('tip_et') or '00:00':>5}" for g in games if g["date"] == d]
+        if all("result" not in g for g in games if g["date"] == d) and now_et < min(tips):
+            redo.add(d)
     if opt("--dream"):  # --dream <fecha>: rehace el soñador con lo ya publicado (usar con un filtro "ninguno")
         redo.add(opt("--dream"))
     for date in sorted(redo):
