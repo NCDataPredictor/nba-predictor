@@ -45,7 +45,7 @@ def _load(path, default):
 
 
 # Dirección pública de la web (para los enlaces de los avisos). Se cambia en docs/data/push.json → "site".
-SITE = _load(CONF, {}).get("site") or "https://nba-predictor.pages.dev/"
+SITE = _load(CONF, {}).get("site") or "https://nba-predictor-9hf.pages.dev/"
 
 
 def _git_json(ref, rel, default):

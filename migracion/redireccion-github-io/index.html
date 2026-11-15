@@ -15,7 +15,7 @@
 // Página que queda en la dirección vieja (github.io). Lleva al usuario a la web nueva y le pasa lo que tenía
 // guardado en este navegador (Mis picks, Mi combinada, tema, etc.) en #migrar=..., que la web nueva importa.
 // Cambia NUEVA por la dirección definitiva antes de publicarla.
-const NUEVA = "https://nba-predictor.pages.dev/";
+const NUEVA = "https://nba-predictor-9hf.pages.dev/";
 let destino = NUEVA + location.hash;
 try {
   const datos = {};
@@ -31,7 +31,7 @@ location.replace(destino);
 <body>
 <main>
   <h1>NBA Predictor se mudó</h1>
-  <p>La web ahora está en <a id="l" href="https://nba-predictor.pages.dev/">nba-predictor.pages.dev</a>. Te llevamos en un momento, con tus picks guardados.</p>
+  <p>La web ahora está en <a id="l" href="https://nba-predictor-9hf.pages.dev/">nba-predictor-9hf.pages.dev</a>. Te llevamos en un momento, con tus picks guardados.</p>
   <p>Si usas la app instalada en el celular, bórrala e instálala de nuevo desde la dirección nueva.</p>
 </main>
 <script>document.getElementById("l").href = destino;</script>

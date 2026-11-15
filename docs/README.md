@@ -76,7 +76,7 @@ cruces que falten, sin WebFetch a basketball-reference. Si el CSV va atrasado, a
 ## Publicación (Cloudflare Pages, desde 15-nov)
 - Repo: `NCDataPredictor/nba-predictor` (antes `ncerva1/nba-predictor`, transferido el 15-nov).
 - Cloudflare Pages publica la carpeta `docs/` de `main` en cada push (sin comando de build). Dirección:
-  `https://nba-predictor.pages.dev/` (más adelante, dominio propio); cada partido en `#<id>`.
+  `https://nba-predictor-9hf.pages.dev/` (más adelante, dominio propio); cada partido en `#<id>`.
 - Los enlaces de los avisos usan `docs/data/push.json` → `"site"`. Si cambia la dirección, actualízala ahí y
   en OneSignal (Settings → Push & In-App → Web → Site URL).
 - `migracion/redireccion-github-io/index.html` es la página para la dirección vieja de github.io: redirige a la
