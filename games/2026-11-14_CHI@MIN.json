@@ -17,7 +17,8 @@
    "Dailyn Swain",
    "Tobe Awaka",
    "Anthony Edwards",
-   "Jalen Smith"
+   "Jalen Smith",
+   "Nic Claxton"
   ],
   "gtd": {},
   "reserves": {
@@ -539,7 +540,7 @@
    "name": "Norman Powell",
    "pos": "SG",
    "starter": true,
-   "min": 30.5,
+   "min": 33.1,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -581,7 +582,7 @@
    "name": "Josh Giddey",
    "pos": "PG",
    "starter": true,
-   "min": 30.1,
+   "min": 32.7,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -623,7 +624,7 @@
    "name": "Matas Buzelis",
    "pos": "SF",
    "starter": true,
-   "min": 27.9,
+   "min": 30.3,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -665,7 +666,7 @@
    "name": "Patrick Williams",
    "pos": "PF",
    "starter": true,
-   "min": 25.4,
+   "min": 27.7,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -707,7 +708,7 @@
    "name": "Isaac Okoro",
    "pos": "SG",
    "starter": true,
-   "min": 22.2,
+   "min": 24.1,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -749,7 +750,7 @@
    "name": "Tre Jones",
    "pos": "PG",
    "starter": false,
-   "min": 19.4,
+   "min": 21.1,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -787,51 +788,10 @@
   },
   {
    "team": "CHI",
-   "name": "Nic Claxton",
-   "pos": "C",
-   "starter": false,
-   "min": 19.2,
-   "g_cur": 3,
-   "p_play": 1.0,
-   "cur": {
-    "min": 18.3,
-    "pts": 7.7,
-    "reb": 5.3,
-    "ast": 2.3,
-    "fg3m": 0.0,
-    "fgm": 2.7,
-    "fga": 4.0,
-    "fg3a": 0.0,
-    "stl": 0.0,
-    "blk": 1.3,
-    "tov": 0.7,
-    "pf": 1.7,
-    "ftm": 2.3,
-    "fta": 3.0
-   },
-   "prior": {
-    "min": 27.8,
-    "pts": 11.74,
-    "reb": 6.93,
-    "ast": 3.67,
-    "fg3m": 0.04,
-    "fgm": 4.83,
-    "fga": 8.45,
-    "fg3a": 0.28,
-    "stl": 0.65,
-    "blk": 1.12,
-    "tov": 1.39,
-    "pf": 2.29,
-    "ftm": 2.04,
-    "fta": 3.32
-   }
-  },
-  {
-   "team": "CHI",
    "name": "Leonard Miller",
    "pos": "SF",
    "starter": false,
-   "min": 16.7,
+   "min": 18.2,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -872,7 +832,7 @@
    "name": "Buddy Hield",
    "pos": "SG",
    "starter": false,
-   "min": 15.0,
+   "min": 16.3,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -913,7 +873,7 @@
    "name": "Noa Essengue",
    "pos": "PF",
    "starter": false,
-   "min": 13.9,
+   "min": 15.1,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -954,7 +914,7 @@
    "name": "Jordan Hawkins",
    "pos": "SG",
    "starter": false,
-   "min": 11.2,
+   "min": 12.2,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -995,7 +955,7 @@
    "name": "Jaylin Sellers",
    "pos": "PG",
    "starter": false,
-   "min": 8.4,
+   "min": 9.1,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -1286,13 +1246,6 @@
     7.5,
     -105,
     102
-   ]
-  },
-  "Nic Claxton": {
-   "pts": [
-    7.5,
-    -110,
-    -110
    ]
   },
   "Trey Lyles": {
