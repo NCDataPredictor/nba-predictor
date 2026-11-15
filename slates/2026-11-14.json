@@ -1602,10 +1602,10 @@
    "tip_et": "20:00",
    "venue": "Kaseya Center, Miami",
    "market": {
-    "ml_home": 169,
-    "ml_away": -203,
+    "ml_home": 144,
+    "ml_away": -173,
     "spread_home": 4.5,
-    "total": 228.5
+    "total": 226.5
    },
    "b2b": [
     "MIA"
@@ -1613,11 +1613,11 @@
    "adj": {},
    "out": [
     "Jalen Duren",
-    "Isaiah Joe"
+    "Isaiah Joe",
+    "Pelle Larsson"
    ],
    "gtd": {
-    "Klay Thompson": 0.85,
-    "Pelle Larsson": 0.25
+    "Klay Thompson": 0.85
    },
    "notes": [
     "MIA en back-to-back (jugó el 13-nov vs CLE)",
@@ -1631,10 +1631,10 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -970,
-    "ml_away": 640,
-    "spread_home": -15.5,
-    "total": 235.5
+    "ml_home": -1099,
+    "ml_away": 690,
+    "spread_home": -14.5,
+    "total": 236.5
    },
    "b2b": [
     "CHI"
@@ -1644,11 +1644,10 @@
     "Caleb Wilson",
     "Dailyn Swain",
     "Tobe Awaka",
-    "Anthony Edwards"
+    "Anthony Edwards",
+    "Jalen Smith"
    ],
-   "gtd": {
-    "Jalen Smith": 0.5
-   },
+   "gtd": {},
    "notes": [
     "CHI en back-to-back (jugó el 13-nov vs ATL, con prórroga)",
     "Caleb Wilson (mano) OUT 4-6 semanas; Swain y Awaka (espalda) OUT",
@@ -1662,10 +1661,10 @@
    "tip_et": "20:00",
    "venue": "FedExForum, Memphis",
    "market": {
-    "ml_home": -155,
-    "ml_away": 131,
-    "spread_home": -3.5,
-    "total": 228.5
+    "ml_home": -122,
+    "ml_away": 104,
+    "spread_home": -1.5,
+    "total": 227.5
    },
    "b2b": [
     "MEM"

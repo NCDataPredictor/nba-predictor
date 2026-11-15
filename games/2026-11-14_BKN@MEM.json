@@ -1130,10 +1130,10 @@
  ],
  "market": {
   "source": "NBA.com/games 14-nov (5 partidos de liga); Covers matchup/<id>/odds (8-9 casas en DET@MIA, CHI@MIN y BKN@MEM, ~12:00 ET; DEN@NOP y DAL@CLE vacíos) + ML del comparador de Covers (DEN@NOP) + consenso scoresandodds.com/nba?date=2026-11-14 en los 5; props de puntos de scoresandodds.com/nba/props/points?date=2026-11-14 (~12:00 ET, mejor cuota por lado)",
-  "ml_home": -155,
-  "ml_away": 131,
-  "spread_home": -3.5,
-  "total": 228.5
+  "ml_home": -122,
+  "ml_away": 104,
+  "spread_home": -1.5,
+  "total": 227.5
  },
  "prop_lines": {
   "Michael Porter Jr.": {
