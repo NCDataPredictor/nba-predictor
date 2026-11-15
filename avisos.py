@@ -183,7 +183,10 @@ def diff(date, label="", ref="origin/main", force=False):
     return new
 
 
-# ---------- envío (acción de GitHub) ----------
+# ---------- envío ----------
+# Desde la acción de GitHub (avisos.yml) o, mientras Actions no corra, desde la propia revisión en la nube tras el merge:
+#   python avisos.py send --before <sha de main antes del merge>
+# Ambos usan la misma idempotency_key por aviso, así que OneSignal no lo manda dos veces.
 
 def _post(payload, key):
     req = urllib.request.Request("https://api.onesignal.com/notifications", data=json.dumps(payload).encode(),
@@ -203,7 +206,12 @@ def push(title, body, url, ident):
                    headings={"en": title, "es": title}, contents={"en": body, "es": body}, web_url=url,
                    chrome_web_icon=SITE + "icons/icon-192.png", web_push_topic=ident.split("|")[0][:60],
                    idempotency_key=f"{uid[:8]}-{uid[8:12]}-4{uid[13:16]}-a{uid[17:20]}-{uid[20:32]}")
-    r = _post(payload, key)
+    try:
+        r = _post(payload, key)
+    except Exception as e:  # red bloqueada, clave mala…: no debe tumbar la revisión
+        detail = e.read().decode(errors="replace")[:300] if hasattr(e, "read") else ""
+        print(f"No se pudo enviar «{title}»: {e} {detail}")
+        return False
     print(f"Enviado: {title} → {r}")
     return True
 
