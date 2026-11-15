@@ -1082,12 +1082,124 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 155,
   "ml_away": -185,
   "spread_home": 4.5,
   "total": 217.5
  },
- "prop_lines": {},
+ "prop_lines": {
+  "Jalen Brunson": {
+   "pts": [
+    25.5,
+    -114,
+    -125,
+    26.5
+   ]
+  },
+  "RJ Barrett": {
+   "pts": [
+    20.5,
+    -112,
+    -109
+   ],
+   "reb": [
+    5.5,
+    -135,
+    -150,
+    6.5
+   ]
+  },
+  "Karl-Anthony Towns": {
+   "pts": [
+    19.5,
+    -123,
+    -105,
+    20.5
+   ],
+   "reb": [
+    12.5,
+    -112,
+    -155,
+    13.5
+   ]
+  },
+  "Scottie Barnes": {
+   "pts": [
+    17.5,
+    -128,
+    -110,
+    18.5
+   ],
+   "reb": [
+    6.5,
+    105,
+    105
+   ]
+  },
+  "OG Anunoby": {
+   "pts": [
+    16.5,
+    -115,
+    -118,
+    17.5
+   ],
+   "reb": [
+    4.5,
+    -140,
+    -157,
+    5.5
+   ]
+  },
+  "Immanuel Quickley": {
+   "pts": [
+    15.5,
+    -124,
+    -112,
+    16.5
+   ],
+   "reb": [
+    3.5,
+    105,
+    -112
+   ]
+  },
+  "Ja'Kobe Walter": {
+   "pts": [
+    10.5,
+    -130,
+    -114,
+    11.5
+   ],
+   "reb": [
+    3.5,
+    -125,
+    106
+   ]
+  },
+  "Jakob Poeltl": {
+   "reb": [
+    6.5,
+    -120,
+    -148,
+    7.5
+   ]
+  },
+  "Josh Hart": {
+   "reb": [
+    6.5,
+    -110,
+    -145,
+    7.5
+   ]
+  },
+  "Andre Drummond": {
+   "reb": [
+    6.5,
+    108,
+    -110
+   ]
+  }
+ },
  "alt_lines": {}
 }

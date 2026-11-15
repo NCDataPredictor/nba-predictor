@@ -1036,12 +1036,135 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": -800,
   "ml_away": 550,
   "spread_home": -13.5,
   "total": 217.5
  },
- "prop_lines": {},
+ "prop_lines": {
+  "Jayson Tatum": {
+   "pts": [
+    26.5,
+    -115,
+    -119,
+    27.5
+   ],
+   "reb": [
+    6.5,
+    -140,
+    -120,
+    7.5
+   ]
+  },
+  "Cooper Flagg": {
+   "pts": [
+    21.5,
+    -112,
+    -106,
+    22.5
+   ],
+   "reb": [
+    6.5,
+    110,
+    -112
+   ]
+  },
+  "Kyrie Irving": {
+   "pts": [
+    19.5,
+    -115,
+    -127,
+    20.5
+   ],
+   "reb": [
+    3.5,
+    -114,
+    -105
+   ]
+  },
+  "Paul George": {
+   "pts": [
+    18.5,
+    -125,
+    -117,
+    19.5
+   ],
+   "reb": [
+    4.5,
+    -112,
+    100
+   ]
+  },
+  "Derrick White": {
+   "pts": [
+    13.5,
+    -111,
+    -126,
+    14.5
+   ]
+  },
+  "Payton Pritchard": {
+   "pts": [
+    13.5,
+    -115,
+    -132,
+    14.5
+   ]
+  },
+  "P.J. Washington": {
+   "pts": [
+    11.5,
+    -105,
+    -132,
+    12.5
+   ],
+   "reb": [
+    6.5,
+    105,
+    -123
+   ]
+  },
+  "Naji Marshall": {
+   "pts": [
+    10.5,
+    102,
+    -110
+   ],
+   "reb": [
+    3.5,
+    107,
+    -130
+   ]
+  },
+  "Neemias Queta": {
+   "pts": [
+    9.5,
+    -110,
+    102
+   ],
+   "reb": [
+    7.5,
+    100,
+    -135,
+    8.5
+   ]
+  },
+  "Morez Johnson Jr.": {
+   "reb": [
+    5.5,
+    -114,
+    -125,
+    6.5
+   ]
+  },
+  "Mitchell Robinson": {
+   "reb": [
+    5.5,
+    -105,
+    -120
+   ]
+  }
+ },
  "alt_lines": {}
 }

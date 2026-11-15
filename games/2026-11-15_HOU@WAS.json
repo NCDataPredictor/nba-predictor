@@ -931,12 +931,164 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 319,
   "ml_away": -405,
   "spread_home": 9.5,
   "total": 222.5
  },
- "prop_lines": {},
+ "prop_lines": {
+  "Anthony Davis": {
+   "pts": [
+    21.5,
+    -112,
+    -110,
+    22.5
+   ],
+   "reb": [
+    9.5,
+    -120,
+    -141,
+    10.5
+   ]
+  },
+  "Kevin Durant": {
+   "pts": [
+    21.5,
+    -108,
+    -112,
+    22.5
+   ],
+   "reb": [
+    4.5,
+    -140,
+    -120,
+    5.5
+   ]
+  },
+  "Alperen Sengun": {
+   "pts": [
+    20.5,
+    -104,
+    -110
+   ],
+   "reb": [
+    8.5,
+    -140,
+    -110,
+    9.5
+   ]
+  },
+  "Trae Young": {
+   "pts": [
+    17.5,
+    -110,
+    -111,
+    18.5
+   ]
+  },
+  "Amen Thompson": {
+   "pts": [
+    16.5,
+    -120,
+    -120,
+    17.5
+   ],
+   "reb": [
+    6.5,
+    -150,
+    -120,
+    7.5
+   ]
+  },
+  "AJ Dybantsa": {
+   "pts": [
+    15.5,
+    -102,
+    -120,
+    16.5
+   ],
+   "reb": [
+    4.5,
+    -155,
+    -118,
+    5.5
+   ]
+  },
+  "Jabari Smith Jr.": {
+   "pts": [
+    14.5,
+    -112,
+    -103
+   ],
+   "reb": [
+    6.5,
+    100,
+    102
+   ]
+  },
+  "Kyshawn George": {
+   "pts": [
+    13.5,
+    -112,
+    -115,
+    14.5
+   ],
+   "reb": [
+    3.5,
+    -165,
+    -135,
+    4.5
+   ]
+  },
+  "Reed Sheppard": {
+   "pts": [
+    13.5,
+    -120,
+    -118,
+    14.5
+   ],
+   "reb": [
+    3.5,
+    -105,
+    -105
+   ]
+  },
+  "Tari Eason": {
+   "pts": [
+    11.5,
+    -125,
+    -125,
+    12.5
+   ],
+   "reb": [
+    5.5,
+    -145,
+    -125,
+    6.5
+   ]
+  },
+  "Alex Sarr": {
+   "pts": [
+    9.5,
+    -135,
+    -115,
+    10.5
+   ],
+   "reb": [
+    6.5,
+    -125,
+    105
+   ]
+  },
+  "Tre Johnson": {
+   "pts": [
+    9.5,
+    -115,
+    -115,
+    10.5
+   ]
+  }
+ },
  "alt_lines": {}
 }

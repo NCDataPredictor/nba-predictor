@@ -1023,7 +1023,7 @@
   }
  ],
  "market": {
-  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET)",
+  "source": "NBA.com/games 15-nov (9 partidos de liga); Covers matchup/<id>/odds (~11:45 ET; NYK@TOR y HOU@WAS vacíos) + ML del comparador de Covers (NYK@TOR) + consenso scoresandodds.com/nba?date=2026-11-15; props de puntos de Covers matchup/<id>/odds (scoresandodds /nba/props/<stat>?date=2026-11-15 seguía en el 14-nov a las 11:45 ET); ~11:40 ET: scoresandodds.com/nba/props/points y /rebounds SIN ?date= ya traían la jornada del 15-nov (mejor cuota por lado): puntos de quien faltaba y todos los rebotes (assists y 3-pointers seguían en el 14-nov)",
   "ml_home": 240,
   "ml_away": -305,
   "spread_home": 7.5,
@@ -1035,6 +1035,12 @@
     9.5,
     -120,
     -105
+   ],
+   "reb": [
+    5.5,
+    -130,
+    -125,
+    6.5
    ]
   },
   "Onyeka Okongwu": {
@@ -1042,6 +1048,12 @@
     13.5,
     -120,
     -105
+   ],
+   "reb": [
+    7.5,
+    -102,
+    -135,
+    8.5
    ]
   },
   "Jaime Jaquez Jr.": {
@@ -1049,6 +1061,12 @@
     14.5,
     -110,
     -115
+   ],
+   "reb": [
+    4.5,
+    -170,
+    -132,
+    5.5
    ]
   },
   "Brayden Burries": {
@@ -1056,6 +1074,12 @@
     11.5,
     -110,
     -115
+   ],
+   "reb": [
+    4.5,
+    -145,
+    -125,
+    5.5
    ]
   },
   "Tyler Herro": {
@@ -1063,6 +1087,11 @@
     22.5,
     -112,
     -112
+   ],
+   "reb": [
+    4.5,
+    110,
+    -110
    ]
   },
   "CJ McCollum": {
@@ -1077,6 +1106,11 @@
     21.5,
     -115,
     -110
+   ],
+   "reb": [
+    9.5,
+    -115,
+    106
    ]
   },
   "Luguentz Dort": {
@@ -1091,6 +1125,79 @@
     8.5,
     -110,
     -115
+   ],
+   "reb": [
+    3.5,
+    120,
+    -136
+   ]
+  },
+  "Nickeil Alexander-Walker": {
+   "pts": [
+    21.5,
+    -120,
+    -120,
+    22.5
+   ]
+  },
+  "Kyle Kuzma": {
+   "pts": [
+    11.5,
+    -120,
+    -118,
+    12.5
+   ],
+   "reb": [
+    4.5,
+    -145,
+    -154,
+    5.5
+   ]
+  },
+  "Aaron Wiggins": {
+   "pts": [
+    11.5,
+    -112,
+    -112,
+    12.5
+   ],
+   "reb": [
+    3.5,
+    110,
+    -120
+   ]
+  },
+  "Ryan Rollins": {
+   "pts": [
+    10.5,
+    -114,
+    100,
+    11.5
+   ],
+   "reb": [
+    3.5,
+    -150,
+    120
+   ]
+  },
+  "Dyson Daniels": {
+   "pts": [
+    9.5,
+    -120,
+    -135,
+    10.5
+   ],
+   "reb": [
+    6.5,
+    -129,
+    115
+   ]
+  },
+  "Jock Landale": {
+   "reb": [
+    4.5,
+    -140,
+    110
    ]
   }
  },
