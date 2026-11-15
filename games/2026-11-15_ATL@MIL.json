@@ -9,16 +9,16 @@
   "notes": [
    "ATL: Flemings (espalda), Newell, Gilbert y Gueye OUT",
    "MIL: Dieng (dedo) OUT",
-   "Revisión 13:25 ET: Ryan Rollins (enfermedad) questionable (NBC Sports 12:22 ET, ESPN 15-nov)"
+   "Revisión 13:25 ET: Ryan Rollins (enfermedad) questionable (NBC Sports 12:22 ET, ESPN 15-nov)",
+   "18:30 ET: Rollins OUT por enfermedad (NBC 18:19 ET)"
   ],
   "out": [
    "Kingston Flemings",
    "Asa Newell",
-   "Ousmane Dieng"
+   "Ousmane Dieng",
+   "Ryan Rollins"
   ],
-  "gtd": {
-   "Ryan Rollins": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "ATL": [
     {
@@ -117,7 +117,7 @@
    "name": "Tyler Herro",
    "pos": "SG",
    "starter": true,
-   "min": 31.5,
+   "min": 35.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -152,14 +152,14 @@
     "ftm": 3.0,
     "fta": 3.27
    },
-   "slot": "SG"
+   "slot": "PG"
   },
   {
    "team": "MIL",
    "name": "Jaime Jaquez Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 28.0,
+   "min": 31.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -201,7 +201,7 @@
    "name": "Myles Turner",
    "pos": "C",
    "starter": true,
-   "min": 27.6,
+   "min": 30.7,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -243,7 +243,7 @@
    "name": "Kyle Kuzma",
    "pos": "PF",
    "starter": true,
-   "min": 27.4,
+   "min": 30.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -282,52 +282,10 @@
   },
   {
    "team": "MIL",
-   "name": "Ryan Rollins",
-   "pos": "PG",
-   "starter": true,
-   "min": 24.0,
-   "g_cur": 13,
-   "p_play": 0.6,
-   "cur": {
-    "min": 23.8,
-    "pts": 10.5,
-    "reb": 5.0,
-    "ast": 3.9,
-    "fg3m": 1.6,
-    "fgm": 3.9,
-    "fga": 10.1,
-    "fg3a": 4.7,
-    "stl": 0.8,
-    "blk": 0.3,
-    "tov": 2.3,
-    "pf": 2.5,
-    "ftm": 1.1,
-    "fta": 1.5
-   },
-   "prior": {
-    "min": 32.1,
-    "pts": 17.31,
-    "reb": 4.57,
-    "ast": 5.59,
-    "fg3m": 2.49,
-    "fgm": 6.57,
-    "fga": 13.92,
-    "fg3a": 6.12,
-    "stl": 1.49,
-    "blk": 0.42,
-    "tov": 2.72,
-    "pf": 2.61,
-    "ftm": 1.69,
-    "fta": 2.12
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "MIL",
    "name": "Brayden Burries",
    "pos": "SG",
-   "starter": false,
-   "min": 21.6,
+   "starter": true,
+   "min": 23.9,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -361,14 +319,15 @@
     "pf": 1.86,
     "ftm": 2.0,
     "fta": 2.8
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "MIL",
    "name": "Kasparas Jakučionis",
    "pos": "SG",
    "starter": false,
-   "min": 17.9,
+   "min": 19.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -409,7 +368,7 @@
    "name": "Kel'el Ware",
    "pos": "C",
    "starter": false,
-   "min": 17.8,
+   "min": 19.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -450,7 +409,7 @@
    "name": "Nate Ament",
    "pos": "SF",
    "starter": false,
-   "min": 17.6,
+   "min": 19.6,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -491,7 +450,7 @@
    "name": "AJ Green",
    "pos": "SG",
    "starter": false,
-   "min": 17.4,
+   "min": 19.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -532,7 +491,7 @@
    "name": "Jericho Sims",
    "pos": "C",
    "starter": false,
-   "min": 9.2,
+   "min": 10.2,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1394,44 +1353,6 @@
     1.5,
     -169,
     138
-   ]
-  },
-  "Ryan Rollins": {
-   "pts": [
-    10.5,
-    -114,
-    100,
-    11.5
-   ],
-   "reb": [
-    3.5,
-    -150,
-    120
-   ],
-   "pr": [
-    16.5,
-    100,
-    -125
-   ],
-   "pa": [
-    15.5,
-    -110,
-    -115
-   ],
-   "ra": [
-    8.5,
-    -130,
-    102
-   ],
-   "pra": [
-    21.5,
-    -105,
-    -120
-   ],
-   "fg3m": [
-    1.5,
-    110,
-    -115
    ]
   },
   "Dyson Daniels": {
