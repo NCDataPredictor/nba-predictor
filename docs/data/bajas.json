@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:34+00:00",
+ "updated": "2026-11-15T23:32+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -223,6 +223,17 @@
   },
   {
    "date": "2026-11-15",
+   "gid": "2026-11-15-ATL-at-MIL",
+   "player": "Ryan Rollins",
+   "team": "MIL",
+   "status": "out",
+   "note": "Enfermedad; descartado vs ATL",
+   "source": "NBC Sports 18:19 ET",
+   "at": "2026-11-15T23:32+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-15",
    "gid": "2026-11-15-DAL-at-BOS",
    "player": "Kyrie Irving",
    "team": "DAL",
@@ -253,6 +264,17 @@
    "source": "Parte oficial vía Athlon 15:00 ET",
    "at": "2026-11-15T21:32+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-15",
+   "gid": "2026-11-15-HOU-at-WAS",
+   "player": "Tre Johnson",
+   "team": "WAS",
+   "status": "out",
+   "note": "Espalda; descartado vs HOU",
+   "source": "NBC Sports/RotoWire 17:34 ET",
+   "at": "2026-11-15T23:32+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-15",
