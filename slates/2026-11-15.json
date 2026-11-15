@@ -3210,17 +3210,17 @@
    ],
    "adj": {
     "DAL": {
-     "o": -0.25,
-     "d": 0.25,
-     "why": "Christie (tobillo) OUT/doubtful"
+     "o": -1.5,
+     "d": 0.5,
+     "why": "Kyrie Irving (rodilla) OUT + Christie OUT"
     }
    },
    "out": [
     "Max Christie",
-    "Sergio de Larrea"
+    "Sergio de Larrea",
+    "Kyrie Irving"
    ],
    "gtd": {
-    "Kyrie Irving": 0.5,
     "Santi Aldama": 0.6
    },
    "notes": [
@@ -3229,7 +3229,8 @@
     "BOS: sin bajas; Paul George fuera del parte (juega)",
     "Revisión 13:25 ET: ML BOS -750 → -835 (mediana de 6 casas, comparador Covers 13:05 ET); Gafford y Christie siguen OUT (CBS: out until at least Nov 15)",
     "ML BOS -835 -> -900 (comparador Covers 14:50 ET)",
-    "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable"
+    "Revisión 16:00 ET (parte oficial vía Athlon 14:00 ET): Gafford PROBABLE (vuelve), Christie doubtful, Kyrie Irving (rodilla, gestión en b2b) y Aldama (tobillo) questionable",
+    "Revisión 16:30 ET: Kyrie Irving OUT (NBC 16:19 ET); Aldama sigue questionable"
    ]
   },
   {
@@ -3255,18 +3256,17 @@
     "Fred VanVleet",
     "Clint Capela",
     "Justin Champagnie",
-    "Reece Beekman"
+    "Reece Beekman",
+    "Marcus Smart"
    ],
    "gtd": {
-    "Steven Adams": 0.85,
-    "Alex Sarr": 0.6,
-    "Tre Johnson": 0.6,
-    "Bub Carrington": 0.6
+    "Tre Johnson": 0.6
    },
    "notes": [
     "HOU: VanVleet OUT (manejo de carga rodilla), Capela OUT; Adams (gemelo) probable: 0.85",
     "WAS: Sarr (enfermedad), Tre Johnson (espalda) y Carrington (pecho) questionable: 0.6",
-    "Solo consenso scoresandodds (Covers matchup vacío); sin props de casa por la mañana"
+    "Solo consenso scoresandodds (Covers matchup vacío); sin props de casa por la mañana",
+    "Revisión 16:30 ET: Smart OUT (suspensión, parte 15:00 ET); Adams, Sarr y Carrington disponibles (NBC 12:34/14:45/14:46 ET); Tre Johnson sigue questionable"
    ]
   },
   {
@@ -3317,12 +3317,12 @@
    ],
    "gtd": {
     "Ajay Mitchell": 0.7,
-    "Keegan Murray": 0.5,
     "Precious Achiuwa": 0.7
    },
    "notes": [
     "OKC: Holmgren, Jalen Williams, Wallace (largo plazo) y Jaylin Williams (espalda) OUT; Ajay Mitchell (tobillo) questionable con líneas: 0.7",
-    "SAC: Raynaud OUT; Keegan Murray (enfermedad, no entrenó el sábado) 0.5; Achiuwa (tobillo) con líneas: 0.7"
+    "SAC: Raynaud OUT; Keegan Murray (enfermedad, no entrenó el sábado) 0.5; Achiuwa (tobillo) con líneas: 0.7",
+    "Revisión 16:30 ET: Keegan Murray disponible (NBC 14:48 ET); Mitchell y Achiuwa siguen questionable"
    ]
   }
  ]

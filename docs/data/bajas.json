@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:32+00:00",
+ "updated": "2026-11-15T21:34+00:00",
  "list": [
   {
    "date": "2026-11-12",
@@ -230,7 +230,7 @@
    "note": "rodilla; descartado vs BOS",
    "source": "NBC Sports 16:19 ET",
    "at": "2026-11-15T21:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-15",
@@ -252,7 +252,7 @@
    "note": "suspensión (3 partidos)",
    "source": "Parte oficial vía Athlon 15:00 ET",
    "at": "2026-11-15T21:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-15",
