@@ -1,15 +1,24 @@
 {
- "updated": "2026-11-15T21:35+00:00",
+ "updated": "2026-11-16T23:22+00:00",
  "source": "ESPN (espn.com/nba/injuries)",
  "list": [
+  {
+   "team": "ATL",
+   "player": "Jock Landale",
+   "pos": "C",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Hip injury; ruled out for Sunday vs Bucks."
+  },
   {
    "team": "ATL",
    "player": "Kingston Flemings",
    "pos": "G",
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
-   "status": "Out",
-   "note": "Nov 14: back; ruled out for Sunday vs. Bucks"
+   "status": "Day-To-Day",
+   "note": "Nov 16: Back injury; ruled out for Sunday vs Bucks."
   },
   {
    "team": "ATL",
@@ -18,16 +27,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Nov 12: foot; re-evaluated in four weeks after on-court activities begin"
-  },
-  {
-   "team": "ATL",
-   "player": "Keshon Gilbert",
-   "pos": "G",
-   "ret": "Nov 20",
-   "ret_iso": "2026-11-20",
-   "status": "Out",
-   "note": "Nov 12: knee; ruled out for Friday vs. Bulls"
+   "note": "Nov 12: Foot; cleared for on-court work, re-evaluate in four weeks."
   },
   {
    "team": "ATL",
@@ -36,7 +36,7 @@
    "ret": "Nov 20",
    "ret_iso": "2026-11-20",
    "status": "Out",
-   "note": "Nov 12: toe; ruled out for Friday vs. Chicago"
+   "note": "Nov 12: Toe; ruled out for Friday vs Chicago."
   },
   {
    "team": "ATL",
@@ -45,16 +45,16 @@
    "ret": "Jul 1",
    "ret_iso": "2027-07-01",
    "status": "Out",
-   "note": "Sep 21: torn right ACL; expected to miss 2026-27 season"
+   "note": "Sep 21: Torn right ACL; expected to miss 2026-27 season."
   },
   {
-   "team": "BKN",
-   "player": "Michael Porter Jr.",
-   "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: personal; out for Saturday vs. Grizzlies"
+   "team": "BOS",
+   "player": "Neemias Queta",
+   "pos": "C",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Rest; will not play Monday vs Orlando."
   },
   {
    "team": "CHA",
@@ -63,7 +63,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Nov 8: left hamstring strain; re-evaluated in four weeks"
+   "note": "Nov 8: Left hamstring strain; re-evaluate in four weeks."
   },
   {
    "team": "CHA",
@@ -72,34 +72,16 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Nov 8: left hamstring strain; reevaluated in two weeks"
-  },
-  {
-   "team": "CHI",
-   "player": "Jalen Smith",
-   "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: finger; ruled out for Saturday vs. Minnesota"
-  },
-  {
-   "team": "CHI",
-   "player": "Nic Claxton",
-   "pos": "C",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: hamstring; out for Saturday vs. Timberwolves"
+   "note": "Nov 8: Left hamstring strain; reevaluate in two weeks."
   },
   {
    "team": "CHI",
    "player": "Tobe Awaka",
    "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: ruled out for Saturday vs. Timberwolves"
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 15: Back; ruled out for Monday vs Cleveland."
   },
   {
    "team": "CHI",
@@ -108,106 +90,70 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Nov 12: hand; expected to miss four to six weeks"
+   "note": "Nov 12: Hand; expected to miss four to six weeks."
   },
   {
    "team": "CLE",
-   "player": "Jarrett Allen",
-   "pos": "C",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: knee; ruled out for Saturday vs. Mavericks"
-  },
-  {
-   "team": "CLE",
-   "player": "Peyton Watson",
+   "player": "Jaylon Tyson",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: hamstring; ruled out for Saturday vs. Mavericks"
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Ankle; ruled out for Monday vs Chicago."
   },
   {
    "team": "CLE",
    "player": "Evan Mobley",
    "pos": "C",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: toe; ruled out for Saturday vs. Dallas"
-  },
-  {
-   "team": "CLE",
-   "player": "Donovan Mitchell",
-   "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: knee; ruled out for Saturday vs. Mavericks"
-  },
-  {
-   "team": "CLE",
-   "player": "James Harden",
-   "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: calf; ruled out for Saturday vs. Dallas"
+   "ret": "Nov 29",
+   "ret_iso": "2026-11-29",
+   "status": "Out",
+   "note": "Nov 16: Right great toe sprain; re-evaluate in 7-10 days."
   },
   {
    "team": "CLE",
    "player": "Sam Merrill",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 10: elbow; listed out for Wednesday vs. Knicks"
+   "note": "Nov 15: Elbow; ruled out for Monday vs Bulls."
   },
   {
    "team": "CLE",
    "player": "Nae'Qwan Tomlin",
    "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Oct 20: lower back stress reaction; set to miss several weeks"
-  },
-  {
-   "team": "DAL",
-   "player": "Kyrie Irving",
-   "pos": "G",
-   "ret": "Nov 17",
-   "ret_iso": "2026-11-17",
-   "status": "Out",
-   "note": "Nov 15: knee; downgraded to out for Sunday vs. Celtics (NBC 16:19 ET)"
-  },
-  {
-   "team": "DAL",
-   "player": "Santi Aldama",
-   "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 15: ankle; questionable for Sunday vs. Celtics"
-  },
-  {
-   "team": "DAL",
-   "player": "Daniel Gafford",
-   "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 15: face; probable for Sunday vs. Celtics"
+   "note": "Oct 20: Lower back stress reaction; set to miss several weeks."
   },
   {
    "team": "DAL",
    "player": "Max Christie",
    "pos": "G",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Day-To-Day",
-   "note": "Nov 15: ankle; ruled out for Saturday vs. Cleveland"
+   "note": "Nov 16: Ankle; ruled out for Sunday vs Celtics."
+  },
+  {
+   "team": "DAL",
+   "player": "Santi Aldama",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Ankle; out for Sunday vs Celtics."
+  },
+  {
+   "team": "DAL",
+   "player": "Kyrie Irving",
+   "pos": "G",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Knee; ruled out for Sunday vs Celtics."
   },
   {
    "team": "DAL",
@@ -216,7 +162,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 11: foot; listed out for Thursday at Minnesota"
+   "note": "Nov 11: Foot; listed out for Thursday at Minnesota."
   },
   {
    "team": "DAL",
@@ -225,7 +171,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 11: heel; out for Thursday vs. Minnesota"
+   "note": "Nov 11: Heel; out for Thursday vs Minnesota."
   },
   {
    "team": "DAL",
@@ -234,7 +180,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 11: knee; ruled out for Thursday at Minnesota"
+   "note": "Nov 11: Knee; ruled out for Thursday at Minnesota."
   },
   {
    "team": "DEN",
@@ -243,25 +189,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Oct 16: left knee sprain; re-evaluated in six weeks"
-  },
-  {
-   "team": "DET",
-   "player": "Duncan Robinson",
-   "pos": "F",
-   "ret": "Nov 17",
-   "ret_iso": "2026-11-17",
-   "status": "Day-To-Day",
-   "note": "Nov 15: thigh; did not return in Saturday's win over Pistons"
-  },
-  {
-   "team": "DET",
-   "player": "Ugonna Onyenso",
-   "pos": "C",
-   "ret": "Nov 14",
-   "ret_iso": "2026-11-14",
-   "status": "Day-To-Day",
-   "note": "Nov 11: agreed to two-way contract with Pistons Thursday"
+   "note": "Oct 16: Left knee sprain; re-evaluate in six weeks."
   },
   {
    "team": "DET",
@@ -270,7 +198,16 @@
    "ret": "Nov 17",
    "ret_iso": "2026-11-17",
    "status": "Out",
-   "note": "Nov 9: hip; out for Monday vs. Wizards"
+   "note": "Nov 16: Hip; doubtful for Tuesday vs Spurs."
+  },
+  {
+   "team": "DET",
+   "player": "Duncan Robinson",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Quadriceps; ruled out for Tuesday vs Spurs."
   },
   {
    "team": "DET",
@@ -279,7 +216,16 @@
    "ret": "Nov 24",
    "ret_iso": "2026-11-24",
    "status": "Out",
-   "note": "Nov 8: hamstring; began on-court activity, re-evaluated in two weeks"
+   "note": "Nov 8: Hamstring; began on-court activity, re-evaluate in two weeks."
+  },
+  {
+   "team": "GSW",
+   "player": "Gui Santos",
+   "pos": "F",
+   "ret": "Nov 16",
+   "ret_iso": "2026-11-16",
+   "status": "Day-To-Day",
+   "note": "Nov 15: Right ankle inflammation; questionable for Monday vs New Orleans."
   },
   {
    "team": "GSW",
@@ -288,7 +234,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Nov 12: oblique abdominal tear; re-evaluated in two weeks"
+   "note": "Nov 12: Oblique abdominal tear; re-evaluate in two weeks."
   },
   {
    "team": "GSW",
@@ -297,7 +243,7 @@
    "ret": "Nov 22",
    "ret_iso": "2026-11-22",
    "status": "Out",
-   "note": "Nov 10: hamstring; will miss at least one week"
+   "note": "Nov 10: Hamstring; expected to miss at least one week."
   },
   {
    "team": "GSW",
@@ -306,7 +252,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Nov 6: announced on social media he is stepping away from basketball"
+   "note": "Nov 6: Announced he is stepping away from basketball."
   },
   {
    "team": "GSW",
@@ -315,7 +261,7 @@
    "ret": "Dec 1",
    "ret_iso": "2026-12-01",
    "status": "Out",
-   "note": "Oct 16: knee; progressing toward return after patellar tendon rupture"
+   "note": "Oct 16: Left patellar tendon rupture; possible return December-January."
   },
   {
    "team": "GSW",
@@ -324,34 +270,43 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Oct 16: knee; could return January-February after torn right ACL"
+   "note": "Oct 16: Torn right ACL; could return January-February."
+  },
+  {
+   "team": "HOU",
+   "player": "Amen Thompson",
+   "pos": "G",
+   "ret": "Nov 16",
+   "ret_iso": "2026-11-16",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Knee; questionable for Monday vs Heat."
   },
   {
    "team": "HOU",
    "player": "Clint Capela",
    "pos": "C",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: ankle; ruled out for Sunday at Washington"
+   "note": "Nov 16: Ankle; out for Monday vs Heat."
   },
   {
    "team": "HOU",
-   "player": "Fred VanVleet",
-   "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "player": "Steven Adams",
+   "pos": "C",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: right knee injury management; ruled out for Sunday vs. Wizards"
+   "note": "Nov 16: Calf; out for Monday vs Heat."
   },
   {
    "team": "HOU",
-   "player": "Marcus Smart",
-   "pos": "G",
+   "player": "Julian Phillips",
+   "pos": "F",
    "ret": "Nov 16",
    "ret_iso": "2026-11-16",
-   "status": "Out",
-   "note": "Nov 12: suspended three games; out for Sunday at Washington"
+   "status": "Day-To-Day",
+   "note": "Nov 16: Illness; available for Wednesday vs Dallas."
   },
   {
    "team": "IND",
@@ -359,8 +314,8 @@
    "pos": "G",
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
-   "status": "Out",
-   "note": "Nov 15: hip; ruled out for Sunday vs. 76ers"
+   "status": "Day-To-Day",
+   "note": "Nov 15: Hip; ruled out for Sunday vs 76ers."
   },
   {
    "team": "IND",
@@ -369,7 +324,7 @@
    "ret": "Nov 22",
    "ret_iso": "2026-11-22",
    "status": "Out",
-   "note": "Nov 11: hamstring; will miss at least 10 more days"
+   "note": "Nov 11: Hamstring; to miss at least 10 more days."
   },
   {
    "team": "IND",
@@ -378,7 +333,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Oct 30: knee; practicing with G League's Noblesville Boom"
+   "note": "Oct 30: Knee; practicing with G League's Noblesville Boom."
   },
   {
    "team": "IND",
@@ -387,7 +342,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Oct 28: meniscus surgery on left knee; expected to miss months"
+   "note": "Oct 28: Torn left knee meniscus surgery; expected to miss months."
   },
   {
    "team": "LAC",
@@ -396,7 +351,7 @@
    "ret": "Nov 19",
    "ret_iso": "2026-11-19",
    "status": "Out",
-   "note": "Nov 12: Achilles; won't play Friday vs. Thunder"
+   "note": "Nov 12: Achilles; won't play Friday vs Thunder."
   },
   {
    "team": "LAC",
@@ -405,7 +360,7 @@
    "ret": "Nov 17",
    "ret_iso": "2026-11-17",
    "status": "Out",
-   "note": "Nov 9: foot; out for Tuesday vs. Phoenix"
+   "note": "Nov 9: Foot; out for Tuesday vs Phoenix."
   },
   {
    "team": "LAC",
@@ -414,7 +369,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Oct 14: knee; won't be ready for start of regular season"
+   "note": "Oct 14: Knee; not ready for regular season start."
   },
   {
    "team": "LAC",
@@ -423,25 +378,7 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Aug 26: left rotator cuff surgery; re-evaluated in six months"
-  },
-  {
-   "team": "LAL",
-   "player": "Adou Thiero",
-   "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: ankle; questionable for Sunday vs. Suns"
-  },
-  {
-   "team": "LAL",
-   "player": "Collin Sexton",
-   "pos": "G",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: head; questionable for Sunday vs. Suns"
+   "note": "Aug 26: Torn left rotator cuff surgery; re-evaluate in six months."
   },
   {
    "team": "LAL",
@@ -449,44 +386,44 @@
    "pos": "G",
    "ret": "Nov 17",
    "ret_iso": "2026-11-17",
-   "status": "Out",
-   "note": "Nov 14: heel; ruled out for Sunday vs. Suns"
+   "status": "Day-To-Day",
+   "note": "Nov 16: Heel; ruled out for Sunday vs Suns."
   },
   {
    "team": "MEM",
-   "player": "Zach Edey",
+   "player": "Isaiah Stewart",
    "pos": "C",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: ankle; listed out for Saturday vs. Nets"
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Illness; out for Monday vs Wizards."
   },
   {
    "team": "MEM",
-   "player": "Ty Jerome",
+   "player": "Scotty Pippen Jr.",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: hip; ruled out for Saturday vs. Nets"
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
+   "status": "Out",
+   "note": "Nov 16: Back; progressing but still considered week-to-week."
   },
   {
    "team": "MEM",
    "player": "GG Jackson",
    "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: foot; injured in Saturday's win over Brooklyn"
+   "ret": "Jan 18",
+   "ret_iso": "2027-01-18",
+   "status": "Out",
+   "note": "Nov 16: Left fifth metatarsal fracture; surgery, significant time missed."
   },
   {
    "team": "MEM",
-   "player": "Jerami Grant",
-   "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: head; out for Saturday vs. Nets"
+   "player": "Ty Jerome",
+   "pos": "G",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 15: Hip; ruled out for Monday vs Wizards."
   },
   {
    "team": "MEM",
@@ -495,16 +432,16 @@
    "ret": "Nov 16",
    "ret_iso": "2026-11-16",
    "status": "Out",
-   "note": "Nov 14: concussion; ruled out for Saturday vs. Nets"
+   "note": "Nov 15: Concussion; questionable for Monday vs Wizards."
   },
   {
    "team": "MEM",
-   "player": "Scotty Pippen Jr.",
-   "pos": "G",
-   "ret": "Nov 21",
-   "ret_iso": "2026-11-21",
-   "status": "Out",
-   "note": "Nov 10: back; remains out for Wednesday vs. Denver"
+   "player": "Zach Edey",
+   "pos": "C",
+   "ret": "Nov 16",
+   "ret_iso": "2026-11-16",
+   "status": "Day-To-Day",
+   "note": "Nov 15: Ankle; questionable for Monday vs Washington."
   },
   {
    "team": "MEM",
@@ -513,43 +450,52 @@
    "ret": "Dec 1",
    "ret_iso": "2026-12-01",
    "status": "Out",
-   "note": "Nov 7: signed two-way contract with Grizzlies Saturday"
+   "note": "Nov 7: Signed two-way contract with Grizzlies Saturday."
   },
   {
    "team": "MIA",
    "player": "Pelle Larsson",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: illness; ruled out for Saturday vs. Pistons"
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Illness; downgraded to doubtful for Monday vs Houston."
+  },
+  {
+   "team": "MIA",
+   "player": "Nikola Jovic",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 16: Illness; downgraded to questionable for Monday vs Houston."
   },
   {
    "team": "MIL",
    "player": "Ryan Rollins",
    "pos": "G",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Day-To-Day",
-   "note": "Nov 15: illness; questionable for Sunday vs. Hawks"
+   "note": "Nov 16: Illness; out for Sunday vs Hawks."
   },
   {
    "team": "MIL",
    "player": "Ousmane Dieng",
    "pos": "F",
-   "ret": "Nov 18",
-   "ret_iso": "2026-11-18",
+   "ret": "Dec 14",
+   "ret_iso": "2026-12-14",
    "status": "Out",
-   "note": "Nov 14: finger; ruled out for Sunday vs. Hawks"
+   "note": "Nov 15: Fractured left finger; procedure to repair it Monday."
   },
   {
    "team": "MIN",
    "player": "Jaylen Clark",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: hamstring; ruled out for rest of Saturday vs. Bulls"
+   "ret": "Nov 29",
+   "ret_iso": "2026-11-29",
+   "status": "Out",
+   "note": "Nov 15: Hamstring; ruled out for the next two weeks."
   },
   {
    "team": "MIN",
@@ -558,7 +504,7 @@
    "ret": "Dec 21",
    "ret_iso": "2026-12-21",
    "status": "Out",
-   "note": "Oct 29: successful arthroscopic procedure on right knee"
+   "note": "Oct 29: Successful arthroscopic procedure on right knee."
   },
   {
    "team": "MIN",
@@ -567,43 +513,43 @@
    "ret": "Apr 2",
    "ret_iso": "2027-04-02",
    "status": "Out",
-   "note": "Oct 5: Achilles; confident he will return this season"
+   "note": "Oct 5: Achilles; confident he will return during 2026-27 season."
   },
   {
    "team": "NOP",
    "player": "Bryce McGowens",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: elbow; ruled out for Saturday vs. Nuggets"
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 15: Elbow; ruled out for Monday vs Warriors."
   },
   {
    "team": "NOP",
    "player": "Bennedict Mathurin",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 15: left plantar fasciitis; out for Saturday vs. Nuggets"
-  },
-  {
-   "team": "NOP",
-   "player": "Trendon Watford",
-   "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: ankle; ruled out for Saturday vs. Denver"
+   "note": "Nov 15: Foot; ruled out for Monday vs Warriors."
   },
   {
    "team": "NOP",
    "player": "Trey Murphy III",
    "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: knees; ruled out for Saturday vs. Nuggets"
+   "note": "Nov 15: Knees; ruled out for Monday vs Golden State."
+  },
+  {
+   "team": "NOP",
+   "player": "Trendon Watford",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 15: Ankle; ruled out for Monday vs Golden State."
   },
   {
    "team": "NOP",
@@ -612,7 +558,7 @@
    "ret": "Nov 20",
    "ret_iso": "2026-11-20",
    "status": "Out",
-   "note": "Nov 13: ankle; out for Friday vs. Memphis"
+   "note": "Nov 13: Ankle; out for Friday vs Memphis."
   },
   {
    "team": "OKC",
@@ -621,16 +567,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: back; ruled out for Sunday vs. Kings"
-  },
-  {
-   "team": "OKC",
-   "player": "Ajay Mitchell",
-   "pos": "G",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: ankle; questionable for Sunday vs. Kings"
+   "note": "Nov 14: Back; ruled out for Sunday vs Kings."
   },
   {
    "team": "OKC",
@@ -639,7 +576,7 @@
    "ret": "Nov 20",
    "ret_iso": "2026-11-20",
    "status": "Out",
-   "note": "Nov 12: knee; ruled out for Friday vs. Clippers"
+   "note": "Nov 12: Knee; ruled out for Friday vs Clippers."
   },
   {
    "team": "OKC",
@@ -648,7 +585,7 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Oct 30: surgery to repair torn left shoulder labrum"
+   "note": "Oct 30: Torn left shoulder labrum surgery; re-evaluate before season end."
   },
   {
    "team": "OKC",
@@ -657,7 +594,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Oct 30: biological treatment on patellar tendon tear; 8-10 weeks"
+   "note": "Oct 30: Biological treatment for patellar tendon tear; 8-10 weeks."
   },
   {
    "team": "OKC",
@@ -666,7 +603,16 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Oct 28: surgery for fractured left fibula and ankle ligament reconstruction"
+   "note": "Oct 28: Left fibula fracture and ankle ligament surgery; re-evaluate before season end."
+  },
+  {
+   "team": "ORL",
+   "player": "Jonathan Isaac",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Out",
+   "note": "Nov 15: Knee; ruled out for Monday vs Celtics."
   },
   {
    "team": "ORL",
@@ -675,16 +621,7 @@
    "ret": "Nov 22",
    "ret_iso": "2026-11-22",
    "status": "Out",
-   "note": "Nov 14: hamstring; progressing but no timetable to return"
-  },
-  {
-   "team": "ORL",
-   "player": "Jonathan Isaac",
-   "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Out",
-   "note": "Nov 9: knee; out for Tuesday vs. Sacramento"
+   "note": "Nov 14: Hamstring; making progress, no return timetable yet."
   },
   {
    "team": "ORL",
@@ -693,7 +630,7 @@
    "ret": "Nov 22",
    "ret_iso": "2026-11-22",
    "status": "Out",
-   "note": "Oct 24: right high-ankle sprain; sidelined four to six weeks"
+   "note": "Oct 24: Right high-ankle sprain; sidelined four to six weeks."
   },
   {
    "team": "ORL",
@@ -702,7 +639,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Sep 28: ankle; about a month from returning after surgery"
+   "note": "Sep 28: Ankle; about a month from returning after offseason surgery."
   },
   {
    "team": "PHI",
@@ -710,8 +647,17 @@
    "pos": "C",
    "ret": "Nov 16",
    "ret_iso": "2026-11-16",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Foot; questionable for Monday vs Nets."
+  },
+  {
+   "team": "PHI",
+   "player": "LeBron James",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: right foot injury management; ruled out for Sunday vs. Pacers"
+   "note": "Nov 16: Back; ruled out for Monday vs Nets."
   },
   {
    "team": "PHI",
@@ -720,7 +666,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 12: back; no timeline to return to game action"
+   "note": "Nov 12: Back; no timeline to return to game action."
   },
   {
    "team": "PHI",
@@ -729,7 +675,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 12: back; re-evaluated in about one week"
+   "note": "Nov 12: Back; re-evaluate in about one week after specialist visit."
   },
   {
    "team": "PHI",
@@ -738,16 +684,16 @@
    "ret": "Oct 1",
    "ret_iso": "2027-10-01",
    "status": "Out",
-   "note": "Oct 6: ruptured right Achilles; season-ending"
+   "note": "Oct 6: Ruptured right Achilles tendon; season-ending."
   },
   {
    "team": "PHX",
-   "player": "Drew Timme",
+   "player": "Ryan Dunn",
    "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
+   "ret": "Nov 16",
+   "ret_iso": "2026-11-16",
    "status": "Day-To-Day",
-   "note": "Nov 13: claimed off waivers by Suns Monday"
+   "note": "Nov 16: Thumb; questionable for Monday vs Denver."
   },
   {
    "team": "PHX",
@@ -756,16 +702,16 @@
    "ret": "Feb 3",
    "ret_iso": "2027-02-03",
    "status": "Out",
-   "note": "Sep 11: surgery to repair torn left shoulder labrum; extended absence"
+   "note": "Sep 11: Torn left shoulder labrum surgery; extended absence expected."
   },
   {
    "team": "POR",
    "player": "Chris Youngblood",
    "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Day-To-Day",
-   "note": "Nov 14: foot; out for Friday vs. Sacramento"
+   "ret": "Nov 17",
+   "ret_iso": "2026-11-17",
+   "status": "Out",
+   "note": "Nov 15: Foot; out for Monday vs Timberwolves."
   },
   {
    "team": "POR",
@@ -774,7 +720,7 @@
    "ret": "Jan 12",
    "ret_iso": "2027-01-12",
    "status": "Out",
-   "note": "Nov 11: surgery on fractured left ankle; re-evaluated in eight weeks"
+   "note": "Nov 11: Fractured left ankle surgery; re-evaluate in eight weeks."
   },
   {
    "team": "POR",
@@ -783,7 +729,7 @@
    "ret": "Dec 1",
    "ret_iso": "2026-12-01",
    "status": "Out",
-   "note": "Nov 7: hamstring; doctor gave positive recovery outlook"
+   "note": "Nov 7: Hamstring; doctor gave positive recovery outlook, timetable unclear."
   },
   {
    "team": "POR",
@@ -792,7 +738,34 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Aug 24: torn knee meniscus; expected to miss six months"
+   "note": "Aug 24: Torn knee meniscus; expected to miss six months."
+  },
+  {
+   "team": "SAC",
+   "player": "Zach LaVine",
+   "pos": "G",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Illness; out for Sunday vs Oklahoma City."
+  },
+  {
+   "team": "SAC",
+   "player": "De'Andre Hunter",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Hip; out for Sunday vs Thunder."
+  },
+  {
+   "team": "SAC",
+   "player": "Precious Achiuwa",
+   "pos": "F",
+   "ret": "Nov 18",
+   "ret_iso": "2026-11-18",
+   "status": "Day-To-Day",
+   "note": "Nov 16: Ankle; ruled out for Sunday vs Thunder."
   },
   {
    "team": "SAC",
@@ -801,16 +774,7 @@
    "ret": "Nov 18",
    "ret_iso": "2026-11-18",
    "status": "Out",
-   "note": "Nov 14: knee; ruled out for Sunday vs. Thunder"
-  },
-  {
-   "team": "SAC",
-   "player": "Precious Achiuwa",
-   "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: ankle; questionable for Sunday vs. Thunder"
+   "note": "Nov 14: Knee; ruled out for Sunday vs Thunder."
   },
   {
    "team": "SAC",
@@ -819,25 +783,16 @@
    "ret": "Oct 1",
    "ret_iso": "2027-10-01",
    "status": "Out",
-   "note": "Oct 21: surgery to repair torn right Achilles tendon"
-  },
-  {
-   "team": "SAS",
-   "player": "De'Aaron Fox",
-   "pos": "G",
-   "ret": "Nov 17",
-   "ret_iso": "2026-11-17",
-   "status": "Out",
-   "note": "Nov 15: hip; downgraded to out for Sunday at Utah"
+   "note": "Oct 21: Successful surgery on torn right Achilles tendon."
   },
   {
    "team": "SAS",
    "player": "Tobias Harris",
    "pos": "F",
-   "ret": "Nov 19",
-   "ret_iso": "2026-11-19",
+   "ret": "Dec 3",
+   "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Nov 10: calf; out for Wednesday vs. Chicago"
+   "note": "Nov 16: Calf; likely sidelined until early December."
   },
   {
    "team": "SAS",
@@ -846,7 +801,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Oct 5: not yet cleared for basketball activities"
+   "note": "Oct 5: Around the team but not yet cleared for basketball."
   },
   {
    "team": "TOR",
@@ -855,16 +810,7 @@
    "ret": "Nov 23",
    "ret_iso": "2026-11-23",
    "status": "Out",
-   "note": "Nov 14: foot; ruled out for Sunday vs. Knicks"
-  },
-  {
-   "team": "TOR",
-   "player": "Scottie Barnes",
-   "pos": "F",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: groin; listed questionable for Sunday vs. Knicks"
+   "note": "Nov 14: Foot; ruled out for Sunday vs Knicks."
   },
   {
    "team": "TOR",
@@ -873,7 +819,7 @@
    "ret": "Nov 16",
    "ret_iso": "2026-11-16",
    "status": "Day-To-Day",
-   "note": "Nov 13: signed two-way contract with Raptors Thursday"
+   "note": "Nov 13: Signed a two-way contract with Raptors Thursday."
   },
   {
    "team": "TOR",
@@ -882,7 +828,7 @@
    "ret": "Nov 23",
    "ret_iso": "2026-11-23",
    "status": "Out",
-   "note": "Nov 11: knee; doing individual on-court work, progressing well"
+   "note": "Nov 11: Knee; doing individual on-court work, progressing well."
   },
   {
    "team": "UTA",
@@ -890,17 +836,8 @@
    "pos": "C",
    "ret": "Nov 17",
    "ret_iso": "2026-11-17",
-   "status": "Out",
-   "note": "Nov 14: knee; ruled out for Sunday vs. Spurs"
-  },
-  {
-   "team": "UTA",
-   "player": "Trey Alexander",
-   "pos": "G",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
-   "status": "Out",
-   "note": "Nov 12: left knee bone bruise; won't play Wednesday vs. Grizzlies"
+   "status": "Day-To-Day",
+   "note": "Nov 16: Knee; ruled out for Sunday vs Spurs."
   },
   {
    "team": "UTA",
@@ -909,7 +846,7 @@
    "ret": "Jan 4",
    "ret_iso": "2027-01-04",
    "status": "Out",
-   "note": "Nov 11: non-displaced right hand fracture; out at least one month"
+   "note": "Nov 11: Non-displaced right hand fracture; at least one month."
   },
   {
    "team": "UTA",
@@ -918,7 +855,7 @@
    "ret": "Nov 20",
    "ret_iso": "2026-11-20",
    "status": "Out",
-   "note": "Nov 6: right foot injury; began on-court activities, re-evaluated in two weeks"
+   "note": "Nov 6: Right foot injury; on-court work, re-evaluate in two weeks."
   },
   {
    "team": "UTA",
@@ -927,25 +864,16 @@
    "ret": "Dec 14",
    "ret_iso": "2026-12-14",
    "status": "Out",
-   "note": "Oct 27: torn right knee MCL; sidelined six to eight weeks"
-  },
-  {
-   "team": "WAS",
-   "player": "Tre Johnson",
-   "pos": "G",
-   "ret": "Nov 15",
-   "ret_iso": "2026-11-15",
-   "status": "Day-To-Day",
-   "note": "Nov 14: lower-back soreness; questionable for Sunday vs. Rockets"
+   "note": "Oct 27: Torn right knee MCL; sidelined six to eight weeks."
   },
   {
    "team": "WAS",
    "player": "Tristan Vukcevic",
    "pos": "F",
-   "ret": "Nov 16",
-   "ret_iso": "2026-11-16",
+   "ret": "Nov 24",
+   "ret_iso": "2026-11-24",
    "status": "Out",
-   "note": "Nov 8: hip; ruled out for Monday vs. Detroit"
+   "note": "Nov 16: Hip; ruled out for Monday vs Memphis."
   },
   {
    "team": "WAS",
@@ -954,7 +882,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Nov 2: right AC joint injury; re-evaluated in three weeks"
+   "note": "Nov 2: Right AC joint injury; re-evaluate in about three weeks."
   },
   {
    "team": "WAS",
@@ -963,7 +891,7 @@
    "ret": "Feb 25",
    "ret_iso": "2027-02-25",
    "status": "Out",
-   "note": "Oct 28: foot; expected to miss several months"
+   "note": "Oct 28: Foot; expected to miss several months."
   },
   {
    "team": "WAS",
@@ -972,7 +900,7 @@
    "ret": "Apr 2",
    "ret_iso": "2027-04-02",
    "status": "Out",
-   "note": "Jul 30: surgery for torn ACL"
+   "note": "Jul 30: Underwent surgery for torn ACL."
   }
  ]
 }

@@ -8,13 +8,15 @@
   "neutral": false,
   "notes": [
    "ORL: Banchero (tobillo), Isaac (rodilla), Penda y Nelson OUT (ESPN/CBS 15-nov)",
-   "BOS en back-to-back (jugó el 15-nov vs DAL); sin bajas en ESPN/CBS"
+   "BOS en back-to-back (jugó el 15-nov vs DAL); sin bajas en ESPN/CBS",
+   "18:15 ET: Queta (BOS) OUT por descanso (ESPN)"
   ],
   "out": [
    "Jonathan Isaac",
    "Noah Penda",
    "Paolo Banchero",
-   "Izaiyah Nelson"
+   "Izaiyah Nelson",
+   "Neemias Queta"
   ],
   "gtd": {},
   "reserves": {
@@ -115,7 +117,7 @@
    "name": "Jayson Tatum",
    "pos": "SF",
    "starter": true,
-   "min": 32.3,
+   "min": 35.5,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -157,7 +159,7 @@
    "name": "Paul George",
    "pos": "PF",
    "starter": true,
-   "min": 28.4,
+   "min": 31.1,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -199,7 +201,7 @@
    "name": "Derrick White",
    "pos": "PG",
    "starter": true,
-   "min": 28.1,
+   "min": 30.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -241,7 +243,7 @@
    "name": "Payton Pritchard",
    "pos": "PG",
    "starter": false,
-   "min": 25.6,
+   "min": 28.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -279,52 +281,10 @@
   },
   {
    "team": "BOS",
-   "name": "Neemias Queta",
-   "pos": "C",
-   "starter": true,
-   "min": 21.1,
-   "g_cur": 13,
-   "p_play": 1.0,
-   "cur": {
-    "min": 22.0,
-    "pts": 9.1,
-    "reb": 6.6,
-    "ast": 1.8,
-    "fg3m": 0.4,
-    "fgm": 3.3,
-    "fga": 5.8,
-    "fg3a": 0.4,
-    "stl": 0.3,
-    "blk": 1.3,
-    "tov": 1.2,
-    "pf": 2.5,
-    "ftm": 2.2,
-    "fta": 3.4
-   },
-   "prior": {
-    "min": 25.4,
-    "pts": 10.21,
-    "reb": 8.37,
-    "ast": 1.66,
-    "fg3m": 0.01,
-    "fgm": 4.29,
-    "fga": 6.57,
-    "fg3a": 0.11,
-    "stl": 0.79,
-    "blk": 1.32,
-    "tov": 0.99,
-    "pf": 2.84,
-    "ftm": 1.62,
-    "fta": 2.3
-   },
-   "slot": "C"
-  },
-  {
-   "team": "BOS",
    "name": "Baylor Scheierman",
    "pos": "SF",
    "starter": false,
-   "min": 19.8,
+   "min": 21.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -365,7 +325,7 @@
    "name": "Sam Hauser",
    "pos": "PF",
    "starter": false,
-   "min": 19.4,
+   "min": 21.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -405,8 +365,8 @@
    "team": "BOS",
    "name": "Mitchell Robinson",
    "pos": "C",
-   "starter": false,
-   "min": 17.0,
+   "starter": true,
+   "min": 18.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -440,14 +400,15 @@
     "pf": 2.12,
     "ftm": 0.7,
     "fta": 1.72
-   }
+   },
+   "slot": "C"
   },
   {
    "team": "BOS",
    "name": "Jordan Walsh",
    "pos": "PF",
    "starter": true,
-   "min": 15.9,
+   "min": 17.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -489,7 +450,7 @@
    "name": "Hugo González",
    "pos": "SG",
    "starter": false,
-   "min": 12.8,
+   "min": 14.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -530,7 +491,7 @@
    "name": "Luka Garza",
    "pos": "C",
    "starter": false,
-   "min": 11.9,
+   "min": 13.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -571,7 +532,7 @@
    "name": "Mike Conley",
    "pos": "PG",
    "starter": false,
-   "min": 7.7,
+   "min": 8.4,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -1107,10 +1068,10 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": -375,
-  "ml_away": 290,
+  "ml_home": -360,
+  "ml_away": 287,
   "spread_home": -8.5,
-  "total": 211.5
+  "total": 212.5
  },
  "prop_lines": {
   "Jayson Tatum": {
@@ -1152,8 +1113,8 @@
    ],
    "ast": [
     6.5,
-    -105,
-    115
+    -113,
+    -104
    ],
    "fg3m": [
     1.5,
@@ -1316,20 +1277,6 @@
     0.5,
     -160,
     125
-   ]
-  },
-  "Neemias Queta": {
-   "pts": [
-    8.5,
-    -135,
-    -110,
-    10.5
-   ],
-   "reb": [
-    6.5,
-    -120,
-    -112,
-    7.5
    ]
   },
   "Jalen Suggs": {

@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "MEM: Jerome (cadera) y GG Jackson (pie) OUT; Edey (tobillo, con líneas de casa), Stewart (enfermedad) y Post (conmoción) questionable",
-   "WAS en back-to-back (jugó el 15-nov vs HOU); Tre Johnson (espalda) no jugó ayer, sin líneas de casa: 0.4"
+   "WAS en back-to-back (jugó el 15-nov vs HOU); Tre Johnson (espalda) no jugó ayer, sin líneas de casa: 0.4",
+   "18:15 ET: I. Stewart OUT (enfermedad, ESPN); Tre Johnson questionable (parte 15:00)"
   ],
   "out": [
    "GG Jackson",
@@ -18,13 +19,13 @@
    "Tristan Vukcevic",
    "Reece Beekman",
    "Justin Champagnie",
-   "Jamir Watkins"
+   "Jamir Watkins",
+   "Isaiah Stewart"
   ],
   "gtd": {
    "Zach Edey": 0.7,
-   "Isaiah Stewart": 0.6,
    "Quinten Post": 0.5,
-   "Tre Johnson": 0.4
+   "Tre Johnson": 0.5
   },
   "reserves": {
    "MEM": [
@@ -401,7 +402,7 @@
    "starter": false,
    "min": 21.9,
    "g_cur": 12,
-   "p_play": 0.4,
+   "p_play": 0.5,
    "cur": {
     "min": 23.5,
     "pts": 9.7,
@@ -563,7 +564,7 @@
    "name": "Cameron Boozer",
    "pos": "PF",
    "starter": true,
-   "min": 33.2,
+   "min": 36.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -598,14 +599,14 @@
     "ftm": 3.6,
     "fta": 4.2
    },
-   "slot": "SF"
+   "slot": "PF"
   },
   {
    "team": "MEM",
    "name": "Cedric Coward",
    "pos": "SG",
    "starter": true,
-   "min": 30.3,
+   "min": 32.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -640,14 +641,14 @@
     "ftm": 2.26,
     "fta": 2.68
    },
-   "slot": "PG"
+   "slot": "SG"
   },
   {
    "team": "MEM",
    "name": "Jaylen Wells",
    "pos": "SG",
    "starter": true,
-   "min": 28.5,
+   "min": 31.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -682,14 +683,14 @@
     "ftm": 1.94,
     "fta": 2.48
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "MEM",
    "name": "Jerami Grant",
    "pos": "PF",
    "starter": false,
-   "min": 25.1,
+   "min": 27.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -729,8 +730,8 @@
    "team": "MEM",
    "name": "Cam Spencer",
    "pos": "SG",
-   "starter": false,
-   "min": 22.0,
+   "starter": true,
+   "min": 23.9,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -764,14 +765,15 @@
     "pf": 1.43,
     "ftm": 1.75,
     "fta": 1.86
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "MEM",
    "name": "Javon Small",
    "pos": "PG",
    "starter": false,
-   "min": 21.9,
+   "min": 23.8,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -812,7 +814,7 @@
    "name": "Zach Edey",
    "pos": "C",
    "starter": true,
-   "min": 21.8,
+   "min": 23.7,
    "g_cur": 10,
    "p_play": 0.7,
    "cur": {
@@ -851,52 +853,10 @@
   },
   {
    "team": "MEM",
-   "name": "Isaiah Stewart",
-   "pos": "C",
-   "starter": true,
-   "min": 19.2,
-   "g_cur": 10,
-   "p_play": 0.6,
-   "cur": {
-    "min": 18.2,
-    "pts": 10.9,
-    "reb": 3.3,
-    "ast": 0.9,
-    "fg3m": 0.9,
-    "fgm": 4.3,
-    "fga": 6.9,
-    "fg3a": 2.2,
-    "stl": 0.1,
-    "blk": 0.9,
-    "tov": 1.0,
-    "pf": 3.4,
-    "ftm": 1.4,
-    "fta": 1.5
-   },
-   "prior": {
-    "min": 22.7,
-    "pts": 10.02,
-    "reb": 5.0,
-    "ast": 1.14,
-    "fg3m": 0.69,
-    "fgm": 3.81,
-    "fga": 6.93,
-    "fg3a": 2.07,
-    "stl": 0.28,
-    "blk": 1.6,
-    "tov": 1.16,
-    "pf": 2.86,
-    "ftm": 1.71,
-    "fta": 2.26
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "MEM",
    "name": "Quinten Post",
    "pos": "C",
    "starter": false,
-   "min": 13.7,
+   "min": 14.9,
    "g_cur": 8,
    "p_play": 0.5,
    "cur": {
@@ -937,7 +897,7 @@
    "name": "Kris Murray",
    "pos": "SF",
    "starter": false,
-   "min": 12.3,
+   "min": 13.4,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -978,7 +938,7 @@
    "name": "Taylor Hendricks",
    "pos": "PF",
    "starter": false,
-   "min": 12.1,
+   "min": 13.2,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1017,10 +977,10 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": 135,
+  "ml_home": 136,
   "ml_away": -161,
   "spread_home": 3.5,
-  "total": 230.5
+  "total": 232.5
  },
  "prop_lines": {
   "Anthony Davis": {

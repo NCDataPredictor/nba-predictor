@@ -958,10 +958,10 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": -130,
-  "ml_away": 110,
+  "ml_home": -135,
+  "ml_away": 114,
   "spread_home": -2.5,
-  "total": 228.5
+  "total": 227.5
  },
  "prop_lines": {
   "Deni Avdija": {

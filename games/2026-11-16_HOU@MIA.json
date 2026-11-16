@@ -8,15 +8,18 @@
   "neutral": false,
   "notes": [
    "HOU en back-to-back (jugó el 15-nov en WAS); VanVleet (rodilla, manejo de carga) no jugó ayer pero las casas le dan líneas: 0.6; Capela (tobillo) OUT; Smart OUT ayer y ya no sale en los partes: 0.8",
-   "MIA: Larsson (enfermedad) questionable con líneas"
+   "MIA: Larsson (enfermedad) questionable con líneas",
+   "18:15 ET: S. Adams OUT, Smart OUT (suspensión), VanVleet fuera del parte; Amen Thompson questionable; MIA Larsson doubtful, Jović questionable"
   ],
   "out": [
-   "Clint Capela"
+   "Clint Capela",
+   "Steven Adams",
+   "Marcus Smart"
   ],
   "gtd": {
-   "Fred VanVleet": 0.6,
-   "Marcus Smart": 0.8,
-   "Pelle Larsson": 0.65
+   "Pelle Larsson": 0.3,
+   "Amen Thompson": 0.5,
+   "Nikola Jović": 0.5
   },
   "reserves": {
    "HOU": [
@@ -268,7 +271,7 @@
    "starter": false,
    "min": 27.2,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 0.3,
    "cur": {
     "min": 29.5,
     "pts": 11.4,
@@ -516,7 +519,7 @@
    "starter": false,
    "min": 11.1,
    "g_cur": 8,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 12.1,
     "pts": 2.4,
@@ -637,7 +640,7 @@
    "name": "Alperen Sengun",
    "pos": "C",
    "starter": true,
-   "min": 32.6,
+   "min": 37.1,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -679,7 +682,7 @@
    "name": "Jabari Smith Jr.",
    "pos": "PF",
    "starter": true,
-   "min": 32.0,
+   "min": 36.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -721,7 +724,7 @@
    "name": "Kevin Durant",
    "pos": "SF",
    "starter": true,
-   "min": 31.9,
+   "min": 36.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -763,9 +766,9 @@
    "name": "Amen Thompson",
    "pos": "SF",
    "starter": true,
-   "min": 31.4,
+   "min": 35.8,
    "g_cur": 14,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 33.4,
     "pts": 15.8,
@@ -805,9 +808,9 @@
    "name": "Fred VanVleet",
    "pos": "PG",
    "starter": true,
-   "min": 28.6,
+   "min": 32.6,
    "g_cur": 11,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 30.4,
     "pts": 14.0,
@@ -847,7 +850,7 @@
    "name": "Tari Eason",
    "pos": "PF",
    "starter": false,
-   "min": 23.3,
+   "min": 26.6,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -885,51 +888,10 @@
   },
   {
    "team": "HOU",
-   "name": "Marcus Smart",
-   "pos": "PG",
-   "starter": false,
-   "min": 20.1,
-   "g_cur": 9,
-   "p_play": 0.8,
-   "cur": {
-    "min": 21.4,
-    "pts": 8.3,
-    "reb": 2.6,
-    "ast": 2.0,
-    "fg3m": 1.8,
-    "fgm": 2.8,
-    "fga": 6.3,
-    "fg3a": 4.4,
-    "stl": 1.0,
-    "blk": 0.1,
-    "tov": 1.6,
-    "pf": 2.7,
-    "ftm": 1.0,
-    "fta": 1.2
-   },
-   "prior": {
-    "min": 28.5,
-    "pts": 9.34,
-    "reb": 2.77,
-    "ast": 2.98,
-    "fg3m": 1.56,
-    "fgm": 3.03,
-    "fga": 7.68,
-    "fg3a": 4.73,
-    "stl": 1.4,
-    "blk": 0.37,
-    "tov": 1.48,
-    "pf": 2.61,
-    "ftm": 1.71,
-    "fta": 2.08
-   }
-  },
-  {
-   "team": "HOU",
    "name": "Reed Sheppard",
    "pos": "PG",
    "starter": false,
-   "min": 19.3,
+   "min": 22.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -970,7 +932,7 @@
    "name": "Bogdan Bogdanović",
    "pos": "SG",
    "starter": false,
-   "min": 11.4,
+   "min": 13.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -1005,53 +967,12 @@
     "ftm": 0.87,
     "fta": 1.09
    }
-  },
-  {
-   "team": "HOU",
-   "name": "Steven Adams",
-   "pos": "C",
-   "starter": false,
-   "min": 9.4,
-   "g_cur": 2,
-   "p_play": 1.0,
-   "cur": {
-    "min": 10.0,
-    "pts": 5.0,
-    "reb": 4.5,
-    "ast": 1.0,
-    "fg3m": 0.0,
-    "fgm": 2.5,
-    "fga": 3.0,
-    "fg3a": 0.0,
-    "stl": 0.0,
-    "blk": 0.5,
-    "tov": 1.0,
-    "pf": 2.5,
-    "ftm": 0.0,
-    "fta": 0.0
-   },
-   "prior": {
-    "min": 22.8,
-    "pts": 5.84,
-    "reb": 8.62,
-    "ast": 1.5,
-    "fg3m": 0.0,
-    "fgm": 2.19,
-    "fga": 4.34,
-    "fg3a": 0.0,
-    "stl": 0.69,
-    "blk": 0.62,
-    "tov": 1.09,
-    "pf": 1.72,
-    "ftm": 1.47,
-    "fta": 2.53
-   }
   }
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": 120,
-  "ml_away": -145,
+  "ml_home": 124,
+  "ml_away": -148,
   "spread_home": 2.5,
   "total": 231.5
  },
@@ -1112,8 +1033,8 @@
    ],
    "ast": [
     6.5,
-    -122,
-    110
+    -138,
+    120
    ]
   },
   "Bam Adebayo": {

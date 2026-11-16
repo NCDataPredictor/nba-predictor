@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "GSW: Curry (oblicuo), B. Williams, Porzingis, Moody y Butler OUT; Santos (tobillo) questionable",
-   "NOP: Murphy III, D. Murray, Mathurin, McGowens y Watford OUT"
+   "NOP: Murphy III, D. Murray, Mathurin, McGowens y Watford OUT",
+   "18:15 ET: Gui Santos disponible (RotoBaller)"
   ],
   "out": [
    "Stephen Curry",
@@ -23,7 +24,7 @@
    "Dejounte Murray"
   ],
   "gtd": {
-   "Gui Santos": 0.65
+   "Gui Santos": 0.85
   },
   "reserves": {
    "GSW": [
@@ -748,7 +749,7 @@
    "starter": true,
    "min": 19.3,
    "g_cur": 10,
-   "p_play": 0.65,
+   "p_play": 0.85,
    "cur": {
     "min": 18.6,
     "pts": 5.6,
@@ -1033,8 +1034,8 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": 140,
-  "ml_away": -167,
+  "ml_home": 131,
+  "ml_away": -155,
   "spread_home": 3.5,
   "total": 223.5
  },
