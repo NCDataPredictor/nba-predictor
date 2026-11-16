@@ -1,0 +1,8 @@
+{
+ "source": "scoresandodds.com/prop-bets/<id>/<jugador> (16-nov ~12:10 ET): solo 3 de 12 páginas probadas ya mostraban el partido del 16-nov (las demás seguían en el anterior)",
+ "players": {
+  "Devin Booker": {"pr": [30.5, -108, -115], "pa": [26.5, -115, -106], "ra": [11.5, 102, -125], "pra": [34.5, -106, -112]},
+  "Yaxel Lendeborg": {"pr": [29.5, -115, -108], "pa": [25.5, -105, -105], "ra": [11.5, -110, 102], "pra": [33.5, -112, -110]},
+  "Anthony Davis": {"pr": [34.5, -106, -110], "pa": [25.5, -123, -106], "ra": [12.5, -128, -100], "pra": [36.5, -114, -112]}
+ }
+}
