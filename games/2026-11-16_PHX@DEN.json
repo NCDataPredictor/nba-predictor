@@ -8,13 +8,16 @@
   "neutral": false,
   "notes": [
    "PHX en back-to-back (jugó el 15-nov vs LAL)",
-   "DEN: Strawther OUT"
+   "DEN: Strawther OUT",
+   "18:15 ET: Ryan Dunn questionable (pulgar)"
   ],
   "out": [
    "Mark Williams",
    "Julian Strawther"
   ],
-  "gtd": {},
+  "gtd": {
+   "Ryan Dunn": 0.5
+  },
   "reserves": {
    "PHX": [
     {
@@ -969,7 +972,7 @@
    "starter": false,
    "min": 16.9,
    "g_cur": 12,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 17.5,
     "pts": 5.1,
@@ -1088,10 +1091,10 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": -420,
+  "ml_home": -406,
   "ml_away": 320,
   "spread_home": -9.5,
-  "total": 229.5
+  "total": 228.5
  },
  "prop_lines": {
   "Nikola Jokić": {

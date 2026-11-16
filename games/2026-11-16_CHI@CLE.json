@@ -8,18 +8,19 @@
   "neutral": false,
   "notes": [
    "CLE: Mobley y Merrill OUT; Tyson (tobillo) y Watson (abdomen) GTD con líneas de casa",
-   "CHI: Wilson OUT 4-6 semanas, Awaka OUT; Jalen Smith (dedo) GTD con líneas"
+   "CHI: Wilson OUT 4-6 semanas, Awaka OUT; Jalen Smith (dedo) GTD con líneas",
+   "18:15 ET: Tyson OUT (ESPN); J. Smith y Watson questionable"
   ],
   "out": [
    "Tobe Awaka",
    "Caleb Wilson",
    "Evan Mobley",
    "Sam Merrill",
-   "Nae'Qwan Tomlin"
+   "Nae'Qwan Tomlin",
+   "Jaylon Tyson"
   ],
   "gtd": {
    "Jalen Smith": 0.65,
-   "Jaylon Tyson": 0.65,
    "Peyton Watson": 0.65
   },
   "reserves": {
@@ -94,7 +95,7 @@
    "name": "Donovan Mitchell",
    "pos": "SG",
    "starter": true,
-   "min": 29.3,
+   "min": 32.2,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -136,7 +137,7 @@
    "name": "James Harden",
    "pos": "PG",
    "starter": true,
-   "min": 29.1,
+   "min": 32.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -178,7 +179,7 @@
    "name": "Peyton Watson",
    "pos": "SF",
    "starter": true,
-   "min": 25.1,
+   "min": 27.5,
    "g_cur": 11,
    "p_play": 0.65,
    "cur": {
@@ -220,7 +221,7 @@
    "name": "Jarrett Allen",
    "pos": "C",
    "starter": true,
-   "min": 23.1,
+   "min": 25.3,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -259,51 +260,10 @@
   },
   {
    "team": "CLE",
-   "name": "Jaylon Tyson",
-   "pos": "SF",
-   "starter": false,
-   "min": 21.1,
-   "g_cur": 8,
-   "p_play": 0.65,
-   "cur": {
-    "min": 23.8,
-    "pts": 9.5,
-    "reb": 3.1,
-    "ast": 2.5,
-    "fg3m": 1.6,
-    "fgm": 3.5,
-    "fga": 8.5,
-    "fg3a": 5.1,
-    "stl": 0.5,
-    "blk": 0.4,
-    "tov": 1.1,
-    "pf": 2.8,
-    "ftm": 0.9,
-    "fta": 1.1
-   },
-   "prior": {
-    "min": 27.0,
-    "pts": 13.21,
-    "reb": 5.12,
-    "ast": 2.23,
-    "fg3m": 2.02,
-    "fgm": 5.0,
-    "fga": 10.15,
-    "fg3a": 4.52,
-    "stl": 0.82,
-    "blk": 0.42,
-    "tov": 1.5,
-    "pf": 2.48,
-    "ftm": 1.2,
-    "fta": 1.62
-   }
-  },
-  {
-   "team": "CLE",
    "name": "Meleek Thomas",
    "pos": "SG",
    "starter": true,
-   "min": 20.9,
+   "min": 22.9,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -345,7 +305,7 @@
    "name": "Mario Hezonja",
    "pos": "PF",
    "starter": false,
-   "min": 17.1,
+   "min": 18.8,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -386,7 +346,7 @@
    "name": "Tyrese Proctor",
    "pos": "PG",
    "starter": false,
-   "min": 17.1,
+   "min": 18.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -427,7 +387,7 @@
    "name": "Thomas Bryant",
    "pos": "C",
    "starter": false,
-   "min": 13.2,
+   "min": 14.5,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -468,7 +428,7 @@
    "name": "Norchad Omier",
    "pos": "PF",
    "starter": false,
-   "min": 12.4,
+   "min": 13.6,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -509,7 +469,7 @@
    "name": "Riley Minix",
    "pos": "SF",
    "starter": false,
-   "min": 12.3,
+   "min": 13.4,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -550,7 +510,7 @@
    "name": "Craig Porter Jr.",
    "pos": "PG",
    "starter": false,
-   "min": 10.3,
+   "min": 11.3,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -591,7 +551,7 @@
    "name": "Tristan Enaruna",
    "pos": "SF",
    "starter": false,
-   "min": 8.9,
+   "min": 9.7,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -1250,9 +1210,9 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": -400,
-  "ml_away": 310,
-  "spread_home": -9.5,
+  "ml_home": -359,
+  "ml_away": 286,
+  "spread_home": -8.5,
   "total": 241.5
  },
  "prop_lines": {
@@ -1324,8 +1284,8 @@
    ],
    "reb": [
     5.5,
-    105,
-    -100
+    -118,
+    105
    ],
    "fg3m": [
     1.5,
@@ -1345,25 +1305,6 @@
     9.5,
     105,
     -105
-   ]
-  },
-  "Jaylon Tyson": {
-   "pts": [
-    12.5,
-    -130,
-    -104,
-    13.5
-   ],
-   "reb": [
-    4.5,
-    -114,
-    100
-   ],
-   "fg3m": [
-    1.5,
-    -192,
-    -165,
-    2.5
    ]
   },
   "Peyton Watson": {

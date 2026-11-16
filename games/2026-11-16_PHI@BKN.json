@@ -8,12 +8,14 @@
   "neutral": false,
   "notes": [
    "PHI en back-to-back (jugó el 15-nov vs IND); Embiid (pie, manejo de carga) GTD: no jugó ayer y las casas le dan líneas: 0.55",
-   "BKN sin bajas en ESPN/CBS"
+   "BKN sin bajas en ESPN/CBS",
+   "18:15 ET: LeBron James OUT (espalda/ciática, parte 15:30); Embiid questionable"
   ],
   "out": [
    "Adem Bona",
    "Dominick Barlow",
-   "Ariel Hukporti"
+   "Ariel Hukporti",
+   "LeBron James"
   ],
   "gtd": {
    "Joel Embiid": 0.55
@@ -643,7 +645,7 @@
    "name": "Tyrese Maxey",
    "pos": "PG",
    "starter": true,
-   "min": 34.6,
+   "min": 38.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -685,7 +687,7 @@
    "name": "Jaylen Brown",
    "pos": "SF",
    "starter": true,
-   "min": 33.2,
+   "min": 38.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -727,7 +729,7 @@
    "name": "VJ Edgecombe",
    "pos": "SG",
    "starter": true,
-   "min": 32.0,
+   "min": 36.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -766,52 +768,10 @@
   },
   {
    "team": "PHI",
-   "name": "LeBron James",
-   "pos": "PF",
-   "starter": true,
-   "min": 31.2,
-   "g_cur": 11,
-   "p_play": 1.0,
-   "cur": {
-    "min": 32.6,
-    "pts": 15.1,
-    "reb": 7.2,
-    "ast": 6.9,
-    "fg3m": 0.8,
-    "fgm": 5.6,
-    "fga": 12.7,
-    "fg3a": 3.6,
-    "stl": 1.2,
-    "blk": 0.7,
-    "tov": 2.6,
-    "pf": 2.1,
-    "ftm": 3.0,
-    "fta": 4.2
-   },
-   "prior": {
-    "min": 33.1,
-    "pts": 20.93,
-    "reb": 6.07,
-    "ast": 7.2,
-    "fg3m": 1.28,
-    "fgm": 7.88,
-    "fga": 15.32,
-    "fg3a": 4.05,
-    "stl": 1.2,
-    "blk": 0.58,
-    "tov": 2.98,
-    "pf": 1.35,
-    "ftm": 3.88,
-    "fta": 5.27
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "PHI",
    "name": "Joel Embiid",
    "pos": "C",
    "starter": true,
-   "min": 30.1,
+   "min": 34.6,
    "g_cur": 11,
    "p_play": 0.55,
    "cur": {
@@ -852,8 +812,8 @@
    "team": "PHI",
    "name": "Dean Wade",
    "pos": "PF",
-   "starter": false,
-   "min": 25.0,
+   "starter": true,
+   "min": 28.7,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -887,14 +847,15 @@
     "pf": 1.53,
     "ftm": 0.46,
     "fta": 0.64
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "PHI",
    "name": "Kentavious Caldwell-Pope",
    "pos": "SF",
    "starter": false,
-   "min": 20.9,
+   "min": 24.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -935,7 +896,7 @@
    "name": "Anfernee Simons",
    "pos": "SG",
    "starter": false,
-   "min": 20.3,
+   "min": 23.3,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -976,7 +937,7 @@
    "name": "Jabari Walker",
    "pos": "PF",
    "starter": false,
-   "min": 12.6,
+   "min": 14.5,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -1015,10 +976,10 @@
  ],
  "market": {
   "source": "NBA.com/games 16-nov (8 partidos de liga); Covers matchup/<id>/odds (9 casas en los 8, ~11:50 ET); props de puntos, rebotes, asistencias y triples de scoresandodds.com/nba/props/<stat>?date=2026-11-16 (mejor cuota por lado, ~11:55 ET)",
-  "ml_home": 185,
-  "ml_away": -225,
+  "ml_home": 180,
+  "ml_away": -217,
   "spread_home": 5.5,
-  "total": 225.5
+  "total": 226.5
  },
  "prop_lines": {
   "Tyrese Maxey": {
@@ -1134,28 +1095,6 @@
     -150
    ]
   },
-  "LeBron James": {
-   "pts": [
-    15.5,
-    -105,
-    -110
-   ],
-   "reb": [
-    6.5,
-    -115,
-    105
-   ],
-   "ast": [
-    5.5,
-    -125,
-    115
-   ],
-   "fg3m": [
-    1.5,
-    175,
-    -230
-   ]
-  },
   "VJ Edgecombe": {
    "pts": [
     12.5,
@@ -1224,7 +1163,7 @@
   "Day'Ron Sharpe": {
    "pts": [
     8.5,
-    -115,
+    -120,
     -105
    ],
    "reb": [
