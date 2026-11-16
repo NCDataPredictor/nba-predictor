@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-15T23:33+00:00",
+ "updated": "2026-11-16T01:32+00:00",
  "list": [
-  {
-   "date": "2026-11-12",
-   "gid": "2026-11-12-TOR-at-PHI",
-   "player": "LeBron James",
-   "team": "PHI",
-   "status": "out",
-   "note": "Espalda; descartado vs TOR",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-12T23:16+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-12",
-   "gid": "2026-11-12-TOR-at-PHI",
-   "player": "Scottie Barnes",
-   "team": "TOR",
-   "status": "out",
-   "note": "Ingle; descartado vs PHI",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-12T23:16+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-13",
    "gid": "2026-11-13-MEM-at-NOP",
