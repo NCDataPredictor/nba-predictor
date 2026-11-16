@@ -2015,7 +2015,23 @@
     "ORL: Banchero (tobillo), Isaac (rodilla), Penda y Nelson OUT (ESPN/CBS 15-nov)",
     "BOS en back-to-back (jugó el 15-nov vs DAL); sin bajas en ESPN/CBS",
     "18:15 ET: Queta (BOS) OUT por descanso (ESPN)"
-   ]
+   ],
+   "starters": {
+    "ORL": [
+     "Jalen Suggs",
+     "Desmond Bane",
+     "Anthony Black",
+     "Franz Wagner",
+     "Wendell Carter Jr."
+    ],
+    "BOS": [
+     "Derrick White",
+     "Jordan Walsh",
+     "Paul George",
+     "Jayson Tatum",
+     "Luka Garza"
+    ]
+   }
   },
   {
    "away": "MEM",
@@ -2049,16 +2065,28 @@
     "Jamir Watkins",
     "Isaiah Stewart"
    ],
-   "gtd": {
-    "Zach Edey": 0.7,
-    "Quinten Post": 0.5,
-    "Tre Johnson": 0.5
-   },
+   "gtd": {},
    "notes": [
     "MEM: Jerome (cadera) y GG Jackson (pie) OUT; Edey (tobillo, con líneas de casa), Stewart (enfermedad) y Post (conmoción) questionable",
     "WAS en back-to-back (jugó el 15-nov vs HOU); Tre Johnson (espalda) no jugó ayer, sin líneas de casa: 0.4",
     "18:15 ET: I. Stewart OUT (enfermedad, ESPN); Tre Johnson questionable (parte 15:00)"
-   ]
+   ],
+   "starters": {
+    "MEM": [
+     "Cam Spencer",
+     "Cedric Coward",
+     "Jaylen Wells",
+     "Cameron Boozer",
+     "Zach Edey"
+    ],
+    "WAS": [
+     "Trae Young",
+     "Kyshawn George",
+     "AJ Dybantsa",
+     "Anthony Davis",
+     "Alex Sarr"
+    ]
+   }
   },
   {
    "away": "CHI",
@@ -2087,15 +2115,28 @@
     "Nae'Qwan Tomlin",
     "Jaylon Tyson"
    ],
-   "gtd": {
-    "Jalen Smith": 0.65,
-    "Peyton Watson": 0.65
-   },
+   "gtd": {},
    "notes": [
     "CLE: Mobley y Merrill OUT; Tyson (tobillo) y Watson (abdomen) GTD con líneas de casa",
     "CHI: Wilson OUT 4-6 semanas, Awaka OUT; Jalen Smith (dedo) GTD con líneas",
     "18:15 ET: Tyson OUT (ESPN); J. Smith y Watson questionable"
-   ]
+   ],
+   "starters": {
+    "CLE": [
+     "James Harden",
+     "Donovan Mitchell",
+     "Tyrese Proctor",
+     "Peyton Watson",
+     "Jarrett Allen"
+    ],
+    "CHI": [
+     "Josh Giddey",
+     "Norman Powell",
+     "Isaac Okoro",
+     "Matas Buzelis",
+     "Jalen Smith"
+    ]
+   }
   },
   {
    "away": "HOU",
@@ -2115,12 +2156,12 @@
    "out": [
     "Clint Capela",
     "Steven Adams",
-    "Marcus Smart"
+    "Marcus Smart",
+    "Pelle Larsson",
+    "Nikola Jović"
    ],
    "gtd": {
-    "Pelle Larsson": 0.3,
-    "Amen Thompson": 0.5,
-    "Nikola Jović": 0.5
+    "Amen Thompson": 0.5
    },
    "notes": [
     "HOU en back-to-back (jugó el 15-nov en WAS); VanVleet (rodilla, manejo de carga) no jugó ayer pero las casas le dan líneas: 0.6; Capela (tobillo) OUT; Smart OUT ayer y ya no sale en los partes: 0.8",
