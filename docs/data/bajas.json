@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:32+00:00",
+ "updated": "2026-11-16T23:18+00:00",
  "list": [
   {
    "date": "2026-11-13",
@@ -275,6 +275,116 @@
    "source": "NBC/Rotoworld 15:29 ET",
    "at": "2026-11-15T21:02+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-CHI-at-CLE",
+   "player": "Jaylon Tyson",
+   "team": "CLE",
+   "status": "out",
+   "note": "tobillo",
+   "source": "ESPN 16-nov 18:15 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-HOU-at-MIA",
+   "player": "Amen Thompson",
+   "team": "HOU",
+   "status": "duda",
+   "note": "rodilla, questionable",
+   "source": "Athlon 16-nov 15:30 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-HOU-at-MIA",
+   "player": "Marcus Smart",
+   "team": "HOU",
+   "status": "out",
+   "note": "último partido de suspensión",
+   "source": "Athlon parte oficial 16-nov 15:30 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-HOU-at-MIA",
+   "player": "Steven Adams",
+   "team": "HOU",
+   "status": "out",
+   "note": "pierna (gestión)",
+   "source": "Athlon parte oficial 16-nov 15:30 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-HOU-at-MIA",
+   "player": "Nikola Jović",
+   "team": "MIA",
+   "status": "duda",
+   "note": "enfermedad, questionable",
+   "source": "ESPN 16-nov 18:15 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-HOU-at-MIA",
+   "player": "Pelle Larsson",
+   "team": "MIA",
+   "status": "duda",
+   "note": "enfermedad, doubtful",
+   "source": "ESPN 16-nov 18:15 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-MEM-at-WAS",
+   "player": "Isaiah Stewart",
+   "team": "MEM",
+   "status": "out",
+   "note": "enfermedad",
+   "source": "ESPN 16-nov 18:15 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-ORL-at-BOS",
+   "player": "Neemias Queta",
+   "team": "BOS",
+   "status": "out",
+   "note": "descanso",
+   "source": "ESPN 16-nov 18:15 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-PHI-at-BKN",
+   "player": "LeBron James",
+   "team": "PHI",
+   "status": "out",
+   "note": "espalda/ciática",
+   "source": "ESPN/Athlon 16-nov 15:30 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-16",
+   "gid": "2026-11-16-PHX-at-DEN",
+   "player": "Ryan Dunn",
+   "team": "PHX",
+   "status": "duda",
+   "note": "pulgar, questionable",
+   "source": "SI 16-nov 15:22 ET",
+   "at": "2026-11-16T23:18+00:00",
+   "sim": false
   }
  ]
 }
