@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:23+00:00",
+ "updated": "2026-11-16T23:38+00:00",
  "list": [
   {
    "date": "2026-11-13",
@@ -325,22 +325,22 @@
    "gid": "2026-11-16-HOU-at-MIA",
    "player": "Nikola Jović",
    "team": "MIA",
-   "status": "duda",
-   "note": "enfermedad, questionable",
-   "source": "ESPN 16-nov 18:15 ET",
-   "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "status": "out",
+   "note": "enfermedad; OUT vs HOU",
+   "source": "Underdog NBA (X, captura 18:34 ET)",
+   "at": "2026-11-16T23:35+00:00",
+   "sim": true
   },
   {
    "date": "2026-11-16",
    "gid": "2026-11-16-HOU-at-MIA",
    "player": "Pelle Larsson",
    "team": "MIA",
-   "status": "duda",
-   "note": "enfermedad, doubtful",
-   "source": "ESPN 16-nov 18:15 ET",
-   "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "status": "out",
+   "note": "enfermedad; OUT vs HOU",
+   "source": "Underdog NBA (X, captura 18:34 ET)",
+   "at": "2026-11-16T23:35+00:00",
+   "sim": true
   },
   {
    "date": "2026-11-16",

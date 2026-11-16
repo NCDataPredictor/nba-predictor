@@ -19,10 +19,7 @@
    "Nae'Qwan Tomlin",
    "Jaylon Tyson"
   ],
-  "gtd": {
-   "Jalen Smith": 0.65,
-   "Peyton Watson": 0.65
-  },
+  "gtd": {},
   "reserves": {
    "CHI": [],
    "CLE": []
@@ -95,7 +92,7 @@
    "name": "Donovan Mitchell",
    "pos": "SG",
    "starter": true,
-   "min": 32.2,
+   "min": 31.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -130,14 +127,14 @@
     "ftm": 5.31,
     "fta": 6.14
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "CLE",
    "name": "James Harden",
    "pos": "PG",
    "starter": true,
-   "min": 32.0,
+   "min": 31.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -179,9 +176,9 @@
    "name": "Peyton Watson",
    "pos": "SF",
    "starter": true,
-   "min": 27.5,
+   "min": 27.0,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 28.2,
     "pts": 10.4,
@@ -221,7 +218,7 @@
    "name": "Jarrett Allen",
    "pos": "C",
    "starter": true,
-   "min": 25.3,
+   "min": 24.9,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -260,10 +257,52 @@
   },
   {
    "team": "CLE",
-   "name": "Meleek Thomas",
-   "pos": "SG",
+   "name": "Tyrese Proctor",
+   "pos": "PG",
    "starter": true,
    "min": 22.9,
+   "g_cur": 13,
+   "p_play": 1.0,
+   "cur": {
+    "min": 19.2,
+    "pts": 9.3,
+    "reb": 3.5,
+    "ast": 2.8,
+    "fg3m": 1.8,
+    "fgm": 3.4,
+    "fga": 6.4,
+    "fg3a": 3.8,
+    "stl": 0.5,
+    "blk": 0.0,
+    "tov": 0.5,
+    "pf": 1.9,
+    "ftm": 0.8,
+    "fta": 1.0
+   },
+   "prior": {
+    "min": 11.0,
+    "pts": 5.44,
+    "reb": 1.28,
+    "ast": 1.48,
+    "fg3m": 0.92,
+    "fgm": 1.86,
+    "fga": 4.5,
+    "fg3a": 2.62,
+    "stl": 0.5,
+    "blk": 0.0,
+    "tov": 0.8,
+    "pf": 1.18,
+    "ftm": 0.8,
+    "fta": 0.9
+   },
+   "slot": "SG"
+  },
+  {
+   "team": "CLE",
+   "name": "Meleek Thomas",
+   "pos": "SG",
+   "starter": false,
+   "min": 22.5,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -297,15 +336,14 @@
     "pf": 2.04,
     "ftm": 0.5,
     "fta": 0.5
-   },
-   "slot": "SF"
+   }
   },
   {
    "team": "CLE",
    "name": "Mario Hezonja",
    "pos": "PF",
    "starter": false,
-   "min": 18.8,
+   "min": 18.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -343,51 +381,10 @@
   },
   {
    "team": "CLE",
-   "name": "Tyrese Proctor",
-   "pos": "PG",
-   "starter": false,
-   "min": 18.7,
-   "g_cur": 13,
-   "p_play": 1.0,
-   "cur": {
-    "min": 19.2,
-    "pts": 9.3,
-    "reb": 3.5,
-    "ast": 2.8,
-    "fg3m": 1.8,
-    "fgm": 3.4,
-    "fga": 6.4,
-    "fg3a": 3.8,
-    "stl": 0.5,
-    "blk": 0.0,
-    "tov": 0.5,
-    "pf": 1.9,
-    "ftm": 0.8,
-    "fta": 1.0
-   },
-   "prior": {
-    "min": 11.0,
-    "pts": 5.44,
-    "reb": 1.28,
-    "ast": 1.48,
-    "fg3m": 0.92,
-    "fgm": 1.86,
-    "fga": 4.5,
-    "fg3a": 2.62,
-    "stl": 0.5,
-    "blk": 0.0,
-    "tov": 0.8,
-    "pf": 1.18,
-    "ftm": 0.8,
-    "fta": 0.9
-   }
-  },
-  {
-   "team": "CLE",
    "name": "Thomas Bryant",
    "pos": "C",
    "starter": false,
-   "min": 14.5,
+   "min": 14.2,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -428,7 +425,7 @@
    "name": "Norchad Omier",
    "pos": "PF",
    "starter": false,
-   "min": 13.6,
+   "min": 13.4,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -469,7 +466,7 @@
    "name": "Riley Minix",
    "pos": "SF",
    "starter": false,
-   "min": 13.4,
+   "min": 13.2,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -510,7 +507,7 @@
    "name": "Craig Porter Jr.",
    "pos": "PG",
    "starter": false,
-   "min": 11.3,
+   "min": 11.1,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -551,7 +548,7 @@
    "name": "Tristan Enaruna",
    "pos": "SF",
    "starter": false,
-   "min": 9.7,
+   "min": 9.6,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -592,7 +589,7 @@
    "name": "Norman Powell",
    "pos": "SG",
    "starter": true,
-   "min": 25.4,
+   "min": 25.2,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -634,7 +631,7 @@
    "name": "Josh Giddey",
    "pos": "PG",
    "starter": true,
-   "min": 24.8,
+   "min": 24.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -676,7 +673,7 @@
    "name": "Matas Buzelis",
    "pos": "SF",
    "starter": true,
-   "min": 23.4,
+   "min": 23.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -718,9 +715,9 @@
    "name": "Jalen Smith",
    "pos": "C",
    "starter": true,
-   "min": 21.6,
+   "min": 21.4,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 24.7,
     "pts": 13.0,
@@ -760,7 +757,7 @@
    "name": "Patrick Williams",
    "pos": "PF",
    "starter": false,
-   "min": 21.5,
+   "min": 21.3,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -801,7 +798,7 @@
    "name": "Isaac Okoro",
    "pos": "SG",
    "starter": true,
-   "min": 19.1,
+   "min": 20.8,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -843,7 +840,7 @@
    "name": "Tre Jones",
    "pos": "PG",
    "starter": false,
-   "min": 16.5,
+   "min": 16.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -884,7 +881,7 @@
    "name": "Nic Claxton",
    "pos": "C",
    "starter": false,
-   "min": 16.0,
+   "min": 15.9,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -925,7 +922,7 @@
    "name": "Leonard Miller",
    "pos": "SF",
    "starter": false,
-   "min": 14.0,
+   "min": 13.9,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -966,7 +963,7 @@
    "name": "Buddy Hield",
    "pos": "SG",
    "starter": false,
-   "min": 13.1,
+   "min": 13.0,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -1007,7 +1004,7 @@
    "name": "Noa Essengue",
    "pos": "PF",
    "starter": false,
-   "min": 11.0,
+   "min": 10.9,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1089,7 +1086,7 @@
    "name": "Zach Collins",
    "pos": "C",
    "starter": false,
-   "min": 9.1,
+   "min": 9.0,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1130,7 +1127,7 @@
    "name": "Dailyn Swain",
    "pos": "SG",
    "starter": false,
-   "min": 8.3,
+   "min": 8.2,
    "g_cur": 2,
    "p_play": 1.0,
    "cur": {
@@ -1171,7 +1168,7 @@
    "name": "Jaylin Sellers",
    "pos": "PG",
    "starter": false,
-   "min": 7.0,
+   "min": 6.9,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
