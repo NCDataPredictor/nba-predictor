@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:18+00:00",
+ "updated": "2026-11-16T23:23+00:00",
  "list": [
   {
    "date": "2026-11-13",
@@ -285,7 +285,7 @@
    "note": "tobillo",
    "source": "ESPN 16-nov 18:15 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
@@ -307,7 +307,7 @@
    "note": "último partido de suspensión",
    "source": "Athlon parte oficial 16-nov 15:30 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
@@ -318,7 +318,7 @@
    "note": "pierna (gestión)",
    "source": "Athlon parte oficial 16-nov 15:30 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
@@ -351,7 +351,7 @@
    "note": "enfermedad",
    "source": "ESPN 16-nov 18:15 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
@@ -362,7 +362,7 @@
    "note": "descanso",
    "source": "ESPN 16-nov 18:15 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
@@ -373,7 +373,7 @@
    "note": "espalda/ciática",
    "source": "ESPN/Athlon 16-nov 15:30 ET",
    "at": "2026-11-16T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-16",
