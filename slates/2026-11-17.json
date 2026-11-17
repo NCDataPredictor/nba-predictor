@@ -1,0 +1,232 @@
+{
+ "date": "2026-11-17",
+ "sources": {
+  "schedule_odds": "NBA.com/games 17-nov (5 partidos de liga); Covers matchup/<id>/odds (9 casas en NYK@TOR y UTA@LAC, ~11:40 ET; DET@SAS, POR@MIN y CHA@LAL vacíos: ML del comparador de Covers y spread/total de consenso de Covers matchups); props de puntos de NYK@TOR de Covers matchup (scoresandodds /nba/props seguía en la jornada del 16-nov con y sin ?date=)",
+  "players_cur": "raw/2026-11-16/cur.csv con los 10 equipos de hoy rehechos desde basketball-reference teams/<ABR>/2027.html (17-nov ~11:35 ET, todos al día)",
+  "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
+  "injuries": "ESPN injuries y CBS injuries, 17-nov ~11:40 ET (notas del 16-nov); en duda con p_play",
+  "b2b": "POR y MIN jugaron el 16-nov (entre ellos)",
+  "db": "BD de rankings: snapshot del 17-nov (B-Ref 2026-27 con partidos del 16-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta el 15-nov)",
+  "h2h": "h2h/2025-26.json: añadidos DET-SAS (2), UTA-LAC (3) y CHA-LAL (2) desde los game logs 2025-26"
+ },
+ "b2b_adj": {
+  "o": -1.0,
+  "d": 1.0,
+  "pace": -0.5
+ },
+ "prop_lines": {
+  "Jakob Poeltl": {
+   "pts": [
+    7.5,
+    -104,
+    -128
+   ]
+  },
+  "Landry Shamet": {
+   "pts": [
+    8.5,
+    100,
+    -125
+   ]
+  },
+  "Jalen Brunson": {
+   "pts": [
+    25.5,
+    -110,
+    -124
+   ]
+  },
+  "Josh Hart": {
+   "pts": [
+    7.5,
+    -129,
+    -106
+   ]
+  },
+  "RJ Barrett": {
+   "pts": [
+    19.5,
+    -105,
+    -125
+   ]
+  },
+  "Immanuel Quickley": {
+   "pts": [
+    15.5,
+    -110,
+    -120
+   ]
+  },
+  "Ja'Kobe Walter": {
+   "pts": [
+    10.5,
+    -110,
+    -115
+   ]
+  },
+  "Mikal Bridges": {
+   "pts": [
+    8.5,
+    -106,
+    -120
+   ]
+  },
+  "Karl-Anthony Towns": {
+   "pts": [
+    20.5,
+    -114,
+    null
+   ]
+  }
+ },
+ "games": [
+  {
+   "away": "NYK",
+   "home": "TOR",
+   "tip_et": "19:30",
+   "venue": "Scotiabank Arena, Toronto",
+   "market": {
+    "ml_home": 128,
+    "ml_away": -152,
+    "spread_home": 2.5,
+    "total": 216.5
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Kawhi Leonard",
+    "Nate Bittle"
+   ],
+   "gtd": {},
+   "notes": [
+    "TOR: Leonard (rodilla) y Bittle (pie) OUT (ESPN/CBS); McCullar Jr. (enfermedad, two-way) GTD",
+    "NYK sin bajas en ESPN/CBS",
+    "Revancha del 15-nov (NYK ganó 112-108 en Toronto)"
+   ]
+  },
+  {
+   "away": "DET",
+   "home": "SAS",
+   "tip_et": "20:00",
+   "venue": "Frost Bank Center, San Antonio",
+   "market": {
+    "ml_home": -390,
+    "ml_away": 310,
+    "spread_home": -8.5,
+    "total": 220.5
+   },
+   "b2b": [],
+   "adj": {
+    "DET": {
+     "o": -1.0,
+     "d": 0.0,
+     "why": "Duncan Robinson OUT (cuádriceps); también Holland y Prince"
+    }
+   },
+   "out": [
+    "Duncan Robinson",
+    "Jalen Duren",
+    "Ronald Holland II",
+    "Taurean Prince",
+    "Tobias Harris",
+    "Jayden Quaintance"
+   ],
+   "gtd": {
+    "Isaiah Joe": 0.25
+   },
+   "notes": [
+    "DET: Robinson (cuádriceps), Duren (isquio), Holland y Prince (rodilla) OUT; Isaiah Joe (cadera) doubtful (ESPN/CBS 16-nov)",
+    "SAS: Harris (gemelo, hasta inicios de dic.) y Quaintance OUT; Fox disponible (captura Underdog 16-nov)"
+   ]
+  },
+  {
+   "away": "POR",
+   "home": "MIN",
+   "tip_et": "20:00",
+   "venue": "Target Center, Minneapolis",
+   "market": {
+    "ml_home": -138,
+    "ml_away": 116,
+    "spread_home": -2.5,
+    "total": 226.5
+   },
+   "b2b": [
+    "POR",
+    "MIN"
+   ],
+   "adj": {},
+   "out": [
+    "Vít Krejčí",
+    "Ja Morant",
+    "Shaedon Sharpe",
+    "Jaylen Clark",
+    "Anthony Edwards",
+    "Donte DiVincenzo"
+   ],
+   "gtd": {
+    "Chris Youngblood": 0.4,
+    "Jonathan Kuminga": 0.8
+   },
+   "notes": [
+    "Ambos en back-to-back: segundo partido seguido en Minneapolis (MIN ganó 106-98 el 16-nov)",
+    "POR: Morant, Sharpe y Krejci OUT; Youngblood (pie) GTD tras perderse el del lunes",
+    "MIN: Edwards (rodilla) y Clark (isquio) OUT; Kuminga (hombro) GTD pero jugó el 16-nov y tiene líneas: 0.8"
+   ]
+  },
+  {
+   "away": "UTA",
+   "home": "LAC",
+   "tip_et": "22:30",
+   "venue": "Intuit Dome, Inglewood",
+   "market": {
+    "ml_home": -230,
+    "ml_away": 190,
+    "spread_home": -5.5,
+    "total": 223.5
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Jaxson Hayes",
+    "Lauri Markkanen",
+    "Jusuf Nurkic",
+    "Jaren Jackson Jr.",
+    "Brandon Ingram",
+    "Yanic Konan Niederhauser",
+    "Bradley Beal",
+    "Jordan Miller"
+   ],
+   "gtd": {},
+   "notes": [
+    "UTA: Markkanen (mano), Jackson Jr. (rodilla), Nurkic (pie) y Hayes (rodilla) OUT",
+    "LAC: Ingram (Aquiles, hasta al menos el 19-nov), Beal, Niederhauser y J. Miller OUT"
+   ]
+  },
+  {
+   "away": "CHA",
+   "home": "LAL",
+   "tip_et": "23:00",
+   "venue": "Crypto.com Arena, Los Angeles",
+   "market": {
+    "ml_home": -325,
+    "ml_away": 260,
+    "spread_home": -7.5,
+    "total": 218.0
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Kon Knueppel",
+    "Dennis Schröder"
+   ],
+   "gtd": {
+    "Austin Reaves": 0.35,
+    "Walker Kessler": 0.4
+   },
+   "notes": [
+    "LAL: Reaves (contusión en el talón) se perdió el 15-nov, day-to-day; CBS lo da fuera hasta al menos el 18-nov: 0.35. Kessler (pierna, nuevo el 16-nov en CBS, hasta al menos el 18-nov): 0.4",
+    "CHA: Knueppel y Schröder (isquios) OUT"
+   ]
+  }
+ ]
+}
