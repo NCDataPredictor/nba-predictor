@@ -375,7 +375,95 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "9cd1fe02f6d8932a",
+   "at": "2026-11-17T23:53+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-NYK-at-TOR",
+   "title": "NYK @ TOR (7:30 pm ET): cambian los picks",
+   "body": "En duda: Barnes. Picks nuevos: Collin Murray-Boyles Under 0.5 Triples; Karl-Anthony Towns Under 1.5 Triples. Plan B: RJ Barrett Over 20.5 Puntos.",
+   "label": "Revisión 18:45 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-NYK-at-TOR",
+   "added": [
+    "Collin Murray-Boyles Under 0.5 Triples",
+    "Karl-Anthony Towns Under 1.5 Triples"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Scottie Barnes"
+   ],
+   "back": [],
+   "planb": [
+    "RJ Barrett Over 20.5 Puntos"
+   ],
+   "picks_changed": true
+  },
+  {
+   "id": "f5bc837af5a226a9",
+   "at": "2026-11-17T23:53+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-POR-at-MIN",
+   "title": "POR @ MIN (8:00 pm ET): novedades de bajas",
+   "body": "Bajas: Kuminga, Youngblood OUT. En duda: Avdija. Los picks del modelo no cambian.",
+   "label": "Revisión 18:45 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-POR-at-MIN",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Jonathan Kuminga",
+    "Chris Youngblood"
+   ],
+   "doubts": [
+    "Deni Avdija"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "ab5f54552bd7fc1e",
+   "at": "2026-11-17T23:53+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-UTA-at-LAC",
+   "title": "UTA @ LAC (10:30 pm ET): cambian los picks",
+   "body": "Pick nuevo: Mo Bamba Under 1.5 Asistencias.",
+   "label": "Revisión 18:45 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-UTA-at-LAC",
+   "added": [
+    "Mo Bamba Under 1.5 Asistencias"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "d14d7912535fc7d4",
+   "at": "2026-11-17T23:53+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-CHA-at-LAL",
+   "title": "CHA @ LAL (11:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Moussa Diabaté Under 9.5 Rebotes.",
+   "label": "Revisión 18:45 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-CHA-at-LAL",
+   "added": [
+    "Moussa Diabaté Under 9.5 Rebotes"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-16T23:22+00:00"
+ "updated": "2026-11-17T23:53+00:00"
 }

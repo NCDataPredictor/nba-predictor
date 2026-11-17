@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:49+00:00",
+ "updated": "2026-11-17T23:53+00:00",
  "list": [
   {
    "date": "2026-11-14",
@@ -373,7 +373,7 @@
    "note": "hombro; OUT vs POR",
    "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
    "at": "2026-11-17T23:49+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-17",
@@ -384,7 +384,7 @@
    "note": "talón; OUT en MIN",
    "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
    "at": "2026-11-17T23:49+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-17",

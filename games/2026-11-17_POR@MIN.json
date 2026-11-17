@@ -17,11 +17,12 @@
    "Shaedon Sharpe",
    "Jaylen Clark",
    "Anthony Edwards",
-   "Donte DiVincenzo"
+   "Donte DiVincenzo",
+   "Chris Youngblood",
+   "Jonathan Kuminga"
   ],
   "gtd": {
-   "Chris Youngblood": 0.4,
-   "Jonathan Kuminga": 0.8
+   "Deni Avdija": 0.65
   },
   "reserves": {
    "POR": [
@@ -133,7 +134,7 @@
    "name": "Jaden McDaniels",
    "pos": "PF",
    "starter": true,
-   "min": 35.8,
+   "min": 38.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -168,14 +169,14 @@
     "ftm": 2.01,
     "fta": 2.41
    },
-   "slot": "PF"
+   "slot": "SF"
   },
   {
    "team": "MIN",
    "name": "Ayo Dosunmu",
    "pos": "SG",
    "starter": true,
-   "min": 33.4,
+   "min": 38.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -214,52 +215,10 @@
   },
   {
    "team": "MIN",
-   "name": "Jonathan Kuminga",
-   "pos": "SF",
-   "starter": true,
-   "min": 32.9,
-   "g_cur": 14,
-   "p_play": 0.8,
-   "cur": {
-    "min": 30.5,
-    "pts": 12.4,
-    "reb": 5.7,
-    "ast": 2.8,
-    "fg3m": 1.6,
-    "fgm": 4.4,
-    "fga": 10.2,
-    "fg3a": 4.0,
-    "stl": 1.1,
-    "blk": 0.6,
-    "tov": 1.2,
-    "pf": 2.6,
-    "ftm": 1.9,
-    "fta": 3.3
-   },
-   "prior": {
-    "min": 23.1,
-    "pts": 12.17,
-    "reb": 5.61,
-    "ast": 2.31,
-    "fg3m": 0.97,
-    "fgm": 4.36,
-    "fga": 9.42,
-    "fg3a": 2.92,
-    "stl": 0.61,
-    "blk": 0.31,
-    "tov": 1.86,
-    "pf": 1.53,
-    "ftm": 2.47,
-    "fta": 3.42
-   },
-   "slot": "SF"
-  },
-  {
-   "team": "MIN",
    "name": "Rudy Gobert",
    "pos": "C",
    "starter": true,
-   "min": 31.6,
+   "min": 36.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -301,7 +260,7 @@
    "name": "LaMelo Ball",
    "pos": "PG",
    "starter": true,
-   "min": 29.6,
+   "min": 34.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -343,7 +302,7 @@
    "name": "Terrence Shannon Jr",
    "pos": "SG",
    "starter": false,
-   "min": 24.5,
+   "min": 28.4,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -384,7 +343,7 @@
    "name": "Trey Lyles",
    "pos": "PF",
    "starter": false,
-   "min": 19.7,
+   "min": 22.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -424,8 +383,8 @@
    "team": "MIN",
    "name": "Joan Beringer",
    "pos": "C",
-   "starter": false,
-   "min": 17.8,
+   "starter": true,
+   "min": 20.6,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -459,14 +418,15 @@
     "pf": 1.18,
     "ftm": 0.65,
     "fta": 0.93
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "MIN",
    "name": "Bones Hyland",
    "pos": "PG",
    "starter": false,
-   "min": 14.7,
+   "min": 17.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -507,9 +467,9 @@
    "name": "Deni Avdija",
    "pos": "SF",
    "starter": true,
-   "min": 31.8,
+   "min": 33.6,
    "g_cur": 13,
-   "p_play": 1.0,
+   "p_play": 0.65,
    "cur": {
     "min": 32.5,
     "pts": 24.2,
@@ -549,7 +509,7 @@
    "name": "Damian Lillard",
    "pos": "PG",
    "starter": true,
-   "min": 28.3,
+   "min": 29.9,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -591,7 +551,7 @@
    "name": "Toumani Camara",
    "pos": "PF",
    "starter": true,
-   "min": 28.2,
+   "min": 29.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -633,7 +593,7 @@
    "name": "Jrue Holiday",
    "pos": "PG",
    "starter": false,
-   "min": 25.6,
+   "min": 27.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -674,7 +634,7 @@
    "name": "Donovan Clingan",
    "pos": "C",
    "starter": true,
-   "min": 24.6,
+   "min": 26.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -716,7 +676,7 @@
    "name": "Sidy Cissoko",
    "pos": "SF",
    "starter": false,
-   "min": 23.1,
+   "min": 24.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -757,7 +717,7 @@
    "name": "Scoot Henderson",
    "pos": "PG",
    "starter": true,
-   "min": 21.7,
+   "min": 23.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -799,7 +759,7 @@
    "name": "Robert Williams III",
    "pos": "C",
    "starter": false,
-   "min": 16.0,
+   "min": 17.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -837,51 +797,10 @@
   },
   {
    "team": "POR",
-   "name": "Chris Youngblood",
-   "pos": "SG",
-   "starter": false,
-   "min": 13.0,
-   "g_cur": 6,
-   "p_play": 0.4,
-   "cur": {
-    "min": 13.3,
-    "pts": 6.0,
-    "reb": 1.3,
-    "ast": 1.0,
-    "fg3m": 1.3,
-    "fgm": 1.7,
-    "fga": 4.5,
-    "fg3a": 3.8,
-    "stl": 0.5,
-    "blk": 0.2,
-    "tov": 0.8,
-    "pf": 2.2,
-    "ftm": 1.3,
-    "fta": 1.7
-   },
-   "prior": {
-    "min": 5.8,
-    "pts": 2.22,
-    "reb": 0.88,
-    "ast": 0.38,
-    "fg3m": 0.56,
-    "fgm": 0.69,
-    "fga": 1.97,
-    "fg3a": 1.69,
-    "stl": 0.12,
-    "blk": 0.09,
-    "tov": 0.06,
-    "pf": 0.69,
-    "ftm": 0.28,
-    "fta": 0.31
-   }
-  },
-  {
-   "team": "POR",
    "name": "Jayson Kent",
    "pos": "SF",
    "starter": false,
-   "min": 10.1,
+   "min": 10.7,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -922,7 +841,7 @@
    "name": "Yang Hansen",
    "pos": "C",
    "starter": false,
-   "min": 8.9,
+   "min": 9.4,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -963,7 +882,7 @@
    "name": "Branden Carlson",
    "pos": "C",
    "starter": false,
-   "min": 8.7,
+   "min": 9.2,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1005,8 +924,253 @@
   "ml_home": -138,
   "ml_away": 116,
   "spread_home": -2.5,
-  "total": 226.5
+  "total": 227.5,
+  "over_odds": -113,
+  "under_odds": -107
  },
- "prop_lines": {},
+ "prop_lines": {
+  "Deni Avdija": {
+   "pts": [
+    24.5,
+    -102,
+    -115
+   ],
+   "reb": [
+    5.5,
+    -134,
+    -140,
+    6.5
+   ],
+   "ast": [
+    5.5,
+    -108,
+    -140,
+    6.5
+   ],
+   "fg3m": [
+    1.5,
+    -125,
+    115
+   ]
+  },
+  "Damian Lillard": {
+   "pts": [
+    21.5,
+    -111,
+    -120,
+    22.5
+   ],
+   "reb": [
+    3.5,
+    122,
+    -138
+   ],
+   "ast": [
+    4.5,
+    -106,
+    -105
+   ],
+   "fg3m": [
+    3.5,
+    125,
+    -125
+   ]
+  },
+  "LaMelo Ball": {
+   "pts": [
+    19.5,
+    -115,
+    -105,
+    20.5
+   ],
+   "reb": [
+    4.5,
+    105,
+    -120
+   ],
+   "ast": [
+    5.5,
+    -140,
+    -147,
+    6.5
+   ],
+   "fg3m": [
+    3.5,
+    102,
+    -115
+   ]
+  },
+  "Ayo Dosunmu": {
+   "pts": [
+    18.5,
+    -105,
+    -106
+   ],
+   "reb": [
+    4.5,
+    130,
+    -135
+   ],
+   "ast": [
+    3.5,
+    126,
+    -145
+   ],
+   "fg3m": [
+    1.5,
+    105,
+    -111
+   ]
+  },
+  "Jaden McDaniels": {
+   "pts": [
+    16.5,
+    -110,
+    -105
+   ],
+   "reb": [
+    5.5,
+    100,
+    -115
+   ],
+   "ast": [
+    3.5,
+    120,
+    -144
+   ],
+   "fg3m": [
+    1.5,
+    110,
+    -125
+   ]
+  },
+  "Terrence Shannon Jr": {
+   "pts": [
+    14.5,
+    -120,
+    -123,
+    15.5
+   ],
+   "reb": [
+    3.5,
+    -130,
+    115
+   ],
+   "fg3m": [
+    1.5,
+    102,
+    -110
+   ]
+  },
+  "Jrue Holiday": {
+   "pts": [
+    13.5,
+    -113,
+    -115,
+    14.5
+   ],
+   "reb": [
+    3.5,
+    -112,
+    -102
+   ],
+   "ast": [
+    3.5,
+    -172,
+    -140,
+    4.5
+   ],
+   "fg3m": [
+    1.5,
+    -174,
+    -180,
+    2.5
+   ]
+  },
+  "Donovan Clingan": {
+   "pts": [
+    11.5,
+    -111,
+    -113,
+    12.5
+   ],
+   "reb": [
+    11.5,
+    100,
+    -118
+   ],
+   "fg3m": [
+    0.5,
+    -180,
+    154
+   ]
+  },
+  "Toumani Camara": {
+   "pts": [
+    11.5,
+    -125,
+    -125,
+    12.5
+   ],
+   "reb": [
+    4.5,
+    121,
+    -136
+   ],
+   "fg3m": [
+    2.5,
+    155,
+    -160
+   ]
+  },
+  "Scoot Henderson": {
+   "pts": [
+    11.5,
+    -107,
+    -125,
+    12.5
+   ],
+   "fg3m": [
+    1.5,
+    140,
+    -175
+   ]
+  },
+  "Rudy Gobert": {
+   "pts": [
+    9.5,
+    -120,
+    107
+   ],
+   "reb": [
+    10.5,
+    -115,
+    102
+   ]
+  },
+  "Sidy Cissoko": {
+   "pts": [
+    6.5,
+    -128,
+    -115,
+    7.5
+   ],
+   "reb": [
+    3.5,
+    100,
+    -125
+   ],
+   "ast": [
+    2.5,
+    140,
+    -180
+   ],
+   "fg3m": [
+    1.5,
+    158,
+    -190
+   ]
+  }
+ },
  "alt_lines": {}
 }

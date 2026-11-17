@@ -15,7 +15,9 @@
    "Kawhi Leonard",
    "Nate Bittle"
   ],
-  "gtd": {},
+  "gtd": {
+   "Scottie Barnes": 0.6
+  },
   "reserves": {
    "NYK": [
     {
@@ -176,7 +178,7 @@
    "starter": true,
    "min": 32.9,
    "g_cur": 9,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 33.7,
     "pts": 24.2,
@@ -1083,73 +1085,307 @@
  ],
  "market": {
   "source": "NBA.com/games 17-nov (5 partidos de liga); Covers matchup/<id>/odds (9 casas en NYK@TOR y UTA@LAC, ~11:40 ET; DET@SAS, POR@MIN y CHA@LAL vacíos: ML del comparador de Covers y spread/total de consenso de Covers matchups); props de puntos de NYK@TOR de Covers matchup (scoresandodds /nba/props seguía en la jornada del 16-nov con y sin ?date=)",
-  "ml_home": 128,
-  "ml_away": -152,
-  "spread_home": 2.5,
-  "total": 216.5
+  "ml_home": 148,
+  "ml_away": -176,
+  "spread_home": 3.5,
+  "total": 214.5,
+  "spread_odds_home": -104,
+  "spread_odds_away": -117,
+  "over_odds": -114,
+  "under_odds": -106
  },
  "prop_lines": {
   "Jakob Poeltl": {
    "pts": [
     7.5,
     -104,
-    -128
+    -155,
+    8.5
+   ],
+   "reb": [
+    5.5,
+    -110,
+    100
+   ],
+   "ast": [
+    1.5,
+    100,
+    -125
    ]
   },
   "Landry Shamet": {
    "pts": [
     8.5,
-    100,
-    -125
+    -115,
+    105
+   ],
+   "ast": [
+    1.5,
+    125,
+    -160
+   ],
+   "fg3m": [
+    1.5,
+    -130,
+    130
    ]
   },
   "Jalen Brunson": {
    "pts": [
     25.5,
-    -110,
-    -124
+    -112,
+    -120,
+    26.5
+   ],
+   "ast": [
+    6.5,
+    -104,
+    -108
+   ],
+   "fg3m": [
+    2.5,
+    125,
+    -145
    ]
   },
   "Josh Hart": {
    "pts": [
     7.5,
-    -129,
-    -106
+    -111,
+    -160,
+    8.5
+   ],
+   "reb": [
+    5.5,
+    -151,
+    -135,
+    6.5
+   ],
+   "ast": [
+    2.5,
+    -165,
+    -125,
+    3.5
+   ],
+   "fg3m": [
+    1.5,
+    160,
+    -192
    ]
   },
   "RJ Barrett": {
    "pts": [
-    19.5,
-    -105,
-    -125
+    20.5,
+    -100,
+    -105
+   ],
+   "reb": [
+    5.5,
+    -115,
+    105
+   ],
+   "ast": [
+    3.5,
+    -130,
+    125
+   ],
+   "fg3m": [
+    1.5,
+    -115,
+    110
    ]
   },
   "Immanuel Quickley": {
    "pts": [
     15.5,
-    -110,
-    -120
+    -116,
+    -112,
+    16.5
+   ],
+   "reb": [
+    3.5,
+    -112,
+    -108
+   ],
+   "ast": [
+    4.5,
+    -157,
+    -145,
+    5.5
+   ],
+   "fg3m": [
+    2.5,
+    -105,
+    -112
    ]
   },
   "Ja'Kobe Walter": {
    "pts": [
     10.5,
-    -110,
+    -119,
+    -130,
+    11.5
+   ],
+   "reb": [
+    3.5,
+    105,
     -115
+   ],
+   "ast": [
+    1.5,
+    -105,
+    -120
+   ],
+   "fg3m": [
+    2.5,
+    126,
+    -145
    ]
   },
   "Mikal Bridges": {
    "pts": [
     8.5,
     -106,
-    -120
+    -125,
+    9.5
+   ],
+   "fg3m": [
+    0.5,
+    -190,
+    150
    ]
   },
   "Karl-Anthony Towns": {
    "pts": [
     20.5,
-    -114,
-    null
+    -123,
+    -120,
+    21.5
+   ],
+   "reb": [
+    12.5,
+    -110,
+    -105
+   ],
+   "ast": [
+    3.5,
+    125,
+    -138
+   ],
+   "fg3m": [
+    1.5,
+    -120,
+    114
+   ]
+  },
+  "Scottie Barnes": {
+   "pts": [
+    20.5,
+    -120,
+    -115,
+    21.5
+   ],
+   "reb": [
+    6.5,
+    -135,
+    -140,
+    7.5
+   ],
+   "ast": [
+    4.5,
+    -153,
+    -165,
+    5.5
+   ],
+   "fg3m": [
+    0.5,
+    -200,
+    180
+   ]
+  },
+  "OG Anunoby": {
+   "pts": [
+    15.5,
+    -120,
+    -115,
+    16.5
+   ],
+   "reb": [
+    4.5,
+    -139,
+    -140,
+    5.5
+   ],
+   "fg3m": [
+    1.5,
+    -190,
+    -187,
+    2.5
+   ]
+  },
+  "Collin Murray-Boyles": {
+   "pts": [
+    10.5,
+    -105,
+    -105
+   ],
+   "reb": [
+    6.5,
+    105,
+    -105
+   ],
+   "fg3m": [
+    0.5,
+    -115,
+    -110
+   ]
+  },
+  "Jamal Shead": {
+   "pts": [
+    6.5,
+    -125,
+    -135,
+    7.5
+   ],
+   "reb": [
+    1.5,
+    -145,
+    115
+   ],
+   "ast": [
+    4.5,
+    -140,
+    -145,
+    5.5
+   ],
+   "fg3m": [
+    0.5,
+    -190,
+    -260,
+    1.5
+   ]
+  },
+  "Miles McBride": {
+   "pts": [
+    5.5,
+    -140,
+    -125,
+    7.5
+   ],
+   "reb": [
+    1.5,
+    120,
+    -150
+   ],
+   "ast": [
+    0.5,
+    -220,
+    170
+   ],
+   "fg3m": [
+    1.5,
+    100,
+    -110
    ]
   }
  },
