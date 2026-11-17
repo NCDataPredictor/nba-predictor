@@ -103,7 +103,7 @@ def cross_impact(date, player, gid):
     k = norm(player)
     hit = lambda l: l.get("gid") == gid and norm(l.get("player")) == k
     cross = sum(any(hit(l) for l in pl["legs"]) for pl in I.get("parlays", {}).get(date, []))
-    dream = any(hit(l) for l in (I.get("dream", {}).get(date) or {}).get("legs", []))
+    dream = any(hit(l) for k in ("dream", "dream_ladder") for l in (I.get(k, {}).get(date) or {}).get("legs", []))
     return cross, dream
 
 
