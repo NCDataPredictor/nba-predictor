@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-17T16:29+00:00",
+ "generated": "2026-11-17T18:40+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.6.2",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "morning",
+ "last_stage": "pregame",
  "updates": {
   "2026-11-04": {
    "morning": "2026-11-04T16:36+00:00",
@@ -73,7 +73,8 @@
    "results": "2026-11-17T08:15+00:00"
   },
   "2026-11-17": {
-   "morning": "2026-11-17T16:29+00:00"
+   "morning": "2026-11-17T16:29+00:00",
+   "pregame": "2026-11-17T18:40+00:00"
   }
  },
  "history": [
@@ -137098,11 +137099,11 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.692,
-     "fair": 1.44,
+     "p": 0.691,
+     "fair": 1.45,
      "min_dec": 1.49,
      "ref": null,
-     "p_model": 0.692,
+     "p_model": 0.691,
      "label": "Victor Wembanyama Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -137127,7 +137128,7 @@
      "fair": 1.84,
      "min_dec": 1.9,
      "ref": 13.4,
-     "p_model": 0.644,
+     "p_model": 0.645,
      "label": "Dylan Harper Under 12.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -137175,11 +137176,11 @@
      "stat": "fgm",
      "side": "under",
      "line": 5.5,
-     "p": 0.534,
+     "p": 0.535,
      "fair": 1.87,
      "min_dec": 1.93,
      "ref": 6.7,
-     "p_model": 0.613,
+     "p_model": 0.615,
      "label": "Dylan Harper Under 5.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -137191,7 +137192,7 @@
        2
       ]
      },
-     "mean": 5.1
+     "mean": 5.2
     },
     {
      "kind": "prop",
@@ -137205,7 +137206,7 @@
      "fair": 1.89,
      "min_dec": 1.95,
      "ref": 4.8,
-     "p_model": 0.597,
+     "p_model": 0.596,
      "label": "Devin Vassell Over 4.5 Triples intentados",
      "hr": {
       "l10": [
@@ -137217,7 +137218,7 @@
        2
       ]
      },
-     "mean": 5.5
+     "mean": 5.6
     },
     {
      "kind": "prop",
@@ -137227,11 +137228,11 @@
      "stat": "fg2m",
      "side": "under",
      "line": 4.5,
-     "p": 0.527,
-     "fair": 1.9,
+     "p": 0.528,
+     "fair": 1.89,
      "min_dec": 1.95,
      "ref": 5.6,
-     "p_model": 0.59,
+     "p_model": 0.593,
      "label": "Dylan Harper Under 4.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -137253,11 +137254,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 5.5,
-     "p": 0.523,
+     "p": 0.525,
      "fair": 1.91,
-     "min_dec": 1.97,
+     "min_dec": 1.96,
      "ref": 5.7,
-     "p_model": 0.577,
+     "p_model": 0.582,
      "label": "Victor Wembanyama Over 5.5 Triples intentados",
      "hr": {
       "l10": [
@@ -137300,39 +137301,13 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Cade Cunningham",
-     "team": "DET",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.523,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": 6.9,
-     "p_model": 0.576,
-     "label": "Cade Cunningham Over 6.5 Triples intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 7.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Dylan Harper",
      "team": "SAS",
      "stat": "fg2a",
      "side": "under",
      "line": 8.5,
      "p": 0.522,
-     "fair": 1.92,
+     "fair": 1.91,
      "min_dec": 1.97,
      "ref": 9.9,
      "p_model": 0.574,
@@ -137348,32 +137323,6 @@
       ]
      },
      "mean": 8.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Paul Reed",
-     "team": "DET",
-     "stat": "fga",
-     "side": "over",
-     "line": 10.5,
-     "p": 0.52,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 10.8,
-     "p_model": 0.566,
-     "label": "Paul Reed Over 10.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 11.8
     },
     {
      "kind": "prop",
@@ -137404,84 +137353,6 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Paul Reed",
-     "team": "DET",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 5.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 5.8,
-     "p_model": 0.562,
-     "label": "Paul Reed Over 5.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 6.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Paul Reed",
-     "team": "DET",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 9.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 9.7,
-     "p_model": 0.558,
-     "label": "Paul Reed Over 9.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 10.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "John Collins",
-     "team": "DET",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 4.0,
-     "p_model": 0.558,
-     "label": "John Collins Over 3.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 4.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Julian Champagnie",
      "team": "SAS",
      "stat": "fg3a",
@@ -137491,7 +137362,7 @@
      "fair": 1.93,
      "min_dec": 1.99,
      "ref": 5.8,
-     "p_model": 0.556,
+     "p_model": 0.558,
      "label": "Julian Champagnie Over 5.5 Triples intentados",
      "hr": {
       "l10": [
@@ -137508,16 +137379,42 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Javonte Green",
+     "team": "DET",
+     "stat": "fg3a",
+     "side": "under",
+     "line": 3.5,
+     "p": 0.515,
+     "fair": 1.94,
+     "min_dec": 2.0,
+     "ref": 4.1,
+     "p_model": 0.55,
+     "label": "Javonte Green Under 3.5 Triples intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 3.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Cade Cunningham",
      "team": "DET",
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.498,
-     "fair": 2.01,
-     "min_dec": 2.07,
+     "p": 0.463,
+     "fair": 2.16,
+     "min_dec": 2.23,
      "ref": null,
-     "p_model": 0.498,
+     "p_model": 0.463,
      "label": "Cade Cunningham Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -137538,15 +137435,40 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.363,
-     "fair": 2.76,
-     "min_dec": 2.84,
+     "p": 0.382,
+     "fair": 2.62,
+     "min_dec": 2.69,
      "ref": null,
-     "p_model": 0.363,
+     "p_model": 0.382,
      "label": "Paul Reed Doble-doble: Sí",
      "hr": {
       "l10": [
        1,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ]
+     }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Ausar Thompson",
+     "team": "DET",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.37,
+     "fair": 2.71,
+     "min_dec": 2.79,
+     "ref": null,
+     "p_model": 0.37,
+     "label": "Ausar Thompson Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       2,
        10
       ],
       "h2h": [
@@ -137627,118 +137549,118 @@
        [
         "Paul Reed",
         5.0,
-        4.9
+        4.8
        ],
        [
         "Kevin Huerter",
         4.7,
-        6.4
+        6.2
        ],
        [
         "John Collins",
-        4.0,
-        4.7
+        4.2,
+        4.5
+       ]
+      ],
+      "Ausar Thompson": [
+       [
+        "Paul Reed",
+        2.9,
+        4.9
+       ],
+       [
+        "Kevin Huerter",
+        2.7,
+        5.5
+       ],
+       [
+        "Cade Cunningham",
+        2.5,
+        3.1
        ]
       ],
       "Daniss Jenkins": [
        [
         "Paul Reed",
         3.0,
-        4.5
+        4.7
+       ],
+       [
+        "Cade Cunningham",
+        2.9,
+        3.0
        ],
        [
         "Kevin Huerter",
-        2.7,
-        5.2
-       ],
-       [
-        "John Collins",
-        2.3,
-        4.4
-       ]
-      ],
-      "Ausar Thompson": [
-       [
-        "Paul Reed",
-        2.6,
-        4.4
-       ],
-       [
-        "Kevin Huerter",
-        2.4,
-        5.1
-       ],
-       [
-        "John Collins",
-        2.0,
-        4.3
+        2.8,
+        5.4
        ]
       ],
       "John Collins": [
        [
+        "Cade Cunningham",
+        3.1,
+        3.0
+       ],
+       [
         "Paul Reed",
         3.1,
-        4.3
+        4.6
        ],
        [
         "Kevin Huerter",
-        2.7,
-        5.0
-       ],
-       [
-        "Cade Cunningham",
-        2.4,
-        1.9
+        2.9,
+        5.2
        ]
       ],
       "Paul Reed": [
        [
         "Cade Cunningham",
-        3.0,
-        1.9
+        3.7,
+        2.9
        ],
        [
         "Kevin Huerter",
-        3.0,
-        5.0
+        3.2,
+        5.2
        ],
        [
         "John Collins",
         2.8,
-        4.1
+        4.2
        ]
       ],
       "Kevin Huerter": [
        [
-        "Paul Reed",
-        2.6,
-        3.6
+        "Cade Cunningham",
+        2.8,
+        2.6
        ],
        [
-        "Cade Cunningham",
-        2.3,
-        1.7
+        "Paul Reed",
+        2.7,
+        3.8
        ],
        [
         "John Collins",
-        2.2,
-        3.5
+        2.1,
+        3.6
        ]
       ],
       "Javonte Green": [
        [
-        "Paul Reed",
-        1.3,
-        2.4
+        "Cade Cunningham",
+        1.4,
+        1.9
        ],
        [
-        "John Collins",
-        1.1,
-        2.4
+        "Paul Reed",
+        1.4,
+        2.6
        ],
        [
         "Kevin Huerter",
-        1.1,
+        1.2,
         2.6
        ]
       ]
@@ -137772,12 +137694,12 @@
       "Victor Wembanyama": [
        [
         "De'Aaron Fox",
-        4.1,
+        4.0,
         4.2
        ],
        [
         "Dylan Harper",
-        3.7,
+        3.6,
         4.3
        ],
        [
@@ -137789,12 +137711,12 @@
       "Devin Vassell": [
        [
         "Victor Wembanyama",
-        3.0,
+        3.1,
         4.0
        ],
        [
         "De'Aaron Fox",
-        1.7,
+        1.8,
         3.9
        ],
        [
@@ -137810,12 +137732,12 @@
         4.0
        ],
        [
-        "De'Aaron Fox",
-        1.8,
+        "Dylan Harper",
+        1.7,
         3.8
        ],
        [
-        "Dylan Harper",
+        "De'Aaron Fox",
         1.7,
         3.8
        ]
@@ -137823,12 +137745,12 @@
       "De'Aaron Fox": [
        [
         "Victor Wembanyama",
-        3.5,
+        3.6,
         3.9
        ],
        [
         "Dylan Harper",
-        1.8,
+        1.9,
         3.8
        ],
        [
@@ -137840,41 +137762,41 @@
       "Dylan Harper": [
        [
         "Victor Wembanyama",
-        3.0,
+        3.1,
         3.8
        ],
        [
         "De'Aaron Fox",
-        1.7,
+        1.8,
         3.7
        ],
        [
         "Stephon Castle",
-        1.5,
+        1.6,
         3.7
        ]
       ],
       "Julian Champagnie": [
        [
         "Victor Wembanyama",
-        2.4,
+        2.5,
         3.4
        ],
        [
         "De'Aaron Fox",
-        1.4,
+        1.5,
         3.2
        ],
        [
         "Dylan Harper",
-        1.3,
+        1.4,
         3.3
        ]
       ],
       "Keldon Johnson": [
        [
         "Victor Wembanyama",
-        1.9,
+        2.0,
         2.9
        ],
        [
@@ -140482,123 +140404,17 @@
     "LAL": null
    },
    "proj": {
-    "LAL": 119.1,
-    "CHA": 108.1
+    "LAL": 117.2,
+    "CHA": 109.1
    },
    "win_prob": {
-    "LAL": 0.789175,
-    "CHA": 0.210825
+    "LAL": 0.7221,
+    "CHA": 0.2779
    },
-   "proj_total": 227.2,
+   "proj_total": 226.3,
    "used_db": true,
    "n_value": 0,
    "top_bets": [
-    {
-     "kind": "ml",
-     "label": "LAL gana",
-     "player": null,
-     "team": "LAL",
-     "line": null,
-     "odds": -324,
-     "dec": 1.309,
-     "odds_assumed": false,
-     "p": 0.747,
-     "implied": 0.764,
-     "fair": -295,
-     "edge": -0.017,
-     "ev": -0.023,
-     "value": false,
-     "n_books": 9,
-     "best": {
-      "book": "theScore Bet",
-      "line": null,
-      "odds": -300,
-      "dec": 1.333,
-      "p": 0.747,
-      "ev": -0.004
-     },
-     "books": [
-      {
-       "book": "theScore Bet",
-       "line": null,
-       "odds": -300,
-       "dec": 1.333,
-       "p": 0.747,
-       "ev": -0.004
-      },
-      {
-       "book": "DraftKings",
-       "line": null,
-       "odds": -316,
-       "dec": 1.316,
-       "p": 0.747,
-       "ev": -0.017
-      },
-      {
-       "book": "FanDuel",
-       "line": null,
-       "odds": -320,
-       "dec": 1.312,
-       "p": 0.747,
-       "ev": -0.02
-      },
-      {
-       "book": "BetMGM",
-       "line": null,
-       "odds": -325,
-       "dec": 1.308,
-       "p": 0.747,
-       "ev": -0.023
-      },
-      {
-       "book": "Hard Rock Bet",
-       "line": null,
-       "odds": -325,
-       "dec": 1.308,
-       "p": 0.747,
-       "ev": -0.023
-      },
-      {
-       "book": "bet365",
-       "line": null,
-       "odds": -330,
-       "dec": 1.303,
-       "p": 0.747,
-       "ev": -0.027
-      },
-      {
-       "book": "Fanatics",
-       "line": null,
-       "odds": -330,
-       "dec": 1.303,
-       "p": 0.747,
-       "ev": -0.027
-      },
-      {
-       "book": "BetRivers",
-       "line": null,
-       "odds": -334,
-       "dec": 1.299,
-       "p": 0.747,
-       "ev": -0.03
-      },
-      {
-       "book": "Caesars",
-       "line": null,
-       "odds": -334,
-       "dec": 1.299,
-       "p": 0.747,
-       "ev": -0.03
-      }
-     ],
-     "p_model": 0.789,
-     "p_mkt": 0.732,
-     "cand": false,
-     "open": [
-      null,
-      1.309
-     ]
-    },
     {
      "kind": "ml",
      "label": "CHA gana",
@@ -140608,11 +140424,11 @@
      "odds": 258,
      "dec": 3.583,
      "odds_assumed": false,
-     "p": 0.253,
+     "p": 0.27,
      "implied": 0.279,
-     "fair": 295,
-     "edge": -0.026,
-     "ev": -0.092,
+     "fair": 270,
+     "edge": -0.009,
+     "ev": -0.032,
      "value": false,
      "n_books": 9,
      "best": {
@@ -140620,8 +140436,8 @@
       "line": null,
       "odds": 265,
       "dec": 3.65,
-      "p": 0.253,
-      "ev": -0.077
+      "p": 0.27,
+      "ev": -0.014
      },
      "books": [
       {
@@ -140629,80 +140445,186 @@
        "line": null,
        "odds": 265,
        "dec": 3.65,
-       "p": 0.253,
-       "ev": -0.077
+       "p": 0.27,
+       "ev": -0.014
       },
       {
        "book": "BetMGM",
        "line": null,
        "odds": 260,
        "dec": 3.6,
-       "p": 0.253,
-       "ev": -0.089
+       "p": 0.27,
+       "ev": -0.028
       },
       {
        "book": "FanDuel",
        "line": null,
        "odds": 260,
        "dec": 3.6,
-       "p": 0.253,
-       "ev": -0.089
+       "p": 0.27,
+       "ev": -0.028
       },
       {
        "book": "Fanatics",
        "line": null,
        "odds": 260,
        "dec": 3.6,
-       "p": 0.253,
-       "ev": -0.089
+       "p": 0.27,
+       "ev": -0.028
       },
       {
        "book": "Caesars",
        "line": null,
        "odds": 260,
        "dec": 3.6,
-       "p": 0.253,
-       "ev": -0.089
+       "p": 0.27,
+       "ev": -0.028
       },
       {
        "book": "Hard Rock Bet",
        "line": null,
        "odds": 260,
        "dec": 3.6,
-       "p": 0.253,
-       "ev": -0.089
+       "p": 0.27,
+       "ev": -0.028
       },
       {
        "book": "DraftKings",
        "line": null,
        "odds": 255,
        "dec": 3.55,
-       "p": 0.253,
-       "ev": -0.102
+       "p": 0.27,
+       "ev": -0.041
       },
       {
        "book": "BetRivers",
        "line": null,
        "odds": 255,
        "dec": 3.55,
-       "p": 0.253,
-       "ev": -0.102
+       "p": 0.27,
+       "ev": -0.041
       },
       {
        "book": "theScore Bet",
        "line": null,
        "odds": 250,
        "dec": 3.5,
-       "p": 0.253,
-       "ev": -0.115
+       "p": 0.27,
+       "ev": -0.055
       }
      ],
-     "p_model": 0.211,
+     "p_model": 0.278,
      "p_mkt": 0.268,
      "cand": false,
      "open": [
       null,
       3.583
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "LAL gana",
+     "player": null,
+     "team": "LAL",
+     "line": null,
+     "odds": -324,
+     "dec": 1.309,
+     "odds_assumed": false,
+     "p": 0.73,
+     "implied": 0.764,
+     "fair": -270,
+     "edge": -0.034,
+     "ev": -0.045,
+     "value": false,
+     "n_books": 9,
+     "best": {
+      "book": "theScore Bet",
+      "line": null,
+      "odds": -300,
+      "dec": 1.333,
+      "p": 0.73,
+      "ev": -0.027
+     },
+     "books": [
+      {
+       "book": "theScore Bet",
+       "line": null,
+       "odds": -300,
+       "dec": 1.333,
+       "p": 0.73,
+       "ev": -0.027
+      },
+      {
+       "book": "DraftKings",
+       "line": null,
+       "odds": -316,
+       "dec": 1.316,
+       "p": 0.73,
+       "ev": -0.039
+      },
+      {
+       "book": "FanDuel",
+       "line": null,
+       "odds": -320,
+       "dec": 1.312,
+       "p": 0.73,
+       "ev": -0.042
+      },
+      {
+       "book": "BetMGM",
+       "line": null,
+       "odds": -325,
+       "dec": 1.308,
+       "p": 0.73,
+       "ev": -0.045
+      },
+      {
+       "book": "Hard Rock Bet",
+       "line": null,
+       "odds": -325,
+       "dec": 1.308,
+       "p": 0.73,
+       "ev": -0.045
+      },
+      {
+       "book": "bet365",
+       "line": null,
+       "odds": -330,
+       "dec": 1.303,
+       "p": 0.73,
+       "ev": -0.049
+      },
+      {
+       "book": "Fanatics",
+       "line": null,
+       "odds": -330,
+       "dec": 1.303,
+       "p": 0.73,
+       "ev": -0.049
+      },
+      {
+       "book": "BetRivers",
+       "line": null,
+       "odds": -334,
+       "dec": 1.299,
+       "p": 0.73,
+       "ev": -0.052
+      },
+      {
+       "book": "Caesars",
+       "line": null,
+       "odds": -334,
+       "dec": 1.299,
+       "p": 0.73,
+       "ev": -0.052
+      }
+     ],
+     "p_model": 0.722,
+     "p_mkt": 0.732,
+     "cand": false,
+     "open": [
+      null,
+      1.309
      ]
     }
    ],
@@ -140712,94 +140634,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fga",
-     "side": "over",
-     "line": 21.5,
-     "p": 0.567,
-     "fair": 1.76,
-     "min_dec": 1.82,
-     "ref": 21.8,
-     "p_model": 0.724,
-     "label": "Luka Dončić Over 21.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       10,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 26.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jake LaRavia",
-     "team": "LAL",
-     "stat": "pf",
-     "side": "over",
-     "line": 2.5,
-     "p": 0.671,
-     "fair": 1.49,
-     "min_dec": 1.53,
-     "ref": 2.8,
-     "p_model": 0.671,
-     "label": "Jake LaRavia Over 2.5 Faltas",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 3.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fgm",
-     "side": "over",
-     "line": 10.5,
-     "p": 0.545,
-     "fair": 1.83,
-     "min_dec": 1.89,
-     "ref": 10.5,
-     "p_model": 0.651,
-     "label": "Luka Dončić Over 10.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       9,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 13.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Brandon Miller",
      "team": "CHA",
      "stat": "fga",
      "side": "over",
      "line": 16.5,
-     "p": 0.543,
-     "fair": 1.84,
-     "min_dec": 1.9,
+     "p": 0.546,
+     "fair": 1.83,
+     "min_dec": 1.89,
      "ref": 16.5,
-     "p_model": 0.644,
+     "p_model": 0.654,
      "label": "Brandon Miller Over 16.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -140811,85 +140655,7 @@
        1
       ]
      },
-     "mean": 19.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 11.5,
-     "p": 0.538,
-     "fair": 1.86,
-     "min_dec": 1.91,
-     "ref": 11.3,
-     "p_model": 0.628,
-     "label": "Luka Dončić Over 11.5 Triples intentados",
-     "hr": {
-      "l10": [
-       9,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 13.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Ziaire Williams",
-     "team": "LAL",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.533,
-     "fair": 1.88,
-     "min_dec": 1.93,
-     "ref": 3.8,
-     "p_model": 0.61,
-     "label": "Ziaire Williams Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ]
-     },
-     "mean": 4.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Luka Dončić",
-     "team": "LAL",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 10.5,
-     "p": 0.53,
-     "fair": 1.89,
-     "min_dec": 1.94,
-     "ref": 10.5,
-     "p_model": 0.601,
-     "label": "Luka Dončić Over 10.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 13.0
+     "mean": 19.6
     },
     {
      "kind": "prop",
@@ -140899,11 +140665,11 @@
      "stat": "fg2m",
      "side": "over",
      "line": 3.5,
-     "p": 0.527,
-     "fair": 1.9,
-     "min_dec": 1.96,
+     "p": 0.529,
+     "fair": 1.89,
+     "min_dec": 1.95,
      "ref": 3.7,
-     "p_model": 0.589,
+     "p_model": 0.598,
      "label": "Brandon Miller Over 3.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -140915,189 +140681,33 @@
        1
       ]
      },
-     "mean": 5.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Matisse Thybulle",
-     "team": "LAL",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.588,
-     "fair": 1.7,
-     "min_dec": 1.75,
-     "ref": 1.9,
-     "p_model": 0.588,
-     "label": "Matisse Thybulle Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 2.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Grayson Allen",
-     "team": "CHA",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.583,
-     "fair": 1.71,
-     "min_dec": 1.77,
-     "ref": 1.9,
-     "p_model": 0.583,
-     "label": "Grayson Allen Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 2.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Quentin Grimes",
-     "team": "LAL",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.582,
-     "fair": 1.72,
-     "min_dec": 1.77,
-     "ref": 1.7,
-     "p_model": 0.582,
-     "label": "Quentin Grimes Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ]
-     },
-     "mean": 2.0
+     "mean": 5.2
     },
     {
      "kind": "prop",
      "model_only": true,
      "player": "Sandro Mamukelashvili",
      "team": "LAL",
-     "stat": "fg3a",
+     "stat": "pf",
      "side": "over",
-     "line": 3.5,
-     "p": 0.523,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": 3.5,
-     "p_model": 0.577,
-     "label": "Sandro Mamukelashvili Over 3.5 Triples intentados",
+     "line": 1.5,
+     "p": 0.596,
+     "fair": 1.68,
+     "min_dec": 1.73,
+     "ref": 2.0,
+     "p_model": 0.596,
+     "label": "Sandro Mamukelashvili Over 1.5 Faltas",
      "hr": {
       "l10": [
-       6,
+       4,
        10
       ],
       "h2h": [
-       1,
+       3,
        4
       ]
      },
-     "mean": 4.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Grayson Allen",
-     "team": "CHA",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.521,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 6.9,
-     "p_model": 0.571,
-     "label": "Grayson Allen Over 6.5 Triples intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 7.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Quentin Grimes",
-     "team": "LAL",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
-     "ref": 3.4,
-     "p_model": 0.565,
-     "label": "Quentin Grimes Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 4.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Brandon Miller",
-     "team": "CHA",
-     "stat": "fgm",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
-     "ref": 6.1,
-     "p_model": 0.563,
-     "label": "Brandon Miller Over 6.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ]
-     },
-     "mean": 7.8
+     "mean": 2.1
     },
     {
      "kind": "prop",
@@ -141107,11 +140717,11 @@
      "stat": "fg2a",
      "side": "over",
      "line": 8.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
+     "p": 0.523,
+     "fair": 1.91,
+     "min_dec": 1.97,
      "ref": 8.0,
-     "p_model": 0.563,
+     "p_model": 0.578,
      "label": "Brandon Miller Over 8.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -141123,7 +140733,59 @@
        1
       ]
      },
-     "mean": 10.0
+     "mean": 10.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Brandon Miller",
+     "team": "CHA",
+     "stat": "fgm",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.523,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 6.1,
+     "p_model": 0.577,
+     "label": "Brandon Miller Over 6.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ]
+     },
+     "mean": 7.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Grayson Allen",
+     "team": "CHA",
+     "stat": "pf",
+     "side": "over",
+     "line": 1.5,
+     "p": 0.577,
+     "fair": 1.73,
+     "min_dec": 1.79,
+     "ref": 1.9,
+     "p_model": 0.577,
+     "label": "Grayson Allen Over 1.5 Faltas",
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ]
+     },
+     "mean": 2.0
     },
     {
      "kind": "prop",
@@ -141133,11 +140795,11 @@
      "stat": "ftm",
      "side": "over",
      "line": 2.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
+     "p": 0.521,
+     "fair": 1.92,
+     "min_dec": 1.98,
      "ref": 2.8,
-     "p_model": 0.558,
+     "p_model": 0.57,
      "label": "Brandon Miller Over 2.5 Tiros libres anotados",
      "hr": {
       "l10": [
@@ -141149,7 +140811,33 @@
        1
       ]
      },
-     "mean": 3.7
+     "mean": 3.8
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Grayson Allen",
+     "team": "CHA",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.519,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 6.9,
+     "p_model": 0.562,
+     "label": "Grayson Allen Over 6.5 Triples intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ]
+     },
+     "mean": 7.6
     },
     {
      "kind": "prop",
@@ -141185,11 +140873,11 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.391,
-     "fair": 2.56,
-     "min_dec": 2.64,
+     "p": 0.365,
+     "fair": 2.74,
+     "min_dec": 2.82,
      "ref": null,
-     "p_model": 0.391,
+     "p_model": 0.365,
      "label": "Luka Dončić Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -141206,37 +140894,6 @@
    "all_bets": [
     {
      "kind": "ml",
-     "label": "LAL gana",
-     "player": null,
-     "team": "LAL",
-     "line": null,
-     "odds": -324,
-     "dec": 1.309,
-     "odds_assumed": false,
-     "p": 0.747,
-     "implied": 0.764,
-     "edge": -0.017,
-     "ev": -0.023,
-     "value": false,
-     "n_books": 9,
-     "best": {
-      "book": "theScore Bet",
-      "line": null,
-      "odds": -300,
-      "dec": 1.333,
-      "p": 0.747,
-      "ev": -0.004
-     },
-     "p_model": 0.789,
-     "p_mkt": 0.732,
-     "cand": false,
-     "open": [
-      null,
-      1.309
-     ]
-    },
-    {
-     "kind": "ml",
      "label": "CHA gana",
      "player": null,
      "team": "CHA",
@@ -141244,10 +140901,10 @@
      "odds": 258,
      "dec": 3.583,
      "odds_assumed": false,
-     "p": 0.253,
+     "p": 0.27,
      "implied": 0.279,
-     "edge": -0.026,
-     "ev": -0.092,
+     "edge": -0.009,
+     "ev": -0.032,
      "value": false,
      "n_books": 9,
      "best": {
@@ -141255,15 +140912,46 @@
       "line": null,
       "odds": 265,
       "dec": 3.65,
-      "p": 0.253,
-      "ev": -0.077
+      "p": 0.27,
+      "ev": -0.014
      },
-     "p_model": 0.211,
+     "p_model": 0.278,
      "p_mkt": 0.268,
      "cand": false,
      "open": [
       null,
       3.583
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "LAL gana",
+     "player": null,
+     "team": "LAL",
+     "line": null,
+     "odds": -324,
+     "dec": 1.309,
+     "odds_assumed": false,
+     "p": 0.73,
+     "implied": 0.764,
+     "edge": -0.034,
+     "ev": -0.045,
+     "value": false,
+     "n_books": 9,
+     "best": {
+      "book": "theScore Bet",
+      "line": null,
+      "odds": -300,
+      "dec": 1.333,
+      "p": 0.73,
+      "ev": -0.027
+     },
+     "p_model": 0.722,
+     "p_mkt": 0.732,
+     "cand": false,
+     "open": [
+      null,
+      1.309
      ]
     }
    ],
@@ -141274,84 +140962,84 @@
        [
         "Grayson Allen",
         3.4,
-        4.4
+        4.3
        ],
        [
         "Naz Reid",
-        2.9,
-        3.8
+        3.2,
+        3.7
        ],
        [
         "Coby White",
-        2.2,
+        2.3,
         2.3
        ]
       ],
       "Moussa Diabaté": [
        [
         "Brandon Miller",
-        1.4,
+        1.5,
         3.7
+       ],
+       [
+        "Naz Reid",
+        1.3,
+        3.4
        ],
        [
         "Grayson Allen",
         1.2,
-        3.5
-       ],
-       [
-        "Naz Reid",
-        1.1,
-        3.5
+        3.4
        ]
       ],
       "Naz Reid": [
        [
         "Brandon Miller",
-        2.8,
+        2.9,
         3.5
        ],
        [
         "Grayson Allen",
         2.3,
-        3.6
+        3.5
        ],
        [
         "Coby White",
-        1.5,
+        1.7,
         1.9
        ]
       ],
       "Grayson Allen": [
        [
         "Brandon Miller",
-        2.8,
+        2.9,
         3.1
        ],
        [
         "Naz Reid",
-        2.0,
-        2.9
+        2.2,
+        2.8
        ],
        [
         "Coby White",
-        1.5,
+        1.6,
         1.7
        ]
       ],
       "Sion James": [
        [
         "Brandon Miller",
-        1.1,
+        1.2,
         3.0
+       ],
+       [
+        "Naz Reid",
+        1.0,
+        2.7
        ],
        [
         "Grayson Allen",
         0.9,
-        2.8
-       ],
-       [
-        "Naz Reid",
-        0.8,
         2.8
        ]
       ]
@@ -141384,135 +141072,147 @@
      "model": {
       "Luka Dončić": [
        [
-        "Austin Reaves",
-        7.8,
-        4.9
-       ],
-       [
-        "Walker Kessler",
-        5.3,
-        5.2
-       ],
-       [
         "Collin Sexton",
-        5.1,
-        3.7
-       ]
-      ],
-      "Austin Reaves": [
-       [
-        "Luka Dončić",
-        2.2,
-        1.2
+        6.2,
+        4.1
        ],
        [
         "Ziaire Williams",
-        0.8,
-        1.3
+        5.8,
+        5.5
        ],
        [
-        "Collin Sexton",
-        0.8,
-        1.0
+        "Sandro Mamukelashvili",
+        5.7,
+        5.1
        ]
       ],
       "Quentin Grimes": [
        [
         "Luka Dončić",
-        2.2,
-        1.9
-       ],
-       [
-        "Austin Reaves",
-        2.0,
+        2.9,
         3.1
        ],
        [
-        "Ziaire Williams",
-        1.6,
-        3.4
-       ]
-      ],
-      "Walker Kessler": [
-       [
-        "Luka Dončić",
-        1.2,
-        1.1
-       ],
-       [
-        "Austin Reaves",
-        1.0,
-        1.5
+        "Collin Sexton",
+        2.1,
+        3.7
        ],
        [
         "Ziaire Williams",
-        0.6,
-        1.4
+        1.8,
+        4.5
        ]
       ],
       "Jake LaRavia": [
        [
-        "Austin Reaves",
-        1.5,
+        "Luka Dončić",
+        1.8,
+        3.0
+       ],
+       [
+        "Collin Sexton",
+        1.7,
         3.4
        ],
        [
-        "Ziaire Williams",
-        1.4,
-        3.7
-       ],
-       [
-        "Collin Sexton",
-        1.4,
-        2.9
-       ]
-      ],
-      "Ziaire Williams": [
-       [
-        "Luka Dončić",
-        2.4,
-        1.7
-       ],
-       [
-        "Austin Reaves",
-        2.0,
-        2.7
-       ],
-       [
-        "Collin Sexton",
+        "Sandro Mamukelashvili",
         1.5,
-        2.2
+        4.3
        ]
       ],
       "Sandro Mamukelashvili": [
        [
         "Luka Dončić",
-        2.5,
-        1.7
+        3.7,
+        2.8
        ],
        [
-        "Austin Reaves",
-        2.0,
-        2.7
+        "Collin Sexton",
+        2.1,
+        3.0
        ],
        [
         "Ziaire Williams",
+        1.7,
+        3.8
+       ]
+      ],
+      "Matisse Thybulle": [
+       [
+        "Luka Dončić",
+        1.8,
+        2.9
+       ],
+       [
+        "Collin Sexton",
         1.5,
+        3.3
+       ],
+       [
+        "Sandro Mamukelashvili",
+        1.4,
+        4.2
+       ]
+      ],
+      "Ziaire Williams": [
+       [
+        "Luka Dončić",
+        3.2,
+        2.9
+       ],
+       [
+        "Collin Sexton",
+        1.8,
+        3.0
+       ],
+       [
+        "Sandro Mamukelashvili",
+        1.7,
+        3.9
+       ]
+      ],
+      "Collin Sexton": [
+       [
+        "Luka Dončić",
+        4.1,
+        2.3
+       ],
+       [
+        "Ziaire Williams",
+        1.7,
+        2.8
+       ],
+       [
+        "Quentin Grimes",
+        1.6,
         2.9
        ]
       ]
      },
-     "real": {},
-     "doubt": [
-      [
-       "Austin Reaves",
-       0.35
-      ],
-      [
-       "Walker Kessler",
-       0.4
+     "real": {
+      "Austin Reaves": [
+       [
+        "Collin Sexton",
+        7.3,
+        2,
+        9
+       ],
+       [
+        "Sandro Mamukelashvili",
+        2.7,
+        2,
+        9
+       ],
+       [
+        "Matisse Thybulle",
+        2.4,
+        2,
+        9
+       ]
       ]
-     ]
+     },
+     "doubt": []
     }
    }
   }

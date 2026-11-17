@@ -8,16 +8,16 @@
   "neutral": false,
   "notes": [
    "LAL: Reaves (contusión en el talón) se perdió el 15-nov, day-to-day; CBS lo da fuera hasta al menos el 18-nov: 0.35. Kessler (pierna, nuevo el 16-nov en CBS, hasta al menos el 18-nov): 0.4",
-   "CHA: Knueppel y Schröder (isquios) OUT"
+   "CHA: Knueppel y Schröder (isquios) OUT",
+   "14:39 ET (parte oficial, captura de Nicolas): Reaves y Kessler OUT"
   ],
   "out": [
    "Kon Knueppel",
-   "Dennis Schröder"
+   "Dennis Schröder",
+   "Austin Reaves",
+   "Walker Kessler"
   ],
-  "gtd": {
-   "Austin Reaves": 0.35,
-   "Walker Kessler": 0.4
-  },
+  "gtd": {},
   "reserves": {
    "CHA": [
     {
@@ -92,13 +92,13 @@
     "pace": 99.5
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -2.0,
+    "d": 1.0,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "Austin Reaves y Walker Kessler OUT"
    }
   },
   "CHA": {
@@ -134,7 +134,7 @@
    "name": "Luka Dončić",
    "pos": "PG",
    "starter": true,
-   "min": 32.5,
+   "min": 38.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -173,94 +173,10 @@
   },
   {
    "team": "LAL",
-   "name": "Austin Reaves",
-   "pos": "SG",
-   "starter": true,
-   "min": 31.9,
-   "g_cur": 12,
-   "p_play": 0.35,
-   "cur": {
-    "min": 35.3,
-    "pts": 24.7,
-    "reb": 3.3,
-    "ast": 4.7,
-    "fg3m": 2.3,
-    "fgm": 8.1,
-    "fga": 15.8,
-    "fg3a": 5.5,
-    "stl": 1.2,
-    "blk": 0.3,
-    "tov": 3.4,
-    "pf": 2.8,
-    "ftm": 6.3,
-    "fta": 6.8
-   },
-   "prior": {
-    "min": 34.6,
-    "pts": 23.27,
-    "reb": 4.71,
-    "ast": 5.49,
-    "fg3m": 2.31,
-    "fgm": 7.31,
-    "fga": 14.94,
-    "fg3a": 6.43,
-    "stl": 1.1,
-    "blk": 0.39,
-    "tov": 2.96,
-    "pf": 2.16,
-    "ftm": 6.33,
-    "fta": 7.27
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "LAL",
-   "name": "Walker Kessler",
-   "pos": "C",
-   "starter": true,
-   "min": 28.0,
-   "g_cur": 14,
-   "p_play": 0.4,
-   "cur": {
-    "min": 30.9,
-    "pts": 14.5,
-    "reb": 10.9,
-    "ast": 1.9,
-    "fg3m": 0.0,
-    "fgm": 6.1,
-    "fga": 8.9,
-    "fg3a": 0.0,
-    "stl": 1.2,
-    "blk": 2.2,
-    "tov": 1.7,
-    "pf": 2.9,
-    "ftm": 2.4,
-    "fta": 3.6
-   },
-   "prior": {
-    "min": 31.0,
-    "pts": 14.4,
-    "reb": 10.8,
-    "ast": 3.0,
-    "fg3m": 1.2,
-    "fgm": 5.2,
-    "fga": 7.4,
-    "fg3a": 1.6,
-    "stl": 1.4,
-    "blk": 1.8,
-    "tov": 3.2,
-    "pf": 4.4,
-    "ftm": 2.8,
-    "fta": 4.0
-   },
-   "slot": "C"
-  },
-  {
-   "team": "LAL",
    "name": "Quentin Grimes",
    "pos": "SG",
-   "starter": false,
-   "min": 24.4,
+   "starter": true,
+   "min": 32.5,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -294,14 +210,15 @@
     "pf": 2.07,
     "ftm": 2.65,
     "fta": 3.16
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "LAL",
    "name": "Jake LaRavia",
    "pos": "PF",
    "starter": true,
-   "min": 22.7,
+   "min": 30.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -336,14 +253,14 @@
     "ftm": 1.41,
     "fta": 1.85
    },
-   "slot": "PF"
+   "slot": "C"
   },
   {
    "team": "LAL",
    "name": "Matisse Thybulle",
    "pos": "SF",
    "starter": true,
-   "min": 22.3,
+   "min": 29.7,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -384,8 +301,8 @@
    "team": "LAL",
    "name": "Ziaire Williams",
    "pos": "SF",
-   "starter": false,
-   "min": 21.3,
+   "starter": true,
+   "min": 28.4,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -419,14 +336,15 @@
     "pf": 2.07,
     "ftm": 2.12,
     "fta": 2.5
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "LAL",
    "name": "Sandro Mamukelashvili",
    "pos": "C",
    "starter": false,
-   "min": 21.2,
+   "min": 28.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -467,7 +385,7 @@
    "name": "Collin Sexton",
    "pos": "SG",
    "starter": false,
-   "min": 16.5,
+   "min": 21.9,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -508,7 +426,7 @@
    "name": "Jarred Vanderbilt",
    "pos": "PF",
    "starter": false,
-   "min": 10.9,
+   "min": 14.5,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -549,7 +467,7 @@
    "name": "Adou Thiero",
    "pos": "SF",
    "starter": false,
-   "min": 8.4,
+   "min": 11.2,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {

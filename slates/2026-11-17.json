@@ -129,14 +129,14 @@
     "Ronald Holland II",
     "Taurean Prince",
     "Tobias Harris",
-    "Jayden Quaintance"
+    "Jayden Quaintance",
+    "Isaiah Joe"
    ],
-   "gtd": {
-    "Isaiah Joe": 0.25
-   },
+   "gtd": {},
    "notes": [
     "DET: Robinson (cuádriceps), Duren (isquio), Holland y Prince (rodilla) OUT; Isaiah Joe (cadera) doubtful (ESPN/CBS 16-nov)",
-    "SAS: Harris (gemelo, hasta inicios de dic.) y Quaintance OUT; Fox disponible (captura Underdog 16-nov)"
+    "SAS: Harris (gemelo, hasta inicios de dic.) y Quaintance OUT; Fox disponible (captura Underdog 16-nov)",
+    "14:39 ET (parte oficial, captura de Nicolas): Isaiah Joe OUT"
    ]
   },
   {
@@ -214,18 +214,24 @@
     "total": 218.0
    },
    "b2b": [],
-   "adj": {},
+   "adj": {
+    "LAL": {
+     "o": -2.0,
+     "d": 1.0,
+     "why": "Austin Reaves y Walker Kessler OUT"
+    }
+   },
    "out": [
     "Kon Knueppel",
-    "Dennis Schröder"
+    "Dennis Schröder",
+    "Austin Reaves",
+    "Walker Kessler"
    ],
-   "gtd": {
-    "Austin Reaves": 0.35,
-    "Walker Kessler": 0.4
-   },
+   "gtd": {},
    "notes": [
     "LAL: Reaves (contusión en el talón) se perdió el 15-nov, day-to-day; CBS lo da fuera hasta al menos el 18-nov: 0.35. Kessler (pierna, nuevo el 16-nov en CBS, hasta al menos el 18-nov): 0.4",
-    "CHA: Knueppel y Schröder (isquios) OUT"
+    "CHA: Knueppel y Schröder (isquios) OUT",
+    "14:39 ET (parte oficial, captura de Nicolas): Reaves y Kessler OUT"
    ]
   }
  ]
