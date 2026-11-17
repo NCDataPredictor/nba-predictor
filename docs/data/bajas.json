@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:29+00:00",
+ "updated": "2026-11-17T18:40+00:00",
  "list": [
   {
    "date": "2026-11-14",
@@ -319,6 +319,39 @@
    "source": "SI 16-nov 15:22 ET",
    "at": "2026-11-16T23:18+00:00",
    "sim": false
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-CHA-at-LAL",
+   "player": "Austin Reaves",
+   "team": "LAL",
+   "status": "out",
+   "note": "Talón (contusión)",
+   "source": "Parte oficial 17-nov (captura de Nicolas)",
+   "at": "2026-11-17T18:39+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-CHA-at-LAL",
+   "player": "Walker Kessler",
+   "team": "LAL",
+   "status": "out",
+   "note": "Pierna",
+   "source": "Parte oficial 17-nov (captura de Nicolas)",
+   "at": "2026-11-17T18:39+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-DET-at-SAS",
+   "player": "Isaiah Joe",
+   "team": "DET",
+   "status": "out",
+   "note": "Cadera",
+   "source": "Parte oficial 17-nov (captura de Nicolas)",
+   "at": "2026-11-17T18:39+00:00",
+   "sim": true
   }
  ]
 }
