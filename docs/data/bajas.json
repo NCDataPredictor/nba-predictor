@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:40+00:00",
+ "updated": "2026-11-17T23:49+00:00",
  "list": [
   {
    "date": "2026-11-14",
@@ -352,6 +352,50 @@
    "source": "Parte oficial 17-nov (captura de Nicolas)",
    "at": "2026-11-17T18:39+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-NYK-at-TOR",
+   "player": "Scottie Barnes",
+   "team": "TOR",
+   "status": "duda",
+   "note": "enfermedad; pasó a questionable vs NYK",
+   "source": "ESPN/Heavy 12:37 ET",
+   "at": "2026-11-17T23:49+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-POR-at-MIN",
+   "player": "Jonathan Kuminga",
+   "team": "MIN",
+   "status": "out",
+   "note": "hombro; OUT vs POR",
+   "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
+   "at": "2026-11-17T23:49+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-POR-at-MIN",
+   "player": "Chris Youngblood",
+   "team": "POR",
+   "status": "out",
+   "note": "talón; OUT en MIN",
+   "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
+   "at": "2026-11-17T23:49+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-17",
+   "gid": "2026-11-17-POR-at-MIN",
+   "player": "Deni Avdija",
+   "team": "POR",
+   "status": "duda",
+   "note": "pie izq.; questionable vs MIN",
+   "source": "Parte oficial vía Heavy 16:29 ET",
+   "at": "2026-11-17T23:49+00:00",
+   "sim": false
   }
  ]
 }
