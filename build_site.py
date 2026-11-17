@@ -757,13 +757,17 @@ def sample_hits(b, smp):
 DREAM_RELAX = [dict(leg_p=0.52), dict(max_under=0.6), dict(leg_p=0.52, max_under=0.6)]  # 0.52 = DREAM_SWAP_MIN_P
 
 
-def dream_parlay(rs):
+DREAM_TRIAL = True  # 17-nov (Nicolas eligió "las dos, 2 semanas de prueba"): la normal sin respaldo escalonado y la
+                    # escalonada aparte, en index.json `dream_ladder`, cada una con su récord
+
+
+def dream_parlay(rs, ladder_fallback=not DREAM_TRIAL):
     """rs = partidos publicados (sin jugar) de una jornada. Devuelve el parlay soñador o None (con las reglas
     normales; si no sale, el escalonado de ladder_dream y luego los escalones de DREAM_RELAX)."""
     pl = _dream_parlay(rs)
     if pl:
         return pl
-    pl = ladder_dream(rs)  # 1.er respaldo: Bet Builders de 2 patas X+ por partido (pedido de Nicolas, 15-nov)
+    pl = ladder_dream(rs) if ladder_fallback else None  # 1.er respaldo: Bet Builders X+ (pedido de Nicolas, 15-nov)
     if pl:
         return pl
     for i, kw in enumerate(DREAM_RELAX, 1):
@@ -1057,6 +1061,8 @@ def dream_swaps(pl, wide, max_under=DREAM_MAX_UNDER):
 
 def dream_units(pl):
     """Ganancia apostando 1 unidad: las patas anuladas no cuentan en la cuota."""
+    if pl.get("result") == "won" and not any(l.get("result") == "push" for l in pl["legs"]):
+        return round(pl["dec"] - 1, 2)  # escalonado: pl["dec"] ya descuenta la correlación de cada par
     if pl.get("result") == "won":
         return round(float(np.prod([l["dec"] for l in pl["legs"] if l.get("result") != "push"])) - 1, 2)
     return -1.0 if pl.get("result") == "lost" else 0.0 if pl.get("result") == "push" else None
@@ -1738,38 +1744,41 @@ def main():
                     if l.get("player") in all_flags:
                         l["flag"] = all_flags[l["player"]]
     dream = index.get("dream", {})  # parlay soñador por jornada
+    dream_lad = index.get("dream_ladder", {})  # soñador escalonado por jornada (prueba desde 17-nov, DREAM_TRIAL)
+    kinds = [("Soñador", dream, dream_parlay)] + ([("Soñador escalonado", dream_lad, ladder_dream)] if DREAM_TRIAL else [])
     # Una vez publicado, el soñador de la jornada NO se cambia (pedido de Nicolas, 17-nov: el 16-nov se rehízo en las
     # revisiones de la tarde y quien ya lo había metido se quedó con otro). Las bajas de última hora las cubre la web
     # cambiando la pata por su reemplazo. Solo se rehace a mano con --dream <fecha>.
-    redo = {d for d, lbg in legs_by_date.items() if d in cross and d not in dream
-            and len(lbg) == sum(g["date"] == d and "result" not in g for g in games)}
     # Jornada sin soñador y sin ningún partido empezado: se vuelve a intentar en cada corrida (15-nov: por la mañana solo
     # había props de puntos/rebotes y las combinadas llegaron en una revisión que no re-simuló todo, así que no se rehizo).
     from zoneinfo import ZoneInfo
     now_et = datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M")
-    for d in {g["date"] for g in games if "result" not in g} - set(dream):
-        tips = [f"{d} {g.get('tip_et') or '00:00':>5}" for g in games if g["date"] == d]
-        if all("result" not in g for g in games if g["date"] == d) and now_et < min(tips):
-            redo.add(d)
-    if opt("--dream"):  # --dream <fecha>: rehace el soñador con lo ya publicado (usar con un filtro "ninguno")
-        redo.add(opt("--dream"))
-    for date in sorted(redo):
-        ps = [os.path.join(OUT, f"{g['id']}.json") for g in games if g["date"] == date and "result" not in g]
-        if not ps:
-            continue
-        pl = dream_parlay([json.load(open(x)) for x in ps if os.path.exists(x)])
-        if pl:
-            dream[date] = pl
-            print(f"Soñador {date}: {pl['n']} patas, cuota {pl['dec']}, prob. {pl['p']:.1%}")
-        else:
-            dream.pop(date, None)
-            print(f"Soñador {date}: ninguna combinación llega a cuota {DREAM_MIN:g}-{DREAM_MAX:g}")
-    for date, pl in dream.items():
-        res = load_results(date)
-        rs = {g["id"]: dict(game=dict(home=g["home"], away=g["away"]), res=res[f"{g['away']}@{g['home']}"])
-              for g in games if g["date"] == date and f"{g['away']}@{g['home']}" in res}
-        pl["result"] = settle_parlay(pl, rs)
-        pl["units"] = dream_units(pl)
+    for name, store, build in kinds:
+        redo = {d for d, lbg in legs_by_date.items() if d in cross and d not in store
+                and len(lbg) == sum(g["date"] == d and "result" not in g for g in games)}
+        for d in {g["date"] for g in games if "result" not in g} - set(store):
+            tips = [f"{d} {g.get('tip_et') or '00:00':>5}" for g in games if g["date"] == d]
+            if all("result" not in g for g in games if g["date"] == d) and now_et < min(tips):
+                redo.add(d)
+        if opt("--dream"):  # --dream <fecha>: rehace el soñador con lo ya publicado (usar con un filtro "ninguno")
+            redo.add(opt("--dream"))
+        for date in sorted(redo):
+            ps = [os.path.join(OUT, f"{g['id']}.json") for g in games if g["date"] == date and "result" not in g]
+            if not ps:
+                continue
+            pl = build([json.load(open(x)) for x in ps if os.path.exists(x)])
+            if pl:
+                store[date] = pl
+                print(f"{name} {date}: {pl['n']} patas, cuota {pl['dec']}, prob. {pl['p']:.1%}")
+            else:
+                store.pop(date, None)
+                print(f"{name} {date}: ninguna combinación llega a cuota {DREAM_MIN:g}-{DREAM_MAX:g}")
+        for date, pl in store.items():
+            res = load_results(date)
+            rs = {g["id"]: dict(game=dict(home=g["home"], away=g["away"]), res=res[f"{g['away']}@{g['home']}"])
+                  for g in games if g["date"] == date and f"{g['away']}@{g['home']}" in res}
+            pl["result"] = settle_parlay(pl, rs)
+            pl["units"] = dream_units(pl)
     for date, pls in cross.items():
         res = load_results(date)
         rs = {g["id"]: dict(game=dict(home=g["home"], away=g["away"]), res=res[f"{g['away']}@{g['home']}"])
@@ -1808,7 +1817,7 @@ def main():
         updates.setdefault(day, {})[stage] = now
     updates = {d: updates[d] for d in sorted(updates)[-14:]}
     json.dump(dict(generated=now, value_ev=VALUE_EV, min_p=MIN_P, model=MODEL, mkt_w=MKT_W, max_daily=MAX_DAILY, last_stage=stage or index.get("last_stage"), updates=updates,
-                   history=history, versions=versions, parlays=cross, dream=dream, cup=cup_summary(), games=games), open(idx_path, "w"), ensure_ascii=False, indent=1)
+                   history=history, versions=versions, parlays=cross, dream=dream, dream_ladder=dream_lad, cup=cup_summary(), games=games), open(idx_path, "w"), ensure_ascii=False, indent=1)
     try:  # pestaña Liga: equipos, líderes y margen de las casas (docs/data/league.json)
         import league_view
         league_view.build(last)
