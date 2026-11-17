@@ -1044,11 +1044,306 @@
  ],
  "market": {
   "source": "NBA.com/games 17-nov (5 partidos de liga); Covers matchup/<id>/odds (9 casas en NYK@TOR y UTA@LAC, ~11:40 ET; DET@SAS, POR@MIN y CHA@LAL vacíos: ML del comparador de Covers y spread/total de consenso de Covers matchups); props de puntos de NYK@TOR de Covers matchup (scoresandodds /nba/props seguía en la jornada del 16-nov con y sin ?date=)",
-  "ml_home": -325,
-  "ml_away": 260,
+  "ml_home": -295,
+  "ml_away": 240,
   "spread_home": -7.5,
-  "total": 218.0
+  "total": 221.5,
+  "spread_odds_home": -101,
+  "spread_odds_away": -120,
+  "over_odds": -110,
+  "under_odds": -110
  },
- "prop_lines": {},
+ "prop_lines": {
+  "Luka Dončić": {
+   "pts": [
+    36.5,
+    -104,
+    -105
+   ],
+   "reb": [
+    7.5,
+    -110,
+    -108
+   ],
+   "ast": [
+    8.5,
+    100,
+    -114
+   ],
+   "fg3m": [
+    4.5,
+    -120,
+    102
+   ]
+  },
+  "Brandon Miller": {
+   "pts": [
+    17.5,
+    -125,
+    -121,
+    18.5
+   ],
+   "reb": [
+    3.5,
+    -140,
+    128
+   ],
+   "ast": [
+    2.5,
+    -150,
+    -150,
+    3.5
+   ],
+   "fg3m": [
+    2.5,
+    -140,
+    -160,
+    3.5
+   ]
+  },
+  "Naz Reid": {
+   "pts": [
+    17.5,
+    -103,
+    -115
+   ],
+   "reb": [
+    7.5,
+    100,
+    -120
+   ],
+   "fg3m": [
+    1.5,
+    -190,
+    -170,
+    2.5
+   ]
+  },
+  "Coby White": {
+   "pts": [
+    13.5,
+    -140,
+    -107,
+    14.5
+   ],
+   "ast": [
+    3.5,
+    112,
+    -120
+   ],
+   "fg3m": [
+    1.5,
+    -150,
+    145
+   ]
+  },
+  "Collin Sexton": {
+   "pts": [
+    13.5,
+    -135,
+    -112,
+    14.5
+   ],
+   "ast": [
+    2.5,
+    -140,
+    -170,
+    3.5
+   ],
+   "fg3m": [
+    1.5,
+    124,
+    -135
+   ]
+  },
+  "Grayson Allen": {
+   "pts": [
+    13.5,
+    -105,
+    -102
+   ],
+   "ast": [
+    3.5,
+    105,
+    -115
+   ],
+   "fg3m": [
+    2.5,
+    -110,
+    106
+   ]
+  },
+  "Quentin Grimes": {
+   "pts": [
+    12.5,
+    -115,
+    100
+   ],
+   "reb": [
+    3.5,
+    -110,
+    -104
+   ],
+   "fg3m": [
+    1.5,
+    113,
+    -120
+   ]
+  },
+  "Grant Williams": {
+   "pts": [
+    6.5,
+    105,
+    -135
+   ],
+   "reb": [
+    2.5,
+    -150,
+    120
+   ],
+   "ast": [
+    1.5,
+    140,
+    -180
+   ],
+   "fg3m": [
+    1.5,
+    170,
+    -220
+   ]
+  },
+  "Sandro Mamukelashvili": {
+   "pts": [
+    12.5,
+    -120,
+    -120,
+    13.5
+   ],
+   "reb": [
+    6.5,
+    -105,
+    -105
+   ],
+   "fg3m": [
+    1.5,
+    -130,
+    120
+   ]
+  },
+  "Moussa Diabaté": {
+   "pts": [
+    8.5,
+    -114,
+    -127,
+    9.5
+   ],
+   "reb": [
+    9.5,
+    -102,
+    -112
+   ]
+  },
+  "Ziaire Williams": {
+   "pts": [
+    8.5,
+    -135,
+    -120,
+    9.5
+   ],
+   "fg3m": [
+    0.5,
+    -232,
+    -200,
+    1.5
+   ]
+  },
+  "Matisse Thybulle": {
+   "pts": [
+    7.5,
+    100,
+    -116
+   ],
+   "fg3m": [
+    1.5,
+    120,
+    -130
+   ]
+  },
+  "Jake LaRavia": {
+   "pts": [
+    7.5,
+    102,
+    -110
+   ],
+   "reb": [
+    3.5,
+    -160,
+    -144,
+    4.5
+   ],
+   "fg3m": [
+    0.5,
+    -150,
+    135
+   ]
+  },
+  "Sion James": {
+   "pts": [
+    6.5,
+    -104,
+    -104
+   ],
+   "reb": [
+    3.5,
+    -140,
+    112
+   ],
+   "ast": [
+    2.5,
+    -145,
+    -158,
+    3.5
+   ],
+   "fg3m": [
+    1.5,
+    140,
+    -165
+   ]
+  },
+  "Ryan Kalkbrenner": {
+   "pts": [
+    4.5,
+    -103,
+    -115
+   ],
+   "reb": [
+    4.5,
+    100,
+    -115
+   ],
+   "ast": [
+    0.5,
+    -190,
+    150
+   ]
+  },
+  "Royce O'Neale": {
+   "pts": [
+    3.5,
+    -105,
+    -120
+   ],
+   "reb": [
+    2.5,
+    -155,
+    122
+   ],
+   "ast": [
+    1.5,
+    150,
+    -190
+   ]
+  }
+ },
  "alt_lines": {}
 }
