@@ -1738,7 +1738,11 @@ def main():
                     if l.get("player") in all_flags:
                         l["flag"] = all_flags[l["player"]]
     dream = index.get("dream", {})  # parlay soñador por jornada
-    redo = {d for d, lbg in legs_by_date.items() if d in cross and len(lbg) == sum(g["date"] == d and "result" not in g for g in games)}
+    # Una vez publicado, el soñador de la jornada NO se cambia (pedido de Nicolas, 17-nov: el 16-nov se rehízo en las
+    # revisiones de la tarde y quien ya lo había metido se quedó con otro). Las bajas de última hora las cubre la web
+    # cambiando la pata por su reemplazo. Solo se rehace a mano con --dream <fecha>.
+    redo = {d for d, lbg in legs_by_date.items() if d in cross and d not in dream
+            and len(lbg) == sum(g["date"] == d and "result" not in g for g in games)}
     # Jornada sin soñador y sin ningún partido empezado: se vuelve a intentar en cada corrida (15-nov: por la mañana solo
     # había props de puntos/rebotes y las combinadas llegaron en una revisión que no re-simuló todo, así que no se rehizo).
     from zoneinfo import ZoneInfo
