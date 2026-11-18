@@ -1,12 +1,12 @@
 {
  "date": "2026-11-18",
  "sources": {
-  "schedule_odds": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET)",
+  "schedule_odds": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
   "players_cur": "raw/2026-11-17/cur.csv con 20 equipos rehechos desde basketball-reference teams/<ABR>/2027.html (18-nov ~9:00 ET, al día hasta el 15/16-nov) y TOR, DET, UTA, LAL actualizados con results/2026-11-17.json",
   "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
-  "injuries": "ESPN injuries y CBS injuries, 18-nov ~9:00 ET (notas del 16/17-nov); en duda con p_play",
+  "injuries": "ESPN injuries y CBS injuries, 18-nov ~9:00 ET (notas del 16/17-nov); en duda con p_play. Revisadas de nuevo 11:30 ET (ESPN): sin notas nuevas del 18-nov",
   "b2b": "TOR, DET, UTA y LAL jugaron el 17-nov",
-  "db": "BD de rankings: snapshot del 17-nov (B-Ref 2026-27 con partidos del 16-nov; play types y zonas NBA.com del 27-oct; DvP statpick)",
+  "db": "BD de rankings: snapshot del 18-nov (B-Ref 2026-27 heredado del 17-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta 17-nov)",
   "h2h": "h2h/2025-26.json: añadidos 31 partidos de 11 cruces desde los game logs 2025-26 (GSW-DAL ya estaba)",
   "props": "Betano Colombia (O/U por jugador: pts, reb, ast, triples, PRA, P+R, P+A, R+A, robos, tapones, robos+tapones, pérdidas), leídas desde el Chrome del PC de Nicolas el 18-nov ~9:50 ET; cuotas decimales pasadas a americanas, sin margen extra (prop_odds_region CO)"
  },
