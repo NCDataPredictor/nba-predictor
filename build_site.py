@@ -1818,6 +1818,12 @@ def main():
     updates = {d: updates[d] for d in sorted(updates)[-14:]}
     json.dump(dict(generated=now, value_ev=VALUE_EV, min_p=MIN_P, model=MODEL, mkt_w=MKT_W, max_daily=MAX_DAILY, last_stage=stage or index.get("last_stage"), updates=updates,
                    history=history, versions=versions, parlays=cross, dream=dream, dream_ladder=dream_lad, cup=cup_summary(), games=games), open(idx_path, "w"), ensure_ascii=False, indent=1)
+    if stage == "morning":  # aviso "ya están los picks del día" (uno por jornada; avisos.py lo omite si ya existe)
+        try:
+            import avisos
+            avisos.day(day)
+        except Exception as e:
+            print(f"ERROR aviso de la jornada: {e}")
     try:  # pestaña Liga: equipos, líderes y margen de las casas (docs/data/league.json)
         import league_view
         league_view.build(last)
