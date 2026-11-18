@@ -463,7 +463,27 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "40a18857c1b72c8f",
+   "at": "2026-11-18T00:34+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-POR-at-MIN",
+   "title": "POR @ MIN (8:00 pm ET): novedades de bajas",
+   "body": "Bajas: Avdija OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 19:30 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-POR-at-MIN",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Deni Avdija"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-17T23:53+00:00"
+ "updated": "2026-11-18T00:34+00:00"
 }

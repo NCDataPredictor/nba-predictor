@@ -1,138 +1,6 @@
 {
- "updated": "2026-11-18T00:32+00:00",
+ "updated": "2026-11-18T00:33+00:00",
  "list": [
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-BKN-at-MEM",
-   "player": "Michael Porter Jr.",
-   "team": "BKN",
-   "status": "out",
-   "note": "personal; descartado vs MEM",
-   "source": "Underdog NBA (X, captura 19:08 ET)",
-   "at": "2026-11-15T00:10+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-BKN-at-MEM",
-   "player": "Jerami Grant",
-   "team": "MEM",
-   "status": "out",
-   "note": "cabeza; descartado vs BKN",
-   "source": "Underdog NBA (X, captura 19:08 ET)",
-   "at": "2026-11-15T00:10+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-BKN-at-MEM",
-   "player": "Ty Jerome",
-   "team": "MEM",
-   "status": "out",
-   "note": "cadera, OUT en el parte final",
-   "source": "Athlon Final Injury Report 14-nov",
-   "at": "2026-11-14T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-CHI-at-MIN",
-   "player": "Jalen Smith",
-   "team": "CHI",
-   "status": "out",
-   "note": "Dedo; descartado vs MIN",
-   "source": "NBC Sports 18:38 ET",
-   "at": "2026-11-15T00:01+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-CHI-at-MIN",
-   "player": "Nic Claxton",
-   "team": "CHI",
-   "status": "out",
-   "note": "manejo de carga; descartado vs MIN",
-   "source": "Underdog NBA (X, captura 19:08 ET)",
-   "at": "2026-11-15T00:10+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DAL-at-CLE",
-   "player": "Donovan Mitchell",
-   "team": "CLE",
-   "status": "out",
-   "note": "OUT en el parte de las 17:45 ET",
-   "source": "Heavy/NBC Sports 18:03 ET",
-   "at": "2026-11-14T23:20+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DAL-at-CLE",
-   "player": "James Harden",
-   "team": "CLE",
-   "status": "out",
-   "note": "OUT en el parte de las 17:45 ET",
-   "source": "Heavy/NBC Sports 18:03 ET",
-   "at": "2026-11-14T23:20+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DAL-at-CLE",
-   "player": "Jarrett Allen",
-   "team": "CLE",
-   "status": "out",
-   "note": "OUT en el parte de las 17:45 ET",
-   "source": "Heavy/NBC Sports 18:03 ET",
-   "at": "2026-11-14T23:20+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DAL-at-CLE",
-   "player": "Peyton Watson",
-   "team": "CLE",
-   "status": "out",
-   "note": "OUT en el parte de las 17:45 ET",
-   "source": "Heavy/NBC Sports 18:03 ET",
-   "at": "2026-11-14T23:20+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DAL-at-CLE",
-   "player": "Max Christie",
-   "team": "DAL",
-   "status": "out",
-   "note": "OUT en el parte de las 17:45 ET",
-   "source": "Heavy/NBC Sports 18:03 ET",
-   "at": "2026-11-14T23:20+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DEN-at-NOP",
-   "player": "Trey Murphy III",
-   "team": "NOP",
-   "status": "out",
-   "note": "rodilla, descartado vs DEN",
-   "source": "NBC Sports/Rotoworld 13:00 ET",
-   "at": "2026-11-14T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-14",
-   "gid": "2026-11-14-DET-at-MIA",
-   "player": "Pelle Larsson",
-   "team": "MIA",
-   "status": "out",
-   "note": "Enfermedad; descartado vs DET",
-   "source": "NBC Sports 18:22 ET",
-   "at": "2026-11-15T00:01+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-15",
    "gid": "2026-11-15-ATL-at-MIL",
@@ -395,7 +263,7 @@
    "note": "Pie: pasó de questionable a OUT",
    "source": "NBC Sports/Rotoworld 19:26 ET",
    "at": "2026-11-18T00:32+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }
