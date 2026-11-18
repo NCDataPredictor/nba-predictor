@@ -19,11 +19,11 @@
    "Anthony Edwards",
    "Donte DiVincenzo",
    "Chris Youngblood",
-   "Jonathan Kuminga"
+   "Jonathan Kuminga",
+   "Deni Avdija",
+   "Zyon Pullin"
   ],
-  "gtd": {
-   "Deni Avdija": 0.65
-  },
+  "gtd": {},
   "reserves": {
    "POR": [
     {
@@ -51,12 +51,6 @@
      "pos": "SG",
      "min": 3.3,
      "g": 7
-    },
-    {
-     "name": "Zyon Pullin",
-     "pos": "SG",
-     "min": 3.3,
-     "g": 3
     },
     {
      "name": "Rocco Zikarsky",
@@ -114,13 +108,13 @@
     "pace": 101.91
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -2.5,
+    "d": 1.5,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Deni Avdija OUT (19:26 ET)"
    }
   }
  },
@@ -464,52 +458,10 @@
   },
   {
    "team": "POR",
-   "name": "Deni Avdija",
-   "pos": "SF",
-   "starter": true,
-   "min": 33.6,
-   "g_cur": 13,
-   "p_play": 0.65,
-   "cur": {
-    "min": 32.5,
-    "pts": 24.2,
-    "reb": 6.2,
-    "ast": 6.1,
-    "fg3m": 2.1,
-    "fgm": 8.0,
-    "fga": 15.8,
-    "fg3a": 5.4,
-    "stl": 1.1,
-    "blk": 0.4,
-    "tov": 3.3,
-    "pf": 2.6,
-    "ftm": 6.1,
-    "fta": 8.5
-   },
-   "prior": {
-    "min": 33.3,
-    "pts": 24.21,
-    "reb": 6.88,
-    "ast": 6.7,
-    "fg3m": 1.89,
-    "fgm": 7.45,
-    "fga": 16.12,
-    "fg3a": 5.95,
-    "stl": 0.77,
-    "blk": 0.62,
-    "tov": 3.83,
-    "pf": 2.55,
-    "ftm": 7.41,
-    "fta": 9.24
-   },
-   "slot": "SF"
-  },
-  {
-   "team": "POR",
    "name": "Damian Lillard",
    "pos": "PG",
    "starter": true,
-   "min": 29.9,
+   "min": 34.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -551,7 +503,7 @@
    "name": "Toumani Camara",
    "pos": "PF",
    "starter": true,
-   "min": 29.8,
+   "min": 34.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -593,7 +545,7 @@
    "name": "Jrue Holiday",
    "pos": "PG",
    "starter": false,
-   "min": 27.1,
+   "min": 31.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -634,7 +586,7 @@
    "name": "Donovan Clingan",
    "pos": "C",
    "starter": true,
-   "min": 26.1,
+   "min": 30.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -675,8 +627,8 @@
    "team": "POR",
    "name": "Sidy Cissoko",
    "pos": "SF",
-   "starter": false,
-   "min": 24.4,
+   "starter": true,
+   "min": 28.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -710,14 +662,15 @@
     "pf": 2.44,
     "ftm": 0.77,
     "fta": 1.17
-   }
+   },
+   "slot": "SF"
   },
   {
    "team": "POR",
    "name": "Scoot Henderson",
    "pos": "PG",
    "starter": true,
-   "min": 23.0,
+   "min": 26.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -759,7 +712,7 @@
    "name": "Robert Williams III",
    "pos": "C",
    "starter": false,
-   "min": 17.0,
+   "min": 19.7,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -800,7 +753,7 @@
    "name": "Jayson Kent",
    "pos": "SF",
    "starter": false,
-   "min": 10.7,
+   "min": 12.4,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -841,7 +794,7 @@
    "name": "Yang Hansen",
    "pos": "C",
    "starter": false,
-   "min": 9.4,
+   "min": 10.9,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -882,7 +835,7 @@
    "name": "Branden Carlson",
    "pos": "C",
    "starter": false,
-   "min": 9.2,
+   "min": 10.7,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -921,38 +874,16 @@
  ],
  "market": {
   "source": "NBA.com/games 17-nov (5 partidos de liga); Covers matchup/<id>/odds (9 casas en NYK@TOR y UTA@LAC, ~11:40 ET; DET@SAS, POR@MIN y CHA@LAL vacíos: ML del comparador de Covers y spread/total de consenso de Covers matchups); props de puntos de NYK@TOR de Covers matchup (scoresandodds /nba/props seguía en la jornada del 16-nov con y sin ?date=)",
-  "ml_home": -138,
-  "ml_away": 116,
-  "spread_home": -2.5,
+  "ml_home": -130,
+  "ml_away": 110,
+  "spread_home": -1.5,
   "total": 227.5,
   "over_odds": -113,
-  "under_odds": -107
+  "under_odds": -107,
+  "spread_odds_home": -115,
+  "spread_odds_away": -105
  },
  "prop_lines": {
-  "Deni Avdija": {
-   "pts": [
-    24.5,
-    -102,
-    -115
-   ],
-   "reb": [
-    5.5,
-    -134,
-    -140,
-    6.5
-   ],
-   "ast": [
-    5.5,
-    -108,
-    -140,
-    6.5
-   ],
-   "fg3m": [
-    1.5,
-    -125,
-    115
-   ]
-  },
   "Damian Lillard": {
    "pts": [
     21.5,

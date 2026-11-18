@@ -307,6 +307,24 @@
       -113,
       -107
      ]
+    },
+    {
+     "book": "consenso 19:35 ET (Covers ML / scoresandodds)",
+     "ml_away": 110,
+     "ml_home": -130,
+     "spread_away": [
+      1.5,
+      -105
+     ],
+     "spread_home": [
+      -1.5,
+      -115
+     ],
+     "total": [
+      227.5,
+      -113,
+      -107
+     ]
     }
    ]
   },

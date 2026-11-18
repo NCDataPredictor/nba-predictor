@@ -1563,18 +1563,26 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -138,
-    "ml_away": 116,
-    "spread_home": -2.5,
+    "ml_home": -130,
+    "ml_away": 110,
+    "spread_home": -1.5,
     "total": 227.5,
     "over_odds": -113,
-    "under_odds": -107
+    "under_odds": -107,
+    "spread_odds_home": -115,
+    "spread_odds_away": -105
    },
    "b2b": [
     "POR",
     "MIN"
    ],
-   "adj": {},
+   "adj": {
+    "POR": {
+     "o": -1.5,
+     "d": 0.5,
+     "why": "Deni Avdija OUT (19:26 ET)"
+    }
+   },
    "out": [
     "Vít Krejčí",
     "Ja Morant",
@@ -1583,11 +1591,11 @@
     "Anthony Edwards",
     "Donte DiVincenzo",
     "Chris Youngblood",
-    "Jonathan Kuminga"
+    "Jonathan Kuminga",
+    "Deni Avdija",
+    "Zyon Pullin"
    ],
-   "gtd": {
-    "Deni Avdija": 0.65
-   },
+   "gtd": {},
    "notes": [
     "Ambos en back-to-back: segundo partido seguido en Minneapolis (MIN ganó 106-98 el 16-nov)",
     "POR: Morant, Sharpe y Krejci OUT; Youngblood (pie) GTD tras perderse el del lunes",
