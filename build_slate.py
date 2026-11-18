@@ -247,7 +247,12 @@ def main():
     paths = []
     for g in slate["games"]:
         p = os.path.join(gdir, f"{date}_{g['away']}@{g['home']}.json")
-        json.dump(build_game(slate, g, R, cur, prior), open(p, "w"), indent=1, ensure_ascii=False)
+        cfg_g = build_game(slate, g, R, cur, prior)
+        # cuotas de props ya colombianas (p. ej. Betano leído del PC): no re-localizar en build_site
+        region = g.get("prop_odds_region") or slate.get("prop_odds_region")
+        if region:
+            cfg_g["prop_odds_region"] = region
+        json.dump(cfg_g, open(p, "w"), indent=1, ensure_ascii=False)
         paths.append(p)
     # partidos con JSON hecho a mano que no están en la lista de la jornada
     known = {os.path.basename(p) for p in paths}
