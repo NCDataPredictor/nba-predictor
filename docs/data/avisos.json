@@ -543,7 +543,219 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "b056a9575f49e280",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-MEM-at-CLE",
+   "title": "MEM @ CLE (7:00 pm ET): novedades de bajas",
+   "body": "Bajas: Tyson, Merrill OUT. En duda: Watson. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-MEM-at-CLE",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Jaylon Tyson",
+    "Sam Merrill"
+   ],
+   "doubts": [
+    "Peyton Watson"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "59bdee3522cc5c09",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-MIL-at-MIA",
+   "title": "MIL @ MIA (7:00 pm ET): novedades de bajas",
+   "body": "Bajas: Gardner, Rollins OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-MIL-at-MIA",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Myron Gardner",
+    "Ryan Rollins"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "8deda437f8b094ab",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-PHI-at-ORL",
+   "title": "PHI @ ORL (7:00 pm ET): picks plan B",
+   "body": "En duda: Wade. Plan B: Joel Embiid Over 11.5 REB+AST; LeBron James Over 13.5 REB+AST.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-PHI-at-ORL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Dean Wade"
+   ],
+   "back": [],
+   "planb": [
+    "Joel Embiid Over 11.5 REB+AST",
+    "LeBron James Over 13.5 REB+AST"
+   ],
+   "picks_changed": true
+  },
+  {
+   "id": "6ffb575959cb1cae",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-WAS-at-TOR",
+   "title": "WAS @ TOR (7:30 pm ET): cambian los picks",
+   "body": "Bajas: Barnes OUT. En duda: Barrett. Pick nuevo: Immanuel Quickley Over 23.5 PTS+AST. Plan B: Jakob Poeltl Over 18.5 PTS+REB+AST; Immanuel Quickley Over 27.5 PTS+REB+AST; Collin Murray-Boyles Over 18.5 PTS+REB.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-WAS-at-TOR",
+   "added": [
+    "Immanuel Quickley Over 23.5 PTS+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Scottie Barnes"
+   ],
+   "doubts": [
+    "RJ Barrett"
+   ],
+   "back": [],
+   "planb": [
+    "Jakob Poeltl Over 18.5 PTS+REB+AST",
+    "Immanuel Quickley Over 27.5 PTS+REB+AST",
+    "Collin Murray-Boyles Over 18.5 PTS+REB",
+    "Ja'Kobe Walter Over 18.5 PTS+REB+AST"
+   ],
+   "picks_changed": true
+  },
+  {
+   "id": "1196ebef33ebe5e1",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-ATL-at-OKC",
+   "title": "ATL @ OKC (8:00 pm ET): cambian los picks",
+   "body": "Bajas: Landale, Flemings OUT. Pick nuevo: Kenrich Williams Under 6.5 REB+AST. Sale: Kenrich Williams Under 15.5 PTS+REB+AST.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-ATL-at-OKC",
+   "added": [
+    "Kenrich Williams Under 6.5 REB+AST"
+   ],
+   "removed": [
+    "Kenrich Williams Under 15.5 PTS+REB+AST"
+   ],
+   "moved": [],
+   "outs": [
+    "Jock Landale",
+    "Kingston Flemings"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "e4edf0d3fd901e37",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-DET-at-NOP",
+   "title": "DET @ NOP (8:00 pm ET): picks plan B",
+   "body": "Bajas: Joe, Holland II OUT. En duda: Cunningham. Plan B: Ausar Thompson Over 22.5 PTS+REB+AST; John Collins Over 18.5 PTS+REB+AST; Kevin Huerter Over 16.5 PTS+REB.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-DET-at-NOP",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Isaiah Joe",
+    "Ronald Holland II"
+   ],
+   "doubts": [
+    "Cade Cunningham"
+   ],
+   "back": [],
+   "planb": [
+    "Ausar Thompson Over 22.5 PTS+REB+AST",
+    "John Collins Over 18.5 PTS+REB+AST",
+    "Kevin Huerter Over 16.5 PTS+REB",
+    "Daniss Jenkins Over 25.5 PTS+REB+AST"
+   ],
+   "picks_changed": true
+  },
+  {
+   "id": "dfe228f1c2fdfabc",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-GSW-at-DAL",
+   "title": "GSW @ DAL (8:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Caleb Martin Under 8.5 PTS+REB. Sale: Caleb Martin Under 5.5 Puntos.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-GSW-at-DAL",
+   "added": [
+    "Caleb Martin Under 8.5 PTS+REB"
+   ],
+   "removed": [
+    "Caleb Martin Under 5.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "aa475e8e244a1dd3",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-PHX-at-SAC",
+   "title": "PHX @ SAC (10:00 pm ET): cambian los picks",
+   "body": "Sale: Zach LaVine Under 2.5 Asistencias.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-PHX-at-SAC",
+   "added": [],
+   "removed": [
+    "Zach LaVine Under 2.5 Asistencias"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "d816012718f4ab0d",
+   "at": "2026-11-18T23:22+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): novedades de bajas",
+   "body": "Bajas: Reaves, Hayes OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-UTA-at-LAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Austin Reaves",
+    "Jaxson Hayes"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-18T14:59+00:00"
+ "updated": "2026-11-18T23:22+00:00"
 }

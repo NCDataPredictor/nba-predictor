@@ -9,14 +9,18 @@
   "notes": [
    "WAS: Vukcevic, Beekman, Champagnie, Watkins OUT",
    "TOR: Leonard y Bittle OUT; Barnes jugó el 17-nov",
-   "Back-to-back: TOR jugaron el 17-nov"
+   "Back-to-back: TOR jugaron el 17-nov",
+   "18:20 ET (ESPN/RotoBaller): Barnes descartado; RJ Barrett questionable"
   ],
   "out": [
    "Reece Beekman",
    "Justin Champagnie",
-   "Kawhi Leonard"
+   "Kawhi Leonard",
+   "Scottie Barnes"
   ],
-  "gtd": {},
+  "gtd": {
+   "RJ Barrett": 0.55
+  },
   "reserves": {
    "WAS": [
     {
@@ -97,13 +101,13 @@
     "pace": 99.5
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -3.0,
+    "d": 2.0,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Barnes OUT (18-nov), Barrett en duda"
    }
   },
   "WAS": {
@@ -139,9 +143,9 @@
    "name": "RJ Barrett",
    "pos": "SF",
    "starter": true,
-   "min": 33.4,
+   "min": 38.0,
    "g_cur": 14,
-   "p_play": 1.0,
+   "p_play": 0.55,
    "cur": {
     "min": 34.2,
     "pts": 20.9,
@@ -178,52 +182,10 @@
   },
   {
    "team": "TOR",
-   "name": "Scottie Barnes",
-   "pos": "PF",
-   "starter": true,
-   "min": 32.9,
-   "g_cur": 10,
-   "p_play": 1.0,
-   "cur": {
-    "min": 33.7,
-    "pts": 23.8,
-    "reb": 7.4,
-    "ast": 4.7,
-    "fg3m": 0.9,
-    "fgm": 9.5,
-    "fga": 19.9,
-    "fg3a": 3.6,
-    "stl": 1.9,
-    "blk": 0.9,
-    "tov": 3.2,
-    "pf": 2.9,
-    "ftm": 3.9,
-    "fta": 5.9
-   },
-   "prior": {
-    "min": 33.5,
-    "pts": 18.1,
-    "reb": 7.5,
-    "ast": 5.92,
-    "fg3m": 0.85,
-    "fgm": 7.11,
-    "fga": 14.04,
-    "fg3a": 2.8,
-    "stl": 1.43,
-    "blk": 1.45,
-    "tov": 2.62,
-    "pf": 2.64,
-    "ftm": 3.02,
-    "fta": 3.71
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "TOR",
    "name": "Immanuel Quickley",
    "pos": "PG",
    "starter": true,
-   "min": 31.1,
+   "min": 36.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -265,7 +227,7 @@
    "name": "Ja'Kobe Walter",
    "pos": "SG",
    "starter": true,
-   "min": 30.2,
+   "min": 35.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -306,8 +268,8 @@
    "team": "TOR",
    "name": "Collin Murray-Boyles",
    "pos": "PF",
-   "starter": false,
-   "min": 24.4,
+   "starter": true,
+   "min": 28.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -341,14 +303,15 @@
     "pf": 2.58,
     "ftm": 1.25,
     "fta": 1.89
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "TOR",
    "name": "Jamal Shead",
    "pos": "PG",
    "starter": false,
-   "min": 23.2,
+   "min": 26.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -389,7 +352,7 @@
    "name": "Jakob Poeltl",
    "pos": "C",
    "starter": true,
-   "min": 22.4,
+   "min": 25.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -431,7 +394,7 @@
    "name": "Jamison Battle",
    "pos": "SF",
    "starter": false,
-   "min": 17.3,
+   "min": 20.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -472,7 +435,7 @@
    "name": "Allen Graves",
    "pos": "PF",
    "starter": false,
-   "min": 13.4,
+   "min": 15.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -513,7 +476,7 @@
    "name": "Alijah Martin",
    "pos": "SG",
    "starter": false,
-   "min": 11.6,
+   "min": 13.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -967,14 +930,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": -249,
-  "ml_away": 205,
-  "spread_home": -6.5,
-  "total": 227.5,
-  "spread_odds_home": -113,
-  "spread_odds_away": -107,
-  "over_odds": -115,
-  "under_odds": -105
+  "ml_home": -191,
+  "ml_away": 160,
+  "spread_home": -4.5,
+  "total": 225.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "RJ Barrett": {
@@ -1099,68 +1062,6 @@
     2.5,
     120,
     -161
-   ]
-  },
-  "Scottie Barnes": {
-   "pts": [
-    21.5,
-    -111,
-    -118
-   ],
-   "ast": [
-    4.5,
-    -161,
-    115
-   ],
-   "reb": [
-    7.5,
-    -110,
-    -122
-   ],
-   "fg3m": [
-    0.5,
-    -213,
-    157
-   ],
-   "stl": [
-    1.5,
-    -111,
-    -118
-   ],
-   "blk": [
-    0.5,
-    -189,
-    140
-   ],
-   "tov": [
-    3.5,
-    125,
-    -167
-   ],
-   "pra": [
-    34.5,
-    -108,
-    -122
-   ],
-   "ra": [
-    12.5,
-    -115,
-    -120
-   ],
-   "pr": [
-    28.5,
-    -128,
-    -108
-   ],
-   "pa": [
-    26.5,
-    -118,
-    -118
-   ],
-   "stocks": [
-    2.5,
-    -110,
-    -120
    ]
   },
   "Immanuel Quickley": {

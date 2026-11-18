@@ -8204,14 +8204,14 @@
    "tip_et": "19:00",
    "venue": "Gainbridge Fieldhouse, Indianapolis",
    "market": {
-    "ml_home": 236,
-    "ml_away": -290,
+    "ml_home": 247,
+    "ml_away": -304,
     "spread_home": 7.5,
     "total": 225.5,
     "spread_odds_home": -108,
     "spread_odds_away": -112,
-    "over_odds": -109,
-    "under_odds": -111
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [],
    "adj": {},
@@ -8223,7 +8223,6 @@
    ],
    "gtd": {
     "Amen Thompson": 0.65,
-    "Steven Adams": 0.5,
     "Andrew Nembhard": 0.65,
     "T.J. McConnell": 0.6
    },
@@ -8239,12 +8238,12 @@
    "tip_et": "19:00",
    "venue": "Kia Center, Orlando",
    "market": {
-    "ml_home": 114,
-    "ml_away": -135,
-    "spread_home": 2.5,
+    "ml_home": -114,
+    "ml_away": -104,
+    "spread_home": -1.5,
     "total": 222.5,
-    "spread_odds_home": -116,
-    "spread_odds_away": -105,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
     "over_odds": -105,
     "under_odds": -115
    },
@@ -8256,12 +8255,13 @@
     "Paolo Banchero"
    ],
    "gtd": {
-    "LeBron James": 0.65
+    "Dean Wade": 0.5
    },
    "notes": [
     "PHI: J. Brown (isquio/cabeza, posible resonancia) OUT según CBS hasta ~21-nov; LeBron (espalda) en duda",
     "ORL: Banchero, Isaac, Penda OUT hasta ~22-nov",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte"
    ]
   },
   {
@@ -8270,31 +8270,28 @@
    "tip_et": "19:00",
    "venue": "Kaseya Center, Miami",
    "market": {
-    "ml_home": -800,
-    "ml_away": 558,
-    "spread_home": -12.5,
-    "total": 236.5,
-    "spread_odds_home": -114,
-    "spread_odds_away": -106,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": -670,
+    "ml_away": 483,
+    "spread_home": -11.5,
+    "total": 237.5,
+    "spread_odds_home": -115,
+    "spread_odds_away": -105,
+    "over_odds": -105,
+    "under_odds": -115
    },
    "b2b": [],
    "adj": {},
    "out": [
-    "Ousmane Dieng"
+    "Ousmane Dieng",
+    "Ryan Rollins",
+    "Myron Gardner"
    ],
-   "gtd": {
-    "Ryan Rollins": 0.7,
-    "Bam Adebayo": 0.7,
-    "Nikola Jović": 0.6,
-    "Myron Gardner": 0.6,
-    "Pelle Larsson": 0.6
-   },
+   "gtd": {},
    "notes": [
     "MIL: Rollins (enfermedad) en duda; Dieng OUT",
     "MIA: Larsson (enfermedad) OUT; Adebayo (cadera), Jovic, Gardner en duda",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:20 ET (ESPN): Rollins y Gardner OUT; Adebayo, Jović y Larsson ya no figuran en el parte (disponibles)"
    ]
   },
   {
@@ -8303,14 +8300,14 @@
    "tip_et": "19:00",
    "venue": "Rocket Arena, Cleveland",
    "market": {
-    "ml_home": -205,
-    "ml_away": 171,
+    "ml_home": -196,
+    "ml_away": 164,
     "spread_home": -4.5,
-    "total": 236.5,
-    "spread_odds_home": -118,
-    "spread_odds_away": -103,
-    "over_odds": -106,
-    "under_odds": -114
+    "total": 238.5,
+    "spread_odds_home": -116,
+    "spread_odds_away": -104,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {},
@@ -8319,17 +8316,18 @@
     "Isaiah Stewart",
     "Scotty Pippen Jr.",
     "GG Jackson",
-    "Evan Mobley"
+    "Evan Mobley",
+    "Jaylon Tyson",
+    "Sam Merrill"
    ],
    "gtd": {
-    "Jaylon Tyson": 0.5,
-    "Peyton Watson": 0.65,
-    "Sam Merrill": 0.4
+    "Peyton Watson": 0.25
    },
    "notes": [
     "MEM: Jerome y Stewart OUT (CBS: regreso 19-nov); Pippen y GG Jackson OUT",
     "CLE: Mobley OUT (dedo, ~29-nov); Tyson, Watson y Merrill en duda",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:20 ET (ESPN): Tyson y Merrill OUT; Watson doubtful"
    ]
   },
   {
@@ -8341,11 +8339,11 @@
     "ml_home": -152,
     "ml_away": 128,
     "spread_home": -2.5,
-    "total": 238.5,
+    "total": 240.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
-    "over_odds": -113,
-    "under_odds": -107
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [],
    "adj": {},
@@ -8354,7 +8352,6 @@
     "Caleb Wilson"
    ],
    "gtd": {
-    "Jalen Smith": 0.7,
     "Patrick Williams": 0.65
    },
    "notes": [
@@ -8369,29 +8366,39 @@
    "tip_et": "19:30",
    "venue": "Scotiabank Arena, Toronto",
    "market": {
-    "ml_home": -249,
-    "ml_away": 205,
-    "spread_home": -6.5,
-    "total": 227.5,
-    "spread_odds_home": -113,
-    "spread_odds_away": -107,
-    "over_odds": -115,
-    "under_odds": -105
+    "ml_home": -191,
+    "ml_away": 160,
+    "spread_home": -4.5,
+    "total": 225.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "TOR"
    ],
-   "adj": {},
+   "adj": {
+    "TOR": {
+     "o": -2.0,
+     "d": 1.0,
+     "why": "Barnes OUT (18-nov), Barrett en duda"
+    }
+   },
    "out": [
     "Reece Beekman",
     "Justin Champagnie",
-    "Kawhi Leonard"
+    "Kawhi Leonard",
+    "Scottie Barnes"
    ],
-   "gtd": {},
+   "gtd": {
+    "RJ Barrett": 0.55
+   },
    "notes": [
     "WAS: Vukcevic, Beekman, Champagnie, Watkins OUT",
     "TOR: Leonard y Bittle OUT; Barnes jugó el 17-nov",
-    "Back-to-back: TOR jugaron el 17-nov"
+    "Back-to-back: TOR jugaron el 17-nov",
+    "18:20 ET (ESPN/RotoBaller): Barnes descartado; RJ Barrett questionable"
    ]
   },
   {
@@ -8400,14 +8407,14 @@
    "tip_et": "20:00",
    "venue": "American Airlines Center, Dallas",
    "market": {
-    "ml_home": -222,
-    "ml_away": 184,
-    "spread_home": -5.5,
-    "total": 222.5,
-    "spread_odds_home": -118,
-    "spread_odds_away": -103,
-    "over_odds": -106,
-    "under_odds": -115
+    "ml_home": -197,
+    "ml_away": 164,
+    "spread_home": -4.5,
+    "total": 224.5,
+    "spread_odds_home": -111,
+    "spread_odds_away": -109,
+    "over_odds": -112,
+    "under_odds": -108
    },
    "b2b": [],
    "adj": {},
@@ -8419,15 +8426,15 @@
    "gtd": {
     "Draymond Green": 0.7,
     "Al Horford": 0.7,
-    "Kyrie Irving": 0.7,
     "Walter Clayton Jr.": 0.6,
     "Max Christie": 0.85,
-    "Santi Aldama": 0.85
+    "Tobi Lawal": 0.25
    },
    "notes": [
     "GSW: Curry, B. Williams, Porzingis, Moody, Butler OUT; Draymond (codo) y Horford (espalda) en duda",
     "DAL: Lively, Biberovic, de Larrea OUT; Kyrie (rodilla) y Clayton en duda; Christie y Aldama entrenaron completo",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte"
    ]
   },
   {
@@ -8436,14 +8443,14 @@
    "tip_et": "20:00",
    "venue": "Paycom Center, Oklahoma City",
    "market": {
-    "ml_home": -283,
-    "ml_away": 231,
-    "spread_home": -7.5,
-    "total": 227.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -116,
+    "ml_home": -249,
+    "ml_away": 205,
+    "spread_home": -6.5,
+    "total": 228.5,
+    "spread_odds_home": -101,
+    "spread_odds_away": -119,
     "over_odds": -115,
-    "under_odds": -105
+    "under_odds": -106
    },
    "b2b": [],
    "adj": {},
@@ -8452,16 +8459,17 @@
     "Asa Newell",
     "Cason Wallace",
     "Chet Holmgren",
-    "Jalen Williams"
+    "Jalen Williams",
+    "Kingston Flemings",
+    "Jock Landale"
    ],
    "gtd": {
-    "Kingston Flemings": 0.6,
-    "Jock Landale": 0.4,
     "Jaylin Williams": 0.4
    },
    "notes": [
     "ATL: McCollum (gemelo) OUT hasta ~19-dic (CBS 17-nov); Gueye, Newell OUT; Flemings y Landale en duda",
-    "OKC: Holmgren, J. Williams, Wallace, Sorber OUT; Jaylin Williams en duda"
+    "OKC: Holmgren, J. Williams, Wallace, Sorber OUT; Jaylin Williams en duda",
+    "18:20 ET (ESPN): Flemings y Landale OUT"
    ]
   },
   {
@@ -8470,19 +8478,25 @@
    "tip_et": "20:00",
    "venue": "Smoothie King Center, New Orleans",
    "market": {
-    "ml_home": 227,
-    "ml_away": -277,
-    "spread_home": 7.5,
-    "total": 228.5,
-    "spread_odds_home": -112,
-    "spread_odds_away": -108,
-    "over_odds": -107,
-    "under_odds": -113
+    "ml_home": 160,
+    "ml_away": -191,
+    "spread_home": 4.5,
+    "total": 225.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [
     "DET"
    ],
-   "adj": {},
+   "adj": {
+    "DET": {
+     "o": -1.5,
+     "d": 0.5,
+     "why": "Cade questionable (rodilla, 18-nov) en back-to-back; ML DET -277 → -191"
+    }
+   },
    "out": [
     "Duncan Robinson",
     "Jalen Duren",
@@ -8490,17 +8504,19 @@
     "Bennedict Mathurin",
     "Bryce McGowens",
     "Trendon Watford",
-    "Dejounte Murray"
+    "Dejounte Murray",
+    "Taurean Prince",
+    "Ronald Holland II",
+    "Isaiah Joe"
    ],
    "gtd": {
-    "Isaiah Joe": 0.5,
-    "Taurean Prince": 0.5,
-    "Ronald Holland II": 0.5
+    "Cade Cunningham": 0.55
    },
    "notes": [
     "DET: D. Robinson y Duren OUT; Joe, Prince y Holland en duda",
     "NOP: Murphy, Mathurin, McGowens, Watford y Murray OUT (CBS: regreso 20-nov)",
-    "Back-to-back: DET jugaron el 17-nov"
+    "Back-to-back: DET jugaron el 17-nov",
+    "18:20 ET (ESPN): Cade Cunningham questionable (rodilla); Prince, Holland y Joe OUT"
    ]
   },
   {
@@ -8509,21 +8525,19 @@
    "tip_et": "21:30",
    "venue": "Ball Arena, Denver",
    "market": {
-    "ml_home": 114,
-    "ml_away": -135,
+    "ml_home": 120,
+    "ml_away": -142,
     "spread_home": 2.5,
-    "total": 222.5,
-    "spread_odds_home": -114,
-    "spread_odds_away": -106,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 219.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -106,
+    "under_odds": -115
    },
    "b2b": [],
    "adj": {},
    "out": [],
-   "gtd": {
-    "Neemias Queta": 0.85
-   },
+   "gtd": {},
    "notes": [
     "BOS: Queta (descanso el 16-nov) probable",
     "DEN: Strawther OUT",
@@ -8536,20 +8550,19 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 220,
-    "ml_away": -269,
-    "spread_home": 6.5,
-    "total": 228.5,
-    "spread_odds_home": -106,
-    "spread_odds_away": -115,
-    "over_odds": -112,
-    "under_odds": -108
+    "ml_home": 211,
+    "ml_away": -257,
+    "spread_home": 7.5,
+    "total": 226.5,
+    "spread_odds_home": -115,
+    "spread_odds_away": -105,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {},
    "out": [],
    "gtd": {
-    "Zach LaVine": 0.7,
     "De'Andre Hunter": 0.65,
     "Precious Achiuwa": 0.65
    },
@@ -8565,34 +8578,41 @@
    "tip_et": "22:00",
    "venue": "Crypto.com Arena, Los Angeles",
    "market": {
-    "ml_home": -468,
-    "ml_away": 361,
+    "ml_home": -437,
+    "ml_away": 341,
     "spread_home": -10.5,
     "total": 228.5,
-    "spread_odds_home": -108,
-    "spread_odds_away": -112,
-    "over_odds": -113,
-    "under_odds": -107
+    "spread_odds_home": -103,
+    "spread_odds_away": -117,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [
     "UTA",
     "LAL"
    ],
-   "adj": {},
+   "adj": {
+    "LAL": {
+     "o": -2.0,
+     "d": 0.5,
+     "why": "Reaves OUT (talón, 18-nov)"
+    }
+   },
    "out": [
     "Lauri Markkanen",
-    "Jaren Jackson Jr."
+    "Jaren Jackson Jr.",
+    "Jaxson Hayes",
+    "Austin Reaves"
    ],
    "gtd": {
-    "Jaxson Hayes": 0.5,
-    "Austin Reaves": 0.65,
-    "Walker Kessler": 0.65
+    "Walker Kessler": 0.9
    },
    "notes": [
     "UTA: Markkanen, Nurkic, Jackson Jr. OUT; Hayes en duda",
     "LAL: Reaves (talón) y Kessler (pierna) en duda (OUT el 17-nov)",
     "Back-to-back: UTA, LAL jugaron el 17-nov",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:20 ET (ESPN/RotoBaller): Reaves descartado; Hayes OUT; Kessler se espera disponible"
    ]
   }
  ],

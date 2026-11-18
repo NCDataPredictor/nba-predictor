@@ -12,9 +12,7 @@
    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
   ],
   "out": [],
-  "gtd": {
-   "Neemias Queta": 0.85
-  },
+  "gtd": {},
   "reserves": {
    "BOS": [
     {
@@ -797,7 +795,7 @@
    "starter": true,
    "min": 20.1,
    "g_cur": 13,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 22.0,
     "pts": 9.1,
@@ -1164,14 +1162,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 114,
-  "ml_away": -135,
+  "ml_home": 120,
+  "ml_away": -142,
   "spread_home": 2.5,
-  "total": 222.5,
-  "spread_odds_home": -114,
-  "spread_odds_away": -106,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 219.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -106,
+  "under_odds": -115
  },
  "prop_lines": {
   "Jayson Tatum": {

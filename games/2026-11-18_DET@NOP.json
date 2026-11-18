@@ -9,7 +9,8 @@
   "notes": [
    "DET: D. Robinson y Duren OUT; Joe, Prince y Holland en duda",
    "NOP: Murphy, Mathurin, McGowens, Watford y Murray OUT (CBS: regreso 20-nov)",
-   "Back-to-back: DET jugaron el 17-nov"
+   "Back-to-back: DET jugaron el 17-nov",
+   "18:20 ET (ESPN): Cade Cunningham questionable (rodilla); Prince, Holland y Joe OUT"
   ],
   "out": [
    "Duncan Robinson",
@@ -18,21 +19,16 @@
    "Bennedict Mathurin",
    "Bryce McGowens",
    "Trendon Watford",
-   "Dejounte Murray"
+   "Dejounte Murray",
+   "Taurean Prince",
+   "Ronald Holland II",
+   "Isaiah Joe"
   ],
   "gtd": {
-   "Isaiah Joe": 0.5,
-   "Taurean Prince": 0.5,
-   "Ronald Holland II": 0.5
+   "Cade Cunningham": 0.55
   },
   "reserves": {
    "DET": [
-    {
-     "name": "Taurean Prince",
-     "pos": "SF",
-     "min": 7.3,
-     "g": 3
-    },
     {
      "name": "Ebuka Okorie",
      "pos": "PG",
@@ -133,13 +129,13 @@
     "pace": 100.16
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -2.5,
+    "d": 1.5,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Cade questionable (rodilla, 18-nov) en back-to-back; ML DET -277 → -191"
    }
   }
  },
@@ -570,7 +566,7 @@
    "starter": true,
    "min": 38.0,
    "g_cur": 13,
-   "p_play": 1.0,
+   "p_play": 0.55,
    "cur": {
     "min": 35.0,
     "pts": 25.8,
@@ -610,7 +606,7 @@
    "name": "Daniss Jenkins",
    "pos": "PG",
    "starter": true,
-   "min": 32.0,
+   "min": 37.1,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -652,7 +648,7 @@
    "name": "Ausar Thompson",
    "pos": "SF",
    "starter": true,
-   "min": 30.9,
+   "min": 35.8,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -694,7 +690,7 @@
    "name": "Paul Reed",
    "pos": "C",
    "starter": true,
-   "min": 29.3,
+   "min": 34.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -736,7 +732,7 @@
    "name": "John Collins",
    "pos": "PF",
    "starter": true,
-   "min": 28.8,
+   "min": 33.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -778,7 +774,7 @@
    "name": "Kevin Huerter",
    "pos": "SG",
    "starter": false,
-   "min": 28.0,
+   "min": 32.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -819,7 +815,7 @@
    "name": "Javonte Green",
    "pos": "SG",
    "starter": false,
-   "min": 19.3,
+   "min": 22.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -854,100 +850,18 @@
     "ftm": 1.28,
     "fta": 1.52
    }
-  },
-  {
-   "team": "DET",
-   "name": "Ronald Holland II",
-   "pos": "SF",
-   "starter": false,
-   "min": 17.6,
-   "g_cur": 12,
-   "p_play": 0.5,
-   "cur": {
-    "min": 15.9,
-    "pts": 4.9,
-    "reb": 3.8,
-    "ast": 1.8,
-    "fg3m": 0.7,
-    "fgm": 1.8,
-    "fga": 5.1,
-    "fg3a": 2.2,
-    "stl": 0.6,
-    "blk": 0.8,
-    "tov": 0.9,
-    "pf": 2.4,
-    "ftm": 0.8,
-    "fta": 1.1
-   },
-   "prior": {
-    "min": 19.8,
-    "pts": 8.21,
-    "reb": 4.04,
-    "ast": 1.22,
-    "fg3m": 0.64,
-    "fgm": 3.01,
-    "fga": 6.97,
-    "fg3a": 2.54,
-    "stl": 1.18,
-    "blk": 0.35,
-    "tov": 1.23,
-    "pf": 2.35,
-    "ftm": 1.54,
-    "fta": 1.91
-   }
-  },
-  {
-   "team": "DET",
-   "name": "Isaiah Joe",
-   "pos": "SG",
-   "starter": false,
-   "min": 15.5,
-   "g_cur": 3,
-   "p_play": 0.5,
-   "cur": {
-    "min": 14.0,
-    "pts": 7.3,
-    "reb": 1.7,
-    "ast": 1.0,
-    "fg3m": 1.0,
-    "fgm": 2.3,
-    "fga": 6.3,
-    "fg3a": 4.3,
-    "stl": 0.3,
-    "blk": 0.3,
-    "tov": 0.7,
-    "pf": 0.3,
-    "ftm": 1.7,
-    "fta": 2.7
-   },
-   "prior": {
-    "min": 21.2,
-    "pts": 11.06,
-    "reb": 2.55,
-    "ast": 1.32,
-    "fg3m": 2.55,
-    "fgm": 3.48,
-    "fga": 7.65,
-    "fg3a": 6.03,
-    "stl": 0.7,
-    "blk": 0.15,
-    "tov": 0.63,
-    "pf": 1.7,
-    "ftm": 1.55,
-    "fta": 1.73
-   }
   }
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 227,
-  "ml_away": -277,
-  "spread_home": 7.5,
-  "total": 228.5,
-  "spread_odds_home": -112,
-  "spread_odds_away": -108,
-  "over_odds": -107,
-  "under_odds": -113
+  "ml_home": 160,
+  "ml_away": -191,
+  "spread_home": 4.5,
+  "total": 225.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Cade Cunningham": {
