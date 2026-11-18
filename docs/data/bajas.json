@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:53+00:00",
+ "updated": "2026-11-18T00:32+00:00",
  "list": [
   {
    "date": "2026-11-14",
@@ -391,10 +391,10 @@
    "gid": "2026-11-17-POR-at-MIN",
    "player": "Deni Avdija",
    "team": "POR",
-   "status": "duda",
-   "note": "pie izq.; questionable vs MIN",
-   "source": "Parte oficial vía Heavy 16:29 ET",
-   "at": "2026-11-17T23:49+00:00",
+   "status": "out",
+   "note": "Pie: pasó de questionable a OUT",
+   "source": "NBC Sports/Rotoworld 19:26 ET",
+   "at": "2026-11-18T00:32+00:00",
    "sim": false
   }
  ]
