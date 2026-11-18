@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:21+00:00",
+ "updated": "2026-11-18T23:33+00:00",
  "list": [
   {
    "date": "2026-11-15",
@@ -322,6 +322,17 @@
   },
   {
    "date": "2026-11-18",
+   "gid": "2026-11-18-HOU-at-IND",
+   "player": "Andrew Nembhard",
+   "team": "IND",
+   "status": "out",
+   "note": "cadera; bajado a OUT vs HOU",
+   "source": "NBC Sports 17:22 ET",
+   "at": "2026-11-18T23:33+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-18",
    "gid": "2026-11-18-MEM-at-CLE",
    "player": "Jaylon Tyson",
    "team": "CLE",
@@ -341,17 +352,6 @@
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
    "sim": false
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-MEM-at-CLE",
-   "player": "Sam Merrill",
-   "team": "CLE",
-   "status": "out",
-   "note": "codo; OUT vs MEM",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -380,10 +380,10 @@
    "gid": "2026-11-18-PHI-at-ORL",
    "player": "Dean Wade",
    "team": "PHI",
-   "status": "duda",
-   "note": "isquio; bajado a questionable vs ORL",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:18+00:00",
+   "status": "out",
+   "note": "isquio; OUT vs ORL",
+   "source": "NBC Sports 18:30 ET",
+   "at": "2026-11-18T23:33+00:00",
    "sim": false
   },
   {
@@ -402,21 +402,21 @@
    "gid": "2026-11-18-UTA-at-LAL",
    "player": "Jaxson Hayes",
    "team": "UTA",
-   "status": "out",
-   "note": "rodilla; descartado",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:18+00:00",
-   "sim": true
+   "status": "duda",
+   "note": "rodilla; questionable vs LAL",
+   "source": "NBC Sports 18:30 ET",
+   "at": "2026-11-18T23:33+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-18",
    "gid": "2026-11-18-WAS-at-TOR",
    "player": "RJ Barrett",
    "team": "TOR",
-   "status": "duda",
-   "note": "isquio; questionable vs WAS",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
+   "status": "out",
+   "note": "isquio; OUT vs WAS",
+   "source": "NBC Sports 18:30 ET",
+   "at": "2026-11-18T23:33+00:00",
    "sim": false
   },
   {
