@@ -483,7 +483,48 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "e4935ba611e13a7c",
+   "at": "2026-11-18T01:44+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-UTA-at-LAC",
+   "title": "UTA @ LAC (10:30 pm ET): cambian los picks",
+   "body": "Picks nuevos: Brook Lopez Under 7.5 REB+AST; Mo Bamba Under 12.5 PTS+AST.",
+   "label": "Revisión 20:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-UTA-at-LAC",
+   "added": [
+    "Brook Lopez Under 7.5 REB+AST",
+    "Mo Bamba Under 12.5 PTS+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "f68154e67ee9bbd3",
+   "at": "2026-11-18T01:44+00:00",
+   "date": "2026-11-17",
+   "gid": "2026-11-17-CHA-at-LAL",
+   "title": "CHA @ LAL (11:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Moussa Diabaté Under 20.5 PTS+REB+AST.",
+   "label": "Revisión 20:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-17-CHA-at-LAL",
+   "added": [
+    "Moussa Diabaté Under 20.5 PTS+REB+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-18T00:34+00:00"
+ "updated": "2026-11-18T01:44+00:00"
 }
