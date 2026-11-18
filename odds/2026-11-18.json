@@ -1,0 +1,270 @@
+{
+ "date": "2026-11-18",
+ "source": "scoresandodds.com/nba?date=2026-11-18 (consenso, 18-nov ~9:00 ET); Covers matchup/<id>/odds vacío",
+ "games": {
+  "HOU@IND": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": -290,
+     "ml_home": 236,
+     "spread_away": [
+      -7.5,
+      -112
+     ],
+     "spread_home": [
+      7.5,
+      -108
+     ],
+     "total": [
+      225.5,
+      -109,
+      -111
+     ]
+    }
+   ]
+  },
+  "PHI@ORL": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": -135,
+     "ml_home": 114,
+     "spread_away": [
+      -2.5,
+      -105
+     ],
+     "spread_home": [
+      2.5,
+      -116
+     ],
+     "total": [
+      222.5,
+      -105,
+      -115
+     ]
+    }
+   ]
+  },
+  "MIL@MIA": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 558,
+     "ml_home": -800,
+     "spread_away": [
+      12.5,
+      -106
+     ],
+     "spread_home": [
+      -12.5,
+      -114
+     ],
+     "total": [
+      236.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "MEM@CLE": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 171,
+     "ml_home": -205,
+     "spread_away": [
+      4.5,
+      -103
+     ],
+     "spread_home": [
+      -4.5,
+      -118
+     ],
+     "total": [
+      236.5,
+      -106,
+      -114
+     ]
+    }
+   ]
+  },
+  "CHI@BKN": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 128,
+     "ml_home": -152,
+     "spread_away": [
+      2.5,
+      -110
+     ],
+     "spread_home": [
+      -2.5,
+      -110
+     ],
+     "total": [
+      238.5,
+      -113,
+      -107
+     ]
+    }
+   ]
+  },
+  "WAS@TOR": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 205,
+     "ml_home": -249,
+     "spread_away": [
+      6.5,
+      -107
+     ],
+     "spread_home": [
+      -6.5,
+      -113
+     ],
+     "total": [
+      227.5,
+      -115,
+      -105
+     ]
+    }
+   ]
+  },
+  "GSW@DAL": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 184,
+     "ml_home": -222,
+     "spread_away": [
+      5.5,
+      -103
+     ],
+     "spread_home": [
+      -5.5,
+      -118
+     ],
+     "total": [
+      222.5,
+      -106,
+      -115
+     ]
+    }
+   ]
+  },
+  "ATL@OKC": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 231,
+     "ml_home": -283,
+     "spread_away": [
+      7.5,
+      -116
+     ],
+     "spread_home": [
+      -7.5,
+      -105
+     ],
+     "total": [
+      227.5,
+      -115,
+      -105
+     ]
+    }
+   ]
+  },
+  "DET@NOP": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": -277,
+     "ml_home": 227,
+     "spread_away": [
+      -7.5,
+      -108
+     ],
+     "spread_home": [
+      7.5,
+      -112
+     ],
+     "total": [
+      228.5,
+      -107,
+      -113
+     ]
+    }
+   ]
+  },
+  "BOS@DEN": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": -135,
+     "ml_home": 114,
+     "spread_away": [
+      -2.5,
+      -106
+     ],
+     "spread_home": [
+      2.5,
+      -114
+     ],
+     "total": [
+      222.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "PHX@SAC": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": -269,
+     "ml_home": 220,
+     "spread_away": [
+      -6.5,
+      -115
+     ],
+     "spread_home": [
+      6.5,
+      -106
+     ],
+     "total": [
+      228.5,
+      -112,
+      -108
+     ]
+    }
+   ]
+  },
+  "UTA@LAL": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 9:00 ET)",
+     "ml_away": 361,
+     "ml_home": -468,
+     "spread_away": [
+      10.5,
+      -112
+     ],
+     "spread_home": [
+      -10.5,
+      -108
+     ],
+     "total": [
+      228.5,
+      -113,
+      -107
+     ]
+    }
+   ]
+  }
+ }
+}
