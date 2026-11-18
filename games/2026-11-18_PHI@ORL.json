@@ -10,16 +10,16 @@
    "PHI: J. Brown (isquio/cabeza, posible resonancia) OUT según CBS hasta ~21-nov; LeBron (espalda) en duda",
    "ORL: Banchero, Isaac, Penda OUT hasta ~22-nov",
    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-   "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte"
+   "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte",
+   "18:35 ET (NBC Sports): Dean Wade OUT"
   ],
   "out": [
    "Jaylen Brown",
    "Adem Bona",
-   "Paolo Banchero"
+   "Paolo Banchero",
+   "Dean Wade"
   ],
-  "gtd": {
-   "Dean Wade": 0.5
-  },
+  "gtd": {},
   "reserves": {
    "PHI": [
     {
@@ -669,7 +669,7 @@
    "name": "VJ Edgecombe",
    "pos": "SG",
    "starter": true,
-   "min": 36.8,
+   "min": 38.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -711,7 +711,7 @@
    "name": "LeBron James",
    "pos": "PF",
    "starter": true,
-   "min": 35.8,
+   "min": 38.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -753,7 +753,7 @@
    "name": "Joel Embiid",
    "pos": "C",
    "starter": true,
-   "min": 34.8,
+   "min": 38.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -792,52 +792,10 @@
   },
   {
    "team": "PHI",
-   "name": "Dean Wade",
-   "pos": "PF",
-   "starter": true,
-   "min": 29.2,
-   "g_cur": 13,
-   "p_play": 0.5,
-   "cur": {
-    "min": 26.5,
-    "pts": 4.8,
-    "reb": 4.6,
-    "ast": 1.8,
-    "fg3m": 1.0,
-    "fgm": 1.7,
-    "fga": 3.7,
-    "fg3a": 2.5,
-    "stl": 1.2,
-    "blk": 0.5,
-    "tov": 0.2,
-    "pf": 1.8,
-    "ftm": 0.5,
-    "fta": 0.7
-   },
-   "prior": {
-    "min": 22.4,
-    "pts": 5.8,
-    "reb": 4.19,
-    "ast": 1.49,
-    "fg3m": 1.2,
-    "fgm": 2.07,
-    "fga": 4.71,
-    "fg3a": 3.32,
-    "stl": 0.75,
-    "blk": 0.39,
-    "tov": 0.27,
-    "pf": 1.53,
-    "ftm": 0.46,
-    "fta": 0.64
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "PHI",
    "name": "Kentavious Caldwell-Pope",
    "pos": "SF",
    "starter": false,
-   "min": 24.8,
+   "min": 28.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -878,7 +836,7 @@
    "name": "Anfernee Simons",
    "pos": "SG",
    "starter": false,
-   "min": 23.8,
+   "min": 27.1,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -918,8 +876,8 @@
    "team": "PHI",
    "name": "Jabari Walker",
    "pos": "PF",
-   "starter": false,
-   "min": 14.9,
+   "starter": true,
+   "min": 16.9,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -953,7 +911,8 @@
     "pf": 1.61,
     "ftm": 0.78,
     "fta": 1.06
-   }
+   },
+   "slot": "PF"
   }
  ],
  "market": {
@@ -1710,68 +1669,6 @@
     1.5,
     137,
     -192
-   ]
-  },
-  "Dean Wade": {
-   "pts": [
-    5.5,
-    -110,
-    -125
-   ],
-   "ast": [
-    1.5,
-    -161,
-    115
-   ],
-   "reb": [
-    4.5,
-    -154,
-    112
-   ],
-   "fg3m": [
-    1.5,
-    160,
-    -227
-   ],
-   "stl": [
-    0.5,
-    -227,
-    157
-   ],
-   "blk": [
-    0.5,
-    150,
-    -213
-   ],
-   "tov": [
-    0.5,
-    130,
-    -182
-   ],
-   "pra": [
-    12.5,
-    -115,
-    -118
-   ],
-   "ra": [
-    6.5,
-    -143,
-    102
-   ],
-   "pr": [
-    10.5,
-    -118,
-    -118
-   ],
-   "pa": [
-    7.5,
-    -110,
-    -125
-   ],
-   "stocks": [
-    1.5,
-    105,
-    -143
    ]
   },
   "Goga Bitadze": {

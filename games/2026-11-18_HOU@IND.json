@@ -9,19 +9,17 @@
   "notes": [
    "HOU: Capela (tobillo) OUT; Smart suspendido 3 partidos (desde el 16-nov); Amen Thompson y Adams en duda (no jugaron vs MIA)",
    "IND: Haliburton (isquio) OUT hasta ~28-nov; Nembhard (cadera) y McConnell (isquio) en duda",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:35 ET (NBC Sports): Nembhard bajado a OUT (17:22 ET); Amen Thompson y McConnell disponibles"
   ],
   "out": [
    "Clint Capela",
    "Marcus Smart",
    "Tyrese Haliburton",
-   "Ben Sheppard"
+   "Ben Sheppard",
+   "Andrew Nembhard"
   ],
-  "gtd": {
-   "Amen Thompson": 0.65,
-   "Andrew Nembhard": 0.65,
-   "T.J. McConnell": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "HOU": [
     {
@@ -116,52 +114,10 @@
  "players": [
   {
    "team": "IND",
-   "name": "Andrew Nembhard",
-   "pos": "SG",
-   "starter": true,
-   "min": 28.0,
-   "g_cur": 11,
-   "p_play": 0.65,
-   "cur": {
-    "min": 33.4,
-    "pts": 16.6,
-    "reb": 2.3,
-    "ast": 7.6,
-    "fg3m": 2.3,
-    "fgm": 5.6,
-    "fga": 12.6,
-    "fg3a": 5.6,
-    "stl": 0.5,
-    "blk": 0.2,
-    "tov": 2.5,
-    "pf": 2.3,
-    "ftm": 3.1,
-    "fta": 3.5
-   },
-   "prior": {
-    "min": 31.3,
-    "pts": 16.95,
-    "reb": 2.81,
-    "ast": 7.67,
-    "fg3m": 1.88,
-    "fgm": 5.84,
-    "fga": 13.21,
-    "fg3a": 5.19,
-    "stl": 0.89,
-    "blk": 0.14,
-    "tov": 2.4,
-    "pf": 2.21,
-    "ftm": 3.39,
-    "fta": 4.11
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "IND",
    "name": "Pascal Siakam",
    "pos": "PF",
    "starter": true,
-   "min": 27.0,
+   "min": 30.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -203,7 +159,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "starter": true,
-   "min": 22.5,
+   "min": 25.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -245,7 +201,7 @@
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 20.5,
+   "min": 23.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -287,7 +243,7 @@
    "name": "Ivica Zubac",
    "pos": "C",
    "starter": true,
-   "min": 19.4,
+   "min": 22.0,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -329,7 +285,7 @@
    "name": "Quenton Jackson",
    "pos": "PG",
    "starter": false,
-   "min": 18.5,
+   "min": 21.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -370,7 +326,7 @@
    "name": "Jarace Walker",
    "pos": "PF",
    "starter": false,
-   "min": 17.0,
+   "min": 19.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -411,7 +367,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "starter": false,
-   "min": 16.8,
+   "min": 19.1,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -452,7 +408,7 @@
    "name": "Jay Huff",
    "pos": "C",
    "starter": false,
-   "min": 14.1,
+   "min": 15.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -493,7 +449,7 @@
    "name": "Jalen Slawson",
    "pos": "SF",
    "starter": false,
-   "min": 12.0,
+   "min": 13.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -534,7 +490,7 @@
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 11.7,
+   "min": 13.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -575,9 +531,9 @@
    "name": "T.J. McConnell",
    "pos": "PG",
    "starter": false,
-   "min": 11.2,
+   "min": 12.7,
    "g_cur": 5,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 13.4,
     "pts": 6.6,
@@ -615,8 +571,8 @@
    "team": "IND",
    "name": "Braden Smith",
    "pos": "PG",
-   "starter": false,
-   "min": 11.1,
+   "starter": true,
+   "min": 12.6,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -650,14 +606,15 @@
     "pf": 1.17,
     "ftm": 0.3,
     "fta": 0.5
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "IND",
    "name": "Kobe Brown",
    "pos": "PF",
    "starter": false,
-   "min": 10.1,
+   "min": 11.4,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -826,7 +783,7 @@
    "starter": true,
    "min": 34.3,
    "g_cur": 14,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 33.4,
     "pts": 15.8,
@@ -1326,68 +1283,6 @@
     1.5,
     -125,
     -108
-   ]
-  },
-  "Andrew Nembhard": {
-   "pts": [
-    15.5,
-    -105,
-    -133
-   ],
-   "ast": [
-    6.5,
-    -122,
-    -114
-   ],
-   "reb": [
-    2.5,
-    118,
-    -167
-   ],
-   "fg3m": [
-    1.5,
-    -192,
-    137
-   ],
-   "stl": [
-    0.5,
-    -175,
-    125
-   ],
-   "blk": [
-    0.5,
-    330,
-    -556
-   ],
-   "tov": [
-    2.5,
-    110,
-    -154
-   ],
-   "pra": [
-    24.5,
-    -108,
-    -128
-   ],
-   "ra": [
-    8.5,
-    -143,
-    102
-   ],
-   "pr": [
-    17.5,
-    -114,
-    -122
-   ],
-   "pa": [
-    21.5,
-    -125,
-    -110
-   ],
-   "stocks": [
-    0.5,
-    -238,
-    165
    ]
   },
   "Jabari Smith Jr.": {
