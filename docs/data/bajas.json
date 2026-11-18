@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:18+00:00",
+ "updated": "2026-11-18T23:21+00:00",
  "list": [
   {
    "date": "2026-11-15",
@@ -274,7 +274,7 @@
    "note": "cadera; OUT en OKC",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -285,7 +285,7 @@
    "note": "espalda; OUT en OKC",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -307,7 +307,7 @@
    "note": "cadera; OUT vs NOP",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -318,7 +318,7 @@
    "note": "rodilla; OUT vs NOP",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -329,7 +329,7 @@
    "note": "tobillo; descartado vs MEM",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -351,7 +351,7 @@
    "note": "codo; OUT vs MEM",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -362,7 +362,7 @@
    "note": "isquio; OUT vs MIL",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -373,7 +373,7 @@
    "note": "enfermedad; descartado en MIA",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -395,7 +395,7 @@
    "note": "talón; descartado el miércoles",
    "source": "ESPN injuries 18:20 ET; RotoBaller",
    "at": "2026-11-18T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -406,7 +406,7 @@
    "note": "rodilla; descartado",
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -428,7 +428,7 @@
    "note": "manejo de carga/ingle; descartado vs WAS",
    "source": "ESPN injuries 18:20 ET; RotoBaller",
    "at": "2026-11-18T23:17+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }

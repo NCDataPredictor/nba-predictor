@@ -9,18 +9,15 @@
   "notes": [
    "MIL: Rollins (enfermedad) en duda; Dieng OUT",
    "MIA: Larsson (enfermedad) OUT; Adebayo (cadera), Jovic, Gardner en duda",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:20 ET (ESPN): Rollins y Gardner OUT; Adebayo, Jović y Larsson ya no figuran en el parte (disponibles)"
   ],
   "out": [
-   "Ousmane Dieng"
+   "Ousmane Dieng",
+   "Ryan Rollins",
+   "Myron Gardner"
   ],
-  "gtd": {
-   "Ryan Rollins": 0.7,
-   "Bam Adebayo": 0.7,
-   "Nikola Jović": 0.6,
-   "Myron Gardner": 0.6,
-   "Pelle Larsson": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "MIL": [
     {
@@ -131,7 +128,7 @@
    "name": "Davion Mitchell",
    "pos": "PG",
    "starter": true,
-   "min": 32.6,
+   "min": 33.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -173,9 +170,9 @@
    "name": "Bam Adebayo",
    "pos": "C",
    "starter": true,
-   "min": 29.6,
+   "min": 30.8,
    "g_cur": 14,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 32.4,
     "pts": 18.4,
@@ -215,7 +212,7 @@
    "name": "Giannis Antetokounmpo",
    "pos": "PF",
    "starter": true,
-   "min": 29.4,
+   "min": 30.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -257,9 +254,9 @@
    "name": "Pelle Larsson",
    "pos": "SG",
    "starter": false,
-   "min": 27.0,
+   "min": 28.1,
    "g_cur": 11,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 29.5,
     "pts": 11.4,
@@ -298,7 +295,7 @@
    "name": "Andrew Wiggins",
    "pos": "SF",
    "starter": true,
-   "min": 24.2,
+   "min": 25.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -340,7 +337,7 @@
    "name": "Klay Thompson",
    "pos": "SF",
    "starter": true,
-   "min": 22.1,
+   "min": 23.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -382,7 +379,7 @@
    "name": "Bobby Portis Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 18.3,
+   "min": 19.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -423,7 +420,7 @@
    "name": "Ryan Conwell",
    "pos": "SG",
    "starter": false,
-   "min": 15.4,
+   "min": 16.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -464,7 +461,7 @@
    "name": "Tim Hardaway Jr.",
    "pos": "SG",
    "starter": false,
-   "min": 13.9,
+   "min": 14.5,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -505,9 +502,9 @@
    "name": "Nikola Jović",
    "pos": "PF",
    "starter": false,
-   "min": 11.1,
+   "min": 11.5,
    "g_cur": 8,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 12.1,
     "pts": 2.4,
@@ -543,51 +540,10 @@
   },
   {
    "team": "MIA",
-   "name": "Myron Gardner",
-   "pos": "SF",
-   "starter": false,
-   "min": 9.1,
-   "g_cur": 9,
-   "p_play": 0.6,
-   "cur": {
-    "min": 10.0,
-    "pts": 3.0,
-    "reb": 2.3,
-    "ast": 1.1,
-    "fg3m": 0.6,
-    "fgm": 0.9,
-    "fga": 2.0,
-    "fg3a": 1.6,
-    "stl": 0.0,
-    "blk": 0.3,
-    "tov": 0.7,
-    "pf": 0.7,
-    "ftm": 0.7,
-    "fta": 0.8
-   },
-   "prior": {
-    "min": 9.4,
-    "pts": 3.7,
-    "reb": 2.75,
-    "ast": 1.0,
-    "fg3m": 0.59,
-    "fgm": 1.34,
-    "fga": 2.8,
-    "fg3a": 1.45,
-    "stl": 0.45,
-    "blk": 0.18,
-    "tov": 0.39,
-    "pf": 1.77,
-    "ftm": 0.43,
-    "fta": 0.59
-   }
-  },
-  {
-   "team": "MIA",
    "name": "Dru Smith",
    "pos": "SG",
    "starter": false,
-   "min": 7.3,
+   "min": 7.6,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -628,7 +584,7 @@
    "name": "Tyler Herro",
    "pos": "SG",
    "starter": true,
-   "min": 29.3,
+   "min": 32.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -670,7 +626,7 @@
    "name": "Jaime Jaquez Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 26.9,
+   "min": 29.8,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -712,7 +668,7 @@
    "name": "Myles Turner",
    "pos": "C",
    "starter": true,
-   "min": 26.1,
+   "min": 28.8,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -754,7 +710,7 @@
    "name": "Kyle Kuzma",
    "pos": "PF",
    "starter": true,
-   "min": 25.9,
+   "min": 28.6,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -793,51 +749,10 @@
   },
   {
    "team": "MIL",
-   "name": "Ryan Rollins",
-   "pos": "PG",
-   "starter": false,
-   "min": 22.9,
-   "g_cur": 13,
-   "p_play": 0.7,
-   "cur": {
-    "min": 23.8,
-    "pts": 10.5,
-    "reb": 5.0,
-    "ast": 3.9,
-    "fg3m": 1.6,
-    "fgm": 3.9,
-    "fga": 10.1,
-    "fg3a": 4.7,
-    "stl": 0.8,
-    "blk": 0.3,
-    "tov": 2.3,
-    "pf": 2.5,
-    "ftm": 1.1,
-    "fta": 1.5
-   },
-   "prior": {
-    "min": 32.1,
-    "pts": 17.31,
-    "reb": 4.57,
-    "ast": 5.59,
-    "fg3m": 2.49,
-    "fgm": 6.57,
-    "fga": 13.92,
-    "fg3a": 6.12,
-    "stl": 1.49,
-    "blk": 0.42,
-    "tov": 2.72,
-    "pf": 2.61,
-    "ftm": 1.69,
-    "fta": 2.12
-   }
-  },
-  {
-   "team": "MIL",
    "name": "Brayden Burries",
    "pos": "SG",
    "starter": true,
-   "min": 21.1,
+   "min": 23.3,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -879,7 +794,7 @@
    "name": "Kasparas Jakučionis",
    "pos": "SG",
    "starter": false,
-   "min": 17.7,
+   "min": 19.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -920,7 +835,7 @@
    "name": "Kel'el Ware",
    "pos": "C",
    "starter": false,
-   "min": 17.4,
+   "min": 19.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -961,7 +876,7 @@
    "name": "Nate Ament",
    "pos": "SF",
    "starter": false,
-   "min": 16.8,
+   "min": 18.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -1002,7 +917,7 @@
    "name": "AJ Green",
    "pos": "SG",
    "starter": false,
-   "min": 16.0,
+   "min": 17.6,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -1043,7 +958,7 @@
    "name": "Gary Trent Jr.",
    "pos": "SG",
    "starter": false,
-   "min": 11.1,
+   "min": 12.2,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -1084,7 +999,7 @@
    "name": "Jericho Sims",
    "pos": "C",
    "starter": false,
-   "min": 8.9,
+   "min": 9.9,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -1123,14 +1038,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": -800,
-  "ml_away": 558,
-  "spread_home": -12.5,
-  "total": 236.5,
-  "spread_odds_home": -114,
-  "spread_odds_away": -106,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": -670,
+  "ml_away": 483,
+  "spread_home": -11.5,
+  "total": 237.5,
+  "spread_odds_home": -115,
+  "spread_odds_away": -105,
+  "over_odds": -105,
+  "under_odds": -115
  },
  "prop_lines": {
   "Giannis Antetokounmpo": {
@@ -1627,53 +1542,6 @@
     0.5,
     -250,
     170
-   ]
-  },
-  "Ryan Rollins": {
-   "pts": [
-    10.5,
-    -118,
-    -118
-   ],
-   "ast": [
-    4.5,
-    107,
-    -149
-   ],
-   "reb": [
-    3.5,
-    -167,
-    120
-   ],
-   "fg3m": [
-    1.5,
-    105,
-    -143
-   ],
-   "tov": [
-    1.5,
-    -161,
-    115
-   ],
-   "pra": [
-    19.5,
-    -108,
-    -128
-   ],
-   "ra": [
-    8.5,
-    -108,
-    -128
-   ],
-   "pr": [
-    14.5,
-    -122,
-    -114
-   ],
-   "pa": [
-    14.5,
-    -128,
-    -108
    ]
   },
   "Myles Turner": {

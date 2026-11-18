@@ -19,7 +19,6 @@
   ],
   "gtd": {
    "Amen Thompson": 0.65,
-   "Steven Adams": 0.5,
    "Andrew Nembhard": 0.65,
    "T.J. McConnell": 0.6
   },
@@ -1034,7 +1033,7 @@
    "starter": false,
    "min": 10.8,
    "g_cur": 2,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 10.5,
     "pts": 5.0,
@@ -1071,14 +1070,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 236,
-  "ml_away": -290,
+  "ml_home": 247,
+  "ml_away": -304,
   "spread_home": 7.5,
   "total": 225.5,
   "spread_odds_home": -108,
   "spread_odds_away": -112,
-  "over_odds": -109,
-  "under_odds": -111
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Kevin Durant": {

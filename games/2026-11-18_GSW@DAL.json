@@ -9,7 +9,8 @@
   "notes": [
    "GSW: Curry, B. Williams, Porzingis, Moody, Butler OUT; Draymond (codo) y Horford (espalda) en duda",
    "DAL: Lively, Biberovic, de Larrea OUT; Kyrie (rodilla) y Clayton en duda; Christie y Aldama entrenaron completo",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte"
   ],
   "out": [
    "Stephen Curry",
@@ -19,10 +20,9 @@
   "gtd": {
    "Draymond Green": 0.7,
    "Al Horford": 0.7,
-   "Kyrie Irving": 0.7,
    "Walter Clayton Jr.": 0.6,
    "Max Christie": 0.85,
-   "Santi Aldama": 0.85
+   "Tobi Lawal": 0.25
   },
   "reserves": {
    "GSW": [
@@ -208,7 +208,7 @@
    "starter": true,
    "min": 27.3,
    "g_cur": 11,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 30.7,
     "pts": 22.7,
@@ -580,7 +580,7 @@
    "starter": false,
    "min": 13.0,
    "g_cur": 5,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 14.6,
     "pts": 8.0,
@@ -1114,14 +1114,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": -222,
-  "ml_away": 184,
-  "spread_home": -5.5,
-  "total": 222.5,
-  "spread_odds_home": -118,
-  "spread_odds_away": -103,
-  "over_odds": -106,
-  "under_odds": -115
+  "ml_home": -197,
+  "ml_away": 164,
+  "spread_home": -4.5,
+  "total": 224.5,
+  "spread_odds_home": -111,
+  "spread_odds_away": -109,
+  "over_odds": -112,
+  "under_odds": -108
  },
  "prop_lines": {
   "Cooper Flagg": {

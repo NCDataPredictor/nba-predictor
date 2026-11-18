@@ -16,7 +16,6 @@
    "Caleb Wilson"
   ],
   "gtd": {
-   "Jalen Smith": 0.7,
    "Patrick Williams": 0.65
   },
   "reserves": {
@@ -748,7 +747,7 @@
    "starter": true,
    "min": 22.7,
    "g_cur": 12,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 24.9,
     "pts": 13.3,
@@ -1200,11 +1199,11 @@
   "ml_home": -152,
   "ml_away": 128,
   "spread_home": -2.5,
-  "total": 238.5,
+  "total": 240.5,
   "spread_odds_home": -110,
   "spread_odds_away": -110,
-  "over_odds": -113,
-  "under_odds": -107
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Norman Powell": {

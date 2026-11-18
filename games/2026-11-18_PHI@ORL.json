@@ -9,7 +9,8 @@
   "notes": [
    "PHI: J. Brown (isquio/cabeza, posible resonancia) OUT según CBS hasta ~21-nov; LeBron (espalda) en duda",
    "ORL: Banchero, Isaac, Penda OUT hasta ~22-nov",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte"
   ],
   "out": [
    "Jaylen Brown",
@@ -17,7 +18,7 @@
    "Paolo Banchero"
   ],
   "gtd": {
-   "LeBron James": 0.65
+   "Dean Wade": 0.5
   },
   "reserves": {
    "PHI": [
@@ -712,7 +713,7 @@
    "starter": true,
    "min": 35.8,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 32.5,
     "pts": 15.1,
@@ -796,7 +797,7 @@
    "starter": true,
    "min": 29.2,
    "g_cur": 13,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 26.5,
     "pts": 4.8,
@@ -957,12 +958,12 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 114,
-  "ml_away": -135,
-  "spread_home": 2.5,
+  "ml_home": -114,
+  "ml_away": -104,
+  "spread_home": -1.5,
   "total": 222.5,
-  "spread_odds_home": -116,
-  "spread_odds_away": -105,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
   "over_odds": -105,
   "under_odds": -115
  },

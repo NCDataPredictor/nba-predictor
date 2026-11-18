@@ -13,7 +13,6 @@
   ],
   "out": [],
   "gtd": {
-   "Zach LaVine": 0.7,
    "De'Andre Hunter": 0.65,
    "Precious Achiuwa": 0.65
   },
@@ -207,7 +206,7 @@
    "starter": true,
    "min": 26.4,
    "g_cur": 12,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 33.0,
     "pts": 21.4,
@@ -1113,14 +1112,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 220,
-  "ml_away": -269,
-  "spread_home": 6.5,
-  "total": 228.5,
-  "spread_odds_home": -106,
-  "spread_odds_away": -115,
-  "over_odds": -112,
-  "under_odds": -108
+  "ml_home": 211,
+  "ml_away": -257,
+  "spread_home": 7.5,
+  "total": 226.5,
+  "spread_odds_home": -115,
+  "spread_odds_away": -105,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Devin Booker": {
