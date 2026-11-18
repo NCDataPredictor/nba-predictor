@@ -755,7 +755,136 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "ff0e4ef590239ffe",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-HOU-at-IND",
+   "title": "HOU @ IND (7:00 pm ET): cambian los picks",
+   "body": "Bajas: Nembhard OUT. Salen: Ivica Zubac Under 14.5 PTS+AST; Kelly Oubre Jr. Under 16.5 PTS+REB+AST.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-HOU-at-IND",
+   "added": [],
+   "removed": [
+    "Ivica Zubac Under 14.5 PTS+AST",
+    "Kelly Oubre Jr. Under 16.5 PTS+REB+AST"
+   ],
+   "moved": [],
+   "outs": [
+    "Andrew Nembhard"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "65b45befe2c3160b",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-MEM-at-CLE",
+   "title": "MEM @ CLE (7:00 pm ET): cambian los picks",
+   "body": "Vuelve: Merrill. Sale: Cam Spencer Under 23.5 PTS+REB+AST.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-MEM-at-CLE",
+   "added": [],
+   "removed": [
+    "Cam Spencer Under 23.5 PTS+REB+AST"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [
+    "Sam Merrill"
+   ],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "5a92198e4a8c3642",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-PHI-at-ORL",
+   "title": "PHI @ ORL (7:00 pm ET): novedades de bajas",
+   "body": "Bajas: Wade OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-PHI-at-ORL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Dean Wade"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "2a30a995df17e75d",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-WAS-at-TOR",
+   "title": "WAS @ TOR (7:30 pm ET): cambian los picks",
+   "body": "Bajas: Barrett OUT. Picks nuevos: Jakob Poeltl Over 18.5 PTS+REB+AST; Collin Murray-Boyles Over 18.5 PTS+REB.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-WAS-at-TOR",
+   "added": [
+    "Jakob Poeltl Over 18.5 PTS+REB+AST",
+    "Collin Murray-Boyles Over 18.5 PTS+REB"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "RJ Barrett"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "1ac04c039998fc1d",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-PHX-at-SAC",
+   "title": "PHX @ SAC (10:00 pm ET): cambian los picks",
+   "body": "Picks nuevos: Zach LaVine Under 2.5 Asistencias; Domantas Sabonis Under 5.5 Asistencias.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-PHX-at-SAC",
+   "added": [
+    "Zach LaVine Under 2.5 Asistencias",
+    "Domantas Sabonis Under 5.5 Asistencias"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "38d207b53e137b13",
+   "at": "2026-11-18T23:36+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): novedades de bajas",
+   "body": "En duda: Hayes. Los picks del modelo no cambian.",
+   "label": "Revisión 18:40 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-UTA-at-LAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Jaxson Hayes"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-18T23:22+00:00"
+ "updated": "2026-11-18T23:36+00:00"
 }

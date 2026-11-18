@@ -8219,17 +8219,15 @@
     "Clint Capela",
     "Marcus Smart",
     "Tyrese Haliburton",
-    "Ben Sheppard"
+    "Ben Sheppard",
+    "Andrew Nembhard"
    ],
-   "gtd": {
-    "Amen Thompson": 0.65,
-    "Andrew Nembhard": 0.65,
-    "T.J. McConnell": 0.6
-   },
+   "gtd": {},
    "notes": [
     "HOU: Capela (tobillo) OUT; Smart suspendido 3 partidos (desde el 16-nov); Amen Thompson y Adams en duda (no jugaron vs MIA)",
     "IND: Haliburton (isquio) OUT hasta ~28-nov; Nembhard (cadera) y McConnell (isquio) en duda",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:35 ET (NBC Sports): Nembhard bajado a OUT (17:22 ET); Amen Thompson y McConnell disponibles"
    ]
   },
   {
@@ -8252,16 +8250,16 @@
    "out": [
     "Jaylen Brown",
     "Adem Bona",
-    "Paolo Banchero"
+    "Paolo Banchero",
+    "Dean Wade"
    ],
-   "gtd": {
-    "Dean Wade": 0.5
-   },
+   "gtd": {},
    "notes": [
     "PHI: J. Brown (isquio/cabeza, posible resonancia) OUT según CBS hasta ~21-nov; LeBron (espalda) en duda",
     "ORL: Banchero, Isaac, Penda OUT hasta ~22-nov",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte"
+    "18:20 ET (ESPN): Dean Wade bajado a questionable; LeBron ya no figura en el parte",
+    "18:35 ET (NBC Sports): Dean Wade OUT"
    ]
   },
   {
@@ -8317,8 +8315,7 @@
     "Scotty Pippen Jr.",
     "GG Jackson",
     "Evan Mobley",
-    "Jaylon Tyson",
-    "Sam Merrill"
+    "Jaylon Tyson"
    ],
    "gtd": {
     "Peyton Watson": 0.25
@@ -8327,7 +8324,8 @@
     "MEM: Jerome y Stewart OUT (CBS: regreso 19-nov); Pippen y GG Jackson OUT",
     "CLE: Mobley OUT (dedo, ~29-nov); Tyson, Watson y Merrill en duda",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:20 ET (ESPN): Tyson y Merrill OUT; Watson doubtful"
+    "18:20 ET (ESPN): Tyson y Merrill OUT; Watson doubtful",
+    "18:35 ET (NBC Sports): Merrill subido a disponible; Watson doubtful"
    ]
   },
   {
@@ -8351,13 +8349,12 @@
     "Tobe Awaka",
     "Caleb Wilson"
    ],
-   "gtd": {
-    "Patrick Williams": 0.65
-   },
+   "gtd": {},
    "notes": [
     "CHI: Wilson y Awaka OUT; Jalen Smith y P. Williams en duda",
     "BKN: sin bajas en ESPN/CBS",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:35 ET (NBC Sports): P. Williams disponible"
    ]
   },
   {
@@ -8380,25 +8377,25 @@
    ],
    "adj": {
     "TOR": {
-     "o": -2.0,
-     "d": 1.0,
-     "why": "Barnes OUT (18-nov), Barrett en duda"
+     "o": -3.0,
+     "d": 1.5,
+     "why": "Barnes y Barrett OUT (18-nov)"
     }
    },
    "out": [
     "Reece Beekman",
     "Justin Champagnie",
     "Kawhi Leonard",
-    "Scottie Barnes"
+    "Scottie Barnes",
+    "RJ Barrett"
    ],
-   "gtd": {
-    "RJ Barrett": 0.55
-   },
+   "gtd": {},
    "notes": [
     "WAS: Vukcevic, Beekman, Champagnie, Watkins OUT",
     "TOR: Leonard y Bittle OUT; Barnes jugó el 17-nov",
     "Back-to-back: TOR jugaron el 17-nov",
-    "18:20 ET (ESPN/RotoBaller): Barnes descartado; RJ Barrett questionable"
+    "18:20 ET (ESPN/RotoBaller): Barnes descartado; RJ Barrett questionable",
+    "18:35 ET (NBC Sports): RJ Barrett OUT"
    ]
   },
   {
@@ -8562,14 +8559,12 @@
    "b2b": [],
    "adj": {},
    "out": [],
-   "gtd": {
-    "De'Andre Hunter": 0.65,
-    "Precious Achiuwa": 0.65
-   },
+   "gtd": {},
    "notes": [
     "PHX: Mark Williams OUT",
     "SAC: Raynaud, Simmons OUT; LaVine, Hunter y Achiuwa en duda",
-    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+    "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles"
    ]
   },
   {
@@ -8601,18 +8596,19 @@
    "out": [
     "Lauri Markkanen",
     "Jaren Jackson Jr.",
-    "Jaxson Hayes",
     "Austin Reaves"
    ],
    "gtd": {
-    "Walker Kessler": 0.9
+    "Walker Kessler": 0.9,
+    "Jaxson Hayes": 0.5
    },
    "notes": [
     "UTA: Markkanen, Nurkic, Jackson Jr. OUT; Hayes en duda",
     "LAL: Reaves (talón) y Kessler (pierna) en duda (OUT el 17-nov)",
     "Back-to-back: UTA, LAL jugaron el 17-nov",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:20 ET (ESPN/RotoBaller): Reaves descartado; Hayes OUT; Kessler se espera disponible"
+    "18:20 ET (ESPN/RotoBaller): Reaves descartado; Hayes OUT; Kessler se espera disponible",
+    "18:35 ET (NBC Sports): Hayes questionable (no descartado)"
    ]
   }
  ],

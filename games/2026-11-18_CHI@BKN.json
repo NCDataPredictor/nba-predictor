@@ -9,15 +9,14 @@
   "notes": [
    "CHI: Wilson y Awaka OUT; Jalen Smith y P. Williams en duda",
    "BKN: sin bajas en ESPN/CBS",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:35 ET (NBC Sports): P. Williams disponible"
   ],
   "out": [
    "Tobe Awaka",
    "Caleb Wilson"
   ],
-  "gtd": {
-   "Patrick Williams": 0.65
-  },
+  "gtd": {},
   "reserves": {
    "CHI": [
     {
@@ -831,7 +830,7 @@
    "starter": false,
    "min": 20.7,
    "g_cur": 6,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 22.7,
     "pts": 7.8,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:33+00:00",
+ "updated": "2026-11-18T23:35+00:00",
  "list": [
   {
    "date": "2026-11-15",
@@ -329,7 +329,7 @@
    "note": "cadera; bajado a OUT vs HOU",
    "source": "NBC Sports 17:22 ET",
    "at": "2026-11-18T23:33+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -384,7 +384,7 @@
    "note": "isquio; OUT vs ORL",
    "source": "NBC Sports 18:30 ET",
    "at": "2026-11-18T23:33+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",
@@ -417,7 +417,7 @@
    "note": "isquio; OUT vs WAS",
    "source": "NBC Sports 18:30 ET",
    "at": "2026-11-18T23:33+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-18",

@@ -9,13 +9,11 @@
   "notes": [
    "PHX: Mark Williams OUT",
    "SAC: Raynaud, Simmons OUT; LaVine, Hunter y Achiuwa en duda",
-   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen)."
+   "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
+   "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles"
   ],
   "out": [],
-  "gtd": {
-   "De'Andre Hunter": 0.65,
-   "Precious Achiuwa": 0.65
-  },
+  "gtd": {},
   "reserves": {
    "PHX": [
     {
@@ -248,7 +246,7 @@
    "starter": true,
    "min": 25.9,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 32.4,
     "pts": 14.3,
@@ -331,7 +329,7 @@
    "starter": true,
    "min": 21.0,
    "g_cur": 11,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 26.2,
     "pts": 10.4,
