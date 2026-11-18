@@ -77,6 +77,11 @@ cruces que falten, sin WebFetch a basketball-reference. Si el CSV va atrasado, a
 - Repo: `NCDataPredictor/nba-predictor` (antes `ncerva1/nba-predictor`, transferido el 15-nov).
 - Cloudflare Pages publica la carpeta `docs/` de `main` en cada push (sin comando de build). Dirección:
   `https://nba-predictor-9hf.pages.dev/` (más adelante, dominio propio); cada partido en `#<id>`.
+- **Aviso "ya están los picks del día" (18-nov):** `build_site.py ... --stage morning` añade a `docs/data/avisos.json`
+  un aviso por jornada en cuanto hay picks con valor o soñadora en partidos por empezar (si la mañana sale sin props,
+  lo deja para la siguiente corrida de mañana; nunca repite). Tras el squash-merge de la mañana, anota el sha de
+  origin/main de antes del merge y corre `git fetch origin main && git checkout origin/main -- docs/data/avisos.json docs/data/index.json && python avisos.py send --before <ese sha>`
+  (misma idempotency_key que la acción de GitHub: no duplica).
 - Los enlaces de los avisos usan `docs/data/push.json` → `"site"`. Si cambia la dirección, actualízala ahí y
   en OneSignal (Settings → Push & In-App → Web → Site URL).
 - `migracion/redireccion-github-io/index.html` es la página para la dirección vieja de github.io: redirige a la

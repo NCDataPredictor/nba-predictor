@@ -11,6 +11,10 @@ Flujo (lo usa tareas/revision_bajas_cuotas.txt):
   3. git add docs/data/avisos.json junto con el resto del PR. Al llegar a main, la acción de GitHub
      .github/workflows/avisos.yml manda por OneSignal los avisos nuevos a quienes los activaron en la web.
 
+Aviso "ya están los picks del día" (18-nov, pedido de Nicolas): build_site.py --stage morning llama a day(FECHA)
+al terminar; añade un solo aviso por jornada (gid "") cuando ya hay picks con valor o soñadora. A mano:
+  python avisos.py day 2026-11-18 [--force]
+
 Otros:
   python avisos.py send --before <sha>   # (lo corre la acción) envía los avisos que no estaban en <sha>
   python avisos.py test ["texto"]        # (acción manual) aviso de prueba a todos los suscritos
@@ -186,6 +190,56 @@ def diff(date, label="", ref="origin/main", force=False):
     return new
 
 
+def _fmt_day(date):
+    meses = "ene feb mar abr may jun jul ago sep oct nov dic".split()
+    y, m, d = map(int, date.split("-"))
+    return f"{d}-{meses[m - 1]}"
+
+
+def _dec(x):
+    return f"{x:.2f}".rstrip("0").rstrip(".")
+
+
+def day(date, force=False):
+    """Un aviso por jornada cuando se publican los picks de la mañana. No repite si ya hay uno de esa fecha."""
+    data = _load(PATH, {"list": []})
+    if not force and any(x.get("kind") == "jornada" and x.get("date") == date for x in data.get("list", [])):
+        print(f"Ya hay aviso de picks del {date}: no se repite.")
+        return None
+    index = _load(os.path.join(DATA, "index.json"), {})
+    games = [g for g in index.get("games", []) if g.get("date") == date]
+    now = datetime.now(timezone.utc)
+    pending = [g for g in games if not (tip_dt(date, g.get("tip_et")) and tip_dt(date, g.get("tip_et")) <= now)]
+    n_val = sum(len(g.get("value_bets") or []) for g in pending)
+    dream, ladder = (index.get("dream") or {}).get(date), (index.get("dream_ladder") or {}).get(date)
+    if not pending or not (n_val or dream or ladder):
+        print(f"Jornada {date} sin picks con valor ni soñadora en partidos por empezar: todavía no hay aviso.")
+        return None
+    n_g = sum(1 for g in pending if g.get("value_bets"))
+    parts = []
+    if n_val:
+        parts.append(f"{n_val} pick{'s' if n_val > 1 else ''} con valor en {n_g} partido{'s' if n_g > 1 else ''}.")
+    sd = [f"{lab} cuota {_dec(x['dec'])}" for lab, x in (("Soñadora", dream), ("escalonada", ladder)) if x and x.get("dec")]
+    if sd:
+        parts.append(" y ".join(sd) + ".")
+    first = min((g.get("tip_et") for g in pending if g.get("tip_et")), default=None)
+    if first:
+        parts.append(f"Primer partido {hhmm(first)} ET.")
+    body = " ".join(parts)
+    at = now.isoformat(timespec="minutes")
+    title = f"Ya están los picks del {_fmt_day(date)} ({len(pending)} partido{'s' if len(pending) > 1 else ''})"
+    aid = hashlib.sha1(f"jornada|{date}|{at}".encode()).hexdigest()[:16]
+    x = dict(id=aid, at=at, date=date, gid="", kind="jornada", title=title, body=body, label="Picks del día", url=SITE,
+             added=[], removed=[], moved=[], outs=[], doubts=[], back=[], planb=[], picks_changed=False)
+    cut = (now - timedelta(days=KEEP_DAYS)).date().isoformat()
+    data["list"] = [y for y in data.get("list", []) if y.get("date", "") >= cut] + [x]
+    data["updated"] = at
+    with open(PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+    print(f"AVISO {title}\n  {body}")
+    return x
+
+
 # ---------- envío ----------
 # Desde la acción de GitHub (avisos.yml) o, mientras Actions no corra, desde la propia revisión en la nube tras el merge:
 #   python avisos.py send --before <sha de main antes del merge>
@@ -231,7 +285,7 @@ def send(before):
         if t and t <= now:
             print(f"Omitido (ya empezó): {x['title']}")
             continue
-        push(x["title"], x["body"], x["url"], x["gid"] + "|" + x["id"])
+        push(x["title"], x["body"], x["url"], (x["gid"] or f"jornada-{x['date']}") + "|" + x["id"])
         n += 1
     print(f"{n} aviso(s) nuevos procesados.")
 
@@ -246,6 +300,8 @@ def main(a):
         snap(a[1])
     elif cmd == "diff":
         diff(a[1], label=opt("--label", ""), ref=opt("--ref", "origin/main"), force="--force" in a)
+    elif cmd == "day":
+        day(a[1], force="--force" in a)
     elif cmd == "send":
         send(opt("--before"))
     elif cmd == "test":

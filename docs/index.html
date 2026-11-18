@@ -1183,7 +1183,7 @@ dialog.psearch .g-head { gap: 8px }
   <div class="g-body" id="gb-body"></div>
 </dialog>
 <dialog class="guide avisos" id="avisos" aria-labelledby="av-title">
-  <div class="g-head"><div class="pc-head-t"><h2 id="av-title">Avisos</h2><div class="pc-sub">Cambios de picks y bajas en partidos por empezar</div></div><button type="button" class="g-close" id="av-close" aria-label="Cerrar avisos">×</button></div>
+  <div class="g-head"><div class="pc-head-t"><h2 id="av-title">Avisos</h2><div class="pc-sub">Picks del día y cambios por bajas en partidos por empezar</div></div><button type="button" class="g-close" id="av-close" aria-label="Cerrar avisos">×</button></div>
   <div class="g-body" id="av-body"></div>
 </dialog>
 <dialog class="guide" id="guide" aria-labelledby="g-title">
@@ -4862,8 +4862,8 @@ function avPushBox() {
   const PS = AV.os && AV.os.User.PushSubscription, on = PS && PS.optedIn && PS.id && PS.token;
   if (PS && PS.optedIn && !on) return `<div class="av-push"><p><b>Falta terminar el registro de este dispositivo.</b> Toca el botón para volver a intentarlo.</p><p><button type="button" class="btn" data-av="retry">Registrar este dispositivo</button></p><p class="muted" id="av-msg" role="status"></p></div>`;
   return `<div class="av-push">${on
-    ? `<p><b>Avisos activados en este dispositivo.</b> Te llegará uno cuando una revisión de bajas cambie los picks o las bajas de un partido que aún no empieza.</p><p><button type="button" class="btn ghost" data-av="off">Desactivar avisos</button></p>`
-    : `<p><b>Recibe un aviso</b> cuando una revisión de bajas cambie los picks de un partido, aunque no tengas la web abierta.</p><p><button type="button" class="btn" data-av="on">Activar avisos</button></p>`}
+    ? `<p><b>Avisos activados en este dispositivo.</b> Te llegará uno cuando salgan los picks del día y cuando una revisión de bajas cambie los picks o las bajas de un partido que aún no empieza.</p><p><button type="button" class="btn ghost" data-av="off">Desactivar avisos</button></p>`
+    : `<p><b>Recibe un aviso</b> cuando salgan los picks del día y cuando una revisión de bajas cambie los picks de un partido, aunque no tengas la web abierta.</p><p><button type="button" class="btn" data-av="on">Activar avisos</button></p>`}
     <p class="muted" id="av-msg" role="status"></p></div>`;
 }
 function avDraw() {
