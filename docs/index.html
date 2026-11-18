@@ -656,6 +656,13 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100% }
 .cb-x:hover { color: var(--bad); border-color: var(--bad) }
 .cb-note { margin: 8px 0 0; font-size: 12.5px; color: var(--muted) }
 .cb-note.warn { color: var(--ink); background: var(--accent-soft); border-radius: 8px; padding: 8px 10px }
+.cb-sug { margin: 12px 0 4px; padding-top: 10px; border-top: 1px solid var(--line) }
+.cb-sug h3 { margin: 0; font: 600 15px var(--body) }
+.sg-list { list-style: none; margin: 6px 0 0; padding: 0 }
+.sg-list li { display: grid; grid-template-columns: 1fr auto; gap: 3px 10px; align-items: center; padding: 8px 0; border-bottom: 1px dashed var(--line) }
+.sg-list li > :not(.btn) { grid-column: 1 } .sg-list .btn { grid-column: 2; grid-row: 1 / span 3; font-size: 13px; padding: 5px 12px }
+.sg-t { font-size: 13.5px } .sg-n { font-size: 12.5px } .sg-n b { color: var(--good) } .sg-w { font-size: 12px; color: var(--muted) }
+.linkb { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer }
 .cb-res { margin: 8px 0 2px; font: 600 14px var(--body); padding: 8px 10px; border-radius: 8px; background: var(--accent-soft) }
 .cb-res.won { background: var(--good-soft); color: var(--good) } .cb-res.lost { background: var(--bad-soft); color: var(--bad) }
 .cb-foot { flex: none; display: grid; gap: 8px; padding: 10px 14px 14px; border-top: 1px solid var(--line) }
@@ -4712,6 +4719,139 @@ function comboCalc() {
   const st = res.some(r => r === "lost") ? "lost" : res.length && res.every(r => r === "push") ? "push" : res.length && res.every(r => r === "won" || r === "push") ? "won" : null;
   return { p, dec: decT, ev: p * decT - 1, approx, exact, sim, loading, clash, res, st, done: res.filter(r => r).length };
 }
+// Sugerencias para Mi combinada (pedido de Nicolas 18-nov): qué patas cambiar para que vayan de la mano con las demás
+// (correlación positiva en las simulaciones del partido) y suba la probabilidad del ticket. Por cada pata se prueban
+// las líneas del mismo partido (las de "Armar apuesta": prob. >= 50%, cuota tipo casa colombiana) y las líneas X+ del
+// mismo jugador (escalera del modelo, cuota estimada con el margen colombiano). Dos tipos de cambio:
+//  · "igual pago": cuota de la pata nueva >= SUG_KEEP × la de la pata original; se elige la que más sube el ticket.
+//  · "línea más segura": mismo jugador y estadística con una línea X+ más baja que suba la pata >= SUG_SAFE puntos.
+// Patas que se estorban: par del mismo partido que sale junto SUG_CLASH menos que multiplicando sus probabilidades.
+const SUG_KEEP = 0.85, SUG_SAFE = 0.10, SUG_MIN = 0.05, SUG_CLASH = 0.93, SUG_HELP = 1.05, SUG_N = 5;
+const sgLg = p => Math.log(p / (1 - p)), sgSg = x => 1 / (1 + Math.exp(-x));
+let SUG_MEMO = { key: null, val: null }, SUG_LAST = null, SUG_UNDO = null;
+function sugPool(d) {   // candidatas del partido: [{b, dec, est}] (b con los campos de una pata)
+  const out = [], seen = new Set(), key = b => b.kind === "prop" ? `${b.player}|${b.stat}|${b.line}|${b.side}` : b.label;
+  aaCands(d).forEach(c => { seen.add(key(c.b)); out.push({ b: c.b, dec: c.dec, est: false }); });
+  const anchor = {};
+  d.bets.forEach(b => { if (b.kind === "prop" && b.side === "over" && !b.alt && b.p_mkt > 0 && b.p_mkt < 1 && b.p > 0 && b.p < 1) anchor[b.player + "|" + b.stat] = sgLg(b.p_mkt) - sgLg(b.p); });
+  Object.entries(d.ladders || {}).forEach(([pl, o]) => Object.entries(o).forEach(([st, rungs]) => {
+    const a = anchor[pl + "|" + st];
+    if (!Array.isArray(rungs) || a == null || isOut(d.id, pl)) return;
+    rungs.forEach(r => {
+      const [k, q] = r, dc = r[3] || Math.round(100 / Math.min(sgSg(sgLg(q) + a) * AA_CO, .995)) / 100;
+      const b = { kind: "prop", label: `${pl} ${k}+ ${STAT_LABEL[st] || st}`, player: pl, team: o.team, stat: st, line: k - .5, side: "over", p: q };
+      if (dc < 1.12 || seen.has(key(b))) return;
+      seen.add(key(b)); out.push({ b, dec: dc, est: !r[3] });
+    });
+  }));
+  return out;
+}
+function sugGroupP(legs, S) {   // prob. de las patas de un mismo partido (como comboCalc: producto × factor de la muestra)
+  const prod = legs.reduce((t, l) => t * l.p, 1);
+  if (legs.length < 2 || !S) return prod;
+  const f = simJoint(legs, S);
+  return f != null ? Math.min(prod * f, ...legs.map(l => l.p)) : prod;
+}
+const sugClash = (a, b) => { const side = x => x.kind === "spread" ? "ml" : x.kind === "tt" ? "tt" + x.team : x.kind;
+  return a.player ? a.player === b.player && a.stat === b.stat : !b.player && side(a) === side(b); };
+function sugPair(a, b, S) { const f = S ? simJoint([a, b], S) : null; return f; }
+// devuelve {pending, list, clash, p0, d0} o null si no aplica
+function comboSuggest() {
+  if (MYC.length < 2 || !INDEX) return null;
+  const res = MYC.map(legResult);
+  if (res.some(r => r)) return null;   // ya empezó a liquidarse
+  const st = MYC.map(l => { const S = SIMS[l.gid]; return `${l.k}:${l.p}:${l.dec}:${cache[l.gid] ? 1 : 0}:${S === "loading" ? "l" : S ? 1 : 0}`; }).join(";");
+  if (SUG_MEMO.key === st) return SUG_MEMO.val;
+  let pending = false;
+  const groups = {};
+  MYC.forEach((l, i) => (groups[l.gid] ||= []).push(i));
+  Object.keys(groups).forEach(gid => {
+    const g = INDEX.games.find(x => x.id === gid);
+    if (!g || gameLocked(g)) return;
+    if (!cache[gid]) { pending = true; if (!fetching.has(gid)) { fetching.add(gid); getJSON(`data/${gid}.json`).then(x => { cache[gid] = x; drawCombo(); }).catch(() => {}); } }
+    loadSims(gid); if (SIMS[gid] === "loading") pending = true;
+  });
+  const gp = {};   // prob. de cada partido con las patas actuales
+  Object.entries(groups).forEach(([gid, is]) => { const S = SIMS[gid]; gp[gid] = sugGroupP(is.map(i => MYC[i]), S && S !== "loading" ? S : null); });
+  const p0 = Object.values(gp).reduce((t, x) => t * x, 1), d0 = MYC.reduce((t, l) => t * l.dec, 1);
+  const list = [], clash = [];
+  Object.entries(groups).forEach(([gid, is]) => {
+    const g = INDEX.games.find(x => x.id === gid), d = cache[gid], S = SIMS[gid];
+    if (!g || gameLocked(g) || !d || !d.bets || !S || S === "loading") return;
+    const legs = is.map(i => MYC[i]), worst = {};
+    for (let a = 0; a < legs.length; a++) for (let b = a + 1; b < legs.length; b++) {
+      const f = sugPair(legs[a], legs[b], S);
+      if (f != null && f < SUG_CLASH) {
+        clash.push({ a: legs[a].label, b: legs[b].label, f });
+        [[is[a], legs[b]], [is[b], legs[a]]].forEach(([i, o]) => { if (!(i in worst) || f < worst[i].f) worst[i] = { f, with: o.label }; });
+      }
+    }
+    const pool = sugPool(d), taken = new Set(MYC.map(l => l.label));
+    is.forEach((i, ix) => {
+      const l = MYC[i], others = legs.filter((_, j) => j !== ix), rest = p0 / gp[gid];
+      let keep = null, safe = null;
+      pool.forEach(c => {
+        const b = c.b;
+        if (taken.has(b.label) || others.some(o => sugClash(o, b))) return;
+        const nl = { ...b, game: l.game, gid };
+        const p1 = rest * sugGroupP([...others, nl], S), d1 = d0 / l.dec * c.dec;
+        if (p1 <= p0 * (1 + SUG_MIN)) return;
+        const it = { i, c, nl, p1, d1 };
+        if (c.dec >= l.dec * SUG_KEEP) { if (!keep || p1 > keep.p1) keep = { ...it, type: "keep" }; }
+        else if (l.player && b.player === l.player && b.stat === l.stat && (l.side || (/ Over /.test(l.label) ? "over" : "")) === "over" && l.line != null && b.line < l.line && b.p >= l.p + SUG_SAFE) {
+          if (!safe || b.line > safe.c.b.line) safe = { ...it, type: "safe" };
+        }
+      });
+      [keep, safe].forEach(s => {
+        if (!s) return;
+        let why = "";
+        if (worst[i]) why = `Tu pata va en contra de ${esc(worst[i].with)}: en las simulaciones salen juntas un ${pct(1 - worst[i].f, 0)} menos que por separado. `;
+        let best = null;
+        others.forEach(o => { const f = sugPair(o, s.nl, S); if (f != null && (!best || f > best.f)) best = { f, o }; });
+        if (s.type === "safe") why += `Misma idea con una línea más baja: la pata pasa de ${pct(l.p, 0)} a ${pct(s.c.b.p, 0)}.`;
+        else if (best && best.f >= SUG_HELP) why += `${esc(s.c.b.label)} va de la mano con ${esc(best.o.label)}: juntas salen un ${pct(best.f - 1, 0)} más que por separado.`;
+        else if (s.c.b.p > l.p) why += `Más probable por sí sola (${pct(s.c.b.p, 0)} frente a ${pct(l.p, 0)})${others.length ? " y no choca con tus otras patas de este partido" : ""}.`;
+        else why += `Encaja mejor con tus otras patas de este partido.`;
+        list.push({ ...s, why, conflict: !!worst[i], gain: s.p1 / p0 });
+      });
+    });
+  });
+  list.sort((a, b) => (b.conflict - a.conflict) || (b.gain - a.gain));
+  const per = {}, out = [];
+  list.forEach(s => { if (out.length < SUG_N && (per[s.i] || 0) < 2) { per[s.i] = (per[s.i] || 0) + 1; out.push(s); } });
+  const val = { pending, list: out, clash, p0, d0 };
+  SUG_MEMO = { key: st, val };
+  return val;
+}
+function sugHTML() {
+  const s = comboSuggest();
+  SUG_LAST = s;
+  if (!s) return SUG_UNDO ? `<p class="cb-note"><button type="button" class="linkb" data-sugundo>Deshacer el último cambio</button></p>` : "";
+  const items = s.list.map((x, j) => `<li>
+      <div class="sg-t">Cambia <b>${esc(MYC[x.i].label)}</b> por <b>${esc(x.c.b.label)}</b> <span class="num">@ ${x.c.dec.toFixed(2)}${x.c.est ? " ≈" : ""}</span></div>
+      <div class="sg-n num">Ticket ${pct(s.p0)} → <b>${pct(x.p1)}</b> · cuota ${s.d0.toFixed(2)} → ${x.d1.toFixed(2)}</div>
+      <div class="sg-w">${x.why}</div>
+      <button type="button" class="btn ghost" data-sug="${j}">Cambiar</button></li>`).join("");
+  return `<section class="cb-sug" aria-label="Sugerencias para tu combinada"><h3>Sugerencias</h3>
+    ${s.clash.length ? `<p class="cb-note warn">Estas patas van en contra entre sí (en las simulaciones del partido salen juntas menos que por separado): ${s.clash.map(c => `${esc(c.a)} / ${esc(c.b)} (−${pct(1 - c.f, 0)})`).join("; ")}.</p>` : ""}
+    ${items ? `<ol class="sg-list">${items}</ol><p class="cb-note">Cambios del mismo partido contados en sus simulaciones. Las cuotas son de referencia (≈ estimada con el margen de una casa colombiana): confírmalas en tu casa.</p>`
+      : s.pending ? `<p class="cb-note">Buscando cambios que suban tu probabilidad…</p>`
+      : `<p class="cb-note">Tu combinada va bien armada: no encontramos un cambio que suba la probabilidad sin bajar mucho la cuota.</p>`}
+    ${SUG_UNDO ? `<p class="cb-note"><button type="button" class="linkb" data-sugundo>Deshacer el último cambio</button></p>` : ""}</section>`;
+}
+function sugBind() {
+  document.querySelectorAll("#cb-body [data-sug]").forEach(b => b.addEventListener("click", () => {
+    const x = SUG_LAST && SUG_LAST.list[+b.dataset.sug]; if (!x) return;
+    const old = MYC[x.i], k = regLeg({ ...x.c.b, dec: x.c.dec }, old.gid, old.game);
+    SUG_UNDO = { k, old };
+    MYC[x.i] = { ...LEGREG[k], added: old.added || Date.now() }; comboChanged(true);
+  }));
+  document.querySelectorAll("#cb-body [data-sugjump]").forEach(b => b.addEventListener("click", () => $("#cb-body .cb-sug")?.scrollIntoView({ behavior: "smooth", block: "start" })));
+  document.querySelectorAll("#cb-body [data-sugundo]").forEach(b => b.addEventListener("click", () => {
+    const u = SUG_UNDO; SUG_UNDO = null; if (!u) return;
+    const i = MYC.findIndex(l => l.k === u.k); if (i >= 0) MYC[i] = u.old; comboChanged();
+  }));
+}
 const fmtMoney = x => x.toLocaleString("es-CO", { maximumFractionDigits: x < 100 ? 2 : 0 });
 function drawCombo() {
   const box = $("#combo"), n = MYC.length;
@@ -4740,11 +4880,14 @@ function drawCombo() {
       <div class="cb-r"><span class="num">${pct(l.p, 0)} · @ ${l.dec.toFixed(2)}</span>${resPill(c.res[i])}</div>
       <button type="button" class="cb-x" data-rm="${i}" aria-label="Quitar ${esc(l.label)}">×</button></li>`).join("")}</ol>
     ${n === 1 ? `<p class="cb-note">Agrega al menos otra pata para armar la combinada.</p>` : ""}
+    ${(() => { const sg = comboSuggest(); return sg && sg.list.length ? `<p class="cb-note"><button type="button" class="linkb" data-sugjump>${sg.list.length === 1 ? "1 cambio sugerido" : sg.list.length + " cambios sugeridos"} para subir tu probabilidad a hasta ${pct(Math.max(...sg.list.map(x => x.p1)))}</button></p>` : ""; })()}
     ${c.sim.map(x => `<p class="cb-note">Patas de ${esc(x.game)} contadas juntas en las simulaciones del partido: ${x.f >= 1.02 ? `se ayudan entre sí, ${pct(x.f - 1, 0)} más probable que multiplicarlas` : x.f <= 0.98 ? `se estorban, ${pct(1 - x.f, 0)} menos probable que multiplicarlas` : "casi independientes"} (${pct(x.p)} frente a ${pct(x.indep)}).${x.f >= 1.02 ? " La casa suele pagar menos por un parlay así: compara su cuota con la cuota justa." : ""}</p>`).join("")}
     ${c.loading ? `<p class="cb-note">Contando las patas del mismo partido en las simulaciones…</p>` : ""}
     ${c.approx.length && !c.loading ? `<p class="cb-note warn">Patas del mismo partido (${c.approx.map(esc).join(", ")}): no hay simulaciones publicadas para contarlas juntas${c.res.some(r => r) ? " (el partido ya se jugó)" : ""}, así que la probabilidad se calcula multiplicando, como si fueran independientes. Tómala como aproximada.</p>` : ""}
     ${c.exact.length ? `<p class="cb-note">Las patas de ${c.exact.map(esc).join(", ")} coinciden con un parlay recomendado: se usa la probabilidad contada en las simulaciones, que ya tiene en cuenta cómo dependen unas de otras.</p>` : ""}
-    ${c.clash.length ? `<p class="cb-note warn">Ojo, estas patas se pisan entre sí y muchas casas no las dejan combinar: ${c.clash.map(esc).join("; ")}.</p>` : ""}`;
+    ${c.clash.length ? `<p class="cb-note warn">Ojo, estas patas se pisan entre sí y muchas casas no las dejan combinar: ${c.clash.map(esc).join("; ")}.</p>` : ""}
+    ${sugHTML()}`;
+  sugBind();
   $("#cb-foot").hidden = false;
   $("#cb-stats").innerHTML = `
     <div class="cell main"><span class="k">Prob. modelo</span><span class="v">${pct(c.p)}${c.approx.length || c.loading ? "*" : ""}</span></div>
