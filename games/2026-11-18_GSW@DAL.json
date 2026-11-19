@@ -10,17 +10,17 @@
    "GSW: Curry, B. Williams, Porzingis, Moody, Butler OUT; Draymond (codo) y Horford (espalda) en duda",
    "DAL: Lively, Biberovic, de Larrea OUT; Kyrie (rodilla) y Clayton en duda; Christie y Aldama entrenaron completo",
    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-   "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte"
+   "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte",
+   "19:00 ET (NBC Sports): Horford OUT (manejo de espalda), Draymond juega; RotoWire: Clayton probable"
   ],
   "out": [
    "Stephen Curry",
    "Brandon Williams",
-   "Sergio de Larrea"
+   "Sergio de Larrea",
+   "Al Horford"
   ],
   "gtd": {
-   "Draymond Green": 0.7,
-   "Al Horford": 0.7,
-   "Walter Clayton Jr.": 0.6,
+   "Walter Clayton Jr.": 0.85,
    "Max Christie": 0.85,
    "Tobi Lawal": 0.25
   },
@@ -498,7 +498,7 @@
    "starter": false,
    "min": 15.2,
    "g_cur": 13,
-   "p_play": 0.6,
+   "p_play": 0.85,
    "cur": {
     "min": 17.1,
     "pts": 7.1,
@@ -619,7 +619,7 @@
    "name": "Brandin Podziemski",
    "pos": "SG",
    "starter": true,
-   "min": 33.3,
+   "min": 36.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -661,7 +661,7 @@
    "name": "Yaxel Lendeborg",
    "pos": "SF",
    "starter": true,
-   "min": 32.7,
+   "min": 35.3,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -703,9 +703,9 @@
    "name": "Draymond Green",
    "pos": "PF",
    "starter": true,
-   "min": 26.7,
+   "min": 28.8,
    "g_cur": 12,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 25.8,
     "pts": 3.2,
@@ -745,7 +745,7 @@
    "name": "De'Anthony Melton",
    "pos": "SG",
    "starter": false,
-   "min": 22.8,
+   "min": 24.6,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -786,7 +786,7 @@
    "name": "Georges Niang",
    "pos": "PF",
    "starter": false,
-   "min": 20.3,
+   "min": 21.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -827,7 +827,7 @@
    "name": "Will Richard",
    "pos": "SG",
    "starter": true,
-   "min": 19.5,
+   "min": 21.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -869,7 +869,7 @@
    "name": "Gui Santos",
    "pos": "PF",
    "starter": true,
-   "min": 19.2,
+   "min": 20.8,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -908,51 +908,10 @@
   },
   {
    "team": "GSW",
-   "name": "Al Horford",
-   "pos": "C",
-   "starter": false,
-   "min": 17.6,
-   "g_cur": 12,
-   "p_play": 0.7,
-   "cur": {
-    "min": 17.0,
-    "pts": 3.9,
-    "reb": 3.8,
-    "ast": 1.8,
-    "fg3m": 0.9,
-    "fgm": 1.5,
-    "fga": 4.3,
-    "fg3a": 2.9,
-    "stl": 0.3,
-    "blk": 1.0,
-    "tov": 0.5,
-    "pf": 1.2,
-    "ftm": 0.0,
-    "fta": 0.1
-   },
-   "prior": {
-    "min": 21.6,
-    "pts": 8.27,
-    "reb": 4.87,
-    "ast": 2.58,
-    "fg3m": 1.64,
-    "fgm": 3.07,
-    "fga": 7.2,
-    "fg3a": 4.56,
-    "stl": 0.67,
-    "blk": 1.13,
-    "tov": 0.93,
-    "pf": 1.13,
-    "ftm": 0.49,
-    "fta": 0.58
-   }
-  },
-  {
-   "team": "GSW",
    "name": "Charles Bassey",
    "pos": "C",
    "starter": false,
-   "min": 14.0,
+   "min": 15.1,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -993,7 +952,7 @@
    "name": "Gary Payton II",
    "pos": "SG",
    "starter": false,
-   "min": 13.2,
+   "min": 14.3,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -1034,7 +993,7 @@
    "name": "LJ Cryer",
    "pos": "PG",
    "starter": false,
-   "min": 10.9,
+   "min": 11.7,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1075,7 +1034,7 @@
    "name": "Graham Ike",
    "pos": "C",
    "starter": false,
-   "min": 9.8,
+   "min": 10.6,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1548,48 +1507,6 @@
     10.5,
     -105,
     -133
-   ]
-  },
-  "Al Horford": {
-   "pts": [
-    7.5,
-    -128,
-    -108
-   ],
-   "ast": [
-    3.5,
-    127,
-    -175
-   ],
-   "reb": [
-    4.5,
-    -108,
-    -128
-   ],
-   "fg3m": [
-    1.5,
-    -110,
-    -125
-   ],
-   "pra": [
-    15.5,
-    -118,
-    -118
-   ],
-   "ra": [
-    7.5,
-    -118,
-    -115
-   ],
-   "pr": [
-    12.5,
-    -110,
-    -125
-   ],
-   "pa": [
-    10.5,
-    -133,
-    -105
    ]
   },
   "Daniel Gafford": {

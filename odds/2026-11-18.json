@@ -199,6 +199,24 @@
       -107,
       -113
      ]
+    },
+    {
+     "book": "Covers comparador (19:05 ET)",
+     "ml_away": 120,
+     "ml_home": -145,
+     "spread_away": [
+      2.5,
+      -110
+     ],
+     "spread_home": [
+      -2.5,
+      -110
+     ],
+     "total": [
+      239.5,
+      -110,
+      -110
+     ]
     }
    ]
   },
@@ -438,6 +456,24 @@
       226.5,
       -115,
       -105
+     ]
+    },
+    {
+     "book": "Covers comparador (19:05 ET)",
+     "ml_away": -275,
+     "ml_home": 220,
+     "spread_away": [
+      -6.5,
+      -115
+     ],
+     "spread_home": [
+      6.5,
+      -105
+     ],
+     "total": [
+      227.5,
+      -110,
+      -110
      ]
     }
    ]
