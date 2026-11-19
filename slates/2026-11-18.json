@@ -8334,14 +8334,14 @@
    "tip_et": "19:30",
    "venue": "Barclays Center, Brooklyn",
    "market": {
-    "ml_home": -152,
-    "ml_away": 128,
+    "ml_home": -145,
+    "ml_away": 120,
     "spread_home": -2.5,
-    "total": 240.5,
+    "total": 239.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
-    "over_odds": -107,
-    "under_odds": -113
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {},
@@ -8354,7 +8354,8 @@
     "CHI: Wilson y Awaka OUT; Jalen Smith y P. Williams en duda",
     "BKN: sin bajas en ESPN/CBS",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:35 ET (NBC Sports): P. Williams disponible"
+    "18:35 ET (NBC Sports): P. Williams disponible",
+    "19:05 ET (Covers): spread -2.5, total 239.5, ML 120/-145"
    ]
   },
   {
@@ -8418,12 +8419,11 @@
    "out": [
     "Stephen Curry",
     "Brandon Williams",
-    "Sergio de Larrea"
+    "Sergio de Larrea",
+    "Al Horford"
    ],
    "gtd": {
-    "Draymond Green": 0.7,
-    "Al Horford": 0.7,
-    "Walter Clayton Jr.": 0.6,
+    "Walter Clayton Jr.": 0.85,
     "Max Christie": 0.85,
     "Tobi Lawal": 0.25
    },
@@ -8431,7 +8431,8 @@
     "GSW: Curry, B. Williams, Porzingis, Moody, Butler OUT; Draymond (codo) y Horford (espalda) en duda",
     "DAL: Lively, Biberovic, de Larrea OUT; Kyrie (rodilla) y Clayton en duda; Christie y Aldama entrenaron completo",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte"
+    "18:20 ET (ESPN): Draymond y Horford siguen questionable, Christie questionable, Lawal doubtful; Kyrie ya no figura en el parte",
+    "19:00 ET (NBC Sports): Horford OUT (manejo de espalda), Draymond juega; RotoWire: Clayton probable"
    ]
   },
   {
@@ -8547,14 +8548,14 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 211,
-    "ml_away": -257,
-    "spread_home": 7.5,
-    "total": 226.5,
-    "spread_odds_home": -115,
-    "spread_odds_away": -105,
-    "over_odds": -115,
-    "under_odds": -105
+    "ml_home": 220,
+    "ml_away": -275,
+    "spread_home": 6.5,
+    "total": 227.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {},
@@ -8564,7 +8565,8 @@
     "PHX: Mark Williams OUT",
     "SAC: Raynaud, Simmons OUT; LaVine, Hunter y Achiuwa en duda",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
-    "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles"
+    "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles",
+    "19:05 ET (Covers): spread +6.5, total 227.5, ML -275/220"
    ]
   },
   {

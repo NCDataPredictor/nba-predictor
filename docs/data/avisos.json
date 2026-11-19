@@ -884,7 +884,47 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "18151161dd143689",
+   "at": "2026-11-19T00:04+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-ATL-at-OKC",
+   "title": "ATL @ OKC (8:00 pm ET): cambian los picks",
+   "body": "Sale: Kenrich Williams Under 6.5 REB+AST.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-ATL-at-OKC",
+   "added": [],
+   "removed": [
+    "Kenrich Williams Under 6.5 REB+AST"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "647ace7540838e39",
+   "at": "2026-11-19T00:04+00:00",
+   "date": "2026-11-18",
+   "gid": "2026-11-18-GSW-at-DAL",
+   "title": "GSW @ DAL (8:00 pm ET): novedades de bajas",
+   "body": "Bajas: Horford OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-18-GSW-at-DAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Al Horford"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-18T23:36+00:00"
+ "updated": "2026-11-19T00:04+00:00"
 }
