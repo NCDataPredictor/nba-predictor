@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:35+00:00",
+ "updated": "2026-11-19T00:02+00:00",
  "list": [
   {
    "date": "2026-11-15",
@@ -319,6 +319,17 @@
    "source": "ESPN injuries 18:20 ET",
    "at": "2026-11-18T23:18+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-18",
+   "gid": "2026-11-18-GSW-at-DAL",
+   "player": "Al Horford",
+   "team": "GSW",
+   "status": "out",
+   "note": "Manejo de espalda; no juega vs DAL (sí el jueves)",
+   "source": "NBC Sports 18:40 ET",
+   "at": "2026-11-19T00:02+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-18",
