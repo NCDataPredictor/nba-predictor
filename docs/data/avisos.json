@@ -945,7 +945,26 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "00991448d4033c3a",
+   "at": "2026-11-19T17:18+00:00",
+   "date": "2026-11-19",
+   "gid": "",
+   "kind": "jornada",
+   "title": "Ya están los picks del 19-nov (4 partidos)",
+   "body": "7 picks con valor en 4 partidos. Primer partido 8:00 pm ET.",
+   "label": "Picks del día",
+   "url": "https://nba-predictor-9hf.pages.dev/",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-19T00:34+00:00"
+ "updated": "2026-11-19T17:18+00:00"
 }
