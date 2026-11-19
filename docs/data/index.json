@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:34+00:00",
+ "generated": "2026-11-19T02:33+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.6.2",
@@ -74,7 +74,7 @@
   },
   "2026-11-18": {
    "morning": "2026-11-18T16:26+00:00",
-   "pregame": "2026-11-19T00:34+00:00"
+   "pregame": "2026-11-19T02:33+00:00"
   }
  },
  "history": [
@@ -277991,88 +277991,85 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 2.5 Triples",
-     "player": "Keyonte George",
+     "label": "Darryn Peterson Under 2.5 Pérdidas",
+     "player": "Darryn Peterson",
      "team": "UTA",
      "line": 2.5,
-     "odds": 110,
-     "dec": 2.1,
+     "odds": -133,
+     "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.486,
-     "implied": 0.476,
-     "fair": 106,
-     "edge": 0.01,
-     "ev": 0.02,
+     "p": 0.578,
+     "implied": 0.571,
+     "fair": -137,
+     "edge": 0.007,
+     "ev": 0.013,
      "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "p_model": 0.624,
-     "p_mkt": 0.44,
+     "stat": "tov",
+     "side": "under",
+     "p_model": 0.732,
+     "p_mkt": 0.527,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
-       3,
-       4
+       1,
+       1
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 27,
-       "value": 4.3,
-       "lg": 3.6,
+       "pos": "SG",
+       "rank": 30,
+       "value": 4.7,
+       "lg": 3.1,
        "n": 30
       }
      },
-     "mean": 3.6,
+     "mean": 1.8,
      "open": [
       2.5,
-      2.1
-     ]
+      1.752
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 33.5 PTS+REB+AST",
-     "player": "Keyonte George",
+     "label": "Ace Bailey Under 7.5 REB+AST",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 33.5,
-     "odds": -111,
-     "dec": 1.901,
+     "line": 7.5,
+     "odds": -149,
+     "dec": 1.671,
      "odds_assumed": false,
-     "p": 0.529,
-     "implied": 0.526,
-     "fair": -112,
-     "edge": 0.003,
-     "ev": 0.005,
+     "p": 0.606,
+     "implied": 0.598,
+     "fair": -154,
+     "edge": 0.008,
+     "ev": 0.013,
      "value": false,
-     "stat": "pra",
-     "side": "over",
-     "p_model": 0.647,
-     "p_mkt": 0.489,
+     "stat": "ra",
+     "side": "under",
+     "p_model": 0.765,
+     "p_mkt": 0.553,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 44.8,
-       "lg": 40.6,
-       "n": 30
-      }
+       3,
+       5
+      ]
      },
-     "mean": 40.4,
+     "mean": 5.5,
      "open": [
-      33.5,
-      1.901
+      7.5,
+      1.671
      ]
     }
    ],
@@ -278082,15 +278079,15 @@
      "legs": [
       {
        "kind": "prop",
-       "label": "Ace Bailey Under 5.5 Rebotes",
+       "label": "Ace Bailey Under 7.5 REB+AST",
        "player": "Ace Bailey",
        "team": "UTA",
-       "line": 5.5,
-       "stat": "reb",
+       "line": 7.5,
+       "stat": "ra",
        "side": "under",
-       "p": 0.6,
+       "p": 0.606,
        "dec": 1.671,
-       "ev": 0.002,
+       "ev": 0.013,
        "gid": "2026-11-18-UTA-at-LAL",
        "game": "UTA @ LAL"
       },
@@ -278110,12 +278107,12 @@
       }
      ],
      "n": 2,
-     "p": 0.355,
-     "p_indep": 0.355,
+     "p": 0.358,
+     "p_indep": 0.358,
      "corr": 1.0,
      "dec": 2.84,
-     "fair": 2.82,
-     "ev": 0.008,
+     "fair": 2.79,
+     "ev": 0.017,
      "type": "sgp"
     }
    ],
@@ -278128,11 +278125,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 6.5,
-     "p": 0.567,
-     "fair": 1.76,
-     "min_dec": 1.82,
+     "p": 0.559,
+     "fair": 1.79,
+     "min_dec": 1.84,
      "ref": 6.8,
-     "p_model": 0.722,
+     "p_model": 0.697,
      "label": "Keyonte George Over 6.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -278144,7 +278141,7 @@
        4
       ]
      },
-     "mean": 9.4
+     "mean": 9.1
     },
     {
      "kind": "prop",
@@ -278154,11 +278151,11 @@
      "stat": "fga",
      "side": "over",
      "line": 15.5,
-     "p": 0.561,
-     "fair": 1.78,
-     "min_dec": 1.84,
+     "p": 0.55,
+     "fair": 1.82,
+     "min_dec": 1.87,
      "ref": 15.5,
-     "p_model": 0.703,
+     "p_model": 0.665,
      "label": "Keyonte George Over 15.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -278170,33 +278167,7 @@
        4
       ]
      },
-     "mean": 19.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Keyonte George",
-     "team": "UTA",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.544,
-     "fair": 1.84,
-     "min_dec": 1.89,
-     "ref": 6.2,
-     "p_model": 0.648,
-     "label": "Keyonte George Over 6.5 Triples intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ]
-     },
-     "mean": 8.2
+     "mean": 18.5
     },
     {
      "kind": "prop",
@@ -278222,6 +278193,32 @@
        4
       ]
      }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Keyonte George",
+     "team": "UTA",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.535,
+     "fair": 1.87,
+     "min_dec": 1.92,
+     "ref": 6.2,
+     "p_model": 0.617,
+     "label": "Keyonte George Over 6.5 Triples intentados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ]
+     },
+     "mean": 7.9
     },
     {
      "kind": "prop",
@@ -278330,54 +278327,28 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Keyonte George",
+     "player": "Jaxson Hayes",
      "team": "UTA",
      "stat": "fg2a",
-     "side": "over",
-     "line": 9.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 9.3,
-     "p_model": 0.558,
-     "label": "Keyonte George Over 9.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 10.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Keyonte George",
-     "team": "UTA",
-     "stat": "fg2m",
-     "side": "over",
+     "side": "under",
      "line": 4.5,
-     "p": 0.517,
+     "p": 0.516,
      "fair": 1.94,
-     "min_dec": 1.99,
-     "ref": 4.7,
-     "p_model": 0.556,
-     "label": "Keyonte George Over 4.5 Dobles anotados",
+     "min_dec": 2.0,
+     "ref": 5.1,
+     "p_model": 0.554,
+     "label": "Jaxson Hayes Under 4.5 Dobles intentados",
      "hr": {
       "l10": [
-       5,
+       3,
        10
       ],
       "h2h": [
-       3,
-       4
+       0,
+       1
       ]
      },
-     "mean": 5.8
+     "mean": 4.5
     },
     {
      "kind": "prop",
@@ -278475,90 +278446,6 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 2.5 Triples",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 2.5,
-     "odds": 110,
-     "dec": 2.1,
-     "odds_assumed": false,
-     "p": 0.486,
-     "implied": 0.476,
-     "edge": 0.01,
-     "ev": 0.02,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "p_model": 0.624,
-     "p_mkt": 0.44,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 27,
-       "value": 4.3,
-       "lg": 3.6,
-       "n": 30
-      }
-     },
-     "mean": 3.6,
-     "open": [
-      2.5,
-      2.1
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 33.5 PTS+REB+AST",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 33.5,
-     "odds": -111,
-     "dec": 1.901,
-     "odds_assumed": false,
-     "p": 0.529,
-     "implied": 0.526,
-     "edge": 0.003,
-     "ev": 0.005,
-     "value": false,
-     "stat": "pra",
-     "side": "over",
-     "p_model": 0.647,
-     "p_mkt": 0.489,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 44.8,
-       "lg": 40.6,
-       "n": 30
-      }
-     },
-     "mean": 40.4,
-     "open": [
-      33.5,
-      1.901
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Darryn Peterson Under 2.5 Pérdidas",
      "player": "Darryn Peterson",
      "team": "UTA",
@@ -278566,14 +278453,14 @@
      "odds": -133,
      "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.573,
+     "p": 0.578,
      "implied": 0.571,
-     "edge": 0.002,
-     "ev": 0.004,
+     "edge": 0.007,
+     "ev": 0.013,
      "value": false,
      "stat": "tov",
      "side": "under",
-     "p_model": 0.712,
+     "p_model": 0.732,
      "p_mkt": 0.527,
      "cand": false,
      "hr": {
@@ -278593,7 +278480,7 @@
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 1.8,
      "open": [
       2.5,
       1.752
@@ -278602,6 +278489,291 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
      }
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 7.5 REB+AST",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 7.5,
+     "odds": -149,
+     "dec": 1.671,
+     "odds_assumed": false,
+     "p": 0.606,
+     "implied": 0.598,
+     "edge": 0.008,
+     "ev": 0.013,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "p_model": 0.765,
+     "p_mkt": 0.553,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 5.5,
+     "open": [
+      7.5,
+      1.671
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 5.5 Rebotes",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 5.5,
+     "odds": -149,
+     "dec": 1.671,
+     "odds_assumed": false,
+     "p": 0.605,
+     "implied": 0.598,
+     "edge": 0.007,
+     "ev": 0.012,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "p_model": 0.762,
+     "p_mkt": 0.553,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 1,
+       "value": 8.4,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 3.9,
+     "open": [
+      5.5,
+      1.671
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 27.5 PTS+REB+AST",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 27.5,
+     "odds": -120,
+     "dec": 1.833,
+     "odds_assumed": false,
+     "p": 0.551,
+     "implied": 0.545,
+     "edge": 0.006,
+     "ev": 0.011,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "p_model": 0.691,
+     "p_mkt": 0.505,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 14,
+       "value": 36.1,
+       "lg": 36.5,
+       "n": 30
+      }
+     },
+     "mean": 23.6,
+     "open": [
+      27.5,
+      1.833
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 8.5 REB+AST",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 8.5,
+     "odds": 107,
+     "dec": 2.07,
+     "odds_assumed": false,
+     "p": 0.488,
+     "implied": 0.483,
+     "edge": 0.005,
+     "ev": 0.01,
+     "value": false,
+     "stat": "ra",
+     "side": "under",
+     "p_model": 0.612,
+     "p_mkt": 0.447,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ]
+     },
+     "mean": 7.8,
+     "open": [
+      8.5,
+      2.07
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 22.5 PTS+AST",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 22.5,
+     "odds": -115,
+     "dec": 1.87,
+     "odds_assumed": false,
+     "p": 0.54,
+     "implied": 0.535,
+     "edge": 0.005,
+     "ev": 0.01,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "p_model": 0.676,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ]
+     },
+     "mean": 19.5,
+     "open": [
+      22.5,
+      1.87
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Over 2.5 Triples",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 2.5,
+     "odds": 110,
+     "dec": 2.1,
+     "odds_assumed": false,
+     "p": 0.48,
+     "implied": 0.476,
+     "edge": 0.004,
+     "ev": 0.008,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "p_model": 0.6,
+     "p_mkt": 0.44,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 27,
+       "value": 4.3,
+       "lg": 3.6,
+       "n": 30
+      }
+     },
+     "mean": 3.4,
+     "open": [
+      2.5,
+      2.1
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Josh Green Under 4.5 Puntos",
+     "player": "Josh Green",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": -133,
+     "dec": 1.752,
+     "odds_assumed": false,
+     "p": 0.575,
+     "implied": 0.571,
+     "edge": 0.005,
+     "ev": 0.008,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "p_model": 0.71,
+     "p_mkt": 0.531,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 24,
+       "value": 22.3,
+       "lg": 20.4,
+       "n": 30
+      }
+     },
+     "mean": 3.5,
+     "open": [
+      4.5,
+      1.752
+     ]
     },
     {
      "kind": "prop",
@@ -278678,134 +278850,22 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 5.5 Rebotes",
-     "player": "Ace Bailey",
+     "label": "Darryn Peterson Under 23.5 PTS+REB",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 5.5,
-     "odds": -149,
-     "dec": 1.671,
+     "line": 23.5,
+     "odds": -128,
+     "dec": 1.781,
      "odds_assumed": false,
-     "p": 0.6,
-     "implied": 0.598,
+     "p": 0.563,
+     "implied": 0.561,
      "edge": 0.001,
-     "ev": 0.002,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "p_model": 0.739,
-     "p_mkt": 0.553,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 1,
-       "value": 8.4,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.1,
-     "open": [
-      5.5,
-      1.671
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 7.5 REB+AST",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 7.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.599,
-     "implied": 0.598,
-     "edge": 0.001,
-     "ev": 0.001,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "p_model": 0.736,
-     "p_mkt": 0.553,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 5.8,
-     "open": [
-      7.5,
-      1.671
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 26.5 PTS+REB",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 26.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.518,
-     "implied": 0.519,
-     "edge": -0.001,
-     "ev": -0.002,
+     "ev": 0.003,
      "value": false,
      "stat": "pr",
-     "side": "over",
-     "p_model": 0.632,
-     "p_mkt": 0.48,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 32.7,
-     "open": [
-      26.5,
-      1.926
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Josh Green Under 4.5 Puntos",
-     "player": "Josh Green",
-     "team": "UTA",
-     "line": 4.5,
-     "odds": -133,
-     "dec": 1.752,
-     "odds_assumed": false,
-     "p": 0.57,
-     "implied": 0.571,
-     "edge": -0.001,
-     "ev": -0.002,
-     "value": false,
-     "stat": "pts",
      "side": "under",
-     "p_model": 0.687,
-     "p_mkt": 0.531,
+     "p_model": 0.693,
+     "p_mkt": 0.52,
      "cand": false,
      "hr": {
       "l10": [
@@ -278813,56 +278873,106 @@
        10
       ],
       "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 24,
-       "value": 22.3,
-       "lg": 20.4,
-       "n": 30
-      }
+       1,
+       1
+      ]
      },
-     "mean": 3.6,
+     "mean": 19.9,
      "open": [
-      4.5,
-      1.752
-     ]
+      23.5,
+      1.781
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 28.5 PTS+AST",
-     "player": "Keyonte George",
+     "label": "Darryn Peterson Under 18.5 Puntos",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 28.5,
+     "line": 18.5,
      "odds": -125,
      "dec": 1.8,
      "odds_assumed": false,
-     "p": 0.554,
+     "p": 0.556,
      "implied": 0.556,
-     "edge": -0.002,
-     "ev": -0.003,
+     "edge": -0.0,
+     "ev": -0.0,
      "value": false,
-     "stat": "pa",
-     "side": "over",
-     "p_model": 0.672,
+     "stat": "pts",
+     "side": "under",
+     "p_model": 0.678,
      "p_mkt": 0.515,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
-       4,
-       4
-      ]
+       1,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 7,
+       "value": 22.9,
+       "lg": 24.1,
+       "n": 30
+      }
      },
-     "mean": 36.3,
+     "mean": 15.8,
      "open": [
-      28.5,
+      18.5,
       1.8
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 1.5 Pérdidas",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": 107,
+     "dec": 2.07,
+     "odds_assumed": false,
+     "p": 0.481,
+     "implied": 0.483,
+     "edge": -0.002,
+     "ev": -0.004,
+     "value": false,
+     "stat": "tov",
+     "side": "under",
+     "p_model": 0.584,
+     "p_mkt": 0.447,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 28,
+       "value": 3.6,
+       "lg": 3.0,
+       "n": 30
+      }
+     },
+     "mean": 1.5,
+     "open": [
+      1.5,
+      2.07
      ]
     },
     {
@@ -278898,65 +279008,68 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 22.5 PTS+AST",
-     "player": "Darryn Peterson",
+     "label": "Ace Bailey Under 1.5 Triples",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 22.5,
-     "odds": -115,
-     "dec": 1.87,
+     "line": 1.5,
+     "odds": 135,
+     "dec": 2.35,
      "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.535,
-     "edge": -0.003,
+     "p": 0.423,
+     "implied": 0.426,
+     "edge": -0.002,
      "ev": -0.005,
      "value": false,
-     "stat": "pa",
+     "stat": "fg3m",
      "side": "under",
-     "p_model": 0.643,
-     "p_mkt": 0.495,
+     "p_model": 0.511,
+     "p_mkt": 0.394,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
-       1,
-       1
-      ]
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 12,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
      },
-     "mean": 20.4,
+     "mean": 1.7,
      "open": [
-      22.5,
-      1.87
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
+      1.5,
+      2.35
+     ]
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 27.5 PTS+REB+AST",
+     "label": "Darryn Peterson Under 4.5 Rebotes",
      "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 27.5,
-     "odds": -120,
-     "dec": 1.833,
+     "line": 4.5,
+     "odds": -108,
+     "dec": 1.926,
      "odds_assumed": false,
-     "p": 0.542,
-     "implied": 0.545,
+     "p": 0.515,
+     "implied": 0.519,
      "edge": -0.004,
      "ev": -0.007,
      "value": false,
-     "stat": "pra",
+     "stat": "reb",
      "side": "under",
-     "p_model": 0.653,
-     "p_mkt": 0.505,
+     "p_model": 0.62,
+     "p_mkt": 0.48,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
@@ -278965,63 +279078,21 @@
       ],
       "dvp": {
        "pos": "SG",
-       "rank": 14,
-       "value": 36.1,
-       "lg": 36.5,
+       "rank": 25,
+       "value": 7.4,
+       "lg": 6.8,
        "n": 30
       }
      },
-     "mean": 24.6,
+     "mean": 4.1,
      "open": [
-      27.5,
-      1.833
+      4.5,
+      1.926
      ],
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
      }
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 21.5 Puntos",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 21.5,
-     "odds": -125,
-     "dec": 1.8,
-     "odds_assumed": false,
-     "p": 0.55,
-     "implied": 0.556,
-     "edge": -0.006,
-     "ev": -0.01,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "p_model": 0.659,
-     "p_mkt": 0.514,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 27,
-       "value": 30.9,
-       "lg": 27.0,
-       "n": 30
-      }
-     },
-     "mean": 28.6,
-     "open": [
-      21.5,
-      1.8
-     ]
     },
     {
      "kind": "prop",
@@ -279102,22 +279173,22 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 8.5 REB+AST",
-     "player": "Darryn Peterson",
+     "label": "Keyonte George Over 33.5 PTS+REB+AST",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 8.5,
-     "odds": 107,
-     "dec": 2.07,
+     "line": 33.5,
+     "odds": -111,
+     "dec": 1.901,
      "odds_assumed": false,
-     "p": 0.478,
-     "implied": 0.483,
-     "edge": -0.005,
-     "ev": -0.011,
+     "p": 0.52,
+     "implied": 0.526,
+     "edge": -0.006,
+     "ev": -0.012,
      "value": false,
-     "stat": "ra",
-     "side": "under",
-     "p_model": 0.572,
-     "p_mkt": 0.447,
+     "stat": "pra",
+     "side": "over",
+     "p_model": 0.612,
+     "p_mkt": 0.489,
      "cand": false,
      "hr": {
       "l10": [
@@ -279125,104 +279196,22 @@
        10
       ],
       "h2h": [
-       1,
-       1
-      ]
-     },
-     "mean": 8.2,
-     "open": [
-      8.5,
-      2.07
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Under 18.5 Puntos",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 18.5,
-     "odds": -125,
-     "dec": 1.8,
-     "odds_assumed": false,
-     "p": 0.549,
-     "implied": 0.556,
-     "edge": -0.007,
-     "ev": -0.012,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "p_model": 0.651,
-     "p_mkt": 0.515,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       1
+       4,
+       4
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 7,
-       "value": 22.9,
-       "lg": 24.1,
+       "pos": "PG",
+       "rank": 26,
+       "value": 44.8,
+       "lg": 40.6,
        "n": 30
       }
      },
-     "mean": 16.5,
+     "mean": 39.2,
      "open": [
-      18.5,
-      1.8
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Under 23.5 PTS+REB",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 23.5,
-     "odds": -128,
-     "dec": 1.781,
-     "odds_assumed": false,
-     "p": 0.555,
-     "implied": 0.561,
-     "edge": -0.007,
-     "ev": -0.012,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "p_model": 0.661,
-     "p_mkt": 0.52,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ]
-     },
-     "mean": 20.7,
-     "open": [
-      23.5,
-      1.781
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
+      33.5,
+      1.901
+     ]
     },
     {
      "kind": "prop",
@@ -279268,86 +279257,72 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 1.5 Pérdidas",
-     "player": "Ace Bailey",
+     "label": "Keyonte George Over 28.5 PTS+AST",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 1.5,
-     "odds": 107,
-     "dec": 2.07,
+     "line": 28.5,
+     "odds": -125,
+     "dec": 1.8,
      "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.483,
-     "edge": -0.007,
-     "ev": -0.014,
+     "p": 0.547,
+     "implied": 0.556,
+     "edge": -0.009,
+     "ev": -0.016,
      "value": false,
-     "stat": "tov",
-     "side": "under",
-     "p_model": 0.566,
-     "p_mkt": 0.447,
+     "stat": "pa",
+     "side": "over",
+     "p_model": 0.642,
+     "p_mkt": 0.515,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       4,
        10
       ],
       "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 28,
-       "value": 3.6,
-       "lg": 3.0,
-       "n": 30
-      }
+       4,
+       4
+      ]
      },
-     "mean": 1.5,
+     "mean": 35.2,
      "open": [
-      1.5,
-      2.07
+      28.5,
+      1.8
      ]
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 1.5 Triples",
-     "player": "Ace Bailey",
+     "label": "Keyonte George Over 26.5 PTS+REB",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 1.5,
-     "odds": 135,
-     "dec": 2.35,
+     "line": 26.5,
+     "odds": -108,
+     "dec": 1.926,
      "odds_assumed": false,
-     "p": 0.418,
-     "implied": 0.426,
-     "edge": -0.007,
+     "p": 0.511,
+     "implied": 0.519,
+     "edge": -0.009,
      "ev": -0.017,
      "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "p_model": 0.491,
-     "p_mkt": 0.394,
+     "stat": "pr",
+     "side": "over",
+     "p_model": 0.601,
+     "p_mkt": 0.48,
      "cand": false,
      "hr": {
       "l10": [
-       7,
+       4,
        10
       ],
       "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 12,
-       "value": 2.4,
-       "lg": 2.6,
-       "n": 30
-      }
+       4,
+       4
+      ]
      },
-     "mean": 1.8,
+     "mean": 31.7,
      "open": [
-      1.5,
-      2.35
+      26.5,
+      1.926
      ]
     },
     {
@@ -279387,6 +279362,48 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Under 0.5 Robos",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": 142,
+     "dec": 2.42,
+     "odds_assumed": false,
+     "p": 0.405,
+     "implied": 0.413,
+     "edge": -0.008,
+     "ev": -0.019,
+     "value": false,
+     "stat": "stl",
+     "side": "under",
+     "p_model": 0.474,
+     "p_mkt": 0.383,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 26,
+       "value": 2.3,
+       "lg": 1.8,
+       "n": 30
+      }
+     },
+     "mean": 0.8,
+     "open": [
+      0.5,
+      2.42
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Luka Dončić Over 16.5 REB+AST",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -279422,6 +279439,48 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Over 21.5 Puntos",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 21.5,
+     "odds": -125,
+     "dec": 1.8,
+     "odds_assumed": false,
+     "p": 0.544,
+     "implied": 0.556,
+     "edge": -0.011,
+     "ev": -0.02,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "p_model": 0.636,
+     "p_mkt": 0.514,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 27,
+       "value": 30.9,
+       "lg": 27.0,
+       "n": 30
+      }
+     },
+     "mean": 27.7,
+     "open": [
+      21.5,
+      1.8
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Luka Dončić Over 43.5 PTS+AST",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -279452,6 +279511,90 @@
      "mean": 52.1,
      "open": [
       43.5,
+      1.8
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 1.5 Asistencias",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": 110,
+     "dec": 2.1,
+     "odds_assumed": false,
+     "p": 0.466,
+     "implied": 0.476,
+     "edge": -0.01,
+     "ev": -0.021,
+     "value": false,
+     "stat": "ast",
+     "side": "under",
+     "p_model": 0.545,
+     "p_mkt": 0.44,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 20,
+       "value": 5.1,
+       "lg": 4.7,
+       "n": 30
+      }
+     },
+     "mean": 1.6,
+     "open": [
+      1.5,
+      2.1
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 20.5 PTS+REB+AST",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 20.5,
+     "odds": -125,
+     "dec": 1.8,
+     "odds_assumed": false,
+     "p": 0.544,
+     "implied": 0.556,
+     "edge": -0.012,
+     "ev": -0.021,
+     "value": false,
+     "stat": "pra",
+     "side": "under",
+     "p_model": 0.631,
+     "p_mkt": 0.515,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 4,
+       "value": 34.5,
+       "lg": 38.4,
+       "n": 30
+      }
+     },
+     "mean": 18.8,
+     "open": [
+      20.5,
       1.8
      ]
     },
@@ -279530,22 +279673,103 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 4.5 Rebotes",
+     "label": "Ace Bailey Under 0.5 Robos",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": 118,
+     "dec": 2.18,
+     "odds_assumed": false,
+     "p": 0.449,
+     "implied": 0.459,
+     "edge": -0.01,
+     "ev": -0.022,
+     "value": false,
+     "stat": "stl",
+     "side": "under",
+     "p_model": 0.515,
+     "p_mkt": 0.426,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 26,
+       "value": 2.1,
+       "lg": 1.6,
+       "n": 30
+      }
+     },
+     "mean": 0.7,
+     "open": [
+      0.5,
+      2.18
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 1.5 Robos+Tapones",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": 112,
+     "dec": 2.12,
+     "odds_assumed": false,
+     "p": 0.461,
+     "implied": 0.472,
+     "edge": -0.011,
+     "ev": -0.023,
+     "value": false,
+     "stat": "stocks",
+     "side": "under",
+     "p_model": 0.53,
+     "p_mkt": 0.438,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 1.7,
+     "open": [
+      1.5,
+      2.12
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 4.5 Asistencias",
      "player": "Darryn Peterson",
      "team": "UTA",
      "line": 4.5,
-     "odds": -108,
-     "dec": 1.926,
+     "odds": -149,
+     "dec": 1.671,
      "odds_assumed": false,
-     "p": 0.508,
-     "implied": 0.519,
-     "edge": -0.012,
-     "ev": -0.022,
+     "p": 0.583,
+     "implied": 0.598,
+     "edge": -0.015,
+     "ev": -0.025,
      "value": false,
-     "stat": "reb",
+     "stat": "ast",
      "side": "under",
-     "p_model": 0.589,
-     "p_mkt": 0.48,
+     "p_model": 0.673,
+     "p_mkt": 0.553,
      "cand": false,
      "hr": {
       "l10": [
@@ -279558,16 +279782,62 @@
       ],
       "dvp": {
        "pos": "SG",
-       "rank": 25,
-       "value": 7.4,
-       "lg": 6.8,
+       "rank": 16,
+       "value": 5.8,
+       "lg": 5.7,
        "n": 30
       }
      },
-     "mean": 4.3,
+     "mean": 3.7,
      "open": [
       4.5,
-      1.926
+      1.671
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 1.5 Robos",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": -182,
+     "dec": 1.549,
+     "odds_assumed": false,
+     "p": 0.629,
+     "implied": 0.645,
+     "edge": -0.017,
+     "ev": -0.026,
+     "value": false,
+     "stat": "stl",
+     "side": "under",
+     "p_model": 0.717,
+     "p_mkt": 0.6,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 6,
+       "value": 1.5,
+       "lg": 1.8,
+       "n": 30
+      }
+     },
+     "mean": 1.1,
+     "open": [
+      1.5,
+      1.549
      ],
      "flag": {
       "t": "rookie",
@@ -279618,22 +279888,22 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Under 0.5 Robos",
-     "player": "Keyonte George",
+     "label": "Ace Bailey Under 18.5 PTS+REB",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 0.5,
-     "odds": 142,
-     "dec": 2.42,
+     "line": 18.5,
+     "odds": -125,
+     "dec": 1.8,
      "odds_assumed": false,
-     "p": 0.402,
-     "implied": 0.413,
-     "edge": -0.011,
+     "p": 0.54,
+     "implied": 0.556,
+     "edge": -0.015,
      "ev": -0.028,
      "value": false,
-     "stat": "stl",
+     "stat": "pr",
      "side": "under",
-     "p_model": 0.459,
-     "p_mkt": 0.383,
+     "p_model": 0.62,
+     "p_mkt": 0.514,
      "cand": false,
      "hr": {
       "l10": [
@@ -279641,21 +279911,14 @@
        10
       ],
       "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 2.3,
-       "lg": 1.8,
-       "n": 30
-      }
+       3,
+       5
+      ]
      },
-     "mean": 0.8,
+     "mean": 17.2,
      "open": [
-      0.5,
-      2.42
+      18.5,
+      1.8
      ]
     },
     {
@@ -279737,48 +280000,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 0.5 Robos",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": 118,
-     "dec": 2.18,
-     "odds_assumed": false,
-     "p": 0.444,
-     "implied": 0.459,
-     "edge": -0.015,
-     "ev": -0.033,
-     "value": false,
-     "stat": "stl",
-     "side": "under",
-     "p_model": 0.495,
-     "p_mkt": 0.426,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 26,
-       "value": 2.1,
-       "lg": 1.6,
-       "n": 30
-      }
-     },
-     "mean": 0.8,
-     "open": [
-      0.5,
-      2.18
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Luka Dončić Under 4.5 Triples",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -279821,22 +280042,22 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 1.5 Robos",
-     "player": "Darryn Peterson",
+     "label": "Keyonte George Under 1.5 Robos+Tapones",
+     "player": "Keyonte George",
      "team": "UTA",
      "line": 1.5,
      "odds": -182,
      "dec": 1.549,
      "odds_assumed": false,
-     "p": 0.624,
+     "p": 0.623,
      "implied": 0.645,
-     "edge": -0.022,
-     "ev": -0.034,
+     "edge": -0.023,
+     "ev": -0.035,
      "value": false,
-     "stat": "stl",
+     "stat": "stocks",
      "side": "under",
-     "p_model": 0.696,
-     "p_mkt": 0.6,
+     "p_model": 0.699,
+     "p_mkt": 0.598,
      "cand": false,
      "hr": {
       "l10": [
@@ -279844,153 +280065,15 @@
        10
       ],
       "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 6,
-       "value": 1.5,
-       "lg": 1.8,
-       "n": 30
-      }
+       3,
+       4
+      ]
      },
      "mean": 1.1,
      "open": [
       1.5,
       1.549
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 1.5 Asistencias",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": 110,
-     "dec": 2.1,
-     "odds_assumed": false,
-     "p": 0.459,
-     "implied": 0.476,
-     "edge": -0.017,
-     "ev": -0.035,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "p_model": 0.518,
-     "p_mkt": 0.44,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 20,
-       "value": 5.1,
-       "lg": 4.7,
-       "n": 30
-      }
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      2.1
      ]
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Under 4.5 Asistencias",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 4.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.576,
-     "implied": 0.598,
-     "edge": -0.022,
-     "ev": -0.037,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "p_model": 0.646,
-     "p_mkt": 0.553,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 16,
-       "value": 5.8,
-       "lg": 5.7,
-       "n": 30
-      }
-     },
-     "mean": 3.9,
-     "open": [
-      4.5,
-      1.671
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Under 1.5 Robos+Tapones",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": 112,
-     "dec": 2.12,
-     "odds_assumed": false,
-     "p": 0.454,
-     "implied": 0.472,
-     "edge": -0.017,
-     "ev": -0.037,
-     "value": false,
-     "stat": "stocks",
-     "side": "under",
-     "p_model": 0.505,
-     "p_mkt": 0.438,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      2.12
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
     },
     {
      "kind": "prop",
@@ -280032,48 +280115,6 @@
      "open": [
       0.5,
       1.649
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 20.5 PTS+REB+AST",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 20.5,
-     "odds": -125,
-     "dec": 1.8,
-     "odds_assumed": false,
-     "p": 0.534,
-     "implied": 0.556,
-     "edge": -0.022,
-     "ev": -0.039,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "p_model": 0.591,
-     "p_mkt": 0.515,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 4,
-       "value": 34.5,
-       "lg": 38.4,
-       "n": 30
-      }
-     },
-     "mean": 19.6,
-     "open": [
-      20.5,
-      1.8
      ]
     },
     {
@@ -280144,41 +280185,6 @@
      "open": [
       2.5,
       1.8
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 1.5 Robos+Tapones",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": -182,
-     "dec": 1.549,
-     "odds_assumed": false,
-     "p": 0.619,
-     "implied": 0.645,
-     "edge": -0.026,
-     "ev": -0.041,
-     "value": false,
-     "stat": "stocks",
-     "side": "under",
-     "p_model": 0.685,
-     "p_mkt": 0.598,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ]
-     },
-     "mean": 1.1,
-     "open": [
-      1.5,
-      1.549
      ]
     },
     {
@@ -280267,6 +280273,41 @@
     },
     {
      "kind": "prop",
+     "label": "Ace Bailey Under 14.5 PTS+AST",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 14.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.497,
+     "implied": 0.519,
+     "edge": -0.023,
+     "ev": -0.044,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "p_model": 0.545,
+     "p_mkt": 0.48,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ]
+     },
+     "mean": 14.8,
+     "open": [
+      14.5,
+      1.926
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Luka Dončić Over 8.5 Asistencias",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -280305,83 +280346,6 @@
      "open": [
       8.5,
       1.952
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 18.5 PTS+REB",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 18.5,
-     "odds": -125,
-     "dec": 1.8,
-     "odds_assumed": false,
-     "p": 0.531,
-     "implied": 0.556,
-     "edge": -0.025,
-     "ev": -0.045,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "p_model": 0.582,
-     "p_mkt": 0.514,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 18.0,
-     "open": [
-      18.5,
-      1.8
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 0.5 Tapones",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": -118,
-     "dec": 1.847,
-     "odds_assumed": false,
-     "p": 0.516,
-     "implied": 0.541,
-     "edge": -0.025,
-     "ev": -0.046,
-     "value": false,
-     "stat": "blk",
-     "side": "over",
-     "p_model": 0.566,
-     "p_mkt": 0.5,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 0.9,
-       "lg": 1.1,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      0.5,
-      1.847
      ]
     },
     {
@@ -280428,6 +280392,90 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Under 4.5 Rebotes",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": -154,
+     "dec": 1.649,
+     "odds_assumed": false,
+     "p": 0.578,
+     "implied": 0.606,
+     "edge": -0.028,
+     "ev": -0.047,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "p_model": 0.632,
+     "p_mkt": 0.56,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 9,
+       "value": 5.4,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 4.0,
+     "open": [
+      4.5,
+      1.649
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Under 3.5 Pérdidas",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 3.5,
+     "odds": -128,
+     "dec": 1.781,
+     "odds_assumed": false,
+     "p": 0.534,
+     "implied": 0.561,
+     "edge": -0.027,
+     "ev": -0.048,
+     "value": false,
+     "stat": "tov",
+     "side": "under",
+     "p_model": 0.579,
+     "p_mkt": 0.52,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 19,
+       "value": 3.8,
+       "lg": 3.6,
+       "n": 30
+      }
+     },
+     "mean": 3.4,
+     "open": [
+      3.5,
+      1.781
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Luka Dončić Over 7.5 Rebotes",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -280466,6 +280514,48 @@
      "open": [
       7.5,
       1.847
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 12.5 Puntos",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 12.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.487,
+     "implied": 0.512,
+     "edge": -0.026,
+     "ev": -0.05,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "p_model": 0.527,
+     "p_mkt": 0.473,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 21.0,
+       "lg": 23.2,
+       "n": 30
+      }
+     },
+     "mean": 13.2,
+     "open": [
+      12.5,
+      1.952
      ]
     },
     {
@@ -280617,6 +280707,48 @@
     },
     {
      "kind": "prop",
+     "label": "Ace Bailey Over 0.5 Tapones",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": -118,
+     "dec": 1.847,
+     "odds_assumed": false,
+     "p": 0.512,
+     "implied": 0.541,
+     "edge": -0.029,
+     "ev": -0.054,
+     "value": false,
+     "stat": "blk",
+     "side": "over",
+     "p_model": 0.548,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 0.9,
+       "lg": 1.1,
+       "n": 30
+      }
+     },
+     "mean": 0.9,
+     "open": [
+      0.5,
+      1.847
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Walker Kessler Over 15.5 PTS+AST",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -280652,44 +280784,44 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Under 4.5 Rebotes",
+     "label": "Keyonte George Under 0.5 Tapones",
      "player": "Keyonte George",
      "team": "UTA",
-     "line": 4.5,
-     "odds": -154,
-     "dec": 1.649,
+     "line": 0.5,
+     "odds": -303,
+     "dec": 1.33,
      "odds_assumed": false,
-     "p": 0.572,
-     "implied": 0.606,
-     "edge": -0.034,
-     "ev": -0.056,
+     "p": 0.709,
+     "implied": 0.752,
+     "edge": -0.043,
+     "ev": -0.057,
      "value": false,
-     "stat": "reb",
+     "stat": "blk",
      "side": "under",
-     "p_model": 0.609,
-     "p_mkt": 0.56,
+     "p_model": 0.746,
+     "p_mkt": 0.696,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       7,
        10
       ],
       "h2h": [
-       2,
+       4,
        4
       ],
       "dvp": {
        "pos": "PG",
-       "rank": 9,
-       "value": 5.4,
-       "lg": 5.7,
+       "rank": 16,
+       "value": 0.6,
+       "lg": 0.6,
        "n": 30
       }
      },
-     "mean": 4.1,
+     "mean": 0.3,
      "open": [
-      4.5,
-      1.649
+      0.5,
+      1.33
      ]
     },
     {
@@ -280778,48 +280910,6 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Under 0.5 Tapones",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": -303,
-     "dec": 1.33,
-     "odds_assumed": false,
-     "p": 0.708,
-     "implied": 0.752,
-     "edge": -0.044,
-     "ev": -0.058,
-     "value": false,
-     "stat": "blk",
-     "side": "under",
-     "p_model": 0.743,
-     "p_mkt": 0.696,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 16,
-       "value": 0.6,
-       "lg": 0.6,
-       "n": 30
-      }
-     },
-     "mean": 0.3,
-     "open": [
-      0.5,
-      1.33
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Luka Dončić Under 0.5 Tapones",
      "player": "Luka Dončić",
      "team": "LAL",
@@ -280858,118 +280948,6 @@
      "open": [
       0.5,
       1.8
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 3.5 Pérdidas",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 3.5,
-     "odds": -128,
-     "dec": 1.781,
-     "odds_assumed": false,
-     "p": 0.528,
-     "implied": 0.561,
-     "edge": -0.034,
-     "ev": -0.06,
-     "value": false,
-     "stat": "tov",
-     "side": "under",
-     "p_model": 0.553,
-     "p_mkt": 0.52,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 19,
-       "value": 3.8,
-       "lg": 3.6,
-       "n": 30
-      }
-     },
-     "mean": 3.5,
-     "open": [
-      3.5,
-      1.781
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 14.5 PTS+AST",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 14.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.519,
-     "edge": -0.031,
-     "ev": -0.06,
-     "value": false,
-     "stat": "pa",
-     "side": "under",
-     "p_model": 0.511,
-     "p_mkt": 0.48,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 15.5,
-     "open": [
-      14.5,
-      1.926
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 11.5 REB+AST",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 11.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.481,
-     "implied": 0.512,
-     "edge": -0.031,
-     "ev": -0.061,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "p_model": 0.505,
-     "p_mkt": 0.473,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 11.9,
-     "open": [
-      11.5,
-      1.952
      ]
     },
     {
@@ -281016,22 +280994,68 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 1.5 Robos+Tapones",
-     "player": "Ace Bailey",
+     "label": "Darryn Peterson Under 2.5 Triples",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 1.5,
-     "odds": -102,
-     "dec": 1.98,
+     "line": 2.5,
+     "odds": -167,
+     "dec": 1.599,
      "odds_assumed": false,
-     "p": 0.473,
-     "implied": 0.505,
-     "edge": -0.032,
+     "p": 0.586,
+     "implied": 0.625,
+     "edge": -0.039,
+     "ev": -0.062,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "p_model": 0.615,
+     "p_mkt": 0.577,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 18,
+       "value": 3.5,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 2.3,
+     "open": [
+      2.5,
+      1.599
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Under 0.5 Tapones",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": -149,
+     "dec": 1.671,
+     "odds_assumed": false,
+     "p": 0.561,
+     "implied": 0.598,
+     "edge": -0.038,
      "ev": -0.063,
      "value": false,
-     "stat": "stocks",
-     "side": "over",
-     "p_model": 0.484,
-     "p_mkt": 0.469,
+     "stat": "blk",
+     "side": "under",
+     "p_model": 0.583,
+     "p_mkt": 0.553,
      "cand": false,
      "hr": {
       "l10": [
@@ -281040,14 +281064,25 @@
       ],
       "h2h": [
        0,
-       5
-      ]
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 7,
+       "value": 0.5,
+       "lg": 0.6,
+       "n": 30
+      }
      },
-     "mean": 1.7,
+     "mean": 0.6,
      "open": [
-      1.5,
-      1.98
-     ]
+      0.5,
+      1.671
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
     },
     {
      "kind": "prop",
@@ -281089,48 +281124,6 @@
      "open": [
       4.5,
       1.699
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 6.5 Asistencias",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 6.5,
-     "odds": -154,
-     "dec": 1.649,
-     "odds_assumed": false,
-     "p": 0.567,
-     "implied": 0.606,
-     "edge": -0.039,
-     "ev": -0.065,
-     "value": false,
-     "stat": "ast",
-     "side": "over",
-     "p_model": 0.588,
-     "p_mkt": 0.56,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 8.6,
-       "lg": 8.0,
-       "n": 30
-      }
-     },
-     "mean": 7.7,
-     "open": [
-      6.5,
-      1.649
      ]
     },
     {
@@ -281177,22 +281170,22 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 12.5 Puntos",
+     "label": "Ace Bailey Under 1.5 Robos+Tapones",
      "player": "Ace Bailey",
      "team": "UTA",
-     "line": 12.5,
-     "odds": -105,
-     "dec": 1.952,
+     "line": 1.5,
+     "odds": -133,
+     "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.479,
-     "implied": 0.512,
-     "edge": -0.033,
+     "p": 0.534,
+     "implied": 0.571,
+     "edge": -0.037,
      "ev": -0.065,
      "value": false,
-     "stat": "pts",
+     "stat": "stocks",
      "side": "under",
-     "p_model": 0.497,
-     "p_mkt": 0.473,
+     "p_model": 0.543,
+     "p_mkt": 0.531,
      "cand": false,
      "hr": {
       "l10": [
@@ -281200,68 +281193,15 @@
        10
       ],
       "h2h": [
-       1,
+       5,
        5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 21.0,
-       "lg": 23.2,
-       "n": 30
-      }
+      ]
      },
-     "mean": 13.8,
+     "mean": 1.6,
      "open": [
-      12.5,
-      1.952
+      1.5,
+      1.752
      ]
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Under 0.5 Tapones",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.558,
-     "implied": 0.598,
-     "edge": -0.04,
-     "ev": -0.067,
-     "value": false,
-     "stat": "blk",
-     "side": "under",
-     "p_model": 0.573,
-     "p_mkt": 0.553,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 7,
-       "value": 0.5,
-       "lg": 0.6,
-       "n": 30
-      }
-     },
-     "mean": 0.6,
-     "open": [
-      0.5,
-      1.671
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
     },
     {
      "kind": "prop",
@@ -281349,49 +281289,38 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Under 2.5 Triples",
-     "player": "Darryn Peterson",
+     "label": "Keyonte George Under 11.5 REB+AST",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 2.5,
-     "odds": -167,
-     "dec": 1.599,
+     "line": 11.5,
+     "odds": -133,
+     "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.582,
-     "implied": 0.625,
-     "edge": -0.043,
-     "ev": -0.07,
+     "p": 0.53,
+     "implied": 0.571,
+     "edge": -0.041,
+     "ev": -0.072,
      "value": false,
-     "stat": "fg3m",
+     "stat": "ra",
      "side": "under",
-     "p_model": 0.597,
-     "p_mkt": 0.577,
+     "p_model": 0.538,
+     "p_mkt": 0.527,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 18,
-       "value": 3.5,
-       "lg": 3.4,
-       "n": 30
-      }
+       0,
+       4
+      ]
      },
-     "mean": 2.4,
+     "mean": 11.4,
      "open": [
-      2.5,
-      1.599
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
+      11.5,
+      1.752
+     ]
     },
     {
      "kind": "prop",
@@ -281556,37 +281485,121 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Under 1.5 Robos+Tapones",
-     "player": "Ace Bailey",
+     "label": "Keyonte George Under 6.5 Asistencias",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 1.5,
-     "odds": -133,
-     "dec": 1.752,
+     "line": 6.5,
+     "odds": 110,
+     "dec": 2.1,
      "odds_assumed": false,
-     "p": 0.527,
-     "implied": 0.571,
-     "edge": -0.044,
-     "ev": -0.077,
+     "p": 0.44,
+     "implied": 0.476,
+     "edge": -0.036,
+     "ev": -0.076,
      "value": false,
-     "stat": "stocks",
+     "stat": "ast",
      "side": "under",
-     "p_model": 0.516,
-     "p_mkt": 0.531,
+     "p_model": 0.441,
+     "p_mkt": 0.44,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       3,
        10
       ],
       "h2h": [
-       5,
+       0,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 23,
+       "value": 8.6,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 7.5,
+     "open": [
+      6.5,
+      2.1
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Over 6.5 Asistencias",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 6.5,
+     "odds": -154,
+     "dec": 1.649,
+     "odds_assumed": false,
+     "p": 0.56,
+     "implied": 0.606,
+     "edge": -0.047,
+     "ev": -0.077,
+     "value": false,
+     "stat": "ast",
+     "side": "over",
+     "p_model": 0.559,
+     "p_mkt": 0.56,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 23,
+       "value": 8.6,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 7.5,
+     "open": [
+      6.5,
+      1.649
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 1.5 Robos+Tapones",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": -102,
+     "dec": 1.98,
+     "odds_assumed": false,
+     "p": 0.466,
+     "implied": 0.505,
+     "edge": -0.039,
+     "ev": -0.077,
+     "value": false,
+     "stat": "stocks",
+     "side": "over",
+     "p_model": 0.457,
+     "p_mkt": 0.469,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
        5
       ]
      },
-     "mean": 1.7,
+     "mean": 1.6,
      "open": [
       1.5,
-      1.752
+      1.98
      ]
     },
     {
@@ -281794,6 +281807,41 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Over 11.5 REB+AST",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 11.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.47,
+     "implied": 0.512,
+     "edge": -0.042,
+     "ev": -0.082,
+     "value": false,
+     "stat": "ra",
+     "side": "over",
+     "p_model": 0.462,
+     "p_mkt": 0.473,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ]
+     },
+     "mean": 11.4,
+     "open": [
+      11.5,
+      1.952
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Walker Kessler Under 1.5 Tapones",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -281832,94 +281880,6 @@
      "open": [
       1.5,
       1.98
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 0.5 Tapones",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": 107,
-     "dec": 2.07,
-     "odds_assumed": false,
-     "p": 0.442,
-     "implied": 0.483,
-     "edge": -0.041,
-     "ev": -0.086,
-     "value": false,
-     "stat": "blk",
-     "side": "over",
-     "p_model": 0.427,
-     "p_mkt": 0.447,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 7,
-       "value": 0.5,
-       "lg": 0.6,
-       "n": 30
-      }
-     },
-     "mean": 0.6,
-     "open": [
-      0.5,
-      2.07
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 12.5 Puntos",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 12.5,
-     "odds": -133,
-     "dec": 1.752,
-     "odds_assumed": false,
-     "p": 0.521,
-     "implied": 0.571,
-     "edge": -0.05,
-     "ev": -0.087,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "p_model": 0.503,
-     "p_mkt": 0.527,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 6,
-       "value": 21.0,
-       "lg": 23.2,
-       "n": 30
-      }
-     },
-     "mean": 13.8,
-     "open": [
-      12.5,
-      1.752
      ]
     },
     {
@@ -282008,41 +281968,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 14.5 PTS+AST",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 14.5,
-     "odds": -128,
-     "dec": 1.781,
-     "odds_assumed": false,
-     "p": 0.512,
-     "implied": 0.561,
-     "edge": -0.05,
-     "ev": -0.088,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "p_model": 0.489,
-     "p_mkt": 0.52,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 15.5,
-     "open": [
-      14.5,
-      1.781
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Matisse Thybulle Under 7.5 PTS+AST",
      "player": "Matisse Thybulle",
      "team": "LAL",
@@ -282075,52 +282000,6 @@
       7.5,
       1.752
      ]
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 2.5 Triples",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 2.5,
-     "odds": 118,
-     "dec": 2.18,
-     "odds_assumed": false,
-     "p": 0.418,
-     "implied": 0.459,
-     "edge": -0.041,
-     "ev": -0.089,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "p_model": 0.403,
-     "p_mkt": 0.423,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 18,
-       "value": 3.5,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 2.4,
-     "open": [
-      2.5,
-      2.18
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
     },
     {
      "kind": "prop",
@@ -282166,122 +282045,49 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Under 6.5 Asistencias",
-     "player": "Keyonte George",
+     "label": "Darryn Peterson Over 0.5 Tapones",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 6.5,
-     "odds": 110,
-     "dec": 2.1,
+     "line": 0.5,
+     "odds": 107,
+     "dec": 2.07,
      "odds_assumed": false,
-     "p": 0.433,
-     "implied": 0.476,
-     "edge": -0.043,
+     "p": 0.439,
+     "implied": 0.483,
+     "edge": -0.044,
      "ev": -0.091,
      "value": false,
-     "stat": "ast",
-     "side": "under",
-     "p_model": 0.412,
-     "p_mkt": 0.44,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 8.6,
-       "lg": 8.0,
-       "n": 30
-      }
-     },
-     "mean": 7.7,
-     "open": [
-      6.5,
-      2.1
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 3.5 Pérdidas",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 3.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.472,
-     "implied": 0.519,
-     "edge": -0.047,
-     "ev": -0.091,
-     "value": false,
-     "stat": "tov",
+     "stat": "blk",
      "side": "over",
-     "p_model": 0.447,
-     "p_mkt": 0.48,
+     "p_model": 0.417,
+     "p_mkt": 0.447,
      "cand": false,
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
-       2,
-       4
+       1,
+       1
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 19,
-       "value": 3.8,
-       "lg": 3.6,
+       "pos": "SG",
+       "rank": 7,
+       "value": 0.5,
+       "lg": 0.6,
        "n": 30
       }
      },
-     "mean": 3.5,
+     "mean": 0.6,
      "open": [
-      3.5,
-      1.926
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 11.5 REB+AST",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 11.5,
-     "odds": -133,
-     "dec": 1.752,
-     "odds_assumed": false,
-     "p": 0.519,
-     "implied": 0.571,
-     "edge": -0.052,
-     "ev": -0.091,
-     "value": false,
-     "stat": "ra",
-     "side": "under",
-     "p_model": 0.495,
-     "p_mkt": 0.527,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ]
-     },
-     "mean": 11.9,
-     "open": [
-      11.5,
-      1.752
-     ]
+      0.5,
+      2.07
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
     },
     {
      "kind": "prop",
@@ -282505,45 +282311,49 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 0.5 Robos",
-     "player": "Ace Bailey",
+     "label": "Darryn Peterson Over 2.5 Triples",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 0.5,
-     "odds": -161,
-     "dec": 1.621,
+     "line": 2.5,
+     "odds": 118,
+     "dec": 2.18,
      "odds_assumed": false,
-     "p": 0.556,
-     "implied": 0.617,
-     "edge": -0.061,
+     "p": 0.414,
+     "implied": 0.459,
+     "edge": -0.045,
      "ev": -0.098,
      "value": false,
-     "stat": "stl",
+     "stat": "fg3m",
      "side": "over",
-     "p_model": 0.505,
-     "p_mkt": 0.574,
+     "p_model": 0.385,
+     "p_mkt": 0.423,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
-       3,
-       5
+       0,
+       1
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 26,
-       "value": 2.1,
-       "lg": 1.6,
+       "pos": "SG",
+       "rank": 18,
+       "value": 3.5,
+       "lg": 3.4,
        "n": 30
       }
      },
-     "mean": 0.8,
+     "mean": 2.3,
      "open": [
-      0.5,
-      1.621
-     ]
+      2.5,
+      2.18
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
     },
     {
      "kind": "spread",
@@ -282574,6 +282384,48 @@
      "open": [
       10.5,
       1.893
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Under 0.5 Tapones",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": -118,
+     "dec": 1.847,
+     "odds_assumed": false,
+     "p": 0.488,
+     "implied": 0.541,
+     "edge": -0.053,
+     "ev": -0.099,
+     "value": false,
+     "stat": "blk",
+     "side": "under",
+     "p_model": 0.452,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 0.9,
+       "lg": 1.1,
+       "n": 30
+      }
+     },
+     "mean": 0.9,
+     "open": [
+      0.5,
+      1.847
      ]
     },
     {
@@ -282609,65 +282461,68 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Over 1.5 Robos+Tapones",
-     "player": "Darryn Peterson",
+     "label": "Ace Bailey Over 12.5 Puntos",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 1.5,
-     "odds": -154,
-     "dec": 1.649,
+     "line": 12.5,
+     "odds": -133,
+     "dec": 1.752,
      "odds_assumed": false,
-     "p": 0.546,
-     "implied": 0.606,
-     "edge": -0.061,
+     "p": 0.513,
+     "implied": 0.571,
+     "edge": -0.057,
      "ev": -0.1,
      "value": false,
-     "stat": "stocks",
+     "stat": "pts",
      "side": "over",
-     "p_model": 0.495,
-     "p_mkt": 0.562,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ]
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      1.649
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 4.5 Rebotes",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 4.5,
-     "odds": 110,
-     "dec": 2.1,
-     "odds_assumed": false,
-     "p": 0.428,
-     "implied": 0.476,
-     "edge": -0.049,
-     "ev": -0.102,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "p_model": 0.391,
-     "p_mkt": 0.44,
+     "p_model": 0.473,
+     "p_mkt": 0.527,
      "cand": false,
      "hr": {
       "l10": [
        4,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 6,
+       "value": 21.0,
+       "lg": 23.2,
+       "n": 30
+      }
+     },
+     "mean": 13.2,
+     "open": [
+      12.5,
+      1.752
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Over 3.5 Pérdidas",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 3.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.466,
+     "implied": 0.519,
+     "edge": -0.054,
+     "ev": -0.103,
+     "value": false,
+     "stat": "tov",
+     "side": "over",
+     "p_model": 0.421,
+     "p_mkt": 0.48,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
        10
       ],
       "h2h": [
@@ -282676,36 +282531,36 @@
       ],
       "dvp": {
        "pos": "PG",
-       "rank": 9,
-       "value": 5.4,
-       "lg": 5.7,
+       "rank": 19,
+       "value": 3.8,
+       "lg": 3.6,
        "n": 30
       }
      },
-     "mean": 4.1,
+     "mean": 3.4,
      "open": [
-      4.5,
-      2.1
+      3.5,
+      1.926
      ]
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 0.5 Robos",
-     "player": "Keyonte George",
+     "label": "Ace Bailey Over 14.5 PTS+AST",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 0.5,
-     "odds": -200,
-     "dec": 1.5,
+     "line": 14.5,
+     "odds": -128,
+     "dec": 1.781,
      "odds_assumed": false,
-     "p": 0.598,
-     "implied": 0.667,
-     "edge": -0.068,
+     "p": 0.503,
+     "implied": 0.561,
+     "edge": -0.058,
      "ev": -0.103,
      "value": false,
-     "stat": "stl",
+     "stat": "pa",
      "side": "over",
-     "p_model": 0.541,
-     "p_mkt": 0.617,
+     "p_model": 0.455,
+     "p_mkt": 0.52,
      "cand": false,
      "hr": {
       "l10": [
@@ -282714,20 +282569,13 @@
       ],
       "h2h": [
        3,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 2.3,
-       "lg": 1.8,
-       "n": 30
-      }
+       5
+      ]
      },
-     "mean": 0.8,
+     "mean": 14.8,
      "open": [
-      0.5,
-      1.5
+      14.5,
+      1.781
      ]
     },
     {
@@ -282816,6 +282664,48 @@
     },
     {
      "kind": "prop",
+     "label": "Ace Bailey Over 0.5 Robos",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": -161,
+     "dec": 1.621,
+     "odds_assumed": false,
+     "p": 0.551,
+     "implied": 0.617,
+     "edge": -0.066,
+     "ev": -0.106,
+     "value": false,
+     "stat": "stl",
+     "side": "over",
+     "p_model": 0.485,
+     "p_mkt": 0.574,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 26,
+       "value": 2.1,
+       "lg": 1.6,
+       "n": 30
+      }
+     },
+     "mean": 0.7,
+     "open": [
+      0.5,
+      1.621
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Walker Kessler Under 12.5 REB+AST",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -282847,48 +282737,6 @@
      "open": [
       12.5,
       1.781
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Under 0.5 Tapones",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": -118,
-     "dec": 1.847,
-     "odds_assumed": false,
-     "p": 0.483,
-     "implied": 0.541,
-     "edge": -0.058,
-     "ev": -0.107,
-     "value": false,
-     "stat": "blk",
-     "side": "under",
-     "p_model": 0.434,
-     "p_mkt": 0.5,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 0.9,
-       "lg": 1.1,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      0.5,
-      1.847
      ]
     },
     {
@@ -282935,6 +282783,48 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Over 0.5 Robos",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": -200,
+     "dec": 1.5,
+     "odds_assumed": false,
+     "p": 0.595,
+     "implied": 0.667,
+     "edge": -0.072,
+     "ev": -0.108,
+     "value": false,
+     "stat": "stl",
+     "side": "over",
+     "p_model": 0.526,
+     "p_mkt": 0.617,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 26,
+       "value": 2.3,
+       "lg": 1.8,
+       "n": 30
+      }
+     },
+     "mean": 0.8,
+     "open": [
+      0.5,
+      1.5
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Walker Kessler Under 0.5 Robos",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -282977,83 +282867,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 18.5 PTS+REB",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 18.5,
-     "odds": -111,
-     "dec": 1.901,
-     "odds_assumed": false,
-     "p": 0.469,
-     "implied": 0.526,
-     "edge": -0.057,
-     "ev": -0.108,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "p_model": 0.418,
-     "p_mkt": 0.486,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 18.0,
-     "open": [
-      18.5,
-      1.901
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Over 0.5 Tapones",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 0.5,
-     "odds": 205,
-     "dec": 3.05,
-     "odds_assumed": false,
-     "p": 0.292,
-     "implied": 0.328,
-     "edge": -0.036,
-     "ev": -0.109,
-     "value": false,
-     "stat": "blk",
-     "side": "over",
-     "p_model": 0.257,
-     "p_mkt": 0.304,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 16,
-       "value": 0.6,
-       "lg": 0.6,
-       "n": 30
-      }
-     },
-     "mean": 0.3,
-     "open": [
-      0.5,
-      3.05
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Walker Kessler Under 2.5 Robos+Tapones",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -283085,48 +282898,6 @@
      "open": [
       2.5,
       1.909
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 1.5 Asistencias",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": -154,
-     "dec": 1.649,
-     "odds_assumed": false,
-     "p": 0.541,
-     "implied": 0.606,
-     "edge": -0.066,
-     "ev": -0.109,
-     "value": false,
-     "stat": "ast",
-     "side": "over",
-     "p_model": 0.482,
-     "p_mkt": 0.56,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 20,
-       "value": 5.1,
-       "lg": 4.7,
-       "n": 30
-      }
-     },
-     "mean": 1.7,
-     "open": [
-      1.5,
-      1.649
      ]
     },
     {
@@ -283166,22 +282937,103 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 20.5 PTS+REB+AST",
-     "player": "Ace Bailey",
+     "label": "Darryn Peterson Over 1.5 Robos+Tapones",
+     "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 20.5,
-     "odds": -110,
-     "dec": 1.909,
+     "line": 1.5,
+     "odds": -154,
+     "dec": 1.649,
      "odds_assumed": false,
-     "p": 0.466,
-     "implied": 0.524,
-     "edge": -0.058,
-     "ev": -0.11,
+     "p": 0.539,
+     "implied": 0.606,
+     "edge": -0.067,
+     "ev": -0.111,
      "value": false,
-     "stat": "pra",
+     "stat": "stocks",
      "side": "over",
-     "p_model": 0.409,
-     "p_mkt": 0.485,
+     "p_model": 0.47,
+     "p_mkt": 0.562,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       1
+      ]
+     },
+     "mean": 1.7,
+     "open": [
+      1.5,
+      1.649
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Over 0.5 Tapones",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 0.5,
+     "odds": 205,
+     "dec": 3.05,
+     "odds_assumed": false,
+     "p": 0.291,
+     "implied": 0.328,
+     "edge": -0.037,
+     "ev": -0.112,
+     "value": false,
+     "stat": "blk",
+     "side": "over",
+     "p_model": 0.254,
+     "p_mkt": 0.304,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       0,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 16,
+       "value": 0.6,
+       "lg": 0.6,
+       "n": 30
+      }
+     },
+     "mean": 0.3,
+     "open": [
+      0.5,
+      3.05
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Over 4.5 Rebotes",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": 110,
+     "dec": 2.1,
+     "odds_assumed": false,
+     "p": 0.422,
+     "implied": 0.476,
+     "edge": -0.054,
+     "ev": -0.114,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "p_model": 0.368,
+     "p_mkt": 0.44,
      "cand": false,
      "hr": {
       "l10": [
@@ -283190,62 +283042,20 @@
       ],
       "h2h": [
        2,
-       5
+       4
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 4,
-       "value": 34.5,
-       "lg": 38.4,
+       "pos": "PG",
+       "rank": 9,
+       "value": 5.4,
+       "lg": 5.7,
        "n": 30
       }
      },
-     "mean": 19.6,
+     "mean": 4.0,
      "open": [
-      20.5,
-      1.909
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 1.5 Triples",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": -189,
-     "dec": 1.529,
-     "odds_assumed": false,
-     "p": 0.582,
-     "implied": 0.654,
-     "edge": -0.072,
-     "ev": -0.111,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "p_model": 0.509,
-     "p_mkt": 0.606,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 12,
-       "value": 2.4,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 1.8,
-     "open": [
-      1.5,
-      1.529
+      4.5,
+      2.1
      ]
     },
     {
@@ -283365,6 +283175,48 @@
      "open": [
       0.5,
       2.12
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 1.5 Triples",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": -189,
+     "dec": 1.529,
+     "odds_assumed": false,
+     "p": 0.577,
+     "implied": 0.654,
+     "edge": -0.077,
+     "ev": -0.118,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "p_model": 0.489,
+     "p_mkt": 0.606,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 12,
+       "value": 2.4,
+       "lg": 2.6,
+       "n": 30
+      }
+     },
+     "mean": 1.7,
+     "open": [
+      1.5,
+      1.529
      ]
     },
     {
@@ -283495,95 +283347,45 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Over 4.5 Asistencias",
-     "player": "Darryn Peterson",
+     "label": "Ace Bailey Over 1.5 Asistencias",
+     "player": "Ace Bailey",
      "team": "UTA",
-     "line": 4.5,
-     "odds": 107,
-     "dec": 2.07,
+     "line": 1.5,
+     "odds": -154,
+     "dec": 1.649,
      "odds_assumed": false,
-     "p": 0.424,
-     "implied": 0.483,
-     "edge": -0.06,
-     "ev": -0.123,
+     "p": 0.534,
+     "implied": 0.606,
+     "edge": -0.073,
+     "ev": -0.12,
      "value": false,
      "stat": "ast",
      "side": "over",
-     "p_model": 0.354,
-     "p_mkt": 0.447,
+     "p_model": 0.455,
+     "p_mkt": 0.56,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       6,
        10
       ],
       "h2h": [
-       0,
-       1
+       2,
+       5
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 16,
-       "value": 5.8,
-       "lg": 5.7,
+       "pos": "PF",
+       "rank": 20,
+       "value": 5.1,
+       "lg": 4.7,
        "n": 30
       }
      },
-     "mean": 3.9,
+     "mean": 1.6,
      "open": [
-      4.5,
-      2.07
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 4.5 Rebotes",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 4.5,
-     "odds": -128,
-     "dec": 1.781,
-     "odds_assumed": false,
-     "p": 0.492,
-     "implied": 0.561,
-     "edge": -0.069,
-     "ev": -0.123,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "p_model": 0.411,
-     "p_mkt": 0.52,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 25,
-       "value": 7.4,
-       "lg": 6.8,
-       "n": 30
-      }
-     },
-     "mean": 4.3,
-     "open": [
-      4.5,
-      1.781
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
+      1.5,
+      1.649
+     ]
     },
     {
      "kind": "prop",
@@ -283629,83 +283431,6 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Over 1.5 Robos+Tapones",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": 130,
-     "dec": 2.3,
-     "odds_assumed": false,
-     "p": 0.381,
-     "implied": 0.435,
-     "edge": -0.054,
-     "ev": -0.125,
-     "value": false,
-     "stat": "stocks",
-     "side": "over",
-     "p_model": 0.315,
-     "p_mkt": 0.402,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ]
-     },
-     "mean": 1.1,
-     "open": [
-      1.5,
-      2.3
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 1.5 Pérdidas",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 1.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.598,
-     "edge": -0.075,
-     "ev": -0.125,
-     "value": false,
-     "stat": "tov",
-     "side": "over",
-     "p_model": 0.434,
-     "p_mkt": 0.553,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 28,
-       "value": 3.6,
-       "lg": 3.0,
-       "n": 30
-      }
-     },
-     "mean": 1.5,
-     "open": [
-      1.5,
-      1.671
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Matisse Thybulle Under 8.5 PTS+REB",
      "player": "Matisse Thybulle",
      "team": "LAL",
@@ -283741,68 +283466,22 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Over 1.5 Robos",
-     "player": "Darryn Peterson",
+     "label": "Keyonte George Under 33.5 PTS+REB+AST",
+     "player": "Keyonte George",
      "team": "UTA",
-     "line": 1.5,
-     "odds": 132,
-     "dec": 2.32,
+     "line": 33.5,
+     "odds": -122,
+     "dec": 1.82,
      "odds_assumed": false,
-     "p": 0.376,
-     "implied": 0.431,
-     "edge": -0.055,
-     "ev": -0.127,
+     "p": 0.48,
+     "implied": 0.55,
+     "edge": -0.069,
+     "ev": -0.126,
      "value": false,
-     "stat": "stl",
-     "side": "over",
-     "p_model": 0.304,
-     "p_mkt": 0.4,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 6,
-       "value": 1.5,
-       "lg": 1.8,
-       "n": 30
-      }
-     },
-     "mean": 1.1,
-     "open": [
-      1.5,
-      2.32
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 8.5 REB+AST",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 8.5,
-     "odds": -149,
-     "dec": 1.671,
-     "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.598,
-     "edge": -0.076,
-     "ev": -0.128,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "p_model": 0.428,
-     "p_mkt": 0.553,
+     "stat": "pra",
+     "side": "under",
+     "p_model": 0.388,
+     "p_mkt": 0.511,
      "cand": false,
      "hr": {
       "l10": [
@@ -283811,18 +283490,133 @@
       ],
       "h2h": [
        0,
-       1
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 26,
+       "value": 44.8,
+       "lg": 40.6,
+       "n": 30
+      }
+     },
+     "mean": 39.2,
+     "open": [
+      33.5,
+      1.82
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 18.5 PTS+REB",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 18.5,
+     "odds": -111,
+     "dec": 1.901,
+     "odds_assumed": false,
+     "p": 0.46,
+     "implied": 0.526,
+     "edge": -0.066,
+     "ev": -0.126,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "p_model": 0.38,
+     "p_mkt": 0.486,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
       ]
      },
-     "mean": 8.2,
+     "mean": 17.2,
      "open": [
-      8.5,
-      1.671
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
+      18.5,
+      1.901
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Under 26.5 PTS+REB",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 26.5,
+     "odds": -128,
+     "dec": 1.781,
+     "odds_assumed": false,
+     "p": 0.489,
+     "implied": 0.561,
+     "edge": -0.072,
+     "ev": -0.128,
+     "value": false,
+     "stat": "pr",
+     "side": "under",
+     "p_model": 0.399,
+     "p_mkt": 0.52,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       4
+      ]
+     },
+     "mean": 31.7,
+     "open": [
+      26.5,
+      1.781
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 20.5 PTS+REB+AST",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 20.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.456,
+     "implied": 0.524,
+     "edge": -0.068,
+     "ev": -0.129,
+     "value": false,
+     "stat": "pra",
+     "side": "over",
+     "p_model": 0.369,
+     "p_mkt": 0.485,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 4,
+       "value": 34.5,
+       "lg": 38.4,
+       "n": 30
+      }
+     },
+     "mean": 18.8,
+     "open": [
+      20.5,
+      1.909
+     ]
     },
     {
      "kind": "prop",
@@ -283896,6 +283690,252 @@
     },
     {
      "kind": "prop",
+     "label": "Keyonte George Over 1.5 Robos+Tapones",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": 130,
+     "dec": 2.3,
+     "odds_assumed": false,
+     "p": 0.377,
+     "implied": 0.435,
+     "edge": -0.058,
+     "ev": -0.133,
+     "value": false,
+     "stat": "stocks",
+     "side": "over",
+     "p_model": 0.301,
+     "p_mkt": 0.402,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ]
+     },
+     "mean": 1.1,
+     "open": [
+      1.5,
+      2.3
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 1.5 Pérdidas",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 1.5,
+     "odds": -149,
+     "dec": 1.671,
+     "odds_assumed": false,
+     "p": 0.519,
+     "implied": 0.598,
+     "edge": -0.079,
+     "ev": -0.133,
+     "value": false,
+     "stat": "tov",
+     "side": "over",
+     "p_model": 0.416,
+     "p_mkt": 0.553,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 28,
+       "value": 3.6,
+       "lg": 3.0,
+       "n": 30
+      }
+     },
+     "mean": 1.5,
+     "open": [
+      1.5,
+      1.671
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Under 21.5 Puntos",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 21.5,
+     "odds": -111,
+     "dec": 1.901,
+     "odds_assumed": false,
+     "p": 0.456,
+     "implied": 0.526,
+     "edge": -0.07,
+     "ev": -0.134,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "p_model": 0.364,
+     "p_mkt": 0.486,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 27,
+       "value": 30.9,
+       "lg": 27.0,
+       "n": 30
+      }
+     },
+     "mean": 27.7,
+     "open": [
+      21.5,
+      1.901
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Keyonte George Under 28.5 PTS+AST",
+     "player": "Keyonte George",
+     "team": "UTA",
+     "line": 28.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.453,
+     "implied": 0.524,
+     "edge": -0.07,
+     "ev": -0.134,
+     "value": false,
+     "stat": "pa",
+     "side": "under",
+     "p_model": 0.358,
+     "p_mkt": 0.485,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       4
+      ]
+     },
+     "mean": 35.2,
+     "open": [
+      28.5,
+      1.909
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 4.5 Asistencias",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": 107,
+     "dec": 2.07,
+     "odds_assumed": false,
+     "p": 0.417,
+     "implied": 0.483,
+     "edge": -0.066,
+     "ev": -0.137,
+     "value": false,
+     "stat": "ast",
+     "side": "over",
+     "p_model": 0.327,
+     "p_mkt": 0.447,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 16,
+       "value": 5.8,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 3.7,
+     "open": [
+      4.5,
+      2.07
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 4.5 Rebotes",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": -128,
+     "dec": 1.781,
+     "odds_assumed": false,
+     "p": 0.485,
+     "implied": 0.561,
+     "edge": -0.077,
+     "ev": -0.137,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "p_model": 0.38,
+     "p_mkt": 0.52,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 25,
+       "value": 7.4,
+       "lg": 6.8,
+       "n": 30
+      }
+     },
+     "mean": 4.1,
+     "open": [
+      4.5,
+      1.781
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
      "label": "Walker Kessler Under 1.5 Asistencias",
      "player": "Walker Kessler",
      "team": "LAL",
@@ -283938,44 +283978,44 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Over 18.5 Puntos",
+     "label": "Darryn Peterson Over 1.5 Robos",
      "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 18.5,
-     "odds": -110,
-     "dec": 1.909,
+     "line": 1.5,
+     "odds": 132,
+     "dec": 2.32,
      "odds_assumed": false,
-     "p": 0.451,
-     "implied": 0.524,
-     "edge": -0.073,
+     "p": 0.371,
+     "implied": 0.431,
+     "edge": -0.06,
      "ev": -0.139,
      "value": false,
-     "stat": "pts",
+     "stat": "stl",
      "side": "over",
-     "p_model": 0.349,
-     "p_mkt": 0.485,
+     "p_model": 0.283,
+     "p_mkt": 0.4,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       3,
        10
       ],
       "h2h": [
-       0,
+       1,
        1
       ],
       "dvp": {
        "pos": "SG",
-       "rank": 7,
-       "value": 22.9,
-       "lg": 24.1,
+       "rank": 6,
+       "value": 1.5,
+       "lg": 1.8,
        "n": 30
       }
      },
-     "mean": 16.5,
+     "mean": 1.1,
      "open": [
-      18.5,
-      1.909
+      1.5,
+      2.32
      ],
      "flag": {
       "t": "rookie",
@@ -284026,326 +284066,6 @@
     },
     {
      "kind": "prop",
-     "label": "Keyonte George Under 33.5 PTS+REB+AST",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 33.5,
-     "odds": -122,
-     "dec": 1.82,
-     "odds_assumed": false,
-     "p": 0.471,
-     "implied": 0.55,
-     "edge": -0.078,
-     "ev": -0.142,
-     "value": false,
-     "stat": "pra",
-     "side": "under",
-     "p_model": 0.353,
-     "p_mkt": 0.511,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 26,
-       "value": 44.8,
-       "lg": 40.6,
-       "n": 30
-      }
-     },
-     "mean": 40.4,
-     "open": [
-      33.5,
-      1.82
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 26.5 PTS+REB",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 26.5,
-     "odds": -128,
-     "dec": 1.781,
-     "odds_assumed": false,
-     "p": 0.482,
-     "implied": 0.561,
-     "edge": -0.08,
-     "ev": -0.142,
-     "value": false,
-     "stat": "pr",
-     "side": "under",
-     "p_model": 0.368,
-     "p_mkt": 0.52,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ]
-     },
-     "mean": 32.7,
-     "open": [
-      26.5,
-      1.781
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 22.5 PTS+AST",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 22.5,
-     "odds": -120,
-     "dec": 1.833,
-     "odds_assumed": false,
-     "p": 0.468,
-     "implied": 0.545,
-     "edge": -0.078,
-     "ev": -0.142,
-     "value": false,
-     "stat": "pa",
-     "side": "over",
-     "p_model": 0.357,
-     "p_mkt": 0.505,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 20.4,
-     "open": [
-      22.5,
-      1.833
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 23.5 PTS+REB",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 23.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.445,
-     "implied": 0.519,
-     "edge": -0.074,
-     "ev": -0.143,
-     "value": false,
-     "stat": "pr",
-     "side": "over",
-     "p_model": 0.339,
-     "p_mkt": 0.48,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 20.7,
-     "open": [
-      23.5,
-      1.926
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Darryn Peterson Over 27.5 PTS+REB+AST",
-     "player": "Darryn Peterson",
-     "team": "UTA",
-     "line": 27.5,
-     "odds": -115,
-     "dec": 1.87,
-     "odds_assumed": false,
-     "p": 0.458,
-     "implied": 0.535,
-     "edge": -0.077,
-     "ev": -0.144,
-     "value": false,
-     "stat": "pra",
-     "side": "over",
-     "p_model": 0.347,
-     "p_mkt": 0.495,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 14,
-       "value": 36.1,
-       "lg": 36.5,
-       "n": 30
-      }
-     },
-     "mean": 24.6,
-     "open": [
-      27.5,
-      1.87
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
-     }
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 21.5 Puntos",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 21.5,
-     "odds": -111,
-     "dec": 1.901,
-     "odds_assumed": false,
-     "p": 0.45,
-     "implied": 0.526,
-     "edge": -0.076,
-     "ev": -0.145,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "p_model": 0.341,
-     "p_mkt": 0.486,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 27,
-       "value": 30.9,
-       "lg": 27.0,
-       "n": 30
-      }
-     },
-     "mean": 28.6,
-     "open": [
-      21.5,
-      1.901
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Josh Green Over 4.5 Puntos",
-     "player": "Josh Green",
-     "team": "UTA",
-     "line": 4.5,
-     "odds": -102,
-     "dec": 1.98,
-     "odds_assumed": false,
-     "p": 0.43,
-     "implied": 0.505,
-     "edge": -0.075,
-     "ev": -0.148,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "p_model": 0.313,
-     "p_mkt": 0.469,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 24,
-       "value": 22.3,
-       "lg": 20.4,
-       "n": 30
-      }
-     },
-     "mean": 3.6,
-     "open": [
-      4.5,
-      1.98
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Keyonte George Under 28.5 PTS+AST",
-     "player": "Keyonte George",
-     "team": "UTA",
-     "line": 28.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.446,
-     "implied": 0.524,
-     "edge": -0.078,
-     "ev": -0.149,
-     "value": false,
-     "stat": "pa",
-     "side": "under",
-     "p_model": 0.328,
-     "p_mkt": 0.485,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ]
-     },
-     "mean": 36.3,
-     "open": [
-      28.5,
-      1.909
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Keyonte George Under 2.5 Triples",
      "player": "Keyonte George",
      "team": "UTA",
@@ -284353,14 +284073,14 @@
      "odds": -154,
      "dec": 1.649,
      "odds_assumed": false,
-     "p": 0.514,
+     "p": 0.52,
      "implied": 0.606,
-     "edge": -0.092,
-     "ev": -0.152,
+     "edge": -0.086,
+     "ev": -0.142,
      "value": false,
      "stat": "fg3m",
      "side": "under",
-     "p_model": 0.376,
+     "p_model": 0.4,
      "p_mkt": 0.56,
      "cand": false,
      "hr": {
@@ -284380,7 +284100,7 @@
        "n": 30
       }
      },
-     "mean": 3.6,
+     "mean": 3.4,
      "open": [
       2.5,
       1.649
@@ -284388,22 +284108,146 @@
     },
     {
      "kind": "prop",
-     "label": "Darryn Peterson Over 2.5 Pérdidas",
+     "label": "Darryn Peterson Over 8.5 REB+AST",
      "player": "Darryn Peterson",
      "team": "UTA",
-     "line": 2.5,
-     "odds": -105,
-     "dec": 1.952,
+     "line": 8.5,
+     "odds": -149,
+     "dec": 1.671,
      "odds_assumed": false,
-     "p": 0.427,
-     "implied": 0.512,
+     "p": 0.512,
+     "implied": 0.598,
      "edge": -0.086,
-     "ev": -0.167,
+     "ev": -0.144,
      "value": false,
-     "stat": "tov",
+     "stat": "ra",
      "side": "over",
-     "p_model": 0.288,
-     "p_mkt": 0.473,
+     "p_model": 0.388,
+     "p_mkt": 0.553,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 7.8,
+     "open": [
+      8.5,
+      1.671
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 18.5 Puntos",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 18.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.444,
+     "implied": 0.524,
+     "edge": -0.079,
+     "ev": -0.151,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "p_model": 0.322,
+     "p_mkt": 0.485,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 7,
+       "value": 22.9,
+       "lg": 24.1,
+       "n": 30
+      }
+     },
+     "mean": 15.8,
+     "open": [
+      18.5,
+      1.909
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 22.5 PTS+AST",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 22.5,
+     "odds": -120,
+     "dec": 1.833,
+     "odds_assumed": false,
+     "p": 0.46,
+     "implied": 0.545,
+     "edge": -0.086,
+     "ev": -0.157,
+     "value": false,
+     "stat": "pa",
+     "side": "over",
+     "p_model": 0.324,
+     "p_mkt": 0.505,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 19.5,
+     "open": [
+      22.5,
+      1.833
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 23.5 PTS+REB",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 23.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.437,
+     "implied": 0.519,
+     "edge": -0.082,
+     "ev": -0.158,
+     "value": false,
+     "stat": "pr",
+     "side": "over",
+     "p_model": 0.307,
+     "p_mkt": 0.48,
      "cand": false,
      "hr": {
       "l10": [
@@ -284413,19 +284257,100 @@
       "h2h": [
        0,
        1
+      ]
+     },
+     "mean": 19.9,
+     "open": [
+      23.5,
+      1.926
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Josh Green Over 4.5 Puntos",
+     "player": "Josh Green",
+     "team": "UTA",
+     "line": 4.5,
+     "odds": -102,
+     "dec": 1.98,
+     "odds_assumed": false,
+     "p": 0.425,
+     "implied": 0.505,
+     "edge": -0.08,
+     "ev": -0.159,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "p_model": 0.29,
+     "p_mkt": 0.469,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       2
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 30,
-       "value": 4.7,
-       "lg": 3.1,
+       "pos": "SF",
+       "rank": 24,
+       "value": 22.3,
+       "lg": 20.4,
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 3.5,
      "open": [
-      2.5,
-      1.952
+      4.5,
+      1.98
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 27.5 PTS+REB+AST",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 27.5,
+     "odds": -115,
+     "dec": 1.87,
+     "odds_assumed": false,
+     "p": 0.449,
+     "implied": 0.535,
+     "edge": -0.086,
+     "ev": -0.161,
+     "value": false,
+     "stat": "pra",
+     "side": "over",
+     "p_model": 0.309,
+     "p_mkt": 0.495,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 14,
+       "value": 36.1,
+       "lg": 36.5,
+       "n": 30
+      }
+     },
+     "mean": 23.6,
+     "open": [
+      27.5,
+      1.87
      ],
      "flag": {
       "t": "rookie",
@@ -284476,83 +284401,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ace Bailey Over 7.5 REB+AST",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 7.5,
-     "odds": 107,
-     "dec": 2.07,
-     "odds_assumed": false,
-     "p": 0.401,
-     "implied": 0.483,
-     "edge": -0.082,
-     "ev": -0.17,
-     "value": false,
-     "stat": "ra",
-     "side": "over",
-     "p_model": 0.264,
-     "p_mkt": 0.447,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ]
-     },
-     "mean": 5.8,
-     "open": [
-      7.5,
-      2.07
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ace Bailey Over 5.5 Rebotes",
-     "player": "Ace Bailey",
-     "team": "UTA",
-     "line": 5.5,
-     "odds": 107,
-     "dec": 2.07,
-     "odds_assumed": false,
-     "p": 0.4,
-     "implied": 0.483,
-     "edge": -0.083,
-     "ev": -0.171,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "p_model": 0.261,
-     "p_mkt": 0.447,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       5
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 1,
-       "value": 8.4,
-       "lg": 10.4,
-       "n": 30
-      }
-     },
-     "mean": 4.1,
-     "open": [
-      5.5,
-      2.07
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Matisse Thybulle Over 1.5 Asistencias",
      "player": "Matisse Thybulle",
      "team": "LAL",
@@ -284592,6 +284440,129 @@
       1.5,
       2.02
      ]
+    },
+    {
+     "kind": "prop",
+     "label": "Darryn Peterson Over 2.5 Pérdidas",
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "line": 2.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.422,
+     "implied": 0.512,
+     "edge": -0.091,
+     "ev": -0.177,
+     "value": false,
+     "stat": "tov",
+     "side": "over",
+     "p_model": 0.268,
+     "p_mkt": 0.473,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 30,
+       "value": 4.7,
+       "lg": 3.1,
+       "n": 30
+      }
+     },
+     "mean": 1.8,
+     "open": [
+      2.5,
+      1.952
+     ],
+     "flag": {
+      "t": "rookie",
+      "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
+     }
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 5.5 Rebotes",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 5.5,
+     "odds": 107,
+     "dec": 2.07,
+     "odds_assumed": false,
+     "p": 0.395,
+     "implied": 0.483,
+     "edge": -0.089,
+     "ev": -0.183,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "p_model": 0.238,
+     "p_mkt": 0.447,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 1,
+       "value": 8.4,
+       "lg": 10.4,
+       "n": 30
+      }
+     },
+     "mean": 3.9,
+     "open": [
+      5.5,
+      2.07
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Ace Bailey Over 7.5 REB+AST",
+     "player": "Ace Bailey",
+     "team": "UTA",
+     "line": 7.5,
+     "odds": 107,
+     "dec": 2.07,
+     "odds_assumed": false,
+     "p": 0.394,
+     "implied": 0.483,
+     "edge": -0.089,
+     "ev": -0.185,
+     "value": false,
+     "stat": "ra",
+     "side": "over",
+     "p_model": 0.235,
+     "p_mkt": 0.447,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ]
+     },
+     "mean": 5.5,
+     "open": [
+      7.5,
+      2.07
+     ]
     }
    ],
    "wo": {
@@ -284606,41 +284577,24 @@
        [
         "Ace Bailey",
         3.5,
-        4.5
+        4.3
        ],
        [
         "Brice Sensabaugh",
-        3.2,
-        3.7
+        3.0,
+        3.3
        ]
       ],
       "Darryn Peterson": [
        [
         "Keyonte George",
-        2.9,
-        3.1
+        3.2,
+        3.6
        ],
        [
         "Ace Bailey",
-        2.2,
-        4.1
-       ],
-       [
-        "Brice Sensabaugh",
-        2.0,
-        2.9
-       ]
-      ],
-      "Ace Bailey": [
-       [
-        "Keyonte George",
-        2.5,
-        3.0
-       ],
-       [
-        "Darryn Peterson",
-        2.0,
-        3.7
+        2.1,
+        3.9
        ],
        [
         "Brice Sensabaugh",
@@ -284648,28 +284602,45 @@
         2.6
        ]
       ],
-      "Jaxson Hayes": [
+      "Ace Bailey": [
        [
         "Keyonte George",
-        0.7,
-        1.4
+        2.7,
+        3.4
        ],
        [
         "Darryn Peterson",
-        0.5,
-        1.5
+        2.0,
+        3.7
+       ],
+       [
+        "Brice Sensabaugh",
+        1.4,
+        2.3
+       ]
+      ],
+      "Jaxson Hayes": [
+       [
+        "Keyonte George",
+        1.6,
+        2.8
+       ],
+       [
+        "Darryn Peterson",
+        1.2,
+        3.0
        ],
        [
         "Ace Bailey",
-        0.5,
-        1.4
+        1.1,
+        2.8
        ]
       ],
       "Mo Bamba": [
        [
         "Keyonte George",
-        1.4,
-        2.1
+        1.6,
+        2.4
        ],
        [
         "Darryn Peterson",
@@ -284678,42 +284649,25 @@
        ],
        [
         "Ace Bailey",
-        1.1,
-        2.5
+        1.0,
+        2.3
        ]
       ],
       "Isaiah Collier": [
        [
         "Keyonte George",
-        1.9,
-        2.1
-       ],
-       [
-        "Darryn Peterson",
-        1.4,
-        2.5
-       ],
-       [
-        "Ace Bailey",
-        1.3,
-        2.4
-       ]
-      ],
-      "Josh Okogie": [
-       [
-        "Ace Bailey",
-        0.7,
+        2.0,
         2.3
        ],
        [
         "Darryn Peterson",
-        0.6,
+        1.4,
         2.4
        ],
        [
-        "Isaiah Collier",
-        0.6,
-        1.9
+        "Ace Bailey",
+        1.2,
+        2.2
        ]
       ]
      },
@@ -284739,16 +284693,11 @@
        ]
       ]
      },
-     "doubt": [
-      [
-       "Jaxson Hayes",
-       0.5
-      ]
-     ],
+     "doubt": [],
      "planb": {
       "Keyonte George": {
        "p_play": 1.0,
-       "min": 35.9,
+       "min": 34.5,
        "picks": [
         {
          "kind": "prop",
@@ -284759,12 +284708,12 @@
          "side": "over",
          "line": 20.5,
          "dec": 1.909,
-         "p": 0.606,
-         "base_p": 0.466,
-         "ev": 0.156,
+         "p": 0.597,
+         "base_p": 0.456,
+         "ev": 0.14,
          "if_out": "Keyonte George",
-         "mean": 24.1,
-         "mean0": 19.6
+         "mean": 23.1,
+         "mean0": 18.8
         },
         {
          "kind": "prop",
@@ -284775,50 +284724,18 @@
          "side": "over",
          "line": 27.5,
          "dec": 1.87,
-         "p": 0.596,
-         "base_p": 0.458,
-         "ev": 0.115,
+         "p": 0.587,
+         "base_p": 0.449,
+         "ev": 0.098,
          "if_out": "Keyonte George",
-         "mean": 29.6,
-         "mean0": 24.6
-        },
-        {
-         "kind": "prop",
-         "label": "Josh Green Over 4.5 Puntos",
-         "player": "Josh Green",
-         "team": "UTA",
-         "stat": "pts",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.98,
-         "p": 0.527,
-         "base_p": 0.43,
-         "ev": 0.043,
-         "if_out": "Keyonte George",
-         "mean": 4.7,
-         "mean0": 3.6
-        },
-        {
-         "kind": "prop",
-         "label": "Ace Bailey Over 1.5 Robos+Tapones",
-         "player": "Ace Bailey",
-         "team": "UTA",
-         "stat": "stocks",
-         "side": "over",
-         "line": 1.5,
-         "dec": 1.98,
-         "p": 0.521,
-         "base_p": 0.473,
-         "ev": 0.032,
-         "if_out": "Keyonte George",
-         "mean": 2.0,
-         "mean0": 1.7
+         "mean": 28.6,
+         "mean0": 23.6
         }
        ]
       },
       "Darryn Peterson": {
        "p_play": 1.0,
-       "min": 31.6,
+       "min": 30.1,
        "picks": [
         {
          "kind": "prop",
@@ -284829,12 +284746,28 @@
          "side": "over",
          "line": 33.5,
          "dec": 1.901,
-         "p": 0.594,
-         "base_p": 0.529,
-         "ev": 0.13,
+         "p": 0.598,
+         "base_p": 0.52,
+         "ev": 0.137,
          "if_out": "Darryn Peterson",
-         "mean": 44.4,
-         "mean0": 40.4
+         "mean": 43.5,
+         "mean0": 39.2
+        },
+        {
+         "kind": "prop",
+         "label": "Keyonte George Over 11.5 REB+AST",
+         "player": "Keyonte George",
+         "team": "UTA",
+         "stat": "ra",
+         "side": "over",
+         "line": 11.5,
+         "dec": 1.952,
+         "p": 0.549,
+         "base_p": 0.47,
+         "ev": 0.073,
+         "if_out": "Darryn Peterson",
+         "mean": 12.6,
+         "mean0": 11.4
         },
         {
          "kind": "prop",
@@ -284845,34 +284778,18 @@
          "side": "over",
          "line": 20.5,
          "dec": 1.909,
-         "p": 0.567,
-         "base_p": 0.466,
-         "ev": 0.081,
+         "p": 0.555,
+         "base_p": 0.456,
+         "ev": 0.059,
          "if_out": "Darryn Peterson",
-         "mean": 22.7,
-         "mean0": 19.6
-        },
-        {
-         "kind": "prop",
-         "label": "Keyonte George Over 11.5 REB+AST",
-         "player": "Keyonte George",
-         "team": "UTA",
-         "stat": "ra",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.952,
-         "p": 0.545,
-         "base_p": 0.481,
-         "ev": 0.063,
-         "if_out": "Darryn Peterson",
-         "mean": 12.9,
-         "mean0": 11.9
+         "mean": 21.6,
+         "mean0": 18.8
         }
        ]
       },
       "Ace Bailey": {
        "p_play": 1.0,
-       "min": 29.3,
+       "min": 27.9,
        "picks": [
         {
          "kind": "prop",
@@ -284883,12 +284800,12 @@
          "side": "over",
          "line": 33.5,
          "dec": 1.901,
-         "p": 0.588,
-         "base_p": 0.529,
-         "ev": 0.117,
+         "p": 0.589,
+         "base_p": 0.52,
+         "ev": 0.12,
          "if_out": "Ace Bailey",
-         "mean": 43.9,
-         "mean0": 40.4
+         "mean": 43.0,
+         "mean0": 39.2
         },
         {
          "kind": "prop",
@@ -284899,18 +284816,78 @@
          "side": "over",
          "line": 11.5,
          "dec": 1.952,
-         "p": 0.54,
-         "base_p": 0.481,
-         "ev": 0.055,
+         "p": 0.543,
+         "base_p": 0.47,
+         "ev": 0.061,
          "if_out": "Ace Bailey",
-         "mean": 12.9,
-         "mean0": 11.9
+         "mean": 12.6,
+         "mean0": 11.4
+        }
+       ]
+      },
+      "Jaxson Hayes": {
+       "p_play": 1.0,
+       "min": 22.3,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Keyonte George Over 33.5 PTS+REB+AST",
+         "player": "Keyonte George",
+         "team": "UTA",
+         "stat": "pra",
+         "side": "over",
+         "line": 33.5,
+         "dec": 1.901,
+         "p": 0.567,
+         "base_p": 0.52,
+         "ev": 0.078,
+         "if_out": "Jaxson Hayes",
+         "mean": 41.7,
+         "mean0": 39.2
+        },
+        {
+         "kind": "prop",
+         "label": "Keyonte George Over 11.5 REB+AST",
+         "player": "Keyonte George",
+         "team": "UTA",
+         "stat": "ra",
+         "side": "over",
+         "line": 11.5,
+         "dec": 1.952,
+         "p": 0.53,
+         "base_p": 0.47,
+         "ev": 0.035,
+         "if_out": "Jaxson Hayes",
+         "mean": 12.3,
+         "mean0": 11.4
+        }
+       ]
+      },
+      "Mo Bamba": {
+       "p_play": 1.0,
+       "min": 20.8,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Keyonte George Over 33.5 PTS+REB+AST",
+         "player": "Keyonte George",
+         "team": "UTA",
+         "stat": "pra",
+         "side": "over",
+         "line": 33.5,
+         "dec": 1.901,
+         "p": 0.564,
+         "base_p": 0.52,
+         "ev": 0.073,
+         "if_out": "Mo Bamba",
+         "mean": 41.5,
+         "mean0": 39.2
         }
        ]
       },
       "Isaiah Collier": {
        "p_play": 1.0,
-       "min": 21.6,
+       "min": 20.5,
        "picks": [
         {
          "kind": "prop",
@@ -284922,11 +284899,11 @@
          "line": 33.5,
          "dec": 1.901,
          "p": 0.574,
-         "base_p": 0.529,
+         "base_p": 0.52,
          "ev": 0.091,
          "if_out": "Isaiah Collier",
-         "mean": 43.0,
-         "mean0": 40.4
+         "mean": 41.9,
+         "mean0": 39.2
         }
        ]
       }
