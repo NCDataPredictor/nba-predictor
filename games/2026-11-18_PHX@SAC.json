@@ -11,7 +11,8 @@
    "SAC: Raynaud, Simmons OUT; LaVine, Hunter y Achiuwa en duda",
    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
    "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles",
-   "19:05 ET (Covers): spread +6.5, total 227.5, ML -275/220"
+   "19:05 ET (Covers): spread +6.5, total 227.5, ML -275/220",
+   "19:30 ET (scoresandodds): spread SAC +7.5, total 226.5, ML -257/211"
   ],
   "out": [],
   "gtd": {},
@@ -1111,14 +1112,14 @@
  ],
  "market": {
   "source": "NBA.com/games 18-nov (12 partidos); Covers matchup/<id>/odds vacío (9:00 ET): spread/total/ML de consenso de scoresandodds.com/nba?date=2026-11-18 (~9:00 ET). Props: aún no publicadas (scoresandodds y Covers seguían en el 17-nov a las 9:00 ET). 11:30 ET: revisadas Covers (matchup/<id>/odds y comparador) y scoresandodds: sin movimientos relevantes, se mantienen",
-  "ml_home": 220,
-  "ml_away": -275,
-  "spread_home": 6.5,
-  "total": 227.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": 211,
+  "ml_away": -257,
+  "spread_home": 7.5,
+  "total": 226.5,
+  "spread_odds_home": -116,
+  "spread_odds_away": -105,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Devin Booker": {

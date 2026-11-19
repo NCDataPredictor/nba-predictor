@@ -8461,13 +8461,12 @@
     "Kingston Flemings",
     "Jock Landale"
    ],
-   "gtd": {
-    "Jaylin Williams": 0.4
-   },
+   "gtd": {},
    "notes": [
     "ATL: McCollum (gemelo) OUT hasta ~19-dic (CBS 17-nov); Gueye, Newell OUT; Flemings y Landale en duda",
     "OKC: Holmgren, J. Williams, Wallace, Sorber OUT; Jaylin Williams en duda",
-    "18:20 ET (ESPN): Flemings y Landale OUT"
+    "18:20 ET (ESPN): Flemings y Landale OUT",
+    "19:21 ET (Underdog vía hottakes): Jaylin Williams (espalda) disponible"
    ]
   },
   {
@@ -8548,14 +8547,14 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 220,
-    "ml_away": -275,
-    "spread_home": 6.5,
-    "total": 227.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": 211,
+    "ml_away": -257,
+    "spread_home": 7.5,
+    "total": 226.5,
+    "spread_odds_home": -116,
+    "spread_odds_away": -105,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {},
@@ -8566,7 +8565,8 @@
     "SAC: Raynaud, Simmons OUT; LaVine, Hunter y Achiuwa en duda",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
     "18:35 ET (NBC Sports): Hunter y Achiuwa disponibles",
-    "19:05 ET (Covers): spread +6.5, total 227.5, ML -275/220"
+    "19:05 ET (Covers): spread +6.5, total 227.5, ML -275/220",
+    "19:30 ET (scoresandodds): spread SAC +7.5, total 226.5, ML -257/211"
    ]
   },
   {
@@ -8601,7 +8601,6 @@
     "Austin Reaves"
    ],
    "gtd": {
-    "Walker Kessler": 0.9,
     "Jaxson Hayes": 0.5
    },
    "notes": [
@@ -8610,7 +8609,8 @@
     "Back-to-back: UTA, LAL jugaron el 17-nov",
     "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
     "18:20 ET (ESPN/RotoBaller): Reaves descartado; Hayes OUT; Kessler se espera disponible",
-    "18:35 ET (NBC Sports): Hayes questionable (no descartado)"
+    "18:35 ET (NBC Sports): Hayes questionable (no descartado)",
+    "19:30 ET (Roundtable): Kessler fuera del parte, vuelve; Hayes sigue questionable"
    ]
   }
  ],

@@ -9,7 +9,8 @@
   "notes": [
    "ATL: McCollum (gemelo) OUT hasta ~19-dic (CBS 17-nov); Gueye, Newell OUT; Flemings y Landale en duda",
    "OKC: Holmgren, J. Williams, Wallace, Sorber OUT; Jaylin Williams en duda",
-   "18:20 ET (ESPN): Flemings y Landale OUT"
+   "18:20 ET (ESPN): Flemings y Landale OUT",
+   "19:21 ET (Underdog vía hottakes): Jaylin Williams (espalda) disponible"
   ],
   "out": [
    "CJ McCollum",
@@ -20,9 +21,7 @@
    "Kingston Flemings",
    "Jock Landale"
   ],
-  "gtd": {
-   "Jaylin Williams": 0.4
-  },
+  "gtd": {},
   "reserves": {
    "ATL": [
     {
@@ -409,7 +408,7 @@
    "starter": false,
    "min": 16.1,
    "g_cur": 7,
-   "p_play": 0.4,
+   "p_play": 1.0,
    "cur": {
     "min": 18.4,
     "pts": 2.9,
