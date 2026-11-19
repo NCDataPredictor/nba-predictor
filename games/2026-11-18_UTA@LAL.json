@@ -12,7 +12,8 @@
    "Back-to-back: UTA, LAL jugaron el 17-nov",
    "Jugadores en duda con props abiertas en Betano (9:50 ET): p_play subido a 0.65-0.7 (la casa los ofrece, es probable que jueguen).",
    "18:20 ET (ESPN/RotoBaller): Reaves descartado; Hayes OUT; Kessler se espera disponible",
-   "18:35 ET (NBC Sports): Hayes questionable (no descartado)"
+   "18:35 ET (NBC Sports): Hayes questionable (no descartado)",
+   "19:30 ET (Roundtable): Kessler fuera del parte, vuelve; Hayes sigue questionable"
   ],
   "out": [
    "Lauri Markkanen",
@@ -20,7 +21,6 @@
    "Austin Reaves"
   ],
   "gtd": {
-   "Walker Kessler": 0.9,
    "Jaxson Hayes": 0.5
   },
   "reserves": {
@@ -176,7 +176,7 @@
    "starter": true,
    "min": 32.0,
    "g_cur": 14,
-   "p_play": 0.9,
+   "p_play": 1.0,
    "cur": {
     "min": 30.9,
     "pts": 14.5,
