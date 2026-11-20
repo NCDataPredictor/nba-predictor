@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:04+00:00",
+ "updated": "2026-11-20T00:18+00:00",
  "list": [
   {
    "date": "2026-11-16",
@@ -363,6 +363,72 @@
    "source": "ESPN injuries 18:20 ET; RotoBaller",
    "at": "2026-11-18T23:17+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-GSW-at-MEM",
+   "player": "Draymond Green",
+   "team": "GSW",
+   "status": "out",
+   "note": "codo, descartado vs MEM",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-GSW-at-MEM",
+   "player": "Ty Jerome",
+   "team": "MEM",
+   "status": "out",
+   "note": "cadera, descartado vs GSW",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-GSW-at-MEM",
+   "player": "Zach Edey",
+   "team": "MEM",
+   "status": "out",
+   "note": "cadera, descartado vs GSW",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-POR-at-MIL",
+   "player": "Kyle Kuzma",
+   "team": "MIL",
+   "status": "out",
+   "note": "contusión hombro derecho, descartado vs POR",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-POR-at-MIL",
+   "player": "Myles Turner",
+   "team": "MIL",
+   "status": "out",
+   "note": "contusión hombro izquierdo, descartado vs POR",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-19",
+   "gid": "2026-11-19-POR-at-MIL",
+   "player": "Chris Youngblood",
+   "team": "POR",
+   "status": "out",
+   "note": "talón, descartado vs MIL",
+   "source": "ESPN 19:30 ET",
+   "at": "2026-11-20T00:18+00:00",
+   "sim": false
   }
  ]
 }
