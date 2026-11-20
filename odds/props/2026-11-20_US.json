@@ -1,0 +1,569 @@
+{
+ "Herbert Jones": {
+  "pts": [
+   7.5,
+   -125,
+   -100
+  ]
+ },
+ "Shai Gilgeous-Alexander": {
+  "pts": [
+   32.5,
+   -118,
+   -112
+  ]
+ },
+ "Zion Williamson": {
+  "pts": [
+   20.5,
+   -107,
+   -120
+  ]
+ },
+ "Isaiah Hartenstein": {
+  "pts": [
+   9.5,
+   -100,
+   -130
+  ]
+ },
+ "Trey Murphy III": {
+  "pts": [
+   13.5,
+   -105,
+   -122
+  ]
+ },
+ "Aday Mara": {
+  "pts": [
+   10.5,
+   -105,
+   -122
+  ]
+ },
+ "Jared McCain": {
+  "pts": [
+   15.5,
+   -118,
+   -112
+  ]
+ },
+ "Jeremiah Fears": {
+  "pts": [
+   16.5,
+   -113,
+   -113
+  ]
+ },
+ "Yves Missi": {
+  "pts": [
+   5.5,
+   -120,
+   -105
+  ]
+ },
+ "Josh Green": {
+  "pts": [
+   5.5,
+   -105,
+   -125
+  ]
+ },
+ "Khaman Maluach": {
+  "pts": [
+   6.5,
+   -112,
+   -112
+  ]
+ },
+ "Collin Gillespie": {
+  "pts": [
+   10.5,
+   -115,
+   -115
+  ]
+ },
+ "Miles Bridges": {
+  "pts": [
+   13.5,
+   -115,
+   -112
+  ]
+ },
+ "Mo Bamba": {
+  "pts": [
+   9.5,
+   -112,
+   -112
+  ]
+ },
+ "Jaxson Hayes": {
+  "pts": [
+   8.5,
+   -120,
+   -110
+  ]
+ },
+ "Dillon Brooks": {
+  "pts": [
+   14.5,
+   -120,
+   -110
+  ]
+ },
+ "Keyonte George": {
+  "pts": [
+   23.5,
+   -118,
+   -110
+  ]
+ },
+ "Ace Bailey": {
+  "pts": [
+   14.5,
+   -115,
+   -115
+  ]
+ },
+ "Brice Sensabaugh": {
+  "pts": [
+   12.5,
+   -111,
+   -116
+  ]
+ },
+ "Cameron Johnson": {
+  "pts": [
+   11.5,
+   -102,
+   -125
+  ]
+ },
+ "Nikola Jokić": {
+  "pts": [
+   24.5,
+   -118,
+   -108
+  ]
+ },
+ "Kevin Durant": {
+  "pts": [
+   20.5,
+   -117,
+   -110
+  ]
+ },
+ "DeMar DeRozan": {
+  "pts": [
+   10.5,
+   -120,
+   -105
+  ]
+ },
+ "Christian Braun": {
+  "pts": [
+   11.5,
+   -130,
+   -100
+  ]
+ },
+ "Trevon Brazile": {
+  "pts": [
+   4.5,
+   102,
+   -130
+  ]
+ },
+ "Aaron Gordon": {
+  "pts": [
+   11.5,
+   -130,
+   -100
+  ]
+ },
+ "Jabari Smith Jr.": {
+  "pts": [
+   13.5,
+   -125,
+   -100
+  ]
+ },
+ "Jamal Murray": {
+  "pts": [
+   22.5,
+   -115,
+   -112
+  ]
+ },
+ "Fred VanVleet": {
+  "pts": [
+   12.5,
+   -112,
+   -115
+  ]
+ },
+ "Jake LaRavia": {
+  "pts": [
+   6.5,
+   -125,
+   -105
+  ]
+ },
+ "Zach LaVine": {
+  "pts": [
+   18.5,
+   -112,
+   -118
+  ]
+ },
+ "Domantas Sabonis": {
+  "pts": [
+   12.5,
+   -121,
+   -108
+  ]
+ },
+ "Matisse Thybulle": {
+  "pts": [
+   6.5,
+   -120,
+   -110
+  ]
+ },
+ "Sandro Mamukelashvili": {
+  "pts": [
+   9.5,
+   -118,
+   -110
+  ]
+ },
+ "Collin Sexton": {
+  "pts": [
+   13.5,
+   -118,
+   -111
+  ]
+ },
+ "Quentin Grimes": {
+  "pts": [
+   17.5,
+   -111,
+   -118
+  ]
+ },
+ "Walker Kessler": {
+  "pts": [
+   13.5,
+   -100,
+   -127
+  ]
+ },
+ "De'Andre Hunter": {
+  "pts": [
+   12.5,
+   -110,
+   -117
+  ]
+ },
+ "Luka Dončić": {
+  "pts": [
+   37.5,
+   -112,
+   -112
+  ]
+ },
+ "Onyeka Okongwu": {
+  "pts": [
+   14.5,
+   -125,
+   -105
+  ]
+ },
+ "Sion James": {
+  "pts": [
+   7.5,
+   -125,
+   -106
+  ]
+ },
+ "Nickeil Alexander-Walker": {
+  "pts": [
+   21.5,
+   -117,
+   -112
+  ]
+ },
+ "Coby White": {
+  "pts": [
+   16.5,
+   -120,
+   -107
+  ]
+ },
+ "Dyson Daniels": {
+  "pts": [
+   10.5,
+   -115,
+   -115
+  ]
+ },
+ "Jalen Johnson": {
+  "pts": [
+   20.5,
+   -117,
+   -112
+  ]
+ },
+ "Naz Reid": {
+  "pts": [
+   18.5,
+   -119,
+   -111
+  ]
+ },
+ "Kingston Flemings": {
+  "pts": [
+   8.5,
+   -110,
+   -115
+  ]
+ },
+ "Brandon Miller": {
+  "pts": [
+   20.5,
+   -120,
+   -110
+  ]
+ },
+ "Michael Porter Jr.": {
+  "pts": [
+   19.5,
+   -125,
+   -105
+  ]
+ },
+ "Moritz Wagner": {
+  "pts": [
+   7.5,
+   -122,
+   -108
+  ]
+ },
+ "Egor Dëmin": {
+  "pts": [
+   10.5,
+   -118,
+   -108
+  ]
+ },
+ "Day'Ron Sharpe": {
+  "pts": [
+   8.5,
+   -110,
+   -120
+  ]
+ },
+ "Julius Randle": {
+  "pts": [
+   19.5,
+   -110,
+   -120
+  ]
+ },
+ "Wendell Carter Jr.": {
+  "pts": [
+   12.5,
+   -104,
+   -127
+  ]
+ },
+ "Anthony Black": {
+  "pts": [
+   15.5,
+   -123,
+   -105
+  ]
+ },
+ "Ivica Zubac": {
+  "pts": [
+   11.5,
+   -112,
+   -115
+  ]
+ },
+ "Kelly Oubre Jr.": {
+  "pts": [
+   11.5,
+   -115,
+   -112
+  ]
+ },
+ "Pascal Siakam": {
+  "pts": [
+   22.5,
+   -122,
+   -105
+  ]
+ },
+ "Donovan Mitchell": {
+  "pts": [
+   26.5,
+   -106,
+   -122
+  ]
+ },
+ "Andrew Nembhard": {
+  "pts": [
+   15.5,
+   -100,
+   -130
+  ]
+ },
+ "Tyrese Proctor": {
+  "pts": [
+   10.5,
+   -122,
+   -105
+  ]
+ },
+ "James Harden": {
+  "pts": [
+   17.5,
+   -122,
+   -107
+  ]
+ },
+ "Aaron Nesmith": {
+  "pts": [
+   13.5,
+   -115,
+   -115
+  ]
+ },
+ "Jarrett Allen": {
+  "pts": [
+   14.5,
+   -115,
+   -110
+  ]
+ },
+ "Immanuel Quickley": {
+  "pts": [
+   19.5,
+   -102,
+   -130
+  ]
+ },
+ "Scottie Barnes": {
+  "pts": [
+   23.5,
+   -114,
+   -114
+  ]
+ },
+ "Jamal Shead": {
+  "pts": [
+   7.5,
+   -102,
+   -130
+  ]
+ },
+ "Jamison Battle": {
+  "pts": [
+   10.5,
+   -106,
+   -125
+  ]
+ },
+ "Jakob Poeltl": {
+  "pts": [
+   11.5,
+   -118,
+   -112
+  ]
+ },
+ "Paul Reed": {
+  "pts": [
+   11.5,
+   -120,
+   -110
+  ]
+ },
+ "Ja'Kobe Walter": {
+  "pts": [
+   12.5,
+   -120,
+   -110
+  ]
+ },
+ "Daniss Jenkins": {
+  "pts": [
+   15.5,
+   -110,
+   -120
+  ]
+ },
+ "Kevin Huerter": {
+  "pts": [
+   11.5,
+   -130,
+   -102
+  ]
+ },
+ "Cade Cunningham": {
+  "pts": [
+   26.5,
+   -100,
+   -132
+  ]
+ },
+ "Anthony Davis": {
+  "pts": [
+   24.5,
+   -105,
+   -112
+  ]
+ },
+ "Josh Giddey": {
+  "pts": [
+   13.5,
+   -105,
+   -117
+  ]
+ },
+ "Bilal Coulibaly": {
+  "pts": [
+   7.5,
+   -120,
+   -100
+  ]
+ },
+ "Devin Booker": {
+  "pts": [
+   26.5,
+   -114,
+   -105
+  ]
+ },
+ "Franz Wagner": {
+  "pts": [
+   24.5,
+   -110,
+   -105
+  ]
+ },
+ "Desmond Bane": {
+  "pts": [
+   19.5,
+   -102,
+   -105
+  ]
+ },
+ "Aaron Wiggins": {
+  "pts": [
+   12.5,
+   -114,
+   -107
+  ]
+ }
+}
