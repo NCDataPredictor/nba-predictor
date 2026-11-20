@@ -976,14 +976,14 @@
  ],
  "market": {
   "source": "NBA.com/games 20-nov (9 partidos de Copa); Covers matchup/<id>/odds 388223-388231 (~11:45 ET, 9 casas; TOR@DET 5)",
-  "ml_home": -220,
-  "ml_away": 180,
-  "spread_home": -5.5,
-  "total": 219.5,
-  "spread_odds_home": -114,
-  "spread_odds_away": -106,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": -249,
+  "ml_away": 205,
+  "spread_home": -7.5,
+  "total": 218.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Nickeil Alexander-Walker": {

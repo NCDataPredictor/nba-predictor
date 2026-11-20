@@ -1124,14 +1124,14 @@
  ],
  "market": {
   "source": "NBA.com/games 20-nov (9 partidos de Copa); Covers matchup/<id>/odds 388223-388231 (~11:45 ET, 9 casas; TOR@DET 5)",
-  "ml_home": -1000,
-  "ml_away": 640,
+  "ml_home": -890,
+  "ml_away": 600,
   "spread_home": -14.5,
-  "total": 230.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 228.5,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Luka Dončić": {

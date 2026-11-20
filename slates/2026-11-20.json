@@ -6932,14 +6932,14 @@
    "tip_et": "19:00",
    "venue": "State Farm Arena, Atlanta",
    "market": {
-    "ml_home": -220,
-    "ml_away": 180,
-    "spread_home": -5.5,
-    "total": 219.5,
-    "spread_odds_home": -114,
-    "spread_odds_away": -106,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": -249,
+    "ml_away": 205,
+    "spread_home": -7.5,
+    "total": 218.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {
@@ -6976,14 +6976,14 @@
    "tip_et": "19:30",
    "venue": "Little Caesars Arena, Detroit",
    "market": {
-    "ml_home": -295,
-    "ml_away": 240,
-    "spread_home": -7.5,
-    "total": 215.5,
-    "spread_odds_home": -115,
-    "spread_odds_away": -105,
-    "over_odds": -114,
-    "under_odds": -106
+    "ml_home": -264,
+    "ml_away": 217,
+    "spread_home": -6.5,
+    "total": 216.5,
+    "spread_odds_home": -116,
+    "spread_odds_away": -104,
+    "over_odds": -107,
+    "under_odds": -112
    },
    "b2b": [],
    "adj": {
@@ -7021,14 +7021,14 @@
    "tip_et": "19:30",
    "venue": "Rocket Arena, Cleveland",
    "market": {
-    "ml_home": -260,
-    "ml_away": 210,
-    "spread_home": -6.5,
+    "ml_home": -230,
+    "ml_away": 191,
+    "spread_home": -5.5,
     "total": 234.5,
     "spread_odds_home": -118,
-    "spread_odds_away": -103,
-    "over_odds": -110,
-    "under_odds": -110
+    "spread_odds_away": -102,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [],
    "adj": {
@@ -7060,14 +7060,14 @@
    "tip_et": "19:30",
    "venue": "Barclays Center, Brooklyn",
    "market": {
-    "ml_home": 170,
-    "ml_away": -205,
-    "spread_home": 5.5,
+    "ml_home": 217,
+    "ml_away": -264,
+    "spread_home": 6.5,
     "total": 223.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {},
@@ -7085,12 +7085,12 @@
    "tip_et": "20:00",
    "venue": "Paycom Center, Oklahoma City",
    "market": {
-    "ml_home": -517,
-    "ml_away": 380,
-    "spread_home": -10.5,
-    "total": 228.5,
-    "spread_odds_home": -115,
-    "spread_odds_away": -105,
+    "ml_home": -598,
+    "ml_away": 443,
+    "spread_home": -11.5,
+    "total": 227.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
     "over_odds": -113,
     "under_odds": -107
    },
@@ -7126,14 +7126,14 @@
    "tip_et": "20:00",
    "venue": "United Center, Chicago",
    "market": {
-    "ml_home": -145,
-    "ml_away": 121,
-    "spread_home": -3.5,
-    "total": 240.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": -135,
+    "ml_away": 114,
+    "spread_home": -2.5,
+    "total": 238.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [],
    "adj": {
@@ -7160,10 +7160,10 @@
    "tip_et": "21:30",
    "venue": "Delta Center, Salt Lake City",
    "market": {
-    "ml_home": 150,
-    "ml_away": -180,
+    "ml_home": 154,
+    "ml_away": -184,
     "spread_home": 4.5,
-    "total": 227.5,
+    "total": 225.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
     "over_odds": -110,
@@ -7195,11 +7195,11 @@
     "ml_home": -125,
     "ml_away": 105,
     "spread_home": -1.5,
-    "total": 224.5,
-    "spread_odds_home": -112,
-    "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 226.5,
+    "spread_odds_home": -115,
+    "spread_odds_away": -105,
+    "over_odds": -112,
+    "under_odds": -108
    },
    "b2b": [],
    "adj": {},
@@ -7220,14 +7220,14 @@
    "tip_et": "22:00",
    "venue": "Crypto.com Arena, Los Angeles",
    "market": {
-    "ml_home": -1000,
-    "ml_away": 640,
+    "ml_home": -890,
+    "ml_away": 600,
     "spread_home": -14.5,
-    "total": 230.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 228.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {

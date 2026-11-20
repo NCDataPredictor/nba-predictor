@@ -993,10 +993,10 @@
  ],
  "market": {
   "source": "NBA.com/games 20-nov (9 partidos de Copa); Covers matchup/<id>/odds 388223-388231 (~11:45 ET, 9 casas; TOR@DET 5)",
-  "ml_home": 150,
-  "ml_away": -180,
+  "ml_home": 154,
+  "ml_away": -184,
   "spread_home": 4.5,
-  "total": 227.5,
+  "total": 225.5,
   "spread_odds_home": -110,
   "spread_odds_away": -110,
   "over_odds": -110,

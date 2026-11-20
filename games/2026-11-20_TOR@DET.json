@@ -878,14 +878,14 @@
  ],
  "market": {
   "source": "NBA.com/games 20-nov (9 partidos de Copa); Covers matchup/<id>/odds 388223-388231 (~11:45 ET, 9 casas; TOR@DET 5)",
-  "ml_home": -295,
-  "ml_away": 240,
-  "spread_home": -7.5,
-  "total": 215.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -105,
-  "over_odds": -114,
-  "under_odds": -106
+  "ml_home": -264,
+  "ml_away": 217,
+  "spread_home": -6.5,
+  "total": 216.5,
+  "spread_odds_home": -116,
+  "spread_odds_away": -104,
+  "over_odds": -107,
+  "under_odds": -112
  },
  "prop_lines": {
   "Cade Cunningham": {
