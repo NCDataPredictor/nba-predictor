@@ -9,7 +9,8 @@
   "notes": [
    "MIN: Edwards (rodilla) y J. Clark (isquio) OUT; Kuminga (hombro, no jugó el 17-nov) y Pullin en duda (CBS GTD, RotoWire Ques)",
    "NYK sin bajas en ESPN/CBS/RotoWire",
-   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+   "19:30 ET: sin bajas nuevas (Kuminga sigue questionable); solo cuotas actualizadas"
   ],
   "out": [
    "Anthony Edwards",
@@ -1045,12 +1046,12 @@
  ],
  "market": {
   "source": "NBA.com/games 19-nov (4 partidos, todos 20:00 ET); Covers matchup/<id>/odds con 9 casas para NYK@MIN, GSW@MEM y POR@MIL (11:40 ET); LAC@SAS vacío en Covers: consenso de scoresandodds.com/nba?date=2026-11-19",
-  "ml_home": 105,
-  "ml_away": -125,
+  "ml_home": -105,
+  "ml_away": -113,
   "spread_home": 1.5,
   "total": 216.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "spread_odds_home": -119,
+  "spread_odds_away": -102,
   "over_odds": -110,
   "under_odds": -110
  },

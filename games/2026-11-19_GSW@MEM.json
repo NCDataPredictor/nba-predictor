@@ -10,18 +10,22 @@
    "GSW: Curry (oblicuo), B. Williams (isquio) y Horford (espalda) OUT (CBS/RotoWire)",
    "MEM: GG Jackson (pie) y Pippen Jr. (espalda) OUT; Jerome (cadera) y Stewart (enfermedad) en duda tras no jugar el 18-nov (Covers ya ofrece props de Jerome: p_play 0.6)",
    "Ambos en back-to-back (GSW jugó en DAL y MEM en CLE el 18-nov)",
-   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+   "19:30 ET: ESPN (notas 19-nov) Jerome y Edey OUT (cadera), Draymond Green OUT (codo); Stewart y Cryer questionable; Horford ya no figura en ESPN y RotoWire lo da titular (gtd 0.7). Línea MEM -8.5 -> -5.5"
   ],
   "out": [
    "Stephen Curry",
    "Brandon Williams",
-   "Al Horford",
    "GG Jackson",
-   "Scotty Pippen Jr."
+   "Scotty Pippen Jr.",
+   "Draymond Green",
+   "Ty Jerome",
+   "Zach Edey"
   ],
   "gtd": {
-   "Ty Jerome": 0.7,
-   "Isaiah Stewart": 0.4
+   "Isaiah Stewart": 0.4,
+   "Al Horford": 0.7,
+   "LJ Cryer": 0.6
   },
   "reserves": {
    "GSW": [
@@ -79,13 +83,13 @@
     "pace": 101.97
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -3.5,
+    "d": 2.0,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Jerome (25 ppg) y Edey OUT 19-nov"
    }
   },
   "GSW": {
@@ -101,13 +105,13 @@
     "pace": 100.33
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -1.5,
+    "d": 2.0,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Draymond Green OUT 19-nov (Horford vuelve)"
    }
   }
  },
@@ -121,7 +125,7 @@
    "name": "Cameron Boozer",
    "pos": "PF",
    "starter": true,
-   "min": 27.8,
+   "min": 34.4,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -160,52 +164,10 @@
   },
   {
    "team": "MEM",
-   "name": "Ty Jerome",
-   "pos": "PG",
-   "starter": true,
-   "min": 27.3,
-   "g_cur": 11,
-   "p_play": 0.7,
-   "cur": {
-    "min": 30.5,
-    "pts": 25.4,
-    "reb": 3.4,
-    "ast": 5.3,
-    "fg3m": 2.5,
-    "fgm": 8.9,
-    "fga": 18.4,
-    "fg3a": 7.1,
-    "stl": 0.7,
-    "blk": 0.2,
-    "tov": 2.5,
-    "pf": 1.8,
-    "ftm": 5.0,
-    "fta": 5.5
-   },
-   "prior": {
-    "min": 22.7,
-    "pts": 19.67,
-    "reb": 2.8,
-    "ast": 5.67,
-    "fg3m": 2.8,
-    "fgm": 6.8,
-    "fga": 14.33,
-    "fg3a": 6.67,
-    "stl": 1.07,
-    "blk": 0.27,
-    "tov": 1.8,
-    "pf": 2.07,
-    "ftm": 3.27,
-    "fta": 3.73
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "MEM",
    "name": "Cedric Coward",
    "pos": "SG",
    "starter": true,
-   "min": 25.9,
+   "min": 32.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -247,7 +209,7 @@
    "name": "Jaylen Wells",
    "pos": "SG",
    "starter": true,
-   "min": 24.1,
+   "min": 29.7,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -289,7 +251,7 @@
    "name": "Jerami Grant",
    "pos": "PF",
    "starter": false,
-   "min": 21.0,
+   "min": 26.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -329,8 +291,8 @@
    "team": "MEM",
    "name": "Cam Spencer",
    "pos": "SG",
-   "starter": false,
-   "min": 19.9,
+   "starter": true,
+   "min": 24.5,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -364,14 +326,15 @@
     "pf": 1.43,
     "ftm": 1.75,
     "fta": 1.86
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "MEM",
    "name": "Javon Small",
    "pos": "PG",
    "starter": false,
-   "min": 19.5,
+   "min": 24.1,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -409,52 +372,10 @@
   },
   {
    "team": "MEM",
-   "name": "Zach Edey",
-   "pos": "C",
-   "starter": true,
-   "min": 18.6,
-   "g_cur": 12,
-   "p_play": 1.0,
-   "cur": {
-    "min": 20.8,
-    "pts": 9.2,
-    "reb": 7.4,
-    "ast": 0.9,
-    "fg3m": 0.1,
-    "fgm": 3.5,
-    "fga": 6.2,
-    "fg3a": 0.1,
-    "stl": 0.3,
-    "blk": 1.2,
-    "tov": 1.4,
-    "pf": 3.4,
-    "ftm": 2.1,
-    "fta": 2.3
-   },
-   "prior": {
-    "min": 25.8,
-    "pts": 13.64,
-    "reb": 11.09,
-    "ast": 1.09,
-    "fg3m": 0.09,
-    "fgm": 5.64,
-    "fga": 8.91,
-    "fg3a": 0.45,
-    "stl": 0.64,
-    "blk": 1.91,
-    "tov": 2.36,
-    "pf": 3.36,
-    "ftm": 2.27,
-    "fta": 2.91
-   },
-   "slot": "C"
-  },
-  {
-   "team": "MEM",
    "name": "Isaiah Stewart",
    "pos": "C",
-   "starter": false,
-   "min": 16.3,
+   "starter": true,
+   "min": 20.1,
    "g_cur": 10,
    "p_play": 0.4,
    "cur": {
@@ -488,14 +409,15 @@
     "pf": 2.86,
     "ftm": 1.71,
     "fta": 2.26
-   }
+   },
+   "slot": "C"
   },
   {
    "team": "MEM",
    "name": "Taylor Hendricks",
    "pos": "PF",
    "starter": false,
-   "min": 11.7,
+   "min": 14.5,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -536,7 +458,7 @@
    "name": "Quinten Post",
    "pos": "C",
    "starter": false,
-   "min": 10.6,
+   "min": 13.0,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -577,7 +499,7 @@
    "name": "Kris Murray",
    "pos": "SF",
    "starter": false,
-   "min": 9.5,
+   "min": 11.7,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -618,7 +540,7 @@
    "name": "Olivier-Maxence Prosper",
    "pos": "PF",
    "starter": false,
-   "min": 8.0,
+   "min": 9.8,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -659,7 +581,7 @@
    "name": "Brandin Podziemski",
    "pos": "SG",
    "starter": true,
-   "min": 35.5,
+   "min": 37.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -701,7 +623,7 @@
    "name": "Yaxel Lendeborg",
    "pos": "SF",
    "starter": true,
-   "min": 34.9,
+   "min": 36.4,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -736,56 +658,14 @@
     "ftm": 4.4,
     "fta": 5.7
    },
-   "slot": "SF"
-  },
-  {
-   "team": "GSW",
-   "name": "Draymond Green",
-   "pos": "PF",
-   "starter": true,
-   "min": 28.4,
-   "g_cur": 13,
-   "p_play": 1.0,
-   "cur": {
-    "min": 25.6,
-    "pts": 3.2,
-    "reb": 4.7,
-    "ast": 6.5,
-    "fg3m": 0.4,
-    "fgm": 1.3,
-    "fga": 3.1,
-    "fg3a": 1.2,
-    "stl": 0.9,
-    "blk": 0.9,
-    "tov": 2.5,
-    "pf": 2.4,
-    "ftm": 0.3,
-    "fta": 0.5
-   },
-   "prior": {
-    "min": 27.5,
-    "pts": 8.38,
-    "reb": 5.51,
-    "ast": 5.53,
-    "fg3m": 1.49,
-    "fgm": 3.01,
-    "fga": 7.22,
-    "fg3a": 4.56,
-    "stl": 0.9,
-    "blk": 0.62,
-    "tov": 2.66,
-    "pf": 2.9,
-    "ftm": 0.87,
-    "fta": 1.24
-   },
    "slot": "PF"
   },
   {
    "team": "GSW",
    "name": "De'Anthony Melton",
    "pos": "SG",
-   "starter": false,
-   "min": 24.2,
+   "starter": true,
+   "min": 25.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -819,14 +699,15 @@
     "pf": 1.86,
     "ftm": 2.04,
     "fta": 2.47
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "GSW",
    "name": "Will Richard",
    "pos": "SG",
    "starter": true,
-   "min": 21.5,
+   "min": 22.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -861,14 +742,14 @@
     "ftm": 0.67,
     "fta": 0.78
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "GSW",
    "name": "Georges Niang",
    "pos": "PF",
    "starter": false,
-   "min": 21.3,
+   "min": 22.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -909,7 +790,7 @@
    "name": "Gui Santos",
    "pos": "PF",
    "starter": true,
-   "min": 20.5,
+   "min": 21.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -948,10 +829,51 @@
   },
   {
    "team": "GSW",
+   "name": "Al Horford",
+   "pos": "C",
+   "starter": false,
+   "min": 19.6,
+   "g_cur": 12,
+   "p_play": 0.7,
+   "cur": {
+    "min": 17.0,
+    "pts": 3.9,
+    "reb": 3.8,
+    "ast": 1.8,
+    "fg3m": 0.9,
+    "fgm": 1.5,
+    "fga": 4.3,
+    "fg3a": 2.9,
+    "stl": 0.3,
+    "blk": 1.0,
+    "tov": 0.5,
+    "pf": 1.2,
+    "ftm": 0.0,
+    "fta": 0.1
+   },
+   "prior": {
+    "min": 21.6,
+    "pts": 8.27,
+    "reb": 4.87,
+    "ast": 2.58,
+    "fg3m": 1.64,
+    "fgm": 3.07,
+    "fga": 7.2,
+    "fg3a": 4.56,
+    "stl": 0.67,
+    "blk": 1.13,
+    "tov": 0.93,
+    "pf": 1.13,
+    "ftm": 0.49,
+    "fta": 0.58
+   }
+  },
+  {
+   "team": "GSW",
    "name": "Charles Bassey",
    "pos": "C",
    "starter": false,
-   "min": 15.7,
+   "min": 16.4,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -992,7 +914,7 @@
    "name": "Gary Payton II",
    "pos": "SG",
    "starter": false,
-   "min": 14.4,
+   "min": 15.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -1033,9 +955,9 @@
    "name": "LJ Cryer",
    "pos": "PG",
    "starter": false,
-   "min": 12.4,
+   "min": 12.9,
    "g_cur": 12,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 11.2,
     "pts": 6.4,
@@ -1074,7 +996,7 @@
    "name": "Graham Ike",
    "pos": "C",
    "starter": false,
-   "min": 11.1,
+   "min": 11.5,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -1113,12 +1035,12 @@
  ],
  "market": {
   "source": "NBA.com/games 19-nov (4 partidos, todos 20:00 ET); Covers matchup/<id>/odds con 9 casas para NYK@MIN, GSW@MEM y POR@MIL (11:40 ET); LAC@SAS vacío en Covers: consenso de scoresandodds.com/nba?date=2026-11-19",
-  "ml_home": -334,
-  "ml_away": 268,
-  "spread_home": -8.5,
-  "total": 225.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "ml_home": -220,
+  "ml_away": 180,
+  "spread_home": -5.5,
+  "total": 224.5,
+  "spread_odds_home": -111,
+  "spread_odds_away": -109,
   "over_odds": -110,
   "under_odds": -110
  },
@@ -1344,53 +1266,6 @@
     -110
    ]
   },
-  "Zach Edey": {
-   "tov": [
-    1.5,
-    127,
-    -175
-   ],
-   "fg2a": [
-    6.5,
-    -125,
-    -111
-   ],
-   "blk": [
-    1.5,
-    155,
-    -222
-   ],
-   "fta": [
-    2.5,
-    140,
-    -200
-   ],
-   "pts": [
-    9.5,
-    -139,
-    100
-   ],
-   "fg2m": [
-    4.5,
-    115,
-    -161
-   ],
-   "reb": [
-    7.5,
-    -118,
-    -118
-   ],
-   "pr": [
-    17.5,
-    -120,
-    -115
-   ],
-   "ftm": [
-    1.5,
-    -108,
-    -128
-   ]
-  },
   "Cedric Coward": {
    "pa": [
     18.5,
@@ -1540,103 +1415,6 @@
     107
    ]
   },
-  "Ty Jerome": {
-   "pts": [
-    22.5,
-    -108,
-    -128
-   ],
-   "stocks": [
-    1.5,
-    157,
-    -222
-   ],
-   "fg3m": [
-    2.5,
-    -133,
-    -105
-   ],
-   "blk": [
-    0.5,
-    230,
-    -357
-   ],
-   "fg2a": [
-    9.5,
-    -125,
-    -111
-   ],
-   "ast": [
-    4.5,
-    -120,
-    -115
-   ],
-   "ra": [
-    7.5,
-    -128,
-    -108
-   ],
-   "fga": [
-    16.5,
-    115,
-    -159
-   ],
-   "ftm": [
-    3.5,
-    100,
-    -139
-   ],
-   "reb": [
-    3.5,
-    125,
-    -175
-   ],
-   "fta": [
-    3.5,
-    -154,
-    110
-   ],
-   "fg2m": [
-    5.5,
-    110,
-    -154
-   ],
-   "pa": [
-    26.5,
-    -122,
-    -114
-   ],
-   "stl": [
-    0.5,
-    -175,
-    127
-   ],
-   "pra": [
-    29.5,
-    -128,
-    -108
-   ],
-   "tov": [
-    2.5,
-    105,
-    -143
-   ],
-   "pr": [
-    25.5,
-    -114,
-    -122
-   ],
-   "fg3a": [
-    6.5,
-    -111,
-    -125
-   ],
-   "fgm": [
-    7.5,
-    -143,
-    100
-   ]
-  },
   "Jerami Grant": {
    "blk": [
     0.5,
@@ -1697,6 +1475,103 @@
     1.5,
     -115,
     -120
+   ]
+  },
+  "Al Horford": {
+   "fg2a": [
+    1.5,
+    -167,
+    120
+   ],
+   "pts": [
+    5.5,
+    -118,
+    -118
+   ],
+   "pa": [
+    7.5,
+    -133,
+    -102
+   ],
+   "fg3a": [
+    3.5,
+    100,
+    -139
+   ],
+   "stl": [
+    0.5,
+    137,
+    -192
+   ],
+   "pr": [
+    9.5,
+    -125,
+    -111
+   ],
+   "fg2m": [
+    0.5,
+    -182,
+    132
+   ],
+   "fg3m": [
+    1.5,
+    150,
+    -213
+   ],
+   "pra": [
+    12.5,
+    -102,
+    -133
+   ],
+   "tov": [
+    0.5,
+    -161,
+    115
+   ],
+   "blk": [
+    0.5,
+    -161,
+    115
+   ],
+   "fgm": [
+    2.5,
+    132,
+    -192
+   ],
+   "ast": [
+    2.5,
+    118,
+    -161
+   ],
+   "ra": [
+    6.5,
+    100,
+    -139
+   ],
+   "stocks": [
+    1.5,
+    130,
+    -182
+   ],
+   "fga": [
+    5.5,
+    105,
+    -143
+   ],
+   "ftm": [
+    0.5,
+    240,
+    -370
+   ],
+   "reb": [
+    3.5,
+    -154,
+    112
+   ],
+   "fta": [
+    0.5,
+    260,
+    -435
    ]
   },
   "Yaxel Lendeborg": {

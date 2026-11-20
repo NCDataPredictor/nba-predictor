@@ -4,7 +4,7 @@
   "schedule_odds": "NBA.com/games 19-nov (4 partidos, todos 20:00 ET); Covers matchup/<id>/odds con 9 casas para NYK@MIN, GSW@MEM y POR@MIL (11:40 ET); LAC@SAS vacío en Covers: consenso de scoresandodds.com/nba?date=2026-11-19",
   "players_cur": "raw/2026-11-18/cur.csv con SAS, LAC, MEM, MIN, NYK, MIL y POR rehechos desde basketball-reference teams/<ABR>/2027.html (19-nov ~11:30 ET, al día); GSW (B-Ref sin el 18-nov) actualizado con results/2026-11-18.json",
   "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
-  "injuries": "ESPN injuries, CBS injuries y RotoWire nba-lineups (19-nov ~11:40 ET; notas del 17/18-nov); en duda con p_play",
+  "injuries": "ESPN injuries, CBS injuries y RotoWire nba-lineups (19-nov ~11:40 ET; notas del 17/18-nov); en duda con p_play; 19:30 ET: ESPN injuries (notas 19-nov), CBS y RotoWire nba-lineups",
   "b2b": "GSW, MEM y MIL jugaron el 18-nov",
   "db": "BD de rankings: snapshot del 19-nov (B-Ref 2026-27 con partidos del 17 y 18-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta 17-nov)",
   "h2h": "h2h/2025-26.json",
@@ -4075,14 +4075,14 @@
    "tip_et": "20:00",
    "venue": "Frost Bank Center, San Antonio",
    "market": {
-    "ml_home": -1200,
-    "ml_away": 750,
+    "ml_home": -1100,
+    "ml_away": 700,
     "spread_home": -15.5,
-    "total": 226.5,
-    "spread_odds_home": -115,
-    "spread_odds_away": -105,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 224.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -113,
+    "under_odds": -107
    },
    "b2b": [],
    "adj": {},
@@ -4093,7 +4093,8 @@
    "notes": [
     "SAS: Dylan Harper (cadera, se fue del partido del 17-nov) OUT según CBS y RotoWire; Harris y Quaintance OUT (no están en el roster del modelo)",
     "LAC: Ingram, Beal y J. Miller OUT (no están en el roster del modelo)",
-    "Covers sin cuotas por casa a las 11:40 ET: consenso de scoresandodds"
+    "Covers sin cuotas por casa a las 11:40 ET: consenso de scoresandodds",
+    "19:30 ET: sin bajas nuevas (Kuminga sigue questionable); solo cuotas actualizadas"
    ]
   },
   {
@@ -4102,12 +4103,12 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": 105,
-    "ml_away": -125,
+    "ml_home": -105,
+    "ml_away": -113,
     "spread_home": 1.5,
     "total": 216.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
+    "spread_odds_home": -119,
+    "spread_odds_away": -102,
     "over_odds": -110,
     "under_odds": -110
    },
@@ -4124,7 +4125,8 @@
    "notes": [
     "MIN: Edwards (rodilla) y J. Clark (isquio) OUT; Kuminga (hombro, no jugó el 17-nov) y Pullin en duda (CBS GTD, RotoWire Ques)",
     "NYK sin bajas en ESPN/CBS/RotoWire",
-    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+    "19:30 ET: sin bajas nuevas (Kuminga sigue questionable); solo cuotas actualizadas"
    ]
   },
   {
@@ -4133,12 +4135,12 @@
    "tip_et": "20:00",
    "venue": "FedExForum, Memphis",
    "market": {
-    "ml_home": -334,
-    "ml_away": 268,
-    "spread_home": -8.5,
-    "total": 225.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
+    "ml_home": -220,
+    "ml_away": 180,
+    "spread_home": -5.5,
+    "total": 224.5,
+    "spread_odds_home": -111,
+    "spread_odds_away": -109,
     "over_odds": -110,
     "under_odds": -110
    },
@@ -4146,23 +4148,38 @@
     "GSW",
     "MEM"
    ],
-   "adj": {},
+   "adj": {
+    "MEM": {
+     "o": -2.5,
+     "d": 1.0,
+     "why": "Jerome (25 ppg) y Edey OUT 19-nov"
+    },
+    "GSW": {
+     "o": -0.5,
+     "d": 1.0,
+     "why": "Draymond Green OUT 19-nov (Horford vuelve)"
+    }
+   },
    "out": [
     "Stephen Curry",
     "Brandon Williams",
-    "Al Horford",
     "GG Jackson",
-    "Scotty Pippen Jr."
+    "Scotty Pippen Jr.",
+    "Draymond Green",
+    "Ty Jerome",
+    "Zach Edey"
    ],
    "gtd": {
-    "Ty Jerome": 0.7,
-    "Isaiah Stewart": 0.4
+    "Isaiah Stewart": 0.4,
+    "Al Horford": 0.7,
+    "LJ Cryer": 0.6
    },
    "notes": [
     "GSW: Curry (oblicuo), B. Williams (isquio) y Horford (espalda) OUT (CBS/RotoWire)",
     "MEM: GG Jackson (pie) y Pippen Jr. (espalda) OUT; Jerome (cadera) y Stewart (enfermedad) en duda tras no jugar el 18-nov (Covers ya ofrece props de Jerome: p_play 0.6)",
     "Ambos en back-to-back (GSW jugó en DAL y MEM en CLE el 18-nov)",
-    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+    "19:30 ET: ESPN (notas 19-nov) Jerome y Edey OUT (cadera), Draymond Green OUT (codo); Stewart y Cryer questionable; Horford ya no figura en ESPN y RotoWire lo da titular (gtd 0.7). Línea MEM -8.5 -> -5.5"
    ]
   },
   {
@@ -4171,35 +4188,44 @@
    "tip_et": "20:00",
    "venue": "Fiserv Forum, Milwaukee",
    "market": {
-    "ml_home": 290,
-    "ml_away": -375,
-    "spread_home": 9.5,
-    "total": 226.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": 390,
+    "ml_away": -520,
+    "spread_home": 10.5,
+    "total": 230.5,
+    "spread_odds_home": -103,
+    "spread_odds_away": -117,
+    "over_odds": -112,
+    "under_odds": -108
    },
    "b2b": [
     "MIL"
    ],
-   "adj": {},
+   "adj": {
+    "MIL": {
+     "o": -2.0,
+     "d": 1.5,
+     "why": "Kuzma y Turner OUT 19-nov"
+    }
+   },
    "out": [
     "Robert Williams III",
     "Vít Krejčí",
     "Ja Morant",
-    "Ousmane Dieng"
+    "Ousmane Dieng",
+    "Chris Youngblood",
+    "Kyle Kuzma",
+    "Myles Turner"
    ],
    "gtd": {
     "Deni Avdija": 0.7,
     "Toumani Camara": 0.8,
-    "Chris Youngblood": 0.4,
-    "Ryan Rollins": 0.35
+    "Ryan Rollins": 0.6
    },
    "notes": [
     "POR: R. Williams III (descanso), Krejčí (tobillo) y Morant (isquio) OUT; Avdija (pie) y Camara (descanso) GTD pero con props abiertas en Covers (p_play 0.7/0.8); Youngblood (talón) en duda",
     "MIL: Dieng (dedo) OUT; Rollins (enfermedad) en duda; MIL en back-to-back (jugó en MIA el 18-nov)",
-    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+    "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+    "19:30 ET: ESPN Kuzma y Turner OUT (hombro), Youngblood OUT (talón); Rollins ya no figura en ESPN ni RotoWire (gtd 0.6). Línea MIL +9.5 -> +10.5, total 226.5 -> 230.5"
    ]
   }
  ],

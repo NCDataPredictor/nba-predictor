@@ -964,7 +964,57 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "2521d9331e36e711",
+   "at": "2026-11-20T00:19+00:00",
+   "date": "2026-11-19",
+   "gid": "2026-11-19-GSW-at-MEM",
+   "title": "GSW @ MEM (8:00 pm ET): cambian los picks",
+   "body": "Bajas: Green, Jerome, Edey OUT. Pick nuevo: Cameron Boozer Over 13.5 REB+AST.",
+   "label": "Revisión 19:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-19-GSW-at-MEM",
+   "added": [
+    "Cameron Boozer Over 13.5 REB+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Draymond Green",
+    "Ty Jerome",
+    "Zach Edey"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "ba1301c421c0f41a",
+   "at": "2026-11-20T00:19+00:00",
+   "date": "2026-11-19",
+   "gid": "2026-11-19-POR-at-MIL",
+   "title": "POR @ MIL (8:00 pm ET): cambian los picks",
+   "body": "Bajas: Kuzma, Turner, Youngblood OUT. Picks nuevos: Scoot Henderson Over 16.5 PTS+REB+AST; Jaime Jaquez Jr. Over 21.5 PTS+REB+AST; Jaime Jaquez Jr. Over 7.5 REB+AST.",
+   "label": "Revisión 19:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-19-POR-at-MIL",
+   "added": [
+    "Scoot Henderson Over 16.5 PTS+REB+AST",
+    "Jaime Jaquez Jr. Over 21.5 PTS+REB+AST",
+    "Jaime Jaquez Jr. Over 7.5 REB+AST"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Kyle Kuzma",
+    "Myles Turner",
+    "Chris Youngblood"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-19T17:18+00:00"
+ "updated": "2026-11-20T00:19+00:00"
 }
