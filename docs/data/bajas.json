@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:34+00:00",
+ "updated": "2026-11-20T00:35+00:00",
  "list": [
   {
    "date": "2026-11-17",
@@ -329,7 +329,7 @@
    "note": "Descartado vs MIL",
    "source": "Aviso de Nicolas 19-nov 19:33 ET",
    "at": "2026-11-20T00:34+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }

@@ -19,10 +19,10 @@
    "Ousmane Dieng",
    "Chris Youngblood",
    "Kyle Kuzma",
-   "Myles Turner"
+   "Myles Turner",
+   "Deni Avdija"
   ],
   "gtd": {
-   "Deni Avdija": 0.7,
    "Toumani Camara": 0.8,
    "Ryan Rollins": 0.6
   },
@@ -577,52 +577,10 @@
   },
   {
    "team": "POR",
-   "name": "Deni Avdija",
-   "pos": "SF",
-   "starter": true,
-   "min": 35.2,
-   "g_cur": 13,
-   "p_play": 0.7,
-   "cur": {
-    "min": 32.5,
-    "pts": 24.2,
-    "reb": 6.2,
-    "ast": 6.1,
-    "fg3m": 2.1,
-    "fgm": 8.0,
-    "fga": 15.8,
-    "fg3a": 5.4,
-    "stl": 1.1,
-    "blk": 0.4,
-    "tov": 3.3,
-    "pf": 2.6,
-    "ftm": 6.1,
-    "fta": 8.5
-   },
-   "prior": {
-    "min": 33.3,
-    "pts": 24.21,
-    "reb": 6.88,
-    "ast": 6.7,
-    "fg3m": 1.89,
-    "fgm": 7.45,
-    "fga": 16.12,
-    "fg3a": 5.95,
-    "stl": 0.77,
-    "blk": 0.62,
-    "tov": 3.83,
-    "pf": 2.55,
-    "ftm": 7.41,
-    "fta": 9.24
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "POR",
    "name": "Toumani Camara",
    "pos": "PF",
    "starter": true,
-   "min": 31.5,
+   "min": 37.0,
    "g_cur": 14,
    "p_play": 0.8,
    "cur": {
@@ -664,7 +622,7 @@
    "name": "Damian Lillard",
    "pos": "PG",
    "starter": true,
-   "min": 31.5,
+   "min": 37.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -706,7 +664,7 @@
    "name": "Jrue Holiday",
    "pos": "PG",
    "starter": false,
-   "min": 28.7,
+   "min": 33.7,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -747,7 +705,7 @@
    "name": "Donovan Clingan",
    "pos": "C",
    "starter": true,
-   "min": 27.8,
+   "min": 32.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -789,7 +747,7 @@
    "name": "Sidy Cissoko",
    "pos": "SF",
    "starter": true,
-   "min": 26.2,
+   "min": 30.7,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -830,8 +788,8 @@
    "team": "POR",
    "name": "Scoot Henderson",
    "pos": "PG",
-   "starter": false,
-   "min": 24.0,
+   "starter": true,
+   "min": 28.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -865,14 +823,15 @@
     "pf": 2.83,
     "ftm": 2.8,
     "fta": 3.33
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "POR",
    "name": "Jayson Kent",
    "pos": "SF",
    "starter": false,
-   "min": 14.7,
+   "min": 17.3,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -913,7 +872,7 @@
    "name": "Branden Carlson",
    "pos": "C",
    "starter": false,
-   "min": 10.4,
+   "min": 12.2,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -954,7 +913,7 @@
    "name": "Yang Hansen",
    "pos": "C",
    "starter": false,
-   "min": 9.9,
+   "min": 11.6,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1155,103 +1114,6 @@
     0.5,
     -250,
     170
-   ]
-  },
-  "Deni Avdija": {
-   "fg3a": [
-    5.5,
-    105,
-    -143
-   ],
-   "tov": [
-    2.5,
-    -167,
-    122
-   ],
-   "blk": [
-    0.5,
-    130,
-    -182
-   ],
-   "pa": [
-    29.5,
-    -120,
-    -115
-   ],
-   "stl": [
-    0.5,
-    -192,
-    137
-   ],
-   "fg2a": [
-    9.5,
-    -139,
-    100
-   ],
-   "ast": [
-    5.5,
-    -120,
-    -115
-   ],
-   "fg2m": [
-    6.5,
-    105,
-    -143
-   ],
-   "ftm": [
-    5.5,
-    -128,
-    -108
-   ],
-   "pra": [
-    36.5,
-    -125,
-    -111
-   ],
-   "fta": [
-    9.5,
-    100,
-    -139
-   ],
-   "fgm": [
-    7.5,
-    -154,
-    107
-   ],
-   "reb": [
-    6.5,
-    -149,
-    107
-   ],
-   "pts": [
-    23.5,
-    -128,
-    -108
-   ],
-   "ra": [
-    12.5,
-    -125,
-    -110
-   ],
-   "fga": [
-    15.5,
-    120,
-    -167
-   ],
-   "pr": [
-    31.5,
-    -111,
-    -125
-   ],
-   "fg3m": [
-    1.5,
-    -143,
-    105
-   ],
-   "stocks": [
-    1.5,
-    107,
-    -149
    ]
   },
   "Scoot Henderson": {
