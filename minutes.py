@@ -20,7 +20,7 @@ from collections import defaultdict
 LAST_N, RECENT_N, OUT_N = 10, 5, 3
 W_RECENT, W_CHG = 0.4, 0.6
 RET_MIN, RET_F, DNP_P = 20.0, 0.9, 0.15
-CHG_MIN, KEY_MIN = 6.0, 24.0
+CHG_MIN, KEY_MIN = 6.0, 20.0
 TEAM_MIN = 240.0
 
 
