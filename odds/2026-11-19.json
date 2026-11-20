@@ -1,9 +1,27 @@
 {
  "date": "2026-11-19",
- "source": "Covers matchup/<id>/odds (9 casas, 19-nov ~11:40 ET) para NYK@MIN, GSW@MEM, POR@MIL; LAC@SAS vacío en Covers: consenso scoresandodds.com/nba?date=2026-11-19",
+ "source": "Covers matchup/<id>/odds (9 casas, 19-nov ~11:40 ET) para NYK@MIN, GSW@MEM, POR@MIL; LAC@SAS vacío en Covers: consenso scoresandodds.com/nba?date=2026-11-19; 19:25 ET: consenso scoresandodds.com/nba (spread/total) + mediana ML del comparador de Covers (17:48 ET)",
  "games": {
   "NYK@MIN": {
    "books": [
+    {
+     "book": "scoresandodds/Covers (consenso 19:25 ET)",
+     "ml_away": -113,
+     "ml_home": -105,
+     "spread_away": [
+      -1.5,
+      -102
+     ],
+     "spread_home": [
+      1.5,
+      -119
+     ],
+     "total": [
+      216.5,
+      -110,
+      -110
+     ]
+    },
     {
      "book": "BetMGM",
      "ml_away": -125,
@@ -171,6 +189,24 @@
   "GSW@MEM": {
    "books": [
     {
+     "book": "scoresandodds/Covers (consenso 19:25 ET)",
+     "ml_away": 180,
+     "ml_home": -220,
+     "spread_away": [
+      5.5,
+      -109
+     ],
+     "spread_home": [
+      -5.5,
+      -111
+     ],
+     "total": [
+      224.5,
+      -110,
+      -110
+     ]
+    },
+    {
      "book": "BetMGM",
      "ml_away": 260,
      "ml_home": -325,
@@ -337,6 +373,24 @@
   "POR@MIL": {
    "books": [
     {
+     "book": "scoresandodds/Covers (consenso 19:25 ET)",
+     "ml_away": -520,
+     "ml_home": 390,
+     "spread_away": [
+      -10.5,
+      -117
+     ],
+     "spread_home": [
+      10.5,
+      -103
+     ],
+     "total": [
+      230.5,
+      -112,
+      -108
+     ]
+    },
+    {
      "book": "BetMGM",
      "ml_away": -375,
      "ml_home": 300,
@@ -502,6 +556,24 @@
   },
   "LAC@SAS": {
    "books": [
+    {
+     "book": "scoresandodds/Covers (consenso 19:25 ET)",
+     "ml_away": 700,
+     "ml_home": -1100,
+     "spread_away": [
+      15.5,
+      -110
+     ],
+     "spread_home": [
+      -15.5,
+      -110
+     ],
+     "total": [
+      224.5,
+      -113,
+      -107
+     ]
+    },
     {
      "book": "scoresandodds (consenso 11:40 ET)",
      "ml_away": 750,

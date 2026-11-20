@@ -9,7 +9,8 @@
   "notes": [
    "SAS: Dylan Harper (cadera, se fue del partido del 17-nov) OUT según CBS y RotoWire; Harris y Quaintance OUT (no están en el roster del modelo)",
    "LAC: Ingram, Beal y J. Miller OUT (no están en el roster del modelo)",
-   "Covers sin cuotas por casa a las 11:40 ET: consenso de scoresandodds"
+   "Covers sin cuotas por casa a las 11:40 ET: consenso de scoresandodds",
+   "19:30 ET: sin bajas nuevas (Kuminga sigue questionable); solo cuotas actualizadas"
   ],
   "out": [
    "Dylan Harper"
@@ -1006,14 +1007,14 @@
  ],
  "market": {
   "source": "NBA.com/games 19-nov (4 partidos, todos 20:00 ET); Covers matchup/<id>/odds con 9 casas para NYK@MIN, GSW@MEM y POR@MIL (11:40 ET); LAC@SAS vacío en Covers: consenso de scoresandodds.com/nba?date=2026-11-19",
-  "ml_home": -1200,
-  "ml_away": 750,
+  "ml_home": -1100,
+  "ml_away": 700,
   "spread_home": -15.5,
-  "total": 226.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -105,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 224.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -113,
+  "under_odds": -107
  },
  "prop_lines": {
   "Stephon Castle": {

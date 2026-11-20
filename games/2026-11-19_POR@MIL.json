@@ -9,19 +9,22 @@
   "notes": [
    "POR: R. Williams III (descanso), Krejčí (tobillo) y Morant (isquio) OUT; Avdija (pie) y Camara (descanso) GTD pero con props abiertas en Covers (p_play 0.7/0.8); Youngblood (talón) en duda",
    "MIL: Dieng (dedo) OUT; Rollins (enfermedad) en duda; MIL en back-to-back (jugó en MIA el 18-nov)",
-   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)"
+   "12:20 ET: props de Betano cargadas. Con props abiertas en Betano: Jerome, Kuminga, Avdija y Camara (p_play 0.7-0.8); sin props: Stewart, Youngblood y Rollins (p_play bajado a 0.35-0.4)",
+   "19:30 ET: ESPN Kuzma y Turner OUT (hombro), Youngblood OUT (talón); Rollins ya no figura en ESPN ni RotoWire (gtd 0.6). Línea MIL +9.5 -> +10.5, total 226.5 -> 230.5"
   ],
   "out": [
    "Robert Williams III",
    "Vít Krejčí",
    "Ja Morant",
-   "Ousmane Dieng"
+   "Ousmane Dieng",
+   "Chris Youngblood",
+   "Kyle Kuzma",
+   "Myles Turner"
   ],
   "gtd": {
    "Deni Avdija": 0.7,
    "Toumani Camara": 0.8,
-   "Chris Youngblood": 0.4,
-   "Ryan Rollins": 0.35
+   "Ryan Rollins": 0.6
   },
   "reserves": {
    "POR": [
@@ -79,13 +82,13 @@
     "pace": 98.61
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -3.0,
+    "d": 2.5,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Kuzma y Turner OUT 19-nov"
    }
   },
   "POR": {
@@ -121,7 +124,7 @@
    "name": "Tyler Herro",
    "pos": "SG",
    "starter": true,
-   "min": 27.9,
+   "min": 35.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -156,14 +159,14 @@
     "ftm": 3.0,
     "fta": 3.27
    },
-   "slot": "PG"
+   "slot": "SG"
   },
   {
    "team": "MIL",
    "name": "Jaime Jaquez Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 25.6,
+   "min": 32.3,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -198,100 +201,16 @@
     "ftm": 2.21,
     "fta": 2.88
    },
-   "slot": "SF"
-  },
-  {
-   "team": "MIL",
-   "name": "Kyle Kuzma",
-   "pos": "PF",
-   "starter": true,
-   "min": 25.2,
-   "g_cur": 15,
-   "p_play": 1.0,
-   "cur": {
-    "min": 27.1,
-    "pts": 12.3,
-    "reb": 5.3,
-    "ast": 2.4,
-    "fg3m": 1.7,
-    "fgm": 4.5,
-    "fga": 9.7,
-    "fg3a": 5.1,
-    "stl": 1.1,
-    "blk": 0.3,
-    "tov": 1.9,
-    "pf": 1.9,
-    "ftm": 1.7,
-    "fta": 2.9
-   },
-   "prior": {
-    "min": 26.2,
-    "pts": 12.99,
-    "reb": 4.54,
-    "ast": 2.67,
-    "fg3m": 1.2,
-    "fgm": 4.91,
-    "fga": 9.99,
-    "fg3a": 3.46,
-    "stl": 0.67,
-    "blk": 0.41,
-    "tov": 1.72,
-    "pf": 1.94,
-    "ftm": 1.96,
-    "fta": 2.7
-   },
    "slot": "PF"
-  },
-  {
-   "team": "MIL",
-   "name": "Myles Turner",
-   "pos": "C",
-   "starter": true,
-   "min": 24.7,
-   "g_cur": 14,
-   "p_play": 1.0,
-   "cur": {
-    "min": 26.6,
-    "pts": 7.1,
-    "reb": 6.0,
-    "ast": 2.7,
-    "fg3m": 1.3,
-    "fgm": 2.7,
-    "fga": 7.5,
-    "fg3a": 4.5,
-    "stl": 0.6,
-    "blk": 2.1,
-    "tov": 1.9,
-    "pf": 3.4,
-    "ftm": 0.4,
-    "fta": 0.5
-   },
-   "prior": {
-    "min": 26.9,
-    "pts": 11.92,
-    "reb": 5.32,
-    "ast": 1.45,
-    "fg3m": 2.07,
-    "fgm": 4.0,
-    "fga": 9.1,
-    "fg3a": 5.41,
-    "stl": 0.7,
-    "blk": 1.62,
-    "tov": 1.17,
-    "pf": 2.61,
-    "ftm": 1.85,
-    "fta": 2.49
-   },
-   "slot": "C"
   },
   {
    "team": "MIL",
    "name": "Ryan Rollins",
    "pos": "PG",
-   "starter": false,
-   "min": 22.1,
+   "starter": true,
+   "min": 27.9,
    "g_cur": 13,
-   "p_play": 0.35,
+   "p_play": 0.6,
    "cur": {
     "min": 23.8,
     "pts": 10.5,
@@ -323,14 +242,15 @@
     "pf": 2.61,
     "ftm": 1.69,
     "fta": 2.12
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "MIL",
    "name": "Brayden Burries",
    "pos": "SG",
    "starter": true,
-   "min": 20.5,
+   "min": 25.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -365,14 +285,14 @@
     "ftm": 2.4,
     "fta": 3.2
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "MIL",
    "name": "Kasparas Jakučionis",
    "pos": "SG",
    "starter": false,
-   "min": 17.5,
+   "min": 22.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -413,7 +333,7 @@
    "name": "Kel'el Ware",
    "pos": "C",
    "starter": false,
-   "min": 16.8,
+   "min": 21.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -454,7 +374,7 @@
    "name": "Nate Ament",
    "pos": "SF",
    "starter": false,
-   "min": 16.2,
+   "min": 20.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -495,7 +415,7 @@
    "name": "AJ Green",
    "pos": "SG",
    "starter": false,
-   "min": 15.2,
+   "min": 19.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -536,7 +456,7 @@
    "name": "Gary Trent Jr.",
    "pos": "SG",
    "starter": false,
-   "min": 11.4,
+   "min": 14.4,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -576,8 +496,8 @@
    "team": "MIL",
    "name": "Jericho Sims",
    "pos": "C",
-   "starter": false,
-   "min": 9.4,
+   "starter": true,
+   "min": 11.8,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -611,14 +531,15 @@
     "pf": 2.21,
     "ftm": 0.67,
     "fta": 1.08
-   }
+   },
+   "slot": "C"
   },
   {
    "team": "MIL",
    "name": "Caris LeVert",
    "pos": "SG",
    "starter": false,
-   "min": 7.4,
+   "min": 9.4,
    "g_cur": 1,
    "p_play": 1.0,
    "cur": {
@@ -659,7 +580,7 @@
    "name": "Deni Avdija",
    "pos": "SF",
    "starter": true,
-   "min": 33.2,
+   "min": 35.2,
    "g_cur": 13,
    "p_play": 0.7,
    "cur": {
@@ -701,7 +622,7 @@
    "name": "Toumani Camara",
    "pos": "PF",
    "starter": true,
-   "min": 29.8,
+   "min": 31.5,
    "g_cur": 14,
    "p_play": 0.8,
    "cur": {
@@ -743,7 +664,7 @@
    "name": "Damian Lillard",
    "pos": "PG",
    "starter": true,
-   "min": 29.8,
+   "min": 31.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -785,7 +706,7 @@
    "name": "Jrue Holiday",
    "pos": "PG",
    "starter": false,
-   "min": 27.1,
+   "min": 28.7,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -826,7 +747,7 @@
    "name": "Donovan Clingan",
    "pos": "C",
    "starter": true,
-   "min": 26.2,
+   "min": 27.8,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -868,7 +789,7 @@
    "name": "Sidy Cissoko",
    "pos": "SF",
    "starter": true,
-   "min": 24.7,
+   "min": 26.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -910,7 +831,7 @@
    "name": "Scoot Henderson",
    "pos": "PG",
    "starter": false,
-   "min": 22.6,
+   "min": 24.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -951,7 +872,7 @@
    "name": "Jayson Kent",
    "pos": "SF",
    "starter": false,
-   "min": 13.9,
+   "min": 14.7,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -989,51 +910,10 @@
   },
   {
    "team": "POR",
-   "name": "Chris Youngblood",
-   "pos": "SG",
-   "starter": false,
-   "min": 13.6,
-   "g_cur": 6,
-   "p_play": 0.4,
-   "cur": {
-    "min": 13.3,
-    "pts": 6.0,
-    "reb": 1.3,
-    "ast": 1.0,
-    "fg3m": 1.3,
-    "fgm": 1.7,
-    "fga": 4.5,
-    "fg3a": 3.8,
-    "stl": 0.5,
-    "blk": 0.2,
-    "tov": 0.8,
-    "pf": 2.2,
-    "ftm": 1.3,
-    "fta": 1.7
-   },
-   "prior": {
-    "min": 5.8,
-    "pts": 2.22,
-    "reb": 0.88,
-    "ast": 0.38,
-    "fg3m": 0.56,
-    "fgm": 0.69,
-    "fga": 1.97,
-    "fg3a": 1.69,
-    "stl": 0.12,
-    "blk": 0.09,
-    "tov": 0.06,
-    "pf": 0.69,
-    "ftm": 0.28,
-    "fta": 0.31
-   }
-  },
-  {
-   "team": "POR",
    "name": "Branden Carlson",
    "pos": "C",
    "starter": false,
-   "min": 9.8,
+   "min": 10.4,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -1074,7 +954,7 @@
    "name": "Yang Hansen",
    "pos": "C",
    "starter": false,
-   "min": 9.3,
+   "min": 9.9,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1113,14 +993,14 @@
  ],
  "market": {
   "source": "NBA.com/games 19-nov (4 partidos, todos 20:00 ET); Covers matchup/<id>/odds con 9 casas para NYK@MIN, GSW@MEM y POR@MIL (11:40 ET); LAC@SAS vacío en Covers: consenso de scoresandodds.com/nba?date=2026-11-19",
-  "ml_home": 290,
-  "ml_away": -375,
-  "spread_home": 9.5,
-  "total": 226.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": 390,
+  "ml_away": -520,
+  "spread_home": 10.5,
+  "total": 230.5,
+  "spread_odds_home": -103,
+  "spread_odds_away": -117,
+  "over_odds": -112,
+  "under_odds": -108
  },
  "prop_lines": {
   "Sidy Cissoko": {
@@ -1715,180 +1595,6 @@
     3.5,
     115,
     -161
-   ]
-  },
-  "Myles Turner": {
-   "tov": [
-    1.5,
-    -102,
-    -133
-   ],
-   "pts": [
-    8.5,
-    -133,
-    -102
-   ],
-   "pra": [
-    16.5,
-    -114,
-    -120
-   ],
-   "reb": [
-    5.5,
-    112,
-    -154
-   ],
-   "stocks": [
-    2.5,
-    107,
-    -149
-   ],
-   "ast": [
-    1.5,
-    -192,
-    137
-   ],
-   "ftm": [
-    0.5,
-    115,
-    -161
-   ],
-   "fg3m": [
-    1.5,
-    -139,
-    100
-   ],
-   "fg3a": [
-    4.5,
-    -114,
-    -120
-   ],
-   "fta": [
-    1.5,
-    -125,
-    -111
-   ],
-   "blk": [
-    1.5,
-    -114,
-    -122
-   ],
-   "pa": [
-    11.5,
-    -108,
-    -128
-   ],
-   "ra": [
-    7.5,
-    102,
-    -143
-   ],
-   "pr": [
-    14.5,
-    -110,
-    -125
-   ],
-   "stl": [
-    0.5,
-    -133,
-    -105
-   ]
-  },
-  "Kyle Kuzma": {
-   "pra": [
-    19.5,
-    -111,
-    -122
-   ],
-   "fga": [
-    11.5,
-    135,
-    -189
-   ],
-   "ra": [
-    6.5,
-    -143,
-    102
-   ],
-   "reb": [
-    4.5,
-    -108,
-    -128
-   ],
-   "blk": [
-    0.5,
-    142,
-    -200
-   ],
-   "pts": [
-    12.5,
-    -108,
-    -128
-   ],
-   "fg2m": [
-    2.5,
-    -149,
-    107
-   ],
-   "tov": [
-    1.5,
-    -175,
-    125
-   ],
-   "stocks": [
-    1.5,
-    115,
-    -161
-   ],
-   "fg2a": [
-    5.5,
-    -125,
-    -111
-   ],
-   "stl": [
-    0.5,
-    -192,
-    137
-   ],
-   "ast": [
-    2.5,
-    102,
-    -143
-   ],
-   "pr": [
-    16.5,
-    -125,
-    -111
-   ],
-   "fg3a": [
-    5.5,
-    115,
-    -159
-   ],
-   "fg3m": [
-    1.5,
-    -114,
-    -122
-   ],
-   "ftm": [
-    1.5,
-    -115,
-    -120
-   ],
-   "fgm": [
-    4.5,
-    -111,
-    -128
-   ],
-   "pa": [
-    14.5,
-    -122,
-    -114
-   ],
-   "fta": [
-    2.5,
-    100,
-    -139
    ]
   },
   "Jaime Jaquez Jr.": {
