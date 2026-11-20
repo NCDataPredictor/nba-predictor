@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "source": "Covers matchup/<id>/odds (20-nov ~11:45 ET): 9 casas por partido (TOR@DET 5; BetMGM sin ML en NOP@OKC, omitida); ids 388223-388231",
+ "source": "Covers matchup/<id>/odds (20-nov ~11:45 ET): 9 casas por partido (TOR@DET 5; BetMGM sin ML en NOP@OKC, omitida); ids 388223-388231; 18:15 ET: consenso scoresandodds.com/nba (spread/total/ML)",
  "games": {
   "CHA@ATL": {
    "books": [
@@ -159,6 +159,24 @@
      "spread_home": [
       -5.5,
       -110
+     ],
+     "total": [
+      218.5,
+      -115,
+      -105
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 205,
+     "ml_home": -249,
+     "spread_away": [
+      7.5,
+      -112
+     ],
+     "spread_home": [
+      -7.5,
+      -108
      ],
      "total": [
       218.5,
@@ -331,6 +349,24 @@
       -115,
       -105
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": -264,
+     "ml_home": 217,
+     "spread_away": [
+      -6.5,
+      -112
+     ],
+     "spread_home": [
+      6.5,
+      -108
+     ],
+     "total": [
+      223.5,
+      -115,
+      -105
+     ]
     }
    ]
   },
@@ -497,6 +533,24 @@
       -110,
       -110
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 191,
+     "ml_home": -230,
+     "spread_away": [
+      5.5,
+      -102
+     ],
+     "spread_home": [
+      -5.5,
+      -118
+     ],
+     "total": [
+      234.5,
+      -107,
+      -113
+     ]
     }
    ]
   },
@@ -590,6 +644,24 @@
       215.5,
       -115,
       -105
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 217,
+     "ml_home": -264,
+     "spread_away": [
+      6.5,
+      -104
+     ],
+     "spread_home": [
+      -6.5,
+      -116
+     ],
+     "total": [
+      216.5,
+      -107,
+      -112
      ]
     }
    ]
@@ -757,6 +829,24 @@
       -115,
       -105
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 114,
+     "ml_home": -135,
+     "spread_away": [
+      2.5,
+      -112
+     ],
+     "spread_home": [
+      -2.5,
+      -108
+     ],
+     "total": [
+      238.5,
+      -108,
+      -112
+     ]
     }
    ]
   },
@@ -904,6 +994,24 @@
       228.5,
       -110,
       -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 443,
+     "ml_home": -598,
+     "spread_away": [
+      11.5,
+      -110
+     ],
+     "spread_home": [
+      -11.5,
+      -110
+     ],
+     "total": [
+      227.5,
+      -113,
+      -107
      ]
     }
    ]
@@ -1068,6 +1176,24 @@
      ],
      "total": [
       227.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": -184,
+     "ml_home": 154,
+     "spread_away": [
+      -4.5,
+      -110
+     ],
+     "spread_home": [
+      4.5,
+      -110
+     ],
+     "total": [
+      225.5,
       -110,
       -110
      ]
@@ -1237,6 +1363,24 @@
       -110,
       -110
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 105,
+     "ml_home": -125,
+     "spread_away": [
+      1.5,
+      -105
+     ],
+     "spread_home": [
+      -1.5,
+      -115
+     ],
+     "total": [
+      226.5,
+      -112,
+      -108
+     ]
     }
    ]
   },
@@ -1402,6 +1546,24 @@
       230.5,
       -110,
       -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:15 ET)",
+     "ml_away": 600,
+     "ml_home": -890,
+     "spread_away": [
+      14.5,
+      -115
+     ],
+     "spread_home": [
+      -14.5,
+      -105
+     ],
+     "total": [
+      228.5,
+      -115,
+      -105
      ]
     }
    ]

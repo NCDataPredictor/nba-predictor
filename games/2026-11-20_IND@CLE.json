@@ -1208,14 +1208,14 @@
  ],
  "market": {
   "source": "NBA.com/games 20-nov (9 partidos de Copa); Covers matchup/<id>/odds 388223-388231 (~11:45 ET, 9 casas; TOR@DET 5)",
-  "ml_home": -260,
-  "ml_away": 210,
-  "spread_home": -6.5,
+  "ml_home": -230,
+  "ml_away": 191,
+  "spread_home": -5.5,
   "total": 234.5,
   "spread_odds_home": -118,
-  "spread_odds_away": -103,
-  "over_odds": -110,
-  "under_odds": -110
+  "spread_odds_away": -102,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Donovan Mitchell": {
