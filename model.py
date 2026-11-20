@@ -66,10 +66,14 @@ MAX_MIN = 44
 # PTS_GAMMA = concentración del reparto de puntos del equipo (parte de cada uno ∝ (tasa × minutos) ** PTS_GAMMA).
 # MIN_BETA = concentración de los minutos del equipo en los que más juegan (minutos ∝ minutos ** MIN_BETA, el total
 # del equipo no cambia): el reparto a 240 recortaba igual a todos y dejaba a los titulares cortos.
-GARBAGE_CUT, PTS_GAMMA, MIN_BETA = 0.93, 1.1, 1.15
+# 1.7 (20-nov): MIN_BETA 1.15 -> 1.3 junto con minutes.py. Backtest 1-19 nov (6.228 líneas, 2.697 jugadores):
+# P(over) 0.471 -> 0.488 (real 0.492), log loss 0.7154 -> 0.7122; titulares de 30+ min con +0.8 min de más.
+GARBAGE_CUT, PTS_GAMMA, MIN_BETA = 0.93, 1.1, 1.3
 # 1.7, contexto del jugador (context.py): forma reciente (últimos 5) y partidos con la misma situación de compañeros
 # clave que hoy. RECENT_W / RECENT_MW = peso de las tasas por minuto / minutos recientes; el contexto pesa n / (n + CTX_K)
 USE_CTX, RECENT_W, RECENT_MW, CTX_K, CTX_RK = False, 0.0, 0.0, 4.0, 12.0
+# USE_MIN2: proyección de minutos 1.7 (minutes.py: últimos partidos del equipo, fuera de rotación, cambios de rol)
+USE_MIN2 = True
 # 1.6.2 (13-nov, props de tiros, pérdidas y faltas): puntos y triples se simulan por separado, y en las simulaciones
 # con 3 x triples > puntos lo que queda para dobles y libres se cortaba en 0, así que en promedio dobles + libres
 # sumaban más puntos que los proyectados (+3,6% de los puntos desde el 8-nov): dobles anotados real/simulado 0.89,
@@ -514,6 +518,12 @@ def load_game(path, use_db=None, use_h2h=None):
         rk = cfg.get("db", {}).get("rankings") or os.path.join(HERE, "db", "rankings_latest.json")
         cfg = apply_db(cfg, rk)
     cfg = apply_h2h(cfg)
+    if USE_MIN2 and cfg.get("minutes2", True):
+        try:
+            from minutes import project
+            cfg = project(cfg, cfg["game"]["date"])
+        except Exception as e:  # sin logs: minutos del slate
+            print("minutos 1.7 no disponibles:", e, file=sys.stderr)
     if USE_CTX and cfg.get("context", True):
         try:
             from context import add_context

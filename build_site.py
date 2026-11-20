@@ -80,6 +80,7 @@ MODEL_VERSIONS = [
     # 1.6.1 (12-nov, antes del primer partido): minutos y puntos de las estrellas; la 1.6 no llegó a liquidar jornada
     ("1.6.1", "2026-11-12", "Betano, anotación de esta temporada, puntos más abiertos y más minutos y puntos para las estrellas"),
     ("1.6.2", "2026-11-14", "tiros, libres, pérdidas y faltas calibrados; picks sin cuota de pérdidas y faltas"),
+    ("1.7", "2026-11-20", "minutos por los últimos partidos (rotación real y cambios de rol) y errores de cuota"),
 ]
 MODEL = MODEL_VERSIONS[-1][0]
 
@@ -217,6 +218,90 @@ def daily_cap(rs, max_player=MAX_PER_PLAYER, max_daily=MAX_DAILY):
             fam.add(f)
         per[k] = per.get(k, 0) + 1
         b["value"] = True
+        n += 1
+    return rs
+
+
+# Errores de cuota (pedido de Nicolas, 20-nov): en vez de que el valor salga solo del modelo, marcar las líneas que
+# la casa pone mal de forma repetida. Análisis de 5.901 líneas con cuota a los dos lados (1-19 nov, doc
+# "Recalibración: errores de cuota de las casas"): acierto real frente a lo que pedía la casa sin margen.
+#   A: Over de titular en línea <= 1.5 de triples, asistencias, robos, tapones o pérdidas, con promedio de temporada
+#      >= línea x 1.2: 449 líneas, 63,0% vs 54,6% (+8,4 pp), aguantó en 1-11 y 12-19 nov.
+#   B: Over de asistencias de titular con promedio >= línea x 1.15: 115, 64,3% vs 52,1% (Anthony Black 18-nov).
+#   C: Under de suplente en puntos, rebotes, combinadas o triples: 888, 55,5% vs 50,9%; solo con cuotas reales de
+#      una casa colombiana (con las de EE. UU. llevadas a margen CO quedó en cero en 12-19 nov).
+# La prob. que se publica es la de la casa sin margen + ERR_UP de la regla (lo que acertó de más en el backtest) y
+# solo entra si así el EV >= 0. Por jornada: máximo ERR_PER_PLAYER por jugador (uno por familia) y ERR_DAILY.
+ERR_RULES = {"A": dict(up=0.084, hit=0.630, casa=0.546, n=449), "B": dict(up=0.12, hit=0.643, casa=0.521, n=115),
+             "C": dict(up=0.046, hit=0.555, casa=0.509, n=888)}
+ERR_LOW = ("fg3m", "ast", "stl", "blk", "tov")
+ERR_UNDER = ("pts", "reb", "pr", "ra", "pra", "pa", "fg3m")
+ERR_PER_PLAYER, ERR_DAILY = 2, 10
+ERR_MIN_G, ERR_MIN_PLAY, ERR_C_MAX_MIN = 5, 0.9, 26.0
+COMBO_PARTS = {"pra": ("pts", "reb", "ast"), "pr": ("pts", "reb"), "pa": ("pts", "ast"), "ra": ("reb", "ast"),
+               "stocks": ("stl", "blk")}
+
+
+def odds_errors(cfg, bets, co_odds):
+    """Marca b["err"] = {r: regla, why: texto, p, ev} en las props de la casa que cumplen una regla A/B/C."""
+    P = {p["name"]: p for p in cfg["players"]}
+    for b in bets:
+        b.pop("err", None)
+        if b["kind"] != "prop" or b.get("alt") or b.get("p_mkt") is None or b.get("side") not in ("over", "under"):
+            continue
+        p = P.get(b.get("player"))
+        if not p or p.get("p_play", 1.0) < ERR_MIN_PLAY or p.get("g_cur", 0) < ERR_MIN_G:
+            continue
+        st, ln, cur = b.get("stat"), b.get("line"), p.get("cur", {})
+        parts = COMBO_PARTS.get(st, (st,))
+        if not all(k in cur for k in parts) or ln is None:
+            continue
+        avg = sum(cur[k] for k in parts)
+        rule = None
+        if b["side"] == "over" and p.get("starter"):
+            if st == "ast" and avg >= ln * 1.15:
+                rule = "B"
+            elif st in ERR_LOW and ln <= 1.5 and avg >= ln * 1.2:
+                rule = "A"
+        elif (b["side"] == "under" and not p.get("starter") and co_odds and st in ERR_UNDER
+              and p["cur"]["min"] < ERR_C_MAX_MIN and not (p.get("min_note") or "").startswith("sube")):
+            rule = "C"  # no a un sexto hombre de 30 min ni a quien le están subiendo los minutos
+        if not rule:
+            continue
+        R = ERR_RULES[rule]
+        pe = min(b["p_mkt"] + R["up"], 0.95)
+        ev = pe * b["dec"] - 1
+        if ev < 0:
+            continue
+        lab = STAT_LABEL.get(st, st).lower()
+        mn = p.get("min_note")
+        why = (f"promedia {avg:.1f} {lab} ({p['cur']['min']:.0f} min) y la línea es {ln:g}" if rule != "C" else
+               f"suplente: promedia {avg:.1f} {lab} en {p['cur']['min']:.0f} min, línea {ln:g}")
+        why += f"; la casa paga {b['dec']:.2f} ({b['p_mkt']:.0%} sin margen)"
+        if mn:
+            why += f". Minutos: {mn}"
+        b["err"] = dict(r=rule, why=why, p=round(pe, 3), ev=round(ev, 3), hit=R["hit"], casa=R["casa"], n=R["n"])
+    return bets
+
+
+def err_cap(rs, max_player=ERR_PER_PLAYER, max_daily=ERR_DAILY):
+    """Elige los errores de cuota de la jornada (b["err_pick"]) entre los partidos sin jugar, por EV."""
+    cands = sorted(((b["err"]["ev"], i, b) for i, r in enumerate(rs) for b in r["bets"] if b.get("err")),
+                   key=lambda x: -x[0])
+    for r in rs:
+        for b in r["bets"]:
+            b.pop("err_pick", None)
+    n, per, fam = 0, {}, set()
+    for _, i, b in cands:
+        if n >= max_daily:
+            break
+        k = (rs[i]["id"], b["player"])
+        f = (k, PICK_FAMILY.get(b.get("stat"), b.get("stat")))
+        if per.get(k, 0) >= max_player or f in fam:
+            continue
+        fam.add(f)
+        per[k] = per.get(k, 0) + 1
+        b["err_pick"] = True
         n += 1
     return rs
 
@@ -1278,7 +1363,9 @@ def rotation_view(cfg, summ):
             m = mins.get(p["name"], p["min"])
             role = "titular" if p["starter"] else "rotacion" if m >= 18 else "rol" if m >= 8 else "reserva"
             rows.append(dict(name=p["name"], pos=p["pos"], slot=p.get("slot"), min=round(m, 1), role=role,
-                             p_play=p.get("p_play", 1.0), mpg=p["cur"]["min"]))
+                             p_play=p.get("p_play", 1.0), mpg=p["cur"]["min"],
+                             **({"seq": p["min_seq"]} if p.get("min_seq") else {}),
+                             **({"note": p["min_note"]} if p.get("min_note") else {})))
         rows += [dict(name=x["name"], pos=x["pos"], slot=None, min=0.0, role="reserva", mpg=x["min"])
                  for x in g.get("reserves", {}).get(t, [])]
         order = {"PG": 0, "SG": 1, "SF": 2, "PF": 3, "C": 4}
@@ -1468,6 +1555,7 @@ def run_game(path, n):
     if g["date"] >= CO_PRICE_FROM and cfg_raw.get("prop_odds_region") != "CO":
         localize_odds(pb)
     bets = market_blend(tb + pb, player_flags(g["date"], path))
+    odds_errors(cfg, bets, cfg_raw.get("prop_odds_region") == "CO")
     R = load_rankings()
     mv = matchup_view(R, g, summ["players"], summ.get("db_report")) if R else None
     r = dict(id=game_id(path), game=g, market=cfg.get("market", {}), used_db=use_db, sims=n,
@@ -1619,6 +1707,7 @@ def index_entry(r):
              proj_total=sm["proj_total"], used_db=r["used_db"],
              n_value=len(vb), top_bets=r["bets"][:3], value_bets=vb, parlays=r.get("parlays", []),
              model_picks=r.get("model_picks", []),
+             err_bets=[{k: v for k, v in b.items() if k not in ("books", "fair")} for b in r["bets"] if b.get("err_pick")],
              all_bets=[{k: v for k, v in b.items() if k not in ("books", "fair")} for b in r["bets"]])
     if "result" not in r and r.get("without"):
         e["wo"] = wo_index(r)
@@ -1627,6 +1716,12 @@ def index_entry(r):
                            picks_lost=sum(b["result"] == "lost" for b in vb),
                            units=round(sum(b["dec"] - 1 if b["result"] == "won" else -1 if b["result"] == "lost" else 0
                                            for b in vb), 2))
+        eb = [b for b in r["bets"] if b.get("err_pick")]
+        if eb:
+            e["result"].update(err_won=sum(b.get("result") == "won" for b in eb),
+                               err_lost=sum(b.get("result") == "lost" for b in eb),
+                               err_units=round(sum(b["dec"] - 1 if b.get("result") == "won" else
+                                                   -1 if b.get("result") == "lost" else 0 for b in eb), 2))
     return e
 
 
@@ -1724,7 +1819,7 @@ def main():
               f"{keep[r['id']]['n_value']} apuestas con valor" + (" (resultado real cargado)" if res else ""))
     for date in sorted(sim_dates):  # 1.5: tope de picks por jugador y por jornada, entre todos sus partidos sin jugar
         ps = [os.path.join(OUT, f"{gid}.json") for gid, e in keep.items() if e["date"] == date and "result" not in e]
-        rs = daily_cap([json.load(open(x)) for x in ps if os.path.exists(x)])
+        rs = err_cap(daily_cap([json.load(open(x)) for x in ps if os.path.exists(x)]))
         for r in rs:
             json.dump(r, open(os.path.join(OUT, f"{r['id']}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
             keep[r["id"]] = index_entry(r)
