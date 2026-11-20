@@ -102,3 +102,15 @@ Desde el 12-nov (modelo 1.5.1) las cuotas de props se pasan al margen de una cas
 no desde la nube: correrlo en el PC), guarda `odds/co/<fecha>.json` y las mezcla en `odds/<fecha>.json` con
 `"region": "CO"`. La web las marca con la etiqueta CO y muestra la mejor opción en Colombia de cada apuesta.
 Después, `python build_site.py <fecha>`.
+
+### Misma prop en Betano y en EE. UU. (desde el 20-nov)
+Cada jornada, además de las props que usa el slate, guarda las de la **otra** fuente con el mismo formato que
+`prop_lines` (`{jugador: {stat: [línea, over, under]}}`, cuotas americanas):
+- si el slate usa Betano (`"prop_odds_region": "CO"`), las de scoresandodds en `odds/props/<fecha>_US.json`;
+- si usa scoresandodds, las de Betano (cuando se puedan leer desde el Chrome del PC) en `odds/props/<fecha>_CO.json`.
+No cambian los picks: sirven para medir con `python odds/compare_books.py <fechas>` si Betano paga más que el precio
+justo (sin margen) del mercado de EE. UU. Si una fuente no tiene props ese día, no pasa nada: se guarda lo que haya.
+
+### Errores de cuota
+`build_site.odds_errors` marca en cada prop `err` (regla A/B/C, el porqué, probabilidad y EV) y `err_cap` elige
+hasta 10 por jornada (2 por jugador). Van en `err_bets` del índice y la portada los muestra con su récord propio.

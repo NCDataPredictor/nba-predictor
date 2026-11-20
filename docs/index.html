@@ -1247,7 +1247,7 @@ function bajasIndex() {
   for (const g of INDEX.games) {
     if (g.result || !OUTS[g.id]) continue;
     const ko = notOut(g.id), n0 = (g.all_bets || g.value_bets || []).length + (g.model_picks || []).length;
-    ["top_bets", "value_bets", "all_bets", "model_picks"].forEach(k => { if (g[k]) g[k] = g[k].filter(ko); });
+    ["top_bets", "value_bets", "all_bets", "model_picks", "err_bets"].forEach(k => { if (g[k]) g[k] = g[k].filter(ko); });
     g.n_value = g.value_bets.length;
     g.parlays = (g.parlays || []).filter(pl => pl.legs.every(ko));
     g._bajaN = n0 - ((g.all_bets || g.value_bets || []).length + (g.model_picks || []).length);
@@ -1768,6 +1768,7 @@ function renderIndex(scope = "reg") {
     <div id="picks"></div>
     ${howto}
   </section>
+  ${errSection(todays, thr)}
   ${planBSection(todays, thr)}
   ${boostSection(todays)}
   ${matchupSection(allBets, thr)}
@@ -2164,7 +2165,7 @@ function rotSection(d) {
     const note = pg && !/PG/.test(pg.pos) ? `<p class="muted rot-note">${esc(t)} no tiene base natural en el quinteto: ${esc(pg.name)} (${esc(pg.pos)}) cubriría el puesto de base y se le aplica la defensa del rival contra bases${natPG.length ? `; ${natPG.map(r => `${esc(r.name)} (PG, ${r.min} min)`).join(", ")} sale del banco` : ""}.</p>` : "";
     return `<div class="rot-team"><h3>${badge(t)}</h3>${note}
       <table class="rot"><thead><tr><th>Jugador</th><th>Papel</th><th class="r">Min</th><th class="rot-tl"><div class="rot-q"><span>1.º</span><span>2.º</span><span>3.º</span><span>4.º</span></div></th></tr></thead><tbody>
-      ${rows.map(r => `<tr class="rr-${r.role}"><td><b>${esc(r.name)}</b><span class="muted"> · ${r.slot ? SLOT_TXT[r.slot] : esc(r.pos)}${r.p_play < 1 ? " · duda" : ""}</span></td>
+      ${rows.map(r => `<tr class="rr-${r.role}"><td><b>${esc(r.name)}</b><span class="muted"> · ${r.slot ? SLOT_TXT[r.slot] : esc(r.pos)}${r.p_play < 1 ? " · duda" : ""}</span>${r.note ? `<div class="muted rot-mn" title="${r.seq ? `Minutos en sus últimos ${r.seq.length} partidos del equipo (más reciente primero): ${r.seq.join(", ")}` : ""}">Minutos: ${esc(r.note)}</div>` : ""}</td>
         <td><span class="rtag rt-${r.role}">${ROLE[r.role]}</span></td><td class="r num">${r.role === "reserva" ? `<span class="muted">${(r.mpg || 0).toFixed(1)}</span>` : r.min}</td><td class="rot-tl">${rotBar(r)}</td></tr>`).join("")}
       </tbody></table></div>`;
   };
@@ -4113,6 +4114,7 @@ function pickCard(b, thr, big) {
     <div class="pcd-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span><b class="pcd-ln num">${m[2]}</b><span class="pcd-st">${esc(m[3])}</span>` : `<span class="pcd-st">${esc(rest)}</span>`}
       <span class="pcd-odd"><small>Cuota</small><b class="num">${dc}</b>${mvTxt(b)}</span></div>
     ${bajaWarn(b, gid)}
+    ${b.err ? `<div class="pcd-pb"><b>Error de cuota</b>: ${esc(b.err.why)}. Con esta regla acertaron ${pct(b.err.hit, 0)} cuando la casa pedía ${pct(b.err.casa, 0)} (${b.err.n} líneas, 1-19 nov).</div>` : ""}
     ${b.if_out ? `<div class="pcd-pb">Si no juega <b>${esc(b.if_out)}</b>: prob. ${pct(b.base_p, 0)} → <b>${pct(b.p, 0)}</b>${b.mean0 != null && b.mean != null ? `, proyección ${b.mean0} → <b>${b.mean}</b>` : ""}${g && (g.value_bets || []).some(v => v.label === b.label) ? " (ya es pick del día)" : ""}</div>` : ""}
     ${spkTag(b, "pcd-viz")}
     <div class="pcd-stats"><div><small>Prob. modelo</small><b>${pct(b.p, 0)}</b></div><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div><small>DvP rival</small>${hrDvp(b)}</div>` : ""}</div>
@@ -4220,6 +4222,20 @@ function planBGroup(x, thr) {
   return `<details class="pb-grp"${x.st === "on" ? " open" : ""}><summary>${planBHead(x, true)}<span class="pb-n">${x.picks.length} pick${x.picks.length === 1 ? "" : "s"} · mejor ${evTxt(best)}</span></summary>
     <ul class="pb-rows">${x.picks.map(b => planBRow(b, thr)).join("")}</ul></details>`;
 }
+// Errores de cuota (20-nov, pedido de Nicolas): líneas que la casa pone mal de forma repetida (reglas A/B/C de
+// build_site.odds_errors), con el porqué. Récord propio, aparte de los picks con valor.
+function errSection(todays, thr) {
+  const list = todays.flatMap(g => (g.err_bets || []).filter(notOut(g.id)).map(b => ({ ...b, p: b.err.p, ev: b.err.ev, _gid: g.id, _game: `${g.away} @ ${g.home}` })))
+    .sort((a, b) => b.ev - a.ev);
+  const rec = INDEX.games.reduce((t, g) => g.result && g.result.err_won != null ? { w: t.w + g.result.err_won, l: t.l + g.result.err_lost, u: t.u + g.result.err_units } : t, { w: 0, l: 0, u: 0 });
+  if (!list.length && !(rec.w + rec.l)) return "";
+  return `<section class="section">
+    <h2>Errores de cuota</h2>
+    <p class="lede">Líneas que la casa suele poner mal, elegidas por reglas que ganaron en 5.901 líneas del 1 al 19 de noviembre: titulares con línea baja (0.5 o 1.5) por debajo de su promedio, asistencias de titulares por debajo de su promedio y Unders de suplentes (estos solo con cuotas de Betano). Cada una dice por qué. Probabilidad = la de la casa sin margen más lo que esa regla acertó de más.${rec.w + rec.l ? ` Récord desde que se publican: <b>${rec.w}–${rec.l}</b> (${rec.u >= 0 ? "+" : ""}${rec.u.toFixed(2)} u).` : ""}</p>
+    ${list.length ? pickCards(list, thr) : `<div class="panel empty">Hoy ninguna línea cumple las reglas.</div>`}
+  </section>`;
+}
+
 function planBSection(todays, thr) {
   const G = planBGroups(todays);
   if (!G.length) return "";
