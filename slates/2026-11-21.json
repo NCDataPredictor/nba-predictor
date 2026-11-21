@@ -1,0 +1,312 @@
+{
+ "date": "2026-11-21",
+ "sources": {
+  "schedule_odds": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
+  "players_cur": "raw/2026-11-20/cur.csv con MIL, PHI, POR, NYK, MEM, MIN, LAC, DAL, SAS y BOS rehechos desde basketball-reference teams/<ABR>/2027.html (21-nov ~11:30 ET, al día); NOP y SAC (B-Ref sin el 20-nov) actualizados con results/2026-11-20.json",
+  "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
+  "injuries": "ESPN injuries (notas 20/21-nov) y RotoWire nba-lineups (21-nov ~11:30 ET); en duda con p_play",
+  "b2b": "NOP y SAC jugaron el 20-nov",
+  "db": "BD de rankings: snapshot del 21-nov (B-Ref 2026-27 hasta 19-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta 19-nov)",
+  "h2h": "h2h/2025-26.json (20 cruces de hoy añadidos desde los game logs 2025-26)",
+  "props": "Covers matchup/<id>/odds: puntos, una línea destacada por jugador (mejor cuota por lado; solo las de misma línea a ambos lados). scoresandodds props seguía en la jornada del 20-nov a las 11:30 ET; reb/ast/triples/combinadas quedan para las revisiones"
+ },
+ "b2b_adj": {
+  "o": -1.0,
+  "d": 1.0,
+  "pace": -0.5
+ },
+ "prop_lines": {
+  "Deni Avdija": {
+   "pts": [
+    22.5,
+    -114,
+    -105
+   ]
+  },
+  "Ty Jerome": {
+   "pts": [
+    23.5,
+    -108,
+    100
+   ]
+  },
+  "Jonathan Kuminga": {
+   "pts": [
+    14.5,
+    -109,
+    -112
+   ]
+  },
+  "Zach Edey": {
+   "pts": [
+    9.5,
+    100,
+    100
+   ]
+  },
+  "Trey Murphy III": {
+   "pts": [
+    12.5,
+    100,
+    -125
+   ]
+  },
+  "Keldon Johnson": {
+   "pts": [
+    11.5,
+    100,
+    -120
+   ]
+  },
+  "Harrison Barnes": {
+   "pts": [
+    6.5,
+    -105,
+    -120
+   ]
+  },
+  "Luke Kornet": {
+   "pts": [
+    4.5,
+    -120,
+    -105
+   ]
+  },
+  "Rui Hachimura": {
+   "pts": [
+    13.5,
+    -105,
+    100
+   ]
+  },
+  "Darius Acuff Jr.": {
+   "pts": [
+    23.5,
+    -103,
+    -110
+   ]
+  },
+  "Derrick White": {
+   "pts": [
+    14.5,
+    -114,
+    100
+   ]
+  },
+  "Neemias Queta": {
+   "pts": [
+    10.5,
+    102,
+    -125
+   ]
+  },
+  "Jordan Walsh": {
+   "pts": [
+    5.5,
+    -120,
+    -105
+   ]
+  }
+ },
+ "games": [
+  {
+   "away": "MIL",
+   "home": "PHI",
+   "tip_et": "13:00",
+   "venue": "Xfinity Mobile Arena, Philadelphia",
+   "market": {
+    "ml_home": -550,
+    "ml_away": 400,
+    "spread_home": -12.5,
+    "total": 229.5
+   },
+   "b2b": [],
+   "adj": {
+    "PHI": {
+     "o": -1.5,
+     "d": 0.0,
+     "why": "Jaylen Brown (22.6 ppg) y Dean Wade OUT 21-nov; Maxey en duda"
+    }
+   },
+   "out": [
+    "Ousmane Dieng",
+    "Jaylen Brown",
+    "Dean Wade",
+    "Adem Bona"
+   ],
+   "gtd": {
+    "Tyrese Maxey": 0.6
+   },
+   "notes": [
+    "MIL: Dieng (dedo) OUT; Kuzma y Turner vuelven (RotoWire los da titulares)",
+    "PHI: Brown (isquio), Wade (isquio) y Bona (espalda) OUT; Maxey (pie) cuestionable; Barlow probable",
+    "Mercado: solo ML de 9 casas (Covers, 10:17 ET); spread -12.5 y total 229.5 de FanDuel Research sin cuotas"
+   ]
+  },
+  {
+   "away": "POR",
+   "home": "NYK",
+   "tip_et": "19:30",
+   "venue": "Madison Square Garden, New York",
+   "market": {
+    "ml_home": -205,
+    "ml_away": 170,
+    "spread_home": -5.5,
+    "total": 216.5,
+    "spread_odds_home": -106,
+    "spread_odds_away": -113,
+    "over_odds": -111,
+    "under_odds": -108
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Chris Youngblood",
+    "Vít Krejčí",
+    "Ja Morant",
+    "Jordan Clarkson"
+   ],
+   "gtd": {
+    "Deni Avdija": 0.5,
+    "OG Anunoby": 0.35,
+    "Karl-Anthony Towns": 0.75
+   },
+   "notes": [
+    "POR: Youngblood, Krejčí y Morant OUT; Avdija (pie) cuestionable; R. Williams III vuelve",
+    "NYK: Clarkson (pie) OUT; Anunoby (gemelo) dudoso en RotoWire, cuestionable en ESPN; Towns cuestionable en RotoWire"
+   ]
+  },
+  {
+   "away": "MEM",
+   "home": "MIN",
+   "tip_et": "20:00",
+   "venue": "Target Center, Minneapolis",
+   "market": {
+    "ml_home": -220,
+    "ml_away": 180,
+    "spread_home": -6.5,
+    "total": 228.5,
+    "spread_odds_home": -104,
+    "spread_odds_away": -115,
+    "over_odds": -110,
+    "under_odds": -112
+   },
+   "b2b": [],
+   "adj": {
+    "MEM": {
+     "o": -2.0,
+     "d": 0.5,
+     "why": "Boozer (16.6 ppg), Grant (10.6) y Small OUT 21-nov"
+    }
+   },
+   "out": [
+    "Cameron Boozer",
+    "Jerami Grant",
+    "Javon Small",
+    "GG Jackson",
+    "Scotty Pippen Jr.",
+    "Anthony Edwards",
+    "Jaylen Clark"
+   ],
+   "gtd": {
+    "Ty Jerome": 0.85
+   },
+   "notes": [
+    "MEM: Boozer (tobillo), Grant (gemelo), Small (personal), GG Jackson y Pippen OUT; Jerome probable; Edey vuelve",
+    "MIN: Edwards y J. Clark OUT"
+   ]
+  },
+  {
+   "away": "LAC",
+   "home": "DAL",
+   "tip_et": "20:00",
+   "venue": "American Airlines Center, Dallas",
+   "market": {
+    "ml_home": -215,
+    "ml_away": 175,
+    "spread_home": -5.5,
+    "total": 230.5,
+    "spread_odds_home": -109,
+    "spread_odds_away": -110,
+    "over_odds": -112,
+    "under_odds": -107
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Tobi Lawal",
+    "Sergio de Larrea"
+   ],
+   "gtd": {
+    "P.J. Washington": 0.6,
+    "Walter Clayton Jr.": 0.6
+   },
+   "notes": [
+    "LAC: Ingram, Beal y J. Miller OUT (no están en el roster del modelo)",
+    "DAL: Lawal y de Larrea OUT (Lively y Biberovic fuera del roster del modelo); Washington (hombro) y Clayton (rodilla) cuestionables"
+   ]
+  },
+  {
+   "away": "NOP",
+   "home": "SAS",
+   "tip_et": "20:00",
+   "venue": "Frost Bank Center, San Antonio",
+   "market": {
+    "ml_home": -1587,
+    "ml_away": 900,
+    "spread_home": -17.5,
+    "total": 228.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -109,
+    "over_odds": -109,
+    "under_odds": -110
+   },
+   "b2b": [
+    "NOP"
+   ],
+   "adj": {},
+   "out": [
+    "Bryce McGowens",
+    "Trendon Watford",
+    "Bennedict Mathurin",
+    "Dejounte Murray",
+    "Dylan Harper"
+   ],
+   "gtd": {},
+   "notes": [
+    "NOP en back-to-back (jugó el 20-nov en OKC): McGowens, Watford, Mathurin y Murray OUT",
+    "SAS: Harper (cadera) OUT; Harris y Quaintance fuera del roster del modelo"
+   ]
+  },
+  {
+   "away": "BOS",
+   "home": "SAC",
+   "tip_et": "22:00",
+   "venue": "Golden 1 Center, Sacramento",
+   "market": {
+    "ml_home": 550,
+    "ml_away": -800,
+    "spread_home": 13.5,
+    "total": 216.5,
+    "spread_odds_home": -112,
+    "spread_odds_away": -107,
+    "over_odds": -113,
+    "under_odds": -107
+   },
+   "b2b": [
+    "SAC"
+   ],
+   "adj": {},
+   "out": [],
+   "gtd": {
+    "Jayson Tatum": 0.5,
+    "Derrick White": 0.6,
+    "Precious Achiuwa": 0.4
+   },
+   "notes": [
+    "BOS: Tatum (descanso) y White (hombro) cuestionables",
+    "SAC en back-to-back (jugó el 20-nov vs LAL): Achiuwa (pierna) en duda, no jugó el 20-nov; Raynaud y Simmons fuera del roster del modelo"
+   ]
+  }
+ ]
+}
