@@ -18,8 +18,8 @@
   ],
   "gtd": {
    "Deni Avdija": 0.5,
-   "OG Anunoby": 0.35,
-   "Karl-Anthony Towns": 0.75
+   "OG Anunoby": 0.15,
+   "Karl-Anthony Towns": 0.6
   },
   "reserves": {
    "POR": [
@@ -169,7 +169,7 @@
    "starter": true,
    "min": 31.6,
    "g_cur": 15,
-   "p_play": 0.35,
+   "p_play": 0.15,
    "cur": {
     "min": 33.9,
     "pts": 16.3,
@@ -211,7 +211,7 @@
    "starter": true,
    "min": 30.5,
    "g_cur": 15,
-   "p_play": 0.75,
+   "p_play": 0.6,
    "cur": {
     "min": 32.8,
     "pts": 21.3,
@@ -1076,13 +1076,13 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": -205,
-  "ml_away": 170,
-  "spread_home": -5.5,
-  "total": 216.5,
-  "spread_odds_home": -106,
-  "spread_odds_away": -113,
-  "over_odds": -111,
+  "ml_home": -155,
+  "ml_away": 131,
+  "spread_home": -3.5,
+  "total": 215.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -112,
   "under_odds": -108
  },
  "prop_lines": {
