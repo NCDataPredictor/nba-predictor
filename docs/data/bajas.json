@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:11+00:00",
+ "updated": "2026-11-21T23:13+00:00",
  "list": [
   {
    "date": "2026-11-18",
@@ -274,7 +274,7 @@
    "note": "hombro; OUT en SAC",
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
@@ -285,7 +285,7 @@
    "note": "descanso; OUT en SAC (BOS pasó de -13.5 a -11.5)",
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
@@ -296,7 +296,7 @@
    "note": "OUT en SAC",
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
@@ -318,7 +318,7 @@
    "note": "OUT en SAS según RotoWire (ESPN/CBS sin nota)",
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
@@ -329,7 +329,7 @@
    "note": "gemelo; OUT vs POR (antes dudoso)",
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }

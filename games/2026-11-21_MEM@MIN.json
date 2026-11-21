@@ -925,14 +925,14 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": -237,
-  "ml_away": 196,
+  "ml_home": -223,
+  "ml_away": 185,
   "spread_home": -6.5,
   "total": 228.5,
-  "spread_odds_home": -108,
-  "spread_odds_away": -112,
-  "over_odds": -115,
-  "under_odds": -106
+  "spread_odds_home": -104,
+  "spread_odds_away": -116,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Ty Jerome": {

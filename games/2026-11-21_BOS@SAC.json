@@ -8,12 +8,15 @@
   "neutral": false,
   "notes": [
    "BOS: Tatum (descanso) y White (hombro) cuestionables",
-   "SAC en back-to-back (jugó el 20-nov vs LAL): Achiuwa (pierna) en duda, no jugó el 20-nov; Raynaud y Simmons fuera del roster del modelo"
+   "SAC en back-to-back (jugó el 20-nov vs LAL): Achiuwa (pierna) en duda, no jugó el 20-nov; Raynaud y Simmons fuera del roster del modelo",
+   "Revisión 18:10: Tatum, White y M. Robinson OUT (RotoWire); BOS -13.5 → -11.5"
   ],
-  "out": [],
+  "out": [
+   "Jayson Tatum",
+   "Derrick White",
+   "Mitchell Robinson"
+  ],
   "gtd": {
-   "Jayson Tatum": 0.5,
-   "Derrick White": 0.6,
    "Precious Achiuwa": 0.4
   },
   "reserves": {
@@ -94,13 +97,13 @@
     "pace": 95.86
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -3.0,
+    "d": 1.0,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "Tatum, White y M. Robinson OUT 21-nov (RotoWire 18:15 ET)"
    }
   }
  },
@@ -649,94 +652,10 @@
   },
   {
    "team": "BOS",
-   "name": "Jayson Tatum",
-   "pos": "SF",
-   "starter": true,
-   "min": 31.3,
-   "g_cur": 14,
-   "p_play": 0.5,
-   "cur": {
-    "min": 34.1,
-    "pts": 26.4,
-    "reb": 6.6,
-    "ast": 6.8,
-    "fg3m": 2.6,
-    "fgm": 8.4,
-    "fga": 19.7,
-    "fg3a": 7.9,
-    "stl": 0.7,
-    "blk": 0.7,
-    "tov": 3.1,
-    "pf": 2.1,
-    "ftm": 6.9,
-    "fta": 7.9
-   },
-   "prior": {
-    "min": 32.6,
-    "pts": 21.75,
-    "reb": 10.0,
-    "ast": 5.31,
-    "fg3m": 2.94,
-    "fgm": 7.38,
-    "fga": 17.94,
-    "fg3a": 8.94,
-    "stl": 1.38,
-    "blk": 0.19,
-    "tov": 2.44,
-    "pf": 1.62,
-    "ftm": 4.06,
-    "fta": 4.94
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "BOS",
-   "name": "Derrick White",
-   "pos": "PG",
-   "starter": true,
-   "min": 27.4,
-   "g_cur": 15,
-   "p_play": 0.6,
-   "cur": {
-    "min": 29.9,
-    "pts": 12.7,
-    "reb": 3.0,
-    "ast": 5.0,
-    "fg3m": 1.7,
-    "fgm": 4.7,
-    "fga": 11.1,
-    "fg3a": 5.7,
-    "stl": 1.1,
-    "blk": 0.7,
-    "tov": 1.8,
-    "pf": 2.1,
-    "ftm": 1.5,
-    "fta": 1.5
-   },
-   "prior": {
-    "min": 34.1,
-    "pts": 16.45,
-    "reb": 4.4,
-    "ast": 5.38,
-    "fg3m": 2.71,
-    "fgm": 5.68,
-    "fga": 14.39,
-    "fg3a": 8.31,
-    "stl": 1.14,
-    "blk": 1.27,
-    "tov": 1.74,
-    "pf": 1.55,
-    "ftm": 2.39,
-    "fta": 2.65
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "BOS",
    "name": "Paul George",
    "pos": "PF",
    "starter": true,
-   "min": 27.2,
+   "min": 38.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -778,7 +697,7 @@
    "name": "Payton Pritchard",
    "pos": "PG",
    "starter": false,
-   "min": 25.1,
+   "min": 36.4,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -819,7 +738,7 @@
    "name": "Neemias Queta",
    "pos": "C",
    "starter": true,
-   "min": 20.6,
+   "min": 29.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -861,7 +780,7 @@
    "name": "Sam Hauser",
    "pos": "PF",
    "starter": false,
-   "min": 18.6,
+   "min": 27.1,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -902,7 +821,7 @@
    "name": "Baylor Scheierman",
    "pos": "SF",
    "starter": false,
-   "min": 17.8,
+   "min": 25.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -940,51 +859,10 @@
   },
   {
    "team": "BOS",
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "starter": false,
-   "min": 16.2,
-   "g_cur": 14,
-   "p_play": 1.0,
-   "cur": {
-    "min": 17.6,
-    "pts": 5.1,
-    "reb": 5.4,
-    "ast": 0.9,
-    "fg3m": 0.0,
-    "fgm": 2.3,
-    "fga": 3.5,
-    "fg3a": 0.0,
-    "stl": 0.7,
-    "blk": 0.8,
-    "tov": 0.9,
-    "pf": 2.4,
-    "ftm": 0.6,
-    "fta": 1.6
-   },
-   "prior": {
-    "min": 19.6,
-    "pts": 5.67,
-    "reb": 8.75,
-    "ast": 0.87,
-    "fg3m": 0.0,
-    "fgm": 2.48,
-    "fga": 3.43,
-    "fg3a": 0.0,
-    "stl": 0.93,
-    "blk": 1.17,
-    "tov": 0.68,
-    "pf": 2.12,
-    "ftm": 0.7,
-    "fta": 1.72
-   }
-  },
-  {
-   "team": "BOS",
    "name": "Jordan Walsh",
    "pos": "PF",
    "starter": true,
-   "min": 14.4,
+   "min": 20.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -1025,8 +903,8 @@
    "team": "BOS",
    "name": "Hugo González",
    "pos": "SG",
-   "starter": false,
-   "min": 11.8,
+   "starter": true,
+   "min": 17.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -1060,14 +938,15 @@
     "pf": 1.7,
     "ftm": 0.18,
     "fta": 0.36
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "BOS",
    "name": "Luka Garza",
    "pos": "C",
    "starter": false,
-   "min": 11.3,
+   "min": 16.4,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -1108,7 +987,7 @@
    "name": "Devin Carter",
    "pos": "PG",
    "starter": false,
-   "min": 11.0,
+   "min": 16.0,
    "g_cur": 1,
    "p_play": 1.0,
    "cur": {
@@ -1148,8 +1027,8 @@
    "team": "BOS",
    "name": "Mike Conley",
    "pos": "PG",
-   "starter": false,
-   "min": 7.3,
+   "starter": true,
+   "min": 10.7,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -1183,19 +1062,20 @@
     "pf": 1.56,
     "ftm": 0.83,
     "fta": 0.93
-   }
+   },
+   "slot": "PG"
   }
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": 554,
-  "ml_away": -790,
-  "spread_home": 13.5,
-  "total": 217.5,
-  "spread_odds_home": -113,
-  "spread_odds_away": -107,
-  "over_odds": -115,
-  "under_odds": -105
+  "ml_home": 443,
+  "ml_away": -597,
+  "spread_home": 11.5,
+  "total": 216.5,
+  "spread_odds_home": -104,
+  "spread_odds_away": -116,
+  "over_odds": -106,
+  "under_odds": -115
  },
  "prop_lines": {
   "Darius Acuff Jr.": {
@@ -1214,24 +1094,6 @@
     2.5,
     -138,
     130
-   ]
-  },
-  "Derrick White": {
-   "pts": [
-    14.5,
-    100,
-    -116
-   ],
-   "ast": [
-    4.5,
-    -159,
-    -150,
-    5.5
-   ],
-   "fg3m": [
-    2.5,
-    134,
-    -175
    ]
   },
   "Neemias Queta": {
@@ -1257,30 +1119,6 @@
     5.5,
     -120,
     -105
-   ]
-  },
-  "Jayson Tatum": {
-   "pts": [
-    25.5,
-    -120,
-    -115,
-    26.5
-   ],
-   "reb": [
-    6.5,
-    -150,
-    -130,
-    7.5
-   ],
-   "ast": [
-    6.5,
-    -130,
-    110
-   ],
-   "fg3m": [
-    2.5,
-    -140,
-    119
    ]
   },
   "Paul George": {

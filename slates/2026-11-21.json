@@ -1166,31 +1166,38 @@
    "tip_et": "19:30",
    "venue": "Madison Square Garden, New York",
    "market": {
-    "ml_home": -155,
+    "ml_home": -156,
     "ml_away": 131,
-    "spread_home": -3.5,
+    "spread_home": -2.5,
     "total": 215.5,
-    "spread_odds_home": -108,
-    "spread_odds_away": -112,
+    "spread_odds_home": -119,
+    "spread_odds_away": -101,
     "over_odds": -112,
     "under_odds": -108
    },
    "b2b": [],
-   "adj": {},
+   "adj": {
+    "NYK": {
+     "o": -0.5,
+     "d": 0.75,
+     "why": "Anunoby OUT 21-nov (RotoWire 18:15 ET)"
+    }
+   },
    "out": [
     "Chris Youngblood",
     "Vít Krejčí",
     "Ja Morant",
-    "Jordan Clarkson"
+    "Jordan Clarkson",
+    "OG Anunoby"
    ],
    "gtd": {
     "Deni Avdija": 0.5,
-    "OG Anunoby": 0.15,
     "Karl-Anthony Towns": 0.6
    },
    "notes": [
     "POR: Youngblood, Krejčí y Morant OUT; Avdija (pie) cuestionable; R. Williams III vuelve",
-    "NYK: Clarkson (pie) OUT; Anunoby (gemelo) dudoso en RotoWire, cuestionable en ESPN; Towns cuestionable en RotoWire"
+    "NYK: Clarkson (pie) OUT; Anunoby (gemelo) dudoso en RotoWire, cuestionable en ESPN; Towns cuestionable en RotoWire",
+    "Revisión 18:10: Anunoby OUT (RotoWire); Towns y Avdija siguen en duda"
    ]
   },
   {
@@ -1199,14 +1206,14 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -237,
-    "ml_away": 196,
+    "ml_home": -223,
+    "ml_away": 185,
     "spread_home": -6.5,
     "total": 228.5,
-    "spread_odds_home": -108,
-    "spread_odds_away": -112,
-    "over_odds": -115,
-    "under_odds": -106
+    "spread_odds_home": -104,
+    "spread_odds_away": -116,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {
@@ -1239,14 +1246,14 @@
    "tip_et": "20:00",
    "venue": "American Airlines Center, Dallas",
    "market": {
-    "ml_home": -215,
-    "ml_away": 175,
-    "spread_home": -5.5,
+    "ml_home": -196,
+    "ml_away": 164,
+    "spread_home": -4.5,
     "total": 230.5,
-    "spread_odds_home": -109,
-    "spread_odds_away": -110,
-    "over_odds": -112,
-    "under_odds": -107
+    "spread_odds_home": -114,
+    "spread_odds_away": -106,
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [],
    "adj": {},
@@ -1255,12 +1262,13 @@
     "Sergio de Larrea"
    ],
    "gtd": {
-    "P.J. Washington": 0.6,
+    "P.J. Washington": 0.25,
     "Walter Clayton Jr.": 0.6
    },
    "notes": [
     "LAC: Ingram, Beal y J. Miller OUT (no están en el roster del modelo)",
-    "DAL: Lawal y de Larrea OUT (Lively y Biberovic fuera del roster del modelo); Washington (hombro) y Clayton (rodilla) cuestionables"
+    "DAL: Lawal y de Larrea OUT (Lively y Biberovic fuera del roster del modelo); Washington (hombro) y Clayton (rodilla) cuestionables",
+    "Revisión 18:10: P.J. Washington doubtful (RotoWire); DAL -5.5 → -4.5"
    ]
   },
   {
@@ -1269,30 +1277,38 @@
    "tip_et": "20:00",
    "venue": "Frost Bank Center, San Antonio",
    "market": {
-    "ml_home": -1560,
-    "ml_away": 890,
+    "ml_home": -1740,
+    "ml_away": 950,
     "spread_home": -18.5,
-    "total": 227.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 228.5,
+    "spread_odds_home": -114,
+    "spread_odds_away": -106,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "NOP"
    ],
-   "adj": {},
+   "adj": {
+    "NOP": {
+     "o": -1.5,
+     "d": 0.25,
+     "why": "Trey Murphy III OUT 21-nov (RotoWire 18:15 ET)"
+    }
+   },
    "out": [
     "Bryce McGowens",
     "Trendon Watford",
     "Bennedict Mathurin",
     "Dejounte Murray",
-    "Dylan Harper"
+    "Dylan Harper",
+    "Trey Murphy III"
    ],
    "gtd": {},
    "notes": [
     "NOP en back-to-back (jugó el 20-nov en OKC): McGowens, Watford, Mathurin y Murray OUT",
-    "SAS: Harper (cadera) OUT; Harris y Quaintance fuera del roster del modelo"
+    "SAS: Harper (cadera) OUT; Harris y Quaintance fuera del roster del modelo",
+    "Revisión 18:10: Trey Murphy III OUT según RotoWire (ESPN/CBS sin nota)"
    ]
   },
   {
@@ -1301,28 +1317,37 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 554,
-    "ml_away": -790,
-    "spread_home": 13.5,
-    "total": 217.5,
-    "spread_odds_home": -113,
-    "spread_odds_away": -107,
-    "over_odds": -115,
-    "under_odds": -105
+    "ml_home": 443,
+    "ml_away": -597,
+    "spread_home": 11.5,
+    "total": 216.5,
+    "spread_odds_home": -104,
+    "spread_odds_away": -116,
+    "over_odds": -106,
+    "under_odds": -115
    },
    "b2b": [
     "SAC"
    ],
-   "adj": {},
-   "out": [],
+   "adj": {
+    "BOS": {
+     "o": -3.0,
+     "d": 1.0,
+     "why": "Tatum, White y M. Robinson OUT 21-nov (RotoWire 18:15 ET)"
+    }
+   },
+   "out": [
+    "Jayson Tatum",
+    "Derrick White",
+    "Mitchell Robinson"
+   ],
    "gtd": {
-    "Jayson Tatum": 0.5,
-    "Derrick White": 0.6,
     "Precious Achiuwa": 0.4
    },
    "notes": [
     "BOS: Tatum (descanso) y White (hombro) cuestionables",
-    "SAC en back-to-back (jugó el 20-nov vs LAL): Achiuwa (pierna) en duda, no jugó el 20-nov; Raynaud y Simmons fuera del roster del modelo"
+    "SAC en back-to-back (jugó el 20-nov vs LAL): Achiuwa (pierna) en duda, no jugó el 20-nov; Raynaud y Simmons fuera del roster del modelo",
+    "Revisión 18:10: Tatum, White y M. Robinson OUT (RotoWire); BOS -13.5 → -11.5"
    ]
   }
  ]
