@@ -1135,7 +1135,98 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "8360a7f95143d932",
+   "at": "2026-11-21T23:13+00:00",
+   "date": "2026-11-21",
+   "gid": "2026-11-21-POR-at-NYK",
+   "title": "POR @ NYK (7:30 pm ET): novedades de bajas",
+   "body": "Bajas: Anunoby OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:10 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-21-POR-at-NYK",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "OG Anunoby"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "ad4ac4d6d77e7d5c",
+   "at": "2026-11-21T23:13+00:00",
+   "date": "2026-11-21",
+   "gid": "2026-11-21-LAC-at-DAL",
+   "title": "LAC @ DAL (8:00 pm ET): novedades de bajas",
+   "body": "En duda: Washington. Los picks del modelo no cambian.",
+   "label": "Revisión 18:10 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-21-LAC-at-DAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "P.J. Washington"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "23ce874151cb37c1",
+   "at": "2026-11-21T23:13+00:00",
+   "date": "2026-11-21",
+   "gid": "2026-11-21-NOP-at-SAS",
+   "title": "NOP @ SAS (8:00 pm ET): cambian los picks",
+   "body": "Bajas: Murphy III OUT. Pick nuevo: Jeremiah Fears Under 1.5 Triples. Salen: Jeremiah Fears Under 16.5 Puntos; Trey Murphy III Over 12.5 Puntos.",
+   "label": "Revisión 18:10 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-21-NOP-at-SAS",
+   "added": [
+    "Jeremiah Fears Under 1.5 Triples"
+   ],
+   "removed": [
+    "Jeremiah Fears Under 16.5 Puntos",
+    "Trey Murphy III Over 12.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [
+    "Trey Murphy III"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "fd8bd84d8e88bebe",
+   "at": "2026-11-21T23:13+00:00",
+   "date": "2026-11-21",
+   "gid": "2026-11-21-BOS-at-SAC",
+   "title": "BOS @ SAC (10:00 pm ET): cambian los picks",
+   "body": "Bajas: White, Tatum, Robinson OUT. Pick nuevo: Neemias Queta Over 7.5 Rebotes. Sale: Jordan Walsh Under 5.5 Puntos.",
+   "label": "Revisión 18:10 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-21-BOS-at-SAC",
+   "added": [
+    "Neemias Queta Over 7.5 Rebotes"
+   ],
+   "removed": [
+    "Jordan Walsh Under 5.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [
+    "Derrick White",
+    "Jayson Tatum",
+    "Mitchell Robinson"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-21T21:01+00:00"
+ "updated": "2026-11-21T23:13+00:00"
 }

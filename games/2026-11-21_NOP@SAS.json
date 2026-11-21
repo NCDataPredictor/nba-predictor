@@ -8,14 +8,16 @@
   "neutral": false,
   "notes": [
    "NOP en back-to-back (jugó el 20-nov en OKC): McGowens, Watford, Mathurin y Murray OUT",
-   "SAS: Harper (cadera) OUT; Harris y Quaintance fuera del roster del modelo"
+   "SAS: Harper (cadera) OUT; Harris y Quaintance fuera del roster del modelo",
+   "Revisión 18:10: Trey Murphy III OUT según RotoWire (ESPN/CBS sin nota)"
   ],
   "out": [
    "Bryce McGowens",
    "Trendon Watford",
    "Bennedict Mathurin",
    "Dejounte Murray",
-   "Dylan Harper"
+   "Dylan Harper",
+   "Trey Murphy III"
   ],
   "gtd": {},
   "reserves": {
@@ -114,13 +116,13 @@
     "pace": 101.65
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -2.5,
+    "d": 1.25,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Trey Murphy III OUT 21-nov (RotoWire 18:15 ET)"
    }
   }
  },
@@ -546,52 +548,10 @@
   },
   {
    "team": "NOP",
-   "name": "Trey Murphy III",
-   "pos": "SF",
-   "starter": true,
-   "min": 30.2,
-   "g_cur": 10,
-   "p_play": 1.0,
-   "cur": {
-    "min": 32.42,
-    "pts": 15.74,
-    "reb": 4.72,
-    "ast": 3.34,
-    "fg3m": 2.28,
-    "fgm": 5.18,
-    "fga": 11.08,
-    "fg3a": 6.11,
-    "stl": 1.1,
-    "blk": 0.28,
-    "tov": 1.53,
-    "pf": 2.34,
-    "ftm": 3.01,
-    "fta": 3.47
-   },
-   "prior": {
-    "min": 35.5,
-    "pts": 21.52,
-    "reb": 5.71,
-    "ast": 3.79,
-    "fg3m": 3.24,
-    "fgm": 7.48,
-    "fga": 15.91,
-    "fg3a": 8.56,
-    "stl": 1.5,
-    "blk": 0.36,
-    "tov": 1.82,
-    "pf": 2.09,
-    "ftm": 3.3,
-    "fta": 3.73
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "NOP",
    "name": "Zion Williamson",
    "pos": "PF",
    "starter": true,
-   "min": 30.2,
+   "min": 34.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -633,7 +593,7 @@
    "name": "Jeremiah Fears",
    "pos": "PG",
    "starter": true,
-   "min": 28.0,
+   "min": 32.0,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -675,7 +635,7 @@
    "name": "Saddiq Bey",
    "pos": "SF",
    "starter": false,
-   "min": 27.9,
+   "min": 31.9,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -715,8 +675,8 @@
    "team": "NOP",
    "name": "Herbert Jones",
    "pos": "SF",
-   "starter": false,
-   "min": 23.2,
+   "starter": true,
+   "min": 26.6,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -750,14 +710,15 @@
     "pf": 3.16,
     "ftm": 0.89,
     "fta": 1.11
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "NOP",
    "name": "Jordan Poole",
    "pos": "SG",
    "starter": false,
-   "min": 20.1,
+   "min": 23.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -798,7 +759,7 @@
    "name": "Derik Queen",
    "pos": "C",
    "starter": false,
-   "min": 20.0,
+   "min": 22.9,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -839,7 +800,7 @@
    "name": "Yves Missi",
    "pos": "C",
    "starter": true,
-   "min": 19.3,
+   "min": 22.1,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -881,7 +842,7 @@
    "name": "Karlo Matković",
    "pos": "PF",
    "starter": false,
-   "min": 16.1,
+   "min": 18.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -922,7 +883,7 @@
    "name": "DeAndre Jordan",
    "pos": "C",
    "starter": true,
-   "min": 13.2,
+   "min": 15.2,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -964,7 +925,7 @@
    "name": "Jaron Pierre Jr.",
    "pos": "SG",
    "starter": false,
-   "min": 11.7,
+   "min": 13.3,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -1003,28 +964,16 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": -1560,
-  "ml_away": 890,
+  "ml_home": -1740,
+  "ml_away": 950,
   "spread_home": -18.5,
-  "total": 227.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 228.5,
+  "spread_odds_home": -114,
+  "spread_odds_away": -106,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
-  "Trey Murphy III": {
-   "pts": [
-    12.5,
-    -105,
-    -125
-   ],
-   "reb": [
-    3.5,
-    -125,
-    100
-   ]
-  },
   "Keldon Johnson": {
    "pts": [
     11.5,

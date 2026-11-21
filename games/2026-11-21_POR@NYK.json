@@ -8,17 +8,18 @@
   "neutral": false,
   "notes": [
    "POR: Youngblood, Krejčí y Morant OUT; Avdija (pie) cuestionable; R. Williams III vuelve",
-   "NYK: Clarkson (pie) OUT; Anunoby (gemelo) dudoso en RotoWire, cuestionable en ESPN; Towns cuestionable en RotoWire"
+   "NYK: Clarkson (pie) OUT; Anunoby (gemelo) dudoso en RotoWire, cuestionable en ESPN; Towns cuestionable en RotoWire",
+   "Revisión 18:10: Anunoby OUT (RotoWire); Towns y Avdija siguen en duda"
   ],
   "out": [
    "Chris Youngblood",
    "Vít Krejčí",
    "Ja Morant",
-   "Jordan Clarkson"
+   "Jordan Clarkson",
+   "OG Anunoby"
   ],
   "gtd": {
    "Deni Avdija": 0.5,
-   "OG Anunoby": 0.15,
    "Karl-Anthony Towns": 0.6
   },
   "reserves": {
@@ -83,13 +84,13 @@
     "pace": 97.99
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -0.5,
+    "d": 0.75,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "Anunoby OUT 21-nov (RotoWire 18:15 ET)"
    }
   },
   "POR": {
@@ -125,7 +126,7 @@
    "name": "Jalen Brunson",
    "pos": "PG",
    "starter": true,
-   "min": 32.0,
+   "min": 36.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -164,52 +165,10 @@
   },
   {
    "team": "NYK",
-   "name": "OG Anunoby",
-   "pos": "PF",
-   "starter": true,
-   "min": 31.6,
-   "g_cur": 15,
-   "p_play": 0.15,
-   "cur": {
-    "min": 33.9,
-    "pts": 16.3,
-    "reb": 5.4,
-    "ast": 2.0,
-    "fg3m": 2.0,
-    "fgm": 4.7,
-    "fga": 11.8,
-    "fg3a": 6.2,
-    "stl": 1.1,
-    "blk": 0.9,
-    "tov": 2.1,
-    "pf": 3.3,
-    "ftm": 4.8,
-    "fta": 5.5
-   },
-   "prior": {
-    "min": 33.2,
-    "pts": 16.69,
-    "reb": 5.24,
-    "ast": 2.16,
-    "fg3m": 2.34,
-    "fgm": 5.81,
-    "fga": 12.0,
-    "fg3a": 6.07,
-    "stl": 1.55,
-    "blk": 0.72,
-    "tov": 1.84,
-    "pf": 2.45,
-    "ftm": 2.73,
-    "fta": 3.3
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "NYK",
    "name": "Karl-Anthony Towns",
    "pos": "C",
    "starter": true,
-   "min": 30.5,
+   "min": 35.2,
    "g_cur": 15,
    "p_play": 0.6,
    "cur": {
@@ -251,7 +210,7 @@
    "name": "Josh Hart",
    "pos": "SF",
    "starter": true,
-   "min": 27.8,
+   "min": 32.0,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -286,14 +245,14 @@
     "ftm": 1.36,
     "fta": 1.89
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "NYK",
    "name": "Mikal Bridges",
    "pos": "SF",
    "starter": true,
-   "min": 24.2,
+   "min": 27.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -328,14 +287,14 @@
     "ftm": 1.0,
     "fta": 1.21
    },
-   "slot": "SF"
+   "slot": "PF"
   },
   {
    "team": "NYK",
    "name": "Landry Shamet",
    "pos": "SG",
-   "starter": false,
-   "min": 24.2,
+   "starter": true,
+   "min": 27.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -369,14 +328,15 @@
     "pf": 1.51,
     "ftm": 1.06,
     "fta": 1.49
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "NYK",
    "name": "Miles McBride",
    "pos": "SG",
    "starter": false,
-   "min": 16.2,
+   "min": 18.7,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -417,7 +377,7 @@
    "name": "Tyler Kolek",
    "pos": "PG",
    "starter": false,
-   "min": 12.6,
+   "min": 14.5,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -458,7 +418,7 @@
    "name": "Andre Drummond",
    "pos": "C",
    "starter": false,
-   "min": 12.2,
+   "min": 14.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -499,7 +459,7 @@
    "name": "Mohamed Diawara",
    "pos": "SF",
    "starter": false,
-   "min": 11.2,
+   "min": 12.9,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -540,7 +500,7 @@
    "name": "Dalton Knecht",
    "pos": "SF",
    "starter": false,
-   "min": 9.0,
+   "min": 10.4,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -581,7 +541,7 @@
    "name": "Jose Alvarado",
    "pos": "PG",
    "starter": false,
-   "min": 8.5,
+   "min": 9.8,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1076,12 +1036,12 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": -155,
+  "ml_home": -156,
   "ml_away": 131,
-  "spread_home": -3.5,
+  "spread_home": -2.5,
   "total": 215.5,
-  "spread_odds_home": -108,
-  "spread_odds_away": -112,
+  "spread_odds_home": -119,
+  "spread_odds_away": -101,
   "over_odds": -112,
   "under_odds": -108
  },
@@ -1167,29 +1127,6 @@
     -173,
     -155,
     3.5
-   ]
-  },
-  "OG Anunoby": {
-   "pts": [
-    15.5,
-    -105,
-    100
-   ],
-   "reb": [
-    4.5,
-    -165,
-    -136,
-    5.5
-   ],
-   "ast": [
-    1.5,
-    -150,
-    122
-   ],
-   "fg3m": [
-    1.5,
-    -175,
-    133
    ]
   },
   "Jrue Holiday": {
