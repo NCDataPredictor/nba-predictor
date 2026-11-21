@@ -147,13 +147,13 @@
    "tip_et": "19:30",
    "venue": "Madison Square Garden, New York",
    "market": {
-    "ml_home": -205,
-    "ml_away": 170,
-    "spread_home": -5.5,
-    "total": 216.5,
-    "spread_odds_home": -106,
-    "spread_odds_away": -113,
-    "over_odds": -111,
+    "ml_home": -155,
+    "ml_away": 131,
+    "spread_home": -3.5,
+    "total": 215.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -112,
     "under_odds": -108
    },
    "b2b": [],
@@ -166,8 +166,8 @@
    ],
    "gtd": {
     "Deni Avdija": 0.5,
-    "OG Anunoby": 0.35,
-    "Karl-Anthony Towns": 0.75
+    "OG Anunoby": 0.15,
+    "Karl-Anthony Towns": 0.6
    },
    "notes": [
     "POR: Youngblood, Krejčí y Morant OUT; Avdija (pie) cuestionable; R. Williams III vuelve",
@@ -180,14 +180,14 @@
    "tip_et": "20:00",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -220,
-    "ml_away": 180,
+    "ml_home": -237,
+    "ml_away": 196,
     "spread_home": -6.5,
     "total": 228.5,
-    "spread_odds_home": -104,
-    "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -112
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -115,
+    "under_odds": -106
    },
    "b2b": [],
    "adj": {
@@ -250,13 +250,13 @@
    "tip_et": "20:00",
    "venue": "Frost Bank Center, San Antonio",
    "market": {
-    "ml_home": -1587,
-    "ml_away": 900,
-    "spread_home": -17.5,
-    "total": 228.5,
+    "ml_home": -1560,
+    "ml_away": 890,
+    "spread_home": -18.5,
+    "total": 227.5,
     "spread_odds_home": -110,
-    "spread_odds_away": -109,
-    "over_odds": -109,
+    "spread_odds_away": -110,
+    "over_odds": -110,
     "under_odds": -110
    },
    "b2b": [
@@ -282,14 +282,14 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 550,
-    "ml_away": -800,
+    "ml_home": 554,
+    "ml_away": -790,
     "spread_home": 13.5,
-    "total": 216.5,
-    "spread_odds_home": -112,
+    "total": 217.5,
+    "spread_odds_home": -113,
     "spread_odds_away": -107,
-    "over_odds": -113,
-    "under_odds": -107
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [
     "SAC"

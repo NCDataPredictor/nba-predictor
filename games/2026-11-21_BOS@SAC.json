@@ -1188,14 +1188,14 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": 550,
-  "ml_away": -800,
+  "ml_home": 554,
+  "ml_away": -790,
   "spread_home": 13.5,
-  "total": 216.5,
-  "spread_odds_home": -112,
+  "total": 217.5,
+  "spread_odds_home": -113,
   "spread_odds_away": -107,
-  "over_odds": -113,
-  "under_odds": -107
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Darius Acuff Jr.": {

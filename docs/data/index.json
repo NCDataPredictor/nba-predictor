@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T17:43+00:00",
+ "generated": "2026-11-21T18:49+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
@@ -74,7 +74,7 @@
   },
   "2026-11-21": {
    "morning": "2026-11-21T16:28+00:00",
-   "pregame": "2026-11-21T17:43+00:00"
+   "pregame": "2026-11-21T18:49+00:00"
   }
  },
  "history": [
@@ -169674,14 +169674,22 @@
      "value": false,
      "n_books": 8,
      "best": {
-      "book": "BetRivers",
+      "book": "scoresandodds (consenso 13:55 ET)",
       "line": 215.5,
-      "odds": -114,
-      "dec": 1.877,
+      "odds": -112,
+      "dec": 1.893,
       "p": 0.546,
-      "ev": 0.025
+      "ev": 0.034
      },
      "books": [
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": 215.5,
+       "odds": -112,
+       "dec": 1.893,
+       "p": 0.546,
+       "ev": 0.034
+      },
       {
        "book": "BetRivers",
        "line": 215.5,
@@ -169769,23 +169777,23 @@
      "player": null,
      "team": "POR",
      "line": null,
-     "odds": 171,
-     "dec": 2.706,
+     "odds": 167,
+     "dec": 2.666,
      "odds_assumed": false,
-     "p": 0.358,
-     "implied": 0.37,
-     "fair": 179,
-     "edge": -0.011,
-     "ev": -0.03,
+     "p": 0.363,
+     "implied": 0.375,
+     "fair": 176,
+     "edge": -0.012,
+     "ev": -0.033,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "bet365",
       "line": null,
       "odds": 175,
       "dec": 2.75,
-      "p": 0.358,
-      "ev": -0.016
+      "p": 0.363,
+      "ev": -0.002
      },
      "books": [
       {
@@ -169793,76 +169801,84 @@
        "line": null,
        "odds": 175,
        "dec": 2.75,
-       "p": 0.358,
-       "ev": -0.016
+       "p": 0.363,
+       "ev": -0.002
       },
       {
        "book": "Hard Rock Bet",
        "line": null,
        "odds": 175,
        "dec": 2.75,
-       "p": 0.358,
-       "ev": -0.016
+       "p": 0.363,
+       "ev": -0.002
       },
       {
        "book": "FanDuel",
        "line": null,
        "odds": 172,
        "dec": 2.72,
-       "p": 0.358,
-       "ev": -0.026
+       "p": 0.363,
+       "ev": -0.013
       },
       {
        "book": "Fanatics Sportsbook",
        "line": null,
        "odds": 170,
        "dec": 2.7,
-       "p": 0.358,
-       "ev": -0.033
+       "p": 0.363,
+       "ev": -0.02
       },
       {
        "book": "BetRivers",
        "line": null,
        "odds": 170,
        "dec": 2.7,
-       "p": 0.358,
-       "ev": -0.033
+       "p": 0.363,
+       "ev": -0.02
       },
       {
        "book": "Caesars",
        "line": null,
        "odds": 170,
        "dec": 2.7,
-       "p": 0.358,
-       "ev": -0.033
+       "p": 0.363,
+       "ev": -0.02
       },
       {
        "book": "theScore Bet",
        "line": null,
        "odds": 170,
        "dec": 2.7,
-       "p": 0.358,
-       "ev": -0.033
+       "p": 0.363,
+       "ev": -0.02
       },
       {
        "book": "DraftKings",
        "line": null,
        "odds": 168,
        "dec": 2.68,
-       "p": 0.358,
-       "ev": -0.041
+       "p": 0.363,
+       "ev": -0.027
       },
       {
        "book": "BetMGM",
        "line": null,
        "odds": 165,
        "dec": 2.65,
-       "p": 0.358,
-       "ev": -0.051
+       "p": 0.363,
+       "ev": -0.038
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": null,
+       "odds": 131,
+       "dec": 2.31,
+       "p": 0.363,
+       "ev": -0.161
       }
      ],
      "p_model": 0.369,
-     "p_mkt": 0.355,
+     "p_mkt": 0.361,
      "cand": false,
      "open": [
       null,
@@ -169965,6 +169981,14 @@
        "dec": 1.952,
        "p": 0.48,
        "ev": -0.063
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": 3.5,
+       "odds": -112,
+       "dec": 1.893,
+       "p": 0.451,
+       "ev": -0.146
       }
      ],
      "p_model": 0.519,
@@ -169982,42 +170006,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "fga",
-     "side": "over",
-     "line": 19.5,
-     "p": 0.566,
-     "fair": 1.77,
-     "min_dec": 1.82,
-     "ref": 19.4,
-     "p_model": 0.72,
-     "label": "Jalen Brunson Over 19.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 24.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Mikal Bridges",
      "team": "NYK",
      "stat": "fga",
      "side": "over",
      "line": 8.5,
-     "p": 0.565,
-     "fair": 1.77,
-     "min_dec": 1.82,
+     "p": 0.579,
+     "fair": 1.73,
+     "min_dec": 1.78,
      "ref": 8.4,
-     "p_model": 0.718,
+     "p_model": 0.764,
      "label": "Mikal Bridges Over 8.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -170029,33 +170027,33 @@
        2
       ]
      },
-     "mean": 11.5
+     "mean": 12.1
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Mikal Bridges",
+     "player": "Jalen Brunson",
      "team": "NYK",
-     "stat": "fg2a",
+     "stat": "fga",
      "side": "over",
-     "line": 4.5,
-     "p": 0.553,
-     "fair": 1.81,
-     "min_dec": 1.86,
-     "ref": 4.8,
-     "p_model": 0.678,
-     "label": "Mikal Bridges Over 4.5 Dobles intentados",
+     "line": 19.5,
+     "p": 0.578,
+     "fair": 1.73,
+     "min_dec": 1.78,
+     "ref": 19.4,
+     "p_model": 0.759,
+     "label": "Jalen Brunson Over 19.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
-       2,
+       1,
        2
       ]
      },
-     "mean": 6.8
+     "mean": 25.2
     },
     {
      "kind": "prop",
@@ -170065,11 +170063,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 3.5,
-     "p": 0.551,
-     "fair": 1.81,
-     "min_dec": 1.87,
+     "p": 0.566,
+     "fair": 1.77,
+     "min_dec": 1.82,
      "ref": 3.7,
-     "p_model": 0.671,
+     "p_model": 0.72,
      "label": "Mikal Bridges Over 3.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -170081,25 +170079,25 @@
        2
       ]
      },
-     "mean": 5.2
+     "mean": 5.7
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
+     "player": "Mikal Bridges",
      "team": "NYK",
-     "stat": "fg3a",
+     "stat": "fg2a",
      "side": "over",
-     "line": 6.5,
-     "p": 0.551,
-     "fair": 1.81,
-     "min_dec": 1.87,
-     "ref": 6.8,
-     "p_model": 0.67,
-     "label": "Jalen Brunson Over 6.5 Triples intentados",
+     "line": 4.5,
+     "p": 0.565,
+     "fair": 1.77,
+     "min_dec": 1.82,
+     "ref": 4.8,
+     "p_model": 0.718,
+     "label": "Mikal Bridges Over 4.5 Dobles intentados",
      "hr": {
       "l10": [
-       7,
+       5,
        10
       ],
       "h2h": [
@@ -170107,7 +170105,7 @@
        2
       ]
      },
-     "mean": 8.4
+     "mean": 7.3
     },
     {
      "kind": "prop",
@@ -170117,11 +170115,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 8.5,
-     "p": 0.544,
-     "fair": 1.84,
-     "min_dec": 1.89,
+     "p": 0.558,
+     "fair": 1.79,
+     "min_dec": 1.85,
      "ref": 8.6,
-     "p_model": 0.648,
+     "p_model": 0.693,
      "label": "Jalen Brunson Over 8.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -170133,7 +170131,33 @@
        2
       ]
      },
-     "mean": 11.2
+     "mean": 11.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.558,
+     "fair": 1.79,
+     "min_dec": 1.85,
+     "ref": 6.8,
+     "p_model": 0.693,
+     "label": "Jalen Brunson Over 6.5 Triples intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 8.6
     },
     {
      "kind": "prop",
@@ -170143,11 +170167,11 @@
      "stat": "fg2a",
      "side": "over",
      "line": 12.5,
-     "p": 0.544,
-     "fair": 1.84,
-     "min_dec": 1.89,
+     "p": 0.556,
+     "fair": 1.8,
+     "min_dec": 1.85,
      "ref": 12.6,
-     "p_model": 0.648,
+     "p_model": 0.686,
      "label": "Jalen Brunson Over 12.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -170159,7 +170183,7 @@
        2
       ]
      },
-     "mean": 15.8
+     "mean": 16.6
     },
     {
      "kind": "prop",
@@ -170169,11 +170193,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 3.5,
-     "p": 0.544,
-     "fair": 1.84,
-     "min_dec": 1.89,
+     "p": 0.554,
+     "fair": 1.8,
+     "min_dec": 1.86,
      "ref": 3.7,
-     "p_model": 0.646,
+     "p_model": 0.682,
      "label": "Josh Hart Over 3.5 Triples intentados",
      "hr": {
       "l10": [
@@ -170185,7 +170209,7 @@
        2
       ]
      },
-     "mean": 4.8
+     "mean": 5.0
     },
     {
      "kind": "prop",
@@ -170195,11 +170219,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 3.5,
-     "p": 0.541,
-     "fair": 1.85,
-     "min_dec": 1.9,
+     "p": 0.548,
+     "fair": 1.82,
+     "min_dec": 1.88,
      "ref": 3.7,
-     "p_model": 0.637,
+     "p_model": 0.66,
      "label": "Mikal Bridges Over 3.5 Triples intentados",
      "hr": {
       "l10": [
@@ -170211,7 +170235,59 @@
        2
       ]
      },
-     "mean": 4.7
+     "mean": 4.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 5.5,
+     "p": 0.544,
+     "fair": 1.84,
+     "min_dec": 1.89,
+     "ref": 5.9,
+     "p_model": 0.646,
+     "label": "Jalen Brunson Over 5.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 8.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.539,
+     "fair": 1.85,
+     "min_dec": 1.91,
+     "ref": 2.5,
+     "p_model": 0.631,
+     "label": "Mikal Bridges Over 2.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 4.2
     },
     {
      "kind": "prop",
@@ -170221,11 +170297,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 5.5,
-     "p": 0.538,
-     "fair": 1.86,
+     "p": 0.539,
+     "fair": 1.85,
      "min_dec": 1.91,
      "ref": 5.8,
-     "p_model": 0.628,
+     "p_model": 0.631,
      "label": "Damian Lillard Over 5.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -170247,11 +170323,11 @@
      "stat": "fga",
      "side": "over",
      "line": 9.5,
-     "p": 0.533,
-     "fair": 1.88,
+     "p": 0.534,
+     "fair": 1.87,
      "min_dec": 1.93,
      "ref": 9.8,
-     "p_model": 0.611,
+     "p_model": 0.614,
      "label": "Scoot Henderson Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -170268,20 +170344,20 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
+     "player": "Mikal Bridges",
      "team": "NYK",
-     "stat": "fg2m",
+     "stat": "pf",
      "side": "over",
-     "line": 5.5,
-     "p": 0.532,
-     "fair": 1.88,
-     "min_dec": 1.93,
-     "ref": 5.9,
-     "p_model": 0.608,
-     "label": "Jalen Brunson Over 5.5 Dobles anotados",
+     "line": 1.5,
+     "p": 0.61,
+     "fair": 1.64,
+     "min_dec": 1.69,
+     "ref": 1.6,
+     "p_model": 0.61,
+     "label": "Mikal Bridges Over 1.5 Faltas",
      "hr": {
       "l10": [
-       6,
+       3,
        10
       ],
       "h2h": [
@@ -170289,7 +170365,33 @@
        2
       ]
      },
-     "mean": 7.8
+     "mean": 2.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Hart",
+     "team": "NYK",
+     "stat": "pf",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.609,
+     "fair": 1.64,
+     "min_dec": 1.69,
+     "ref": 2.5,
+     "p_model": 0.609,
+     "label": "Josh Hart Over 2.5 Faltas",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 3.2
     },
     {
      "kind": "prop",
@@ -170299,11 +170401,11 @@
      "stat": "pf",
      "side": "over",
      "line": 2.5,
-     "p": 0.606,
+     "p": 0.605,
      "fair": 1.65,
      "min_dec": 1.7,
      "ref": 2.9,
-     "p_model": 0.606,
+     "p_model": 0.605,
      "label": "Scoot Henderson Over 2.5 Faltas",
      "hr": {
       "l10": [
@@ -170346,20 +170448,20 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Mikal Bridges",
+     "player": "Jalen Brunson",
      "team": "NYK",
-     "stat": "fg2m",
+     "stat": "ftm",
      "side": "over",
-     "line": 2.5,
-     "p": 0.528,
-     "fair": 1.9,
-     "min_dec": 1.95,
-     "ref": 2.5,
-     "p_model": 0.592,
-     "label": "Mikal Bridges Over 2.5 Dobles anotados",
+     "line": 4.5,
+     "p": 0.53,
+     "fair": 1.89,
+     "min_dec": 1.94,
+     "ref": 5.0,
+     "p_model": 0.599,
+     "label": "Jalen Brunson Over 4.5 Tiros libres anotados",
      "hr": {
       "l10": [
-       4,
+       6,
        10
       ],
       "h2h": [
@@ -170367,22 +170469,22 @@
        2
       ]
      },
-     "mean": 3.8
+     "mean": 6.6
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Damian Lillard",
-     "team": "POR",
-     "stat": "fga",
+     "player": "Landry Shamet",
+     "team": "NYK",
+     "stat": "fg3a",
      "side": "over",
-     "line": 14.5,
-     "p": 0.527,
-     "fair": 1.9,
+     "line": 4.5,
+     "p": 0.53,
+     "fair": 1.89,
      "min_dec": 1.95,
-     "ref": 14.2,
-     "p_model": 0.59,
-     "label": "Damian Lillard Over 14.5 Tiros de campo intentados",
+     "ref": 5.0,
+     "p_model": 0.598,
+     "label": "Landry Shamet Over 4.5 Triples intentados",
      "hr": {
       "l10": [
        6,
@@ -170390,62 +170492,10 @@
       ],
       "h2h": [
        0,
-       0
+       1
       ]
      },
-     "mean": 16.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Mikal Bridges",
-     "team": "NYK",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.588,
-     "fair": 1.7,
-     "min_dec": 1.75,
-     "ref": 1.6,
-     "p_model": 0.588,
-     "label": "Mikal Bridges Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Josh Hart",
-     "team": "NYK",
-     "stat": "pf",
-     "side": "over",
-     "line": 2.5,
-     "p": 0.585,
-     "fair": 1.71,
-     "min_dec": 1.76,
-     "ref": 2.5,
-     "p_model": 0.585,
-     "label": "Josh Hart Over 2.5 Faltas",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 3.1
+     "mean": 5.7
     },
     {
      "kind": "prop",
@@ -170455,11 +170505,11 @@
      "stat": "tov",
      "side": "over",
      "line": 1.5,
-     "p": 0.582,
-     "fair": 1.72,
-     "min_dec": 1.77,
+     "p": 0.594,
+     "fair": 1.68,
+     "min_dec": 1.74,
      "ref": 1.8,
-     "p_model": 0.582,
+     "p_model": 0.594,
      "label": "Jalen Brunson Over 1.5 Pérdidas",
      "hr": {
       "l10": [
@@ -170485,6 +170535,58 @@
      "model_only": true,
      "player": "Damian Lillard",
      "team": "POR",
+     "stat": "fga",
+     "side": "over",
+     "line": 14.5,
+     "p": 0.527,
+     "fair": 1.9,
+     "min_dec": 1.96,
+     "ref": 14.2,
+     "p_model": 0.589,
+     "label": "Damian Lillard Over 14.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ]
+     },
+     "mean": 16.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "pf",
+     "side": "over",
+     "line": 1.5,
+     "p": 0.579,
+     "fair": 1.73,
+     "min_dec": 1.78,
+     "ref": 1.6,
+     "p_model": 0.579,
+     "label": "Jalen Brunson Over 1.5 Faltas",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 2.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Damian Lillard",
+     "team": "POR",
      "stat": "fg3a",
      "side": "over",
      "line": 8.5,
@@ -170492,7 +170594,7 @@
      "fair": 1.91,
      "min_dec": 1.97,
      "ref": 8.8,
-     "p_model": 0.578,
+     "p_model": 0.579,
      "label": "Damian Lillard Over 8.5 Triples intentados",
      "hr": {
       "l10": [
@@ -170509,42 +170611,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Donovan Clingan",
-     "team": "POR",
-     "stat": "pf",
-     "side": "over",
-     "line": 2.5,
-     "p": 0.573,
-     "fair": 1.75,
-     "min_dec": 1.8,
-     "ref": 2.9,
-     "p_model": 0.573,
-     "label": "Donovan Clingan Over 2.5 Faltas",
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ]
-     },
-     "mean": 3.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Scoot Henderson",
      "team": "POR",
      "stat": "fg3a",
      "side": "over",
      "line": 4.5,
-     "p": 0.521,
-     "fair": 1.92,
-     "min_dec": 1.98,
+     "p": 0.523,
+     "fair": 1.91,
+     "min_dec": 1.97,
      "ref": 4.7,
-     "p_model": 0.572,
+     "p_model": 0.576,
      "label": "Scoot Henderson Over 4.5 Triples intentados",
      "hr": {
       "l10": [
@@ -170561,16 +170637,42 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Donovan Clingan",
+     "team": "POR",
+     "stat": "pf",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.574,
+     "fair": 1.74,
+     "min_dec": 1.79,
+     "ref": 2.9,
+     "p_model": 0.574,
+     "label": "Donovan Clingan Over 2.5 Faltas",
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ]
+     },
+     "mean": 3.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Sidy Cissoko",
      "team": "POR",
      "stat": "fg3a",
      "side": "over",
      "line": 3.5,
-     "p": 0.521,
+     "p": 0.522,
      "fair": 1.92,
-     "min_dec": 1.98,
+     "min_dec": 1.97,
      "ref": 3.7,
-     "p_model": 0.57,
+     "p_model": 0.574,
      "label": "Sidy Cissoko Over 3.5 Triples intentados",
      "hr": {
       "l10": [
@@ -170587,68 +170689,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.566,
-     "fair": 1.77,
-     "min_dec": 1.82,
-     "ref": 1.6,
-     "p_model": 0.566,
-     "label": "Jalen Brunson Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 1.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "ftm",
-     "side": "over",
-     "line": 4.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
-     "ref": 5.0,
-     "p_model": 0.564,
-     "label": "Jalen Brunson Over 4.5 Tiros libres anotados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 6.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Scoot Henderson",
      "team": "POR",
      "stat": "fgm",
      "side": "over",
      "line": 3.5,
-     "p": 0.518,
+     "p": 0.519,
      "fair": 1.93,
      "min_dec": 1.99,
      "ref": 3.6,
-     "p_model": 0.561,
+     "p_model": 0.562,
      "label": "Scoot Henderson Over 3.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -170661,32 +170711,6 @@
       ]
      },
      "mean": 4.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Landry Shamet",
-     "team": "NYK",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 4.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 5.0,
-     "p_model": 0.559,
-     "label": "Landry Shamet Over 4.5 Triples intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 5.4
     }
    ],
    "err_bets": [],
@@ -170707,12 +170731,12 @@
      "value": false,
      "n_books": 8,
      "best": {
-      "book": "BetRivers",
+      "book": "scoresandodds (consenso 13:55 ET)",
       "line": 215.5,
-      "odds": -114,
-      "dec": 1.877,
+      "odds": -112,
+      "dec": 1.893,
       "p": 0.546,
-      "ev": 0.025
+      "ev": 0.034
      },
      "p_model": 0.601,
      "p_mkt": 0.502,
@@ -170728,25 +170752,25 @@
      "player": null,
      "team": "POR",
      "line": null,
-     "odds": 171,
-     "dec": 2.706,
+     "odds": 167,
+     "dec": 2.666,
      "odds_assumed": false,
-     "p": 0.358,
-     "implied": 0.37,
-     "edge": -0.011,
-     "ev": -0.03,
+     "p": 0.363,
+     "implied": 0.375,
+     "edge": -0.012,
+     "ev": -0.033,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "bet365",
       "line": null,
       "odds": 175,
       "dec": 2.75,
-      "p": 0.358,
-      "ev": -0.016
+      "p": 0.363,
+      "ev": -0.002
      },
      "p_model": 0.369,
-     "p_mkt": 0.355,
+     "p_mkt": 0.361,
      "cand": false,
      "open": [
       null,
@@ -170790,25 +170814,25 @@
      "player": null,
      "team": "NYK",
      "line": null,
-     "odds": -205,
-     "dec": 1.488,
+     "odds": -199,
+     "dec": 1.504,
      "odds_assumed": false,
-     "p": 0.642,
-     "implied": 0.672,
-     "edge": -0.03,
-     "ev": -0.045,
+     "p": 0.637,
+     "implied": 0.665,
+     "edge": -0.028,
+     "ev": -0.042,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "BetMGM",
+      "book": "scoresandodds (consenso 13:55 ET)",
       "line": null,
-      "odds": -200,
-      "dec": 1.5,
-      "p": 0.642,
-      "ev": -0.037
+      "odds": -155,
+      "dec": 1.645,
+      "p": 0.637,
+      "ev": 0.048
      },
      "p_model": 0.631,
-     "p_mkt": 0.645,
+     "p_mkt": 0.639,
      "cand": false,
      "open": [
       null,
@@ -170831,12 +170855,12 @@
      "value": false,
      "n_books": 8,
      "best": {
-      "book": "DraftKings",
-      "line": -5.5,
-      "odds": -104,
-      "dec": 1.962,
-      "p": 0.49,
-      "ev": -0.039
+      "book": "scoresandodds (consenso 13:55 ET)",
+      "line": -3.5,
+      "odds": -108,
+      "dec": 1.926,
+      "p": 0.549,
+      "ev": 0.057
      },
      "p_model": 0.481,
      "p_mkt": 0.493,
@@ -170855,16 +170879,16 @@
      "odds": -113,
      "dec": 1.889,
      "odds_assumed": false,
-     "p": 0.497,
+     "p": 0.495,
      "implied": 0.529,
-     "edge": -0.032,
-     "ev": -0.061,
+     "edge": -0.035,
+     "ev": -0.065,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -105,
      "dec_ref": 1.952,
-     "p_model": 0.518,
+     "p_model": 0.509,
      "p_mkt": 0.49,
      "cand": false,
      "hr": {
@@ -170884,7 +170908,7 @@
        "n": 30
       }
      },
-     "mean": 23.7,
+     "mean": 23.8,
      "open": [
       22.5,
       1.889
@@ -170899,16 +170923,16 @@
      "odds": -123,
      "dec": 1.816,
      "odds_assumed": false,
-     "p": 0.503,
+     "p": 0.505,
      "implied": 0.551,
-     "edge": -0.048,
-     "ev": -0.087,
+     "edge": -0.046,
+     "ev": -0.083,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -114,
      "dec_ref": 1.877,
-     "p_model": 0.482,
+     "p_model": 0.491,
      "p_mkt": 0.51,
      "cand": false,
      "hr": {
@@ -170928,7 +170952,7 @@
        "n": 30
       }
      },
-     "mean": 23.7,
+     "mean": 23.8,
      "open": [
       22.5,
       1.816
@@ -170972,7 +170996,7 @@
       "Toumani Camara": [
        [
         "Damian Lillard",
-        2.3,
+        2.2,
         4.3
        ],
        [
@@ -170981,7 +171005,7 @@
         4.0
        ],
        [
-        "Jrue Holiday",
+        "Scoot Henderson",
         1.7,
         4.6
        ]
@@ -170989,24 +171013,24 @@
       "Deni Avdija": [
        [
         "Damian Lillard",
-        2.4,
-        2.2
-       ],
-       [
-        "Jrue Holiday",
-        1.5,
+        2.3,
         2.2
        ],
        [
         "Scoot Henderson",
         1.4,
         2.3
+       ],
+       [
+        "Jrue Holiday",
+        1.3,
+        2.2
        ]
       ],
       "Damian Lillard": [
        [
         "Deni Avdija",
-        4.1,
+        4.0,
         3.5
        ],
        [
@@ -171016,14 +171040,14 @@
        ],
        [
         "Jrue Holiday",
-        3.4,
+        3.3,
         4.4
        ]
       ],
       "Sidy Cissoko": [
        [
         "Damian Lillard",
-        2.0,
+        2.1,
         3.5
        ],
        [
@@ -171032,15 +171056,15 @@
         3.4
        ],
        [
-        "Jrue Holiday",
+        "Scoot Henderson",
         1.4,
-        3.6
+        3.7
        ]
       ],
       "Donovan Clingan": [
        [
         "Damian Lillard",
-        2.2,
+        2.3,
         3.4
        ],
        [
@@ -171049,7 +171073,7 @@
         3.2
        ],
        [
-        "Jrue Holiday",
+        "Scoot Henderson",
         1.5,
         3.5
        ]
@@ -171057,12 +171081,12 @@
       "Scoot Henderson": [
        [
         "Damian Lillard",
-        2.9,
+        3.0,
         3.1
        ],
        [
         "Deni Avdija",
-        2.3,
+        2.2,
         3.0
        ],
        [
@@ -171074,7 +171098,7 @@
       "Jrue Holiday": [
        [
         "Damian Lillard",
-        2.8,
+        2.9,
         3.0
        ],
        [
@@ -171165,12 +171189,12 @@
          "side": "over",
          "line": 22.5,
          "dec": 1.816,
-         "p": 0.598,
-         "base_p": 0.503,
-         "ev": 0.086,
+         "p": 0.594,
+         "base_p": 0.505,
+         "ev": 0.079,
          "if_out": "Damian Lillard",
          "mean": 27.8,
-         "mean0": 23.7
+         "mean0": 23.8
         }
        ]
       }
@@ -171181,103 +171205,98 @@
       "Jalen Brunson": [
        [
         "Karl-Anthony Towns",
-        6.1,
-        4.1
-       ],
-       [
-        "OG Anunoby",
-        4.9,
+        6.6,
         3.9
        ],
        [
         "Josh Hart",
-        4.3,
-        4.6
-       ]
-      ],
-      "OG Anunoby": [
-       [
-        "Jalen Brunson",
-        1.4,
-        1.1
+        4.9,
+        4.2
        ],
        [
-        "Karl-Anthony Towns",
-        1.4,
-        1.7
-       ],
-       [
-        "Josh Hart",
-        0.9,
-        1.6
+        "OG Anunoby",
+        4.7,
+        3.6
        ]
       ],
       "Mikal Bridges": [
        [
         "Karl-Anthony Towns",
-        2.5,
+        2.7,
+        3.4
+       ],
+       [
+        "Josh Hart",
+        2.1,
         3.6
        ],
        [
-        "Jalen Brunson",
-        1.9,
-        1.8
+        "Landry Shamet",
+        2.1,
+        4.9
+       ]
+      ],
+      "OG Anunoby": [
+       [
+        "Karl-Anthony Towns",
+        0.7,
+        0.7
        ],
        [
-        "OG Anunoby",
-        1.9,
-        3.4
+        "Jalen Brunson",
+        0.6,
+        0.4
        ]
       ],
       "Karl-Anthony Towns": [
        [
         "Jalen Brunson",
-        3.6,
-        1.7
-       ],
-       [
-        "OG Anunoby",
-        2.5,
-        2.9
+        3.0,
+        1.1
        ],
        [
         "Josh Hart",
-        2.4,
-        3.2
+        2.2,
+        2.6
+       ],
+       [
+        "OG Anunoby",
+        1.9,
+        2.3
        ]
       ],
       "Josh Hart": [
        [
         "Karl-Anthony Towns",
         2.8,
-        3.4
+        3.3
        ],
        [
         "Jalen Brunson",
-        2.4,
-        1.7
+        2.7,
+        1.3
        ],
        [
         "Landry Shamet",
-        2.0,
-        4.2
+        2.2,
+        4.5
        ]
       ],
       "Landry Shamet": [
        [
         "Karl-Anthony Towns",
-        2.0,
-        2.7
+        2.1,
+        2.6
        ],
        [
         "Jalen Brunson",
-        1.6,
-        1.4
+        1.8,
+        1.0
        ],
        [
         "Josh Hart",
-        1.5,
-        2.9
+        1.7,
+        2.7
        ]
       ]
      },
@@ -171306,11 +171325,11 @@
      "doubt": [
       [
        "OG Anunoby",
-       0.35
+       0.15
       ],
       [
        "Karl-Anthony Towns",
-       0.75
+       0.6
       ]
      ]
     }
@@ -172917,23 +172936,23 @@
      "player": null,
      "team": "MIN",
      "line": null,
-     "odds": -219,
-     "dec": 1.457,
+     "odds": -221,
+     "dec": 1.453,
      "odds_assumed": false,
-     "p": 0.67,
-     "implied": 0.686,
-     "fair": -203,
-     "edge": -0.016,
+     "p": 0.672,
+     "implied": 0.688,
+     "fair": -204,
+     "edge": -0.017,
      "ev": -0.024,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "BetRivers",
       "line": null,
       "odds": -200,
       "dec": 1.5,
-      "p": 0.67,
-      "ev": 0.005
+      "p": 0.672,
+      "ev": 0.008
      },
      "books": [
       {
@@ -172941,76 +172960,84 @@
        "line": null,
        "odds": -200,
        "dec": 1.5,
-       "p": 0.67,
-       "ev": 0.005
+       "p": 0.672,
+       "ev": 0.008
       },
       {
        "book": "FanDuel",
        "line": null,
        "odds": -215,
        "dec": 1.465,
-       "p": 0.67,
-       "ev": -0.018
+       "p": 0.672,
+       "ev": -0.016
       },
       {
        "book": "theScore Bet",
        "line": null,
        "odds": -215,
        "dec": 1.465,
-       "p": 0.67,
-       "ev": -0.018
+       "p": 0.672,
+       "ev": -0.016
       },
       {
        "book": "BetMGM",
        "line": null,
        "odds": -220,
        "dec": 1.455,
-       "p": 0.67,
-       "ev": -0.025
+       "p": 0.672,
+       "ev": -0.022
       },
       {
        "book": "Hard Rock Bet",
        "line": null,
        "odds": -220,
        "dec": 1.455,
-       "p": 0.67,
-       "ev": -0.025
+       "p": 0.672,
+       "ev": -0.022
       },
       {
        "book": "DraftKings",
        "line": null,
        "odds": -223,
        "dec": 1.448,
-       "p": 0.67,
-       "ev": -0.03
+       "p": 0.672,
+       "ev": -0.027
       },
       {
        "book": "Fanatics Sportsbook",
        "line": null,
        "odds": -225,
        "dec": 1.444,
-       "p": 0.67,
-       "ev": -0.033
+       "p": 0.672,
+       "ev": -0.03
       },
       {
        "book": "Caesars",
        "line": null,
        "odds": -225,
        "dec": 1.444,
-       "p": 0.67,
-       "ev": -0.033
+       "p": 0.672,
+       "ev": -0.03
       },
       {
        "book": "bet365",
        "line": null,
        "odds": -230,
        "dec": 1.435,
-       "p": 0.67,
-       "ev": -0.039
+       "p": 0.672,
+       "ev": -0.036
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": null,
+       "odds": -237,
+       "dec": 1.422,
+       "p": 0.672,
+       "ev": -0.044
       }
      ],
      "p_model": 0.706,
-     "p_mkt": 0.658,
+     "p_mkt": 0.66,
      "cand": false,
      "open": [
       null,
@@ -173024,22 +173051,22 @@
      "team": "MIN",
      "line": -6.5,
      "odds": -105,
-     "dec": 1.955,
+     "dec": 1.949,
      "odds_assumed": false,
-     "p": 0.499,
-     "implied": 0.512,
-     "fair": 101,
+     "p": 0.5,
+     "implied": 0.513,
+     "fair": 100,
      "edge": -0.013,
-     "ev": -0.025,
+     "ev": -0.026,
      "value": false,
-     "n_books": 4,
+     "n_books": 5,
      "best": {
       "book": "BetRivers",
       "line": -4.5,
       "odds": -120,
       "dec": 1.833,
-      "p": 0.559,
-      "ev": 0.025
+      "p": 0.56,
+      "ev": 0.026
      },
      "books": [
       {
@@ -173047,76 +173074,84 @@
        "line": -4.5,
        "odds": -120,
        "dec": 1.833,
-       "p": 0.559,
-       "ev": 0.025
+       "p": 0.56,
+       "ev": 0.026
       },
       {
        "book": "Fanatics Sportsbook",
        "line": -5.5,
        "odds": -115,
        "dec": 1.87,
-       "p": 0.528,
-       "ev": -0.013
+       "p": 0.529,
+       "ev": -0.011
       },
       {
        "book": "Hard Rock Bet",
        "line": -5.5,
        "odds": -115,
        "dec": 1.87,
-       "p": 0.528,
-       "ev": -0.013
+       "p": 0.529,
+       "ev": -0.011
       },
       {
        "book": "Caesars",
        "line": -6.0,
        "odds": -110,
        "dec": 1.909,
-       "p": 0.515,
-       "ev": -0.017
+       "p": 0.516,
+       "ev": -0.015
       },
       {
        "book": "bet365",
        "line": -6.5,
        "odds": -104,
        "dec": 1.962,
-       "p": 0.499,
-       "ev": -0.021
+       "p": 0.5,
+       "ev": -0.019
       },
       {
        "book": "DraftKings",
        "line": -6.5,
        "odds": -104,
        "dec": 1.962,
-       "p": 0.499,
-       "ev": -0.021
+       "p": 0.5,
+       "ev": -0.019
       },
       {
        "book": "theScore Bet",
        "line": -6.5,
        "odds": -105,
        "dec": 1.952,
-       "p": 0.499,
-       "ev": -0.026
+       "p": 0.5,
+       "ev": -0.024
       },
       {
        "book": "BetMGM",
        "line": -5.5,
        "odds": -118,
        "dec": 1.847,
-       "p": 0.528,
-       "ev": -0.025
+       "p": 0.529,
+       "ev": -0.023
       },
       {
        "book": "FanDuel",
        "line": -6.5,
        "odds": -106,
        "dec": 1.943,
-       "p": 0.499,
-       "ev": -0.03
+       "p": 0.5,
+       "ev": -0.028
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": -6.5,
+       "odds": -108,
+       "dec": 1.926,
+       "p": 0.5,
+       "ev": -0.037
       }
      ],
      "p_model": 0.53,
-     "p_mkt": 0.488,
+     "p_mkt": 0.49,
      "cand": false,
      "open": [
       -6.5,
@@ -173124,48 +173159,117 @@
      ]
     },
     {
-     "kind": "prop",
-     "label": "Ty Jerome Over 23.5 Puntos",
-     "player": "Ty Jerome",
-     "team": "MEM",
-     "line": 23.5,
-     "odds": -122,
-     "dec": 1.818,
+     "kind": "total",
+     "label": "Under 228.5",
+     "player": null,
+     "team": null,
+     "line": 228.5,
+     "odds": -111,
+     "dec": 1.899,
      "odds_assumed": false,
-     "p": 0.526,
-     "implied": 0.55,
-     "fair": -111,
-     "edge": -0.024,
-     "ev": -0.043,
+     "p": 0.505,
+     "implied": 0.527,
+     "fair": -102,
+     "edge": -0.022,
+     "ev": -0.041,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -108,
-     "dec_ref": 1.926,
-     "p_model": 0.578,
-     "p_mkt": 0.509,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 22,
-       "value": 28.2,
-       "lg": 26.9,
-       "n": 30
-      }
+     "n_books": 5,
+     "best": {
+      "book": "scoresandodds (consenso 13:55 ET)",
+      "line": 228.5,
+      "odds": -106,
+      "dec": 1.943,
+      "p": 0.505,
+      "ev": -0.019
      },
-     "mean": 27.8,
+     "books": [
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": 228.5,
+       "odds": -106,
+       "dec": 1.943,
+       "p": 0.505,
+       "ev": -0.019
+      },
+      {
+       "book": "BetRivers",
+       "line": 228.5,
+       "odds": -108,
+       "dec": 1.926,
+       "p": 0.505,
+       "ev": -0.027
+      },
+      {
+       "book": "theScore Bet",
+       "line": 228.5,
+       "odds": -110,
+       "dec": 1.909,
+       "p": 0.505,
+       "ev": -0.036
+      },
+      {
+       "book": "Hard Rock Bet",
+       "line": 227.5,
+       "odds": -105,
+       "dec": 1.952,
+       "p": 0.486,
+       "ev": -0.051
+      },
+      {
+       "book": "Fanatics Sportsbook",
+       "line": 228.0,
+       "odds": -110,
+       "dec": 1.909,
+       "p": 0.496,
+       "ev": -0.053
+      },
+      {
+       "book": "FanDuel",
+       "line": 227.5,
+       "odds": -106,
+       "dec": 1.943,
+       "p": 0.486,
+       "ev": -0.056
+      },
+      {
+       "book": "Caesars",
+       "line": 228.5,
+       "odds": -115,
+       "dec": 1.87,
+       "p": 0.505,
+       "ev": -0.056
+      },
+      {
+       "book": "BetMGM",
+       "line": 228.5,
+       "odds": -118,
+       "dec": 1.847,
+       "p": 0.505,
+       "ev": -0.067
+      },
+      {
+       "book": "bet365",
+       "line": 227.5,
+       "odds": -110,
+       "dec": 1.909,
+       "p": 0.486,
+       "ev": -0.072
+      },
+      {
+       "book": "DraftKings",
+       "line": 227.5,
+       "odds": -115,
+       "dec": 1.87,
+       "p": 0.486,
+       "ev": -0.091
+      }
+     ],
+     "p_model": 0.519,
+     "p_mkt": 0.5,
+     "cand": false,
      "open": [
-      23.5,
-      1.818
+      227.5,
+      1.918
      ]
     }
    ],
@@ -173552,25 +173656,25 @@
      "player": null,
      "team": "MIN",
      "line": null,
-     "odds": -219,
-     "dec": 1.457,
+     "odds": -221,
+     "dec": 1.453,
      "odds_assumed": false,
-     "p": 0.67,
-     "implied": 0.686,
-     "edge": -0.016,
+     "p": 0.672,
+     "implied": 0.688,
+     "edge": -0.017,
      "ev": -0.024,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "BetRivers",
       "line": null,
       "odds": -200,
       "dec": 1.5,
-      "p": 0.67,
-      "ev": 0.005
+      "p": 0.672,
+      "ev": 0.008
      },
      "p_model": 0.706,
-     "p_mkt": 0.658,
+     "p_mkt": 0.66,
      "cand": false,
      "open": [
       null,
@@ -173584,28 +173688,59 @@
      "team": "MIN",
      "line": -6.5,
      "odds": -105,
-     "dec": 1.955,
+     "dec": 1.949,
      "odds_assumed": false,
-     "p": 0.499,
-     "implied": 0.512,
+     "p": 0.5,
+     "implied": 0.513,
      "edge": -0.013,
-     "ev": -0.025,
+     "ev": -0.026,
      "value": false,
-     "n_books": 4,
+     "n_books": 5,
      "best": {
       "book": "BetRivers",
       "line": -4.5,
       "odds": -120,
       "dec": 1.833,
-      "p": 0.559,
-      "ev": 0.025
+      "p": 0.56,
+      "ev": 0.026
      },
      "p_model": 0.53,
-     "p_mkt": 0.488,
+     "p_mkt": 0.49,
      "cand": false,
      "open": [
       -6.5,
       1.955
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 228.5",
+     "player": null,
+     "team": null,
+     "line": 228.5,
+     "odds": -111,
+     "dec": 1.899,
+     "odds_assumed": false,
+     "p": 0.505,
+     "implied": 0.527,
+     "edge": -0.022,
+     "ev": -0.041,
+     "value": false,
+     "n_books": 5,
+     "best": {
+      "book": "scoresandodds (consenso 13:55 ET)",
+      "line": 228.5,
+      "odds": -106,
+      "dec": 1.943,
+      "p": 0.505,
+      "ev": -0.019
+     },
+     "p_model": 0.519,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      227.5,
+      1.918
      ]
     },
     {
@@ -173653,68 +173788,6 @@
      ]
     },
     {
-     "kind": "total",
-     "label": "Under 227.5",
-     "player": null,
-     "team": null,
-     "line": 227.5,
-     "odds": -109,
-     "dec": 1.918,
-     "odds_assumed": false,
-     "p": 0.498,
-     "implied": 0.521,
-     "edge": -0.023,
-     "ev": -0.044,
-     "value": false,
-     "n_books": 4,
-     "best": {
-      "book": "BetRivers",
-      "line": 228.5,
-      "odds": -108,
-      "dec": 1.926,
-      "p": 0.517,
-      "ev": -0.004
-     },
-     "p_model": 0.5,
-     "p_mkt": 0.498,
-     "cand": false,
-     "open": [
-      227.5,
-      1.918
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Over 227.5",
-     "player": null,
-     "team": null,
-     "line": 227.5,
-     "odds": -111,
-     "dec": 1.902,
-     "odds_assumed": false,
-     "p": 0.502,
-     "implied": 0.526,
-     "edge": -0.024,
-     "ev": -0.046,
-     "value": false,
-     "n_books": 4,
-     "best": {
-      "book": "DraftKings",
-      "line": 227.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.502,
-      "ev": -0.02
-     },
-     "p_model": 0.5,
-     "p_mkt": 0.502,
-     "cand": false,
-     "open": [
-      227.5,
-      1.902
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Zach Edey Over 9.5 Puntos",
      "player": "Zach Edey",
@@ -173759,30 +173832,61 @@
      ]
     },
     {
+     "kind": "total",
+     "label": "Over 228.5",
+     "player": null,
+     "team": null,
+     "line": 228.5,
+     "odds": -111,
+     "dec": 1.902,
+     "odds_assumed": false,
+     "p": 0.495,
+     "implied": 0.526,
+     "edge": -0.031,
+     "ev": -0.059,
+     "value": false,
+     "n_books": 5,
+     "best": {
+      "book": "DraftKings",
+      "line": 227.5,
+      "odds": -105,
+      "dec": 1.952,
+      "p": 0.515,
+      "ev": 0.005
+     },
+     "p_model": 0.48,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      227.5,
+      1.902
+     ]
+    },
+    {
      "kind": "spread",
      "label": "MEM +6.5",
      "player": null,
      "team": "MEM",
      "line": 6.5,
-     "odds": -116,
-     "dec": 1.864,
+     "odds": -115,
+     "dec": 1.87,
      "odds_assumed": false,
-     "p": 0.501,
-     "implied": 0.536,
+     "p": 0.5,
+     "implied": 0.535,
      "edge": -0.035,
      "ev": -0.065,
      "value": false,
-     "n_books": 4,
+     "n_books": 5,
      "best": {
-      "book": "theScore Bet",
+      "book": "scoresandodds (consenso 13:55 ET)",
       "line": 6.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.501,
-      "ev": -0.063
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.5,
+      "ev": -0.053
      },
      "p_model": 0.47,
-     "p_mkt": 0.512,
+     "p_mkt": 0.51,
      "cand": false,
      "open": [
       6.5,
@@ -173839,25 +173943,25 @@
      "player": null,
      "team": "MEM",
      "line": null,
-     "odds": 181,
-     "dec": 2.806,
+     "odds": 182,
+     "dec": 2.821,
      "odds_assumed": false,
-     "p": 0.33,
-     "implied": 0.356,
-     "edge": -0.027,
-     "ev": -0.074,
+     "p": 0.328,
+     "implied": 0.354,
+     "edge": -0.026,
+     "ev": -0.073,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "bet365",
+      "book": "scoresandodds (consenso 13:55 ET)",
       "line": null,
-      "odds": 185,
-      "dec": 2.85,
-      "p": 0.33,
-      "ev": -0.059
+      "odds": 196,
+      "dec": 2.96,
+      "p": 0.328,
+      "ev": -0.029
      },
      "p_model": 0.294,
-     "p_mkt": 0.342,
+     "p_mkt": 0.34,
      "cand": false,
      "open": [
       null,
@@ -174794,6 +174898,14 @@
        "dec": 1.893,
        "p": 0.515,
        "ev": -0.025
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": -18.5,
+       "odds": -110,
+       "dec": 1.909,
+       "p": 0.487,
+       "ev": -0.07
       }
      ],
      "p_model": 0.561,
@@ -174831,6 +174943,14 @@
      "books": [
       {
        "book": "FanDuel",
+       "line": 227.5,
+       "odds": -110,
+       "dec": 1.909,
+       "p": 0.525,
+       "ev": 0.002
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
        "line": 227.5,
        "odds": -110,
        "dec": 1.909,
@@ -175646,22 +175766,22 @@
      "player": null,
      "team": "SAS",
      "line": null,
-     "odds": -1585,
+     "odds": -1582,
      "dec": 1.063,
      "odds_assumed": false,
-     "p": 0.907,
+     "p": 0.908,
      "implied": 0.941,
      "edge": -0.033,
      "ev": -0.035,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "DraftKings",
       "line": null,
       "odds": -1460,
       "dec": 1.068,
-      "p": 0.907,
-      "ev": -0.031
+      "p": 0.908,
+      "ev": -0.03
      },
      "p_model": 0.924,
      "p_mkt": 0.902,
@@ -175850,12 +175970,12 @@
      "value": false,
      "n_books": 8,
      "best": {
-      "book": "DraftKings",
-      "line": 17.5,
-      "odds": -108,
-      "dec": 1.926,
-      "p": 0.485,
-      "ev": -0.066
+      "book": "scoresandodds (consenso 13:55 ET)",
+      "line": 18.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.513,
+      "ev": -0.021
      },
      "p_model": 0.439,
      "p_mkt": 0.5,
@@ -175959,22 +176079,22 @@
      "player": null,
      "team": "NOP",
      "line": null,
-     "odds": 878,
-     "dec": 9.778,
+     "odds": 879,
+     "dec": 9.79,
      "odds_assumed": false,
-     "p": 0.093,
+     "p": 0.092,
      "implied": 0.102,
      "edge": -0.01,
      "ev": -0.095,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "bet365",
       "line": null,
       "odds": 900,
       "dec": 10.0,
-      "p": 0.093,
-      "ev": -0.07
+      "p": 0.092,
+      "ev": -0.08
      },
      "p_model": 0.076,
      "p_mkt": 0.098,
@@ -176729,15 +176849,15 @@
      "team": "BOS",
      "line": -13.5,
      "odds": -107,
-     "dec": 1.93,
+     "dec": 1.931,
      "odds_assumed": false,
      "p": 0.544,
      "implied": 0.518,
      "fair": -119,
      "edge": 0.026,
-     "ev": 0.05,
+     "ev": 0.051,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "Hard Rock Bet",
       "line": -12.5,
@@ -176789,6 +176909,14 @@
       },
       {
        "book": "DraftKings",
+       "line": -13.5,
+       "odds": -107,
+       "dec": 1.935,
+       "p": 0.544,
+       "ev": 0.053
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
        "line": -13.5,
        "odds": -107,
        "dec": 1.935,
@@ -176970,6 +177098,14 @@
        "dec": 1.862,
        "p": 0.539,
        "ev": 0.004
+      },
+      {
+       "book": "scoresandodds (consenso 13:55 ET)",
+       "line": 217.5,
+       "odds": -115,
+       "dec": 1.87,
+       "p": 0.521,
+       "ev": -0.026
       }
      ],
      "p_model": 0.641,
@@ -177507,14 +177643,14 @@
      "team": "BOS",
      "line": -13.5,
      "odds": -107,
-     "dec": 1.93,
+     "dec": 1.931,
      "odds_assumed": false,
      "p": 0.544,
      "implied": 0.518,
      "edge": 0.026,
-     "ev": 0.05,
+     "ev": 0.051,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "Hard Rock Bet",
       "line": -12.5,
@@ -177613,15 +177749,15 @@
      "player": null,
      "team": "BOS",
      "line": null,
-     "odds": -797,
-     "dec": 1.125,
+     "odds": -796,
+     "dec": 1.126,
      "odds_assumed": false,
      "p": 0.871,
-     "implied": 0.889,
-     "edge": -0.018,
-     "ev": -0.02,
+     "implied": 0.888,
+     "edge": -0.017,
+     "ev": -0.019,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": null,
@@ -177834,12 +177970,12 @@
      "value": false,
      "n_books": 6,
      "best": {
-      "book": "Hard Rock Bet",
-      "line": 216.5,
+      "book": "scoresandodds (consenso 13:55 ET)",
+      "line": 217.5,
       "odds": -105,
       "dec": 1.952,
-      "p": 0.46,
-      "ev": -0.102
+      "p": 0.479,
+      "ev": -0.065
      },
      "p_model": 0.358,
      "p_mkt": 0.494,
@@ -177955,7 +178091,7 @@
      "edge": -0.074,
      "ev": -0.14,
      "value": false,
-     "n_books": 8,
+     "n_books": 9,
      "best": {
       "book": "BetMGM",
       "line": 13.5,
@@ -177978,15 +178114,15 @@
      "player": null,
      "team": "SAC",
      "line": null,
-     "odds": 540,
-     "dec": 6.404,
+     "odds": 542,
+     "dec": 6.418,
      "odds_assumed": false,
      "p": 0.129,
      "implied": 0.156,
      "edge": -0.027,
-     "ev": -0.175,
+     "ev": -0.174,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "Fanatics Sportsbook",
       "line": null,

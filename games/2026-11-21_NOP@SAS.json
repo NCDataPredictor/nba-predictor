@@ -1003,13 +1003,13 @@
  ],
  "market": {
   "source": "NBA.com/games 21-nov (6 partidos); Covers matchup/<id>/odds 388761-388765 (~11:35 ET, 9 casas); MIL@PHI sin spread/total en Covers: solo ML (comparador 10:17 ET) y spread/total de FanDuel Research",
-  "ml_home": -1587,
-  "ml_away": 900,
-  "spread_home": -17.5,
-  "total": 228.5,
+  "ml_home": -1560,
+  "ml_away": 890,
+  "spread_home": -18.5,
+  "total": 227.5,
   "spread_odds_home": -110,
-  "spread_odds_away": -109,
-  "over_odds": -109,
+  "spread_odds_away": -110,
+  "over_odds": -110,
   "under_odds": -110
  },
  "prop_lines": {
