@@ -8,7 +8,7 @@
   "neutral": false,
   "notes": [
    "MIL: Dieng (dedo) OUT; Kuzma y Turner vuelven (RotoWire los da titulares)",
-   "PHI: Brown (isquio), Wade (isquio) y Bona (espalda) OUT; Maxey (pie) cuestionable; Barlow probable",
+   "PHI: Brown (isquio), Wade (isquio) y Bona (espalda) OUT; Maxey (pie) juega, posible límite de minutos (Nurse vía SI 12:24 ET); Barlow probable",
    "Mercado: solo ML de 9 casas (Covers, 10:17 ET); spread -12.5 y total 229.5 de FanDuel Research sin cuotas"
   ],
   "out": [
@@ -17,9 +17,7 @@
    "Dean Wade",
    "Adem Bona"
   ],
-  "gtd": {
-   "Tyrese Maxey": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "MIL": [
     {
@@ -132,7 +130,7 @@
    "starter": true,
    "min": 38.0,
    "g_cur": 15,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 36.1,
     "pts": 26.5,

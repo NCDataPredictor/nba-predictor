@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-21T16:28+00:00",
+ "generated": "2026-11-21T17:43+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "morning",
+ "last_stage": "pregame",
  "updates": {
   "2026-11-08": {
    "morning": "2026-11-08T16:28+00:00",
@@ -73,7 +73,8 @@
    "results": "2026-11-21T08:14+00:00"
   },
   "2026-11-21": {
-   "morning": "2026-11-21T16:28+00:00"
+   "morning": "2026-11-21T16:28+00:00",
+   "pregame": "2026-11-21T17:43+00:00"
   }
  },
  "history": [
@@ -168702,16 +168703,120 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "VJ Edgecombe",
+     "team": "PHI",
+     "stat": "fg2a",
+     "side": "under",
+     "line": 7.5,
+     "p": 0.559,
+     "fair": 1.79,
+     "min_dec": 1.84,
+     "ref": 8.2,
+     "p_model": 0.697,
+     "label": "VJ Edgecombe Under 7.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 6.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "VJ Edgecombe",
+     "team": "PHI",
+     "stat": "fg2m",
+     "side": "under",
+     "line": 3.5,
+     "p": 0.557,
+     "fair": 1.79,
+     "min_dec": 1.85,
+     "ref": 4.3,
+     "p_model": 0.691,
+     "label": "VJ Edgecombe Under 3.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       5,
+       5
+      ]
+     },
+     "mean": 2.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "VJ Edgecombe",
+     "team": "PHI",
+     "stat": "fga",
+     "side": "under",
+     "line": 13.5,
+     "p": 0.555,
+     "fair": 1.8,
+     "min_dec": 1.85,
+     "ref": 14.1,
+     "p_model": 0.685,
+     "label": "VJ Edgecombe Under 13.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       9,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 11.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "VJ Edgecombe",
+     "team": "PHI",
+     "stat": "fgm",
+     "side": "under",
+     "line": 5.5,
+     "p": 0.554,
+     "fair": 1.81,
+     "min_dec": 1.86,
+     "ref": 6.4,
+     "p_model": 0.679,
+     "label": "VJ Edgecombe Under 5.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       5,
+       5
+      ]
+     },
+     "mean": 4.7
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Ryan Rollins",
      "team": "MIL",
      "stat": "fga",
      "side": "over",
      "line": 8.5,
-     "p": 0.544,
+     "p": 0.545,
      "fair": 1.84,
      "min_dec": 1.89,
      "ref": 8.9,
-     "p_model": 0.645,
+     "p_model": 0.649,
      "label": "Ryan Rollins Over 8.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -168735,7 +168840,7 @@
      "line": 4.5,
      "p": 0.538,
      "fair": 1.86,
-     "min_dec": 1.91,
+     "min_dec": 1.92,
      "ref": 4.8,
      "p_model": 0.626,
      "label": "Ryan Rollins Over 4.5 Dobles intentados",
@@ -168750,84 +168855,6 @@
       ]
      },
      "mean": 6.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "VJ Edgecombe",
-     "team": "PHI",
-     "stat": "fg2a",
-     "side": "under",
-     "line": 7.5,
-     "p": 0.537,
-     "fair": 1.86,
-     "min_dec": 1.92,
-     "ref": 8.2,
-     "p_model": 0.624,
-     "label": "VJ Edgecombe Under 7.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 6.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "VJ Edgecombe",
-     "team": "PHI",
-     "stat": "fg2m",
-     "side": "under",
-     "line": 3.5,
-     "p": 0.535,
-     "fair": 1.87,
-     "min_dec": 1.93,
-     "ref": 4.3,
-     "p_model": 0.617,
-     "label": "VJ Edgecombe Under 3.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ]
-     },
-     "mean": 3.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Anfernee Simons",
-     "team": "PHI",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 7.5,
-     "p": 0.534,
-     "fair": 1.87,
-     "min_dec": 1.93,
-     "ref": 7.7,
-     "p_model": 0.614,
-     "label": "Anfernee Simons Over 7.5 Triples intentados",
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 9.2
     },
     {
      "kind": "prop",
@@ -168858,68 +168885,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Anfernee Simons",
-     "team": "PHI",
-     "stat": "fga",
-     "side": "over",
-     "line": 12.5,
-     "p": 0.532,
-     "fair": 1.88,
-     "min_dec": 1.94,
-     "ref": 12.1,
-     "p_model": 0.606,
-     "label": "Anfernee Simons Over 12.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 14.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "VJ Edgecombe",
-     "team": "PHI",
-     "stat": "fga",
-     "side": "under",
-     "line": 13.5,
-     "p": 0.531,
-     "fair": 1.88,
-     "min_dec": 1.94,
-     "ref": 14.1,
-     "p_model": 0.604,
-     "label": "VJ Edgecombe Under 13.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       9,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 12.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Kyle Kuzma",
      "team": "MIL",
      "stat": "fg2m",
      "side": "over",
      "line": 2.5,
-     "p": 0.53,
-     "fair": 1.89,
+     "p": 0.531,
+     "fair": 1.88,
      "min_dec": 1.94,
      "ref": 2.7,
-     "p_model": 0.6,
+     "p_model": 0.604,
      "label": "Kyle Kuzma Over 2.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -168943,9 +168918,9 @@
      "line": 4.5,
      "p": 0.53,
      "fair": 1.89,
-     "min_dec": 1.95,
+     "min_dec": 1.94,
      "ref": 4.5,
-     "p_model": 0.598,
+     "p_model": 0.6,
      "label": "Kyle Kuzma Over 4.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -168962,16 +168937,42 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Kyle Kuzma",
+     "team": "MIL",
+     "stat": "fga",
+     "side": "over",
+     "line": 8.5,
+     "p": 0.53,
+     "fair": 1.89,
+     "min_dec": 1.95,
+     "ref": 8.6,
+     "p_model": 0.598,
+     "label": "Kyle Kuzma Over 8.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ]
+     },
+     "mean": 9.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Ryan Rollins",
      "team": "MIL",
      "stat": "tov",
      "side": "over",
      "line": 1.5,
-     "p": 0.596,
+     "p": 0.595,
      "fair": 1.68,
      "min_dec": 1.73,
      "ref": 2.0,
-     "p_model": 0.596,
+     "p_model": 0.595,
      "label": "Ryan Rollins Over 1.5 Pérdidas",
      "hr": {
       "l10": [
@@ -168991,110 +168992,6 @@
       }
      },
      "mean": 2.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Kyle Kuzma",
-     "team": "MIL",
-     "stat": "fga",
-     "side": "over",
-     "line": 8.5,
-     "p": 0.529,
-     "fair": 1.89,
-     "min_dec": 1.95,
-     "ref": 8.6,
-     "p_model": 0.595,
-     "label": "Kyle Kuzma Over 8.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 9.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Joel Embiid",
-     "team": "PHI",
-     "stat": "fgm",
-     "side": "over",
-     "line": 8.5,
-     "p": 0.527,
-     "fair": 1.9,
-     "min_dec": 1.95,
-     "ref": 8.4,
-     "p_model": 0.59,
-     "label": "Joel Embiid Over 8.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 10.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Joel Embiid",
-     "team": "PHI",
-     "stat": "fga",
-     "side": "over",
-     "line": 19.5,
-     "p": 0.527,
-     "fair": 1.9,
-     "min_dec": 1.95,
-     "ref": 19.6,
-     "p_model": 0.59,
-     "label": "Joel Embiid Over 19.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 21.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Anfernee Simons",
-     "team": "PHI",
-     "stat": "pf",
-     "side": "over",
-     "line": 2.5,
-     "p": 0.589,
-     "fair": 1.7,
-     "min_dec": 1.75,
-     "ref": 2.7,
-     "p_model": 0.589,
-     "label": "Anfernee Simons Over 2.5 Faltas",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ]
-     },
-     "mean": 3.1
     },
     {
      "kind": "prop",
@@ -169125,65 +169022,13 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "VJ Edgecombe",
-     "team": "PHI",
-     "stat": "fgm",
-     "side": "under",
-     "line": 5.5,
-     "p": 0.526,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 6.4,
-     "p_model": 0.586,
-     "label": "VJ Edgecombe Under 5.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ]
-     },
-     "mean": 5.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Joel Embiid",
-     "team": "PHI",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 7.5,
-     "p": 0.525,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 7.5,
-     "p_model": 0.584,
-     "label": "Joel Embiid Over 7.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 9.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Brayden Burries",
      "team": "MIL",
      "stat": "fg2a",
      "side": "under",
      "line": 3.5,
      "p": 0.525,
-     "fair": 1.91,
+     "fair": 1.9,
      "min_dec": 1.96,
      "ref": 4.0,
      "p_model": 0.583,
@@ -169203,119 +169048,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Joel Embiid",
-     "team": "PHI",
-     "stat": "dd",
-     "side": "over",
-     "line": 0.5,
-     "p": 0.572,
-     "fair": 1.75,
-     "min_dec": 1.8,
-     "ref": null,
-     "p_model": 0.572,
-     "label": "Joel Embiid Doble-doble: Sí",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     }
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Joel Embiid",
-     "team": "PHI",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 15.5,
-     "p": 0.521,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 15.4,
-     "p_model": 0.57,
-     "label": "Joel Embiid Over 15.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ]
-     },
-     "mean": 17.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Anfernee Simons",
-     "team": "PHI",
-     "stat": "fgm",
-     "side": "over",
-     "line": 5.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.98,
-     "ref": 5.4,
-     "p_model": 0.565,
-     "label": "Anfernee Simons Over 5.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ]
-     },
-     "mean": 6.5
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Brayden Burries",
-     "team": "MIL",
-     "stat": "fga",
-     "side": "under",
-     "line": 6.5,
-     "p": 0.52,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 7.4,
-     "p_model": 0.565,
-     "label": "Brayden Burries Under 6.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 6.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Brayden Burries",
      "team": "MIL",
      "stat": "ftm",
      "side": "under",
      "line": 1.5,
-     "p": 0.518,
-     "fair": 1.93,
-     "min_dec": 1.99,
+     "p": 0.52,
+     "fair": 1.92,
+     "min_dec": 1.98,
      "ref": 2.2,
-     "p_model": 0.56,
+     "p_model": 0.565,
      "label": "Brayden Burries Under 1.5 Tiros libres anotados",
      "hr": {
       "l10": [
@@ -169327,7 +169069,85 @@
        1
       ]
      },
-     "mean": 1.8
+     "mean": 1.7
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "LeBron James",
+     "team": "PHI",
+     "stat": "ftm",
+     "side": "under",
+     "line": 3.5,
+     "p": 0.519,
+     "fair": 1.93,
+     "min_dec": 1.98,
+     "ref": 4.0,
+     "p_model": 0.564,
+     "label": "LeBron James Under 3.5 Tiros libres anotados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 3.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Brayden Burries",
+     "team": "MIL",
+     "stat": "fga",
+     "side": "under",
+     "line": 6.5,
+     "p": 0.518,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 7.4,
+     "p_model": 0.561,
+     "label": "Brayden Burries Under 6.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 6.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Anfernee Simons",
+     "team": "PHI",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.518,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 7.7,
+     "p_model": 0.56,
+     "label": "Anfernee Simons Over 7.5 Triples intentados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ]
+     },
+     "mean": 8.5
     },
     {
      "kind": "prop",
@@ -169358,32 +169178,6 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Brayden Burries",
-     "team": "MIL",
-     "stat": "fgm",
-     "side": "under",
-     "line": 2.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 3.1,
-     "p_model": 0.556,
-     "label": "Brayden Burries Under 2.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 2.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Tyler Herro",
      "team": "MIL",
      "stat": "fga",
@@ -169410,7 +169204,33 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "LeBron James",
+     "player": "Brayden Burries",
+     "team": "MIL",
+     "stat": "fgm",
+     "side": "under",
+     "line": 2.5,
+     "p": 0.516,
+     "fair": 1.94,
+     "min_dec": 2.0,
+     "ref": 3.1,
+     "p_model": 0.552,
+     "label": "Brayden Burries Under 2.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 2.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Joel Embiid",
      "team": "PHI",
      "stat": "dd",
      "side": "over",
@@ -169420,6 +169240,31 @@
      "min_dec": 1.95,
      "ref": null,
      "p_model": 0.529,
+     "label": "Joel Embiid Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "LeBron James",
+     "team": "PHI",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.498,
+     "fair": 2.01,
+     "min_dec": 2.07,
+     "ref": null,
+     "p_model": 0.498,
      "label": "LeBron James Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -169440,11 +169285,11 @@
      "stat": "td",
      "side": "over",
      "line": 0.5,
-     "p": 0.117,
-     "fair": 8.57,
-     "min_dec": 8.83,
+     "p": 0.1,
+     "fair": 9.99,
+     "min_dec": 10.28,
      "ref": null,
-     "p_model": 0.117,
+     "p_model": 0.1,
      "label": "LeBron James Triple-doble: Sí",
      "hr": {
       "l10": [
@@ -169529,7 +169374,7 @@
       "Kyle Kuzma": [
        [
         "Tyler Herro",
-        1.9,
+        2.0,
         3.4
        ],
        [
@@ -169539,19 +169384,19 @@
        ],
        [
         "Myles Turner",
-        1.5,
+        1.4,
         3.2
        ]
       ],
       "Tyler Herro": [
        [
         "Ryan Rollins",
-        2.1,
+        2.0,
         3.3
        ],
        [
         "Kyle Kuzma",
-        1.8,
+        1.9,
         3.2
        ],
        [
@@ -169563,17 +169408,17 @@
       "Myles Turner": [
        [
         "Tyler Herro",
-        1.8,
+        1.9,
         2.9
        ],
        [
         "Ryan Rollins",
-        1.6,
+        1.5,
         2.9
        ],
        [
         "Kyle Kuzma",
-        1.5,
+        1.4,
         3.1
        ]
       ],
@@ -169585,30 +169430,30 @@
        ],
        [
         "Kyle Kuzma",
-        1.6,
+        1.5,
         2.7
        ],
        [
-        "Myles Turner",
-        1.4,
-        2.4
+        "Jaime Jaquez Jr.",
+        1.3,
+        2.2
        ]
       ],
       "Jaime Jaquez Jr.": [
        [
         "Tyler Herro",
-        1.6,
-        2.6
-       ],
-       [
-        "Ryan Rollins",
-        1.4,
+        1.7,
         2.6
        ],
        [
         "Kyle Kuzma",
-        1.3,
+        1.4,
         2.7
+       ],
+       [
+        "Ryan Rollins",
+        1.3,
+        2.6
        ]
       ]
      },
@@ -169641,13 +169486,13 @@
       "LeBron James": [
        [
         "Joel Embiid",
-        5.5,
-        2.8
+        4.9,
+        3.9
        ],
        [
         "Anfernee Simons",
-        4.9,
-        5.6
+        4.0,
+        6.1
        ],
        [
         "Tyrese Maxey",
@@ -169658,59 +169503,59 @@
       "Tyrese Maxey": [
        [
         "Joel Embiid",
-        4.6,
-        2.4
+        7.5,
+        4.1
        ],
        [
         "Anfernee Simons",
-        3.1,
-        3.3
+        5.1,
+        5.6
        ],
        [
         "LeBron James",
-        2.5,
-        1.5
+        4.0,
+        2.5
        ]
       ],
       "Joel Embiid": [
        [
-        "Anfernee Simons",
-        6.6,
-        4.8
-       ],
-       [
         "Tyrese Maxey",
-        6.3,
+        6.5,
         2.6
        ],
        [
+        "Anfernee Simons",
+        5.2,
+        5.2
+       ],
+       [
         "LeBron James",
-        5.5,
-        1.7
+        4.2,
+        2.4
        ]
       ],
       "VJ Edgecombe": [
        [
         "Joel Embiid",
-        3.7,
-        2.6
+        3.2,
+        3.7
        ],
        [
         "Anfernee Simons",
-        3.6,
-        5.2
+        3.0,
+        5.5
        ],
        [
-        "Jabari Walker",
-        2.3,
-        3.5
+        "Tyrese Maxey",
+        2.2,
+        2.4
        ]
       ],
       "Anfernee Simons": [
        [
         "Joel Embiid",
-        5.6,
-        2.3
+        4.4,
+        3.2
        ],
        [
         "Tyrese Maxey",
@@ -169719,25 +169564,25 @@
        ],
        [
         "LeBron James",
-        3.1,
-        1.3
+        2.3,
+        2.0
        ]
       ],
       "Kentavious Caldwell-Pope": [
        [
-        "Anfernee Simons",
-        2.7,
-        4.7
-       ],
-       [
         "Joel Embiid",
-        2.4,
-        2.4
+        2.2,
+        3.4
        ],
        [
-        "Jabari Walker",
-        1.8,
-        3.1
+        "Anfernee Simons",
+        2.2,
+        4.9
+       ],
+       [
+        "Tyrese Maxey",
+        1.3,
+        2.2
        ]
       ]
      },
@@ -169783,12 +169628,7 @@
        ]
       ]
      },
-     "doubt": [
-      [
-       "Tyrese Maxey",
-       0.6
-      ]
-     ]
+     "doubt": []
     }
    }
   },
