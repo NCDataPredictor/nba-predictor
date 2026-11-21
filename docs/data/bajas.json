@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:35+00:00",
+ "updated": "2026-11-21T01:38+00:00",
  "list": [
   {
    "date": "2026-11-17",
@@ -330,6 +330,17 @@
    "source": "Aviso de Nicolas 19-nov 19:33 ET",
    "at": "2026-11-20T00:34+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-20",
+   "gid": "2026-11-20-SAC-at-LAL",
+   "player": "Precious Achiuwa",
+   "team": "SAC",
+   "status": "out",
+   "note": "Pierna (parte inferior)",
+   "source": "ESPN injuries 20:40 ET",
+   "at": "2026-11-21T01:38+00:00",
+   "sim": false
   }
  ]
 }
