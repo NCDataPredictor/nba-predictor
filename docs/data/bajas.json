@@ -1,83 +1,6 @@
 {
- "updated": "2026-11-21T01:38+00:00",
+ "updated": "2026-11-21T01:40+00:00",
  "list": [
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-CHA-at-LAL",
-   "player": "Austin Reaves",
-   "team": "LAL",
-   "status": "out",
-   "note": "Talón (contusión)",
-   "source": "Parte oficial 17-nov (captura de Nicolas)",
-   "at": "2026-11-17T18:39+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-CHA-at-LAL",
-   "player": "Walker Kessler",
-   "team": "LAL",
-   "status": "out",
-   "note": "Pierna",
-   "source": "Parte oficial 17-nov (captura de Nicolas)",
-   "at": "2026-11-17T18:39+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-DET-at-SAS",
-   "player": "Isaiah Joe",
-   "team": "DET",
-   "status": "out",
-   "note": "Cadera",
-   "source": "Parte oficial 17-nov (captura de Nicolas)",
-   "at": "2026-11-17T18:39+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-NYK-at-TOR",
-   "player": "Scottie Barnes",
-   "team": "TOR",
-   "status": "duda",
-   "note": "enfermedad; pasó a questionable vs NYK",
-   "source": "ESPN/Heavy 12:37 ET",
-   "at": "2026-11-17T23:49+00:00",
-   "sim": false
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-POR-at-MIN",
-   "player": "Jonathan Kuminga",
-   "team": "MIN",
-   "status": "out",
-   "note": "hombro; OUT vs POR",
-   "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
-   "at": "2026-11-17T23:49+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-POR-at-MIN",
-   "player": "Chris Youngblood",
-   "team": "POR",
-   "status": "out",
-   "note": "talón; OUT en MIN",
-   "source": "ESPN/Yardbarker Final Injury Report 17:17 ET",
-   "at": "2026-11-17T23:49+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-17",
-   "gid": "2026-11-17-POR-at-MIN",
-   "player": "Deni Avdija",
-   "team": "POR",
-   "status": "out",
-   "note": "Pie: pasó de questionable a OUT",
-   "source": "NBC Sports/Rotoworld 19:26 ET",
-   "at": "2026-11-18T00:32+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-18",
    "gid": "2026-11-18-ATL-at-OKC",
@@ -340,7 +263,7 @@
    "note": "Pierna (parte inferior)",
    "source": "ESPN injuries 20:40 ET",
    "at": "2026-11-21T01:38+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }
