@@ -1403,8 +1403,8 @@ const hrDvp = b => {
   const top = d.n || 30, good = isOver(b) ? d.rank > top * 2 / 3 : d.rank <= top / 3, bad = isOver(b) ? d.rank <= top / 3 : d.rank > top * 2 / 3;
   return `<span class="hr${good ? " hi" : bad ? " lo" : ""}">${d.rank}º</span><div class="kind">${d.pos}: ${d.value} (liga ${d.lg})</div>`;
 };
-const HR_TH = `<th class="r">Últ. 10</th><th class="r">H2H</th><th class="r">DvP</th>`;
-const hrCells = b => `<td class="r num" data-label="Últ. 10">${b.hr && b.hr.l10 && b.hr.l10[1] && b.player ? `<button type="button" class="l1-btn" title="Ver sus últimos partidos"${l10Attrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.l10)}</button>` : b.hr ? hrPct(b.hr.l10) : "—"}${spkTag(b, "spk-mini")}</td><td class="r num" data-label="H2H">${b.hr && b.hr.h2h && b.hr.h2h[1] && b.player ? `<button type="button" class="h2h-btn" title="Ver sus partidos contra el rival"${h2hAttrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.h2h)}</button>` : b.hr ? hrPct(b.hr.h2h) : "—"}</td><td class="r num" data-label="DvP">${hrDvp(b)}</td>`;
+const HR_TH = `<th class="r" title="Cuántas veces se habría cumplido en sus últimos 10 partidos">Últ. 10</th><th class="r" title="Cuántas veces se habría cumplido contra este rival (esta temporada y la pasada)">Vs rival</th><th class="r" title="Puesto del rival (1–30) en lo que concede a la posición del jugador: 30.º = el que más concede">Rival vs posición</th>`;
+const hrCells = b => `<td class="r num" data-label="Últ. 10">${b.hr && b.hr.l10 && b.hr.l10[1] && b.player ? `<button type="button" class="l1-btn" title="Ver sus últimos partidos"${l10Attrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.l10)}</button>` : b.hr ? hrPct(b.hr.l10) : "—"}${spkTag(b, "spk-mini")}</td><td class="r num" data-label="Vs rival">${b.hr && b.hr.h2h && b.hr.h2h[1] && b.player ? `<button type="button" class="h2h-btn" title="Ver sus partidos contra el rival"${h2hAttrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.h2h)}</button>` : b.hr ? hrPct(b.hr.h2h) : "—"}</td><td class="r num" data-label="Rival vs posición">${hrDvp(b)}</td>`;
 function betRows(bets, thr, withGame) {
   const withHr = hasHr(bets);
   const withRes = bets.some(b => b.result);
@@ -1553,6 +1553,34 @@ const CATS = { all: "Todas", top: "Top 20 general", value: "Con valor", team: "E
 const CAT_OF = { pra: "combo", pr: "combo", pa: "combo", ra: "combo", stl: "def", blk: "def", stocks: "def", fgm: "shots", fga: "shots",
   fg2m: "shots", fg2a: "shots", fg3a: "shots", ftm: "shots", fta: "shots", tov: "other", pf: "other", dd: "dd", td: "dd" };
 const YN = { dd: 1, td: 1 };  // props de sí / no: la "media" es la probabilidad de lograrlo
+// Íconos de cada estadística y tipo de apuesta (SVG en línea, heredan currentColor). Solo presentación.
+const ICO_P = {
+  pts: '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5v17M6 6c2.4 1.8 3.6 3.8 3.6 6S8.4 16.2 6 18M18 6c-2.4 1.8-3.6 3.8-3.6 6s1.2 4.2 3.6 6"/>',
+  reb: '<circle cx="12" cy="7" r="3.5"/><path d="M12 13v8M8 17l4 4 4-4M4 4h3M17 4h3"/>',
+  ast: '<circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="7" r="2.2"/><path d="M7 15.5c3-1 6-3.6 9.2-7.3M12.5 8h4v4"/>',
+  fg3m: '<path d="M3 20a9 9 0 0 1 18 0"/><circle cx="12" cy="7" r="3"/><path d="M12 13.5v.01"/>',
+  stl: '<path d="M4 13l3.5-3.5a2 2 0 0 1 2.8 0L12 11l4-4"/><path d="M13 7h3v3"/><circle cx="17.5" cy="16.5" r="3"/>',
+  blk: '<path d="M8 11V5.5a1.5 1.5 0 0 1 3 0V11V4a1.5 1.5 0 0 1 3 0v7V5.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-.5A5.5 5.5 0 0 1 5 17l-1.6-3.2a1.4 1.4 0 0 1 2.4-1.4L8 15"/>',
+  tov: '<path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4.5h4.5"/><path d="M10 10l4 4M14 10l-4 4"/>',
+  pf: '<path d="M3 10h10l2-3h5v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z"/><circle cx="9" cy="13" r="1.6"/>',
+  min: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/>',
+  combo: '<path d="M12 3l9 4.5-9 4.5-9-4.5z"/><path d="M3 12l9 4.5 9-4.5M3 16.5l9 4.5 9-4.5"/>',
+  shot: '<path d="M4 6h16M6 6l1.5 12h9L18 6M9 6l1 12M15 6l-1 12M6.7 12h10.6"/>',
+  dd: '<path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/>',
+  ml: '<path d="M6 3h12v2h3v3a4 4 0 0 1-4 4h-.5A5 5 0 0 1 13 15v3h3v3H8v-3h3v-3a5 5 0 0 1-3.5-3H7a4 4 0 0 1-4-4V5h3z"/>',
+  spread: '<path d="M12 4v16M5 20h14M4 8h16M7 8l-3 6h6zM17 8l-3 6h6z"/>',
+  total: '<path d="M18 4H6l6 8-6 8h12"/>',
+  tt: '<path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/>'
+};
+const ICO_OF = { pr: "combo", pa: "combo", ra: "combo", pra: "combo", stocks: "blk", fgm: "shot", fga: "shot", fg2m: "shot", fg2a: "shot", fg3a: "fg3m",
+  ftm: "shot", fta: "shot", td: "dd", prop: "pts" };
+// devuelve el ícono de una estadística (pts, reb…) o de un tipo de apuesta (ml, spread, total, tt); "" si no hay
+const sico = (k, cls = "") => { const p = ICO_P[k] || ICO_P[ICO_OF[k]]; return p ? `<svg class="sico${cls ? " " + cls : ""}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${p}</svg>` : ""; };
+// ícono de una pata o apuesta: usa stat si viene; si no, lo deduce del texto ("… Over 6.5 Rebotes")
+const STAT_BY_TXT = Object.entries(STAT_LABEL).sort((a, b) => b[1].length - a[1].length);
+const legIco = l => { if (!l) return ""; if (l.kind && l.kind !== "prop") return sico(l.kind); if (l.stat) return sico(l.stat);
+  const t = String(l.label || "").toLowerCase(), hit = STAT_BY_TXT.find(([, v]) => t.endsWith(" " + v.toLowerCase()) || t.includes(" " + v.toLowerCase() + " "));
+  return sico(hit ? hit[0] : "prop"); };
 const catOf = b => b.kind !== "prop" ? "team" : CAT_OF[b.stat] || b.stat || "pts";
 let SEG = "all";
 // categoría sin líneas publicadas: el modelo sí la proyecta, se compara con la casa en la calculadora de cada partido
@@ -1760,7 +1788,7 @@ function renderIndex(scope = "reg") {
   <section class="section">
     <span class="eyebrow">${cup ? "NBA Cup · " : ""}Jornada ${esc(DAY)}</span>
     <h2>Picks recomendados por el sistema ${qh("ev", "picks con valor y EV")}</h2>
-    <p class="lede">${picks.length ? `${picks.length} pick${picks.length === 1 ? "" : "s"} con valor en ${todays.length} partidos: son los que el modelo recomienda.` : `Hoy ningún pick de los ${todays.length} partidos llega al valor mínimo.`} Para ser verde un pick necesita EV ≥ +${(thr * 100).toFixed(0)}% con la probabilidad del modelo (${Math.round((INDEX.mkt_w ?? .25) * 100)}%) mezclada con la de la casa sin su margen (${100 - Math.round((INDEX.mkt_w ?? .25) * 100)}%); solo player props (no Unders de rookies ni de quien no jugó la temporada pasada), como mucho ${INDEX.max_daily || 15} por jornada y 2 por jugador. <b>Últ. 10</b>, <b>H2H</b> y <b>DvP</b> dicen cuántas veces se habría cumplido esa línea en sus últimos partidos y contra este rival, y en qué puesto está el rival en lo que concede a su posición. Toca un pick para ver el análisis del partido. Marca <b>Lo tomo</b> en los que juegues y sigue tus unidades en <a href="#mis-picks">Mis picks</a>${(() => { const n = MINE.filter(l => l.date === DAY).length, a = MINE.filter(l => l.date === DAY && mineAlert(l)).length; return n ? ` (hoy llevas ${n}${a ? `; <b style="color:var(--bad)">${a} perdi${a === 1 ? "ó" : "eron"} valor</b>` : ""})` : ""; })()}.</p>
+    <p class="lede">${picks.length ? `${picks.length} pick${picks.length === 1 ? "" : "s"} con valor en ${todays.length} partidos: son los que el modelo recomienda.` : `Hoy ningún pick de los ${todays.length} partidos llega al valor mínimo.`} Para ser verde un pick necesita EV ≥ +${(thr * 100).toFixed(0)}% con la probabilidad del modelo (${Math.round((INDEX.mkt_w ?? .25) * 100)}%) mezclada con la de la casa sin su margen (${100 - Math.round((INDEX.mkt_w ?? .25) * 100)}%); solo player props (no Unders de rookies ni de quien no jugó la temporada pasada), como mucho ${INDEX.max_daily || 15} por jornada y 2 por jugador. <b>Últ. 10</b>, <b>Vs rival</b> (H2H) y <b>Rival vs posición</b> (DvP) dicen cuántas veces se habría cumplido esa línea en sus últimos partidos y contra este rival, y en qué puesto está el rival en lo que concede a su posición. Toca un pick para ver el análisis del partido. Marca <b>Lo tomo</b> en los que juegues y sigue tus unidades en <a href="#mis-picks">Mis picks</a>${(() => { const n = MINE.filter(l => l.date === DAY).length, a = MINE.filter(l => l.date === DAY && mineAlert(l)).length; return n ? ` (hoy llevas ${n}${a ? `; <b style="color:var(--bad)">${a} perdi${a === 1 ? "ó" : "eron"} valor</b>` : ""})` : ""; })()}.</p>
     ${legend(thr)}
     ${picks.length ? betSortBar("bs-idx", true) : ""}
     ${picks.length ? `<div class="filters" role="group" aria-label="Cómo ver los picks" id="grp-idx"><span class="lbl">Ver</span>${Object.entries(GROUPS).map(([k, t]) =>
@@ -4109,15 +4137,15 @@ function pickCard(b, thr, big) {
   const rest = b.player && b.label.startsWith(b.player) ? b.label.slice(b.player.length).trim() : b.label;
   const m = rest.match(/^(Over|Under)\s+([\d.]+)\s+(.*)$/);
   return `<article class="pcd${b.ev >= thr ? " is-val" : ""}${big ? " big" : ""}">
-    <header class="pcd-h">${b.player ? face(b.player, true) : ""}<div class="pcd-who"><div class="pcd-n">${b.player ? pn(b.player, gid, b.stat, true) : esc(b.label)}${ftag(b.flag)}${b.p < LONG_P ? ` <span class="pill flat long" title="Sale menos del ${pct(LONG_P, 0)} de las veces: tiene valor por la cuota alta, pero lo normal es perderlo. Mejor como apuesta pequeña.">Cuota alta · poco probable</span>` : ""}</div>
+    <header class="pcd-h">${b.player ? `<span class="pcd-av"${b.team ? ` style="--tc:${tc(b.team)}"` : ""}>${face(b.player, true)}${b.team ? logo(b.team, "sm pcd-tl") : ""}</span>` : (b.kind ? `<span class="pcd-kico" aria-hidden="true">${legIco(b)}</span>` : "")}<div class="pcd-who"><div class="pcd-n">${b.player ? pn(b.player, gid, b.stat, true) : esc(b.label)}${ftag(b.flag)}${b.p < LONG_P ? ` <span class="pill flat long" title="Sale menos del ${pct(LONG_P, 0)} de las veces: tiene valor por la cuota alta, pero lo normal es perderlo. Mejor como apuesta pequeña.">Cuota alta · poco probable</span>` : ""}</div>
       <a class="pcd-g" href="#${esc(gid)}">${esc(game)}${g && g.tip_et && !g.result ? ` · ${esc(g.tip_et)} ET` : ""}</a></div>${evPill(b.ev, thr)}</header>
-    <div class="pcd-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span><b class="pcd-ln num">${m[2]}</b><span class="pcd-st">${esc(m[3])}</span>` : `<span class="pcd-st">${esc(rest)}</span>`}
+    <div class="pcd-pick">${m ? `<span class="pcd-side ${m[1] === "Over" ? "o" : "u"}">${m[1] === "Over" ? "Más de" : "Menos de"}</span><b class="pcd-ln num">${m[2]}</b><span class="pcd-st">${legIco(b)}${esc(m[3])}</span>` : `<span class="pcd-st">${legIco(b)}${esc(rest)}</span>`}
       <span class="pcd-odd"><small>Cuota</small><b class="num">${dc}</b>${mvTxt(b)}</span></div>
     ${bajaWarn(b, gid)}
     ${b.err ? `<div class="pcd-pb"><b>Error de cuota</b>: ${esc(b.err.why)}. Con esta regla acertaron ${pct(b.err.hit, 0)} cuando la casa pedía ${pct(b.err.casa, 0)} (${b.err.n} líneas, 1-19 nov).</div>` : ""}
     ${b.if_out ? `<div class="pcd-pb">Si no juega <b>${esc(b.if_out)}</b>: prob. ${pct(b.base_p, 0)} → <b>${pct(b.p, 0)}</b>${b.mean0 != null && b.mean != null ? `, proyección ${b.mean0} → <b>${b.mean}</b>` : ""}${g && (g.value_bets || []).some(v => v.label === b.label) ? " (ya es pick del día)" : ""}</div>` : ""}
     ${spkTag(b, "pcd-viz")}
-    <div class="pcd-stats"><div><small>Prob. modelo</small><b>${pct(b.p, 0)}</b></div><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div><small>DvP rival</small>${hrDvp(b)}</div>` : ""}</div>
+    <div class="pcd-stats"><div><small>Prob. modelo</small><b>${pct(b.p, 0)}</b></div><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div title="Puesto del rival (1–30) en lo que concede a la posición del jugador en esta estadística: 30.º = el que más concede"><small>Rival vs su posición</small>${hrDvp(b)}</div>` : ""}</div>
     <footer class="pcd-f">${takeBtn(k)}${addBtn(k)}${b.result ? resPill(b.result) : ""}<a class="pcd-go" href="#${esc(gid)}">Ver partido →</a></footer>
   </article>`;
 }
