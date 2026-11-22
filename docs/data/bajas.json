@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:32+00:00",
+ "updated": "2026-11-22T22:35+00:00",
  "list": [
   {
    "date": "2026-11-19",
@@ -197,7 +197,7 @@
    "note": "descartado vs UTA",
    "source": "Rotowire lineups 17:35 ET",
    "at": "2026-11-22T22:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-22",
@@ -208,7 +208,7 @@
    "note": "fuera vs DEN",
    "source": "Rotowire lineups 17:35 ET",
    "at": "2026-11-22T22:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-22",
@@ -241,7 +241,7 @@
    "note": "ingle; descartado vs OKC",
    "source": "NBC Sports/KRMG 17:15 ET",
    "at": "2026-11-22T22:32+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-22",

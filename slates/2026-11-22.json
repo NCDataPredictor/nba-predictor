@@ -1181,6 +1181,11 @@
      "o": -3.0,
      "d": 1.0,
      "why": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera); Aday Mara OUT (aviso de Nicolas 17:30 ET)"
+    },
+    "MIA": {
+     "o": -2.0,
+     "d": 0.75,
+     "why": "Antetokounmpo (28.2 ppg, 12.6 reb) OUT 22-nov por ingle (NBC Sports/KRMG ~17:15 ET)"
     }
    },
    "out": [
@@ -1192,10 +1197,10 @@
     "Chet Holmgren",
     "Jalen Williams",
     "Shai Gilgeous-Alexander",
-    "Aday Mara"
+    "Aday Mara",
+    "Giannis Antetokounmpo"
    ],
    "gtd": {
-    "Giannis Antetokounmpo": 0.6,
     "Myron Gardner": 0.85
    },
    "notes": [
@@ -1262,6 +1267,11 @@
      "o": -1.0,
      "d": 0.5,
      "why": "Markkanen (18 ppg) y Jaren Jackson Jr. OUT"
+    },
+    "DAL": {
+     "o": -0.5,
+     "d": 0.25,
+     "why": "P.J. Washington (14 ppg, titular) OUT 22-nov (Rotowire 17:35 ET)"
     }
    },
    "out": [
@@ -1271,10 +1281,10 @@
     "Lauri Markkanen",
     "Jaren Jackson Jr.",
     "Jusuf Nurkic",
-    "Tobi Lawal"
+    "Tobi Lawal",
+    "P.J. Washington"
    ],
    "gtd": {
-    "P.J. Washington": 0.5,
     "Walter Clayton Jr.": 0.6
    },
    "notes": [
@@ -1309,7 +1319,8 @@
     "Julian Strawther",
     "Norman Powell",
     "Caleb Wilson",
-    "Tobe Awaka"
+    "Tobe Awaka",
+    "Nic Claxton"
    ],
    "gtd": {
     "Jalen Smith": 0.9,

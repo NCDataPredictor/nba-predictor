@@ -1437,7 +1437,69 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "8b45e0e36a0f1052",
+   "at": "2026-11-22T22:35+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-OKC-at-MIA",
+   "title": "OKC @ MIA (6:00 pm ET): novedades de bajas",
+   "body": "Bajas: Antetokounmpo OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 17:31 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-OKC-at-MIA",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Giannis Antetokounmpo"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "822f0a4348c94ed0",
+   "at": "2026-11-22T22:35+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-DAL-at-UTA",
+   "title": "DAL @ UTA (7:00 pm ET): novedades de bajas",
+   "body": "Bajas: Washington OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 17:31 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-DAL-at-UTA",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "P.J. Washington"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "1d1e84c08234268e",
+   "at": "2026-11-22T22:35+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-DEN-at-CHI",
+   "title": "DEN @ CHI (7:00 pm ET): cambian los picks",
+   "body": "Bajas: Claxton OUT. Pick nuevo: Josh Giddey Over 6.5 Rebotes.",
+   "label": "Revisión 17:31 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-DEN-at-CHI",
+   "added": [
+    "Josh Giddey Over 6.5 Rebotes"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Nic Claxton"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-22T22:31+00:00"
+ "updated": "2026-11-22T22:35+00:00"
 }
