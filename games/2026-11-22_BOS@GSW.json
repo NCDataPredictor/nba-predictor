@@ -1104,14 +1104,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 247,
-  "ml_away": -304,
+  "ml_home": 261,
+  "ml_away": -324,
   "spread_home": 7.5,
-  "total": 209.5,
-  "spread_odds_home": -108,
-  "spread_odds_away": -112,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 210.5,
+  "spread_odds_home": -106,
+  "spread_odds_away": -114,
+  "over_odds": -108,
+  "under_odds": -112
  },
  "prop_lines": {
   "Neemias Queta": {
@@ -1255,8 +1255,8 @@
   "Payton Pritchard": {
    "ast": [
     4.5,
-    111,
-    -125
+    126,
+    -145
    ],
    "fg3m": [
     2.5,
