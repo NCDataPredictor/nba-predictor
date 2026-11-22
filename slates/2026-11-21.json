@@ -18,9 +18,10 @@
  "prop_lines": {
   "Deni Avdija": {
    "pts": [
-    22.5,
-    -111,
-    -105
+    21.5,
+    -115,
+    -110,
+    22.5
    ],
    "reb": [
     5.5,
@@ -198,9 +199,10 @@
     10.5
    ],
    "reb": [
-    7.5,
-    105,
-    -130
+    8.5,
+    -120,
+    -125,
+    9.5
    ],
    "ast": [
     1.5,
@@ -296,9 +298,10 @@
     29.5
    ],
    "reb": [
-    11.5,
-    103,
-    -122
+    10.5,
+    -141,
+    -120,
+    11.5
    ],
    "ast": [
     3.5,
@@ -588,11 +591,11 @@
    "ast": [
     5.5,
     104,
-    -122
+    -125
    ],
    "fg3m": [
     1.5,
-    120,
+    125,
     -130
    ]
   },
@@ -835,7 +838,7 @@
   "Max Strus": {
    "pts": [
     11.5,
-    -110,
+    -105,
     105
    ],
    "reb": [
@@ -1188,11 +1191,11 @@
     "Vít Krejčí",
     "Ja Morant",
     "Jordan Clarkson",
-    "OG Anunoby"
+    "OG Anunoby",
+    "Karl-Anthony Towns"
    ],
    "gtd": {
-    "Deni Avdija": 0.5,
-    "Karl-Anthony Towns": 0.6
+    "Deni Avdija": 0.5
    },
    "notes": [
     "POR: Youngblood, Krejčí y Morant OUT; Avdija (pie) cuestionable; R. Williams III vuelve",
@@ -1259,10 +1262,10 @@
    "adj": {},
    "out": [
     "Tobi Lawal",
-    "Sergio de Larrea"
+    "Sergio de Larrea",
+    "P.J. Washington"
    ],
    "gtd": {
-    "P.J. Washington": 0.25,
     "Walter Clayton Jr.": 0.6
    },
    "notes": [

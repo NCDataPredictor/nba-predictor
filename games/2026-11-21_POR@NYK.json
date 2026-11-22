@@ -16,11 +16,11 @@
    "Vít Krejčí",
    "Ja Morant",
    "Jordan Clarkson",
-   "OG Anunoby"
+   "OG Anunoby",
+   "Karl-Anthony Towns"
   ],
   "gtd": {
-   "Deni Avdija": 0.5,
-   "Karl-Anthony Towns": 0.6
+   "Deni Avdija": 0.5
   },
   "reserves": {
    "POR": [
@@ -126,7 +126,7 @@
    "name": "Jalen Brunson",
    "pos": "PG",
    "starter": true,
-   "min": 36.9,
+   "min": 38.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -165,52 +165,10 @@
   },
   {
    "team": "NYK",
-   "name": "Karl-Anthony Towns",
-   "pos": "C",
-   "starter": true,
-   "min": 35.2,
-   "g_cur": 15,
-   "p_play": 0.6,
-   "cur": {
-    "min": 32.8,
-    "pts": 21.3,
-    "reb": 13.9,
-    "ast": 3.9,
-    "fg3m": 2.0,
-    "fgm": 7.8,
-    "fga": 14.5,
-    "fg3a": 5.2,
-    "stl": 0.9,
-    "blk": 0.6,
-    "tov": 3.1,
-    "pf": 3.0,
-    "ftm": 3.7,
-    "fta": 4.7
-   },
-   "prior": {
-    "min": 30.9,
-    "pts": 20.05,
-    "reb": 11.85,
-    "ast": 3.01,
-    "fg3m": 1.51,
-    "fgm": 6.89,
-    "fga": 13.76,
-    "fg3a": 4.09,
-    "stl": 0.87,
-    "blk": 0.53,
-    "tov": 2.49,
-    "pf": 3.4,
-    "ftm": 4.76,
-    "fta": 5.55
-   },
-   "slot": "C"
-  },
-  {
-   "team": "NYK",
    "name": "Josh Hart",
    "pos": "SF",
    "starter": true,
-   "min": 32.0,
+   "min": 37.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -245,14 +203,14 @@
     "ftm": 1.36,
     "fta": 1.89
    },
-   "slot": "SF"
+   "slot": "C"
   },
   {
    "team": "NYK",
    "name": "Mikal Bridges",
    "pos": "SF",
    "starter": true,
-   "min": 27.9,
+   "min": 32.7,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -294,7 +252,7 @@
    "name": "Landry Shamet",
    "pos": "SG",
    "starter": true,
-   "min": 27.9,
+   "min": 32.7,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -335,8 +293,8 @@
    "team": "NYK",
    "name": "Miles McBride",
    "pos": "SG",
-   "starter": false,
-   "min": 18.7,
+   "starter": true,
+   "min": 21.9,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -370,14 +328,15 @@
     "pf": 1.71,
     "ftm": 0.9,
     "fta": 1.15
-   }
+   },
+   "slot": "SF"
   },
   {
    "team": "NYK",
    "name": "Tyler Kolek",
    "pos": "PG",
    "starter": false,
-   "min": 14.5,
+   "min": 17.0,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -418,7 +377,7 @@
    "name": "Andre Drummond",
    "pos": "C",
    "starter": false,
-   "min": 14.0,
+   "min": 16.5,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -459,7 +418,7 @@
    "name": "Mohamed Diawara",
    "pos": "SF",
    "starter": false,
-   "min": 12.9,
+   "min": 15.1,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -500,7 +459,7 @@
    "name": "Dalton Knecht",
    "pos": "SF",
    "starter": false,
-   "min": 10.4,
+   "min": 12.2,
    "g_cur": 3,
    "p_play": 1.0,
    "cur": {
@@ -541,7 +500,7 @@
    "name": "Jose Alvarado",
    "pos": "PG",
    "starter": false,
-   "min": 9.8,
+   "min": 11.4,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1048,9 +1007,10 @@
  "prop_lines": {
   "Deni Avdija": {
    "pts": [
-    22.5,
-    -111,
-    -105
+    21.5,
+    -115,
+    -110,
+    22.5
    ],
    "reb": [
     5.5,
@@ -1084,29 +1044,6 @@
     2.5,
     -130,
     110
-   ]
-  },
-  "Karl-Anthony Towns": {
-   "pts": [
-    20.5,
-    -114,
-    -125,
-    21.5
-   ],
-   "reb": [
-    12.5,
-    -130,
-    106
-   ],
-   "ast": [
-    3.5,
-    100,
-    -115
-   ],
-   "fg3m": [
-    1.5,
-    -125,
-    120
    ]
   },
   "Damian Lillard": {
