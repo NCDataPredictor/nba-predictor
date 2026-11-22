@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "source": "Covers matchup/<id>/odds 388766-388772 (22-nov ~11:30 ET; DET@ATL, OKC@MIA y DEN@CHI sin spread/total en Covers: solo ML del comparador covers.com/sport/basketball/nba/odds 11:01 ET; DAL@UTA sin datos en Covers) + consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) en los 7 + consenso scoresandodds.com/nba 17:10 ET en los 6 pendientes",
+ "source": "Covers matchup/<id>/odds 388766-388772 (22-nov ~11:30 ET; DET@ATL, OKC@MIA y DEN@CHI sin spread/total en Covers: solo ML del comparador covers.com/sport/basketball/nba/odds 11:01 ET; DAL@UTA sin datos en Covers) + consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) en los 7 + consenso scoresandodds.com/nba 17:10 ET en los 6 pendientes + consenso scoresandodds.com/nba 18:35 ET en los 5 pendientes",
  "games": {
   "DET@ATL": {
    "books": [
@@ -236,6 +236,24 @@
       -108,
       -112
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:35 ET)",
+     "ml_away": -419,
+     "ml_home": 328,
+     "spread_away": [
+      -10.5,
+      -104
+     ],
+     "spread_home": [
+      10.5,
+      -117
+     ],
+     "total": [
+      236.5,
+      -109,
+      -111
+     ]
     }
    ]
   },
@@ -275,6 +293,24 @@
       225.5,
       -113,
       -107
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:35 ET)",
+     "ml_away": -135,
+     "ml_home": 114,
+     "spread_away": [
+      -2.5,
+      -106
+     ],
+     "spread_home": [
+      2.5,
+      -114
+     ],
+     "total": [
+      225.5,
+      -107,
+      -113
      ]
     }
    ]
@@ -478,6 +514,24 @@
       -108,
       -112
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:35 ET)",
+     "ml_away": -196,
+     "ml_home": 164,
+     "spread_away": [
+      -4.5,
+      -112
+     ],
+     "spread_home": [
+      4.5,
+      -108
+     ],
+     "total": [
+      219.5,
+      -115,
+      -105
+     ]
     }
    ]
   },
@@ -680,6 +734,24 @@
       -106,
       -114
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:35 ET)",
+     "ml_away": 240,
+     "ml_home": -296,
+     "spread_away": [
+      7.5,
+      -110
+     ],
+     "spread_home": [
+      -7.5,
+      -110
+     ],
+     "total": [
+      212.5,
+      -116,
+      -105
+     ]
     }
    ]
   },
@@ -881,6 +953,24 @@
       209.5,
       -110,
       -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:35 ET)",
+     "ml_away": -324,
+     "ml_home": 261,
+     "spread_away": [
+      -7.5,
+      -114
+     ],
+     "spread_home": [
+      7.5,
+      -106
+     ],
+     "total": [
+      210.5,
+      -108,
+      -112
      ]
     }
    ]

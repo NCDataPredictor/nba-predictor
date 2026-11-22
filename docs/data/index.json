@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:35+00:00",
+ "generated": "2026-11-22T23:33+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
@@ -74,7 +74,7 @@
   },
   "2026-11-22": {
    "morning": "2026-11-22T16:28+00:00",
-   "pregame": "2026-11-22T22:35+00:00"
+   "pregame": "2026-11-22T23:33+00:00"
   }
  },
  "history": [
@@ -181662,7 +181662,7 @@
    },
    "proj_total": 225.6,
    "used_db": true,
-   "n_value": 1,
+   "n_value": 0,
    "top_bets": [
     {
      "kind": "prop",
@@ -181708,51 +181708,6 @@
      "open": [
       1.5,
       2.268
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Daniel Gafford Under 6.5 Rebotes",
-     "player": "Daniel Gafford",
-     "team": "DAL",
-     "line": 6.5,
-     "odds": -121,
-     "dec": 1.824,
-     "odds_assumed": false,
-     "p": 0.569,
-     "implied": 0.548,
-     "fair": -132,
-     "edge": 0.021,
-     "ev": 0.037,
-     "value": true,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.752,
-     "p_mkt": 0.508,
-     "cand": true,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 4.8,
-     "open": [
-      6.5,
-      1.824
      ]
     },
     {
@@ -181804,31 +181759,29 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 17 partidos esta temporada"
      }
-    }
-   ],
-   "value_bets": [
+    },
     {
      "kind": "prop",
      "label": "Daniel Gafford Under 6.5 Rebotes",
      "player": "Daniel Gafford",
      "team": "DAL",
      "line": 6.5,
-     "odds": -121,
-     "dec": 1.824,
+     "odds": -138,
+     "dec": 1.727,
      "odds_assumed": false,
-     "p": 0.569,
-     "implied": 0.548,
-     "fair": -132,
-     "edge": 0.021,
-     "ev": 0.037,
-     "value": true,
+     "p": 0.59,
+     "implied": 0.579,
+     "fair": -144,
+     "edge": 0.011,
+     "ev": 0.019,
+     "value": false,
      "stat": "reb",
      "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
+     "odds_ref": -120,
+     "dec_ref": 1.833,
      "p_model": 0.752,
-     "p_mkt": 0.508,
-     "cand": true,
+     "p_mkt": 0.536,
+     "cand": false,
      "hr": {
       "l10": [
        8,
@@ -181853,6 +181806,7 @@
      ]
     }
    ],
+   "value_bets": [],
    "parlays": [],
    "model_picks": [
     {
@@ -182593,50 +182547,6 @@
     },
     {
      "kind": "prop",
-     "label": "Daniel Gafford Under 6.5 Rebotes",
-     "player": "Daniel Gafford",
-     "team": "DAL",
-     "line": 6.5,
-     "odds": -121,
-     "dec": 1.824,
-     "odds_assumed": false,
-     "p": 0.569,
-     "implied": 0.548,
-     "edge": 0.021,
-     "ev": 0.037,
-     "value": true,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
-     "p_model": 0.752,
-     "p_mkt": 0.508,
-     "cand": true,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 4.8,
-     "open": [
-      6.5,
-      1.824
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Darryn Peterson Under 4.5 Rebotes",
      "player": "Darryn Peterson",
      "team": "UTA",
@@ -182683,6 +182593,50 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 17 partidos esta temporada"
      }
+    },
+    {
+     "kind": "prop",
+     "label": "Daniel Gafford Under 6.5 Rebotes",
+     "player": "Daniel Gafford",
+     "team": "DAL",
+     "line": 6.5,
+     "odds": -138,
+     "dec": 1.727,
+     "odds_assumed": false,
+     "p": 0.59,
+     "implied": 0.579,
+     "edge": 0.011,
+     "ev": 0.019,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.752,
+     "p_mkt": 0.536,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 15,
+       "value": 14.7,
+       "lg": 14.5,
+       "n": 30
+      }
+     },
+     "mean": 4.8,
+     "open": [
+      6.5,
+      1.824
+     ]
     },
     {
      "kind": "prop",
@@ -182909,37 +182863,6 @@
      }
     },
     {
-     "kind": "ml",
-     "label": "DAL gana",
-     "player": null,
-     "team": "DAL",
-     "line": null,
-     "odds": -130,
-     "dec": 1.771,
-     "odds_assumed": false,
-     "p": 0.544,
-     "implied": 0.565,
-     "edge": -0.021,
-     "ev": -0.037,
-     "value": false,
-     "n_books": 2,
-     "best": {
-      "book": "scoresandodds (consenso 11:40 ET)",
-      "line": null,
-      "odds": -125,
-      "dec": 1.8,
-      "p": 0.544,
-      "ev": -0.021
-     },
-     "p_model": 0.549,
-     "p_mkt": 0.542,
-     "cand": false,
-     "open": [
-      null,
-      1.8
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Kyrie Irving Under 3.5 Triples",
      "player": "Kyrie Irving",
@@ -182986,6 +182909,37 @@
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 13 partidos esta temporada"
      }
+    },
+    {
+     "kind": "ml",
+     "label": "DAL gana",
+     "player": null,
+     "team": "DAL",
+     "line": null,
+     "odds": -131,
+     "dec": 1.761,
+     "odds_assumed": false,
+     "p": 0.546,
+     "implied": 0.568,
+     "edge": -0.022,
+     "ev": -0.038,
+     "value": false,
+     "n_books": 3,
+     "best": {
+      "book": "scoresandodds (consenso 11:40 ET)",
+      "line": null,
+      "odds": -125,
+      "dec": 1.8,
+      "p": 0.546,
+      "ev": -0.017
+     },
+     "p_model": 0.549,
+     "p_mkt": 0.545,
+     "cand": false,
+     "open": [
+      null,
+      1.8
+     ]
     },
     {
      "kind": "prop",
@@ -183036,65 +182990,96 @@
      }
     },
     {
-     "kind": "total",
-     "label": "Under 225.5",
-     "player": null,
-     "team": null,
-     "line": 225.5,
-     "odds": -108,
-     "dec": 1.922,
-     "odds_assumed": false,
-     "p": 0.498,
-     "implied": 0.52,
-     "edge": -0.022,
-     "ev": -0.043,
-     "value": false,
-     "n_books": 2,
-     "best": {
-      "book": "scoresandodds (consenso 17:10 ET)",
-      "line": 225.5,
-      "odds": -107,
-      "dec": 1.935,
-      "p": 0.498,
-      "ev": -0.036
-     },
-     "p_model": 0.502,
-     "p_mkt": 0.497,
-     "cand": false,
-     "open": [
-      225.5,
-      1.909
-     ]
-    },
-    {
      "kind": "ml",
      "label": "UTA gana",
      "player": null,
      "team": "UTA",
      "line": null,
-     "odds": 109,
-     "dec": 2.095,
+     "odds": 111,
+     "dec": 2.11,
      "odds_assumed": false,
-     "p": 0.456,
-     "implied": 0.477,
-     "edge": -0.021,
-     "ev": -0.044,
+     "p": 0.454,
+     "implied": 0.474,
+     "edge": -0.02,
+     "ev": -0.042,
      "value": false,
-     "n_books": 2,
+     "n_books": 3,
      "best": {
       "book": "scoresandodds (consenso 17:10 ET)",
       "line": null,
       "odds": 114,
       "dec": 2.14,
-      "p": 0.456,
-      "ev": -0.024
+      "p": 0.454,
+      "ev": -0.028
      },
      "p_model": 0.451,
-     "p_mkt": 0.458,
+     "p_mkt": 0.455,
      "cand": false,
      "open": [
       null,
       2.05
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "UTA +2.5",
+     "player": null,
+     "team": "UTA",
+     "line": 2.5,
+     "odds": -114,
+     "dec": 1.877,
+     "odds_assumed": false,
+     "p": 0.51,
+     "implied": 0.533,
+     "edge": -0.023,
+     "ev": -0.043,
+     "value": false,
+     "n_books": 2,
+     "best": {
+      "book": "scoresandodds (consenso 17:10 ET)",
+      "line": 2.5,
+      "odds": -114,
+      "dec": 1.877,
+      "p": 0.51,
+      "ev": -0.043
+     },
+     "p_model": 0.513,
+     "p_mkt": 0.509,
+     "cand": false,
+     "open": [
+      1.5,
+      1.952
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 225.5",
+     "player": null,
+     "team": null,
+     "line": 225.5,
+     "odds": -110,
+     "dec": 1.91,
+     "odds_assumed": false,
+     "p": 0.5,
+     "implied": 0.524,
+     "edge": -0.023,
+     "ev": -0.044,
+     "value": false,
+     "n_books": 3,
+     "best": {
+      "book": "scoresandodds (consenso 17:10 ET)",
+      "line": 225.5,
+      "odds": -107,
+      "dec": 1.935,
+      "p": 0.5,
+      "ev": -0.032
+     },
+     "p_model": 0.502,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      225.5,
+      1.909
      ]
     },
     {
@@ -183139,6 +183124,37 @@
      "open": [
       2.5,
       1.727
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 225.5",
+     "player": null,
+     "team": null,
+     "line": 225.5,
+     "odds": -110,
+     "dec": 1.91,
+     "odds_assumed": false,
+     "p": 0.499,
+     "implied": 0.524,
+     "edge": -0.024,
+     "ev": -0.046,
+     "value": false,
+     "n_books": 3,
+     "best": {
+      "book": "scoresandodds (consenso 18:35 ET)",
+      "line": 225.5,
+      "odds": -107,
+      "dec": 1.935,
+      "p": 0.499,
+      "ev": -0.034
+     },
+     "p_model": 0.498,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      225.5,
+      1.909
      ]
     },
     {
@@ -183190,34 +183206,34 @@
      }
     },
     {
-     "kind": "total",
-     "label": "Over 225.5",
+     "kind": "spread",
+     "label": "DAL -2.5",
      "player": null,
-     "team": null,
-     "line": 225.5,
-     "odds": -111,
-     "dec": 1.897,
+     "team": "DAL",
+     "line": -2.5,
+     "odds": -106,
+     "dec": 1.943,
      "odds_assumed": false,
-     "p": 0.502,
-     "implied": 0.527,
-     "edge": -0.025,
-     "ev": -0.048,
+     "p": 0.49,
+     "implied": 0.515,
+     "edge": -0.024,
+     "ev": -0.047,
      "value": false,
      "n_books": 2,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
-      "line": 225.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.502,
-      "ev": -0.042
+      "line": -1.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.52,
+      "ev": -0.028
      },
-     "p_model": 0.498,
-     "p_mkt": 0.503,
+     "p_model": 0.487,
+     "p_mkt": 0.491,
      "cand": false,
      "open": [
-      225.5,
-      1.909
+      -1.5,
+      1.87
      ]
     },
     {
@@ -183311,68 +183327,6 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 17 partidos esta temporada"
      }
-    },
-    {
-     "kind": "spread",
-     "label": "DAL -2.5",
-     "player": null,
-     "team": "DAL",
-     "line": -2.5,
-     "odds": -106,
-     "dec": 1.943,
-     "odds_assumed": false,
-     "p": 0.487,
-     "implied": 0.515,
-     "edge": -0.028,
-     "ev": -0.054,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 11:40 ET)",
-      "line": -1.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.517,
-      "ev": -0.033
-     },
-     "p_model": 0.487,
-     "p_mkt": null,
-     "cand": false,
-     "open": [
-      -1.5,
-      1.87
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "UTA +1.5",
-     "player": null,
-     "team": "UTA",
-     "line": 1.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.483,
-     "implied": 0.512,
-     "edge": -0.029,
-     "ev": -0.057,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:10 ET)",
-      "line": 2.5,
-      "odds": -114,
-      "dec": 1.877,
-      "p": 0.513,
-      "ev": -0.037
-     },
-     "p_model": 0.483,
-     "p_mkt": null,
-     "cand": false,
-     "open": [
-      1.5,
-      1.952
-     ]
     },
     {
      "kind": "prop",
@@ -184368,6 +184322,50 @@
     },
     {
      "kind": "prop",
+     "label": "Daniel Gafford Over 6.5 Rebotes",
+     "player": "Daniel Gafford",
+     "team": "DAL",
+     "line": 6.5,
+     "odds": -100,
+     "dec": 1.997,
+     "odds_assumed": false,
+     "p": 0.41,
+     "implied": 0.501,
+     "edge": -0.091,
+     "ev": -0.182,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 112,
+     "dec_ref": 2.12,
+     "p_model": 0.248,
+     "p_mkt": 0.464,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       1,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 15,
+       "value": 14.7,
+       "lg": 14.5,
+       "n": 30
+      }
+     },
+     "mean": 4.8,
+     "open": [
+      6.5,
+      1.881
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Ace Bailey Over 1.5 Triples",
      "player": "Ace Bailey",
      "team": "UTA",
@@ -184408,50 +184406,6 @@
      "open": [
       1.5,
       1.565
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Daniel Gafford Over 6.5 Rebotes",
-     "player": "Daniel Gafford",
-     "team": "DAL",
-     "line": 6.5,
-     "odds": -114,
-     "dec": 1.881,
-     "odds_assumed": false,
-     "p": 0.431,
-     "implied": 0.532,
-     "edge": -0.1,
-     "ev": -0.189,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.248,
-     "p_mkt": 0.492,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 15,
-       "value": 14.7,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 4.8,
-     "open": [
-      6.5,
-      1.881
      ]
     }
    ],
@@ -185087,21 +185041,21 @@
      "player": "Josh Giddey",
      "team": "CHI",
      "line": 6.5,
-     "odds": -103,
-     "dec": 1.973,
+     "odds": 104,
+     "dec": 2.043,
      "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.507,
-     "fair": -114,
-     "edge": 0.025,
-     "ev": 0.05,
+     "p": 0.52,
+     "implied": 0.49,
+     "fair": -108,
+     "edge": 0.031,
+     "ev": 0.062,
      "value": true,
      "stat": "reb",
      "side": "over",
-     "odds_ref": 114,
-     "dec_ref": 2.14,
+     "odds_ref": 110,
+     "dec_ref": 2.1,
      "p_model": 0.72,
-     "p_mkt": 0.469,
+     "p_mkt": 0.453,
      "cand": true,
      "hr": {
       "l10": [
@@ -185134,21 +185088,21 @@
      "player": "Josh Giddey",
      "team": "CHI",
      "line": 6.5,
-     "odds": -103,
-     "dec": 1.973,
+     "odds": 104,
+     "dec": 2.043,
      "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.507,
-     "fair": -114,
-     "edge": 0.025,
-     "ev": 0.05,
+     "p": 0.52,
+     "implied": 0.49,
+     "fair": -108,
+     "edge": 0.031,
+     "ev": 0.062,
      "value": true,
      "stat": "reb",
      "side": "over",
-     "odds_ref": 114,
-     "dec_ref": 2.14,
+     "odds_ref": 110,
+     "dec_ref": 2.1,
      "p_model": 0.72,
-     "p_mkt": 0.469,
+     "p_mkt": 0.453,
      "cand": true,
      "hr": {
       "l10": [
@@ -186105,20 +186059,20 @@
      "player": "Josh Giddey",
      "team": "CHI",
      "line": 6.5,
-     "odds": -103,
-     "dec": 1.973,
+     "odds": 104,
+     "dec": 2.043,
      "odds_assumed": false,
-     "p": 0.532,
-     "implied": 0.507,
-     "edge": 0.025,
-     "ev": 0.05,
+     "p": 0.52,
+     "implied": 0.49,
+     "edge": 0.031,
+     "ev": 0.062,
      "value": true,
      "stat": "reb",
      "side": "over",
-     "odds_ref": 114,
-     "dec_ref": 2.14,
+     "odds_ref": 110,
+     "dec_ref": 2.1,
      "p_model": 0.72,
-     "p_mkt": 0.469,
+     "p_mkt": 0.453,
      "cand": true,
      "hr": {
       "l10": [
@@ -186469,14 +186423,14 @@
      "team": "CHI",
      "line": null,
      "odds": 332,
-     "dec": 4.321,
+     "dec": 4.317,
      "odds_assumed": false,
      "p": 0.227,
-     "implied": 0.231,
+     "implied": 0.232,
      "edge": -0.005,
      "ev": -0.02,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "FanDuel",
       "line": null,
@@ -186491,6 +186445,37 @@
      "open": [
       null,
       4.313
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 236.5",
+     "player": null,
+     "team": null,
+     "line": 236.5,
+     "odds": -111,
+     "dec": 1.901,
+     "odds_assumed": false,
+     "p": 0.514,
+     "implied": 0.526,
+     "edge": -0.012,
+     "ev": -0.024,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 11:40 ET)",
+      "line": 237.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.534,
+      "ev": 0.019
+     },
+     "p_model": 0.548,
+     "p_mkt": 0.502,
+     "cand": false,
+     "open": [
+      237.5,
+      1.909
      ]
     },
     {
@@ -186535,68 +186520,6 @@
      "open": [
       2.5,
       2.114
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 235.5",
-     "player": null,
-     "team": null,
-     "line": 235.5,
-     "odds": -112,
-     "dec": 1.893,
-     "odds_assumed": false,
-     "p": 0.51,
-     "implied": 0.528,
-     "edge": -0.018,
-     "ev": -0.034,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 11:40 ET)",
-      "line": 237.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.55,
-      "ev": 0.05
-     },
-     "p_model": 0.528,
-     "p_mkt": 0.504,
-     "cand": false,
-     "open": [
-      237.5,
-      1.909
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "DEN -8.5",
-     "player": null,
-     "team": "DEN",
-     "line": -8.5,
-     "odds": -115,
-     "dec": 1.87,
-     "odds_assumed": false,
-     "p": 0.516,
-     "implied": 0.535,
-     "edge": -0.018,
-     "ev": -0.035,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 11:40 ET)",
-      "line": -8.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.516,
-      "ev": -0.035
-     },
-     "p_model": 0.533,
-     "p_mkt": 0.511,
-     "cand": false,
-     "open": [
-      -8.5,
-      1.87
      ]
     },
     {
@@ -186688,20 +186611,51 @@
      ]
     },
     {
+     "kind": "spread",
+     "label": "CHI +9.5",
+     "player": null,
+     "team": "CHI",
+     "line": 9.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.491,
+     "implied": 0.512,
+     "edge": -0.021,
+     "ev": -0.042,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:35 ET)",
+      "line": 10.5,
+      "odds": -117,
+      "dec": 1.855,
+      "p": 0.519,
+      "ev": -0.037
+     },
+     "p_model": 0.496,
+     "p_mkt": 0.489,
+     "cand": false,
+     "open": [
+      8.5,
+      1.952
+     ]
+    },
+    {
      "kind": "ml",
      "label": "DEN gana",
      "player": null,
      "team": "DEN",
      "line": null,
-     "odds": -429,
-     "dec": 1.233,
+     "odds": -428,
+     "dec": 1.234,
      "odds_assumed": false,
      "p": 0.773,
-     "implied": 0.811,
-     "edge": -0.038,
-     "ev": -0.047,
+     "implied": 0.81,
+     "edge": -0.037,
+     "ev": -0.046,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": null,
@@ -186716,6 +186670,37 @@
      "open": [
       null,
       1.234
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "DEN -9.5",
+     "player": null,
+     "team": "DEN",
+     "line": -9.5,
+     "odds": -115,
+     "dec": 1.87,
+     "odds_assumed": false,
+     "p": 0.509,
+     "implied": 0.535,
+     "edge": -0.026,
+     "ev": -0.048,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 11:40 ET)",
+      "line": -8.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.538,
+      "ev": 0.006
+     },
+     "p_model": 0.504,
+     "p_mkt": 0.511,
+     "cand": false,
+     "open": [
+      -8.5,
+      1.87
      ]
     },
     {
@@ -186811,37 +186796,6 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "CHI +8.5",
-     "player": null,
-     "team": "CHI",
-     "line": 8.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.484,
-     "implied": 0.512,
-     "edge": -0.029,
-     "ev": -0.056,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:10 ET)",
-      "line": 9.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.513,
-      "ev": 0.001
-     },
-     "p_model": 0.467,
-     "p_mkt": 0.489,
-     "cand": false,
-     "open": [
-      8.5,
-      1.952
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Christian Braun Under 4.5 Rebotes",
      "player": "Christian Braun",
@@ -186886,37 +186840,6 @@
      ]
     },
     {
-     "kind": "total",
-     "label": "Over 235.5",
-     "player": null,
-     "team": null,
-     "line": 235.5,
-     "odds": -108,
-     "dec": 1.926,
-     "odds_assumed": false,
-     "p": 0.49,
-     "implied": 0.519,
-     "edge": -0.029,
-     "ev": -0.057,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:10 ET)",
-      "line": 235.5,
-      "odds": -108,
-      "dec": 1.926,
-      "p": 0.49,
-      "ev": -0.056
-     },
-     "p_model": 0.472,
-     "p_mkt": 0.496,
-     "cand": false,
-     "open": [
-      237.5,
-      1.909
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Cameron Johnson Under 3.5 Rebotes",
      "player": "Cameron Johnson",
@@ -186958,6 +186881,37 @@
      "open": [
       3.5,
       1.926
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 236.5",
+     "player": null,
+     "team": null,
+     "line": 236.5,
+     "odds": -109,
+     "dec": 1.917,
+     "odds_assumed": false,
+     "p": 0.486,
+     "implied": 0.522,
+     "edge": -0.035,
+     "ev": -0.068,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 17:10 ET)",
+      "line": 235.5,
+      "odds": -108,
+      "dec": 1.926,
+      "p": 0.506,
+      "ev": -0.025
+     },
+     "p_model": 0.452,
+     "p_mkt": 0.498,
+     "cand": false,
+     "open": [
+      237.5,
+      1.909
      ]
     },
     {
@@ -187718,20 +187672,20 @@
      "player": "Josh Giddey",
      "team": "CHI",
      "line": 6.5,
-     "odds": -134,
-     "dec": 1.745,
+     "odds": -144,
+     "dec": 1.694,
      "odds_assumed": false,
-     "p": 0.468,
-     "implied": 0.573,
-     "edge": -0.105,
-     "ev": -0.183,
+     "p": 0.48,
+     "implied": 0.59,
+     "edge": -0.11,
+     "ev": -0.187,
      "value": false,
      "stat": "reb",
      "side": "under",
-     "odds_ref": -112,
-     "dec_ref": 1.893,
+     "odds_ref": -135,
+     "dec_ref": 1.741,
      "p_model": 0.28,
-     "p_mkt": 0.531,
+     "p_mkt": 0.547,
      "cand": false,
      "hr": {
       "l10": [
@@ -188533,10 +188487,10 @@
          "stat": "reb",
          "side": "over",
          "line": 6.5,
-         "dec": 1.973,
-         "p": 0.585,
-         "base_p": 0.532,
-         "ev": 0.155,
+         "dec": 2.043,
+         "p": 0.573,
+         "base_p": 0.52,
+         "ev": 0.171,
          "if_out": "Matas Buzelis",
          "mean": 10.6,
          "mean0": 9.5
@@ -188587,10 +188541,10 @@
          "stat": "reb",
          "side": "over",
          "line": 6.5,
-         "dec": 1.973,
-         "p": 0.582,
-         "base_p": 0.532,
-         "ev": 0.147,
+         "dec": 2.043,
+         "p": 0.57,
+         "base_p": 0.52,
+         "ev": 0.163,
          "if_out": "Isaac Okoro",
          "mean": 10.6,
          "mean0": 9.5
@@ -188657,10 +188611,10 @@
          "stat": "reb",
          "side": "over",
          "line": 6.5,
-         "dec": 1.973,
-         "p": 0.576,
-         "base_p": 0.532,
-         "ev": 0.135,
+         "dec": 2.043,
+         "p": 0.564,
+         "base_p": 0.52,
+         "ev": 0.151,
          "if_out": "Jalen Smith",
          "mean": 10.4,
          "mean0": 9.5
@@ -188786,7 +188740,7 @@
    },
    "proj_total": 225.4,
    "used_db": true,
-   "n_value": 2,
+   "n_value": 1,
    "top_bets": [
     {
      "kind": "prop",
@@ -188934,21 +188888,21 @@
      "player": "Desmond Bane",
      "team": "ORL",
      "line": 4.5,
-     "odds": -124,
-     "dec": 1.806,
+     "odds": -130,
+     "dec": 1.769,
      "odds_assumed": false,
-     "p": 0.597,
-     "implied": 0.554,
-     "fair": -148,
-     "edge": 0.043,
-     "ev": 0.078,
+     "p": 0.605,
+     "implied": 0.565,
+     "fair": -153,
+     "edge": 0.04,
+     "ev": 0.07,
      "value": true,
      "stat": "reb",
      "side": "under",
-     "odds_ref": -111,
-     "dec_ref": 1.901,
+     "odds_ref": -122,
+     "dec_ref": 1.82,
      "p_model": 0.85,
-     "p_mkt": 0.513,
+     "p_mkt": 0.523,
      "cand": true,
      "hr": {
       "l10": [
@@ -188972,51 +188926,6 @@
       4.5,
       1.806
      ]
-    },
-    {
-     "kind": "prop",
-     "label": "Anthony Black Under 1.5 Triples",
-     "player": "Anthony Black",
-     "team": "ORL",
-     "line": 1.5,
-     "odds": -120,
-     "dec": 1.834,
-     "odds_assumed": false,
-     "p": 0.564,
-     "implied": 0.545,
-     "fair": -129,
-     "edge": 0.019,
-     "ev": 0.034,
-     "value": true,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
-     "p_model": 0.741,
-     "p_mkt": 0.505,
-     "cand": true,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 7,
-       "value": 3.2,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      1.5,
-      1.834
-     ]
     }
    ],
    "parlays": [
@@ -189030,9 +188939,9 @@
        "line": 4.5,
        "stat": "reb",
        "side": "under",
-       "p": 0.597,
-       "dec": 1.806,
-       "ev": 0.078,
+       "p": 0.605,
+       "dec": 1.769,
+       "ev": 0.07,
        "gid": "2026-11-22-ORL-at-WAS",
        "game": "ORL @ WAS"
       },
@@ -189044,20 +188953,20 @@
        "line": 1.5,
        "stat": "fg3m",
        "side": "under",
-       "p": 0.564,
-       "dec": 1.834,
-       "ev": 0.034,
+       "p": 0.57,
+       "dec": 1.806,
+       "ev": 0.029,
        "gid": "2026-11-22-ORL-at-WAS",
        "game": "ORL @ WAS"
       }
      ],
      "n": 2,
-     "p": 0.336,
-     "p_indep": 0.337,
+     "p": 0.344,
+     "p_indep": 0.345,
      "corr": 1.0,
-     "dec": 3.31,
-     "fair": 2.98,
-     "ev": 0.112,
+     "dec": 3.19,
+     "fair": 2.91,
+     "ev": 0.099,
      "type": "sgp"
     }
    ],
@@ -189433,26 +189342,26 @@
      "player": "Anthony Black",
      "team": "ORL",
      "line": 1.5,
-     "odds": -115,
-     "dec": 1.87,
+     "odds": -111,
+     "dec": 1.9,
      "odds_assumed": false,
-     "p": 0.436,
-     "implied": 0.535,
-     "edge": -0.099,
-     "ev": -0.184,
+     "p": 0.43,
+     "implied": 0.526,
+     "edge": -0.096,
+     "ev": -0.183,
      "value": false,
      "stat": "fg3m",
      "side": "over",
-     "odds_ref": -101,
-     "dec_ref": 1.99,
+     "odds_ref": 100,
+     "dec_ref": 2.0,
      "p_model": 0.259,
-     "p_mkt": 0.495,
+     "p_mkt": 0.487,
      "cand": false,
      "err": {
       "r": "A",
-      "why": "promedia 2.1 triples (33 min) y la línea es 1.5; la casa paga 1.87 (50% sin margen)",
-      "p": 0.579,
-      "ev": 0.083,
+      "why": "promedia 2.1 triples (33 min) y la línea es 1.5; la casa paga 1.90 (49% sin margen)",
+      "p": 0.571,
+      "ev": 0.085,
       "hit": 0.63,
       "casa": 0.546,
       "n": 449
@@ -189755,50 +189664,6 @@
     },
     {
      "kind": "prop",
-     "label": "Desmond Bane Under 4.5 Rebotes",
-     "player": "Desmond Bane",
-     "team": "ORL",
-     "line": 4.5,
-     "odds": -124,
-     "dec": 1.806,
-     "odds_assumed": false,
-     "p": 0.597,
-     "implied": 0.554,
-     "edge": 0.043,
-     "ev": 0.078,
-     "value": true,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -111,
-     "dec_ref": 1.901,
-     "p_model": 0.85,
-     "p_mkt": 0.513,
-     "cand": true,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 22,
-       "value": 8.3,
-       "lg": 8.0,
-       "n": 30
-      }
-     },
-     "mean": 2.6,
-     "open": [
-      4.5,
-      1.806
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Jalen Suggs Under 12.5 Puntos",
      "player": "Jalen Suggs",
      "team": "ORL",
@@ -189844,25 +189709,69 @@
     },
     {
      "kind": "prop",
+     "label": "Desmond Bane Under 4.5 Rebotes",
+     "player": "Desmond Bane",
+     "team": "ORL",
+     "line": 4.5,
+     "odds": -130,
+     "dec": 1.769,
+     "odds_assumed": false,
+     "p": 0.605,
+     "implied": 0.565,
+     "edge": 0.04,
+     "ev": 0.07,
+     "value": true,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -122,
+     "dec_ref": 1.82,
+     "p_model": 0.85,
+     "p_mkt": 0.523,
+     "cand": true,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       5,
+       5
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 22,
+       "value": 8.3,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 2.6,
+     "open": [
+      4.5,
+      1.806
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Anthony Black Under 1.5 Triples",
      "player": "Anthony Black",
      "team": "ORL",
      "line": 1.5,
-     "odds": -120,
-     "dec": 1.834,
+     "odds": -124,
+     "dec": 1.806,
      "odds_assumed": false,
-     "p": 0.564,
-     "implied": 0.545,
-     "edge": 0.019,
-     "ev": 0.034,
-     "value": true,
+     "p": 0.57,
+     "implied": 0.554,
+     "edge": 0.016,
+     "ev": 0.029,
+     "value": false,
      "stat": "fg3m",
      "side": "under",
-     "odds_ref": -105,
-     "dec_ref": 1.952,
+     "odds_ref": -111,
+     "dec_ref": 1.901,
      "p_model": 0.741,
-     "p_mkt": 0.505,
-     "cand": true,
+     "p_mkt": 0.513,
+     "cand": false,
      "hr": {
       "l10": [
        3,
@@ -190024,25 +189933,25 @@
      "player": null,
      "team": null,
      "line": 219.5,
-     "odds": -110,
-     "dec": 1.906,
+     "odds": -111,
+     "dec": 1.9,
      "odds_assumed": false,
-     "p": 0.529,
-     "implied": 0.525,
+     "p": 0.53,
+     "implied": 0.526,
      "edge": 0.004,
-     "ev": 0.008,
+     "ev": 0.007,
      "value": false,
-     "n_books": 6,
+     "n_books": 7,
      "best": {
       "book": "FanDuel",
       "line": 219.5,
       "odds": -106,
       "dec": 1.943,
-      "p": 0.529,
-      "ev": 0.028
+      "p": 0.53,
+      "ev": 0.03
      },
      "p_model": 0.614,
-     "p_mkt": 0.501,
+     "p_mkt": 0.502,
      "cand": false,
      "open": [
       219.5,
@@ -190367,15 +190276,15 @@
      "player": null,
      "team": "WAS",
      "line": null,
-     "odds": 170,
-     "dec": 2.696,
+     "odds": 169,
+     "dec": 2.692,
      "odds_assumed": false,
      "p": 0.358,
-     "implied": 0.371,
+     "implied": 0.372,
      "edge": -0.013,
      "ev": -0.035,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": null,
@@ -190486,25 +190395,25 @@
      "player": null,
      "team": "ORL",
      "line": -4.5,
-     "odds": -115,
-     "dec": 1.872,
+     "odds": -114,
+     "dec": 1.874,
      "odds_assumed": false,
      "p": 0.511,
      "implied": 0.534,
      "edge": -0.023,
-     "ev": -0.043,
+     "ev": -0.042,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "bet365",
+      "book": "scoresandodds (consenso 18:35 ET)",
       "line": -4.5,
-      "odds": -114,
-      "dec": 1.877,
+      "odds": -112,
+      "dec": 1.893,
       "p": 0.511,
-      "ev": -0.041
+      "ev": -0.033
      },
      "p_model": 0.516,
-     "p_mkt": 0.51,
+     "p_mkt": 0.509,
      "cand": false,
      "open": [
       -4.5,
@@ -190518,21 +190427,21 @@
      "team": "ORL",
      "line": null,
      "odds": -204,
-     "dec": 1.489,
+     "dec": 1.491,
      "odds_assumed": false,
      "p": 0.642,
-     "implied": 0.672,
+     "implied": 0.671,
      "edge": -0.029,
-     "ev": -0.044,
+     "ev": -0.043,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
-      "book": "scoresandodds (consenso 17:10 ET)",
+      "book": "scoresandodds (consenso 18:35 ET)",
       "line": null,
-      "odds": -197,
-      "dec": 1.508,
+      "odds": -196,
+      "dec": 1.51,
       "p": 0.642,
-      "ev": -0.032
+      "ev": -0.031
      },
      "p_model": 0.636,
      "p_mkt": 0.644,
@@ -190684,15 +190593,15 @@
      "player": null,
      "team": "WAS",
      "line": 4.5,
-     "odds": -105,
-     "dec": 1.948,
+     "odds": -106,
+     "dec": 1.946,
      "odds_assumed": false,
      "p": 0.489,
-     "implied": 0.513,
+     "implied": 0.514,
      "edge": -0.025,
-     "ev": -0.048,
+     "ev": -0.049,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": 5.5,
@@ -190702,7 +190611,7 @@
       "ev": -0.009
      },
      "p_model": 0.484,
-     "p_mkt": 0.49,
+     "p_mkt": 0.491,
      "cand": false,
      "open": [
       4.5,
@@ -191383,25 +191292,25 @@
      "player": null,
      "team": null,
      "line": 219.5,
-     "odds": -110,
-     "dec": 1.911,
+     "odds": -109,
+     "dec": 1.917,
      "odds_assumed": false,
-     "p": 0.471,
-     "implied": 0.523,
+     "p": 0.47,
+     "implied": 0.522,
      "edge": -0.052,
-     "ev": -0.1,
+     "ev": -0.099,
      "value": false,
-     "n_books": 6,
+     "n_books": 7,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": 220.5,
       "odds": -107,
       "dec": 1.935,
-      "p": 0.49,
-      "ev": -0.052
+      "p": 0.489,
+      "ev": -0.054
      },
      "p_model": 0.386,
-     "p_mkt": 0.499,
+     "p_mkt": 0.498,
      "cand": false,
      "open": [
       219.5,
@@ -192126,26 +192035,26 @@
      "player": "Anthony Black",
      "team": "ORL",
      "line": 1.5,
-     "odds": -115,
-     "dec": 1.87,
+     "odds": -111,
+     "dec": 1.9,
      "odds_assumed": false,
-     "p": 0.436,
-     "implied": 0.535,
-     "edge": -0.099,
-     "ev": -0.184,
+     "p": 0.43,
+     "implied": 0.526,
+     "edge": -0.096,
+     "ev": -0.183,
      "value": false,
      "stat": "fg3m",
      "side": "over",
-     "odds_ref": -101,
-     "dec_ref": 1.99,
+     "odds_ref": 100,
+     "dec_ref": 2.0,
      "p_model": 0.259,
-     "p_mkt": 0.495,
+     "p_mkt": 0.487,
      "cand": false,
      "err": {
       "r": "A",
-      "why": "promedia 2.1 triples (33 min) y la línea es 1.5; la casa paga 1.87 (50% sin margen)",
-      "p": 0.579,
-      "ev": 0.083,
+      "why": "promedia 2.1 triples (33 min) y la línea es 1.5; la casa paga 1.90 (49% sin margen)",
+      "p": 0.571,
+      "ev": 0.085,
       "hit": 0.63,
       "casa": 0.546,
       "n": 449
@@ -192224,20 +192133,20 @@
      "player": "Desmond Bane",
      "team": "ORL",
      "line": 4.5,
-     "odds": -111,
-     "dec": 1.9,
+     "odds": -106,
+     "dec": 1.943,
      "odds_assumed": false,
-     "p": 0.403,
-     "implied": 0.526,
-     "edge": -0.123,
-     "ev": -0.234,
+     "p": 0.395,
+     "implied": 0.515,
+     "edge": -0.12,
+     "ev": -0.233,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": 100,
      "dec_ref": 2.0,
      "p_model": 0.15,
-     "p_mkt": 0.487,
+     "p_mkt": 0.477,
      "cand": false,
      "hr": {
       "l10": [
@@ -194566,25 +194475,25 @@
      "player": null,
      "team": "NYK",
      "line": null,
-     "odds": -345,
-     "dec": 1.29,
+     "odds": -340,
+     "dec": 1.294,
      "odds_assumed": false,
-     "p": 0.751,
-     "implied": 0.775,
-     "edge": -0.024,
-     "ev": -0.031,
+     "p": 0.749,
+     "implied": 0.773,
+     "edge": -0.023,
+     "ev": -0.03,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 17:10 ET)",
       "line": null,
       "odds": -296,
       "dec": 1.338,
-      "p": 0.751,
-      "ev": 0.005
+      "p": 0.749,
+      "ev": 0.002
      },
      "p_model": 0.773,
-     "p_mkt": 0.743,
+     "p_mkt": 0.741,
      "cand": false,
      "open": [
       null,
@@ -195135,25 +195044,25 @@
      "player": null,
      "team": "IND",
      "line": null,
-     "odds": 274,
-     "dec": 3.738,
+     "odds": 271,
+     "dec": 3.71,
      "odds_assumed": false,
-     "p": 0.249,
-     "implied": 0.268,
-     "edge": -0.018,
-     "ev": -0.069,
+     "p": 0.251,
+     "implied": 0.27,
+     "edge": -0.019,
+     "ev": -0.07,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": null,
       "odds": 301,
       "dec": 4.01,
-      "p": 0.249,
-      "ev": -0.002
+      "p": 0.251,
+      "ev": 0.007
      },
      "p_model": 0.227,
-     "p_mkt": 0.257,
+     "p_mkt": 0.259,
      "cand": false,
      "open": [
       null,
@@ -197078,21 +196987,21 @@
      "player": "Payton Pritchard",
      "team": "BOS",
      "line": 4.5,
-     "odds": 101,
-     "dec": 2.011,
+     "odds": 116,
+     "dec": 2.164,
      "odds_assumed": false,
-     "p": 0.526,
-     "implied": 0.497,
-     "fair": -111,
-     "edge": 0.029,
-     "ev": 0.058,
+     "p": 0.502,
+     "implied": 0.462,
+     "fair": -101,
+     "edge": 0.04,
+     "ev": 0.086,
      "value": true,
      "stat": "ast",
      "side": "over",
-     "odds_ref": 111,
-     "dec_ref": 2.11,
+     "odds_ref": 126,
+     "dec_ref": 2.26,
      "p_model": 0.724,
-     "p_mkt": 0.46,
+     "p_mkt": 0.428,
      "cand": true,
      "hr": {
       "l10": [
@@ -197759,30 +197668,74 @@
      "player": null,
      "team": "GSW",
      "line": null,
-     "odds": 278,
-     "dec": 3.782,
+     "odds": 277,
+     "dec": 3.767,
      "odds_assumed": false,
-     "p": 0.289,
-     "implied": 0.264,
+     "p": 0.29,
+     "implied": 0.265,
      "edge": 0.024,
-     "ev": 0.093,
+     "ev": 0.091,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": null,
       "odds": 312,
       "dec": 4.12,
-      "p": 0.289,
-      "ev": 0.191
+      "p": 0.29,
+      "ev": 0.195
      },
      "p_model": 0.396,
-     "p_mkt": 0.253,
+     "p_mkt": 0.254,
      "cand": false,
      "no_value_why": "picks de equipo en pausa",
      "open": [
       null,
       3.813
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Payton Pritchard Over 4.5 Asistencias",
+     "player": "Payton Pritchard",
+     "team": "BOS",
+     "line": 4.5,
+     "odds": 116,
+     "dec": 2.164,
+     "odds_assumed": false,
+     "p": 0.502,
+     "implied": 0.462,
+     "edge": 0.04,
+     "ev": 0.086,
+     "value": true,
+     "stat": "ast",
+     "side": "over",
+     "odds_ref": 126,
+     "dec_ref": 2.26,
+     "p_model": 0.724,
+     "p_mkt": 0.428,
+     "cand": true,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 18,
+       "value": 8.2,
+       "lg": 7.9,
+       "n": 30
+      }
+     },
+     "mean": 6.9,
+     "open": [
+      4.5,
+      2.011
      ]
     },
     {
@@ -197873,50 +197826,6 @@
      "open": [
       10.5,
       1.88
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Payton Pritchard Over 4.5 Asistencias",
-     "player": "Payton Pritchard",
-     "team": "BOS",
-     "line": 4.5,
-     "odds": 101,
-     "dec": 2.011,
-     "odds_assumed": false,
-     "p": 0.526,
-     "implied": 0.497,
-     "edge": 0.029,
-     "ev": 0.058,
-     "value": true,
-     "stat": "ast",
-     "side": "over",
-     "odds_ref": 111,
-     "dec_ref": 2.11,
-     "p_model": 0.724,
-     "p_mkt": 0.46,
-     "cand": true,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 18,
-       "value": 8.2,
-       "lg": 7.9,
-       "n": 30
-      }
-     },
-     "mean": 6.9,
-     "open": [
-      4.5,
-      2.011
      ]
     },
     {
@@ -198015,25 +197924,25 @@
      "player": null,
      "team": null,
      "line": 210.5,
-     "odds": -112,
-     "dec": 1.896,
+     "odds": -111,
+     "dec": 1.901,
      "odds_assumed": false,
-     "p": 0.543,
-     "implied": 0.527,
+     "p": 0.542,
+     "implied": 0.526,
      "edge": 0.016,
-     "ev": 0.03,
+     "ev": 0.031,
      "value": false,
-     "n_books": 5,
+     "n_books": 6,
      "best": {
       "book": "scoresandodds (consenso 17:10 ET)",
       "line": 209.5,
       "odds": -110,
       "dec": 1.909,
-      "p": 0.561,
-      "ev": 0.071
+      "p": 0.56,
+      "ev": 0.069
      },
      "p_model": 0.664,
-     "p_mkt": 0.503,
+     "p_mkt": 0.502,
      "cand": false,
      "no_value_why": "picks de equipo en pausa",
      "open": [
@@ -199194,25 +199103,25 @@
      "player": null,
      "team": "BOS",
      "line": null,
-     "odds": -354,
-     "dec": 1.282,
+     "odds": -352,
+     "dec": 1.284,
      "odds_assumed": false,
-     "p": 0.711,
-     "implied": 0.78,
-     "edge": -0.069,
+     "p": 0.71,
+     "implied": 0.779,
+     "edge": -0.068,
      "ev": -0.088,
      "value": false,
-     "n_books": 11,
+     "n_books": 12,
      "best": {
       "book": "scoresandodds (consenso 17:10 ET)",
       "line": null,
       "odds": -304,
       "dec": 1.329,
-      "p": 0.711,
-      "ev": -0.055
+      "p": 0.71,
+      "ev": -0.056
      },
      "p_model": 0.604,
-     "p_mkt": 0.747,
+     "p_mkt": 0.746,
      "cand": false,
      "open": [
       null,
@@ -199481,24 +199390,24 @@
      "team": null,
      "line": 210.5,
      "odds": -109,
-     "dec": 1.919,
+     "dec": 1.915,
      "odds_assumed": false,
-     "p": 0.457,
-     "implied": 0.521,
-     "edge": -0.064,
+     "p": 0.458,
+     "implied": 0.522,
+     "edge": -0.065,
      "ev": -0.124,
      "value": false,
-     "n_books": 5,
+     "n_books": 6,
      "best": {
       "book": "scoresandodds (consenso 11:40 ET)",
       "line": 210.5,
       "odds": -107,
       "dec": 1.935,
-      "p": 0.457,
-      "ev": -0.116
+      "p": 0.458,
+      "ev": -0.114
      },
      "p_model": 0.336,
-     "p_mkt": 0.497,
+     "p_mkt": 0.498,
      "cand": false,
      "open": [
       210.5,
@@ -200013,20 +199922,20 @@
      "player": "Payton Pritchard",
      "team": "BOS",
      "line": 4.5,
-     "odds": -140,
-     "dec": 1.716,
+     "odds": -162,
+     "dec": 1.618,
      "odds_assumed": false,
-     "p": 0.474,
-     "implied": 0.583,
-     "edge": -0.109,
-     "ev": -0.187,
+     "p": 0.498,
+     "implied": 0.618,
+     "edge": -0.12,
+     "ev": -0.194,
      "value": false,
      "stat": "ast",
      "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
+     "odds_ref": -145,
+     "dec_ref": 1.69,
      "p_model": 0.277,
-     "p_mkt": 0.54,
+     "p_mkt": 0.572,
      "cand": false,
      "hr": {
       "l10": [
@@ -200564,6 +200473,22 @@
        "picks": [
         {
          "kind": "prop",
+         "label": "Payton Pritchard Over 4.5 Asistencias",
+         "player": "Payton Pritchard",
+         "team": "BOS",
+         "stat": "ast",
+         "side": "over",
+         "line": 4.5,
+         "dec": 2.164,
+         "p": 0.555,
+         "base_p": 0.502,
+         "ev": 0.202,
+         "if_out": "Jayson Tatum",
+         "mean": 7.7,
+         "mean0": 6.9
+        },
+        {
+         "kind": "prop",
          "label": "Sam Hauser Over 8.5 Puntos",
          "player": "Sam Hauser",
          "team": "BOS",
@@ -200577,22 +200502,6 @@
          "if_out": "Jayson Tatum",
          "mean": 13.0,
          "mean0": 9.6
-        },
-        {
-         "kind": "prop",
-         "label": "Payton Pritchard Over 4.5 Asistencias",
-         "player": "Payton Pritchard",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 2.011,
-         "p": 0.579,
-         "base_p": 0.526,
-         "ev": 0.165,
-         "if_out": "Jayson Tatum",
-         "mean": 7.7,
-         "mean0": 6.9
         },
         {
          "kind": "prop",
@@ -200710,10 +200619,10 @@
          "stat": "ast",
          "side": "over",
          "line": 4.5,
-         "dec": 2.011,
-         "p": 0.577,
-         "base_p": 0.526,
-         "ev": 0.16,
+         "dec": 2.164,
+         "p": 0.553,
+         "base_p": 0.502,
+         "ev": 0.197,
          "if_out": "Derrick White",
          "mean": 7.7,
          "mean0": 6.9
