@@ -1417,7 +1417,27 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "48ecb0c45694b1a9",
+   "at": "2026-11-22T22:31+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-OKC-at-MIA",
+   "title": "OKC @ MIA (6:00 pm ET): novedades de bajas",
+   "body": "Bajas: Mara OUT. Los picks del modelo no cambian.",
+   "label": "Aviso Nicolas 17:30 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-OKC-at-MIA",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Aday Mara"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-22T22:10+00:00"
+ "updated": "2026-11-22T22:31+00:00"
 }
