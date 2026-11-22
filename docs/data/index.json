@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-22T16:28+00:00",
+ "generated": "2026-11-22T21:04+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "morning",
+ "last_stage": "pregame",
  "updates": {
   "2026-11-09": {
    "morning": "2026-11-09T16:30+00:00",
@@ -73,7 +73,8 @@
    "results": "2026-11-22T08:14+00:00"
   },
   "2026-11-22": {
-   "morning": "2026-11-22T16:28+00:00"
+   "morning": "2026-11-22T16:28+00:00",
+   "pregame": "2026-11-22T21:04+00:00"
   }
  },
  "history": [
@@ -193482,17 +193483,17 @@
      "odds": -124,
      "dec": 1.806,
      "odds_assumed": false,
-     "p": 0.685,
+     "p": 0.689,
      "implied": 0.554,
-     "fair": -217,
-     "edge": 0.131,
-     "ev": 0.237,
+     "fair": -222,
+     "edge": 0.135,
+     "ev": 0.244,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -113,
      "dec_ref": 1.885,
-     "p_model": 0.685,
+     "p_model": 0.689,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -193513,7 +193514,7 @@
        "n": 30
       }
      },
-     "mean": 9.7,
+     "mean": 9.6,
      "open": [
       11.5,
       1.806
@@ -193521,70 +193522,24 @@
     },
     {
      "kind": "prop",
-     "label": "Kelly Oubre Jr. Under 13.5 Puntos",
-     "player": "Kelly Oubre Jr.",
-     "team": "IND",
-     "line": 13.5,
-     "odds": -138,
-     "dec": 1.725,
+     "label": "Jalen Brunson Over 27.5 Puntos",
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "line": 27.5,
+     "odds": -121,
+     "dec": 1.829,
      "odds_assumed": false,
-     "p": 0.692,
-     "implied": 0.58,
-     "fair": -225,
-     "edge": 0.112,
-     "ev": 0.194,
+     "p": 0.674,
+     "implied": 0.547,
+     "fair": -207,
+     "edge": 0.127,
+     "ev": 0.233,
      "value": false,
      "stat": "pts",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.692,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 4,
-       "value": 18.1,
-       "lg": 20.4,
-       "n": 30
-      }
-     },
-     "mean": 11.3,
-     "open": [
-      13.5,
-      1.725
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Obi Toppin Under 4.5 Rebotes",
-     "player": "Obi Toppin",
-     "team": "IND",
-     "line": 4.5,
-     "odds": -166,
-     "dec": 1.601,
-     "odds_assumed": false,
-     "p": 0.74,
-     "implied": 0.624,
-     "fair": -285,
-     "edge": 0.115,
-     "ev": 0.185,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -149,
-     "dec_ref": 1.671,
-     "p_model": 0.74,
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.674,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -193595,20 +193550,66 @@
       ],
       "h2h": [
        3,
-       3
+       4
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 3,
-       "value": 8.9,
-       "lg": 10.3,
+       "pos": "PG",
+       "rank": 22,
+       "value": 28.6,
+       "lg": 26.9,
        "n": 30
       }
      },
-     "mean": 3.2,
+     "mean": 36.6,
      "open": [
-      4.5,
-      1.601
+      27.5,
+      1.829
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Mikal Bridges Over 10.5 Puntos",
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "line": 10.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.726,
+     "implied": 0.599,
+     "fair": -265,
+     "edge": 0.126,
+     "ev": 0.211,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.726,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 22.0,
+       "lg": 23.3,
+       "n": 30
+      }
+     },
+     "mean": 16.3,
+     "open": [
+      10.5,
+      1.668
      ]
     }
    ],
@@ -193622,24 +193623,102 @@
      "team": "NYK",
      "stat": "fga",
      "side": "over",
-     "line": 7.5,
-     "p": 0.591,
-     "fair": 1.69,
-     "min_dec": 1.74,
-     "ref": 7.9,
-     "p_model": 0.803,
-     "label": "Mikal Bridges Over 7.5 Tiros de campo intentados",
+     "line": 9.5,
+     "p": 0.567,
+     "fair": 1.76,
+     "min_dec": 1.82,
+     "ref": 9.4,
+     "p_model": 0.725,
+     "label": "Mikal Bridges Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       4,
+       3,
        10
       ],
       "h2h": [
-       5,
+       4,
        5
       ]
      },
-     "mean": 11.8
+     "mean": 12.7
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "fgm",
+     "side": "over",
+     "line": 9.5,
+     "p": 0.555,
+     "fair": 1.8,
+     "min_dec": 1.86,
+     "ref": 9.9,
+     "p_model": 0.684,
+     "label": "Jalen Brunson Over 9.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ]
+     },
+     "mean": 13.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Hart",
+     "team": "NYK",
+     "stat": "fgm",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.555,
+     "fair": 1.8,
+     "min_dec": 1.86,
+     "ref": 3.2,
+     "p_model": 0.682,
+     "label": "Josh Hart Over 3.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 5.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "stat": "fgm",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.553,
+     "fair": 1.81,
+     "min_dec": 1.86,
+     "ref": 4.2,
+     "p_model": 0.675,
+     "label": "Mikal Bridges Over 4.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 6.5
     },
     {
      "kind": "prop",
@@ -193648,128 +193727,24 @@
      "team": "NYK",
      "stat": "fga",
      "side": "over",
-     "line": 18.5,
-     "p": 0.576,
-     "fair": 1.74,
-     "min_dec": 1.79,
-     "ref": 18.5,
-     "p_model": 0.753,
-     "label": "Jalen Brunson Over 18.5 Tiros de campo intentados",
+     "line": 22.5,
+     "p": 0.548,
+     "fair": 1.83,
+     "min_dec": 1.88,
+     "ref": 22.3,
+     "p_model": 0.659,
+     "label": "Jalen Brunson Over 22.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       7,
+       3,
        10
       ],
       "h2h": [
-       4,
+       3,
        4
       ]
      },
-     "mean": 24.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Mikal Bridges",
-     "team": "NYK",
-     "stat": "fgm",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.573,
-     "fair": 1.75,
-     "min_dec": 1.8,
-     "ref": 3.5,
-     "p_model": 0.743,
-     "label": "Mikal Bridges Over 3.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ]
-     },
-     "mean": 5.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 11.5,
-     "p": 0.566,
-     "fair": 1.77,
-     "min_dec": 1.82,
-     "ref": 11.9,
-     "p_model": 0.72,
-     "label": "Jalen Brunson Over 11.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 16.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "fgm",
-     "side": "over",
-     "line": 8.5,
-     "p": 0.555,
-     "fair": 1.8,
-     "min_dec": 1.86,
-     "ref": 8.3,
-     "p_model": 0.682,
-     "label": "Jalen Brunson Over 8.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 11.8
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Mikal Bridges",
-     "team": "NYK",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.55,
-     "fair": 1.82,
-     "min_dec": 1.87,
-     "ref": 3.4,
-     "p_model": 0.666,
-     "label": "Mikal Bridges Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       5,
-       5
-      ]
-     },
-     "mean": 4.9
+     "mean": 26.2
     },
     {
      "kind": "prop",
@@ -193778,16 +193753,16 @@
      "team": "NYK",
      "stat": "fg2m",
      "side": "over",
-     "line": 5.5,
-     "p": 0.549,
-     "fair": 1.82,
+     "line": 6.5,
+     "p": 0.548,
+     "fair": 1.83,
      "min_dec": 1.88,
-     "ref": 5.6,
-     "p_model": 0.664,
-     "label": "Jalen Brunson Over 5.5 Dobles anotados",
+     "ref": 6.7,
+     "p_model": 0.659,
+     "label": "Jalen Brunson Over 6.5 Dobles anotados",
      "hr": {
       "l10": [
-       6,
+       3,
        10
       ],
       "h2h": [
@@ -193795,33 +193770,59 @@
        4
       ]
      },
-     "mean": 8.7
+     "mean": 9.7
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Mikal Bridges",
+     "player": "Josh Hart",
      "team": "NYK",
-     "stat": "fg2a",
+     "stat": "fga",
      "side": "over",
-     "line": 4.5,
-     "p": 0.548,
-     "fair": 1.82,
-     "min_dec": 1.88,
-     "ref": 4.4,
-     "p_model": 0.66,
-     "label": "Mikal Bridges Over 4.5 Dobles intentados",
+     "line": 8.5,
+     "p": 0.542,
+     "fair": 1.85,
+     "min_dec": 1.9,
+     "ref": 8.1,
+     "p_model": 0.639,
+     "label": "Josh Hart Over 8.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       6,
+       2,
        10
       ],
       "h2h": [
-       5,
-       5
+       1,
+       3
       ]
      },
-     "mean": 6.8
+     "mean": 10.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 14.5,
+     "p": 0.541,
+     "fair": 1.85,
+     "min_dec": 1.9,
+     "ref": 14.3,
+     "p_model": 0.638,
+     "label": "Jalen Brunson Over 14.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ]
+     },
+     "mean": 17.8
     },
     {
      "kind": "prop",
@@ -193831,11 +193832,11 @@
      "stat": "fg2m",
      "side": "under",
      "line": 1.5,
-     "p": 0.539,
+     "p": 0.541,
      "fair": 1.85,
-     "min_dec": 1.91,
+     "min_dec": 1.9,
      "ref": 2.2,
-     "p_model": 0.631,
+     "p_model": 0.636,
      "label": "Quenton Jackson Under 1.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -193852,28 +193853,28 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Josh Hart",
+     "player": "Mikal Bridges",
      "team": "NYK",
-     "stat": "fg3a",
+     "stat": "fg2m",
      "side": "over",
-     "line": 3.5,
-     "p": 0.537,
+     "line": 2.5,
+     "p": 0.539,
      "fair": 1.86,
-     "min_dec": 1.92,
-     "ref": 3.6,
-     "p_model": 0.625,
-     "label": "Josh Hart Over 3.5 Triples intentados",
+     "min_dec": 1.91,
+     "ref": 2.8,
+     "p_model": 0.629,
+     "label": "Mikal Bridges Over 2.5 Dobles anotados",
      "hr": {
       "l10": [
-       5,
+       4,
        10
       ],
       "h2h": [
-       1,
-       3
+       4,
+       5
       ]
      },
-     "mean": 4.7
+     "mean": 4.4
     },
     {
      "kind": "prop",
@@ -193887,7 +193888,7 @@
      "fair": 1.86,
      "min_dec": 1.92,
      "ref": 11.7,
-     "p_model": 0.624,
+     "p_model": 0.623,
      "label": "Andrew Nembhard Over 11.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -193899,48 +193900,48 @@
        4
       ]
      },
-     "mean": 13.4
+     "mean": 13.5
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
+     "player": "Mikal Bridges",
      "team": "NYK",
-     "stat": "fg3a",
+     "stat": "fg2a",
      "side": "over",
-     "line": 6.5,
-     "p": 0.535,
-     "fair": 1.87,
-     "min_dec": 1.92,
-     "ref": 6.6,
-     "p_model": 0.618,
-     "label": "Jalen Brunson Over 6.5 Triples intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ]
-     },
-     "mean": 7.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "stat": "ftm",
-     "side": "over",
-     "line": 4.5,
+     "line": 5.5,
      "p": 0.534,
      "fair": 1.87,
      "min_dec": 1.93,
-     "ref": 4.6,
-     "p_model": 0.614,
-     "label": "Jalen Brunson Over 4.5 Tiros libres anotados",
+     "ref": 5.3,
+     "p_model": 0.615,
+     "label": "Mikal Bridges Over 5.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 7.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "fta",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.53,
+     "fair": 1.89,
+     "min_dec": 1.94,
+     "ref": 6.8,
+     "p_model": 0.6,
+     "label": "Jalen Brunson Over 6.5 Tiros libres intentados",
      "hr": {
       "l10": [
        5,
@@ -193951,25 +193952,51 @@
        4
       ]
      },
-     "mean": 6.7
+     "mean": 9.2
     },
     {
      "kind": "prop",
      "model_only": true,
      "player": "Jalen Brunson",
      "team": "NYK",
-     "stat": "fta",
+     "stat": "pf",
      "side": "over",
-     "line": 5.5,
-     "p": 0.533,
-     "fair": 1.88,
-     "min_dec": 1.93,
-     "ref": 5.7,
-     "p_model": 0.608,
-     "label": "Jalen Brunson Over 5.5 Tiros libres intentados",
+     "line": 1.5,
+     "p": 0.594,
+     "fair": 1.68,
+     "min_dec": 1.74,
+     "ref": 1.9,
+     "p_model": 0.594,
+     "label": "Jalen Brunson Over 1.5 Faltas",
      "hr": {
       "l10": [
        6,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ]
+     },
+     "mean": 2.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "ftm",
+     "side": "over",
+     "line": 5.5,
+     "p": 0.527,
+     "fair": 1.9,
+     "min_dec": 1.95,
+     "ref": 5.6,
+     "p_model": 0.59,
+     "label": "Jalen Brunson Over 5.5 Tiros libres anotados",
+     "hr": {
+      "l10": [
+       5,
        10
       ],
       "h2h": [
@@ -193977,7 +194004,7 @@
        4
       ]
      },
-     "mean": 8.3
+     "mean": 7.5
     },
     {
      "kind": "prop",
@@ -193987,11 +194014,11 @@
      "stat": "fga",
      "side": "over",
      "line": 9.5,
-     "p": 0.526,
+     "p": 0.527,
      "fair": 1.9,
-     "min_dec": 1.96,
+     "min_dec": 1.95,
      "ref": 9.6,
-     "p_model": 0.588,
+     "p_model": 0.59,
      "label": "Aaron Nesmith Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -194010,59 +194037,104 @@
      "model_only": true,
      "player": "Mikal Bridges",
      "team": "NYK",
-     "stat": "fg2m",
+     "stat": "pf",
      "side": "over",
-     "line": 2.5,
-     "p": 0.526,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 2.3,
-     "p_model": 0.586,
-     "label": "Mikal Bridges Over 2.5 Dobles anotados",
+     "line": 1.5,
+     "p": 0.576,
+     "fair": 1.74,
+     "min_dec": 1.79,
+     "ref": 1.7,
+     "p_model": 0.576,
+     "label": "Mikal Bridges Over 1.5 Faltas",
      "hr": {
       "l10": [
-       4,
+       2,
        10
       ],
       "h2h": [
-       4,
+       2,
        5
       ]
      },
-     "mean": 4.0
+     "mean": 2.0
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.521,
+     "fair": 1.92,
+     "min_dec": 1.98,
+     "ref": 4.1,
+     "p_model": 0.57,
+     "label": "Mikal Bridges Over 4.5 Triples intentados",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       3,
+       5
+      ]
+     },
+     "mean": 5.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Hart",
+     "team": "NYK",
+     "stat": "pf",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.564,
+     "fair": 1.77,
+     "min_dec": 1.83,
+     "ref": 2.9,
+     "p_model": 0.564,
+     "label": "Josh Hart Over 2.5 Faltas",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 3.0
     },
     {
      "kind": "prop",
      "model_only": true,
      "player": "Jalen Brunson",
      "team": "NYK",
-     "stat": "tov",
+     "stat": "fg3a",
      "side": "over",
-     "line": 1.5,
-     "p": 0.576,
-     "fair": 1.74,
-     "min_dec": 1.79,
-     "ref": 1.8,
-     "p_model": 0.576,
-     "label": "Jalen Brunson Over 1.5 Pérdidas",
+     "line": 7.5,
+     "p": 0.519,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 8.0,
+     "p_model": 0.563,
+     "label": "Jalen Brunson Over 7.5 Triples intentados",
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
        3,
        4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 14,
-       "value": 3.6,
-       "lg": 3.6,
-       "n": 30
-      }
+      ]
      },
-     "mean": 2.1
+     "mean": 8.4
     },
     {
      "kind": "prop",
@@ -194072,11 +194144,11 @@
      "stat": "fg2a",
      "side": "over",
      "line": 6.5,
-     "p": 0.518,
+     "p": 0.517,
      "fair": 1.93,
      "min_dec": 1.99,
      "ref": 6.6,
-     "p_model": 0.56,
+     "p_model": 0.558,
      "label": "Andrew Nembhard Over 6.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -194093,28 +194165,53 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jalen Brunson",
+     "player": "Josh Hart",
      "team": "NYK",
-     "stat": "pf",
+     "stat": "fg3a",
      "side": "over",
-     "line": 1.5,
-     "p": 0.559,
-     "fair": 1.79,
-     "min_dec": 1.84,
-     "ref": 1.6,
-     "p_model": 0.559,
-     "label": "Jalen Brunson Over 1.5 Faltas",
+     "line": 4.5,
+     "p": 0.516,
+     "fair": 1.94,
+     "min_dec": 2.0,
+     "ref": 4.4,
+     "p_model": 0.553,
+     "label": "Josh Hart Over 4.5 Triples intentados",
      "hr": {
       "l10": [
-       6,
+       3,
        10
       ],
       "h2h": [
-       4,
-       4
+       1,
+       3
       ]
      },
-     "mean": 1.9
+     "mean": 5.2
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.38,
+     "fair": 2.63,
+     "min_dec": 2.71,
+     "ref": null,
+     "p_model": 0.38,
+     "label": "Jalen Brunson Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ]
+     }
     }
    ],
    "err_bets": [
@@ -194127,16 +194224,16 @@
      "odds": -133,
      "dec": 1.75,
      "odds_assumed": false,
-     "p": 0.548,
+     "p": 0.549,
      "implied": 0.571,
-     "edge": -0.023,
-     "ev": -0.04,
+     "edge": -0.022,
+     "ev": -0.039,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.606,
+     "p_model": 0.61,
      "p_mkt": 0.529,
      "cand": false,
      "err": {
@@ -194183,16 +194280,16 @@
      "odds": -124,
      "dec": 1.806,
      "odds_assumed": false,
-     "p": 0.685,
+     "p": 0.689,
      "implied": 0.554,
-     "edge": 0.131,
-     "ev": 0.237,
+     "edge": 0.135,
+     "ev": 0.244,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -113,
      "dec_ref": 1.885,
-     "p_model": 0.685,
+     "p_model": 0.689,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194213,10 +194310,100 @@
        "n": 30
       }
      },
-     "mean": 9.7,
+     "mean": 9.6,
      "open": [
       11.5,
       1.806
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Jalen Brunson Over 27.5 Puntos",
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "line": 27.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.674,
+     "implied": 0.547,
+     "edge": 0.127,
+     "ev": 0.233,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.674,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 22,
+       "value": 28.6,
+       "lg": 26.9,
+       "n": 30
+      }
+     },
+     "mean": 36.6,
+     "open": [
+      27.5,
+      1.829
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Mikal Bridges Over 10.5 Puntos",
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "line": 10.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.726,
+     "implied": 0.599,
+     "edge": 0.126,
+     "ev": 0.211,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.726,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 22.0,
+       "lg": 23.3,
+       "n": 30
+      }
+     },
+     "mean": 16.3,
+     "open": [
+      10.5,
+      1.668
      ]
     },
     {
@@ -194228,16 +194415,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.692,
+     "p": 0.695,
      "implied": 0.58,
-     "edge": 0.112,
-     "ev": 0.194,
+     "edge": 0.115,
+     "ev": 0.199,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.692,
+     "p_model": 0.695,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194258,7 +194445,7 @@
        "n": 30
       }
      },
-     "mean": 11.3,
+     "mean": 11.2,
      "open": [
       13.5,
       1.725
@@ -194273,16 +194460,16 @@
      "odds": -166,
      "dec": 1.601,
      "odds_assumed": false,
-     "p": 0.74,
+     "p": 0.735,
      "implied": 0.624,
-     "edge": 0.115,
-     "ev": 0.185,
+     "edge": 0.11,
+     "ev": 0.177,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -149,
      "dec_ref": 1.671,
-     "p_model": 0.74,
+     "p_model": 0.735,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194303,7 +194490,7 @@
        "n": 30
       }
      },
-     "mean": 3.2,
+     "mean": 3.3,
      "open": [
       4.5,
       1.601
@@ -194318,16 +194505,16 @@
      "odds": -165,
      "dec": 1.606,
      "odds_assumed": false,
-     "p": 0.723,
+     "p": 0.724,
      "implied": 0.623,
-     "edge": 0.1,
-     "ev": 0.161,
+     "edge": 0.101,
+     "ev": 0.163,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -148,
      "dec_ref": 1.676,
-     "p_model": 0.723,
+     "p_model": 0.724,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194356,68 +194543,23 @@
     },
     {
      "kind": "prop",
-     "label": "Mikal Bridges Over 10.5 Puntos",
-     "player": "Mikal Bridges",
+     "label": "Karl-Anthony Towns Over 12.5 Rebotes",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 10.5,
-     "odds": -150,
-     "dec": 1.668,
+     "line": 12.5,
+     "odds": -138,
+     "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.66,
-     "implied": 0.599,
-     "edge": 0.06,
-     "ev": 0.101,
+     "p": 0.644,
+     "implied": 0.58,
+     "edge": 0.064,
+     "ev": 0.111,
      "value": false,
-     "stat": "pts",
+     "stat": "reb",
      "side": "over",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.66,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 18,
-       "value": 21.0,
-       "lg": 20.4,
-       "n": 30
-      }
-     },
-     "mean": 14.8,
-     "open": [
-      10.5,
-      1.668
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jalen Brunson Over 27.5 Puntos",
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "line": 27.5,
-     "odds": -121,
-     "dec": 1.829,
-     "odds_assumed": false,
-     "p": 0.597,
-     "implied": 0.547,
-     "edge": 0.05,
-     "ev": 0.092,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.597,
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.644,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194427,21 +194569,21 @@
        10
       ],
       "h2h": [
-       3,
-       4
+       2,
+       3
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 22,
-       "value": 28.6,
-       "lg": 26.9,
+       "pos": "C",
+       "rank": 27,
+       "value": 16.8,
+       "lg": 14.5,
        "n": 30
       }
      },
-     "mean": 33.5,
+     "mean": 15.5,
      "open": [
-      27.5,
-      1.829
+      12.5,
+      1.725
      ]
     },
     {
@@ -194453,16 +194595,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.619,
+     "p": 0.622,
      "implied": 0.569,
-     "edge": 0.05,
-     "ev": 0.088,
+     "edge": 0.053,
+     "ev": 0.093,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.619,
+     "p_model": 0.622,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -194487,6 +194629,95 @@
      "open": [
       13.5,
       1.757
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Karl-Anthony Towns Over 20.5 Puntos",
+     "player": "Karl-Anthony Towns",
+     "team": "NYK",
+     "line": 20.5,
+     "odds": -138,
+     "dec": 1.725,
+     "odds_assumed": false,
+     "p": 0.599,
+     "implied": 0.58,
+     "edge": 0.019,
+     "ev": 0.033,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.599,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       3,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 17,
+       "value": 22.2,
+       "lg": 22.1,
+       "n": 30
+      }
+     },
+     "mean": 25.0,
+     "open": [
+      20.5,
+      1.725
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Jalen Brunson Over 6.5 Asistencias",
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "line": 6.5,
+     "odds": 102,
+     "dec": 2.021,
+     "odds_assumed": false,
+     "p": 0.508,
+     "implied": 0.495,
+     "edge": 0.013,
+     "ev": 0.027,
+     "value": false,
+     "stat": "ast",
+     "side": "over",
+     "odds_ref": 110,
+     "dec_ref": 2.1,
+     "p_model": 0.658,
+     "p_mkt": 0.458,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 23,
+       "value": 8.7,
+       "lg": 7.9,
+       "n": 30
+      }
+     },
+     "mean": 8.4,
+     "open": [
+      6.5,
+      2.021
      ]
     },
     {
@@ -194522,24 +194753,24 @@
     },
     {
      "kind": "prop",
-     "label": "Jalen Brunson Over 6.5 Asistencias",
-     "player": "Jalen Brunson",
+     "label": "Mikal Bridges Over 1.5 Triples",
+     "player": "Mikal Bridges",
      "team": "NYK",
-     "line": 6.5,
-     "odds": 102,
-     "dec": 2.021,
+     "line": 1.5,
+     "odds": 121,
+     "dec": 2.213,
      "odds_assumed": false,
-     "p": 0.497,
-     "implied": 0.495,
-     "edge": 0.002,
-     "ev": 0.004,
+     "p": 0.46,
+     "implied": 0.452,
+     "edge": 0.008,
+     "ev": 0.017,
      "value": false,
-     "stat": "ast",
+     "stat": "fg3m",
      "side": "over",
-     "odds_ref": 110,
-     "dec_ref": 2.1,
-     "p_model": 0.612,
-     "p_mkt": 0.458,
+     "odds_ref": 135,
+     "dec_ref": 2.35,
+     "p_model": 0.583,
+     "p_mkt": 0.418,
      "cand": false,
      "hr": {
       "l10": [
@@ -194548,20 +194779,20 @@
       ],
       "h2h": [
        4,
-       4
+       5
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 8.7,
-       "lg": 7.9,
+       "pos": "PF",
+       "rank": 28,
+       "value": 3.3,
+       "lg": 2.6,
        "n": 30
       }
      },
-     "mean": 8.0,
+     "mean": 2.1,
      "open": [
-      6.5,
-      2.021
+      1.5,
+      2.213
      ]
     },
     {
@@ -194573,16 +194804,16 @@
      "odds": -130,
      "dec": 1.767,
      "odds_assumed": false,
-     "p": 0.564,
+     "p": 0.575,
      "implied": 0.566,
-     "edge": -0.002,
-     "ev": -0.004,
+     "edge": 0.009,
+     "ev": 0.016,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -105,
      "dec_ref": 1.952,
-     "p_model": 0.682,
+     "p_model": 0.727,
      "p_mkt": 0.524,
      "cand": false,
      "hr": {
@@ -194595,17 +194826,61 @@
        3
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 19,
-       "value": 6.0,
-       "lg": 5.7,
+       "pos": "SF",
+       "rank": 1,
+       "value": 3.4,
+       "lg": 4.4,
        "n": 30
       }
      },
-     "mean": 5.2,
+     "mean": 5.6,
      "open": [
       3.5,
       1.767
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Josh Hart Over 1.5 Triples",
+     "player": "Josh Hart",
+     "team": "NYK",
+     "line": 1.5,
+     "odds": 118,
+     "dec": 2.179,
+     "odds_assumed": false,
+     "p": 0.457,
+     "implied": 0.459,
+     "edge": -0.001,
+     "ev": -0.003,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": 132,
+     "dec_ref": 2.32,
+     "p_model": 0.555,
+     "p_mkt": 0.425,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 10,
+       "value": 2.5,
+       "lg": 2.7,
+       "n": 30
+      }
+     },
+     "mean": 2.0,
+     "open": [
+      1.5,
+      2.179
      ]
     },
     {
@@ -194617,16 +194892,16 @@
      "odds": -167,
      "dec": 1.598,
      "odds_assumed": false,
-     "p": 0.623,
+     "p": 0.622,
      "implied": 0.626,
-     "edge": -0.003,
-     "ev": -0.004,
+     "edge": -0.004,
+     "ev": -0.006,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -150,
      "dec_ref": 1.667,
-     "p_model": 0.623,
+     "p_model": 0.622,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -194685,50 +194960,6 @@
     },
     {
      "kind": "prop",
-     "label": "Mikal Bridges Over 1.5 Triples",
-     "player": "Mikal Bridges",
-     "team": "NYK",
-     "line": 1.5,
-     "odds": 121,
-     "dec": 2.213,
-     "odds_assumed": false,
-     "p": 0.448,
-     "implied": 0.452,
-     "edge": -0.004,
-     "ev": -0.009,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 135,
-     "dec_ref": 2.35,
-     "p_model": 0.536,
-     "p_mkt": 0.418,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 10,
-       "value": 2.5,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 1.9,
-     "open": [
-      1.5,
-      2.213
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Kelly Oubre Jr. Under 4.5 Rebotes",
      "player": "Kelly Oubre Jr.",
      "team": "IND",
@@ -194772,94 +195003,6 @@
      ]
     },
     {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Under 21.5 Puntos",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 21.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.545,
-     "implied": 0.558,
-     "edge": -0.013,
-     "ev": -0.023,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.545,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 17,
-       "value": 22.2,
-       "lg": 22.1,
-       "n": 30
-      }
-     },
-     "mean": 22.0,
-     "open": [
-      21.5,
-      1.792
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Pascal Siakam Over 19.5 Puntos",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 19.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.545,
-     "implied": 0.558,
-     "edge": -0.013,
-     "ev": -0.023,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.545,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 2,
-       "value": 20.7,
-       "lg": 23.3,
-       "n": 30
-      }
-     },
-     "mean": 22.3,
-     "open": [
-      19.5,
-      1.792
-     ]
-    },
-    {
      "kind": "ml",
      "label": "NYK gana",
      "player": null,
@@ -194892,50 +195035,6 @@
     },
     {
      "kind": "prop",
-     "label": "Josh Hart Over 1.5 Triples",
-     "player": "Josh Hart",
-     "team": "NYK",
-     "line": 1.5,
-     "odds": 118,
-     "dec": 2.179,
-     "odds_assumed": false,
-     "p": 0.446,
-     "implied": 0.459,
-     "edge": -0.013,
-     "ev": -0.028,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 132,
-     "dec_ref": 2.32,
-     "p_model": 0.509,
-     "p_mkt": 0.425,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 24,
-       "value": 3.8,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 1.8,
-     "open": [
-      1.5,
-      2.179
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Ivica Zubac Under 8.5 Rebotes",
      "player": "Ivica Zubac",
      "team": "IND",
@@ -194952,7 +195051,7 @@
      "side": "under",
      "odds_ref": -112,
      "dec_ref": 1.893,
-     "p_model": 0.604,
+     "p_model": 0.603,
      "p_mkt": 0.514,
      "cand": false,
      "hr": {
@@ -194972,7 +195071,7 @@
        "n": 30
       }
      },
-     "mean": 8.0,
+     "mean": 7.9,
      "open": [
       8.5,
       1.802
@@ -194980,72 +195079,28 @@
     },
     {
      "kind": "prop",
-     "label": "Landry Shamet Under 2.5 Triples",
-     "player": "Landry Shamet",
-     "team": "NYK",
-     "line": 2.5,
-     "odds": -142,
-     "dec": 1.706,
+     "label": "Pascal Siakam Over 19.5 Puntos",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 19.5,
+     "odds": -126,
+     "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.566,
-     "implied": 0.586,
-     "edge": -0.02,
-     "ev": -0.034,
+     "p": 0.537,
+     "implied": 0.558,
+     "edge": -0.021,
+     "ev": -0.038,
      "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -130,
-     "dec_ref": 1.769,
-     "p_model": 0.637,
-     "p_mkt": 0.543,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 24,
-       "value": 3.8,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 2.2,
-     "open": [
-      2.5,
-      1.706
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Over 12.5 Rebotes",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 12.5,
-     "odds": -138,
-     "dec": 1.725,
-     "odds_assumed": false,
-     "p": 0.557,
-     "implied": 0.58,
-     "edge": -0.023,
-     "ev": -0.039,
-     "value": false,
-     "stat": "reb",
+     "stat": "pts",
      "side": "over",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.557,
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.537,
      "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       7,
        10
       ],
       "h2h": [
@@ -195053,17 +195108,17 @@
        3
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 16.8,
-       "lg": 14.5,
+       "pos": "PF",
+       "rank": 2,
+       "value": 20.7,
+       "lg": 23.3,
        "n": 30
       }
      },
-     "mean": 14.1,
+     "mean": 22.1,
      "open": [
-      12.5,
-      1.725
+      19.5,
+      1.792
      ]
     },
     {
@@ -195075,16 +195130,16 @@
      "odds": -133,
      "dec": 1.75,
      "odds_assumed": false,
-     "p": 0.548,
+     "p": 0.549,
      "implied": 0.571,
-     "edge": -0.023,
-     "ev": -0.04,
+     "edge": -0.022,
+     "ev": -0.039,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.606,
+     "p_model": 0.61,
      "p_mkt": 0.529,
      "cand": false,
      "err": {
@@ -195122,24 +195177,24 @@
     },
     {
      "kind": "prop",
-     "label": "Josh Hart Under 7.5 Rebotes",
-     "player": "Josh Hart",
+     "label": "Karl-Anthony Towns Over 1.5 Triples",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 7.5,
-     "odds": -114,
-     "dec": 1.875,
+     "line": 1.5,
+     "odds": -130,
+     "dec": 1.771,
      "odds_assumed": false,
-     "p": 0.508,
-     "implied": 0.533,
-     "edge": -0.025,
-     "ev": -0.047,
+     "p": 0.536,
+     "implied": 0.565,
+     "edge": -0.028,
+     "ev": -0.05,
      "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 105,
-     "dec_ref": 2.05,
-     "p_model": 0.552,
-     "p_mkt": 0.494,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.576,
+     "p_mkt": 0.523,
      "cand": false,
      "hr": {
       "l10": [
@@ -195151,43 +195206,43 @@
        3
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 13,
-       "value": 6.7,
-       "lg": 6.8,
+       "pos": "C",
+       "rank": 12,
+       "value": 1.1,
+       "lg": 1.3,
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 2.1,
      "open": [
-      7.5,
-      1.875
+      1.5,
+      1.771
      ]
     },
     {
      "kind": "prop",
-     "label": "OG Anunoby Over 4.5 Rebotes",
-     "player": "OG Anunoby",
+     "label": "Landry Shamet Under 2.5 Triples",
+     "player": "Landry Shamet",
      "team": "NYK",
-     "line": 4.5,
-     "odds": -163,
-     "dec": 1.612,
+     "line": 2.5,
+     "odds": -142,
+     "dec": 1.706,
      "odds_assumed": false,
-     "p": 0.591,
-     "implied": 0.62,
-     "edge": -0.03,
-     "ev": -0.048,
+     "p": 0.557,
+     "implied": 0.586,
+     "edge": -0.029,
+     "ev": -0.05,
      "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -155,
-     "dec_ref": 1.645,
-     "p_model": 0.639,
-     "p_mkt": 0.574,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -130,
+     "dec_ref": 1.769,
+     "p_model": 0.599,
+     "p_mkt": 0.543,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       6,
        10
       ],
       "h2h": [
@@ -195195,17 +195250,61 @@
        4
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 20,
-       "value": 10.6,
-       "lg": 10.3,
+       "pos": "SG",
+       "rank": 24,
+       "value": 3.8,
+       "lg": 3.4,
        "n": 30
       }
      },
-     "mean": 6.0,
+     "mean": 2.4,
      "open": [
-      4.5,
-      1.612
+      2.5,
+      1.706
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Aaron Nesmith Under 1.5 Triples",
+     "player": "Aaron Nesmith",
+     "team": "IND",
+     "line": 1.5,
+     "odds": 106,
+     "dec": 2.058,
+     "odds_assumed": false,
+     "p": 0.46,
+     "implied": 0.486,
+     "edge": -0.026,
+     "ev": -0.054,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": 120,
+     "dec_ref": 2.2,
+     "p_model": 0.488,
+     "p_mkt": 0.45,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 16,
+       "value": 3.4,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.9,
+     "open": [
+      1.5,
+      2.058
      ]
     },
     {
@@ -195254,94 +195353,6 @@
     },
     {
      "kind": "prop",
-     "label": "Aaron Nesmith Under 1.5 Triples",
-     "player": "Aaron Nesmith",
-     "team": "IND",
-     "line": 1.5,
-     "odds": 106,
-     "dec": 2.058,
-     "odds_assumed": false,
-     "p": 0.459,
-     "implied": 0.486,
-     "edge": -0.027,
-     "ev": -0.056,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 120,
-     "dec_ref": 2.2,
-     "p_model": 0.484,
-     "p_mkt": 0.45,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 16,
-       "value": 3.4,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 1.9,
-     "open": [
-      1.5,
-      2.058
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Under 3.5 Asistencias",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 3.5,
-     "odds": -137,
-     "dec": 1.731,
-     "odds_assumed": false,
-     "p": 0.545,
-     "implied": 0.578,
-     "edge": -0.033,
-     "ev": -0.057,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.575,
-     "p_mkt": 0.535,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 3,
-       "value": 3.6,
-       "lg": 4.3,
-       "n": 30
-      }
-     },
-     "mean": 3.4,
-     "open": [
-      3.5,
-      1.731
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Obi Toppin Over 1.5 Triples",
      "player": "Obi Toppin",
      "team": "IND",
@@ -195386,46 +195397,46 @@
     },
     {
      "kind": "prop",
-     "label": "OG Anunoby Over 16.5 Puntos",
-     "player": "OG Anunoby",
+     "label": "Karl-Anthony Towns Over 3.5 Asistencias",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 16.5,
-     "odds": -120,
-     "dec": 1.833,
+     "line": 3.5,
+     "odds": -101,
+     "dec": 1.99,
      "odds_assumed": false,
-     "p": 0.513,
-     "implied": 0.546,
-     "edge": -0.033,
-     "ev": -0.06,
+     "p": 0.473,
+     "implied": 0.502,
+     "edge": -0.03,
+     "ev": -0.059,
      "value": false,
-     "stat": "pts",
+     "stat": "ast",
      "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.535,
-     "p_mkt": 0.505,
+     "odds_ref": 115,
+     "dec_ref": 2.15,
+     "p_model": 0.496,
+     "p_mkt": 0.465,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
-       2,
-       4
+       1,
+       3
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 22.0,
-       "lg": 23.3,
+       "pos": "C",
+       "rank": 3,
+       "value": 3.6,
+       "lg": 4.3,
        "n": 30
       }
      },
-     "mean": 18.7,
+     "mean": 3.8,
      "open": [
-      16.5,
-      1.833
+      3.5,
+      1.99
      ]
     },
     {
@@ -195437,16 +195448,16 @@
      "odds": -109,
      "dec": 1.92,
      "odds_assumed": false,
-     "p": 0.488,
+     "p": 0.487,
      "implied": 0.521,
-     "edge": -0.033,
-     "ev": -0.064,
+     "edge": -0.034,
+     "ev": -0.065,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": 104,
      "dec_ref": 2.04,
-     "p_model": 0.503,
+     "p_model": 0.501,
      "p_mkt": 0.482,
      "cand": false,
      "hr": {
@@ -195474,156 +195485,24 @@
     },
     {
      "kind": "prop",
-     "label": "Jalen Brunson Under 2.5 Triples",
-     "player": "Jalen Brunson",
+     "label": "Josh Hart Over 7.5 Rebotes",
+     "player": "Josh Hart",
      "team": "NYK",
-     "line": 2.5,
-     "odds": 112,
-     "dec": 2.125,
+     "line": 7.5,
+     "odds": -121,
+     "dec": 1.829,
      "odds_assumed": false,
-     "p": 0.44,
-     "implied": 0.471,
-     "edge": -0.031,
+     "p": 0.51,
+     "implied": 0.547,
+     "edge": -0.036,
      "ev": -0.066,
      "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 129,
-     "dec_ref": 2.29,
-     "p_model": 0.451,
-     "p_mkt": 0.436,
-     "cand": false,
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 28,
-       "value": 4.6,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 3.1,
-     "open": [
-      2.5,
-      2.125
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "OG Anunoby Over 2.5 Triples",
-     "player": "OG Anunoby",
-     "team": "NYK",
-     "line": 2.5,
-     "odds": 118,
-     "dec": 2.176,
-     "odds_assumed": false,
-     "p": 0.427,
-     "implied": 0.46,
-     "edge": -0.032,
-     "ev": -0.07,
-     "value": false,
-     "stat": "fg3m",
+     "stat": "reb",
      "side": "over",
-     "odds_ref": 125,
-     "dec_ref": 2.25,
-     "p_model": 0.432,
-     "p_mkt": 0.426,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 28,
-       "value": 3.3,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 2.5,
-     "open": [
-      2.5,
-      2.176
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Over 1.5 Triples",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 1.5,
-     "odds": -130,
-     "dec": 1.771,
-     "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.565,
-     "edge": -0.041,
-     "ev": -0.073,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.525,
-     "p_mkt": 0.523,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 12,
-       "value": 1.1,
-       "lg": 1.3,
-       "n": 30
-      }
-     },
-     "mean": 1.9,
-     "open": [
-      1.5,
-      1.771
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Under 1.5 Triples",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 1.5,
-     "odds": -106,
-     "dec": 1.941,
-     "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.515,
-     "edge": -0.039,
-     "ev": -0.075,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 105,
-     "dec_ref": 2.05,
-     "p_model": 0.475,
-     "p_mkt": 0.477,
+     "odds_ref": 100,
+     "dec_ref": 2.0,
+     "p_model": 0.523,
+     "p_mkt": 0.506,
      "cand": false,
      "hr": {
       "l10": [
@@ -195635,61 +195514,17 @@
        3
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 12,
-       "value": 1.1,
-       "lg": 1.3,
+       "pos": "SF",
+       "rank": 27,
+       "value": 8.8,
+       "lg": 8.0,
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 8.2,
      "open": [
-      1.5,
-      1.941
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "OG Anunoby Under 2.5 Triples",
-     "player": "OG Anunoby",
-     "team": "NYK",
-     "line": 2.5,
-     "odds": -163,
-     "dec": 1.612,
-     "odds_assumed": false,
-     "p": 0.573,
-     "implied": 0.62,
-     "edge": -0.048,
-     "ev": -0.077,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.568,
-     "p_mkt": 0.574,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 28,
-       "value": 3.3,
-       "lg": 2.6,
-       "n": 30
-      }
-     },
-     "mean": 2.5,
-     "open": [
-      2.5,
-      1.612
+      7.5,
+      1.829
      ]
     },
     {
@@ -195701,16 +195536,16 @@
      "odds": -156,
      "dec": 1.641,
      "odds_assumed": false,
-     "p": 0.56,
+     "p": 0.569,
      "implied": 0.609,
-     "edge": -0.049,
-     "ev": -0.08,
+     "edge": -0.04,
+     "ev": -0.066,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -130,
      "dec_ref": 1.769,
-     "p_model": 0.549,
+     "p_model": 0.585,
      "p_mkt": 0.564,
      "cand": false,
      "hr": {
@@ -195730,10 +195565,54 @@
        "n": 30
       }
      },
-     "mean": 3.1,
+     "mean": 3.3,
      "open": [
       2.5,
       1.641
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Josh Hart Under 7.5 Rebotes",
+     "player": "Josh Hart",
+     "team": "NYK",
+     "line": 7.5,
+     "odds": -114,
+     "dec": 1.875,
+     "odds_assumed": false,
+     "p": 0.49,
+     "implied": 0.533,
+     "edge": -0.044,
+     "ev": -0.082,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": 105,
+     "dec_ref": 2.05,
+     "p_model": 0.477,
+     "p_mkt": 0.494,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 27,
+       "value": 8.8,
+       "lg": 8.0,
+       "n": 30
+      }
+     },
+     "mean": 8.2,
+     "open": [
+      7.5,
+      1.875
      ]
     },
     {
@@ -195745,7 +195624,7 @@
      "odds": -127,
      "dec": 1.789,
      "odds_assumed": false,
-     "p": 0.512,
+     "p": 0.513,
      "implied": 0.559,
      "edge": -0.046,
      "ev": -0.083,
@@ -195754,7 +195633,7 @@
      "side": "over",
      "odds_ref": -111,
      "dec_ref": 1.901,
-     "p_model": 0.497,
+     "p_model": 0.498,
      "p_mkt": 0.518,
      "cand": false,
      "hr": {
@@ -195812,6 +195691,50 @@
      ]
     },
     {
+     "kind": "prop",
+     "label": "Jalen Brunson Under 2.5 Triples",
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "line": 2.5,
+     "odds": 112,
+     "dec": 2.125,
+     "odds_assumed": false,
+     "p": 0.431,
+     "implied": 0.471,
+     "edge": -0.04,
+     "ev": -0.085,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": 129,
+     "dec_ref": 2.29,
+     "p_model": 0.415,
+     "p_mkt": 0.436,
+     "cand": false,
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 28,
+       "value": 4.6,
+       "lg": 3.7,
+       "n": 30
+      }
+     },
+     "mean": 3.3,
+     "open": [
+      2.5,
+      2.125
+     ]
+    },
+    {
      "kind": "ml",
      "label": "IND gana",
      "player": null,
@@ -195844,46 +195767,46 @@
     },
     {
      "kind": "prop",
-     "label": "OG Anunoby Under 16.5 Puntos",
-     "player": "OG Anunoby",
+     "label": "Karl-Anthony Towns Under 3.5 Asistencias",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 16.5,
-     "odds": -115,
-     "dec": 1.871,
+     "line": 3.5,
+     "odds": -137,
+     "dec": 1.731,
      "odds_assumed": false,
-     "p": 0.487,
-     "implied": 0.534,
-     "edge": -0.047,
+     "p": 0.527,
+     "implied": 0.578,
+     "edge": -0.051,
      "ev": -0.088,
      "value": false,
-     "stat": "pts",
+     "stat": "ast",
      "side": "under",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.465,
-     "p_mkt": 0.495,
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.504,
+     "p_mkt": 0.535,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       5,
        10
       ],
       "h2h": [
        2,
-       4
+       3
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 10,
-       "value": 22.0,
-       "lg": 23.3,
+       "pos": "C",
+       "rank": 3,
+       "value": 3.6,
+       "lg": 4.3,
        "n": 30
       }
      },
-     "mean": 18.7,
+     "mean": 3.8,
      "open": [
-      16.5,
-      1.871
+      3.5,
+      1.731
      ]
     },
     {
@@ -195939,16 +195862,16 @@
      "odds": -146,
      "dec": 1.684,
      "odds_assumed": false,
-     "p": 0.541,
+     "p": 0.54,
      "implied": 0.594,
-     "edge": -0.052,
-     "ev": -0.088,
+     "edge": -0.053,
+     "ev": -0.09,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.516,
+     "p_model": 0.512,
      "p_mkt": 0.55,
      "cand": false,
      "hr": {
@@ -196020,28 +195943,28 @@
     },
     {
      "kind": "prop",
-     "label": "Karl-Anthony Towns Over 3.5 Asistencias",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 3.5,
-     "odds": -101,
-     "dec": 1.99,
+     "label": "Pascal Siakam Under 20.5 Puntos",
+     "player": "Pascal Siakam",
+     "team": "IND",
+     "line": 20.5,
+     "odds": -126,
+     "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.455,
-     "implied": 0.502,
-     "edge": -0.047,
-     "ev": -0.094,
+     "p": 0.503,
+     "implied": 0.558,
+     "edge": -0.055,
+     "ev": -0.099,
      "value": false,
-     "stat": "ast",
-     "side": "over",
-     "odds_ref": 115,
-     "dec_ref": 2.15,
-     "p_model": 0.425,
-     "p_mkt": 0.465,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.503,
+     "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       4,
        10
       ],
       "h2h": [
@@ -196049,39 +195972,39 @@
        3
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 3,
-       "value": 3.6,
-       "lg": 4.3,
+       "pos": "PF",
+       "rank": 2,
+       "value": 20.7,
+       "lg": 23.3,
        "n": 30
       }
      },
-     "mean": 3.4,
+     "mean": 22.1,
      "open": [
-      3.5,
-      1.99
+      20.5,
+      1.792
      ]
     },
     {
      "kind": "prop",
-     "label": "Josh Hart Over 7.5 Rebotes",
-     "player": "Josh Hart",
+     "label": "Karl-Anthony Towns Under 1.5 Triples",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 7.5,
-     "odds": -121,
-     "dec": 1.829,
+     "line": 1.5,
+     "odds": -106,
+     "dec": 1.941,
      "odds_assumed": false,
-     "p": 0.492,
-     "implied": 0.547,
-     "edge": -0.055,
-     "ev": -0.101,
+     "p": 0.464,
+     "implied": 0.515,
+     "edge": -0.051,
+     "ev": -0.1,
      "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": 100,
-     "dec_ref": 2.0,
-     "p_model": 0.448,
-     "p_mkt": 0.506,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": 105,
+     "dec_ref": 2.05,
+     "p_model": 0.424,
+     "p_mkt": 0.477,
      "cand": false,
      "hr": {
       "l10": [
@@ -196093,48 +196016,48 @@
        3
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 13,
-       "value": 6.7,
-       "lg": 6.8,
+       "pos": "C",
+       "rank": 12,
+       "value": 1.1,
+       "lg": 1.3,
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 2.1,
      "open": [
-      7.5,
-      1.829
+      1.5,
+      1.941
      ]
     },
     {
      "kind": "prop",
-     "label": "Josh Hart Under 1.5 Triples",
-     "player": "Josh Hart",
+     "label": "Landry Shamet Over 2.5 Triples",
+     "player": "Landry Shamet",
      "team": "NYK",
-     "line": 1.5,
-     "odds": -164,
-     "dec": 1.61,
+     "line": 2.5,
+     "odds": 103,
+     "dec": 2.025,
      "odds_assumed": false,
-     "p": 0.554,
-     "implied": 0.621,
-     "edge": -0.067,
-     "ev": -0.108,
+     "p": 0.443,
+     "implied": 0.494,
+     "edge": -0.051,
+     "ev": -0.103,
      "value": false,
      "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.491,
-     "p_mkt": 0.575,
+     "side": "over",
+     "odds_ref": 110,
+     "dec_ref": 2.1,
+     "p_model": 0.401,
+     "p_mkt": 0.457,
      "cand": false,
      "hr": {
       "l10": [
-       6,
+       4,
        10
       ],
       "h2h": [
        1,
-       3
+       4
       ],
       "dvp": {
        "pos": "SG",
@@ -196144,54 +196067,10 @@
        "n": 30
       }
      },
-     "mean": 1.8,
+     "mean": 2.4,
      "open": [
-      1.5,
-      1.61
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "OG Anunoby Under 4.5 Rebotes",
-     "player": "OG Anunoby",
-     "team": "NYK",
-     "line": 4.5,
-     "odds": 118,
-     "dec": 2.176,
-     "odds_assumed": false,
-     "p": 0.409,
-     "implied": 0.46,
-     "edge": -0.05,
-     "ev": -0.109,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 122,
-     "dec_ref": 2.22,
-     "p_model": 0.361,
-     "p_mkt": 0.426,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 20,
-       "value": 10.6,
-       "lg": 10.3,
-       "n": 30
-      }
-     },
-     "mean": 6.0,
-     "open": [
-      4.5,
-      2.176
+      2.5,
+      2.025
      ]
     },
     {
@@ -196203,16 +196082,16 @@
      "odds": -104,
      "dec": 1.966,
      "odds_assumed": false,
-     "p": 0.452,
+     "p": 0.451,
      "implied": 0.509,
-     "edge": -0.057,
-     "ev": -0.112,
+     "edge": -0.058,
+     "ev": -0.114,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": 110,
      "dec_ref": 2.1,
-     "p_model": 0.394,
+     "p_model": 0.39,
      "p_mkt": 0.471,
      "cand": false,
      "hr": {
@@ -196236,50 +196115,6 @@
      "open": [
       1.5,
       1.966
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Karl-Anthony Towns Under 13.5 Rebotes",
-     "player": "Karl-Anthony Towns",
-     "team": "NYK",
-     "line": 13.5,
-     "odds": -134,
-     "dec": 1.744,
-     "odds_assumed": false,
-     "p": 0.508,
-     "implied": 0.573,
-     "edge": -0.065,
-     "ev": -0.114,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -122,
-     "dec_ref": 1.82,
-     "p_model": 0.508,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       3
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 27,
-       "value": 16.8,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 14.1,
-     "open": [
-      13.5,
-      1.744
      ]
     },
     {
@@ -196324,14 +196159,14 @@
      "odds_assumed": false,
      "p": 0.464,
      "implied": 0.525,
-     "edge": -0.062,
+     "edge": -0.061,
      "ev": -0.117,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": 100,
      "dec_ref": 2.0,
-     "p_model": 0.396,
+     "p_model": 0.397,
      "p_mkt": 0.486,
      "cand": false,
      "hr": {
@@ -196351,7 +196186,7 @@
        "n": 30
       }
      },
-     "mean": 8.0,
+     "mean": 7.9,
      "open": [
       8.5,
       1.904
@@ -196359,28 +196194,28 @@
     },
     {
      "kind": "prop",
-     "label": "Pascal Siakam Under 20.5 Puntos",
-     "player": "Pascal Siakam",
-     "team": "IND",
-     "line": 20.5,
-     "odds": -126,
-     "dec": 1.792,
+     "label": "Josh Hart Under 1.5 Triples",
+     "player": "Josh Hart",
+     "team": "NYK",
+     "line": 1.5,
+     "odds": -164,
+     "dec": 1.61,
      "odds_assumed": false,
-     "p": 0.493,
-     "implied": 0.558,
-     "edge": -0.065,
-     "ev": -0.117,
+     "p": 0.543,
+     "implied": 0.621,
+     "edge": -0.079,
+     "ev": -0.126,
      "value": false,
-     "stat": "pts",
+     "stat": "fg3m",
      "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.493,
-     "p_mkt": null,
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.445,
+     "p_mkt": 0.575,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       6,
        10
       ],
       "h2h": [
@@ -196388,17 +196223,17 @@
        3
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 2,
-       "value": 20.7,
-       "lg": 23.3,
+       "pos": "SF",
+       "rank": 10,
+       "value": 2.5,
+       "lg": 2.7,
        "n": 30
       }
      },
-     "mean": 22.3,
+     "mean": 2.0,
      "open": [
-      20.5,
-      1.792
+      1.5,
+      1.61
      ]
     },
     {
@@ -196410,16 +196245,16 @@
      "odds": -169,
      "dec": 1.592,
      "odds_assumed": false,
-     "p": 0.552,
+     "p": 0.54,
      "implied": 0.628,
-     "edge": -0.076,
-     "ev": -0.121,
+     "edge": -0.088,
+     "ev": -0.14,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -145,
      "dec_ref": 1.69,
-     "p_model": 0.464,
+     "p_model": 0.417,
      "p_mkt": 0.582,
      "cand": false,
      "hr": {
@@ -196432,149 +196267,17 @@
        5
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 10,
-       "value": 2.5,
-       "lg": 2.7,
+       "pos": "PF",
+       "rank": 28,
+       "value": 3.3,
+       "lg": 2.6,
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 2.1,
      "open": [
       1.5,
       1.592
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Landry Shamet Over 2.5 Triples",
-     "player": "Landry Shamet",
-     "team": "NYK",
-     "line": 2.5,
-     "odds": 103,
-     "dec": 2.025,
-     "odds_assumed": false,
-     "p": 0.434,
-     "implied": 0.494,
-     "edge": -0.06,
-     "ev": -0.122,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 110,
-     "dec_ref": 2.1,
-     "p_model": 0.363,
-     "p_mkt": 0.457,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 24,
-       "value": 3.8,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 2.2,
-     "open": [
-      2.5,
-      2.025
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jalen Brunson Under 6.5 Asistencias",
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "line": 6.5,
-     "odds": -141,
-     "dec": 1.709,
-     "odds_assumed": false,
-     "p": 0.503,
-     "implied": 0.585,
-     "edge": -0.082,
-     "ev": -0.14,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "odds_ref": -129,
-     "dec_ref": 1.775,
-     "p_model": 0.388,
-     "p_mkt": 0.542,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 23,
-       "value": 8.7,
-       "lg": 7.9,
-       "n": 30
-      }
-     },
-     "mean": 8.0,
-     "open": [
-      6.5,
-      1.709
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Josh Hart Under 3.5 Asistencias",
-     "player": "Josh Hart",
-     "team": "NYK",
-     "line": 3.5,
-     "odds": -106,
-     "dec": 1.946,
-     "odds_assumed": false,
-     "p": 0.436,
-     "implied": 0.514,
-     "edge": -0.077,
-     "ev": -0.151,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "odds_ref": 115,
-     "dec_ref": 2.15,
-     "p_model": 0.318,
-     "p_mkt": 0.476,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 19,
-       "value": 6.0,
-       "lg": 5.7,
-       "n": 30
-      }
-     },
-     "mean": 5.2,
-     "open": [
-      3.5,
-      1.946
      ]
     },
     {
@@ -196623,46 +196326,90 @@
     },
     {
      "kind": "prop",
-     "label": "Karl-Anthony Towns Over 20.5 Puntos",
-     "player": "Karl-Anthony Towns",
+     "label": "Jalen Brunson Under 6.5 Asistencias",
+     "player": "Jalen Brunson",
      "team": "NYK",
-     "line": 20.5,
-     "odds": -138,
-     "dec": 1.725,
+     "line": 6.5,
+     "odds": -141,
+     "dec": 1.709,
      "odds_assumed": false,
-     "p": 0.491,
-     "implied": 0.58,
-     "edge": -0.089,
-     "ev": -0.153,
+     "p": 0.492,
+     "implied": 0.585,
+     "edge": -0.093,
+     "ev": -0.159,
      "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.491,
-     "p_mkt": null,
+     "stat": "ast",
+     "side": "under",
+     "odds_ref": -129,
+     "dec_ref": 1.775,
+     "p_model": 0.342,
+     "p_mkt": 0.542,
      "cand": false,
      "hr": {
       "l10": [
-       7,
+       6,
        10
       ],
       "h2h": [
-       3,
-       3
+       0,
+       4
       ],
       "dvp": {
-       "pos": "C",
-       "rank": 17,
-       "value": 22.2,
-       "lg": 22.1,
+       "pos": "PG",
+       "rank": 23,
+       "value": 8.7,
+       "lg": 7.9,
        "n": 30
       }
      },
-     "mean": 22.0,
+     "mean": 8.4,
      "open": [
-      20.5,
-      1.725
+      6.5,
+      1.709
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Josh Hart Under 3.5 Asistencias",
+     "player": "Josh Hart",
+     "team": "NYK",
+     "line": 3.5,
+     "odds": -106,
+     "dec": 1.946,
+     "odds_assumed": false,
+     "p": 0.425,
+     "implied": 0.514,
+     "edge": -0.089,
+     "ev": -0.173,
+     "value": false,
+     "stat": "ast",
+     "side": "under",
+     "odds_ref": 115,
+     "dec_ref": 2.15,
+     "p_model": 0.273,
+     "p_mkt": 0.476,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       3
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 1,
+       "value": 3.4,
+       "lg": 4.4,
+       "n": 30
+      }
+     },
+     "mean": 5.6,
+     "open": [
+      3.5,
+      1.946
      ]
     },
     {
@@ -196674,16 +196421,16 @@
      "odds": -150,
      "dec": 1.668,
      "odds_assumed": false,
-     "p": 0.486,
+     "p": 0.485,
      "implied": 0.599,
-     "edge": -0.114,
-     "ev": -0.189,
+     "edge": -0.115,
+     "ev": -0.191,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -135,
      "dec_ref": 1.741,
-     "p_model": 0.486,
+     "p_model": 0.485,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196711,6 +196458,50 @@
     },
     {
      "kind": "prop",
+     "label": "Karl-Anthony Towns Under 21.5 Puntos",
+     "player": "Karl-Anthony Towns",
+     "team": "NYK",
+     "line": 21.5,
+     "odds": -126,
+     "dec": 1.792,
+     "odds_assumed": false,
+     "p": 0.436,
+     "implied": 0.558,
+     "edge": -0.122,
+     "ev": -0.219,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.436,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       3
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 17,
+       "value": 22.2,
+       "lg": 22.1,
+       "n": 30
+      }
+     },
+     "mean": 25.0,
+     "open": [
+      21.5,
+      1.792
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Andrew Nembhard Under 14.5 Puntos",
      "player": "Andrew Nembhard",
      "team": "IND",
@@ -196718,16 +196509,16 @@
      "odds": -126,
      "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.43,
+     "p": 0.427,
      "implied": 0.558,
-     "edge": -0.128,
-     "ev": -0.229,
+     "edge": -0.131,
+     "ev": -0.235,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.43,
+     "p_model": 0.427,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196755,23 +196546,23 @@
     },
     {
      "kind": "prop",
-     "label": "Jalen Brunson Under 28.5 Puntos",
-     "player": "Jalen Brunson",
+     "label": "Karl-Anthony Towns Under 13.5 Rebotes",
+     "player": "Karl-Anthony Towns",
      "team": "NYK",
-     "line": 28.5,
-     "odds": -138,
-     "dec": 1.725,
+     "line": 13.5,
+     "odds": -134,
+     "dec": 1.744,
      "odds_assumed": false,
-     "p": 0.43,
-     "implied": 0.58,
-     "edge": -0.15,
-     "ev": -0.258,
+     "p": 0.415,
+     "implied": 0.573,
+     "edge": -0.158,
+     "ev": -0.276,
      "value": false,
-     "stat": "pts",
+     "stat": "reb",
      "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.43,
+     "odds_ref": -122,
+     "dec_ref": 1.82,
+     "p_model": 0.415,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196781,64 +196572,20 @@
       ],
       "h2h": [
        1,
-       4
+       3
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 22,
-       "value": 28.6,
-       "lg": 26.9,
+       "pos": "C",
+       "rank": 27,
+       "value": 16.8,
+       "lg": 14.5,
        "n": 30
       }
      },
-     "mean": 33.5,
+     "mean": 15.5,
      "open": [
-      28.5,
-      1.725
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Mikal Bridges Under 11.5 Puntos",
-     "player": "Mikal Bridges",
-     "team": "NYK",
-     "line": 11.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.395,
-     "implied": 0.558,
-     "edge": -0.163,
-     "ev": -0.292,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.395,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       5
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 18,
-       "value": 21.0,
-       "lg": 20.4,
-       "n": 30
-      }
-     },
-     "mean": 14.8,
-     "open": [
-      11.5,
-      1.792
+      13.5,
+      1.744
      ]
     },
     {
@@ -196850,16 +196597,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.392,
+     "p": 0.391,
      "implied": 0.569,
-     "edge": -0.177,
-     "ev": -0.311,
+     "edge": -0.178,
+     "ev": -0.313,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.392,
+     "p_model": 0.391,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196894,16 +196641,16 @@
      "odds": -156,
      "dec": 1.643,
      "odds_assumed": false,
-     "p": 0.39,
+     "p": 0.392,
      "implied": 0.609,
-     "edge": -0.219,
-     "ev": -0.359,
+     "edge": -0.217,
+     "ev": -0.356,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -140,
      "dec_ref": 1.714,
-     "p_model": 0.39,
+     "p_model": 0.392,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196923,7 +196670,7 @@
        "n": 30
       }
      },
-     "mean": 3.2,
+     "mean": 3.3,
      "open": [
       3.5,
       1.643
@@ -196938,16 +196685,16 @@
      "odds": -126,
      "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.356,
+     "p": 0.355,
      "implied": 0.558,
-     "edge": -0.202,
-     "ev": -0.362,
+     "edge": -0.203,
+     "ev": -0.364,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.356,
+     "p_model": 0.355,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -196967,7 +196714,7 @@
        "n": 30
       }
      },
-     "mean": 11.3,
+     "mean": 11.2,
      "open": [
       12.5,
       1.792
@@ -196982,16 +196729,16 @@
      "odds": -146,
      "dec": 1.685,
      "odds_assumed": false,
-     "p": 0.373,
+     "p": 0.367,
      "implied": 0.594,
-     "edge": -0.22,
-     "ev": -0.371,
+     "edge": -0.226,
+     "ev": -0.382,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -132,
      "dec_ref": 1.758,
-     "p_model": 0.373,
+     "p_model": 0.367,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -197011,10 +196758,98 @@
        "n": 30
       }
      },
-     "mean": 9.7,
+     "mean": 9.6,
      "open": [
       10.5,
       1.685
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Jalen Brunson Under 28.5 Puntos",
+     "player": "Jalen Brunson",
+     "team": "NYK",
+     "line": 28.5,
+     "odds": -138,
+     "dec": 1.725,
+     "odds_assumed": false,
+     "p": 0.352,
+     "implied": 0.58,
+     "edge": -0.228,
+     "ev": -0.393,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.352,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 22,
+       "value": 28.6,
+       "lg": 26.9,
+       "n": 30
+      }
+     },
+     "mean": 36.6,
+     "open": [
+      28.5,
+      1.725
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Mikal Bridges Under 11.5 Puntos",
+     "player": "Mikal Bridges",
+     "team": "NYK",
+     "line": 11.5,
+     "odds": -126,
+     "dec": 1.792,
+     "odds_assumed": false,
+     "p": 0.322,
+     "implied": 0.558,
+     "edge": -0.236,
+     "ev": -0.423,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.322,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       5
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 10,
+       "value": 22.0,
+       "lg": 23.3,
+       "n": 30
+      }
+     },
+     "mean": 16.3,
+     "open": [
+      11.5,
+      1.792
      ]
     }
    ],
@@ -197024,42 +196859,42 @@
       "Andrew Nembhard": [
        [
         "Pascal Siakam",
-        2.8,
+        2.9,
         4.2
-       ],
-       [
-        "Obi Toppin",
-        2.0,
-        3.1
        ],
        [
         "Aaron Nesmith",
         1.9,
         4.3
+       ],
+       [
+        "Kelly Oubre Jr.",
+        1.9,
+        4.0
        ]
       ],
       "Pascal Siakam": [
        [
         "Andrew Nembhard",
-        1.9,
+        2.0,
         2.6
        ],
        [
         "Aaron Nesmith",
-        1.5,
-        2.6
+        1.6,
+        2.7
        ],
        [
         "Kelly Oubre Jr.",
-        1.4,
+        1.5,
         2.3
        ]
       ],
       "Aaron Nesmith": [
        [
         "Pascal Siakam",
-        2.0,
-        3.7
+        2.3,
+        3.8
        ],
        [
         "Andrew Nembhard",
@@ -197068,15 +196903,15 @@
        ],
        [
         "Kelly Oubre Jr.",
-        1.4,
-        3.5
+        1.5,
+        3.4
        ]
       ],
       "Kelly Oubre Jr.": [
        [
         "Pascal Siakam",
-        1.8,
-        3.0
+        2.1,
+        3.1
        ],
        [
         "Andrew Nembhard",
@@ -197086,13 +196921,13 @@
        [
         "Aaron Nesmith",
         1.3,
-        3.0
+        3.1
        ]
       ],
       "Ivica Zubac": [
        [
         "Pascal Siakam",
-        1.6,
+        1.9,
         3.0
        ],
        [
@@ -197109,13 +196944,13 @@
       "Quenton Jackson": [
        [
         "Pascal Siakam",
-        1.4,
+        1.6,
         2.4
        ],
        [
         "Andrew Nembhard",
         1.2,
-        2.3
+        2.2
        ],
        [
         "Aaron Nesmith",
@@ -197155,7 +196990,7 @@
      "planb": {
       "Andrew Nembhard": {
        "p_play": 1.0,
-       "min": 33.8,
+       "min": 33.9,
        "picks": [
         {
          "kind": "prop",
@@ -197166,9 +197001,9 @@
          "side": "over",
          "line": 1.5,
          "dec": 2.066,
-         "p": 0.507,
+         "p": 0.51,
          "base_p": 0.456,
-         "ev": 0.047,
+         "ev": 0.054,
          "if_out": "Andrew Nembhard",
          "mean": 2.1,
          "mean0": 1.8
@@ -197182,28 +197017,34 @@
          "side": "over",
          "line": 8.5,
          "dec": 1.904,
-         "p": 0.546,
+         "p": 0.549,
          "base_p": 0.464,
-         "ev": 0.041,
+         "ev": 0.046,
          "if_out": "Andrew Nembhard",
-         "mean": 9.2,
-         "mean0": 8.0
-        },
+         "mean": 9.3,
+         "mean0": 7.9
+        }
+       ]
+      },
+      "Aaron Nesmith": {
+       "p_play": 1.0,
+       "min": 29.7,
+       "picks": [
         {
          "kind": "prop",
-         "label": "Aaron Nesmith Over 3.5 Rebotes",
-         "player": "Aaron Nesmith",
+         "label": "Obi Toppin Over 1.5 Triples",
+         "player": "Obi Toppin",
          "team": "IND",
-         "stat": "reb",
+         "stat": "fg3m",
          "side": "over",
-         "line": 3.5,
-         "dec": 1.789,
-         "p": 0.576,
-         "base_p": 0.512,
-         "ev": 0.03,
-         "if_out": "Andrew Nembhard",
-         "mean": 4.4,
-         "mean0": 3.8
+         "line": 1.5,
+         "dec": 2.066,
+         "p": 0.501,
+         "base_p": 0.456,
+         "ev": 0.035,
+         "if_out": "Aaron Nesmith",
+         "mean": 2.1,
+         "mean0": 1.8
         }
        ]
       }
@@ -197214,112 +197055,112 @@
       "Jalen Brunson": [
        [
         "Karl-Anthony Towns",
-        6.2,
-        4.7
-       ],
-       [
-        "OG Anunoby",
-        5.1,
+        7.0,
         4.4
        ],
        [
+        "Josh Hart",
+        5.1,
+        5.2
+       ],
+       [
         "Mikal Bridges",
-        4.6,
-        4.3
+        5.1,
+        4.2
        ]
       ],
       "Mikal Bridges": [
        [
         "Karl-Anthony Towns",
         2.8,
-        3.9
+        3.8
        ],
        [
         "Jalen Brunson",
         2.7,
-        2.5
+        1.6
        ],
        [
-        "OG Anunoby",
-        2.1,
-        3.7
-       ]
-      ],
-      "OG Anunoby": [
-       [
-        "Jalen Brunson",
-        2.0,
-        1.7
-       ],
-       [
-        "Karl-Anthony Towns",
-        1.6,
-        2.2
-       ],
-       [
-        "Mikal Bridges",
-        1.2,
-        2.1
+        "Josh Hart",
+        2.3,
+        4.3
        ]
       ],
       "Karl-Anthony Towns": [
        [
         "Jalen Brunson",
-        3.0,
-        1.9
-       ],
-       [
-        "OG Anunoby",
-        1.9,
-        2.4
+        3.3,
+        1.5
        ],
        [
         "Mikal Bridges",
-        1.7,
-        2.4
+        2.0,
+        2.7
+       ],
+       [
+        "Josh Hart",
+        1.9,
+        3.0
        ]
       ],
       "Josh Hart": [
        [
         "Jalen Brunson",
-        2.3,
-        2.2
+        2.4,
+        1.5
        ],
        [
         "Karl-Anthony Towns",
-        2.2,
+        2.4,
         3.4
        ],
        [
-        "OG Anunoby",
-        1.7,
-        3.2
+        "Landry Shamet",
+        2.0,
+        4.2
        ]
       ],
       "Landry Shamet": [
        [
-        "Jalen Brunson",
-        1.9,
-        1.9
-       ],
-       [
         "Karl-Anthony Towns",
-        1.8,
-        2.9
+        2.0,
+        3.1
        ],
        [
-        "OG Anunoby",
-        1.4,
-        2.8
+        "Jalen Brunson",
+        1.8,
+        1.4
+       ],
+       [
+        "Josh Hart",
+        1.7,
+        3.5
        ]
       ]
      },
-     "real": {},
+     "real": {
+      "Jordan Clarkson": [
+       [
+        "Jose Alvarado",
+        4.6,
+        2,
+        5
+       ],
+       [
+        "Karl-Anthony Towns",
+        2.6,
+        3,
+        9
+       ],
+       [
+        "Andre Drummond",
+        2.6,
+        4,
+        9
+       ]
+      ]
+     },
      "doubt": [
-      [
-       "OG Anunoby",
-       0.5
-      ],
       [
        "Karl-Anthony Towns",
        0.6
@@ -197328,24 +197169,8 @@
      "planb": {
       "Jalen Brunson": {
        "p_play": 1.0,
-       "min": 37.5,
+       "min": 39.7,
        "picks": [
-        {
-         "kind": "prop",
-         "label": "OG Anunoby Over 16.5 Puntos",
-         "player": "OG Anunoby",
-         "team": "NYK",
-         "stat": "pts",
-         "side": "over",
-         "line": 16.5,
-         "dec": 1.833,
-         "p": 0.638,
-         "base_p": 0.513,
-         "ev": 0.17,
-         "if_out": "Jalen Brunson",
-         "mean": 23.8,
-         "mean0": 18.7
-        },
         {
          "kind": "prop",
          "label": "Josh Hart Over 3.5 Asistencias",
@@ -197355,12 +197180,12 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.767,
-         "p": 0.627,
-         "base_p": 0.564,
-         "ev": 0.108,
+         "p": 0.634,
+         "base_p": 0.575,
+         "ev": 0.121,
          "if_out": "Jalen Brunson",
-         "mean": 6.1,
-         "mean0": 5.2
+         "mean": 6.5,
+         "mean0": 5.6
         },
         {
          "kind": "prop",
@@ -197371,34 +197196,50 @@
          "side": "over",
          "line": 1.5,
          "dec": 2.179,
-         "p": 0.507,
-         "base_p": 0.446,
+         "p": 0.506,
+         "base_p": 0.457,
          "ev": 0.104,
          "if_out": "Jalen Brunson",
-         "mean": 2.2,
-         "mean0": 1.8
+         "mean": 2.3,
+         "mean0": 2.0
         },
         {
          "kind": "prop",
-         "label": "OG Anunoby Over 4.5 Rebotes",
-         "player": "OG Anunoby",
+         "label": "Karl-Anthony Towns Over 3.5 Asistencias",
+         "player": "Karl-Anthony Towns",
          "team": "NYK",
-         "stat": "reb",
+         "stat": "ast",
          "side": "over",
-         "line": 4.5,
-         "dec": 1.612,
-         "p": 0.655,
-         "base_p": 0.591,
-         "ev": 0.055,
+         "line": 3.5,
+         "dec": 1.99,
+         "p": 0.532,
+         "base_p": 0.473,
+         "ev": 0.059,
          "if_out": "Jalen Brunson",
-         "mean": 6.9,
-         "mean0": 6.0
+         "mean": 4.2,
+         "mean0": 3.8
+        },
+        {
+         "kind": "prop",
+         "label": "Landry Shamet Over 2.5 Triples",
+         "player": "Landry Shamet",
+         "team": "NYK",
+         "stat": "fg3m",
+         "side": "over",
+         "line": 2.5,
+         "dec": 2.025,
+         "p": 0.511,
+         "base_p": 0.443,
+         "ev": 0.035,
+         "if_out": "Jalen Brunson",
+         "mean": 2.8,
+         "mean0": 2.4
         }
        ]
       },
       "Mikal Bridges": {
        "p_play": 1.0,
-       "min": 33.9,
+       "min": 36.0,
        "picks": [
         {
          "kind": "prop",
@@ -197409,28 +197250,66 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.767,
-         "p": 0.619,
-         "base_p": 0.564,
-         "ev": 0.095,
+         "p": 0.626,
+         "base_p": 0.575,
+         "ev": 0.106,
          "if_out": "Mikal Bridges",
-         "mean": 6.0,
-         "mean0": 5.2
+         "mean": 6.3,
+         "mean0": 5.6
         },
         {
          "kind": "prop",
-         "label": "OG Anunoby Over 16.5 Puntos",
-         "player": "OG Anunoby",
+         "label": "Josh Hart Over 1.5 Triples",
+         "player": "Josh Hart",
          "team": "NYK",
-         "stat": "pts",
+         "stat": "fg3m",
          "side": "over",
-         "line": 16.5,
-         "dec": 1.833,
-         "p": 0.573,
-         "base_p": 0.513,
-         "ev": 0.05,
+         "line": 1.5,
+         "dec": 2.179,
+         "p": 0.501,
+         "base_p": 0.457,
+         "ev": 0.092,
          "if_out": "Mikal Bridges",
-         "mean": 20.8,
-         "mean0": 18.7
+         "mean": 2.3,
+         "mean0": 2.0
+        },
+        {
+         "kind": "prop",
+         "label": "Karl-Anthony Towns Over 3.5 Asistencias",
+         "player": "Karl-Anthony Towns",
+         "team": "NYK",
+         "stat": "ast",
+         "side": "over",
+         "line": 3.5,
+         "dec": 1.99,
+         "p": 0.522,
+         "base_p": 0.473,
+         "ev": 0.038,
+         "if_out": "Mikal Bridges",
+         "mean": 4.2,
+         "mean0": 3.8
+        }
+       ]
+      },
+      "Landry Shamet": {
+       "p_play": 1.0,
+       "min": 30.5,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Josh Hart Over 3.5 Asistencias",
+         "player": "Josh Hart",
+         "team": "NYK",
+         "stat": "ast",
+         "side": "over",
+         "line": 3.5,
+         "dec": 1.767,
+         "p": 0.616,
+         "base_p": 0.575,
+         "ev": 0.089,
+         "if_out": "Landry Shamet",
+         "mean": 6.2,
+         "mean0": 5.6
         },
         {
          "kind": "prop",
@@ -197441,110 +197320,12 @@
          "side": "over",
          "line": 7.5,
          "dec": 1.829,
-         "p": 0.566,
-         "base_p": 0.492,
-         "ev": 0.036,
-         "if_out": "Mikal Bridges",
-         "mean": 8.5,
-         "mean0": 7.5
-        },
-        {
-         "kind": "prop",
-         "label": "OG Anunoby Over 4.5 Rebotes",
-         "player": "OG Anunoby",
-         "team": "NYK",
-         "stat": "reb",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.612,
-         "p": 0.643,
-         "base_p": 0.591,
-         "ev": 0.036,
-         "if_out": "Mikal Bridges",
-         "mean": 6.7,
-         "mean0": 6.0
-        }
-       ]
-      },
-      "Karl-Anthony Towns": {
-       "p_play": 0.6,
-       "min": 32.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "OG Anunoby Over 16.5 Puntos",
-         "player": "OG Anunoby",
-         "team": "NYK",
-         "stat": "pts",
-         "side": "over",
-         "line": 16.5,
-         "dec": 1.833,
-         "p": 0.569,
-         "base_p": 0.513,
-         "ev": 0.042,
-         "if_out": "Karl-Anthony Towns",
-         "mean": 20.6,
-         "mean0": 18.7
-        }
-       ]
-      },
-      "Josh Hart": {
-       "p_play": 1.0,
-       "min": 30.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "OG Anunoby Over 4.5 Rebotes",
-         "player": "OG Anunoby",
-         "team": "NYK",
-         "stat": "reb",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.612,
-         "p": 0.642,
-         "base_p": 0.591,
-         "ev": 0.035,
-         "if_out": "Josh Hart",
-         "mean": 6.6,
-         "mean0": 6.0
-        },
-        {
-         "kind": "prop",
-         "label": "OG Anunoby Over 16.5 Puntos",
-         "player": "OG Anunoby",
-         "team": "NYK",
-         "stat": "pts",
-         "side": "over",
-         "line": 16.5,
-         "dec": 1.833,
-         "p": 0.563,
-         "base_p": 0.513,
-         "ev": 0.032,
-         "if_out": "Josh Hart",
-         "mean": 20.4,
-         "mean0": 18.7
-        }
-       ]
-      },
-      "Landry Shamet": {
-       "p_play": 1.0,
-       "min": 28.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Josh Hart Over 3.5 Asistencias",
-         "player": "Josh Hart",
-         "team": "NYK",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.767,
-         "p": 0.606,
-         "base_p": 0.564,
-         "ev": 0.071,
+         "p": 0.572,
+         "base_p": 0.51,
+         "ev": 0.047,
          "if_out": "Landry Shamet",
-         "mean": 5.8,
-         "mean0": 5.2
+         "mean": 9.1,
+         "mean0": 8.2
         }
        ]
       }

@@ -1330,7 +1330,28 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "97f4eeb338fd8dd1",
+   "at": "2026-11-22T21:04+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-IND-at-NYK",
+   "title": "IND @ NYK (8:00 pm ET): novedades de bajas",
+   "body": "Bajas: Clarkson, Anunoby OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 16:20 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-IND-at-NYK",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Jordan Clarkson",
+    "OG Anunoby"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-22T16:28+00:00"
+ "updated": "2026-11-22T21:04+00:00"
 }
