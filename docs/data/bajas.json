@@ -1,182 +1,6 @@
 {
- "updated": "2026-11-22T00:02+00:00",
+ "updated": "2026-11-22T00:05+00:00",
  "list": [
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-ATL-at-OKC",
-   "player": "Jock Landale",
-   "team": "ATL",
-   "status": "out",
-   "note": "cadera; OUT en OKC",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-ATL-at-OKC",
-   "player": "Kingston Flemings",
-   "team": "ATL",
-   "status": "out",
-   "note": "espalda; OUT en OKC",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-DET-at-NOP",
-   "player": "Cade Cunningham",
-   "team": "DET",
-   "status": "duda",
-   "note": "rodilla derecha; questionable vs NOP (18-nov)",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:18+00:00",
-   "sim": false
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-DET-at-NOP",
-   "player": "Isaiah Joe",
-   "team": "DET",
-   "status": "out",
-   "note": "cadera; OUT vs NOP",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-DET-at-NOP",
-   "player": "Ronald Holland II",
-   "team": "DET",
-   "status": "out",
-   "note": "rodilla; OUT vs NOP",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-GSW-at-DAL",
-   "player": "Al Horford",
-   "team": "GSW",
-   "status": "out",
-   "note": "Manejo de espalda; no juega vs DAL (sí el jueves)",
-   "source": "NBC Sports 18:40 ET",
-   "at": "2026-11-19T00:02+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-HOU-at-IND",
-   "player": "Andrew Nembhard",
-   "team": "IND",
-   "status": "out",
-   "note": "cadera; bajado a OUT vs HOU",
-   "source": "NBC Sports 17:22 ET",
-   "at": "2026-11-18T23:33+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-MEM-at-CLE",
-   "player": "Jaylon Tyson",
-   "team": "CLE",
-   "status": "out",
-   "note": "tobillo; descartado vs MEM",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-MEM-at-CLE",
-   "player": "Peyton Watson",
-   "team": "CLE",
-   "status": "duda",
-   "note": "espalda; doubtful vs MEM",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": false
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-MIL-at-MIA",
-   "player": "Myron Gardner",
-   "team": "MIA",
-   "status": "out",
-   "note": "isquio; OUT vs MIL",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-MIL-at-MIA",
-   "player": "Ryan Rollins",
-   "team": "MIL",
-   "status": "out",
-   "note": "enfermedad; descartado en MIA",
-   "source": "ESPN injuries 18:20 ET",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-PHI-at-ORL",
-   "player": "Dean Wade",
-   "team": "PHI",
-   "status": "out",
-   "note": "isquio; OUT vs ORL",
-   "source": "NBC Sports 18:30 ET",
-   "at": "2026-11-18T23:33+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-UTA-at-LAL",
-   "player": "Austin Reaves",
-   "team": "LAL",
-   "status": "out",
-   "note": "talón; descartado el miércoles",
-   "source": "ESPN injuries 18:20 ET; RotoBaller",
-   "at": "2026-11-18T23:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-UTA-at-LAL",
-   "player": "Jaxson Hayes",
-   "team": "UTA",
-   "status": "duda",
-   "note": "rodilla; questionable vs LAL",
-   "source": "NBC Sports 18:30 ET",
-   "at": "2026-11-18T23:33+00:00",
-   "sim": false
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-WAS-at-TOR",
-   "player": "RJ Barrett",
-   "team": "TOR",
-   "status": "out",
-   "note": "isquio; OUT vs WAS",
-   "source": "NBC Sports 18:30 ET",
-   "at": "2026-11-18T23:33+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-18",
-   "gid": "2026-11-18-WAS-at-TOR",
-   "player": "Scottie Barnes",
-   "team": "TOR",
-   "status": "out",
-   "note": "manejo de carga/ingle; descartado vs WAS",
-   "source": "ESPN injuries 18:20 ET; RotoBaller",
-   "at": "2026-11-18T23:17+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-19",
    "gid": "2026-11-19-GSW-at-MEM",
@@ -307,7 +131,7 @@
    "note": "hombro; marcado OUT en Rotowire lineups vs LAC",
    "source": "Rotowire lineups 19:00 ET",
    "at": "2026-11-22T00:02+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
@@ -329,7 +153,7 @@
    "note": "enfermedad; marcado OUT en Rotowire lineups vs POR",
    "source": "Rotowire lineups 19:00 ET",
    "at": "2026-11-22T00:02+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-21",
