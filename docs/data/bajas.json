@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:13+00:00",
+ "updated": "2026-11-22T00:02+00:00",
  "list": [
   {
    "date": "2026-11-18",
@@ -303,10 +303,10 @@
    "gid": "2026-11-21-LAC-at-DAL",
    "player": "P.J. Washington",
    "team": "DAL",
-   "status": "duda",
-   "note": "hombro; doubtful vs LAC",
-   "source": "RotoWire lineups 18:15 ET",
-   "at": "2026-11-21T23:11+00:00",
+   "status": "out",
+   "note": "hombro; marcado OUT en Rotowire lineups vs LAC",
+   "source": "Rotowire lineups 19:00 ET",
+   "at": "2026-11-22T00:02+00:00",
    "sim": false
   },
   {
@@ -319,6 +319,17 @@
    "source": "RotoWire lineups 18:15 ET",
    "at": "2026-11-21T23:11+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-21",
+   "gid": "2026-11-21-POR-at-NYK",
+   "player": "Karl-Anthony Towns",
+   "team": "NYK",
+   "status": "out",
+   "note": "enfermedad; marcado OUT en Rotowire lineups vs POR",
+   "source": "Rotowire lineups 19:00 ET",
+   "at": "2026-11-22T00:02+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-21",
