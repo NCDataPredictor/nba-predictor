@@ -15,12 +15,11 @@
    "Stephen Curry",
    "Kristaps Porzingis",
    "Moses Moody",
-   "Jimmy Butler"
+   "Jimmy Butler",
+   "Paul George",
+   "Mitchell Robinson"
   ],
-  "gtd": {
-   "Derrick White": 0.65,
-   "Mitchell Robinson": 0.5
-  },
+  "gtd": {},
   "reserves": {
    "BOS": [
     {
@@ -93,13 +92,13 @@
     "pace": 95.86
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -2.5,
+    "d": 1.25,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Paul George (19.8 ppg) y M. Robinson OUT 22-nov (Athlon 16:30 ET); Tatum y White fuera del parte"
    }
   }
  },
@@ -610,7 +609,7 @@
    "name": "Jayson Tatum",
    "pos": "SF",
    "starter": true,
-   "min": 30.3,
+   "min": 36.8,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -645,48 +644,6 @@
     "ftm": 4.06,
     "fta": 4.94
    },
-   "slot": "SG"
-  },
-  {
-   "team": "BOS",
-   "name": "Paul George",
-   "pos": "PF",
-   "starter": true,
-   "min": 26.8,
-   "g_cur": 14,
-   "p_play": 1.0,
-   "cur": {
-    "min": 30.1,
-    "pts": 19.8,
-    "reb": 5.7,
-    "ast": 3.8,
-    "fg3m": 3.3,
-    "fgm": 7.1,
-    "fga": 15.8,
-    "fg3a": 8.1,
-    "stl": 2.2,
-    "blk": 0.4,
-    "tov": 2.5,
-    "pf": 2.8,
-    "ftm": 2.4,
-    "fta": 3.0
-   },
-   "prior": {
-    "min": 30.6,
-    "pts": 17.32,
-    "reb": 5.3,
-    "ast": 3.59,
-    "fg3m": 2.7,
-    "fgm": 6.08,
-    "fga": 13.86,
-    "fg3a": 6.89,
-    "stl": 1.68,
-    "blk": 0.43,
-    "tov": 1.73,
-    "pf": 2.27,
-    "ftm": 2.46,
-    "fta": 3.0
-   },
    "slot": "SF"
   },
   {
@@ -694,9 +651,9 @@
    "name": "Derrick White",
    "pos": "PG",
    "starter": true,
-   "min": 26.6,
+   "min": 32.3,
    "g_cur": 15,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 29.9,
     "pts": 12.7,
@@ -736,7 +693,7 @@
    "name": "Payton Pritchard",
    "pos": "PG",
    "starter": false,
-   "min": 24.6,
+   "min": 29.9,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -777,7 +734,7 @@
    "name": "Neemias Queta",
    "pos": "C",
    "starter": true,
-   "min": 20.4,
+   "min": 24.7,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -819,7 +776,7 @@
    "name": "Sam Hauser",
    "pos": "PF",
    "starter": false,
-   "min": 18.7,
+   "min": 22.7,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -860,7 +817,7 @@
    "name": "Baylor Scheierman",
    "pos": "SF",
    "starter": false,
-   "min": 17.2,
+   "min": 20.8,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -898,51 +855,10 @@
   },
   {
    "team": "BOS",
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "starter": false,
-   "min": 15.7,
-   "g_cur": 14,
-   "p_play": 0.5,
-   "cur": {
-    "min": 17.6,
-    "pts": 5.1,
-    "reb": 5.4,
-    "ast": 0.9,
-    "fg3m": 0.0,
-    "fgm": 2.3,
-    "fga": 3.5,
-    "fg3a": 0.0,
-    "stl": 0.7,
-    "blk": 0.8,
-    "tov": 0.9,
-    "pf": 2.4,
-    "ftm": 0.6,
-    "fta": 1.6
-   },
-   "prior": {
-    "min": 19.6,
-    "pts": 5.67,
-    "reb": 8.75,
-    "ast": 0.87,
-    "fg3m": 0.0,
-    "fgm": 2.48,
-    "fga": 3.43,
-    "fg3a": 0.0,
-    "stl": 0.93,
-    "blk": 1.17,
-    "tov": 0.68,
-    "pf": 2.12,
-    "ftm": 0.7,
-    "fta": 1.72
-   }
-  },
-  {
-   "team": "BOS",
    "name": "Jordan Walsh",
    "pos": "PF",
    "starter": true,
-   "min": 13.5,
+   "min": 16.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -984,7 +900,7 @@
    "name": "Hugo González",
    "pos": "SG",
    "starter": false,
-   "min": 11.7,
+   "min": 14.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -1025,7 +941,7 @@
    "name": "Luka Garza",
    "pos": "C",
    "starter": false,
-   "min": 11.2,
+   "min": 13.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -1065,8 +981,8 @@
    "team": "BOS",
    "name": "Mike Conley",
    "pos": "PG",
-   "starter": false,
-   "min": 8.9,
+   "starter": true,
+   "min": 10.8,
    "g_cur": 5,
    "p_play": 1.0,
    "cur": {
@@ -1100,14 +1016,15 @@
     "pf": 1.56,
     "ftm": 0.83,
     "fta": 0.93
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "BOS",
    "name": "Chris Cenac Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 7.4,
+   "min": 9.0,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -1148,7 +1065,7 @@
    "name": "Devin Carter",
    "pos": "PG",
    "starter": false,
-   "min": 7.1,
+   "min": 8.6,
    "g_cur": 2,
    "p_play": 1.0,
    "cur": {
@@ -1187,14 +1104,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 312,
-  "ml_away": -395,
-  "spread_home": 9.5,
-  "total": 210.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -113,
-  "under_odds": -107
+  "ml_home": 247,
+  "ml_away": -304,
+  "spread_home": 7.5,
+  "total": 209.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Neemias Queta": {
@@ -1261,28 +1178,6 @@
     -136,
     -139,
     6.5
-   ]
-  },
-  "Paul George": {
-   "reb": [
-    4.5,
-    -112,
-    -112
-   ],
-   "ast": [
-    3.5,
-    105,
-    -135
-   ],
-   "fg3m": [
-    2.5,
-    -165,
-    130
-   ],
-   "pts": [
-    18.5,
-    -105,
-    -120
    ]
   },
   "Draymond Green": {

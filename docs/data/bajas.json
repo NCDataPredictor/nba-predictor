@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:07+00:00",
+ "updated": "2026-11-22T22:10+00:00",
  "list": [
   {
    "date": "2026-11-19",
@@ -175,7 +175,7 @@
    "note": "enfermedad, OUT vs GSW",
    "source": "Athlon parte final 16:30 ET",
    "at": "2026-11-22T22:07+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-22",
@@ -186,7 +186,7 @@
    "note": "descanso, OUT vs GSW",
    "source": "Athlon parte final 16:30 ET",
    "at": "2026-11-22T22:07+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-22",
@@ -219,7 +219,7 @@
    "note": "espalda/cuello, descartado vs MIA",
    "source": "Marc Stein vía HotTakes 16:40 ET + Rotowire",
    "at": "2026-11-22T22:07+00:00",
-   "sim": false
+   "sim": true
   }
  ]
 }
