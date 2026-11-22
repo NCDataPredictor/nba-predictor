@@ -1038,14 +1038,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 165,
-  "ml_away": -197,
+  "ml_home": 164,
+  "ml_away": -196,
   "spread_home": 4.5,
-  "total": 220.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -108,
-  "under_odds": -112
+  "total": 219.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Anthony Davis": {
@@ -1138,8 +1138,8 @@
    ],
    "fg3m": [
     1.5,
-    -101,
-    -105
+    100,
+    -111
    ],
    "pts": [
     14.5,
@@ -1152,7 +1152,7 @@
    "reb": [
     4.5,
     100,
-    -111
+    -122
    ],
    "ast": [
     2.5,

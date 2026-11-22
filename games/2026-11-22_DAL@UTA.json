@@ -1031,8 +1031,8 @@
   "total": 225.5,
   "spread_odds_home": -114,
   "spread_odds_away": -106,
-  "over_odds": -113,
-  "under_odds": -107
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Cooper Flagg": {
@@ -1055,8 +1055,8 @@
   "Daniel Gafford": {
    "reb": [
     6.5,
-    -105,
-    -112
+    112,
+    -120
    ]
   },
   "Jaxson Hayes": {

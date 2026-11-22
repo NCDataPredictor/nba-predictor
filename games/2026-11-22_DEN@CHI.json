@@ -1117,14 +1117,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 340,
-  "ml_away": -437,
-  "spread_home": 9.5,
-  "total": 235.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -108,
-  "under_odds": -112
+  "ml_home": 328,
+  "ml_away": -419,
+  "spread_home": 10.5,
+  "total": 236.5,
+  "spread_odds_home": -117,
+  "spread_odds_away": -104,
+  "over_odds": -109,
+  "under_odds": -111
  },
  "prop_lines": {
   "Nikola Jokić": {
@@ -1161,8 +1161,8 @@
   "Josh Giddey": {
    "reb": [
     6.5,
-    114,
-    -112
+    110,
+    -135
    ],
    "ast": [
     7.5,

@@ -1499,7 +1499,47 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "d3419ce3842ea089",
+   "at": "2026-11-22T23:33+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-DAL-at-UTA",
+   "title": "DAL @ UTA (7:00 pm ET): cambian los picks",
+   "body": "Sale: Daniel Gafford Under 6.5 Rebotes.",
+   "label": "Revisión 18:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-DAL-at-UTA",
+   "added": [],
+   "removed": [
+    "Daniel Gafford Under 6.5 Rebotes"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "7f43dfa6c30a3bba",
+   "at": "2026-11-22T23:33+00:00",
+   "date": "2026-11-22",
+   "gid": "2026-11-22-ORL-at-WAS",
+   "title": "ORL @ WAS (7:00 pm ET): cambian los picks",
+   "body": "Sale: Anthony Black Under 1.5 Triples.",
+   "label": "Revisión 18:35 ET",
+   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-22-ORL-at-WAS",
+   "added": [],
+   "removed": [
+    "Anthony Black Under 1.5 Triples"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-22T22:35+00:00"
+ "updated": "2026-11-22T23:33+00:00"
 }

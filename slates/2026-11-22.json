@@ -8,7 +8,8 @@
   "b2b": "DAL, NYK y BOS jugaron el 21-nov",
   "db": "BD de rankings: snapshot del 22-nov (B-Ref 2026-27 hasta 20-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta 20-nov)",
   "h2h": "h2h/2025-26.json (10 cruces de hoy añadidos desde los game logs 2025-26; el resto ya estaba)",
-  "props": "scoresandodds /nba/props/<rebounds|assists|3-pointers>?date=2026-11-22 (~11:40 ET, ya con la jornada; mejor cuota por lado; [línea over, cuota over, cuota under, línea under] si difieren; solo la parte literal de la página). Puntos: scoresandodds seguía en el 21-nov; solo las props destacadas de Covers en ORL@WAS, IND@NYK y BOS@GSW (mejor cuota por lado)"
+  "props": "scoresandodds /nba/props/<rebounds|assists|3-pointers>?date=2026-11-22 (~11:40 ET, ya con la jornada; mejor cuota por lado; [línea over, cuota over, cuota under, línea under] si difieren; solo la parte literal de la página). Puntos: scoresandodds seguía en el 21-nov; solo las props destacadas de Covers en ORL@WAS, IND@NYK y BOS@GSW (mejor cuota por lado)",
+  "odds_1835": "consenso scoresandodds.com/nba y /nba/props 18:35 ET (pendientes)"
  },
  "b2b_adj": {
   "o": -1.0,
@@ -323,8 +324,8 @@
   "Daniel Gafford": {
    "reb": [
     6.5,
-    -105,
-    -112
+    112,
+    -120
    ]
   },
   "Franz Wagner": {
@@ -356,8 +357,8 @@
   "Josh Giddey": {
    "reb": [
     6.5,
-    114,
-    -112
+    110,
+    -135
    ],
    "ast": [
     7.5,
@@ -552,8 +553,8 @@
    ],
    "fg3m": [
     1.5,
-    -101,
-    -105
+    100,
+    -111
    ],
    "pts": [
     14.5,
@@ -605,7 +606,7 @@
    "reb": [
     4.5,
     100,
-    -111
+    -122
    ],
    "ast": [
     2.5,
@@ -979,8 +980,8 @@
   "Payton Pritchard": {
    "ast": [
     4.5,
-    111,
-    -125
+    126,
+    -145
    ],
    "fg3m": [
     2.5,
@@ -1214,14 +1215,14 @@
    "tip_et": "19:00",
    "venue": "Capital One Arena, Washington",
    "market": {
-    "ml_home": 165,
-    "ml_away": -197,
+    "ml_home": 164,
+    "ml_away": -196,
     "spread_home": 4.5,
-    "total": 220.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -108,
-    "under_odds": -112
+    "total": 219.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {},
@@ -1256,8 +1257,8 @@
     "total": 225.5,
     "spread_odds_home": -114,
     "spread_odds_away": -106,
-    "over_odds": -113,
-    "under_odds": -107
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "DAL"
@@ -1298,14 +1299,14 @@
    "tip_et": "19:00",
    "venue": "United Center, Chicago",
    "market": {
-    "ml_home": 340,
-    "ml_away": -437,
-    "spread_home": 9.5,
-    "total": 235.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -108,
-    "under_odds": -112
+    "ml_home": 328,
+    "ml_away": -419,
+    "spread_home": 10.5,
+    "total": 236.5,
+    "spread_odds_home": -117,
+    "spread_odds_away": -104,
+    "over_odds": -109,
+    "under_odds": -111
    },
    "b2b": [],
    "adj": {
@@ -1340,11 +1341,11 @@
     "ml_home": -296,
     "ml_away": 240,
     "spread_home": -7.5,
-    "total": 213.5,
+    "total": 212.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
-    "over_odds": -106,
-    "under_odds": -114
+    "over_odds": -116,
+    "under_odds": -105
    },
    "b2b": [
     "NYK"
@@ -1384,14 +1385,14 @@
    "tip_et": "20:30",
    "venue": "Chase Center, San Francisco",
    "market": {
-    "ml_home": 247,
-    "ml_away": -304,
+    "ml_home": 261,
+    "ml_away": -324,
     "spread_home": 7.5,
-    "total": 209.5,
-    "spread_odds_home": -108,
-    "spread_odds_away": -112,
-    "over_odds": -110,
-    "under_odds": -110
+    "total": 210.5,
+    "spread_odds_home": -106,
+    "spread_odds_away": -114,
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [
     "BOS"
