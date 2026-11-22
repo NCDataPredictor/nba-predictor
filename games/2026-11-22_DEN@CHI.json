@@ -1,0 +1,1283 @@
+{
+ "game": {
+  "date": "2026-11-22",
+  "away": "DEN",
+  "home": "CHI",
+  "venue": "United Center, Chicago",
+  "tip_et": "19:00",
+  "neutral": false,
+  "notes": [
+   "DEN: Strawther OUT",
+   "CHI: Powell (isquio, nuevo), Wilson y Awaka OUT; Jalen Smith (enfermedad) cuestionable; P. Williams probable"
+  ],
+  "out": [
+   "Julian Strawther",
+   "Norman Powell",
+   "Caleb Wilson",
+   "Tobe Awaka"
+  ],
+  "gtd": {
+   "Jalen Smith": 0.6,
+   "Patrick Williams": 0.9
+  },
+  "reserves": {
+   "DEN": [
+    {
+     "name": "Cam Whitmore",
+     "pos": "SF",
+     "min": 7.5,
+     "g": 2
+    },
+    {
+     "name": "Zeke Nnaji",
+     "pos": "PF",
+     "min": 3.5,
+     "g": 2
+    },
+    {
+     "name": "Ryan Nembhard",
+     "pos": "PG",
+     "min": 3.3,
+     "g": 3
+    },
+    {
+     "name": "DaRon Holmes II",
+     "pos": "PF",
+     "min": 2.5,
+     "g": 4
+    }
+   ],
+   "CHI": [
+    {
+     "name": "Dailyn Swain",
+     "pos": "SG",
+     "min": 6.8,
+     "g": 4
+    }
+   ]
+  }
+ },
+ "db": {
+  "use": true,
+  "k_team": 0.6,
+  "k_dvp": 0.3
+ },
+ "league": {
+  "ortg": 115.0,
+  "pace": 100.5,
+  "home_adv_per100": 1.0
+ },
+ "shrink_games": 10,
+ "teams": {
+  "CHI": {
+   "cur": {
+    "gp": 0,
+    "ortg": 115.0,
+    "drtg": 115.0,
+    "pace": 100.5
+   },
+   "prior": {
+    "ortg": 112.31,
+    "drtg": 117.67,
+    "pace": 103.5
+   },
+   "adj": {
+    "o": -2.0,
+    "d": 0.25,
+    "pace": 0.0
+   },
+   "context": {
+    "b2b": false,
+    "roster_note": "Norman Powell (20.8 ppg) OUT 22-nov y Caleb Wilson (18.9 ppg) OUT desde 12-nov"
+   }
+  },
+  "DEN": {
+   "cur": {
+    "gp": 0,
+    "ortg": 115.0,
+    "drtg": 115.0,
+    "pace": 100.5
+   },
+   "prior": {
+    "ortg": 121.41,
+    "drtg": 116.27,
+    "pace": 99.77
+   },
+   "adj": {
+    "o": 0.0,
+    "d": 0.0,
+    "pace": 0.0
+   },
+   "context": {
+    "b2b": false,
+    "roster_note": ""
+   }
+  }
+ },
+ "matchup": {
+  "CHI": {},
+  "DEN": {}
+ },
+ "players": [
+  {
+   "team": "CHI",
+   "name": "Josh Giddey",
+   "pos": "PG",
+   "starter": true,
+   "min": 28.2,
+   "g_cur": 15,
+   "p_play": 1.0,
+   "cur": {
+    "min": 27.7,
+    "pts": 9.9,
+    "reb": 5.9,
+    "ast": 8.4,
+    "fg3m": 1.1,
+    "fgm": 3.8,
+    "fga": 9.1,
+    "fg3a": 3.7,
+    "stl": 0.4,
+    "blk": 0.5,
+    "tov": 3.3,
+    "pf": 1.2,
+    "ftm": 1.2,
+    "fta": 1.9
+   },
+   "prior": {
+    "min": 32.1,
+    "pts": 17.02,
+    "reb": 8.3,
+    "ast": 9.15,
+    "fg3m": 1.91,
+    "fgm": 5.94,
+    "fga": 13.28,
+    "fg3a": 5.24,
+    "stl": 1.02,
+    "blk": 0.5,
+    "tov": 3.63,
+    "pf": 1.67,
+    "ftm": 3.22,
+    "fta": 4.22
+   },
+   "slot": "PG"
+  },
+  {
+   "team": "CHI",
+   "name": "Matas Buzelis",
+   "pos": "SF",
+   "starter": true,
+   "min": 27.6,
+   "g_cur": 15,
+   "p_play": 1.0,
+   "cur": {
+    "min": 27.2,
+    "pts": 14.7,
+    "reb": 4.7,
+    "ast": 1.9,
+    "fg3m": 2.0,
+    "fgm": 4.7,
+    "fga": 10.3,
+    "fg3a": 5.5,
+    "stl": 0.6,
+    "blk": 0.7,
+    "tov": 2.6,
+    "pf": 2.5,
+    "ftm": 3.3,
+    "fta": 3.7
+   },
+   "prior": {
+    "min": 29.2,
+    "pts": 16.26,
+    "reb": 5.82,
+    "ast": 2.05,
+    "fg3m": 2.25,
+    "fgm": 5.79,
+    "fga": 12.51,
+    "fg3a": 6.43,
+    "stl": 0.71,
+    "blk": 1.51,
+    "tov": 2.06,
+    "pf": 2.3,
+    "ftm": 2.43,
+    "fta": 3.09
+   },
+   "slot": "SF"
+  },
+  {
+   "team": "CHI",
+   "name": "Jalen Smith",
+   "pos": "C",
+   "starter": true,
+   "min": 25.0,
+   "g_cur": 13,
+   "p_play": 0.6,
+   "cur": {
+    "min": 24.6,
+    "pts": 13.4,
+    "reb": 7.9,
+    "ast": 2.2,
+    "fg3m": 1.8,
+    "fgm": 5.2,
+    "fga": 9.8,
+    "fg3a": 5.1,
+    "stl": 0.7,
+    "blk": 1.0,
+    "tov": 1.0,
+    "pf": 3.1,
+    "ftm": 1.2,
+    "fta": 1.6
+   },
+   "prior": {
+    "min": 20.6,
+    "pts": 10.21,
+    "reb": 6.7,
+    "ast": 1.23,
+    "fg3m": 1.55,
+    "fgm": 3.68,
+    "fga": 7.62,
+    "fg3a": 4.15,
+    "stl": 0.45,
+    "blk": 0.79,
+    "tov": 1.0,
+    "pf": 2.09,
+    "ftm": 1.3,
+    "fta": 1.75
+   },
+   "slot": "C"
+  },
+  {
+   "team": "CHI",
+   "name": "Isaac Okoro",
+   "pos": "SG",
+   "starter": true,
+   "min": 23.7,
+   "g_cur": 15,
+   "p_play": 1.0,
+   "cur": {
+    "min": 23.3,
+    "pts": 7.3,
+    "reb": 2.7,
+    "ast": 1.8,
+    "fg3m": 0.9,
+    "fgm": 2.2,
+    "fga": 5.4,
+    "fg3a": 3.0,
+    "stl": 0.7,
+    "blk": 0.3,
+    "tov": 0.7,
+    "pf": 2.1,
+    "ftm": 2.1,
+    "fta": 2.5
+   },
+   "prior": {
+    "min": 26.9,
+    "pts": 9.27,
+    "reb": 2.75,
+    "ast": 1.59,
+    "fg3m": 1.16,
+    "fgm": 3.35,
+    "fga": 7.29,
+    "fg3a": 3.51,
+    "stl": 0.73,
+    "blk": 0.46,
+    "tov": 0.73,
+    "pf": 2.57,
+    "ftm": 1.41,
+    "fta": 1.78
+   },
+   "slot": "SG"
+  },
+  {
+   "team": "CHI",
+   "name": "Patrick Williams",
+   "pos": "PF",
+   "starter": false,
+   "min": 21.9,
+   "g_cur": 8,
+   "p_play": 0.9,
+   "cur": {
+    "min": 21.5,
+    "pts": 6.9,
+    "reb": 2.9,
+    "ast": 1.9,
+    "fg3m": 0.9,
+    "fgm": 2.5,
+    "fga": 5.6,
+    "fg3a": 2.9,
+    "stl": 0.8,
+    "blk": 0.6,
+    "tov": 0.9,
+    "pf": 1.1,
+    "ftm": 1.0,
+    "fta": 1.1
+   },
+   "prior": {
+    "min": 20.5,
+    "pts": 7.01,
+    "reb": 2.99,
+    "ast": 1.46,
+    "fg3m": 1.32,
+    "fgm": 2.47,
+    "fga": 6.64,
+    "fg3a": 3.81,
+    "stl": 0.68,
+    "blk": 0.36,
+    "tov": 1.04,
+    "pf": 1.29,
+    "ftm": 0.75,
+    "fta": 1.04
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Nic Claxton",
+   "pos": "C",
+   "starter": true,
+   "min": 20.8,
+   "g_cur": 6,
+   "p_play": 1.0,
+   "cur": {
+    "min": 20.5,
+    "pts": 9.3,
+    "reb": 4.8,
+    "ast": 1.7,
+    "fg3m": 0.0,
+    "fgm": 3.5,
+    "fga": 5.5,
+    "fg3a": 0.0,
+    "stl": 0.3,
+    "blk": 1.0,
+    "tov": 1.0,
+    "pf": 2.2,
+    "ftm": 2.3,
+    "fta": 2.8
+   },
+   "prior": {
+    "min": 27.8,
+    "pts": 11.74,
+    "reb": 6.93,
+    "ast": 3.67,
+    "fg3m": 0.04,
+    "fgm": 4.83,
+    "fga": 8.45,
+    "fg3a": 0.28,
+    "stl": 0.65,
+    "blk": 1.12,
+    "tov": 1.39,
+    "pf": 2.29,
+    "ftm": 2.04,
+    "fta": 3.32
+   },
+   "slot": "PF"
+  },
+  {
+   "team": "CHI",
+   "name": "Tre Jones",
+   "pos": "PG",
+   "starter": false,
+   "min": 19.8,
+   "g_cur": 15,
+   "p_play": 1.0,
+   "cur": {
+    "min": 19.5,
+    "pts": 10.9,
+    "reb": 2.1,
+    "ast": 3.7,
+    "fg3m": 0.3,
+    "fgm": 4.1,
+    "fga": 8.1,
+    "fg3a": 1.2,
+    "stl": 1.1,
+    "blk": 0.3,
+    "tov": 1.3,
+    "pf": 0.9,
+    "ftm": 2.5,
+    "fta": 3.0
+   },
+   "prior": {
+    "min": 27.0,
+    "pts": 14.06,
+    "reb": 3.14,
+    "ast": 5.38,
+    "fg3m": 0.63,
+    "fgm": 5.25,
+    "fga": 9.49,
+    "fg3a": 2.0,
+    "stl": 1.17,
+    "blk": 0.17,
+    "tov": 1.42,
+    "pf": 1.45,
+    "ftm": 2.94,
+    "fta": 3.49
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Buddy Hield",
+   "pos": "SG",
+   "starter": false,
+   "min": 16.5,
+   "g_cur": 13,
+   "p_play": 1.0,
+   "cur": {
+    "min": 16.2,
+    "pts": 8.1,
+    "reb": 2.3,
+    "ast": 1.7,
+    "fg3m": 1.8,
+    "fgm": 3.1,
+    "fga": 6.4,
+    "fg3a": 4.3,
+    "stl": 0.6,
+    "blk": 0.2,
+    "tov": 1.2,
+    "pf": 1.7,
+    "ftm": 0.2,
+    "fta": 0.2
+   },
+   "prior": {
+    "min": 16.1,
+    "pts": 7.65,
+    "reb": 2.27,
+    "ast": 1.39,
+    "fg3m": 1.45,
+    "fgm": 2.8,
+    "fga": 6.41,
+    "fg3a": 4.16,
+    "stl": 0.76,
+    "blk": 0.18,
+    "tov": 0.94,
+    "pf": 1.12,
+    "ftm": 0.59,
+    "fta": 0.73
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Leonard Miller",
+   "pos": "SF",
+   "starter": false,
+   "min": 14.2,
+   "g_cur": 12,
+   "p_play": 1.0,
+   "cur": {
+    "min": 14.0,
+    "pts": 5.4,
+    "reb": 3.2,
+    "ast": 1.0,
+    "fg3m": 0.4,
+    "fgm": 2.2,
+    "fga": 4.9,
+    "fg3a": 2.4,
+    "stl": 0.4,
+    "blk": 0.6,
+    "tov": 0.8,
+    "pf": 2.2,
+    "ftm": 0.7,
+    "fta": 0.8
+   },
+   "prior": {
+    "min": 15.7,
+    "pts": 7.85,
+    "reb": 3.93,
+    "ast": 0.87,
+    "fg3m": 0.7,
+    "fgm": 3.15,
+    "fga": 5.7,
+    "fg3a": 2.15,
+    "stl": 0.37,
+    "blk": 0.33,
+    "tov": 0.78,
+    "pf": 1.41,
+    "ftm": 0.85,
+    "fta": 1.15
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Noa Essengue",
+   "pos": "PF",
+   "starter": false,
+   "min": 13.3,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 13.1,
+    "pts": 4.9,
+    "reb": 3.1,
+    "ast": 0.6,
+    "fg3m": 0.5,
+    "fgm": 1.6,
+    "fga": 4.0,
+    "fg3a": 2.0,
+    "stl": 0.4,
+    "blk": 0.2,
+    "tov": 0.8,
+    "pf": 3.4,
+    "ftm": 1.1,
+    "fta": 2.1
+   },
+   "prior": {
+    "min": 3.0,
+    "pts": 0.0,
+    "reb": 0.0,
+    "ast": 0.0,
+    "fg3m": 0.0,
+    "fgm": 0.0,
+    "fga": 1.5,
+    "fg3a": 1.0,
+    "stl": 0.5,
+    "blk": 0.0,
+    "tov": 0.0,
+    "pf": 0.5,
+    "ftm": 0.0,
+    "fta": 0.0
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Zach Collins",
+   "pos": "C",
+   "starter": false,
+   "min": 11.1,
+   "g_cur": 10,
+   "p_play": 1.0,
+   "cur": {
+    "min": 10.9,
+    "pts": 2.8,
+    "reb": 2.6,
+    "ast": 1.3,
+    "fg3m": 0.1,
+    "fgm": 1.3,
+    "fga": 3.8,
+    "fg3a": 1.2,
+    "stl": 0.3,
+    "blk": 0.3,
+    "tov": 0.4,
+    "pf": 1.4,
+    "ftm": 0.1,
+    "fta": 0.1
+   },
+   "prior": {
+    "min": 18.4,
+    "pts": 9.7,
+    "reb": 5.6,
+    "ast": 1.5,
+    "fg3m": 0.9,
+    "fgm": 3.7,
+    "fga": 6.4,
+    "fg3a": 2.1,
+    "stl": 0.2,
+    "blk": 0.4,
+    "tov": 1.0,
+    "pf": 1.8,
+    "ftm": 1.4,
+    "fta": 2.0
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Jordan Hawkins",
+   "pos": "SG",
+   "starter": false,
+   "min": 9.8,
+   "g_cur": 7,
+   "p_play": 1.0,
+   "cur": {
+    "min": 9.6,
+    "pts": 3.4,
+    "reb": 0.9,
+    "ast": 0.6,
+    "fg3m": 0.3,
+    "fgm": 1.4,
+    "fga": 3.7,
+    "fg3a": 2.3,
+    "stl": 0.3,
+    "blk": 0.3,
+    "tov": 0.1,
+    "pf": 0.1,
+    "ftm": 0.3,
+    "fta": 0.4
+   },
+   "prior": {
+    "min": 13.5,
+    "pts": 5.06,
+    "reb": 1.73,
+    "ast": 0.82,
+    "fg3m": 0.92,
+    "fgm": 1.84,
+    "fga": 5.04,
+    "fg3a": 2.65,
+    "stl": 0.25,
+    "blk": 0.2,
+    "tov": 0.67,
+    "pf": 0.59,
+    "ftm": 0.45,
+    "fta": 0.53
+   }
+  },
+  {
+   "team": "CHI",
+   "name": "Jaylin Sellers",
+   "pos": "PG",
+   "starter": false,
+   "min": 8.1,
+   "g_cur": 6,
+   "p_play": 1.0,
+   "cur": {
+    "min": 8.0,
+    "pts": 4.3,
+    "reb": 0.7,
+    "ast": 1.3,
+    "fg3m": 1.2,
+    "fgm": 1.3,
+    "fga": 3.7,
+    "fg3a": 2.8,
+    "stl": 0.3,
+    "blk": 0.2,
+    "tov": 0.7,
+    "pf": 1.2,
+    "ftm": 0.5,
+    "fta": 0.7
+   },
+   "prior": {
+    "min": 8.0,
+    "pts": 4.3,
+    "reb": 0.7,
+    "ast": 1.3,
+    "fg3m": 1.2,
+    "fgm": 1.3,
+    "fga": 3.7,
+    "fg3a": 2.8,
+    "stl": 0.31,
+    "blk": 0.09,
+    "tov": 0.53,
+    "pf": 0.7,
+    "ftm": 0.5,
+    "fta": 0.7
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Nikola Jokić",
+   "pos": "C",
+   "starter": true,
+   "min": 33.1,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 36.8,
+    "pts": 24.2,
+    "reb": 10.4,
+    "ast": 9.1,
+    "fg3m": 1.3,
+    "fgm": 9.4,
+    "fga": 17.9,
+    "fg3a": 4.3,
+    "stl": 1.6,
+    "blk": 1.0,
+    "tov": 3.4,
+    "pf": 2.9,
+    "ftm": 4.1,
+    "fta": 4.5
+   },
+   "prior": {
+    "min": 34.8,
+    "pts": 27.68,
+    "reb": 12.86,
+    "ast": 10.72,
+    "fg3m": 1.72,
+    "fgm": 9.91,
+    "fga": 17.42,
+    "fg3a": 4.54,
+    "stl": 1.42,
+    "blk": 0.82,
+    "tov": 3.74,
+    "pf": 2.66,
+    "ftm": 6.14,
+    "fta": 7.38
+   },
+   "slot": "C"
+  },
+  {
+   "team": "DEN",
+   "name": "Jamal Murray",
+   "pos": "PG",
+   "starter": true,
+   "min": 32.7,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 36.4,
+    "pts": 24.9,
+    "reb": 5.0,
+    "ast": 5.8,
+    "fg3m": 3.1,
+    "fgm": 8.3,
+    "fga": 16.5,
+    "fg3a": 6.8,
+    "stl": 1.1,
+    "blk": 0.9,
+    "tov": 2.5,
+    "pf": 2.0,
+    "ftm": 5.1,
+    "fta": 5.9
+   },
+   "prior": {
+    "min": 35.4,
+    "pts": 25.4,
+    "reb": 4.4,
+    "ast": 7.13,
+    "fg3m": 3.27,
+    "fgm": 8.76,
+    "fga": 18.13,
+    "fg3a": 7.51,
+    "stl": 0.88,
+    "blk": 0.39,
+    "tov": 2.28,
+    "pf": 1.75,
+    "ftm": 4.61,
+    "fta": 5.2
+   },
+   "slot": "PG"
+  },
+  {
+   "team": "DEN",
+   "name": "Christian Braun",
+   "pos": "SG",
+   "starter": true,
+   "min": 30.2,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 33.6,
+    "pts": 13.2,
+    "reb": 4.4,
+    "ast": 2.4,
+    "fg3m": 1.6,
+    "fgm": 5.1,
+    "fga": 10.4,
+    "fg3a": 4.9,
+    "stl": 2.3,
+    "blk": 0.4,
+    "tov": 1.1,
+    "pf": 2.6,
+    "ftm": 1.4,
+    "fta": 1.8
+   },
+   "prior": {
+    "min": 31.8,
+    "pts": 11.95,
+    "reb": 4.8,
+    "ast": 2.73,
+    "fg3m": 0.98,
+    "fgm": 4.59,
+    "fga": 8.84,
+    "fg3a": 3.25,
+    "stl": 0.68,
+    "blk": 0.27,
+    "tov": 0.98,
+    "pf": 2.34,
+    "ftm": 1.8,
+    "fta": 2.3
+   },
+   "slot": "SG"
+  },
+  {
+   "team": "DEN",
+   "name": "Aaron Gordon",
+   "pos": "PF",
+   "starter": true,
+   "min": 26.4,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 29.3,
+    "pts": 11.6,
+    "reb": 4.8,
+    "ast": 1.9,
+    "fg3m": 1.1,
+    "fgm": 3.9,
+    "fga": 8.8,
+    "fg3a": 3.8,
+    "stl": 0.9,
+    "blk": 0.4,
+    "tov": 1.3,
+    "pf": 2.4,
+    "ftm": 2.9,
+    "fta": 3.9
+   },
+   "prior": {
+    "min": 27.9,
+    "pts": 16.17,
+    "reb": 5.81,
+    "ast": 2.67,
+    "fg3m": 1.69,
+    "fgm": 5.5,
+    "fga": 11.06,
+    "fg3a": 4.36,
+    "stl": 0.58,
+    "blk": 0.28,
+    "tov": 1.06,
+    "pf": 1.72,
+    "ftm": 3.47,
+    "fta": 4.53
+   },
+   "slot": "SF"
+  },
+  {
+   "team": "DEN",
+   "name": "Cameron Johnson",
+   "pos": "PF",
+   "starter": true,
+   "min": 25.4,
+   "g_cur": 11,
+   "p_play": 1.0,
+   "cur": {
+    "min": 28.2,
+    "pts": 12.1,
+    "reb": 3.6,
+    "ast": 2.1,
+    "fg3m": 1.7,
+    "fgm": 4.4,
+    "fga": 9.7,
+    "fg3a": 5.4,
+    "stl": 1.2,
+    "blk": 0.0,
+    "tov": 1.2,
+    "pf": 2.3,
+    "ftm": 1.6,
+    "fta": 2.1
+   },
+   "prior": {
+    "min": 30.5,
+    "pts": 12.22,
+    "reb": 3.81,
+    "ast": 2.44,
+    "fg3m": 2.04,
+    "fgm": 4.22,
+    "fga": 8.8,
+    "fg3a": 4.74,
+    "stl": 0.74,
+    "blk": 0.39,
+    "tov": 0.87,
+    "pf": 2.31,
+    "ftm": 1.74,
+    "fta": 2.07
+   },
+   "slot": "PF"
+  },
+  {
+   "team": "DEN",
+   "name": "DeMar DeRozan",
+   "pos": "SF",
+   "starter": false,
+   "min": 20.5,
+   "g_cur": 13,
+   "p_play": 1.0,
+   "cur": {
+    "min": 22.8,
+    "pts": 10.3,
+    "reb": 2.0,
+    "ast": 2.6,
+    "fg3m": 0.2,
+    "fgm": 3.5,
+    "fga": 8.6,
+    "fg3a": 1.4,
+    "stl": 0.5,
+    "blk": 0.2,
+    "tov": 1.0,
+    "pf": 2.0,
+    "ftm": 3.2,
+    "fta": 3.8
+   },
+   "prior": {
+    "min": 31.3,
+    "pts": 18.43,
+    "reb": 2.94,
+    "ast": 4.1,
+    "fg3m": 0.61,
+    "fgm": 6.48,
+    "fga": 13.05,
+    "fg3a": 1.91,
+    "stl": 1.04,
+    "blk": 0.3,
+    "tov": 1.25,
+    "pf": 1.94,
+    "ftm": 4.86,
+    "fta": 5.6
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Trevon Brazile",
+   "pos": "PF",
+   "starter": false,
+   "min": 16.6,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 18.4,
+    "pts": 6.4,
+    "reb": 5.2,
+    "ast": 0.4,
+    "fg3m": 0.6,
+    "fgm": 2.6,
+    "fga": 4.5,
+    "fg3a": 2.0,
+    "stl": 0.4,
+    "blk": 0.5,
+    "tov": 0.7,
+    "pf": 1.6,
+    "ftm": 0.6,
+    "fta": 1.1
+   },
+   "prior": {
+    "min": 18.4,
+    "pts": 6.4,
+    "reb": 5.2,
+    "ast": 0.4,
+    "fg3m": 0.6,
+    "fgm": 2.6,
+    "fga": 4.5,
+    "fg3a": 2.0,
+    "stl": 0.61,
+    "blk": 0.39,
+    "tov": 1.0,
+    "pf": 1.66,
+    "ftm": 0.6,
+    "fta": 1.1
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Spencer Jones",
+   "pos": "SF",
+   "starter": false,
+   "min": 16.1,
+   "g_cur": 7,
+   "p_play": 1.0,
+   "cur": {
+    "min": 17.9,
+    "pts": 4.1,
+    "reb": 2.1,
+    "ast": 0.9,
+    "fg3m": 0.9,
+    "fgm": 1.6,
+    "fga": 3.1,
+    "fg3a": 1.9,
+    "stl": 0.1,
+    "blk": 0.4,
+    "tov": 0.7,
+    "pf": 2.0,
+    "ftm": 0.1,
+    "fta": 0.3
+   },
+   "prior": {
+    "min": 22.5,
+    "pts": 5.59,
+    "reb": 3.32,
+    "ast": 0.81,
+    "fg3m": 0.9,
+    "fgm": 2.1,
+    "fga": 4.16,
+    "fg3a": 2.29,
+    "stl": 0.83,
+    "blk": 0.46,
+    "tov": 0.49,
+    "pf": 2.76,
+    "ftm": 0.49,
+    "fta": 0.81
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Bryce Hopkins",
+   "pos": "SF",
+   "starter": false,
+   "min": 11.6,
+   "g_cur": 8,
+   "p_play": 1.0,
+   "cur": {
+    "min": 12.9,
+    "pts": 4.8,
+    "reb": 1.9,
+    "ast": 0.4,
+    "fg3m": 0.3,
+    "fgm": 1.8,
+    "fga": 3.0,
+    "fg3a": 0.6,
+    "stl": 0.3,
+    "blk": 0.0,
+    "tov": 0.6,
+    "pf": 1.3,
+    "ftm": 1.0,
+    "fta": 1.4
+   },
+   "prior": {
+    "min": 12.9,
+    "pts": 4.8,
+    "reb": 1.9,
+    "ast": 0.4,
+    "fg3m": 0.3,
+    "fgm": 1.8,
+    "fga": 3.0,
+    "fg3a": 0.6,
+    "stl": 0.43,
+    "blk": 0.27,
+    "tov": 0.7,
+    "pf": 1.16,
+    "ftm": 1.0,
+    "fta": 1.4
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Marvin Bagley III",
+   "pos": "PF",
+   "starter": false,
+   "min": 10.7,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 11.9,
+    "pts": 5.9,
+    "reb": 3.6,
+    "ast": 0.4,
+    "fg3m": 0.1,
+    "fgm": 2.2,
+    "fga": 4.1,
+    "fg3a": 0.5,
+    "stl": 0.3,
+    "blk": 0.6,
+    "tov": 0.4,
+    "pf": 1.6,
+    "ftm": 1.4,
+    "fta": 2.0
+   },
+   "prior": {
+    "min": 20.0,
+    "pts": 10.45,
+    "reb": 6.1,
+    "ast": 1.42,
+    "fg3m": 0.4,
+    "fgm": 4.23,
+    "fga": 6.85,
+    "fg3a": 0.87,
+    "stl": 0.47,
+    "blk": 0.72,
+    "tov": 1.02,
+    "pf": 2.05,
+    "ftm": 1.58,
+    "fta": 2.4
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Tyus Jones",
+   "pos": "PG",
+   "starter": false,
+   "min": 9.5,
+   "g_cur": 14,
+   "p_play": 1.0,
+   "cur": {
+    "min": 10.6,
+    "pts": 2.3,
+    "reb": 0.7,
+    "ast": 2.1,
+    "fg3m": 0.3,
+    "fgm": 0.8,
+    "fga": 2.3,
+    "fg3a": 1.1,
+    "stl": 0.4,
+    "blk": 0.1,
+    "tov": 0.6,
+    "pf": 0.4,
+    "ftm": 0.4,
+    "fta": 0.4
+   },
+   "prior": {
+    "min": 14.6,
+    "pts": 2.97,
+    "reb": 1.13,
+    "ast": 2.37,
+    "fg3m": 0.6,
+    "fgm": 1.13,
+    "fga": 3.25,
+    "fg3a": 2.04,
+    "stl": 0.55,
+    "blk": 0.04,
+    "tov": 0.37,
+    "pf": 0.46,
+    "ftm": 0.1,
+    "fta": 0.13
+   }
+  },
+  {
+   "team": "DEN",
+   "name": "Alpha Diallo",
+   "pos": "SF",
+   "starter": false,
+   "min": 7.2,
+   "g_cur": 4,
+   "p_play": 1.0,
+   "cur": {
+    "min": 8.0,
+    "pts": 1.0,
+    "reb": 0.8,
+    "ast": 0.5,
+    "fg3m": 0.0,
+    "fgm": 0.5,
+    "fga": 1.5,
+    "fg3a": 0.8,
+    "stl": 0.3,
+    "blk": 0.0,
+    "tov": 0.8,
+    "pf": 1.0,
+    "ftm": 0.0,
+    "fta": 0.0
+   },
+   "prior": {
+    "min": 8.0,
+    "pts": 1.0,
+    "reb": 0.8,
+    "ast": 0.5,
+    "fg3m": 0.0,
+    "fgm": 0.5,
+    "fga": 1.5,
+    "fg3a": 0.8,
+    "stl": 0.27,
+    "blk": 0.17,
+    "tov": 0.44,
+    "pf": 0.72,
+    "ftm": 0.0,
+    "fta": 0.0
+   }
+  }
+ ],
+ "market": {
+  "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
+  "ml_home": 297,
+  "ml_away": -374,
+  "spread_home": 8.5,
+  "total": 237.5,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
+  "over_odds": -110,
+  "under_odds": -110
+ },
+ "prop_lines": {
+  "Nikola Jokić": {
+   "reb": [
+    11.5,
+    -114,
+    -110,
+    12.5
+   ],
+   "ast": [
+    9.5,
+    -106,
+    -120,
+    10.5
+   ],
+   "fg3m": [
+    1.5,
+    100,
+    -111
+   ]
+  },
+  "Jalen Smith": {
+   "reb": [
+    7.5,
+    102,
+    -105
+   ],
+   "fg3m": [
+    1.5,
+    -120,
+    115
+   ]
+  },
+  "Josh Giddey": {
+   "reb": [
+    6.5,
+    114,
+    -112
+   ],
+   "ast": [
+    7.5,
+    -145,
+    -105,
+    8.5
+   ]
+  },
+  "Matas Buzelis": {
+   "reb": [
+    5.5,
+    105,
+    -115
+   ],
+   "fg3m": [
+    2.5,
+    120,
+    -140
+   ]
+  },
+  "Aaron Gordon": {
+   "reb": [
+    5.5,
+    120,
+    -140
+   ]
+  },
+  "Christian Braun": {
+   "reb": [
+    4.5,
+    100,
+    -105
+   ],
+   "fg3m": [
+    1.5,
+    115,
+    -115
+   ]
+  },
+  "Jamal Murray": {
+   "reb": [
+    4.5,
+    110,
+    -110
+   ],
+   "ast": [
+    6.5,
+    116,
+    -140
+   ],
+   "fg3m": [
+    2.5,
+    -110,
+    112
+   ]
+  },
+  "Trevon Brazile": {
+   "reb": [
+    3.5,
+    -155,
+    122
+   ]
+  },
+  "Cameron Johnson": {
+   "reb": [
+    3.5,
+    -115,
+    102
+   ],
+   "fg3m": [
+    2.5,
+    142,
+    -165
+   ]
+  }
+ },
+ "alt_lines": {}
+}
