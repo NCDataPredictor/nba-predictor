@@ -1180,7 +1180,7 @@
     "OKC": {
      "o": -3.0,
      "d": 1.0,
-     "why": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera)"
+     "why": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera); Aday Mara OUT (aviso de Nicolas 17:30 ET)"
     }
    },
    "out": [
@@ -1191,14 +1191,15 @@
     "Cason Wallace",
     "Chet Holmgren",
     "Jalen Williams",
-    "Shai Gilgeous-Alexander"
+    "Shai Gilgeous-Alexander",
+    "Aday Mara"
    ],
    "gtd": {
     "Giannis Antetokounmpo": 0.6,
     "Myron Gardner": 0.85
    },
    "notes": [
-    "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
+    "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić y Aday Mara OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
     "MIA: Antetokounmpo (ingle) cuestionable; Gardner probable"
    ]
   },

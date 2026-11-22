@@ -7,7 +7,7 @@
   "tip_et": "18:00",
   "neutral": false,
   "notes": [
-   "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
+   "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić y Aday Mara OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
    "MIA: Antetokounmpo (ingle) cuestionable; Gardner probable"
   ],
   "out": [
@@ -18,7 +18,8 @@
    "Cason Wallace",
    "Chet Holmgren",
    "Jalen Williams",
-   "Shai Gilgeous-Alexander"
+   "Shai Gilgeous-Alexander",
+   "Aday Mara"
   ],
   "gtd": {
    "Giannis Antetokounmpo": 0.6,
@@ -114,7 +115,7 @@
    },
    "context": {
     "b2b": false,
-    "roster_note": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera)"
+    "roster_note": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera); Aday Mara OUT (aviso de Nicolas 17:30 ET)"
    }
   }
  },
@@ -666,7 +667,7 @@
    "name": "Ajay Mitchell",
    "pos": "SG",
    "starter": true,
-   "min": 35.5,
+   "min": 38.0,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -701,14 +702,14 @@
     "ftm": 2.47,
     "fta": 2.84
    },
-   "slot": "PG"
+   "slot": "SG"
   },
   {
    "team": "OKC",
    "name": "Jared McCain",
    "pos": "SG",
    "starter": true,
-   "min": 34.6,
+   "min": 38.0,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -743,14 +744,14 @@
     "ftm": 0.76,
     "fta": 0.88
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "OKC",
    "name": "Isaiah Hartenstein",
    "pos": "C",
    "starter": true,
-   "min": 32.0,
+   "min": 36.2,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -789,52 +790,10 @@
   },
   {
    "team": "OKC",
-   "name": "Aday Mara",
-   "pos": "C",
-   "starter": true,
-   "min": 28.3,
-   "g_cur": 16,
-   "p_play": 1.0,
-   "cur": {
-    "min": 22.3,
-    "pts": 10.0,
-    "reb": 7.1,
-    "ast": 1.9,
-    "fg3m": 0.1,
-    "fgm": 4.5,
-    "fga": 6.9,
-    "fg3a": 0.1,
-    "stl": 0.1,
-    "blk": 1.7,
-    "tov": 1.7,
-    "pf": 2.2,
-    "ftm": 0.9,
-    "fta": 1.6
-   },
-   "prior": {
-    "min": 22.3,
-    "pts": 10.0,
-    "reb": 7.1,
-    "ast": 1.9,
-    "fg3m": 0.1,
-    "fgm": 4.5,
-    "fga": 6.9,
-    "fg3a": 0.1,
-    "stl": 0.63,
-    "blk": 0.95,
-    "tov": 1.41,
-    "pf": 2.52,
-    "ftm": 0.9,
-    "fta": 1.6
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "OKC",
    "name": "Kenrich Williams",
    "pos": "PF",
    "starter": true,
-   "min": 26.4,
+   "min": 29.9,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -869,14 +828,14 @@
     "ftm": 0.59,
     "fta": 0.93
    },
-   "slot": "SF"
+   "slot": "PF"
   },
   {
    "team": "OKC",
    "name": "Bennett Stirtz",
    "pos": "PG",
-   "starter": false,
-   "min": 23.3,
+   "starter": true,
+   "min": 26.5,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -910,14 +869,15 @@
     "pf": 1.6,
     "ftm": 0.7,
     "fta": 0.8
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "OKC",
    "name": "Nique Clifford",
    "pos": "SG",
    "starter": false,
-   "min": 20.9,
+   "min": 23.7,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -958,7 +918,7 @@
    "name": "Micah Peavy",
    "pos": "SG",
    "starter": false,
-   "min": 19.9,
+   "min": 22.6,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -999,7 +959,7 @@
    "name": "Josh Dix",
    "pos": "SG",
    "starter": false,
-   "min": 19.0,
+   "min": 21.6,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1091,13 +1051,6 @@
     1.5,
     168,
     -160
-   ]
-  },
-  "Aday Mara": {
-   "reb": [
-    8.5,
-    -114,
-    102
    ]
   },
   "Ajay Mitchell": {

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:10+00:00",
+ "generated": "2026-11-22T22:31+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
@@ -74,7 +74,7 @@
   },
   "2026-11-22": {
    "morning": "2026-11-22T16:28+00:00",
-   "pregame": "2026-11-22T22:10+00:00"
+   "pregame": "2026-11-22T22:31+00:00"
   }
  },
  "history": [
@@ -178788,6 +178788,52 @@
    "top_bets": [
     {
      "kind": "prop",
+     "label": "Isaiah Hartenstein Over 10.5 Rebotes",
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "line": 10.5,
+     "odds": -144,
+     "dec": 1.695,
+     "odds_assumed": false,
+     "p": 0.782,
+     "implied": 0.59,
+     "fair": -359,
+     "edge": 0.192,
+     "ev": 0.325,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -130,
+     "dec_ref": 1.769,
+     "p_model": 0.782,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 23,
+       "value": 15.5,
+       "lg": 14.5,
+       "n": 30
+      }
+     },
+     "mean": 15.9,
+     "open": [
+      10.5,
+      1.695
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Pelle Larsson Under 3.5 Asistencias",
      "player": "Pelle Larsson",
      "team": "MIA",
@@ -178795,17 +178841,17 @@
      "odds": -141,
      "dec": 1.707,
      "odds_assumed": false,
-     "p": 0.712,
+     "p": 0.713,
      "implied": 0.586,
-     "fair": -247,
-     "edge": 0.126,
-     "ev": 0.215,
+     "fair": -248,
+     "edge": 0.127,
+     "ev": 0.217,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -128,
      "dec_ref": 1.781,
-     "p_model": 0.712,
+     "p_model": 0.713,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -178834,52 +178880,6 @@
     },
     {
      "kind": "prop",
-     "label": "Isaiah Hartenstein Over 10.5 Rebotes",
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "line": 10.5,
-     "odds": -144,
-     "dec": 1.695,
-     "odds_assumed": false,
-     "p": 0.704,
-     "implied": 0.59,
-     "fair": -238,
-     "edge": 0.114,
-     "ev": 0.193,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -130,
-     "dec_ref": 1.769,
-     "p_model": 0.704,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 23,
-       "value": 15.5,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 14.3,
-     "open": [
-      10.5,
-      1.695
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Giannis Antetokounmpo Under 6.5 Asistencias",
      "player": "Giannis Antetokounmpo",
      "team": "MIA",
@@ -178887,17 +178887,17 @@
      "odds": -156,
      "dec": 1.643,
      "odds_assumed": false,
-     "p": 0.707,
+     "p": 0.705,
      "implied": 0.609,
-     "fair": -241,
-     "edge": 0.098,
-     "ev": 0.162,
+     "fair": -239,
+     "edge": 0.096,
+     "ev": 0.158,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -140,
      "dec_ref": 1.714,
-     "p_model": 0.707,
+     "p_model": 0.705,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -178936,11 +178936,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 3.5,
-     "p": 0.576,
+     "p": 0.577,
      "fair": 1.73,
-     "min_dec": 1.79,
+     "min_dec": 1.78,
      "ref": 3.6,
-     "p_model": 0.755,
+     "p_model": 0.758,
      "label": "Andrew Wiggins Over 3.5 Triples intentados",
      "hr": {
       "l10": [
@@ -178962,11 +178962,11 @@
      "stat": "fga",
      "side": "over",
      "line": 7.5,
-     "p": 0.565,
+     "p": 0.567,
      "fair": 1.77,
      "min_dec": 1.82,
      "ref": 7.7,
-     "p_model": 0.718,
+     "p_model": 0.722,
      "label": "Andrew Wiggins Over 7.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -178983,28 +178983,54 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jared McCain",
+     "player": "Nique Clifford",
      "team": "OKC",
      "stat": "fgm",
      "side": "over",
-     "line": 6.5,
-     "p": 0.55,
-     "fair": 1.82,
-     "min_dec": 1.87,
-     "ref": 6.3,
-     "p_model": 0.667,
-     "label": "Jared McCain Over 6.5 Tiros de campo anotados",
+     "line": 3.5,
+     "p": 0.565,
+     "fair": 1.77,
+     "min_dec": 1.82,
+     "ref": 3.9,
+     "p_model": 0.716,
+     "label": "Nique Clifford Over 3.5 Tiros de campo anotados",
      "hr": {
       "l10": [
-       5,
+       0,
        10
       ],
       "h2h": [
-       0,
-       1
+       2,
+       2
       ]
      },
-     "mean": 8.7
+     "mean": 5.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Nique Clifford",
+     "team": "OKC",
+     "stat": "fga",
+     "side": "over",
+     "line": 8.5,
+     "p": 0.56,
+     "fair": 1.79,
+     "min_dec": 1.84,
+     "ref": 8.7,
+     "p_model": 0.7,
+     "label": "Nique Clifford Over 8.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       0,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 11.2
     },
     {
      "kind": "prop",
@@ -179013,13 +179039,13 @@
      "team": "OKC",
      "stat": "fga",
      "side": "over",
-     "line": 15.5,
-     "p": 0.548,
-     "fair": 1.82,
-     "min_dec": 1.88,
-     "ref": 15.0,
-     "p_model": 0.661,
-     "label": "Jared McCain Over 15.5 Tiros de campo intentados",
+     "line": 16.5,
+     "p": 0.554,
+     "fair": 1.81,
+     "min_dec": 1.86,
+     "ref": 16.8,
+     "p_model": 0.68,
+     "label": "Jared McCain Over 16.5 Tiros de campo intentados",
      "hr": {
       "l10": [
        1,
@@ -179030,7 +179056,85 @@
        1
       ]
      },
-     "mean": 18.3
+     "mean": 19.6
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Nique Clifford",
+     "team": "OKC",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.553,
+     "fair": 1.81,
+     "min_dec": 1.86,
+     "ref": 2.9,
+     "p_model": 0.678,
+     "label": "Nique Clifford Over 2.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 4.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "stat": "fgm",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.547,
+     "fair": 1.83,
+     "min_dec": 1.88,
+     "ref": 5.0,
+     "p_model": 0.657,
+     "label": "Isaiah Hartenstein Over 4.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ]
+     },
+     "mean": 6.2
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.547,
+     "fair": 1.83,
+     "min_dec": 1.88,
+     "ref": 5.0,
+     "p_model": 0.657,
+     "label": "Isaiah Hartenstein Over 4.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ]
+     },
+     "mean": 6.2
     },
     {
      "kind": "prop",
@@ -179044,7 +179148,7 @@
      "fair": 1.83,
      "min_dec": 1.89,
      "ref": 3.5,
-     "p_model": 0.652,
+     "p_model": 0.654,
      "label": "Andrew Wiggins Over 3.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -179061,16 +179165,41 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.651,
+     "fair": 1.54,
+     "min_dec": 1.58,
+     "ref": null,
+     "p_model": 0.651,
+     "label": "Isaiah Hartenstein Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Andrew Wiggins",
      "team": "MIA",
      "stat": "pf",
      "side": "over",
      "line": 1.5,
-     "p": 0.643,
+     "p": 0.641,
      "fair": 1.56,
-     "min_dec": 1.6,
+     "min_dec": 1.61,
      "ref": 1.8,
-     "p_model": 0.643,
+     "p_model": 0.641,
      "label": "Andrew Wiggins Over 1.5 Faltas",
      "hr": {
       "l10": [
@@ -179087,54 +179216,106 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jared McCain",
+     "player": "Isaiah Hartenstein",
      "team": "OKC",
-     "stat": "fg2a",
+     "stat": "fga",
      "side": "over",
-     "line": 6.5,
-     "p": 0.538,
-     "fair": 1.86,
-     "min_dec": 1.92,
-     "ref": 6.5,
-     "p_model": 0.625,
-     "label": "Jared McCain Over 6.5 Dobles intentados",
+     "line": 8.5,
+     "p": 0.54,
+     "fair": 1.85,
+     "min_dec": 1.91,
+     "ref": 8.7,
+     "p_model": 0.634,
+     "label": "Isaiah Hartenstein Over 8.5 Tiros de campo intentados",
      "hr": {
       "l10": [
        1,
        10
       ],
       "h2h": [
-       1,
+       0,
+       0
+      ]
+     },
+     "mean": 10.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jared McCain",
+     "team": "OKC",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.539,
+     "fair": 1.86,
+     "min_dec": 1.91,
+     "ref": 3.7,
+     "p_model": 0.63,
+     "label": "Jared McCain Over 3.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       0,
        1
       ]
      },
-     "mean": 8.7
+     "mean": 5.8
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jared McCain",
+     "team": "OKC",
+     "stat": "fgm",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.536,
+     "fair": 1.86,
+     "min_dec": 1.92,
+     "ref": 7.0,
+     "p_model": 0.621,
+     "label": "Jared McCain Over 7.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       0,
+       1
+      ]
+     },
+     "mean": 9.4
     },
     {
      "kind": "prop",
      "model_only": true,
      "player": "Ajay Mitchell",
      "team": "OKC",
-     "stat": "fg2a",
+     "stat": "fgm",
      "side": "over",
-     "line": 11.5,
-     "p": 0.537,
-     "fair": 1.86,
+     "line": 8.5,
+     "p": 0.536,
+     "fair": 1.87,
      "min_dec": 1.92,
-     "ref": 11.9,
-     "p_model": 0.622,
-     "label": "Ajay Mitchell Over 11.5 Dobles intentados",
+     "ref": 8.7,
+     "p_model": 0.62,
+     "label": "Ajay Mitchell Over 8.5 Tiros de campo anotados",
      "hr": {
       "l10": [
-       5,
+       3,
        10
       ],
       "h2h": [
-       1,
+       0,
        2
       ]
      },
-     "mean": 13.8
+     "mean": 10.7
     },
     {
      "kind": "prop",
@@ -179145,10 +179326,10 @@
      "side": "over",
      "line": 3.5,
      "p": 0.536,
-     "fair": 1.86,
+     "fair": 1.87,
      "min_dec": 1.92,
      "ref": 3.2,
-     "p_model": 0.621,
+     "p_model": 0.619,
      "label": "Bam Adebayo Over 3.5 Triples intentados",
      "hr": {
       "l10": [
@@ -179165,54 +179346,54 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Ajay Mitchell",
+     "player": "Isaiah Hartenstein",
      "team": "OKC",
-     "stat": "fg2m",
+     "stat": "fg2a",
      "side": "over",
-     "line": 6.5,
+     "line": 8.5,
      "p": 0.536,
-     "fair": 1.86,
+     "fair": 1.87,
      "min_dec": 1.92,
-     "ref": 6.7,
-     "p_model": 0.621,
-     "label": "Ajay Mitchell Over 6.5 Dobles anotados",
+     "ref": 8.6,
+     "p_model": 0.619,
+     "label": "Isaiah Hartenstein Over 8.5 Dobles intentados",
      "hr": {
       "l10": [
-       4,
+       1,
        10
       ],
       "h2h": [
-       1,
-       2
+       0,
+       0
       ]
      },
-     "mean": 8.6
+     "mean": 10.1
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Ajay Mitchell",
+     "player": "Nique Clifford",
      "team": "OKC",
-     "stat": "fgm",
+     "stat": "fg2a",
      "side": "over",
-     "line": 7.5,
-     "p": 0.536,
+     "line": 5.5,
+     "p": 0.535,
      "fair": 1.87,
      "min_dec": 1.92,
-     "ref": 7.8,
-     "p_model": 0.62,
-     "label": "Ajay Mitchell Over 7.5 Tiros de campo anotados",
+     "ref": 5.3,
+     "p_model": 0.618,
+     "label": "Nique Clifford Over 5.5 Dobles intentados",
      "hr": {
       "l10": [
-       3,
+       0,
        10
       ],
       "h2h": [
-       1,
+       2,
        2
       ]
      },
-     "mean": 9.6
+     "mean": 7.1
     },
     {
      "kind": "prop",
@@ -179224,9 +179405,9 @@
      "line": 4.5,
      "p": 0.535,
      "fair": 1.87,
-     "min_dec": 1.93,
+     "min_dec": 1.92,
      "ref": 4.7,
-     "p_model": 0.616,
+     "p_model": 0.617,
      "label": "Davion Mitchell Over 4.5 Triples intentados",
      "hr": {
       "l10": [
@@ -179243,80 +179424,54 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Aday Mara",
+     "player": "Ajay Mitchell",
      "team": "OKC",
-     "stat": "fga",
-     "side": "over",
-     "line": 8.5,
-     "p": 0.533,
-     "fair": 1.87,
-     "min_dec": 1.93,
-     "ref": 8.9,
-     "p_model": 0.611,
-     "label": "Aday Mara Over 8.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 10.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "stat": "fga",
+     "stat": "fg2m",
      "side": "over",
      "line": 7.5,
-     "p": 0.533,
-     "fair": 1.88,
+     "p": 0.534,
+     "fair": 1.87,
      "min_dec": 1.93,
-     "ref": 7.8,
-     "p_model": 0.61,
-     "label": "Isaiah Hartenstein Over 7.5 Tiros de campo intentados",
+     "ref": 7.5,
+     "p_model": 0.613,
+     "label": "Ajay Mitchell Over 7.5 Dobles anotados",
      "hr": {
       "l10": [
        3,
        10
       ],
       "h2h": [
-       0,
-       0
+       1,
+       2
       ]
      },
-     "mean": 8.9
+     "mean": 9.6
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Ajay Mitchell",
+     "player": "Bennett Stirtz",
      "team": "OKC",
-     "stat": "fga",
+     "stat": "fgm",
      "side": "over",
-     "line": 15.5,
-     "p": 0.532,
+     "line": 3.5,
+     "p": 0.533,
      "fair": 1.88,
-     "min_dec": 1.94,
-     "ref": 15.8,
-     "p_model": 0.606,
-     "label": "Ajay Mitchell Over 15.5 Tiros de campo intentados",
+     "min_dec": 1.93,
+     "ref": 3.6,
+     "p_model": 0.611,
+     "label": "Bennett Stirtz Over 3.5 Tiros de campo anotados",
      "hr": {
       "l10": [
-       4,
+       5,
        10
       ],
       "h2h": [
        0,
-       2
+       0
       ]
      },
-     "mean": 17.6
+     "mean": 4.4
     },
     {
      "kind": "prop",
@@ -179330,7 +179485,7 @@
      "fair": 1.88,
      "min_dec": 1.94,
      "ref": 10.7,
-     "p_model": 0.603,
+     "p_model": 0.605,
      "label": "Bam Adebayo Over 10.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -179347,98 +179502,20 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Aday Mara",
-     "team": "OKC",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 8.5,
-     "p": 0.53,
-     "fair": 1.89,
-     "min_dec": 1.94,
-     "ref": 8.8,
-     "p_model": 0.599,
-     "label": "Aday Mara Over 8.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 10.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Isaiah Hartenstein",
+     "player": "Jared McCain",
      "team": "OKC",
      "stat": "fg2a",
      "side": "over",
      "line": 7.5,
-     "p": 0.529,
-     "fair": 1.89,
-     "min_dec": 1.95,
-     "ref": 7.7,
-     "p_model": 0.595,
-     "label": "Isaiah Hartenstein Over 7.5 Dobles intentados",
+     "p": 0.531,
+     "fair": 1.88,
+     "min_dec": 1.94,
+     "ref": 7.3,
+     "p_model": 0.603,
+     "label": "Jared McCain Over 7.5 Dobles intentados",
      "hr": {
       "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 8.8
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Aday Mara",
-     "team": "OKC",
-     "stat": "fgm",
-     "side": "over",
-     "line": 5.5,
-     "p": 0.529,
-     "fair": 1.89,
-     "min_dec": 1.95,
-     "ref": 5.8,
-     "p_model": 0.595,
-     "label": "Aday Mara Over 5.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 6.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jared McCain",
-     "team": "OKC",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.527,
-     "fair": 1.9,
-     "min_dec": 1.95,
-     "ref": 3.4,
-     "p_model": 0.59,
-     "label": "Jared McCain Over 3.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       4,
+       1,
        10
       ],
       "h2h": [
@@ -179446,7 +179523,7 @@
        1
       ]
      },
-     "mean": 5.2
+     "mean": 9.5
     },
     {
      "kind": "prop",
@@ -179460,7 +179537,7 @@
      "fair": 1.9,
      "min_dec": 1.96,
      "ref": 5.3,
-     "p_model": 0.588,
+     "p_model": 0.586,
      "label": "Bam Adebayo Under 4.5 Tiros libres intentados",
      "hr": {
       "l10": [
@@ -179477,68 +179554,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Aday Mara",
-     "team": "OKC",
-     "stat": "pf",
-     "side": "over",
-     "line": 2.5,
-     "p": 0.585,
-     "fair": 1.71,
-     "min_dec": 1.76,
-     "ref": 2.9,
-     "p_model": 0.585,
-     "label": "Aday Mara Over 2.5 Faltas",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 3.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Kenrich Williams",
-     "team": "OKC",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.582,
-     "fair": 1.72,
-     "min_dec": 1.77,
-     "ref": 1.9,
-     "p_model": 0.582,
-     "label": "Kenrich Williams Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     },
-     "mean": 2.0
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Davion Mitchell",
      "team": "MIA",
      "stat": "fg2m",
      "side": "under",
      "line": 2.5,
-     "p": 0.524,
-     "fair": 1.91,
+     "p": 0.525,
+     "fair": 1.9,
      "min_dec": 1.96,
      "ref": 3.2,
-     "p_model": 0.581,
+     "p_model": 0.584,
      "label": "Davion Mitchell Under 2.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -179555,75 +179580,16 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jared McCain",
-     "team": "OKC",
-     "stat": "tov",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.58,
-     "fair": 1.73,
-     "min_dec": 1.78,
-     "ref": 1.9,
-     "p_model": 0.58,
-     "label": "Jared McCain Over 1.5 Pérdidas",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 26,
-       "value": 3.5,
-       "lg": 3.1,
-       "n": 30
-      }
-     },
-     "mean": 2.1
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Aday Mara",
-     "team": "OKC",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 5.5,
-     "p": 0.524,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": 5.7,
-     "p_model": 0.58,
-     "label": "Aday Mara Over 5.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     },
-     "mean": 6.8
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Bam Adebayo",
      "team": "MIA",
      "stat": "pf",
      "side": "over",
      "line": 1.5,
-     "p": 0.578,
-     "fair": 1.73,
+     "p": 0.58,
+     "fair": 1.72,
      "min_dec": 1.78,
      "ref": 1.7,
-     "p_model": 0.578,
+     "p_model": 0.58,
      "label": "Bam Adebayo Over 1.5 Faltas",
      "hr": {
       "l10": [
@@ -179640,46 +179606,20 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Jared McCain",
+     "player": "Ajay Mitchell",
      "team": "OKC",
-     "stat": "fg3a",
+     "stat": "fga",
      "side": "over",
-     "line": 8.5,
-     "p": 0.521,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 8.5,
-     "p_model": 0.57,
-     "label": "Jared McCain Over 8.5 Triples intentados",
+     "line": 17.5,
+     "p": 0.524,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 17.6,
+     "p_model": 0.58,
+     "label": "Ajay Mitchell Over 17.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       0,
-       1
-      ]
-     },
-     "mean": 9.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Kenrich Williams",
-     "team": "OKC",
-     "stat": "fgm",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.52,
-     "fair": 1.92,
-     "min_dec": 1.98,
-     "ref": 3.8,
-     "p_model": 0.568,
-     "label": "Kenrich Williams Over 3.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       5,
+       2,
        10
       ],
       "h2h": [
@@ -179687,7 +179627,59 @@
        2
       ]
      },
-     "mean": 4.3
+     "mean": 19.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Ajay Mitchell",
+     "team": "OKC",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 13.5,
+     "p": 0.523,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 13.3,
+     "p_model": 0.575,
+     "label": "Ajay Mitchell Over 13.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ]
+     },
+     "mean": 15.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Kenrich Williams",
+     "team": "OKC",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.521,
+     "fair": 1.92,
+     "min_dec": 1.98,
+     "ref": 4.6,
+     "p_model": 0.57,
+     "label": "Kenrich Williams Over 4.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ]
+     },
+     "mean": 5.6
     },
     {
      "kind": "prop",
@@ -179697,11 +179689,11 @@
      "stat": "pf",
      "side": "over",
      "line": 1.5,
-     "p": 0.566,
+     "p": 0.567,
      "fair": 1.77,
      "min_dec": 1.82,
      "ref": 1.9,
-     "p_model": 0.566,
+     "p_model": 0.567,
      "label": "Klay Thompson Over 1.5 Faltas",
      "hr": {
       "l10": [
@@ -179723,11 +179715,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 8.5,
-     "p": 0.519,
-     "fair": 1.93,
-     "min_dec": 1.99,
+     "p": 0.52,
+     "fair": 1.92,
+     "min_dec": 1.98,
      "ref": 9.0,
-     "p_model": 0.562,
+     "p_model": 0.565,
      "label": "Klay Thompson Over 8.5 Triples intentados",
      "hr": {
       "l10": [
@@ -179746,18 +179738,18 @@
      "model_only": true,
      "player": "Ajay Mitchell",
      "team": "OKC",
-     "stat": "fta",
+     "stat": "ftm",
      "side": "over",
      "line": 3.5,
-     "p": 0.517,
+     "p": 0.519,
      "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 3.8,
-     "p_model": 0.557,
-     "label": "Ajay Mitchell Over 3.5 Tiros libres intentados",
+     "min_dec": 1.98,
+     "ref": 3.7,
+     "p_model": 0.564,
+     "label": "Ajay Mitchell Over 3.5 Tiros libres anotados",
      "hr": {
       "l10": [
-       3,
+       2,
        10
       ],
       "h2h": [
@@ -179765,25 +179757,25 @@
        2
       ]
      },
-     "mean": 4.6
+     "mean": 4.5
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Isaiah Hartenstein",
+     "player": "Bennett Stirtz",
      "team": "OKC",
-     "stat": "fgm",
+     "stat": "fga",
      "side": "over",
-     "line": 4.5,
-     "p": 0.515,
-     "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 4.4,
-     "p_model": 0.55,
-     "label": "Isaiah Hartenstein Over 4.5 Tiros de campo anotados",
+     "line": 7.5,
+     "p": 0.517,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 7.5,
+     "p_model": 0.556,
+     "label": "Bennett Stirtz Over 7.5 Tiros de campo intentados",
      "hr": {
       "l10": [
-       1,
+       5,
        10
       ],
       "h2h": [
@@ -179791,22 +179783,22 @@
        0
       ]
      },
-     "mean": 5.3
+     "mean": 8.3
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Isaiah Hartenstein",
+     "player": "Kenrich Williams",
      "team": "OKC",
-     "stat": "fg2m",
+     "stat": "fga",
      "side": "over",
-     "line": 4.5,
-     "p": 0.515,
+     "line": 9.5,
+     "p": 0.517,
      "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 4.4,
-     "p_model": 0.55,
-     "label": "Isaiah Hartenstein Over 4.5 Dobles anotados",
+     "min_dec": 1.99,
+     "ref": 9.1,
+     "p_model": 0.555,
+     "label": "Kenrich Williams Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
        1,
@@ -179814,35 +179806,10 @@
       ],
       "h2h": [
        0,
-       0
+       2
       ]
      },
-     "mean": 5.3
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "stat": "dd",
-     "side": "over",
-     "line": 0.5,
-     "p": 0.524,
-     "fair": 1.91,
-     "min_dec": 1.97,
-     "ref": null,
-     "p_model": 0.524,
-     "label": "Isaiah Hartenstein Doble-doble: Sí",
-     "hr": {
-      "l10": [
-       1,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ]
-     }
+     "mean": 10.4
     },
     {
      "kind": "prop",
@@ -179852,11 +179819,11 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.415,
-     "fair": 2.41,
-     "min_dec": 2.48,
+     "p": 0.412,
+     "fair": 2.43,
+     "min_dec": 2.5,
      "ref": null,
-     "p_model": 0.415,
+     "p_model": 0.412,
      "label": "Bam Adebayo Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -179872,20 +179839,20 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Aday Mara",
+     "player": "Isaiah Hartenstein",
      "team": "OKC",
-     "stat": "dd",
+     "stat": "td",
      "side": "over",
      "line": 0.5,
-     "p": 0.401,
-     "fair": 2.49,
-     "min_dec": 2.57,
+     "p": 0.072,
+     "fair": 13.92,
+     "min_dec": 14.34,
      "ref": null,
-     "p_model": 0.401,
-     "label": "Aday Mara Doble-doble: Sí",
+     "p_model": 0.072,
+     "label": "Isaiah Hartenstein Triple-doble: Sí",
      "hr": {
       "l10": [
-       3,
+       0,
        10
       ],
       "h2h": [
@@ -179899,6 +179866,51 @@
    "all_bets": [
     {
      "kind": "prop",
+     "label": "Isaiah Hartenstein Over 10.5 Rebotes",
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "line": 10.5,
+     "odds": -144,
+     "dec": 1.695,
+     "odds_assumed": false,
+     "p": 0.782,
+     "implied": 0.59,
+     "edge": 0.192,
+     "ev": 0.325,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -130,
+     "dec_ref": 1.769,
+     "p_model": 0.782,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 23,
+       "value": 15.5,
+       "lg": 14.5,
+       "n": 30
+      }
+     },
+     "mean": 15.9,
+     "open": [
+      10.5,
+      1.695
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Pelle Larsson Under 3.5 Asistencias",
      "player": "Pelle Larsson",
      "team": "MIA",
@@ -179906,16 +179918,16 @@
      "odds": -141,
      "dec": 1.707,
      "odds_assumed": false,
-     "p": 0.712,
+     "p": 0.713,
      "implied": 0.586,
-     "edge": 0.126,
-     "ev": 0.215,
+     "edge": 0.127,
+     "ev": 0.217,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -128,
      "dec_ref": 1.781,
-     "p_model": 0.712,
+     "p_model": 0.713,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -179944,51 +179956,6 @@
     },
     {
      "kind": "prop",
-     "label": "Isaiah Hartenstein Over 10.5 Rebotes",
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "line": 10.5,
-     "odds": -144,
-     "dec": 1.695,
-     "odds_assumed": false,
-     "p": 0.704,
-     "implied": 0.59,
-     "edge": 0.114,
-     "ev": 0.193,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -130,
-     "dec_ref": 1.769,
-     "p_model": 0.704,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 23,
-       "value": 15.5,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 14.3,
-     "open": [
-      10.5,
-      1.695
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Giannis Antetokounmpo Under 6.5 Asistencias",
      "player": "Giannis Antetokounmpo",
      "team": "MIA",
@@ -179996,16 +179963,16 @@
      "odds": -156,
      "dec": 1.643,
      "odds_assumed": false,
-     "p": 0.707,
+     "p": 0.705,
      "implied": 0.609,
-     "edge": 0.098,
-     "ev": 0.162,
+     "edge": 0.096,
+     "ev": 0.158,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -140,
      "dec_ref": 1.714,
-     "p_model": 0.707,
+     "p_model": 0.705,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -180041,16 +180008,16 @@
      "odds": -161,
      "dec": 1.62,
      "odds_assumed": false,
-     "p": 0.64,
+     "p": 0.695,
      "implied": 0.617,
-     "edge": 0.023,
-     "ev": 0.037,
+     "edge": 0.078,
+     "ev": 0.126,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -145,
      "dec_ref": 1.69,
-     "p_model": 0.64,
+     "p_model": 0.695,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -180064,17 +180031,62 @@
        2
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 8,
-       "value": 5.2,
-       "lg": 5.6,
+       "pos": "SG",
+       "rank": 28,
+       "value": 7.9,
+       "lg": 6.8,
        "n": 30
       }
      },
-     "mean": 4.8,
+     "mean": 5.2,
      "open": [
       3.5,
       1.62
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Isaiah Hartenstein Over 3.5 Asistencias",
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "line": 3.5,
+     "odds": -184,
+     "dec": 1.543,
+     "odds_assumed": false,
+     "p": 0.728,
+     "implied": 0.648,
+     "edge": 0.08,
+     "ev": 0.123,
+     "value": false,
+     "stat": "ast",
+     "side": "over",
+     "odds_ref": -164,
+     "dec_ref": 1.61,
+     "p_model": 0.728,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 7,
+       "value": 3.7,
+       "lg": 4.3,
+       "n": 30
+      }
+     },
+     "mean": 5.5,
+     "open": [
+      3.5,
+      1.543
      ]
     },
     {
@@ -180110,50 +180122,6 @@
     },
     {
      "kind": "prop",
-     "label": "Isaiah Hartenstein Over 3.5 Asistencias",
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "line": 3.5,
-     "odds": -184,
-     "dec": 1.543,
-     "odds_assumed": false,
-     "p": 0.661,
-     "implied": 0.648,
-     "edge": 0.013,
-     "ev": 0.02,
-     "value": false,
-     "stat": "ast",
-     "side": "over",
-     "odds_ref": -164,
-     "dec_ref": 1.61,
-     "p_model": 0.661,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 7,
-       "value": 3.7,
-       "lg": 4.3,
-       "n": 30
-      }
-     },
-     "mean": 4.9,
-     "open": [
-      3.5,
-      1.543
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Bam Adebayo Over 1.5 Triples",
      "player": "Bam Adebayo",
      "team": "MIA",
@@ -180161,16 +180129,16 @@
      "odds": 145,
      "dec": 2.453,
      "odds_assumed": false,
-     "p": 0.411,
+     "p": 0.413,
      "implied": 0.408,
-     "edge": 0.003,
-     "ev": 0.008,
+     "edge": 0.005,
+     "ev": 0.013,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 168,
      "dec_ref": 2.68,
-     "p_model": 0.512,
+     "p_model": 0.52,
      "p_mkt": 0.377,
      "cand": false,
      "hr": {
@@ -180190,7 +180158,7 @@
        "n": 30
       }
      },
-     "mean": 1.8,
+     "mean": 1.9,
      "open": [
       1.5,
       2.453
@@ -180236,16 +180204,16 @@
      "odds": -110,
      "dec": 1.906,
      "odds_assumed": false,
-     "p": 0.521,
+     "p": 0.523,
      "implied": 0.525,
-     "edge": -0.004,
-     "ev": -0.007,
+     "edge": -0.002,
+     "ev": -0.004,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -102,
      "dec_ref": 1.98,
-     "p_model": 0.627,
+     "p_model": 0.633,
      "p_mkt": 0.486,
      "cand": false,
      "hr": {
@@ -180265,7 +180233,7 @@
        "n": 30
       }
      },
-     "mean": 11.4,
+     "mean": 11.3,
      "open": [
       12.5,
       1.906
@@ -180304,94 +180272,6 @@
     },
     {
      "kind": "prop",
-     "label": "Ajay Mitchell Under 4.5 Asistencias",
-     "player": "Ajay Mitchell",
-     "team": "OKC",
-     "line": 4.5,
-     "odds": -138,
-     "dec": 1.723,
-     "odds_assumed": false,
-     "p": 0.57,
-     "implied": 0.58,
-     "edge": -0.011,
-     "ev": -0.018,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.667,
-     "p_mkt": 0.537,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 19,
-       "value": 8.3,
-       "lg": 7.9,
-       "n": 30
-      }
-     },
-     "mean": 3.8,
-     "open": [
-      4.5,
-      1.723
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ajay Mitchell Under 1.5 Triples",
-     "player": "Ajay Mitchell",
-     "team": "OKC",
-     "line": 1.5,
-     "odds": -205,
-     "dec": 1.487,
-     "odds_assumed": false,
-     "p": 0.65,
-     "implied": 0.672,
-     "edge": -0.022,
-     "ev": -0.033,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -170,
-     "dec_ref": 1.588,
-     "p_model": 0.733,
-     "p_mkt": 0.623,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 29,
-       "value": 4.7,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      1.5,
-      1.487
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Bam Adebayo Under 3.5 Asistencias",
      "player": "Bam Adebayo",
      "team": "MIA",
@@ -180402,13 +180282,13 @@
      "p": 0.553,
      "implied": 0.577,
      "edge": -0.023,
-     "ev": -0.04,
+     "ev": -0.041,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.612,
+     "p_model": 0.611,
      "p_mkt": 0.534,
      "cand": false,
      "hr": {
@@ -180436,6 +180316,50 @@
     },
     {
      "kind": "prop",
+     "label": "Ajay Mitchell Under 1.5 Triples",
+     "player": "Ajay Mitchell",
+     "team": "OKC",
+     "line": 1.5,
+     "odds": -205,
+     "dec": 1.487,
+     "odds_assumed": false,
+     "p": 0.643,
+     "implied": 0.672,
+     "edge": -0.03,
+     "ev": -0.045,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -170,
+     "dec_ref": 1.588,
+     "p_model": 0.702,
+     "p_mkt": 0.623,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 27,
+       "value": 4.2,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.1,
+     "open": [
+      1.5,
+      1.487
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Davion Mitchell Over 2.5 Triples",
      "player": "Davion Mitchell",
      "team": "MIA",
@@ -180443,16 +180367,16 @@
      "odds": 123,
      "dec": 2.229,
      "odds_assumed": false,
-     "p": 0.427,
+     "p": 0.428,
      "implied": 0.449,
-     "edge": -0.022,
-     "ev": -0.048,
+     "edge": -0.02,
+     "ev": -0.045,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 145,
      "dec_ref": 2.45,
-     "p_model": 0.462,
+     "p_model": 0.467,
      "p_mkt": 0.415,
      "cand": false,
      "hr": {
@@ -180472,7 +180396,7 @@
        "n": 30
       }
      },
-     "mean": 2.6,
+     "mean": 2.7,
      "open": [
       2.5,
       2.229
@@ -180480,24 +180404,68 @@
     },
     {
      "kind": "prop",
-     "label": "Aday Mara Over 8.5 Rebotes",
-     "player": "Aday Mara",
+     "label": "Ajay Mitchell Under 4.5 Asistencias",
+     "player": "Ajay Mitchell",
      "team": "OKC",
-     "line": 8.5,
-     "odds": -127,
-     "dec": 1.786,
+     "line": 4.5,
+     "odds": -138,
+     "dec": 1.723,
      "odds_assumed": false,
-     "p": 0.533,
-     "implied": 0.56,
+     "p": 0.553,
+     "implied": 0.58,
      "edge": -0.027,
-     "ev": -0.049,
+     "ev": -0.046,
      "value": false,
-     "stat": "reb",
+     "stat": "ast",
+     "side": "under",
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.602,
+     "p_mkt": 0.537,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 27,
+       "value": 6.6,
+       "lg": 5.7,
+       "n": 30
+      }
+     },
+     "mean": 4.1,
+     "open": [
+      4.5,
+      1.723
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Jared McCain Over 2.5 Triples",
+     "player": "Jared McCain",
+     "team": "OKC",
+     "line": 2.5,
+     "odds": -198,
+     "dec": 1.506,
+     "odds_assumed": false,
+     "p": 0.633,
+     "implied": 0.664,
+     "edge": -0.031,
+     "ev": -0.047,
+     "value": false,
+     "stat": "fg3m",
      "side": "over",
-     "odds_ref": -114,
-     "dec_ref": 1.877,
-     "p_model": 0.575,
-     "p_mkt": 0.518,
+     "odds_ref": -175,
+     "dec_ref": 1.571,
+     "p_model": 0.633,
+     "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
@@ -180505,26 +180473,22 @@
        10
       ],
       "h2h": [
-       0,
-       0
+       1,
+       1
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 15,
-       "value": 10.2,
-       "lg": 10.3,
+       "pos": "SF",
+       "rank": 11,
+       "value": 2.6,
+       "lg": 2.7,
        "n": 30
       }
      },
-     "mean": 9.9,
+     "mean": 3.6,
      "open": [
-      8.5,
-      1.786
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
-     }
+      2.5,
+      1.506
+     ]
     },
     {
      "kind": "prop",
@@ -180535,16 +180499,16 @@
      "odds": -117,
      "dec": 1.852,
      "odds_assumed": false,
-     "p": 0.504,
+     "p": 0.505,
      "implied": 0.54,
      "edge": -0.035,
-     "ev": -0.066,
+     "ev": -0.065,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": 100,
      "dec_ref": 2.0,
-     "p_model": 0.518,
+     "p_model": 0.52,
      "p_mkt": 0.5,
      "cand": false,
      "hr": {
@@ -180564,7 +180528,7 @@
        "n": 30
       }
      },
-     "mean": 8.8,
+     "mean": 8.7,
      "open": [
       8.5,
       1.852
@@ -180579,16 +180543,16 @@
      "odds": -139,
      "dec": 1.719,
      "odds_assumed": false,
-     "p": 0.543,
+     "p": 0.544,
      "implied": 0.582,
      "edge": -0.038,
-     "ev": -0.066,
+     "ev": -0.065,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.558,
+     "p_model": 0.559,
      "p_mkt": 0.539,
      "cand": false,
      "hr": {
@@ -180616,46 +180580,46 @@
     },
     {
      "kind": "prop",
-     "label": "Jared McCain Over 2.5 Triples",
-     "player": "Jared McCain",
-     "team": "OKC",
-     "line": 2.5,
-     "odds": -198,
-     "dec": 1.506,
+     "label": "Bam Adebayo Under 9.5 Rebotes",
+     "player": "Bam Adebayo",
+     "team": "MIA",
+     "line": 9.5,
+     "odds": -126,
+     "dec": 1.792,
      "odds_assumed": false,
-     "p": 0.618,
-     "implied": 0.664,
-     "edge": -0.046,
-     "ev": -0.069,
+     "p": 0.519,
+     "implied": 0.558,
+     "edge": -0.039,
+     "ev": -0.07,
      "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -175,
-     "dec_ref": 1.571,
-     "p_model": 0.618,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.519,
      "p_mkt": null,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       7,
        10
       ],
       "h2h": [
-       1,
-       1
+       0,
+       2
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 27,
-       "value": 4.2,
-       "lg": 3.4,
+       "pos": "C",
+       "rank": 13,
+       "value": 14.4,
+       "lg": 14.5,
        "n": 30
       }
      },
-     "mean": 3.5,
+     "mean": 9.9,
      "open": [
-      2.5,
-      1.506
+      9.5,
+      1.792
      ]
     },
     {
@@ -180687,50 +180651,6 @@
      "open": [
       231.5,
       1.909
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Bam Adebayo Under 9.5 Rebotes",
-     "player": "Bam Adebayo",
-     "team": "MIA",
-     "line": 9.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.515,
-     "implied": 0.558,
-     "edge": -0.043,
-     "ev": -0.077,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.515,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 13,
-       "value": 14.4,
-       "lg": 14.5,
-       "n": 30
-      }
-     },
-     "mean": 9.9,
-     "open": [
-      9.5,
-      1.792
      ]
     },
     {
@@ -180788,14 +180708,14 @@
      "odds_assumed": false,
      "p": 0.495,
      "implied": 0.54,
-     "edge": -0.044,
-     "ev": -0.082,
+     "edge": -0.045,
+     "ev": -0.083,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -100,
      "dec_ref": 2.0,
-     "p_model": 0.482,
+     "p_model": 0.48,
      "p_mkt": 0.5,
      "cand": false,
      "hr": {
@@ -180815,7 +180735,7 @@
        "n": 30
       }
      },
-     "mean": 8.8,
+     "mean": 8.7,
      "open": [
       8.5,
       1.852
@@ -180830,7 +180750,7 @@
      "odds": 101,
      "dec": 2.007,
      "odds_assumed": false,
-     "p": 0.457,
+     "p": 0.456,
      "implied": 0.498,
      "edge": -0.042,
      "ev": -0.084,
@@ -180839,7 +180759,7 @@
      "side": "under",
      "odds_ref": 114,
      "dec_ref": 2.14,
-     "p_model": 0.442,
+     "p_model": 0.441,
      "p_mkt": 0.461,
      "cand": false,
      "hr": {
@@ -180905,16 +180825,16 @@
      "odds": -171,
      "dec": 1.584,
      "odds_assumed": false,
-     "p": 0.573,
+     "p": 0.572,
      "implied": 0.631,
-     "edge": -0.058,
-     "ev": -0.092,
+     "edge": -0.06,
+     "ev": -0.094,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -135,
      "dec_ref": 1.741,
-     "p_model": 0.538,
+     "p_model": 0.533,
      "p_mkt": 0.585,
      "cand": false,
      "hr": {
@@ -180934,7 +180854,7 @@
        "n": 30
       }
      },
-     "mean": 2.6,
+     "mean": 2.7,
      "open": [
       2.5,
       1.584
@@ -180973,51 +180893,47 @@
     },
     {
      "kind": "prop",
-     "label": "Aday Mara Under 8.5 Rebotes",
-     "player": "Aday Mara",
+     "label": "Ajay Mitchell Over 4.5 Asistencias",
+     "player": "Ajay Mitchell",
      "team": "OKC",
-     "line": 8.5,
-     "odds": -108,
-     "dec": 1.922,
+     "line": 4.5,
+     "odds": 100,
+     "dec": 2.001,
      "odds_assumed": false,
-     "p": 0.467,
-     "implied": 0.52,
+     "p": 0.447,
+     "implied": 0.5,
      "edge": -0.053,
-     "ev": -0.101,
+     "ev": -0.107,
      "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.425,
-     "p_mkt": 0.482,
+     "stat": "ast",
+     "side": "over",
+     "odds_ref": 109,
+     "dec_ref": 2.09,
+     "p_model": 0.398,
+     "p_mkt": 0.463,
      "cand": false,
      "hr": {
       "l10": [
-       5,
+       4,
        10
       ],
       "h2h": [
        0,
-       0
+       2
       ],
       "dvp": {
-       "pos": "PF",
-       "rank": 15,
-       "value": 10.2,
-       "lg": 10.3,
+       "pos": "SG",
+       "rank": 27,
+       "value": 6.6,
+       "lg": 5.7,
        "n": 30
       }
      },
-     "mean": 9.9,
+     "mean": 4.1,
      "open": [
-      8.5,
-      1.922
-     ],
-     "flag": {
-      "t": "rookie",
-      "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
-     }
+      4.5,
+      2.001
+     ]
     },
     {
      "kind": "prop",
@@ -181031,13 +180947,13 @@
      "p": 0.447,
      "implied": 0.503,
      "edge": -0.057,
-     "ev": -0.113,
+     "ev": -0.112,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": 110,
      "dec_ref": 2.1,
-     "p_model": 0.388,
+     "p_model": 0.389,
      "p_mkt": 0.466,
      "cand": false,
      "hr": {
@@ -181065,6 +180981,50 @@
     },
     {
      "kind": "prop",
+     "label": "Ajay Mitchell Over 1.5 Triples",
+     "player": "Ajay Mitchell",
+     "team": "OKC",
+     "line": 1.5,
+     "odds": 145,
+     "dec": 2.454,
+     "odds_assumed": false,
+     "p": 0.357,
+     "implied": 0.408,
+     "edge": -0.05,
+     "ev": -0.123,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": 162,
+     "dec_ref": 2.62,
+     "p_model": 0.298,
+     "p_mkt": 0.377,
+     "cand": false,
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 27,
+       "value": 4.2,
+       "lg": 3.4,
+       "n": 30
+      }
+     },
+     "mean": 1.1,
+     "open": [
+      1.5,
+      2.454
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Bam Adebayo Under 1.5 Triples",
      "player": "Bam Adebayo",
      "team": "MIA",
@@ -181072,16 +181032,16 @@
      "odds": -205,
      "dec": 1.487,
      "odds_assumed": false,
-     "p": 0.589,
+     "p": 0.587,
      "implied": 0.672,
-     "edge": -0.084,
-     "ev": -0.124,
+     "edge": -0.086,
+     "ev": -0.127,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -160,
      "dec_ref": 1.625,
-     "p_model": 0.488,
+     "p_model": 0.48,
      "p_mkt": 0.623,
      "cand": false,
      "hr": {
@@ -181101,54 +181061,10 @@
        "n": 30
       }
      },
-     "mean": 1.8,
+     "mean": 1.9,
      "open": [
       1.5,
       1.487
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jared McCain Under 3.5 Triples",
-     "player": "Jared McCain",
-     "team": "OKC",
-     "line": 3.5,
-     "odds": -179,
-     "dec": 1.557,
-     "odds_assumed": false,
-     "p": 0.562,
-     "implied": 0.642,
-     "edge": -0.08,
-     "ev": -0.125,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -160,
-     "dec_ref": 1.625,
-     "p_model": 0.562,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       1,
-       1
-      ],
-      "dvp": {
-       "pos": "SG",
-       "rank": 27,
-       "value": 4.2,
-       "lg": 3.4,
-       "n": 30
-      }
-     },
-     "mean": 3.5,
-     "open": [
-      3.5,
-      1.557
      ]
     },
     {
@@ -181160,16 +181076,16 @@
      "odds": -125,
      "dec": 1.8,
      "odds_assumed": false,
-     "p": 0.479,
+     "p": 0.477,
      "implied": 0.555,
-     "edge": -0.077,
-     "ev": -0.138,
+     "edge": -0.078,
+     "ev": -0.141,
      "value": false,
      "stat": "reb",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.373,
+     "p_model": 0.367,
      "p_mkt": 0.514,
      "cand": false,
      "hr": {
@@ -181189,7 +181105,7 @@
        "n": 30
       }
      },
-     "mean": 11.4,
+     "mean": 11.3,
      "open": [
       12.5,
       1.8
@@ -181197,155 +181113,23 @@
     },
     {
      "kind": "prop",
-     "label": "Ajay Mitchell Over 4.5 Asistencias",
-     "player": "Ajay Mitchell",
+     "label": "Jared McCain Under 3.5 Triples",
+     "player": "Jared McCain",
      "team": "OKC",
-     "line": 4.5,
-     "odds": 100,
-     "dec": 2.001,
+     "line": 3.5,
+     "odds": -179,
+     "dec": 1.557,
      "odds_assumed": false,
-     "p": 0.43,
-     "implied": 0.5,
-     "edge": -0.069,
-     "ev": -0.139,
-     "value": false,
-     "stat": "ast",
-     "side": "over",
-     "odds_ref": 109,
-     "dec_ref": 2.09,
-     "p_model": 0.333,
-     "p_mkt": 0.463,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 19,
-       "value": 8.3,
-       "lg": 7.9,
-       "n": 30
-      }
-     },
-     "mean": 3.8,
-     "open": [
-      4.5,
-      2.001
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ajay Mitchell Over 1.5 Triples",
-     "player": "Ajay Mitchell",
-     "team": "OKC",
-     "line": 1.5,
-     "odds": 145,
-     "dec": 2.454,
-     "odds_assumed": false,
-     "p": 0.35,
-     "implied": 0.408,
-     "edge": -0.058,
-     "ev": -0.142,
+     "p": 0.542,
+     "implied": 0.642,
+     "edge": -0.1,
+     "ev": -0.156,
      "value": false,
      "stat": "fg3m",
-     "side": "over",
-     "odds_ref": 162,
-     "dec_ref": 2.62,
-     "p_model": 0.267,
-     "p_mkt": 0.377,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 29,
-       "value": 4.7,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 1.0,
-     "open": [
-      1.5,
-      2.454
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Isaiah Hartenstein Under 4.5 Asistencias",
-     "player": "Isaiah Hartenstein",
-     "team": "OKC",
-     "line": 4.5,
-     "odds": -150,
-     "dec": 1.668,
-     "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.599,
-     "edge": -0.112,
-     "ev": -0.186,
-     "value": false,
-     "stat": "ast",
      "side": "under",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.488,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       0
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 7,
-       "value": 3.7,
-       "lg": 4.3,
-       "n": 30
-      }
-     },
-     "mean": 4.9,
-     "open": [
-      4.5,
-      1.668
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Ajay Mitchell Under 4.5 Rebotes",
-     "player": "Ajay Mitchell",
-     "team": "OKC",
-     "line": 4.5,
-     "odds": -177,
-     "dec": 1.565,
-     "odds_assumed": false,
-     "p": 0.51,
-     "implied": 0.639,
-     "edge": -0.129,
-     "ev": -0.202,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -158,
-     "dec_ref": 1.633,
-     "p_model": 0.51,
+     "odds_ref": -160,
+     "dec_ref": 1.625,
+     "p_model": 0.542,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -181354,21 +181138,21 @@
        10
       ],
       "h2h": [
-       2,
-       2
+       1,
+       1
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 8,
-       "value": 5.2,
-       "lg": 5.6,
+       "pos": "SF",
+       "rank": 11,
+       "value": 2.6,
+       "lg": 2.7,
        "n": 30
       }
      },
-     "mean": 4.8,
+     "mean": 3.6,
      "open": [
-      4.5,
-      1.565
+      3.5,
+      1.557
      ]
     },
     {
@@ -181380,16 +181164,16 @@
      "odds": -192,
      "dec": 1.522,
      "odds_assumed": false,
-     "p": 0.465,
+     "p": 0.462,
      "implied": 0.657,
-     "edge": -0.192,
-     "ev": -0.292,
+     "edge": -0.195,
+     "ev": -0.297,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -170,
      "dec_ref": 1.588,
-     "p_model": 0.465,
+     "p_model": 0.462,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -181417,6 +181201,94 @@
     },
     {
      "kind": "prop",
+     "label": "Ajay Mitchell Under 4.5 Rebotes",
+     "player": "Ajay Mitchell",
+     "team": "OKC",
+     "line": 4.5,
+     "odds": -177,
+     "dec": 1.565,
+     "odds_assumed": false,
+     "p": 0.445,
+     "implied": 0.639,
+     "edge": -0.194,
+     "ev": -0.304,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -158,
+     "dec_ref": 1.633,
+     "p_model": 0.445,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 28,
+       "value": 7.9,
+       "lg": 6.8,
+       "n": 30
+      }
+     },
+     "mean": 5.2,
+     "open": [
+      4.5,
+      1.565
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Isaiah Hartenstein Under 4.5 Asistencias",
+     "player": "Isaiah Hartenstein",
+     "team": "OKC",
+     "line": 4.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.41,
+     "implied": 0.599,
+     "edge": -0.19,
+     "ev": -0.316,
+     "value": false,
+     "stat": "ast",
+     "side": "under",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.41,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       0
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 7,
+       "value": 3.7,
+       "lg": 4.3,
+       "n": 30
+      }
+     },
+     "mean": 5.5,
+     "open": [
+      4.5,
+      1.668
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Giannis Antetokounmpo Over 5.5 Asistencias",
      "player": "Giannis Antetokounmpo",
      "team": "MIA",
@@ -181424,16 +181296,16 @@
      "odds": -156,
      "dec": 1.643,
      "odds_assumed": false,
-     "p": 0.409,
+     "p": 0.411,
      "implied": 0.609,
-     "edge": -0.2,
-     "ev": -0.328,
+     "edge": -0.198,
+     "ev": -0.325,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -140,
      "dec_ref": 1.714,
-     "p_model": 0.409,
+     "p_model": 0.411,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -181468,16 +181340,16 @@
      "odds": -144,
      "dec": 1.695,
      "odds_assumed": false,
-     "p": 0.359,
+     "p": 0.272,
      "implied": 0.59,
-     "edge": -0.231,
-     "ev": -0.391,
+     "edge": -0.318,
+     "ev": -0.539,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": -130,
      "dec_ref": 1.769,
-     "p_model": 0.359,
+     "p_model": 0.272,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -181497,7 +181369,7 @@
        "n": 30
       }
      },
-     "mean": 14.3,
+     "mean": 15.9,
      "open": [
       11.5,
       1.695
@@ -181510,120 +181382,120 @@
       "Jared McCain": [
        [
         "Ajay Mitchell",
-        4.5,
-        4.7
-       ],
-       [
-        "Aday Mara",
-        3.5,
-        5.3
+        5.3,
+        3.9
        ],
        [
         "Bennett Stirtz",
-        3.0,
-        4.6
-       ]
-      ],
-      "Ajay Mitchell": [
-       [
-        "Jared McCain",
-        3.7,
-        2.7
-       ],
-       [
-        "Aday Mara",
-        3.7,
-        4.6
+        4.1,
+        5.4
        ],
        [
         "Kenrich Williams",
-        3.0,
-        4.5
+        3.7,
+        5.5
        ]
       ],
       "Isaiah Hartenstein": [
        [
         "Ajay Mitchell",
-        2.6,
-        4.1
+        3.3,
+        3.7
        ],
        [
-        "Aday Mara",
-        2.0,
-        4.5
-       ],
-       [
-        "Kenrich Williams",
-        1.8,
-        4.4
-       ]
-      ],
-      "Aday Mara": [
-       [
-        "Ajay Mitchell",
-        3.2,
-        3.8
-       ],
-       [
-        "Jared McCain",
-        2.1,
-        2.6
+        "Bennett Stirtz",
+        2.8,
+        4.6
        ],
        [
         "Kenrich Williams",
-        2.1,
-        4.0
-       ]
-      ],
-      "Kenrich Williams": [
-       [
-        "Ajay Mitchell",
-        2.4,
-        3.6
-       ],
-       [
-        "Aday Mara",
-        1.9,
-        3.8
-       ],
-       [
-        "Jared McCain",
-        1.5,
-        2.4
+        2.5,
+        4.9
        ]
       ],
       "Nique Clifford": [
        [
         "Ajay Mitchell",
-        2.2,
-        3.3
-       ],
-       [
-        "Aday Mara",
-        1.7,
+        3.5,
         3.5
        ],
        [
+        "Bennett Stirtz",
+        2.8,
+        4.2
+       ],
+       [
         "Kenrich Williams",
-        1.4,
+        2.5,
+        4.6
+       ]
+      ],
+      "Ajay Mitchell": [
+       [
+        "Bennett Stirtz",
+        4.3,
+        4.5
+       ],
+       [
+        "Kenrich Williams",
+        4.2,
+        4.8
+       ],
+       [
+        "Nique Clifford",
+        4.1,
+        4.8
+       ]
+      ],
+      "Kenrich Williams": [
+       [
+        "Ajay Mitchell",
+        3.3,
         3.3
+       ],
+       [
+        "Bennett Stirtz",
+        2.5,
+        3.9
+       ],
+       [
+        "Nique Clifford",
+        2.1,
+        4.1
        ]
       ],
       "Bennett Stirtz": [
        [
         "Ajay Mitchell",
-        2.3,
+        3.0,
+        2.7
+       ],
+       [
+        "Kenrich Williams",
+        2.1,
+        3.3
+       ],
+       [
+        "Nique Clifford",
+        1.8,
+        3.2
+       ]
+      ],
+      "Micah Peavy": [
+       [
+        "Ajay Mitchell",
+        1.6,
+        2.3
+       ],
+       [
+        "Kenrich Williams",
+        1.2,
         2.8
        ],
        [
-        "Aday Mara",
-        1.8,
-        2.9
-       ],
-       [
-        "Jared McCain",
-        1.7,
-        2.0
+        "Bennett Stirtz",
+        1.2,
+        2.4
        ]
       ]
      },
@@ -181671,165 +181543,31 @@
        ]
       ]
      },
-     "doubt": [],
-     "planb": {
-      "Jared McCain": {
-       "p_play": 1.0,
-       "min": 38.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.623,
-         "base_p": 0.533,
-         "ev": 0.113,
-         "if_out": "Jared McCain",
-         "mean": 11.6,
-         "mean0": 9.9
-        }
-       ]
-      },
-      "Ajay Mitchell": {
-       "p_play": 1.0,
-       "min": 34.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.613,
-         "base_p": 0.533,
-         "ev": 0.095,
-         "if_out": "Ajay Mitchell",
-         "mean": 11.4,
-         "mean0": 9.9
-        }
-       ]
-      },
-      "Isaiah Hartenstein": {
-       "p_play": 1.0,
-       "min": 33.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.613,
-         "base_p": 0.533,
-         "ev": 0.095,
-         "if_out": "Isaiah Hartenstein",
-         "mean": 11.4,
-         "mean0": 9.9
-        }
-       ]
-      },
-      "Kenrich Williams": {
-       "p_play": 1.0,
-       "min": 28.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.604,
-         "base_p": 0.533,
-         "ev": 0.079,
-         "if_out": "Kenrich Williams",
-         "mean": 11.2,
-         "mean0": 9.9
-        }
-       ]
-      },
-      "Nique Clifford": {
-       "p_play": 1.0,
-       "min": 28.0,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.597,
-         "base_p": 0.533,
-         "ev": 0.066,
-         "if_out": "Nique Clifford",
-         "mean": 11.1,
-         "mean0": 9.9
-        }
-       ]
-      },
-      "Bennett Stirtz": {
-       "p_play": 1.0,
-       "min": 23.5,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Aday Mara Over 8.5 Rebotes",
-         "player": "Aday Mara",
-         "team": "OKC",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.786,
-         "p": 0.589,
-         "base_p": 0.533,
-         "ev": 0.052,
-         "if_out": "Bennett Stirtz",
-         "mean": 10.9,
-         "mean0": 9.9
-        }
-       ]
-      }
-     }
+     "doubt": []
     },
     "MIA": {
      "model": {
       "Davion Mitchell": [
        [
         "Giannis Antetokounmpo",
-        3.2,
+        2.7,
         4.4
-       ],
-       [
-        "Bam Adebayo",
-        2.2,
-        4.5
        ],
        [
         "Klay Thompson",
         2.2,
         4.3
+       ],
+       [
+        "Bam Adebayo",
+        2.1,
+        4.5
        ]
       ],
       "Bam Adebayo": [
        [
         "Giannis Antetokounmpo",
-        3.5,
+        3.3,
         3.8
        ],
        [
@@ -181839,53 +181577,53 @@
        ],
        [
         "Andrew Wiggins",
-        1.9,
+        2.0,
         3.9
        ]
       ],
       "Andrew Wiggins": [
        [
         "Giannis Antetokounmpo",
-        2.8,
+        2.6,
         3.8
        ],
        [
-        "Bam Adebayo",
+        "Klay Thompson",
         2.1,
-        3.9
+        3.6
        ],
        [
-        "Klay Thompson",
+        "Bam Adebayo",
         2.0,
-        3.6
+        3.9
        ]
       ],
       "Giannis Antetokounmpo": [
        [
         "Bam Adebayo",
-        2.1,
+        2.0,
         2.3
        ],
        [
         "Klay Thompson",
-        1.9,
+        1.8,
         2.0
        ],
        [
-        "Davion Mitchell",
-        1.7,
+        "Andrew Wiggins",
+        1.6,
         2.2
        ]
       ],
       "Pelle Larsson": [
        [
         "Giannis Antetokounmpo",
-        2.1,
-        2.8
+        2.0,
+        2.9
        ],
        [
         "Bam Adebayo",
-        1.7,
+        1.6,
         3.0
        ],
        [
@@ -181902,7 +181640,7 @@
        ],
        [
         "Bam Adebayo",
-        2.3,
+        2.2,
         3.1
        ],
        [
@@ -181914,17 +181652,17 @@
       "Ryan Conwell": [
        [
         "Giannis Antetokounmpo",
-        1.9,
+        1.7,
         2.8
        ],
        [
         "Bam Adebayo",
-        1.5,
+        1.4,
         2.9
        ],
        [
         "Klay Thompson",
-        1.3,
+        1.4,
         2.6
        ]
       ]
@@ -181950,12 +181688,28 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.719,
-         "p": 0.608,
-         "base_p": 0.543,
-         "ev": 0.046,
+         "p": 0.607,
+         "base_p": 0.544,
+         "ev": 0.043,
          "if_out": "Davion Mitchell",
          "mean": 5.1,
          "mean0": 4.4
+        },
+        {
+         "kind": "prop",
+         "label": "Giannis Antetokounmpo Over 12.5 Rebotes",
+         "player": "Giannis Antetokounmpo",
+         "team": "MIA",
+         "stat": "reb",
+         "side": "over",
+         "line": 12.5,
+         "dec": 1.8,
+         "p": 0.573,
+         "base_p": 0.477,
+         "ev": 0.031,
+         "if_out": "Davion Mitchell",
+         "mean": 13.1,
+         "mean0": 11.3
         }
        ]
       },
@@ -181972,12 +181726,12 @@
          "side": "over",
          "line": 8.5,
          "dec": 1.852,
-         "p": 0.556,
+         "p": 0.558,
          "base_p": 0.495,
-         "ev": 0.031,
+         "ev": 0.033,
          "if_out": "Bam Adebayo",
          "mean": 9.6,
-         "mean0": 8.8
+         "mean0": 8.7
         },
         {
          "kind": "prop",
@@ -181988,9 +181742,9 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.719,
-         "p": 0.599,
-         "base_p": 0.543,
-         "ev": 0.03,
+         "p": 0.6,
+         "base_p": 0.544,
+         "ev": 0.032,
          "if_out": "Bam Adebayo",
          "mean": 5.0,
          "mean0": 4.4
@@ -182010,9 +181764,9 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.719,
-         "p": 0.601,
-         "base_p": 0.543,
-         "ev": 0.033,
+         "p": 0.6,
+         "base_p": 0.544,
+         "ev": 0.031,
          "if_out": "Andrew Wiggins",
          "mean": 5.0,
          "mean0": 4.4
