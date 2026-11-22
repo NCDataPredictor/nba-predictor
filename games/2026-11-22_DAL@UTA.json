@@ -16,20 +16,15 @@
    "Tarik Biberovic",
    "Lauri Markkanen",
    "Jaren Jackson Jr.",
-   "Jusuf Nurkic"
+   "Jusuf Nurkic",
+   "Tobi Lawal"
   ],
   "gtd": {
    "P.J. Washington": 0.5,
-   "Tobi Lawal": 0.5
+   "Walter Clayton Jr.": 0.6
   },
   "reserves": {
    "DAL": [
-    {
-     "name": "Tobi Lawal",
-     "pos": "PF",
-     "min": 4.5,
-     "g": 8
-    },
     {
      "name": "Moussa Cissé",
      "pos": "C",
@@ -870,7 +865,7 @@
    "starter": false,
    "min": 16.4,
    "g_cur": 15,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 18.3,
     "pts": 7.7,
@@ -1071,14 +1066,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 105,
-  "ml_away": -125,
-  "spread_home": 1.5,
+  "ml_home": 114,
+  "ml_away": -135,
+  "spread_home": 2.5,
   "total": 225.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -110,
-  "under_odds": -110
+  "spread_odds_home": -114,
+  "spread_odds_away": -106,
+  "over_odds": -113,
+  "under_odds": -107
  },
  "prop_lines": {
   "Cooper Flagg": {

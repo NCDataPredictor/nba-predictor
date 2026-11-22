@@ -7,7 +7,7 @@
   "tip_et": "18:00",
   "neutral": false,
   "notes": [
-   "OKC: Gilgeous-Alexander (espalda/cuello) cuestionable; Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
+   "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
    "MIA: Antetokounmpo (ingle) cuestionable; Gardner probable"
   ],
   "out": [
@@ -17,10 +17,10 @@
    "Thomas Sorber",
    "Cason Wallace",
    "Chet Holmgren",
-   "Jalen Williams"
+   "Jalen Williams",
+   "Shai Gilgeous-Alexander"
   ],
   "gtd": {
-   "Shai Gilgeous-Alexander": 0.55,
    "Giannis Antetokounmpo": 0.6,
    "Myron Gardner": 0.85
   },
@@ -108,13 +108,13 @@
     "pace": 100.65
    },
    "adj": {
-    "o": -0.5,
-    "d": 0.5,
+    "o": -3.0,
+    "d": 1.0,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": "Caruso, Jaylin Williams y Topić OUT 22-nov (Holmgren, J. Williams y Wallace siguen fuera); SGA en duda"
+    "roster_note": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera)"
    }
   }
  },
@@ -663,52 +663,10 @@
   },
   {
    "team": "OKC",
-   "name": "Shai Gilgeous-Alexander",
-   "pos": "PG",
-   "starter": true,
-   "min": 36.0,
-   "g_cur": 16,
-   "p_play": 0.55,
-   "cur": {
-    "min": 33.4,
-    "pts": 31.7,
-    "reb": 4.0,
-    "ast": 4.5,
-    "fg3m": 2.4,
-    "fgm": 11.3,
-    "fga": 23.3,
-    "fg3a": 6.3,
-    "stl": 0.8,
-    "blk": 0.9,
-    "tov": 2.2,
-    "pf": 1.7,
-    "ftm": 6.8,
-    "fta": 8.3
-   },
-   "prior": {
-    "min": 33.2,
-    "pts": 31.13,
-    "reb": 4.29,
-    "ast": 6.59,
-    "fg3m": 1.69,
-    "fgm": 10.75,
-    "fga": 19.43,
-    "fg3a": 4.38,
-    "stl": 1.4,
-    "blk": 0.76,
-    "tov": 2.22,
-    "pf": 2.04,
-    "ftm": 7.94,
-    "fta": 9.03
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "OKC",
    "name": "Ajay Mitchell",
    "pos": "SG",
    "starter": true,
-   "min": 30.2,
+   "min": 35.5,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -743,14 +701,14 @@
     "ftm": 2.47,
     "fta": 2.84
    },
-   "slot": "SG"
+   "slot": "PG"
   },
   {
    "team": "OKC",
    "name": "Jared McCain",
    "pos": "SG",
    "starter": true,
-   "min": 29.4,
+   "min": 34.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -785,14 +743,14 @@
     "ftm": 0.76,
     "fta": 0.88
    },
-   "slot": "SF"
+   "slot": "SG"
   },
   {
    "team": "OKC",
    "name": "Isaiah Hartenstein",
    "pos": "C",
    "starter": true,
-   "min": 27.2,
+   "min": 32.0,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -833,8 +791,8 @@
    "team": "OKC",
    "name": "Aday Mara",
    "pos": "C",
-   "starter": false,
-   "min": 24.0,
+   "starter": true,
+   "min": 28.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -868,14 +826,15 @@
     "pf": 2.52,
     "ftm": 0.9,
     "fta": 1.6
-   }
+   },
+   "slot": "PF"
   },
   {
    "team": "OKC",
    "name": "Kenrich Williams",
    "pos": "PF",
    "starter": true,
-   "min": 22.4,
+   "min": 26.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -910,14 +869,14 @@
     "ftm": 0.59,
     "fta": 0.93
    },
-   "slot": "PF"
+   "slot": "SF"
   },
   {
    "team": "OKC",
    "name": "Bennett Stirtz",
    "pos": "PG",
    "starter": false,
-   "min": 19.8,
+   "min": 23.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -958,7 +917,7 @@
    "name": "Nique Clifford",
    "pos": "SG",
    "starter": false,
-   "min": 17.8,
+   "min": 20.9,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -999,7 +958,7 @@
    "name": "Micah Peavy",
    "pos": "SG",
    "starter": false,
-   "min": 16.9,
+   "min": 19.9,
    "g_cur": 10,
    "p_play": 1.0,
    "cur": {
@@ -1040,7 +999,7 @@
    "name": "Josh Dix",
    "pos": "SG",
    "starter": false,
-   "min": 16.2,
+   "min": 19.0,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -1079,14 +1038,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": -148,
-  "ml_away": 124,
+  "ml_home": -173,
+  "ml_away": 146,
   "spread_home": -3.5,
   "total": 231.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -116,
-  "over_odds": -110,
-  "under_odds": -110
+  "spread_odds_home": -116,
+  "spread_odds_away": -104,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Giannis Antetokounmpo": {
@@ -1157,24 +1116,6 @@
     1.5,
     162,
     -170
-   ]
-  },
-  "Shai Gilgeous-Alexander": {
-   "reb": [
-    3.5,
-    -140,
-    -140,
-    4.5
-   ],
-   "ast": [
-    5.5,
-    125,
-    -140
-   ],
-   "fg3m": [
-    1.5,
-    -164,
-    142
    ]
   },
   "Davion Mitchell": {

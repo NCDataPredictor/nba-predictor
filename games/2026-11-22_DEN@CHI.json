@@ -17,7 +17,7 @@
    "Tobe Awaka"
   ],
   "gtd": {
-   "Jalen Smith": 0.6,
+   "Jalen Smith": 0.9,
    "Patrick Williams": 0.9
   },
   "reserves": {
@@ -210,7 +210,7 @@
    "starter": true,
    "min": 25.0,
    "g_cur": 13,
-   "p_play": 0.6,
+   "p_play": 0.9,
    "cur": {
     "min": 24.6,
     "pts": 13.4,
@@ -1157,14 +1157,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 297,
-  "ml_away": -374,
-  "spread_home": 8.5,
-  "total": 237.5,
+  "ml_home": 340,
+  "ml_away": -437,
+  "spread_home": 9.5,
+  "total": 235.5,
   "spread_odds_home": -105,
   "spread_odds_away": -115,
-  "over_odds": -110,
-  "under_odds": -110
+  "over_odds": -108,
+  "under_odds": -112
  },
  "prop_lines": {
   "Nikola Jokić": {

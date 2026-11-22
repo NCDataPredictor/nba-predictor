@@ -1166,21 +1166,21 @@
    "tip_et": "18:00",
    "venue": "Kaseya Center, Miami",
    "market": {
-    "ml_home": -148,
-    "ml_away": 124,
+    "ml_home": -173,
+    "ml_away": 146,
     "spread_home": -3.5,
     "total": 231.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -116,
-    "over_odds": -110,
-    "under_odds": -110
+    "spread_odds_home": -116,
+    "spread_odds_away": -104,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [],
    "adj": {
     "OKC": {
-     "o": -0.5,
-     "d": 0.5,
-     "why": "Caruso, Jaylin Williams y Topić OUT 22-nov (Holmgren, J. Williams y Wallace siguen fuera); SGA en duda"
+     "o": -3.0,
+     "d": 1.0,
+     "why": "Gilgeous-Alexander OUT 22-nov (Stein 16:40 ET) + Caruso, Jaylin Williams y Topić OUT (Holmgren, J. Williams y Wallace siguen fuera)"
     }
    },
    "out": [
@@ -1190,15 +1190,15 @@
     "Thomas Sorber",
     "Cason Wallace",
     "Chet Holmgren",
-    "Jalen Williams"
+    "Jalen Williams",
+    "Shai Gilgeous-Alexander"
    ],
    "gtd": {
-    "Shai Gilgeous-Alexander": 0.55,
     "Giannis Antetokounmpo": 0.6,
     "Myron Gardner": 0.85
    },
    "notes": [
-    "OKC: Gilgeous-Alexander (espalda/cuello) cuestionable; Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
+    "OKC: Gilgeous-Alexander OUT (espalda/cuello, Stein 16:40 ET); Caruso, Jaylin Williams, Topić OUT; Holmgren, Jalen Williams, Wallace y Sorber fuera largo",
     "MIA: Antetokounmpo (ingle) cuestionable; Gardner probable"
    ]
   },
@@ -1208,14 +1208,14 @@
    "tip_et": "19:00",
    "venue": "Capital One Arena, Washington",
    "market": {
-    "ml_home": 185,
-    "ml_away": -222,
-    "spread_home": 5.5,
+    "ml_home": 165,
+    "ml_away": -197,
+    "spread_home": 4.5,
     "total": 220.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -113,
-    "under_odds": -107
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [],
    "adj": {},
@@ -1229,7 +1229,10 @@
     "Justin Champagnie",
     "Jamir Watkins"
    ],
-   "gtd": {},
+   "gtd": {
+    "Deandre Ayton": 0.6,
+    "Bub Carrington": 0.6
+   },
    "notes": [
     "ORL: Banchero (tobillo), Isaac, Penda y Nelson OUT",
     "WAS: Vukcevic, Beekman, Champagnie y Watkins OUT"
@@ -1241,14 +1244,14 @@
    "tip_et": "19:00",
    "venue": "Delta Center, Salt Lake City",
    "market": {
-    "ml_home": 105,
-    "ml_away": -125,
-    "spread_home": 1.5,
+    "ml_home": 114,
+    "ml_away": -135,
+    "spread_home": 2.5,
     "total": 225.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -110
+    "spread_odds_home": -114,
+    "spread_odds_away": -106,
+    "over_odds": -113,
+    "under_odds": -107
    },
    "b2b": [
     "DAL"
@@ -1266,11 +1269,12 @@
     "Tarik Biberovic",
     "Lauri Markkanen",
     "Jaren Jackson Jr.",
-    "Jusuf Nurkic"
+    "Jusuf Nurkic",
+    "Tobi Lawal"
    ],
    "gtd": {
     "P.J. Washington": 0.5,
-    "Tobi Lawal": 0.5
+    "Walter Clayton Jr.": 0.6
    },
    "notes": [
     "DAL: back-to-back (jugó el 21-nov); P.J. Washington (enfermedad/hombro) y Lawal cuestionables (no jugaron el 21); Lively, de Larrea y Biberovic OUT",
@@ -1283,14 +1287,14 @@
    "tip_et": "19:00",
    "venue": "United Center, Chicago",
    "market": {
-    "ml_home": 297,
-    "ml_away": -374,
-    "spread_home": 8.5,
-    "total": 237.5,
+    "ml_home": 340,
+    "ml_away": -437,
+    "spread_home": 9.5,
+    "total": 235.5,
     "spread_odds_home": -105,
     "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -110
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [],
    "adj": {
@@ -1307,7 +1311,7 @@
     "Tobe Awaka"
    ],
    "gtd": {
-    "Jalen Smith": 0.6,
+    "Jalen Smith": 0.9,
     "Patrick Williams": 0.9
    },
    "notes": [
@@ -1321,14 +1325,14 @@
    "tip_et": "20:00",
    "venue": "Madison Square Garden, New York",
    "market": {
-    "ml_home": -380,
-    "ml_away": 301,
-    "spread_home": -9.5,
-    "total": 214.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": -296,
+    "ml_away": 240,
+    "spread_home": -7.5,
+    "total": 213.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -106,
+    "under_odds": -114
    },
    "b2b": [
     "NYK"
@@ -1338,6 +1342,11 @@
      "o": -0.5,
      "d": 0.0,
      "why": "McConnell OUT 22-nov; Haliburton sigue fuera; Siakam en duda"
+    },
+    "NYK": {
+     "o": -0.5,
+     "d": 0.5,
+     "why": "Anunoby y Clarkson OUT 22-nov; Towns en duda"
     }
    },
    "out": [
@@ -1363,30 +1372,35 @@
    "tip_et": "20:30",
    "venue": "Chase Center, San Francisco",
    "market": {
-    "ml_home": 312,
-    "ml_away": -395,
-    "spread_home": 9.5,
-    "total": 210.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -113,
-    "under_odds": -107
+    "ml_home": 247,
+    "ml_away": -304,
+    "spread_home": 7.5,
+    "total": 209.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [
     "BOS"
    ],
-   "adj": {},
+   "adj": {
+    "BOS": {
+     "o": -1.5,
+     "d": 0.25,
+     "why": "Paul George (19.8 ppg) y M. Robinson OUT 22-nov (Athlon 16:30 ET); Tatum y White fuera del parte"
+    }
+   },
    "out": [
     "Brandon Williams",
     "Stephen Curry",
     "Kristaps Porzingis",
     "Moses Moody",
-    "Jimmy Butler"
+    "Jimmy Butler",
+    "Paul George",
+    "Mitchell Robinson"
    ],
-   "gtd": {
-    "Derrick White": 0.65,
-    "Mitchell Robinson": 0.5
-   },
+   "gtd": {},
    "notes": [
     "BOS: back-to-back; White (hombro) y M. Robinson (enfermedad) cuestionables; Tatum probable (descansó el 21)",
     "GSW: Curry (oblicuo), B. Williams, Porzingis, Moody y Butler OUT"

@@ -20,7 +20,10 @@
    "Justin Champagnie",
    "Jamir Watkins"
   ],
-  "gtd": {},
+  "gtd": {
+   "Deandre Ayton": 0.6,
+   "Bub Carrington": 0.6
+  },
   "reserves": {
    "ORL": [
     {
@@ -419,7 +422,7 @@
    "starter": false,
    "min": 15.8,
    "g_cur": 16,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 16.8,
     "pts": 4.8,
@@ -501,7 +504,7 @@
    "starter": false,
    "min": 12.3,
    "g_cur": 17,
-   "p_play": 1.0,
+   "p_play": 0.6,
    "cur": {
     "min": 13.1,
     "pts": 3.8,
@@ -1035,14 +1038,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": 185,
-  "ml_away": -222,
-  "spread_home": 5.5,
+  "ml_home": 165,
+  "ml_away": -197,
+  "spread_home": 4.5,
   "total": 220.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -113,
-  "under_odds": -107
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
+  "over_odds": -108,
+  "under_odds": -112
  },
  "prop_lines": {
   "Anthony Davis": {

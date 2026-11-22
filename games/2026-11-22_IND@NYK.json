@@ -71,13 +71,13 @@
     "pace": 97.99
    },
    "adj": {
-    "o": -1.0,
-    "d": 1.0,
+    "o": -1.5,
+    "d": 1.5,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": ""
+    "roster_note": "Anunoby y Clarkson OUT 22-nov; Towns en duda"
    }
   },
   "IND": {
@@ -1105,14 +1105,14 @@
  ],
  "market": {
   "source": "NBA.com/games 22-nov (7 partidos); consenso scoresandodds.com/nba?date=2026-11-22 (~11:40 ET) para spread/total/ML; Covers matchup/<id>/odds 388766-388772 (9 casas en ORL@WAS, IND@NYK y BOS@GSW; solo ML en DET@ATL, OKC@MIA y DEN@CHI; nada en DAL@UTA)",
-  "ml_home": -380,
-  "ml_away": 301,
-  "spread_home": -9.5,
-  "total": 214.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": -296,
+  "ml_away": 240,
+  "spread_home": -7.5,
+  "total": 213.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -106,
+  "under_odds": -114
  },
  "prop_lines": {
   "Karl-Anthony Towns": {
