@@ -14,13 +14,13 @@
    "T.J. McConnell",
    "Tyrese Haliburton",
    "Johnny Furphy",
-   "Ben Sheppard"
+   "Ben Sheppard",
+   "OG Anunoby",
+   "Jordan Clarkson"
   ],
   "gtd": {
    "Pascal Siakam": 0.65,
-   "Karl-Anthony Towns": 0.6,
-   "OG Anunoby": 0.5,
-   "Jordan Clarkson": 0.4
+   "Karl-Anthony Towns": 0.6
   },
   "reserves": {
    "IND": [],
@@ -113,7 +113,7 @@
    "name": "Jalen Brunson",
    "pos": "PG",
    "starter": true,
-   "min": 30.9,
+   "min": 36.9,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -152,52 +152,10 @@
   },
   {
    "team": "NYK",
-   "name": "OG Anunoby",
-   "pos": "PF",
-   "starter": true,
-   "min": 30.3,
-   "g_cur": 15,
-   "p_play": 0.5,
-   "cur": {
-    "min": 33.9,
-    "pts": 16.3,
-    "reb": 5.4,
-    "ast": 2.0,
-    "fg3m": 2.0,
-    "fgm": 4.7,
-    "fga": 11.8,
-    "fg3a": 6.2,
-    "stl": 1.1,
-    "blk": 0.9,
-    "tov": 2.1,
-    "pf": 3.3,
-    "ftm": 4.8,
-    "fta": 5.5
-   },
-   "prior": {
-    "min": 33.2,
-    "pts": 16.69,
-    "reb": 5.24,
-    "ast": 2.16,
-    "fg3m": 2.34,
-    "fgm": 5.81,
-    "fga": 12.0,
-    "fg3a": 6.07,
-    "stl": 1.55,
-    "blk": 0.72,
-    "tov": 1.84,
-    "pf": 2.45,
-    "ftm": 2.73,
-    "fta": 3.3
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "NYK",
    "name": "Karl-Anthony Towns",
    "pos": "C",
    "starter": true,
-   "min": 29.4,
+   "min": 35.1,
    "g_cur": 15,
    "p_play": 0.6,
    "cur": {
@@ -239,7 +197,7 @@
    "name": "Josh Hart",
    "pos": "SF",
    "starter": true,
-   "min": 27.0,
+   "min": 32.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -274,14 +232,14 @@
     "ftm": 1.36,
     "fta": 1.89
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "NYK",
    "name": "Landry Shamet",
    "pos": "SG",
-   "starter": false,
-   "min": 23.8,
+   "starter": true,
+   "min": 28.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -315,14 +273,15 @@
     "pf": 1.51,
     "ftm": 1.06,
     "fta": 1.49
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "NYK",
    "name": "Mikal Bridges",
    "pos": "SF",
    "starter": true,
-   "min": 23.4,
+   "min": 27.9,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -357,14 +316,14 @@
     "ftm": 1.0,
     "fta": 1.21
    },
-   "slot": "SF"
+   "slot": "PF"
   },
   {
    "team": "NYK",
    "name": "Miles McBride",
    "pos": "SG",
    "starter": false,
-   "min": 15.4,
+   "min": 18.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -405,7 +364,7 @@
    "name": "Andre Drummond",
    "pos": "C",
    "starter": false,
-   "min": 12.3,
+   "min": 14.7,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -446,7 +405,7 @@
    "name": "Tyler Kolek",
    "pos": "PG",
    "starter": false,
-   "min": 12.1,
+   "min": 14.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -487,7 +446,7 @@
    "name": "Mohamed Diawara",
    "pos": "SF",
    "starter": false,
-   "min": 10.7,
+   "min": 12.8,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -525,51 +484,10 @@
   },
   {
    "team": "NYK",
-   "name": "Jordan Clarkson",
-   "pos": "SG",
-   "starter": false,
-   "min": 8.8,
-   "g_cur": 12,
-   "p_play": 0.4,
-   "cur": {
-    "min": 9.8,
-    "pts": 4.9,
-    "reb": 1.6,
-    "ast": 0.4,
-    "fg3m": 0.5,
-    "fgm": 2.1,
-    "fga": 4.2,
-    "fg3a": 1.0,
-    "stl": 0.2,
-    "blk": 0.2,
-    "tov": 0.3,
-    "pf": 1.7,
-    "ftm": 0.3,
-    "fta": 0.3
-   },
-   "prior": {
-    "min": 17.8,
-    "pts": 8.64,
-    "reb": 1.76,
-    "ast": 1.33,
-    "fg3m": 0.97,
-    "fgm": 3.29,
-    "fga": 7.31,
-    "fg3a": 2.97,
-    "stl": 0.42,
-    "blk": 0.12,
-    "tov": 0.88,
-    "pf": 1.71,
-    "ftm": 1.08,
-    "fta": 1.31
-   }
-  },
-  {
-   "team": "NYK",
    "name": "Jose Alvarado",
    "pos": "PG",
    "starter": false,
-   "min": 8.8,
+   "min": 10.5,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -610,7 +528,7 @@
    "name": "Dalton Knecht",
    "pos": "SF",
    "starter": false,
-   "min": 7.2,
+   "min": 8.6,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -1268,23 +1186,6 @@
     -115,
     -115,
     20.5
-   ]
-  },
-  "OG Anunoby": {
-   "reb": [
-    4.5,
-    -155,
-    122
-   ],
-   "fg3m": [
-    2.5,
-    125,
-    -150
-   ],
-   "pts": [
-    16.5,
-    -115,
-    -110
    ]
   },
   "Kelly Oubre Jr.": {
