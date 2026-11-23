@@ -193,6 +193,20 @@ main.wrap { padding-block: 28px 64px }
 main .inner { display: grid; gap: 30px }
 .section > h2, .section > header > h2 { display: flex; align-items: center; gap: 10px }
 .rot-wrap{display:grid;gap:20px}
+/* Emparejamientos defensivos (matchups/defmatch.py -> data/defmatch/<id>.json) */
+.dm-list{display:grid;gap:10px}
+.dm-row{display:grid;grid-template-columns:minmax(150px,1.1fr) minmax(200px,1.6fr) minmax(170px,1.2fr);gap:12px;align-items:start;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.dm-row .k{display:block;font:600 11px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.dm-def{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center;margin-bottom:6px}
+.dm-def .bar{grid-column:1 / -1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.dm-def .bar i{display:block;height:100%;background:var(--tc,var(--accent))}
+.dm-def small,.dm-row small{color:var(--muted);font-size:12px}
+.dm-help{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;background:var(--accent-soft);color:var(--ink)}
+.dm-help.hi{background:var(--bad-soft);color:var(--bad)}
+.dm-star{color:var(--hot);font-weight:700}
+.dm-sub{margin:18px 0 8px}
+.dm-row.dm-real{grid-template-columns:minmax(150px,1fr) minmax(200px,2fr)}
+@media (max-width:760px){.dm-row{grid-template-columns:1fr}}
 .rot{width:100%;table-layout:fixed}
 .rot th:nth-child(1),.rot td:nth-child(1){width:38%}
 .rot th:nth-child(2),.rot td:nth-child(2){width:17%}
@@ -2767,6 +2781,7 @@ async function renderGame(id) {
       <tr><td>Total de puntos (rango 10–90%)</td><td class="r num">${s.total_pcts[10]} – ${s.total_pcts[90]}</td></tr></table></section>
   </div>
   ${rotSection(d)}
+  <section class="section" id="dm" hidden></section>
   ${mvSection(d)}
   ${cupSection(d)}
   ${h2hSection(d)}
@@ -2863,6 +2878,45 @@ async function renderGame(id) {
     document.querySelectorAll("#mv-teams button").forEach(b => b.addEventListener("click", () => mvDraw(d, b.dataset.t)));
     mvDraw(d, a);
   }
+  dmLoad(id, d);
+}
+
+// Emparejamientos defensivos (pedido de Nicolas, 22-nov): quién marca a quién según nba.com (matchups de cada
+// partido) y quién marcaría probablemente a cada titular. Solo análisis: no cambia la simulación ni los picks.
+async function dmLoad(id, d) {
+  let m; try { m = await getJSON(`data/defmatch/${id}.json`); } catch (e) { return; }
+  const el = $("#dm"); if (!el || CUR_GAME.id !== id || !m || (!Object.keys(m.teams || {}).length && !m.actual)) return;
+  const g = d.game, teams = [g.away, g.home], hl = m.league && m.league.help;
+  let t = g.away;
+  const opp = x => x === g.away ? g.home : g.away;
+  const helpTag = o => !o || o.help_pg == null ? "" : `<span class="dm-help${hl && o.help_pg >= hl.p80 ? " hi" : ""}" title="Tiros suyos con un segundo defensor contestando (ayuda), por partido. Media de liga ${hl ? hl.mean : "—"}">${o.help_pg} con ayuda/PJ${hl && o.help_pg >= hl.p80 ? " · mucha ayuda" : ""}</span>`;
+  const vsTxt = v => !v ? "" : [v.cur ? `esta temporada ${v.cur.min} min, ${v.cur.pts} pts (${v.cur.fg} TC)` : "", v.prior ? `2025-26: ${v.prior.min} min, ${v.prior.pts} pts (${v.prior.fg} TC)` : ""].filter(Boolean).join(" · ");
+  const predRow = (r, tt) => `<div class="dm-row">
+      <div><span class="k">${esc(tt)} ataca${r.star ? ' · <span class="dm-star" title="Su mejor anotador">★ 1.ª opción</span>' : ""}</span>${pn(r.name, id)}<br><small>${esc(SLOT_TXT[r.slot] || r.slot || "")}</small>
+        ${r.o ? `<div><small>Esta temporada: ${r.o.pts100} pts/100 pos. emparejado · ${r.o.fgp ?? "—"}% TC</small></div><div>${helpTag(r.o)}</div>` : ""}</div>
+      <div><span class="k">Lo marcaría (% de su tiempo)</span>${r.defs.map(x => `<div class="dm-def" style="--tc:${tc(opp(tt))}"><b>${esc(x.name)}${x.starter ? "" : ' <small>(banca)</small>'}</b><span class="num">${pct(x.share, 0)}</span>
+        <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span>
+        ${x.d ? `<small style="grid-column:1/-1">Como defensor: ${x.d.pts100} pts/100 pos. permitidos · ${x.d.fgp ?? "—"}% TC</small>` : ""}
+        ${x.vs ? `<small style="grid-column:1/-1">Cara a cara: ${esc(vsTxt(x.vs))}</small>` : ""}</div>`).join("")}</div>
+      <div><span class="k">Sus últimos partidos</span>${(r.last || []).map(l => `<div><small>${esc(l.date.slice(5))} vs ${esc(l.opp || "")}: ${l.top.map(x => `${esc(x.name)} ${pct(x.share, 0)}`).join(", ")} · ${l.pts} pts (${l.fg}) · ${l.help} con ayuda · ${l.ndef} defensores</small></div>`).join("") || "<small>Sin datos</small>"}</div>
+    </div>`;
+  const realRow = (r, tt) => `<div class="dm-row dm-real">
+      <div><span class="k">${esc(tt)} atacó</span>${pn(r.name, id)}<br><small>${r.pts} pts (${r.fg} TC) emparejado · ${r.ndef} defensores distintos</small><div><span class="dm-help${hl && r.help >= hl.p80 * 1.3 ? " hi" : ""}" title="Tiros suyos con un segundo defensor contestando">${r.help} tiros con ayuda (${r.help_fg})</span></div></div>
+      <div><span class="k">Quién lo marcó</span>${r.defs.map(x => `<div class="dm-def" style="--tc:${tc(opp(tt))}"><b>${esc(x.name)}</b><span class="num">${pct(x.share, 0)}</span>
+        <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span><small style="grid-column:1/-1">${x.min} min · ${x.poss} pos. · ${x.pts} pts (${x.fg} TC)${x.help ? ` · ayudó en ${x.help} tiros` : ""}</small></div>`).join("")}</div>
+      </div>`;
+  const draw = () => {
+    const P = m.teams[t], R = m.actual && m.actual[t];
+    el.innerHTML = `<h2>Emparejamientos defensivos</h2>
+      <p class="lede">Quién marca a cada titular según los datos de emparejamientos de nba.com (tiempo en que cada defensor fue el marcador directo). La predicción usa a quién suele marcar cada defensor (puesto y si se encarga de la 1.ª opción rival) y los cruces previos entre ellos. Es una herramienta de contexto: no cambia la simulación ni los picks.</p>
+      <div class="filters" role="group" aria-label="Equipo que ataca">${teams.map(x => `<button type="button" data-dt="${esc(x)}" aria-pressed="${x === t}">${esc(x)} ataca vs ${esc(opp(x))}</button>`).join("")}</div>
+      ${R ? `<h3 class="dm-sub">Lo que pasó en el partido</h3><div class="dm-list">${R.map(r => realRow(r, t)).join("")}</div>` : ""}
+      ${P ? (R ? `<details class="dm-sub"><summary><b>Emparejamientos que se esperaban antes del partido</b></summary><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div></details>`
+        : `<h3 class="dm-sub">Emparejamientos probables</h3><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div>`) : ""}
+      <p class="foot">Con ${m.n_games} partidos de ${esc(m.season)} antes de esta fecha. "Con ayuda" = tiros del atacante contestados por un segundo defensor (lo más parecido a una marca doble que publica nba.com); en rojo si está en el 20% de jugadores que más ayuda reciben. Pts/100 pos. = puntos del atacante por cada 100 posesiones emparejado con ese defensor. Los rebotes no se cuentan por emparejamiento.</p>`;
+    el.querySelectorAll("button[data-dt]").forEach(b => b.addEventListener("click", () => { t = b.dataset.dt; draw(); }));
+  };
+  el.hidden = false; draw();
 }
 
 // "Sin un jugador" (d.without, de without.py): cómo cambian los compañeros si un jugador no juega.
