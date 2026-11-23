@@ -989,8 +989,8 @@ table.gb-t tr.me td:first-child { background: var(--accent-soft) }
 #tipx.on { opacity: 1; transform: none }
 #tipx::after { content: ""; position: absolute; left: calc(var(--ax, 50%) - 6px); width: 12px; height: 12px; background: inherit; transform: rotate(45deg) }
 #tipx.up::after { bottom: -5px } #tipx.down::after { top: -5px }
-/* barras de sus últimos 10: verde = se cumplió, gris = no; crecen al entrar */
-.spk i { background: color-mix(in srgb, var(--muted) 38%, transparent); opacity: 1; transform-origin: bottom; animation: spkUp .45s cubic-bezier(.2, .7, .3, 1) both; animation-delay: calc(var(--i, 0) * 25ms) }
+/* barras de sus últimos 10: verde = se cumplió, rojo = no; crecen al entrar */
+.spk i { background: var(--bad); opacity: .8; transform-origin: bottom; animation: spkUp .45s cubic-bezier(.2, .7, .3, 1) both; animation-delay: calc(var(--i, 0) * 25ms) }
 @keyframes spkUp { from { transform: scaleY(0) } }
 .spk-key { display: inline-flex; align-items: center; gap: 4px; text-transform: none }
 .spk-key i { width: 8px; height: 8px; border-radius: 2px; background: var(--good) }
@@ -4456,7 +4456,7 @@ async function hydrateSparks(root) {
     if (!last.length) { gaugeOr(); continue; }
     const n = last.filter(x => over ? x.v > L : x.v < L).length;
     if (mini) { e.innerHTML = spkBars(last, L, over, true); continue; }
-    const vh = `<div class="pcd-vh"><span>Últimos ${last.length}</span><b class="${n / last.length >= .6 ? "hi" : n / last.length <= .4 ? "lo" : ""}">${n} de ${last.length}</b><span class="spk-key" title="Verde: ese día ${over ? "superó" : "quedó por debajo de"} la línea de hoy"><i></i>se cumplió</span><span class="muted" title="Línea de hoy"><i class="ln-key"></i>${L}</span></div>`;
+    const vh = `<div class="pcd-vh"><span>Últimos ${last.length}</span><b class="${n / last.length >= .6 ? "hi" : n / last.length <= .4 ? "lo" : ""}">${n} de ${last.length}</b><span class="spk-key" title="Verde: ese día ${over ? "superó" : "quedó por debajo de"} la línea de hoy"><i></i>se cumplió</span><span class="spk-key"><i style="background:var(--bad);opacity:.8"></i>no</span><span class="muted" title="Línea de hoy"><i class="ln-key"></i>${L}</span></div>`;
     if (md) { e.innerHTML = vh + spkBars(last, L, over); continue; }
     const h2h = xs.filter(x => x.opp === P.opp).slice(0, 5);
     const hh = h2h.filter(x => over ? x.v > L : x.v < L).length;
