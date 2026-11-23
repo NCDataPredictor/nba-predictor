@@ -265,9 +265,11 @@ def push(title, body, url, ident):
         print("Falta onesignal_app_id en docs/data/push.json o el secreto ONESIGNAL_REST_API_KEY: no se envía.")
         return False
     uid = hashlib.md5(ident.encode()).hexdigest()
+    if not title.startswith("🏀"):
+        title = "🏀 " + title   # emoji de la liga: en el celular se distingue de un vistazo de los de fútbol (⚽)
     payload = dict(app_id=app, target_channel="push", filters=FILTRO_NBA,
                    headings={"en": title, "es": title}, contents={"en": body, "es": body}, web_url=url,
-                   chrome_web_icon=SITE + "icons/icon-192.png", web_push_topic=ident.split("|")[0][:60],
+                   chrome_web_icon=SITE + "icons/icon-192.png", firefox_icon=SITE + "icons/icon-192.png", web_push_topic=ident.split("|")[0][:60],
                    idempotency_key=f"{uid[:8]}-{uid[8:12]}-4{uid[13:16]}-a{uid[17:20]}-{uid[20:32]}")
     try:
         r = _post(payload, key)
