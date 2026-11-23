@@ -1,0 +1,1169 @@
+{
+ "date": "2026-11-23",
+ "sources": {
+  "schedule_odds": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
+  "players_cur": "basketball-reference teams/<ABR>/2027.html (23-nov ~11:30 ET) para los 20 equipos; OKC y UTA (sin el 22-nov) con results/2026-11-22.json; Brandon Ingram (debut) con su 2025-26 escalado a 26 min",
+  "players_prior": "Game logs oficiales de nba.com 2025-26 (temporada regular completa)",
+  "injuries": "ESPN y CBS injuries (notas 21-23 nov) y RotoWire nba-lineups (23-nov ~11:30 ET); SAS/SAC y LAL solo del resumen de RotoWire",
+  "b2b": "OKC, IND, CHI y UTA jugaron el 22-nov",
+  "db": "BD de rankings: snapshot del 23-nov (B-Ref 2026-27 hasta 21/22-nov; play types y zonas NBA.com del 27-oct; DvP statpick hasta 21-nov)",
+  "h2h": "h2h/2025-26.json (16 partidos de 6 cruces añadidos desde los game logs 2025-26; MIL-TOR, CLE-CHI, SAS-SAC y UTA-LAL ya estaban)",
+  "props": "Triples: scoresandodds /nba/props/3-pointers?date=2026-11-23 (parte literal, 59 jugadores, mejor cuota por lado). Puntos: props destacadas de Covers matchup/<id>/odds en MIL@TOR, BKN@MIN, PHX@NOP, LAC@HOU, SAS@SAC y UTA@LAL (mejor cuota por lado). Puntos/rebotes/asistencias de scoresandodds seguían en el 22-nov; sin Chrome para Betano"
+ },
+ "b2b_adj": {
+  "o": -1.0,
+  "d": 1.0,
+  "pace": -0.5
+ },
+ "prop_lines": {
+  "Luka Dončić": {
+   "fg3m": [
+    4.5,
+    100,
+    -112
+   ],
+   "pts": [
+    36.5,
+    -115,
+    -106
+   ]
+  },
+  "LaMelo Ball": {
+   "fg3m": [
+    3.5,
+    105,
+    -112
+   ],
+   "pts": [
+    19.5,
+    -115,
+    -104
+   ]
+  },
+  "Damian Lillard": {
+   "fg3m": [
+    3.5,
+    118,
+    -130
+   ]
+  },
+  "Brandon Miller": {
+   "fg3m": [
+    3.5,
+    130,
+    -155
+   ]
+  },
+  "Julian Champagnie": {
+   "fg3m": [
+    2.5,
+    -165,
+    131
+   ]
+  },
+  "Darius Acuff Jr.": {
+   "fg3m": [
+    2.5,
+    -125,
+    130
+   ],
+   "pts": [
+    23.5,
+    -106,
+    -110
+   ]
+  },
+  "Michael Porter Jr.": {
+   "fg3m": [
+    2.5,
+    -140,
+    118
+   ],
+   "pts": [
+    19.5,
+    -115,
+    -110
+   ]
+  },
+  "Donovan Mitchell": {
+   "fg3m": [
+    2.5,
+    -125,
+    111
+   ]
+  },
+  "Ja'Kobe Walter": {
+   "fg3m": [
+    2.5,
+    -144,
+    125
+   ],
+   "pts": [
+    13.5,
+    -125,
+    -140,
+    14.5
+   ]
+  },
+  "Immanuel Quickley": {
+   "fg3m": [
+    2.5,
+    -125,
+    110
+   ]
+  },
+  "Jared McCain": {
+   "fg3m": [
+    2.5,
+    100,
+    -110
+   ]
+  },
+  "Tyrese Maxey": {
+   "fg3m": [
+    2.5,
+    -105,
+    110
+   ]
+  },
+  "Ty Jerome": {
+   "fg3m": [
+    2.5,
+    -105,
+    -114
+   ]
+  },
+  "Darius Garland": {
+   "fg3m": [
+    2.5,
+    110,
+    -112
+   ],
+   "pts": [
+    18.5,
+    -112,
+    -102
+   ]
+  },
+  "Naz Reid": {
+   "fg3m": [
+    2.5,
+    105,
+    -125
+   ]
+  },
+  "Collin Gillespie": {
+   "fg3m": [
+    2.5,
+    105,
+    -128
+   ],
+   "pts": [
+    10.5,
+    -112,
+    -112
+   ]
+  },
+  "James Harden": {
+   "fg3m": [
+    2.5,
+    106,
+    -111
+   ]
+  },
+  "Zach LaVine": {
+   "fg3m": [
+    2.5,
+    120,
+    -140
+   ]
+  },
+  "Fred VanVleet": {
+   "fg3m": [
+    2.5,
+    107,
+    -120
+   ]
+  },
+  "Matas Buzelis": {
+   "fg3m": [
+    2.5,
+    113,
+    -115
+   ]
+  },
+  "Tyler Herro": {
+   "fg3m": [
+    2.5,
+    113,
+    -128
+   ],
+   "pts": [
+    20.5,
+    -115,
+    -110
+   ]
+  },
+  "Keyonte George": {
+   "fg3m": [
+    2.5,
+    118,
+    -140
+   ]
+  },
+  "Trey Murphy III": {
+   "fg3m": [
+    2.5,
+    142,
+    -155
+   ],
+   "pts": [
+    14.5,
+    -105,
+    -120
+   ]
+  },
+  "Saddiq Bey": {
+   "fg3m": [
+    2.5,
+    126,
+    -145
+   ]
+  },
+  "Toumani Camara": {
+   "fg3m": [
+    2.5,
+    131,
+    -125
+   ]
+  },
+  "Victor Wembanyama": {
+   "fg3m": [
+    2.5,
+    152,
+    -170
+   ],
+   "pts": [
+    29.5,
+    -117,
+    -114,
+    30.5
+   ]
+  },
+  "Cedric Coward": {
+   "fg3m": [
+    1.5,
+    -210,
+    -160,
+    2.5
+   ]
+  },
+  "Ace Bailey": {
+   "fg3m": [
+    1.5,
+    -190,
+    -180,
+    2.5
+   ]
+  },
+  "Stephon Castle": {
+   "fg3m": [
+    1.5,
+    -175,
+    -180,
+    2.5
+   ],
+   "pts": [
+    19.5,
+    -125,
+    -105,
+    20.5
+   ]
+  },
+  "Max Strus": {
+   "fg3m": [
+    1.5,
+    -190,
+    -165,
+    2.5
+   ],
+   "pts": [
+    9.5,
+    -115,
+    100
+   ]
+  },
+  "Devin Booker": {
+   "fg3m": [
+    1.5,
+    -190,
+    -180,
+    2.5
+   ],
+   "pts": [
+    26.5,
+    -115,
+    -110
+   ]
+  },
+  "Quentin Grimes": {
+   "fg3m": [
+    2.5,
+    147,
+    -170
+   ],
+   "pts": [
+    15.5,
+    -125,
+    -104
+   ]
+  },
+  "Shai Gilgeous-Alexander": {
+   "fg3m": [
+    1.5,
+    -160,
+    142
+   ]
+  },
+  "Jrue Holiday": {
+   "fg3m": [
+    1.5,
+    -175,
+    -175,
+    2.5
+   ]
+  },
+  "Aaron Nesmith": {
+   "fg3m": [
+    1.5,
+    -165,
+    135
+   ]
+  },
+  "Mikel Brown Jr.": {
+   "fg3m": [
+    1.5,
+    -160,
+    146
+   ]
+  },
+  "Coby White": {
+   "fg3m": [
+    1.5,
+    -174,
+    -190,
+    2.5
+   ]
+  },
+  "Ayo Dosunmu": {
+   "fg3m": [
+    1.5,
+    -150,
+    -200,
+    2.5
+   ],
+   "pts": [
+    16.5,
+    -125,
+    -132,
+    17.5
+   ]
+  },
+  "Egor Dëmin": {
+   "fg3m": [
+    1.5,
+    -165,
+    -185,
+    2.5
+   ]
+  },
+  "Dillon Brooks": {
+   "fg3m": [
+    1.5,
+    -140,
+    135
+   ],
+   "pts": [
+    15.5,
+    -105,
+    -120
+   ]
+  },
+  "De'Andre Hunter": {
+   "fg3m": [
+    1.5,
+    -150,
+    128
+   ],
+   "pts": [
+    13.5,
+    -124,
+    -112,
+    14.5
+   ]
+  },
+  "Royce O'Neale": {
+   "fg3m": [
+    1.5,
+    -150,
+    140
+   ]
+  },
+  "Jalen Smith": {
+   "fg3m": [
+    1.5,
+    -150,
+    140
+   ]
+  },
+  "Rui Hachimura": {
+   "fg3m": [
+    1.5,
+    -135,
+    120
+   ],
+   "pts": [
+    12.5,
+    -110,
+    -112
+   ]
+  },
+  "Devin Vassell": {
+   "fg3m": [
+    1.5,
+    -150,
+    145
+   ],
+   "pts": [
+    13.5,
+    -120,
+    -110,
+    14.5
+   ]
+  },
+  "Jabari Smith Jr.": {
+   "fg3m": [
+    1.5,
+    -148,
+    135
+   ],
+   "pts": [
+    13.5,
+    -110,
+    -106
+   ]
+  },
+  "Reed Sheppard": {
+   "fg3m": [
+    1.5,
+    -140,
+    122
+   ]
+  },
+  "Deni Avdija": {
+   "fg3m": [
+    1.5,
+    -135,
+    140
+   ]
+  },
+  "Jaylon Tyson": {
+   "fg3m": [
+    1.5,
+    -120,
+    115
+   ]
+  },
+  "Anfernee Simons": {
+   "fg3m": [
+    1.5,
+    -120,
+    110
+   ]
+  },
+  "Miles Bridges": {
+   "fg3m": [
+    1.5,
+    -115,
+    100
+   ],
+   "pts": [
+    13.5,
+    -125,
+    100
+   ]
+  },
+  "Meleek Thomas": {
+   "fg3m": [
+    1.5,
+    -120,
+    -103
+   ]
+  },
+  "Kevin Durant": {
+   "fg3m": [
+    1.5,
+    -105,
+    -104
+   ]
+  },
+  "VJ Edgecombe": {
+   "fg3m": [
+    1.5,
+    -115,
+    -102
+   ]
+  },
+  "Jeremiah Fears": {
+   "fg3m": [
+    1.5,
+    100,
+    -110
+   ],
+   "pts": [
+    18.5,
+    -120,
+    -105
+   ]
+  },
+  "Jaden McDaniels": {
+   "fg3m": [
+    1.5,
+    -115,
+    -105
+   ],
+   "pts": [
+    16.5,
+    -115,
+    -106
+   ]
+  },
+  "Andrew Nembhard": {
+   "fg3m": [
+    1.5,
+    100,
+    -106
+   ]
+  },
+  "Bones Hyland": {
+   "fg3m": [
+    1.5,
+    -115,
+    -110
+   ]
+  },
+  "Ryan Rollins": {
+   "fg3m": [
+    1.5,
+    102,
+    -114
+   ],
+   "pts": [
+    11.5,
+    100,
+    -115
+   ]
+  },
+  "Jakob Poeltl": {
+   "pts": [
+    10.5,
+    100,
+    -115
+   ]
+  },
+  "Myles Turner": {
+   "pts": [
+    7.5,
+    -125,
+    100
+   ]
+  },
+  "Kyle Kuzma": {
+   "pts": [
+    12.5,
+    -110,
+    -115
+   ]
+  },
+  "Jaime Jaquez Jr.": {
+   "pts": [
+    11.5,
+    -130,
+    -125,
+    12.5
+   ]
+  },
+  "Brayden Burries": {
+   "pts": [
+    12.5,
+    100,
+    -115
+   ]
+  },
+  "Scottie Barnes": {
+   "pts": [
+    24.5,
+    -105,
+    -115
+   ]
+  },
+  "Jonathan Kuminga": {
+   "pts": [
+    14.5,
+    -105,
+    -114
+   ]
+  },
+  "Julius Randle": {
+   "pts": [
+    20.5,
+    -106,
+    -120
+   ]
+  },
+  "Day'Ron Sharpe": {
+   "pts": [
+    8.5,
+    -125,
+    -130,
+    9.5
+   ]
+  },
+  "Herbert Jones": {
+   "pts": [
+    7.5,
+    -115,
+    -110
+   ]
+  },
+  "Zion Williamson": {
+   "pts": [
+    22.5,
+    -105,
+    -120
+   ]
+  },
+  "Jalen Green": {
+   "pts": [
+    14.5,
+    -125,
+    100
+   ]
+  },
+  "Kris Dunn": {
+   "pts": [
+    4.5,
+    -115,
+    -110
+   ]
+  },
+  "Derrick Jones Jr.": {
+   "pts": [
+    7.5,
+    -120,
+    -120,
+    8.5
+   ]
+  },
+  "Brook Lopez": {
+   "pts": [
+    12.5,
+    -105,
+    -105
+   ]
+  },
+  "Brandon Ingram": {
+   "pts": [
+    11.5,
+    -120,
+    -110,
+    12.5
+   ]
+  },
+  "Alperen Sengun": {
+   "pts": [
+    20.5,
+    -120,
+    -125,
+    21.5
+   ]
+  },
+  "Precious Achiuwa": {
+   "pts": [
+    7.5,
+    -105,
+    -120
+   ]
+  },
+  "Keegan Murray": {
+   "pts": [
+    12.5,
+    -110,
+    -111
+   ]
+  },
+  "De'Aaron Fox": {
+   "pts": [
+    15.5,
+    -112,
+    -105,
+    16.5
+   ]
+  },
+  "Ziaire Williams": {
+   "pts": [
+    6.5,
+    -130,
+    -140,
+    7.5
+   ]
+  },
+  "Jake LaRavia": {
+   "pts": [
+    5.5,
+    -130,
+    100
+   ]
+  },
+  "Matisse Thybulle": {
+   "pts": [
+    6.5,
+    -122,
+    -105
+   ]
+  },
+  "Walker Kessler": {
+   "pts": [
+    13.5,
+    -115,
+    -110
+   ]
+  },
+  "Collin Sexton": {
+   "pts": [
+    11.5,
+    -132,
+    -130,
+    12.5
+   ]
+  },
+  "Sandro Mamukelashvili": {
+   "pts": [
+    8.5,
+    -115,
+    -106
+   ]
+  }
+ },
+ "games": [
+  {
+   "away": "MEM",
+   "home": "CHA",
+   "tip_et": "19:00",
+   "venue": "Spectrum Center, Charlotte",
+   "market": {
+    "ml_home": 136,
+    "ml_away": -162,
+    "spread_home": 3.5,
+    "total": 214.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -108,
+    "under_odds": -112
+   },
+   "b2b": [],
+   "adj": {
+    "MEM": {
+     "o": -2.0,
+     "d": 0.5,
+     "why": "Boozer (16.6 ppg), Grant (10.6), Pippen Jr. y GG Jackson OUT"
+    },
+    "CHA": {
+     "o": -1.0,
+     "d": 0.25,
+     "why": "Grayson Allen (14.9 ppg, conmoción), Grant Williams, Schröder y Knueppel OUT"
+    }
+   },
+   "out": [
+    "Cameron Boozer",
+    "Jerami Grant",
+    "GG Jackson",
+    "Scotty Pippen Jr.",
+    "Grayson Allen",
+    "Grant Williams",
+    "Dennis Schröder",
+    "Kon Knueppel"
+   ],
+   "gtd": {
+    "Javon Small": 0.7,
+    "Brandon Miller": 0.85
+   },
+   "notes": [
+    "MEM: Boozer (tobillo), Grant (gemelo), Pippen (espalda) y GG Jackson (pie) OUT; Javon Small en duda (motivos personales)",
+    "CHA: Allen (conmoción), G. Williams (isquio), Schröder y Knueppel OUT; Brandon Miller probable (rodilla)"
+   ]
+  },
+  {
+   "away": "POR",
+   "home": "PHI",
+   "tip_et": "19:00",
+   "venue": "Xfinity Mobile Arena, Philadelphia",
+   "market": {
+    "ml_home": -179,
+    "ml_away": 150,
+    "spread_home": -4.5,
+    "total": 229.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -115,
+    "under_odds": -105
+   },
+   "b2b": [],
+   "adj": {},
+   "out": [
+    "Ja Morant",
+    "Chris Youngblood",
+    "Vít Krejčí",
+    "Shaedon Sharpe",
+    "Ariel Hukporti"
+   ],
+   "gtd": {
+    "Jaylen Brown": 0.85,
+    "Dean Wade": 0.75,
+    "Adem Bona": 0.8
+   },
+   "notes": [
+    "POR: Morant (isquio), Youngblood (talón), Krejčí y Sharpe OUT",
+    "PHI: Jaylen Brown, Dean Wade y Bona probables (RotoWire); Hukporti fuera la temporada"
+   ]
+  },
+  {
+   "away": "BKN",
+   "home": "MIN",
+   "tip_et": "19:30",
+   "venue": "Target Center, Minneapolis",
+   "market": {
+    "ml_home": -620,
+    "ml_away": 455,
+    "spread_home": -11.5,
+    "total": 224.5,
+    "spread_odds_home": -115,
+    "spread_odds_away": -106,
+    "over_odds": -110,
+    "under_odds": -110
+   },
+   "b2b": [],
+   "adj": {
+    "BKN": {
+     "o": -0.5,
+     "d": 0.0,
+     "why": "Nolan Traoré (12.9 ppg) OUT"
+    }
+   },
+   "out": [
+    "Nolan Traore",
+    "Anthony Edwards",
+    "Jaylen Clark",
+    "Donte DiVincenzo"
+   ],
+   "gtd": {
+    "Grant Nelson": 0.85
+   },
+   "notes": [
+    "BKN: Traoré (isquio) OUT; Grant Nelson probable",
+    "MIN: Edwards (rodilla), Clark y DiVincenzo OUT"
+   ]
+  },
+  {
+   "away": "MIL",
+   "home": "TOR",
+   "tip_et": "19:30",
+   "venue": "Scotiabank Arena, Toronto",
+   "market": {
+    "ml_home": -494,
+    "ml_away": 378,
+    "spread_home": -10.5,
+    "total": 222.5,
+    "spread_odds_home": -113,
+    "spread_odds_away": -107,
+    "over_odds": -113,
+    "under_odds": -107
+   },
+   "b2b": [],
+   "adj": {
+    "TOR": {
+     "o": -1.0,
+     "d": 0.25,
+     "why": "RJ Barrett (20.9 ppg) y Kawhi Leonard OUT"
+    }
+   },
+   "out": [
+    "RJ Barrett",
+    "Kawhi Leonard",
+    "Nate Bittle"
+   ],
+   "gtd": {
+    "Ousmane Dieng": 0.5,
+    "Collin Murray-Boyles": 0.85
+   },
+   "notes": [
+    "MIL: Dieng (dedo) en duda",
+    "TOR: Barrett (isquio), Leonard (rodilla) y Bittle OUT; Murray-Boyles probable (conmoción)"
+   ]
+  },
+  {
+   "away": "OKC",
+   "home": "IND",
+   "tip_et": "19:30",
+   "venue": "Gainbridge Fieldhouse, Indianapolis",
+   "market": {
+    "ml_home": 160,
+    "ml_away": -191,
+    "spread_home": 5.5,
+    "total": 222.5,
+    "spread_odds_home": -118,
+    "spread_odds_away": -103,
+    "over_odds": -110,
+    "under_odds": -110
+   },
+   "b2b": [
+    "OKC",
+    "IND"
+   ],
+   "adj": {
+    "OKC": {
+     "o": -3.0,
+     "d": 1.0,
+     "why": "Gilgeous-Alexander (31.7 ppg) OUT (espalda/cuello, RotoWire y CBS) + Caruso, Mara, Jaylin Williams y Topić OUT; Holmgren, J. Williams y Wallace siguen fuera"
+    },
+    "IND": {
+     "o": -0.5,
+     "d": 0.0,
+     "why": "Haliburton y McConnell OUT"
+    }
+   },
+   "out": [
+    "Shai Gilgeous-Alexander",
+    "Alex Caruso",
+    "Aday Mara",
+    "Jaylin Williams",
+    "Nikola Topić",
+    "Chet Holmgren",
+    "Jalen Williams",
+    "Cason Wallace",
+    "Thomas Sorber",
+    "Tyrese Haliburton",
+    "T.J. McConnell",
+    "Johnny Furphy",
+    "Ben Sheppard"
+   ],
+   "gtd": {
+    "Pascal Siakam": 0.85
+   },
+   "notes": [
+    "OKC (back-to-back): SGA, Caruso, Mara, Jaylin Williams y Topić OUT (RotoWire 23-nov)",
+    "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire"
+   ]
+  },
+  {
+   "away": "CLE",
+   "home": "CHI",
+   "tip_et": "20:00",
+   "venue": "United Center, Chicago",
+   "market": {
+    "ml_home": 270,
+    "ml_away": -336,
+    "spread_home": 8.5,
+    "total": 240.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -108,
+    "under_odds": -112
+   },
+   "b2b": [
+    "CHI"
+   ],
+   "adj": {
+    "CLE": {
+     "o": -1.0,
+     "d": 0.5,
+     "why": "Evan Mobley (16.9 ppg) OUT"
+    },
+    "CHI": {
+     "o": -2.0,
+     "d": 0.5,
+     "why": "Norman Powell (20.8), Caleb Wilson (18.9) y Claxton OUT"
+    }
+   },
+   "out": [
+    "Evan Mobley",
+    "Nae'Qwan Tomlin",
+    "Norman Powell",
+    "Caleb Wilson",
+    "Nic Claxton"
+   ],
+   "gtd": {
+    "Jaylon Tyson": 0.85
+   },
+   "notes": [
+    "CLE: Mobley (dedo del pie) y Tomlin OUT; Tyson probable",
+    "CHI (back-to-back): Powell, Wilson y Claxton OUT"
+   ]
+  },
+  {
+   "away": "PHX",
+   "home": "NOP",
+   "tip_et": "20:00",
+   "venue": "Smoothie King Center, New Orleans",
+   "market": {
+    "ml_home": 131,
+    "ml_away": -155,
+    "spread_home": 3.5,
+    "total": 232.5,
+    "spread_odds_home": -115,
+    "spread_odds_away": -105,
+    "over_odds": -115,
+    "under_odds": -105
+   },
+   "b2b": [],
+   "adj": {
+    "NOP": {
+     "o": -0.5,
+     "d": 0.25,
+     "why": "Dejounte Murray, Mathurin y Watford OUT; Zion y Murphy probables"
+    }
+   },
+   "out": [
+    "Mark Williams",
+    "Dejounte Murray",
+    "Bennedict Mathurin",
+    "Trendon Watford"
+   ],
+   "gtd": {
+    "Ryan Dunn": 0.5,
+    "Zion Williamson": 0.8,
+    "Trey Murphy III": 0.8,
+    "Bryce McGowens": 0.75
+   },
+   "notes": [
+    "PHX: Mark Williams OUT; Ryan Dunn (cuádriceps) en duda",
+    "NOP: Murray, Mathurin y Watford OUT; Zion, Murphy y McGowens probables (RotoWire)"
+   ]
+  },
+  {
+   "away": "LAC",
+   "home": "HOU",
+   "tip_et": "20:30",
+   "venue": "Toyota Center, Houston",
+   "market": {
+    "ml_home": -650,
+    "ml_away": 470,
+    "spread_home": -12.5,
+    "total": 224.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -110,
+    "under_odds": -110
+   },
+   "b2b": [],
+   "adj": {
+    "LAC": {
+     "o": 0.5,
+     "d": 0.0,
+     "why": "Brandon Ingram debuta tras la lesión de Aquiles (ESPN; titular en RotoWire), ~26 min estimados"
+    }
+   },
+   "out": [
+    "Bradley Beal",
+    "Jordan Miller"
+   ],
+   "gtd": {
+    "Brandon Ingram": 0.85,
+    "Clint Capela": 0.6
+   },
+   "notes": [
+    "LAC: Ingram debuta (ESPN); Beal y Jordan Miller OUT",
+    "HOU: Capela (tobillo) en duda"
+   ]
+  },
+  {
+   "away": "SAS",
+   "home": "SAC",
+   "tip_et": "22:00",
+   "venue": "Golden 1 Center, Sacramento",
+   "market": {
+    "ml_home": 371,
+    "ml_away": -484,
+    "spread_home": 10.5,
+    "total": 223.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -110,
+    "under_odds": -110
+   },
+   "b2b": [],
+   "adj": {
+    "SAS": {
+     "o": -1.0,
+     "d": 0.25,
+     "why": "Dylan Harper (18.4 ppg) y Tobias Harris OUT; Wembanyama y Fox en duda"
+    }
+   },
+   "out": [
+    "Dylan Harper",
+    "Tobias Harris",
+    "Jayden Quaintance",
+    "Maxime Raynaud",
+    "Ben Simmons"
+   ],
+   "gtd": {
+    "Victor Wembanyama": 0.75,
+    "De'Aaron Fox": 0.7,
+    "Jordan McLaughlin": 0.6
+   },
+   "notes": [
+    "SAS: Harper (cadera) y Harris OUT; Wembanyama (espalda), Fox y McLaughlin en duda (CBS)",
+    "SAC: Raynaud y Simmons OUT"
+   ]
+  },
+  {
+   "away": "UTA",
+   "home": "LAL",
+   "tip_et": "22:00",
+   "venue": "Crypto.com Arena, Los Angeles",
+   "market": {
+    "ml_home": -790,
+    "ml_away": 554,
+    "spread_home": -13.5,
+    "total": 227.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -108,
+    "under_odds": -112
+   },
+   "b2b": [
+    "UTA"
+   ],
+   "adj": {
+    "UTA": {
+     "o": -1.0,
+     "d": 0.75,
+     "why": "Markkanen (18 ppg), Jaren Jackson Jr., Jaxson Hayes y Nurkić OUT"
+    }
+   },
+   "out": [
+    "Lauri Markkanen",
+    "Jaren Jackson Jr.",
+    "Jaxson Hayes",
+    "Jusuf Nurkić"
+   ],
+   "gtd": {
+    "Austin Reaves": 0.35
+   },
+   "notes": [
+    "UTA (back-to-back): Markkanen, JJJ, Hayes y Nurkić OUT",
+    "LAL: Austin Reaves (talón) OUT en ESPN, el técnico espera que vuelva hoy o el viernes"
+   ]
+  }
+ ]
+}
