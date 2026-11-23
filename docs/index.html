@@ -978,6 +978,65 @@ table.gb-t tr.me td:first-child { background: var(--accent-soft) }
 .pcd.big .pcd-n { font-size: 24px }
 .pcd.big .pcd-ln { font-size: 34px } .pcd.big .pcd-odd b { font-size: 30px }
 .potd .pcd { max-width: 640px }
+
+/* globito de explicación (DvP, Últ. 10, H2H): botón .tipb + #tipx */
+.tipb { all: unset; cursor: help; display: inline-block; border-radius: 6px; padding: 2px 4px; margin: -2px -4px; text-align: inherit }
+.tipb .hr { text-decoration: underline dotted; text-underline-offset: 3px }
+.tipb:hover, .tipb:focus-visible, .tipb[aria-expanded="true"] { background: var(--accent-soft); outline: none }
+.tipb:focus-visible, .l1-btn:focus-visible, .h2h-btn:focus-visible { box-shadow: 0 0 0 2px var(--accent) }
+#tipx { position: fixed; z-index: 200; max-width: min(300px, calc(100vw - 16px)); padding: 9px 12px; border-radius: 10px; background: var(--ink); color: var(--surface);
+  font: 400 13px/1.45 var(--body); text-align: left; box-shadow: 0 8px 24px rgba(0, 0, 0, .25); pointer-events: none; opacity: 0; transform: translateY(4px); transition: opacity .15s, transform .15s }
+#tipx.on { opacity: 1; transform: none }
+#tipx::after { content: ""; position: absolute; left: calc(var(--ax, 50%) - 6px); width: 12px; height: 12px; background: inherit; transform: rotate(45deg) }
+#tipx.up::after { bottom: -5px } #tipx.down::after { top: -5px }
+/* barras de sus últimos 10: verde = se cumplió, gris = no; crecen al entrar */
+.spk i { background: color-mix(in srgb, var(--muted) 38%, transparent); opacity: 1; transform-origin: bottom; animation: spkUp .45s cubic-bezier(.2, .7, .3, 1) both; animation-delay: calc(var(--i, 0) * 25ms) }
+@keyframes spkUp { from { transform: scaleY(0) } }
+.spk-key { display: inline-flex; align-items: center; gap: 4px; text-transform: none }
+.spk-key i { width: 8px; height: 8px; border-radius: 2px; background: var(--good) }
+.ln-key { display: inline-block; width: 14px; border-top: 1.5px dashed var(--ink); opacity: .6; vertical-align: middle; margin-right: 4px }
+.pcd-vh { flex-wrap: wrap; row-gap: 2px }
+/* Modelo vs Casa */
+.mvc { display: grid; gap: 5px; padding: 10px 12px; border-radius: 12px; background: var(--bg); min-width: 0 }
+.mvc-h { font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted) }
+.mvc-r { display: grid; grid-template-columns: 52px minmax(0, 1fr) 38px; align-items: center; gap: 8px; font: 500 12px var(--body) }
+.mvc-r b { text-align: right; font: 700 13px var(--mono) }
+.mvc-t { height: 8px; border-radius: 99px; background: color-mix(in srgb, var(--muted) 16%, transparent); overflow: hidden }
+.mvc-t i { display: block; height: 100%; width: calc(var(--w) * 100%); border-radius: inherit; background: var(--accent); transform-origin: left; animation: mvcIn .55s cubic-bezier(.2, .7, .3, 1) both }
+.mvc-r.c .mvc-t i { background: color-mix(in srgb, var(--muted) 60%, transparent); animation-delay: .08s }
+.mvc-r.c { color: var(--muted) }
+@keyframes mvcIn { from { transform: scaleX(0) } }
+.mvc-ev { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin-top: 3px; padding-top: 7px; border-top: 1px dashed var(--line) }
+.mvc-evv { font: 600 12px var(--mono); text-transform: uppercase; letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent) }
+.mvc-evv b { font: 700 15px var(--mono) }
+.mvc-ev.hi .mvc-evv { background: var(--good-soft); color: var(--good) } .mvc-ev.lo .mvc-evv { background: var(--bad-soft); color: var(--bad) }
+.mvc-ev small { font-size: 11.5px; color: var(--muted); min-width: 0 }
+/* medidor de probabilidad (sin historial para graficar) */
+.is-gauge { min-height: 0 }
+.pg { display: grid; justify-items: center; gap: 2px; padding: 4px 0 }
+.pg svg { width: 150px; height: auto; overflow: visible }
+.pg path { fill: none; stroke-linecap: round }
+.pg-bg { stroke: color-mix(in srgb, var(--muted) 18%, transparent); stroke-width: 9 }
+.pg-fg { stroke: var(--accent); stroke-width: 9; stroke-dasharray: var(--d) 100; animation: pgIn .6s cubic-bezier(.2, .7, .3, 1) both }
+.pg-c { stroke: var(--muted); stroke-width: 2.5 }
+.pg-v { font: 700 17px var(--mono); fill: var(--ink) }
+.pg-l { display: flex; gap: 12px; font: 500 11px var(--mono); color: var(--muted) }
+.pg-l span::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 4px; background: var(--accent) }
+.pg-l .c::before { width: 2.5px; height: 10px; vertical-align: -1px; background: var(--muted) }
+@keyframes pgIn { from { stroke-dasharray: 0 100 } }
+.is-gauge ~ .mvc .mvc-r, .is-gauge ~ .mvc .mvc-h { display: none }
+.is-gauge ~ .mvc .mvc-ev { margin-top: 0; padding-top: 0; border-top: 0 }
+/* Armar apuesta: porqué a la izquierda, gráfico y Modelo vs Casa a la derecha */
+.aa-t { display: flex; align-items: center; gap: 8px }
+.aa-t > .av { width: 36px; height: 36px; margin: 0; font-size: 12px }
+.aa-t > .tlogo { flex: none }
+.aa-t > div { min-width: 0 }
+.aa-b { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 10px 18px; align-items: start }
+.aa-v { display: grid; gap: 8px; min-width: 0 }
+.aa-viz .spk { height: 52px }
+.aa-viz.is-gauge .pg svg { width: 120px }
+@media (max-width: 640px) { .aa-b { grid-template-columns: minmax(0, 1fr) } .aa-v { order: -1 } }
+@media (prefers-reduced-motion: reduce) { .spk i, .mvc-t i, .pg-fg { animation: none } #tipx { transition: none } }
 .potd-rec { margin: 0; font-size: 13px }
 /* NBA Cup: grupos y llaves (13-nov) */
 .cup-grps { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 14px; min-width: 0 }
@@ -1018,7 +1077,7 @@ table.gb-t tr.me td:first-child { background: var(--accent-soft) }
 table.sortable thead th { cursor: pointer; user-select: none }
 table.sortable thead th[aria-sort="ascending"]::after { content: " ▲"; font-size: 9px } table.sortable thead th[aria-sort="descending"]::after { content: " ▼"; font-size: 9px }
 @media (min-width: 760px) { .potd .pcd.big { max-width: none; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 24px }
-  .potd .pcd.big > .pcd-h, .potd .pcd.big > .pcd-pick, .potd .pcd.big > .pcd-f, .potd .pcd.big > .bj-warn { grid-column: 1 } .potd .pcd.big > .pcd-viz { grid-column: 2; grid-row: 1 / span 3 } .potd .pcd.big > .pcd-stats { grid-column: 2 } }
+  .potd .pcd.big > .pcd-h, .potd .pcd.big > .pcd-pick, .potd .pcd.big > .pcd-f, .potd .pcd.big > .bj-warn { grid-column: 1 } .potd .pcd.big > .pcd-viz { grid-column: 2; grid-row: 1 / span 2; align-content: start } .potd .pcd.big > .mvc { grid-column: 1 } .potd .pcd.big > .pcd-stats { align-self: start } .potd .pcd.big > .pcd-stats { grid-column: 2 } }
 @media (max-width: 640px) {
   .pcards { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 86%; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
     margin: 0 -16px; padding: 4px 16px 12px; scroll-padding-left: 16px; scrollbar-width: none }
@@ -1465,7 +1524,7 @@ const howto = `<details class="howto"><summary>¿Cómo leer esta tabla?</summary
   <dt>EV</dt><dd>Ganancia esperada por cada 100 apostados con la cuota promedio. +10% significa ganar 10 de media por cada 100 a largo plazo. El color se decide con esta cuota promedio.</dd>
   <dt>Últ. 10</dt><dd>En cuántos de sus últimos partidos de esta temporada (hasta 10; al inicio de temporada son menos) se habría cumplido el pick con la misma línea. Verde desde 60%, rojo hasta 40%.</dd>
   <dt>H2H</dt><dd>Lo mismo en sus partidos contra el rival de hoy, de la temporada pasada y de esta. Los de la temporada pasada solo traen minutos, puntos, rebotes, asistencias y triples.</dd>
-  <dt>DvP</dt><dd>Puesto del rival en lo que concede de esa estadística a la posición del jugador: 1º = el que menos concede, 30º = el que más. Verde si favorece al pick (Over contra un rival del tercio que más concede, Under contra uno del tercio que menos), rojo si va en contra. Debajo, lo que concede por partido y la media de la liga.</dd>
+  <dt>DvP</dt><dd>Puesto del rival en lo que concede de esa estadística a la posición del jugador: 1º = el que menos concede, 30º = el que más. Verde si favorece al pick (Over contra un rival del tercio que más concede, Under contra uno del tercio que menos), rojo si va en contra. Debajo, lo que concede por 48 minutos y la media de la liga. Pasa el mouse, enfoca con el teclado o toca el número para leerlo en una frase (por ejemplo, «los Wizards son la 4.ª defensa que más rebotes concede a los pívots… Favorece el Over»); lo mismo con Últ. 10 y H2H.</dd>
   <dt>Mejor casa</dt><dd>La casa donde la apuesta rinde más según el modelo, a veces con una línea distinta (por ejemplo -13.5 en vez de -14.5). En la página de cada partido puedes ver todas las casas.</dd>
   <dt>Casas de Colombia <span class="co">CO</span></dt><dd>Rushbet y BetPlay, cuando hay cuotas suyas para el partido. Cuentan en el promedio como una casa más, y debajo de la mejor casa se muestra la mejor opción en Colombia.</dd>
 </dl></details>`;
@@ -1526,13 +1585,34 @@ const hrPct = x => {
   const r = x[0] / x[1];
   return `<span class="hr${r >= .6 ? " hi" : r <= .4 ? " lo" : ""}">${Math.round(r * 100)}%</span><div class="kind">${x[0]} de ${x[1]}</div>`;
 };
+// Explicación al pasar el mouse, enfocar con teclado o tocar (#tipx): DvP, Últ. 10 y H2H en palabras, caso por caso
+const POS_ES = { PG: "bases", SG: "escoltas", SF: "aleros", PF: "ala-pívots", C: "pívots" };
+const TEAM_EL = { ORL: 1, OKC: 1, UTA: 1, MIA: 1 };   // "el Magic", "el Thunder"... (el resto, "los Wizards")
+const gOf = b => { const gid = b._gid || CUR_GAME?.id; return INDEX.games.find(x => x.id === gid); };
+const oppOf = b => { const g = gOf(b); return g && b.team ? (b.team === g.away ? g.home : g.away) : ""; };
+const teamPh = t => { const n = (NBA_TEAMS[t] || [])[1]; return n ? `${TEAM_EL[t] ? "el" : "los"} ${n}` : t || "el rival"; };
+const stLow = k => { const l = STAT_LABEL[k] || k; return l === l.toUpperCase() ? l : l.toLowerCase(); };
+const sideTxt = b => `${isOver(b) ? "Over (más de" : "Under (menos de"} ${b.line})`;
+function dvpTip(b) {
+  const d = b.hr && b.hr.dvp; if (!d) return "";
+  const n = d.n || 30, most = n - d.rank + 1, opp = oppOf(b), who = teamPh(opp), sing = TEAM_EL[opp];
+  const top = d.rank > n / 2, ord = top ? most : d.rank;
+  const good = isOver(b) ? d.rank > n * 2 / 3 : d.rank <= n / 3, bad = isOver(b) ? d.rank <= n / 3 : d.rank > n * 2 / 3;
+  const fmt = v => String(v).replace(".", ",");
+  return `DvP ${d.rank}º de ${n}: ${who} ${sing ? "es" : "son"} la ${ord > 1 ? ord + ".ª " : ""}defensa que ${top ? "más" : "menos"} ${stLow(b.stat)} concede a los ${POS_ES[d.pos] || d.pos} (${fmt(d.value)} por 48 min vs ${fmt(d.lg)} de media de la liga). `
+    + (good ? `Favorece el ${sideTxt(b)}.` : bad ? `Juega en contra del ${sideTxt(b)}.` : "Defensa de mitad de tabla: no inclina la balanza.");
+}
+const l10Tip = (b, link) => { const x = b.hr && b.hr.l10; return x && x[1] ? `Últimos ${x[1]} partidos: con el ${sideTxt(b)} se habría cumplido ${x[0]} de ${x[1]} veces.${link ? " Tócalo para ver esos partidos." : ""}` : ""; };
+const h2hTip = (b, link) => { const x = b.hr && b.hr.h2h, o = oppOf(b); return x && x[1] ? `Contra ${o ? teamPh(o) : "este rival"} (esta temporada y la pasada): con el ${sideTxt(b)} se cumplió ${x[0]} de ${x[1]} veces.${link ? " Tócalo para ver esos partidos." : ""}` : ""; };
+const tipAttr = t => t ? ` data-tip="${esc(t)}"` : "";
+const tipBtn = (inner, t) => t ? `<button type="button" class="tipb"${tipAttr(t)}>${inner}</button>` : inner;
 const hrDvp = b => {
   const d = b.hr && b.hr.dvp; if (!d) return `<span class="muted">—</span>`;
   const top = d.n || 30, good = isOver(b) ? d.rank > top * 2 / 3 : d.rank <= top / 3, bad = isOver(b) ? d.rank <= top / 3 : d.rank > top * 2 / 3;
-  return `<span class="hr${good ? " hi" : bad ? " lo" : ""}">${d.rank}º</span><div class="kind">${d.pos}: ${d.value} (liga ${d.lg})</div>`;
+  return tipBtn(`<span class="hr${good ? " hi" : bad ? " lo" : ""}">${d.rank}º</span><div class="kind">${d.pos}: ${d.value} (liga ${d.lg})</div>`, dvpTip(b));
 };
 const HR_TH = `<th class="r">Últ. 10<small class="th-s">% que se cumplió</small></th><th class="r">H2H<small class="th-s">vs. este rival</small></th><th class="r">DvP<small class="th-s">defensa rival · 1º la mejor</small></th>`;
-const hrCells = b => `<td class="r num" data-label="Últ. 10">${b.hr && b.hr.l10 && b.hr.l10[1] && b.player ? `<button type="button" class="l1-btn" title="Ver sus últimos partidos"${l10Attrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.l10)}</button>` : b.hr ? hrPct(b.hr.l10) : "—"}${spkTag(b, "spk-mini")}</td><td class="r num" data-label="H2H">${b.hr && b.hr.h2h && b.hr.h2h[1] && b.player ? `<button type="button" class="h2h-btn" title="Ver sus partidos contra el rival"${h2hAttrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.h2h)}</button>` : b.hr ? hrPct(b.hr.h2h) : "—"}</td><td class="r num" data-label="DvP">${hrDvp(b)}</td>`;
+const hrCells = b => `<td class="r num" data-label="Últ. 10">${b.hr && b.hr.l10 && b.hr.l10[1] && b.player ? `<button type="button" class="l1-btn"${tipAttr(l10Tip(b, true))}${l10Attrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.l10)}</button>` : b.hr ? tipBtn(hrPct(b.hr.l10), l10Tip(b)) : "—"}${spkTag(b, "spk-mini")}</td><td class="r num" data-label="H2H">${b.hr && b.hr.h2h && b.hr.h2h[1] && b.player ? `<button type="button" class="h2h-btn"${tipAttr(h2hTip(b, true))}${h2hAttrs(b.player, b._gid || CUR_GAME?.id, b.stat, b.line, isOver(b))}>${hrPct(b.hr.h2h)}</button>` : b.hr ? tipBtn(hrPct(b.hr.h2h), h2hTip(b)) : "—"}</td><td class="r num" data-label="DvP">${hrDvp(b)}</td>`;
 function betRows(bets, thr, withGame) {
   const withHr = hasHr(bets);
   const withRes = bets.some(b => b.result);
@@ -2981,11 +3061,11 @@ function aaBind(d) {
     ks.forEach((k, i) => regLeg(AA_REG[k], gid, game));
     const thr = INDEX.value_ev;
     $("#aa-body").innerHTML = `<ol class="aa-list">${top.map((c, i) => { const b = c.b, k = ks[i]; return `<li class="aa-item">
-      <div class="aa-h"><span class="aa-n">${i + 1}</span><div class="aa-t"><b>${esc(b.label)}</b><div class="kind">${b.kind === "prop" ? `${esc(b.team)} · ${STAT_LABEL[b.stat] || b.stat}` : KIND[b.kind]}</div></div>
+      <div class="aa-h"><span class="aa-n">${i + 1}</span><div class="aa-t">${b.player ? face(b.player, false, b.team) : b.team && b.kind !== "total" ? logo(b.team, "aa-lg") : ""}<div><b>${sti(stOf(b))}${esc(b.label)}</b><div class="kind">${b.kind === "prop" ? `${esc(b.team)} · ${STAT_LABEL[b.stat] || b.stat}` : KIND[b.kind]}</div></div></div>
         <div class="aa-qs"><div class="aa-q"><span class="num"><b>${c.dec.toFixed(2)}</b></span><span class="kind">${c.ref ? `≈ Betano · EE. UU. ${c.ref.toFixed(2)}` : b.n_books ? `prom. ${b.n_books} casas` : "cuota casa"}</span></div>
-        <div class="aa-q"><span class="num">${pct(b.p, 0)}</span><span class="kind">prob.</span></div>
         <div class="aa-q">${evPill(c.ev, thr)}<span class="kind">EV</span></div></div>${addBtn(k)}</div>
-      <ul class="aa-why">${aaWhy(c, d).map(w => `<li${/^Ojo/.test(w) ? ' class="warn"' : ""}>${w}</li>`).join("")}</ul>
+      <div class="aa-b"><ul class="aa-why">${aaWhy(c, d).map(w => `<li${/^Ojo/.test(w) ? ' class="warn"' : ""}>${w}</li>`).join("")}</ul>
+        <div class="aa-v">${vizOr({ ...b, _gid: gid, implied: 1 / c.dec }, "aa-viz")}${mvc(b.p, 1 / c.dec, c.ev, thr)}</div></div>
       ${b.result ? `<div>${resPill(b.result)}</div>` : takeBtn(k)}</li>`; }).join("")}</ol>
       ${top.length > 1 && !gameLocked(INDEX.games.find(x => x.id === gid)) ? `<button type="button" class="btn ghost aa-all" data-addpl="${PLREG.push(ks) - 1}">+ Agregar las ${top.length} a mi combinada</button>` : ""}
       <p class="foot">Puntaje = EV a la cuota mostrada, más un plus si se cumplió seguido en sus últimos 10 y contra este rival, y si la defensa rival concede mucho (Over) o poco (Under) a su posición. Como mucho 2 líneas por jugador y una por tipo (puntos, rebotes, asistencias...). No entran jugadores en duda o fuera, ni Unders de rookies o de quien no jugó la temporada pasada. Las líneas del mismo partido no son independientes: en Mi combinada la probabilidad conjunta sale de las simulaciones.</p>`;
@@ -3805,8 +3885,8 @@ const face = (name, big, team) => {   // team (opcional): las iniciales y el aro
   const id = PIDS[pnorm(name)], ini = name.replace(/ (Jr\.?|Sr\.?|I{2,3}|IV)$/, "").split(/\s+/).map(w => w[0] || "").filter(Boolean);
   return `<span class="av${big ? " av-lg" : ""}${team && TEAM[team] ? " av-tm" : ""}"${team && TEAM[team] ? ` style="--tc:${tc(team)};--tf:${tf(team)}"` : ""} aria-hidden="true">${esc((ini[0] || "") + (ini.length > 1 ? ini.at(-1) : ""))}${id ? `<img src="https://cdn.nba.com/headshots/nba/latest/260x190/${id}.png" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : ""}</span>`;
 };
-const pn = (name, gid, st, noFace) => `<button type="button" class="pname" data-pc="${esc(name)}" data-gid="${esc(gid || "")}"${st ? ` data-st="${esc(st)}"` : ""} title="Ver la ficha de ${esc(name)}">${noFace ? "" : face(name)}${esc(name)}</button>`;
-const lbl = (b, gid) => b.player && b.label.startsWith(b.player) ? pn(b.player, gid, b.stat) + `<span class="lb-st">${sti(stOf(b))}${esc(b.label.slice(b.player.length))}</span>` : `${sti(stOf(b))}${esc(b.label)}`;
+const pn = (name, gid, st, noFace, team) => `<button type="button" class="pname" data-pc="${esc(name)}" data-gid="${esc(gid || "")}"${st ? ` data-st="${esc(st)}"` : ""} title="Ver la ficha de ${esc(name)}">${noFace ? "" : face(name, false, team)}${esc(name)}</button>`;
+const lbl = (b, gid) => b.player && b.label.startsWith(b.player) ? pn(b.player, gid, b.stat, false, b.team) + `<span class="lb-st">${sti(stOf(b))}${esc(b.label.slice(b.player.length))}</span>` : `${sti(stOf(b))}${esc(b.label)}`;
 document.addEventListener("click", e => {
   const t = e.target.closest("[data-pc]"); if (!t) return;
   e.preventDefault(); e.stopPropagation();
@@ -4074,6 +4154,43 @@ document.addEventListener("click", e => {
   openL10({ p: D.l1p, g: D.l1g, s: D.l1s, l: D.l1l, o: D.l1o, n: D.l1n, f: D.l1f });
 }, true);
 
+// globito de explicación ([data-tip]): mouse = al pasar; teclado = al enfocar (Esc lo cierra); táctil = al tocar
+// (los botones .tipb; Últ. 10 y H2H abren sus partidos al tocar, así que su globito es de mouse y teclado)
+const TIP = { el: null, at: null, pin: false };
+function tipShow(a, pin) {
+  if (!TIP.el) { TIP.el = document.createElement("div"); TIP.el.id = "tipx"; TIP.el.setAttribute("role", "tooltip"); document.body.append(TIP.el); }
+  const t = TIP.el;
+  if (TIP.at && TIP.at !== a) TIP.at.removeAttribute("aria-describedby");
+  TIP.at = a; TIP.pin = !!pin;
+  t.textContent = a.dataset.tip; t.className = ""; t.style.left = "0px"; t.style.top = "0px"; t.hidden = false;
+  a.setAttribute("aria-describedby", "tipx"); if (a.classList.contains("tipb")) a.setAttribute("aria-expanded", "true");
+  const r = a.getBoundingClientRect(), w = t.offsetWidth, h = t.offsetHeight, W = document.documentElement.clientWidth;
+  const x = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), W - w - 8), up = r.top - h - 10 >= 8;
+  t.style.left = x + "px"; t.style.top = (up ? r.top - h - 10 : r.bottom + 10) + "px";
+  t.style.setProperty("--ax", Math.min(Math.max(12, r.left + r.width / 2 - x), w - 12) + "px");
+  t.className = "on " + (up ? "up" : "down");
+}
+function tipHide() {
+  if (!TIP.at) return;
+  TIP.at.removeAttribute("aria-describedby"); if (TIP.at.classList.contains("tipb")) TIP.at.setAttribute("aria-expanded", "false");
+  TIP.at = null; TIP.pin = false; if (TIP.el) { TIP.el.hidden = true; TIP.el.className = ""; }
+}
+document.addEventListener("pointerover", e => { if (e.pointerType !== "mouse") return; const a = e.target.closest("[data-tip]"); if (a && a !== TIP.at) tipShow(a); });
+document.addEventListener("pointerout", e => { if (e.pointerType !== "mouse" || TIP.pin) return; const a = e.target.closest("[data-tip]"); if (a && a === TIP.at && !a.contains(e.relatedTarget)) tipHide(); });
+document.addEventListener("focusin", e => { const a = e.target.closest && e.target.closest("[data-tip]"); if (a && a.matches(":focus-visible")) tipShow(a); });
+document.addEventListener("focusout", e => { if (TIP.at && e.target === TIP.at && !TIP.pin) tipHide(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && TIP.at) tipHide(); });
+document.addEventListener("click", e => {
+  const a = e.target.closest(".tipb");
+  if (!a) { if (TIP.at) tipHide(); return; }
+  e.preventDefault(); e.stopPropagation();   // que la fila (tr.link) no navegue al partido
+  if (TIP.at === a && TIP.pin) tipHide(); else tipShow(a, true);
+}, true);
+addEventListener("scroll", () => {   // acompaña al número mientras se ve; si sale de la pantalla, se cierra
+  if (!TIP.at) return; const r = TIP.at.getBoundingClientRect();
+  r.bottom < 0 || r.top > innerHeight || !TIP.at.isConnected ? tipHide() : tipShow(TIP.at, TIP.pin);
+}, { passive: true, capture: true });
+addEventListener("resize", () => { if (TIP.at) tipHide(); });
 // Rachas (#rachas): jugadores que llevan varios partidos seguidos por encima o por debajo de su línea de HOY
 let RK = { side: "all", mk: "all", min: 4, agree: "all" };
 const RK_MK = { all: "Todos", pts: "Puntos", reb: "Rebotes", ast: "Asistencias", fg3m: "Triples", combo: "Combinadas", def: "Robos y tapones", shots: "Tiros", other: "Pérdidas y faltas" };
@@ -4278,7 +4395,26 @@ const POTD_MIN_P = 0.55, LONG_P = 0.4;
 // y sus cruces recientes contra el rival. Las gráficas se llenan después con docs/data/players/<fecha>.json
 // (hydrateSparks, que corre solo cuando cambia #app). En móvil las tarjetas se deslizan a los lados.
 const spkTag = (b, cls) => b.kind === "prop" && b.player && PC_ST.includes(b.stat) && b.line != null
-  ? `<div class="${cls}" data-spk="${esc(b.player)}" data-st="${b.stat}" data-ln="${b.line}" data-sd="${isOver(b) ? "o" : "u"}" data-dt="${esc((b._gid || CUR_GAME?.id || DAY).slice(0, 10))}"></div>` : "";
+  ? `<div class="${cls}" data-spk="${esc(b.player)}" data-st="${b.stat}" data-ln="${b.line}" data-sd="${isOver(b) ? "o" : "u"}" data-dt="${esc((b._gid || CUR_GAME?.id || DAY).slice(0, 10))}"${b.p != null ? ` data-p="${b.p}"` : ""}${impOf(b) != null ? ` data-ip="${impOf(b).toFixed(4)}"` : ""}></div>` : "";
+// probabilidad que paga la casa (la de la cuota mostrada)
+const impOf = b => b.implied != null ? b.implied : b.dec ? 1 / b.dec : null;
+// Modelo vs Casa: dos barras de probabilidad (modelo en acento, casa en gris) y el EV resaltado en palabras
+function mvc(p, ip, ev, thr) {
+  if (p == null) return "";
+  const d = ip != null ? Math.round((p - ip) * 100) : null, cls = ev == null ? "" : ev >= thr ? "hi" : ev < 0 ? "lo" : "mid";
+  const row = (k, t, v) => `<div class="mvc-r ${k}"><span>${t}</span><span class="mvc-t"><i style="--w:${Math.min(Math.max(v, 0), 1).toFixed(3)}"></i></span><b class="num">${pct(v, 0)}</b></div>`;
+  return `<div class="mvc"><div class="mvc-h">Probabilidad de que salga</div>${row("m", "Modelo", p)}${ip != null ? row("c", "Casa", ip) : ""}
+    ${ev != null ? `<div class="mvc-ev ${cls}"><span class="mvc-evv">EV <b class="num">${evTxt(ev)}</b></span><small>${d ? `el modelo le da ${Math.abs(d)} punto${Math.abs(d) > 1 ? "s" : ""} ${d > 0 ? "más" : "menos"} que la casa · ` : ""}por cada 1 apostado, ${ev >= 0 ? "gana" : "pierde"} ${Math.abs(ev).toFixed(2)} en promedio</small></div>` : ""}</div>`;
+}
+// medidor (semicírculo) de prob. del modelo con la marca de la casa: cuando no hay sus últimos partidos para graficar
+function pgauge(p, ip) {
+  const pt = (v, r) => { const t = Math.PI * (1 - v); return `${(50 + r * Math.cos(t)).toFixed(2)} ${(50 - r * Math.sin(t)).toFixed(2)}`; };
+  return `<div class="pg"><svg viewBox="0 0 100 56" role="img" aria-label="Probabilidad: modelo ${pct(p, 0)}${ip != null ? `, casa ${pct(ip, 0)}` : ""}">
+    <path class="pg-bg" d="M8 50 A42 42 0 0 1 92 50" pathLength="100"/><path class="pg-fg" d="M8 50 A42 42 0 0 1 92 50" pathLength="100" style="--d:${(p * 100).toFixed(1)}"/>
+    ${ip != null ? `<path class="pg-c" d="M${pt(ip, 33)} L${pt(ip, 51)}"/>` : ""}<text x="50" y="47" text-anchor="middle" class="pg-v">${pct(p, 0)}</text></svg>
+    <div class="pg-l"><span class="m">Modelo ${pct(p, 0)}</span>${ip != null ? `<span class="c">Casa ${pct(ip, 0)}</span>` : ""}</div></div>`;
+}
+const vizOr = (b, cls, ip) => spkTag(b, cls) || (b.p != null ? `<div class="${cls} is-gauge">${pgauge(b.p, ip !== undefined ? ip : impOf(b))}</div>` : "");
 function pickCard(b, thr, big) {
   const gid = b._gid || CUR_GAME.id, game = b._game || CUR_GAME.game, k = regLeg(b, gid, game), dc = (b.dec || +dec(b.odds)).toFixed(2);
   const g = INDEX.games.find(x => x.id === gid);
@@ -4292,8 +4428,9 @@ function pickCard(b, thr, big) {
     ${bajaWarn(b, gid)}
     ${b.err ? `<div class="pcd-pb"><b>Error de cuota</b>: ${esc(b.err.why)}. Con esta regla acertaron ${pct(b.err.hit, 0)} cuando la casa pedía ${pct(b.err.casa, 0)} (${b.err.n} líneas, 1-19 nov).</div>` : ""}
     ${b.if_out ? `<div class="pcd-pb">Si no juega <b>${esc(b.if_out)}</b>: prob. ${pct(b.base_p, 0)} → <b>${pct(b.p, 0)}</b>${b.mean0 != null && b.mean != null ? `, proyección ${b.mean0} → <b>${b.mean}</b>` : ""}${g && (g.value_bets || []).some(v => v.label === b.label) ? " (ya es pick del día)" : ""}</div>` : ""}
-    ${spkTag(b, "pcd-viz")}
-    <div class="pcd-stats"><div><small>Prob. modelo</small><b>${pct(b.p, 0)}</b></div><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div><small>DvP rival</small>${hrDvp(b)}</div>` : ""}</div>
+    ${vizOr(b, "pcd-viz")}
+    ${mvc(b.p, impOf(b), b.ev, thr)}
+    <div class="pcd-stats"><div><small>Cuota justa</small><b>${fairDec(b.p)}</b></div>${b.mean != null ? `<div><small>Proyección</small><b>${b.mean}</b></div>` : ""}${b.hr && b.hr.dvp ? `<div><small>DvP rival</small>${hrDvp(b)}</div>` : ""}</div>
     <footer class="pcd-f">${takeBtn(k)}${addBtn(k)}${b.result ? resPill(b.result) : ""}<a class="pcd-go" href="#${esc(gid)}">Ver partido →</a></footer>
   </article>`;
 }
@@ -4302,25 +4439,28 @@ const pickCards = (list, thr) => `<div class="pcards-hint">Desliza → ${list.le
 function spkBars(xs, L, over, mini) {
   const top = Math.max(L * 1.5, ...xs.map(x => x.v), 1);
   const hit = v => over ? v > L : v < L;
-  return `<div class="spk${mini ? " mini" : ""}" style="--ln:${(L / top).toFixed(3)}">${xs.map(x => `<i class="${hit(x.v) ? "hit" : ""}" style="--h:${Math.max(x.v / top, .02).toFixed(3)}"${!mini && x.bx ? ` data-bx="${esc(x.bx)}" role="button" tabindex="0"` : ""} title="${esc(x.d)} ${x.home ? "vs" : "@"} ${esc(x.opp)}: ${x.v}">${mini ? "" : `<b>${x.v}</b><em>${esc(x.opp)}</em>`}</i>`).join("")}</div>`;
+  return `<div class="spk${mini ? " mini" : ""}" style="--ln:${(L / top).toFixed(3)}">${xs.map((x, j) => `<i class="${hit(x.v) ? "hit" : ""}" style="--h:${Math.max(x.v / top, .02).toFixed(3)};--i:${j}"${!mini && x.bx ? ` data-bx="${esc(x.bx)}" role="button" tabindex="0"` : ""} title="${esc(x.d)} ${x.home ? "vs" : "@"} ${esc(x.opp)}: ${x.v}">${mini ? "" : `<b>${x.v}</b><em>${esc(x.opp)}</em>`}</i>`).join("")}</div>`;
 }
 async function hydrateSparks(root) {
   const els = [...root.querySelectorAll("[data-spk]:not([data-done])")];
   for (const e of els) {
     e.dataset.done = "1";
     const F = await playersOf(e.dataset.dt), P = F && F.players[e.dataset.spk];
-    const st = e.dataset.st, L = +e.dataset.ln, over = e.dataset.sd === "o", mini = e.classList.contains("spk-mini");
-    if (!P) { e.remove(); continue; }
+    const st = e.dataset.st, L = +e.dataset.ln, over = e.dataset.sd === "o", mini = e.classList.contains("spk-mini"), md = e.classList.contains("aa-viz");
+    const gaugeOr = () => { if (!mini && e.dataset.p) { e.classList.add("is-gauge"); e.innerHTML = pgauge(+e.dataset.p, e.dataset.ip ? +e.dataset.ip : null); } else e.remove(); };
+    if (!P) { gaugeOr(); continue; }
     const bk = r => r[F.ix.k] == null ? null : `${e.dataset.dt}|${r[F.ix.k]}|${e.dataset.spk}`;
     const xs = P.g.map(r => ({ v: pcVal(F, r, st), d: r[F.ix.date], opp: r[F.ix.opp], home: r[F.ix.home], min: r[F.ix.min], bx: bk(r) }))
       .filter(x => x.v != null && x.min > 0);
     const last = xs.slice(0, 10).reverse();
-    if (!last.length) { e.remove(); continue; }
+    if (!last.length) { gaugeOr(); continue; }
     const n = last.filter(x => over ? x.v > L : x.v < L).length;
     if (mini) { e.innerHTML = spkBars(last, L, over, true); continue; }
+    const vh = `<div class="pcd-vh"><span>Últimos ${last.length}</span><b class="${n / last.length >= .6 ? "hi" : n / last.length <= .4 ? "lo" : ""}">${n} de ${last.length}</b><span class="spk-key" title="Verde: ese día ${over ? "superó" : "quedó por debajo de"} la línea de hoy"><i></i>se cumplió</span><span class="muted" title="Línea de hoy"><i class="ln-key"></i>${L}</span></div>`;
+    if (md) { e.innerHTML = vh + spkBars(last, L, over); continue; }
     const h2h = xs.filter(x => x.opp === P.opp).slice(0, 5);
     const hh = h2h.filter(x => over ? x.v > L : x.v < L).length;
-    e.innerHTML = `<div class="pcd-vh"><span>Últimos ${last.length}</span><b class="${n / last.length >= .6 ? "hi" : n / last.length <= .4 ? "lo" : ""}">${n} de ${last.length}</b><span class="muted">línea ${L}</span></div>
+    e.innerHTML = `${vh}
       ${spkBars(last, L, over)}${last.some(x => x.bx) ? `<div class="bx-tip">Toca una barra o un cruce para ver ese partido</div>` : ""}
       <div class="pcd-h2h"><button type="button" class="h2h-lbl" title="Ver todos sus partidos contra ${esc(P.opp)}"${h2hAttrs(e.dataset.spk, P.gid, st, L, over, P.opp)}>Vs ${esc(P.opp)} ›</button>${h2h.length ? h2h.map(x => x.bx ? `<button type="button" class="h2c${(over ? x.v > L : x.v < L) ? " hit" : ""}" data-bx="${esc(x.bx)}" title="${esc(x.d)}: ver el partido">${x.v}</button>` : `<span class="h2c${(over ? x.v > L : x.v < L) ? " hit" : ""}" title="${esc(x.d)}">${x.v}</span>`).join("") + `<b class="${hh / h2h.length >= .6 ? "hi" : hh / h2h.length <= .4 ? "lo" : ""}">${hh} de ${h2h.length}</b>` : `<span class="muted">sin cruces recientes</span>`}</div>`;
   }
