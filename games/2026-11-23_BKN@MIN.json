@@ -969,14 +969,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -620,
-  "ml_away": 455,
-  "spread_home": -11.5,
-  "total": 224.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -106,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": -549,
+  "ml_away": 413,
+  "spread_home": -10.5,
+  "total": 222.5,
+  "spread_odds_home": -117,
+  "spread_odds_away": -103,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "LaMelo Ball": {

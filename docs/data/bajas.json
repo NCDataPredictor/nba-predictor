@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:18+00:00",
+ "updated": "2026-11-23T23:22+00:00",
  "list": [
   {
    "date": "2026-11-20",
@@ -197,7 +197,7 @@
    "note": "pie derecho; OUT vs OKC",
    "source": "Parte final (Athlon) 15:30 ET",
    "at": "2026-11-23T23:18+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-23",

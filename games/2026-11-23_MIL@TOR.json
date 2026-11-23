@@ -1150,14 +1150,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -494,
-  "ml_away": 378,
+  "ml_home": -449,
+  "ml_away": 348,
   "spread_home": -10.5,
   "total": 222.5,
-  "spread_odds_home": -113,
-  "spread_odds_away": -107,
-  "over_odds": -113,
-  "under_odds": -107
+  "spread_odds_home": -107,
+  "spread_odds_away": -113,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Ja'Kobe Walter": {

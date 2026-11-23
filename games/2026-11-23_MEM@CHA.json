@@ -1067,14 +1067,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": 136,
-  "ml_away": -162,
-  "spread_home": 3.5,
-  "total": 214.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -108,
-  "under_odds": -112
+  "ml_home": 130,
+  "ml_away": -154,
+  "spread_home": 2.5,
+  "total": 213.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Brandon Miller": {
@@ -1082,6 +1082,12 @@
     3.5,
     130,
     -155
+   ],
+   "pts": [
+    20.5,
+    -115,
+    -110,
+    21.5
    ]
   },
   "Ty Jerome": {

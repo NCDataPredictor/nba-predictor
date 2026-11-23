@@ -1202,7 +1202,87 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "cb5670ad07722908",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-POR-at-PHI",
+   "title": "POR @ PHI (7:00 pm ET): novedades de bajas",
+   "body": "En duda: Embiid. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-POR-at-PHI",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Joel Embiid"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "8210664dd8989547",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-OKC-at-IND",
+   "title": "OKC @ IND (7:30 pm ET): novedades de bajas",
+   "body": "Bajas: Nesmith OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-OKC-at-IND",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Aaron Nesmith"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "218289701d8e5682",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-PHX-at-NOP",
+   "title": "PHX @ NOP (8:00 pm ET): cambian los picks",
+   "body": "Sale: Jeremiah Fears Under 18.5 Puntos.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-PHX-at-NOP",
+   "added": [],
+   "removed": [
+    "Jeremiah Fears Under 18.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "5a416a218af76e77",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): cambian los picks",
+   "body": "Sale: Keyonte George Over 2.5 Triples.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-UTA-at-LAL",
+   "added": [],
+   "removed": [
+    "Keyonte George Over 2.5 Triples"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-23T16:31+00:00"
+ "updated": "2026-11-23T23:22+00:00"
 }

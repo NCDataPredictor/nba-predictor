@@ -52,6 +52,12 @@
     3.5,
     130,
     -155
+   ],
+   "pts": [
+    20.5,
+    -115,
+    -110,
+    21.5
    ]
   },
   "Julian Champagnie": {
@@ -207,7 +213,7 @@
   "Keyonte George": {
    "fg3m": [
     2.5,
-    118,
+    124,
     -140
    ]
   },
@@ -218,9 +224,9 @@
     -155
    ],
    "pts": [
-    14.5,
+    15.5,
     -105,
-    -120
+    100
    ]
   },
   "Saddiq Bey": {
@@ -521,9 +527,9 @@
     -110
    ],
    "pts": [
-    18.5,
-    -120,
-    -105
+    17.5,
+    -110,
+    -108
    ]
   },
   "Jaden McDaniels": {
@@ -638,9 +644,10 @@
   },
   "Zion Williamson": {
    "pts": [
-    22.5,
-    -105,
-    -120
+    21.5,
+    -111,
+    -120,
+    22.5
    ]
   },
   "Jalen Green": {
@@ -704,10 +711,10 @@
   },
   "De'Aaron Fox": {
    "pts": [
-    15.5,
-    -112,
-    -105,
-    16.5
+    14.5,
+    -125,
+    -120,
+    15.5
    ]
   },
   "Ziaire Williams": {
@@ -753,6 +760,21 @@
     -115,
     -106
    ]
+  },
+  "Pascal Siakam": {
+   "pts": [
+    21.5,
+    -107,
+    -102
+   ]
+  },
+  "Jaylen Brown": {
+   "pts": [
+    20.5,
+    -119,
+    -132,
+    22.5
+   ]
   }
  },
  "games": [
@@ -762,14 +784,14 @@
    "tip_et": "19:00",
    "venue": "Spectrum Center, Charlotte",
    "market": {
-    "ml_home": 136,
-    "ml_away": -162,
-    "spread_home": 3.5,
-    "total": 214.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -108,
-    "under_odds": -112
+    "ml_home": 130,
+    "ml_away": -154,
+    "spread_home": 2.5,
+    "total": 213.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {
@@ -809,14 +831,14 @@
    "tip_et": "19:00",
    "venue": "Xfinity Mobile Arena, Philadelphia",
    "market": {
-    "ml_home": -179,
-    "ml_away": 150,
-    "spread_home": -4.5,
-    "total": 229.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
-    "over_odds": -115,
-    "under_odds": -105
+    "ml_home": -115,
+    "ml_away": -103,
+    "spread_home": -1.5,
+    "total": 231.5,
+    "spread_odds_home": -102,
+    "spread_odds_away": -119,
+    "over_odds": -105,
+    "under_odds": -115
    },
    "b2b": [],
    "adj": {},
@@ -830,11 +852,13 @@
    "gtd": {
     "Jaylen Brown": 0.85,
     "Dean Wade": 0.75,
-    "Adem Bona": 0.8
+    "Adem Bona": 0.8,
+    "Joel Embiid": 0.5
    },
    "notes": [
     "POR: Morant (isquio), Youngblood (talón), Krejčí y Sharpe OUT",
-    "PHI: Jaylen Brown, Dean Wade y Bona probables (RotoWire); Hukporti fuera la temporada"
+    "PHI: Jaylen Brown, Dean Wade y Bona probables (RotoWire); Hukporti fuera la temporada",
+    "Revisión 18:20 ET: Embiid questionable (enfermedad), parte final Athlon/ClutchPoints; PHI pasó de -4.5 a -1.5"
    ]
   },
   {
@@ -843,14 +867,14 @@
    "tip_et": "19:30",
    "venue": "Target Center, Minneapolis",
    "market": {
-    "ml_home": -620,
-    "ml_away": 455,
-    "spread_home": -11.5,
-    "total": 224.5,
-    "spread_odds_home": -115,
-    "spread_odds_away": -106,
-    "over_odds": -110,
-    "under_odds": -110
+    "ml_home": -549,
+    "ml_away": 413,
+    "spread_home": -10.5,
+    "total": 222.5,
+    "spread_odds_home": -117,
+    "spread_odds_away": -103,
+    "over_odds": -115,
+    "under_odds": -105
    },
    "b2b": [],
    "adj": {
@@ -880,14 +904,14 @@
    "tip_et": "19:30",
    "venue": "Scotiabank Arena, Toronto",
    "market": {
-    "ml_home": -494,
-    "ml_away": 378,
+    "ml_home": -449,
+    "ml_away": 348,
     "spread_home": -10.5,
     "total": 222.5,
-    "spread_odds_home": -113,
-    "spread_odds_away": -107,
-    "over_odds": -113,
-    "under_odds": -107
+    "spread_odds_home": -107,
+    "spread_odds_away": -113,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {
@@ -919,12 +943,12 @@
    "market": {
     "ml_home": 160,
     "ml_away": -191,
-    "spread_home": 5.5,
-    "total": 222.5,
-    "spread_odds_home": -118,
-    "spread_odds_away": -103,
-    "over_odds": -110,
-    "under_odds": -110
+    "spread_home": 4.5,
+    "total": 225.5,
+    "spread_odds_home": -110,
+    "spread_odds_away": -110,
+    "over_odds": -112,
+    "under_odds": -108
    },
    "b2b": [
     "OKC",
@@ -932,18 +956,17 @@
    ],
    "adj": {
     "OKC": {
-     "o": -3.0,
-     "d": 1.0,
-     "why": "Gilgeous-Alexander (31.7 ppg) OUT (espalda/cuello, RotoWire y CBS) + Caruso, Mara, Jaylin Williams y Topić OUT; Holmgren, J. Williams y Wallace siguen fuera"
+     "o": -1.5,
+     "d": 0.75,
+     "why": "Gilgeous-Alexander VUELVE (fuera del parte, NBC/RotoWire 23-nov); Caruso, Mara, Jaylin Williams, Topić, Holmgren, J. Williams y Wallace siguen fuera"
     },
     "IND": {
-     "o": -0.5,
+     "o": -1.0,
      "d": 0.0,
-     "why": "Haliburton y McConnell OUT"
+     "why": "Haliburton, McConnell y Nesmith (pie) OUT"
     }
    },
    "out": [
-    "Shai Gilgeous-Alexander",
     "Alex Caruso",
     "Aday Mara",
     "Jaylin Williams",
@@ -955,14 +978,16 @@
     "Tyrese Haliburton",
     "T.J. McConnell",
     "Johnny Furphy",
-    "Ben Sheppard"
+    "Ben Sheppard",
+    "Aaron Nesmith"
    ],
    "gtd": {
     "Pascal Siakam": 0.85
    },
    "notes": [
     "OKC (back-to-back): SGA, Caruso, Mara, Jaylin Williams y Topić OUT (RotoWire 23-nov)",
-    "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire"
+    "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire",
+    "Revisión 18:20 ET: SGA disponible (fuera del parte final); Nesmith OUT (Athlon 15:30 ET); Siakam questionable"
    ]
   },
   {
@@ -971,14 +996,14 @@
    "tip_et": "20:00",
    "venue": "United Center, Chicago",
    "market": {
-    "ml_home": 270,
-    "ml_away": -336,
+    "ml_home": 282,
+    "ml_away": -352,
     "spread_home": 8.5,
-    "total": 240.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -108,
-    "under_odds": -112
+    "total": 242.5,
+    "spread_odds_home": -103,
+    "spread_odds_away": -117,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "CHI"
@@ -1059,11 +1084,11 @@
     "ml_home": -650,
     "ml_away": 470,
     "spread_home": -12.5,
-    "total": 224.5,
+    "total": 223.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
-    "over_odds": -110,
-    "under_odds": -110
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [],
    "adj": {
@@ -1092,12 +1117,12 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 371,
-    "ml_away": -484,
-    "spread_home": 10.5,
-    "total": 223.5,
-    "spread_odds_home": -105,
-    "spread_odds_away": -115,
+    "ml_home": 443,
+    "ml_away": -597,
+    "spread_home": 12.5,
+    "total": 224.5,
+    "spread_odds_home": -111,
+    "spread_odds_away": -109,
     "over_odds": -110,
     "under_odds": -110
    },
@@ -1132,14 +1157,14 @@
    "tip_et": "22:00",
    "venue": "Crypto.com Arena, Los Angeles",
    "market": {
-    "ml_home": -790,
-    "ml_away": 554,
+    "ml_home": -800,
+    "ml_away": 558,
     "spread_home": -13.5,
-    "total": 227.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
-    "over_odds": -108,
-    "under_odds": -112
+    "total": 225.5,
+    "spread_odds_home": -114,
+    "spread_odds_away": -106,
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "UTA"

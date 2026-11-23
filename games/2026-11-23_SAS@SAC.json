@@ -1077,12 +1077,12 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": 371,
-  "ml_away": -484,
-  "spread_home": 10.5,
-  "total": 223.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
+  "ml_home": 443,
+  "ml_away": -597,
+  "spread_home": 12.5,
+  "total": 224.5,
+  "spread_odds_home": -111,
+  "spread_odds_away": -109,
   "over_odds": -110,
   "under_odds": -110
  },
@@ -1182,10 +1182,10 @@
   },
   "De'Aaron Fox": {
    "pts": [
-    15.5,
-    -112,
-    -105,
-    16.5
+    14.5,
+    -125,
+    -120,
+    15.5
    ]
   }
  },

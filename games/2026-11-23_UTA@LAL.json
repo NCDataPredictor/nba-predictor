@@ -1079,14 +1079,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -790,
-  "ml_away": 554,
+  "ml_home": -800,
+  "ml_away": 558,
   "spread_home": -13.5,
-  "total": 227.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
-  "over_odds": -108,
-  "under_odds": -112
+  "total": 225.5,
+  "spread_odds_home": -114,
+  "spread_odds_away": -106,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Luka Dončić": {
@@ -1104,7 +1104,7 @@
   "Keyonte George": {
    "fg3m": [
     2.5,
-    118,
+    124,
     -140
    ]
   },

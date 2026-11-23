@@ -1135,11 +1135,11 @@
   "ml_home": -650,
   "ml_away": 470,
   "spread_home": -12.5,
-  "total": 224.5,
+  "total": 223.5,
   "spread_odds_home": -110,
   "spread_odds_away": -110,
-  "over_odds": -110,
-  "under_odds": -110
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Darius Garland": {
