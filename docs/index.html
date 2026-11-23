@@ -16,6 +16,19 @@ if (/iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIn
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Bebas+Neue&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap">
 <script>
+// Dirección nueva (22-nov): la NBA vive en https://ncdatapredictor.pages.dev/nba/. La dirección vieja manda allá lo
+// guardado en este navegador (claves nbap-*) con #migrar=, igual que en la migración de github.io.
+(function () {
+  if (location.hostname !== "nba-predictor-9hf.pages.dev") return;
+  const NUEVA = "https://ncdatapredictor.pages.dev/nba/";
+  const src = {};
+  try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (/^nbap-[a-z-]+$/.test(k)) src[k] = localStorage.getItem(k); } } catch (e) {}
+  let dest = NUEVA + (location.hash && !location.hash.startsWith("#migrar=") ? location.hash : "");
+  if (Object.keys(src).length) dest = NUEVA + "#migrar=" + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(src)))));
+  location.replace(dest);
+})();
+</script>
+<script>
 // Migración de dirección (15-nov): la web vieja (github.io) manda lo guardado en su navegador como
 // #migrar=<base64 de JSON {clave: valor}> con las claves nbap-*. "Mis picks" y "Mi combinada" se unen sin
 // duplicar (por k); el resto solo se copia si aquí no hay nada. Luego se limpia la dirección.
@@ -5357,8 +5370,11 @@ function avLoadOS() {
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(async OS => {
       try {
-        await OS.init({ appId: AV.app, serviceWorkerPath: location.pathname.replace(/[^/]*$/, "").slice(1) + "OneSignalSDKWorker.js",
-          serviceWorkerParam: { scope: location.pathname.replace(/[^/]*$/, "") }, allowLocalhostAsSecureOrigin: true });
+        // En ncdatapredictor.pages.dev/nba/ el worker de avisos es el de la raíz (uno solo para todo el sitio: NBA y Serie A).
+        const central = /^\/nba\//.test(location.pathname);
+        await OS.init({ appId: AV.app, serviceWorkerPath: central ? "OneSignalSDKWorker.js" : location.pathname.replace(/[^/]*$/, "").slice(1) + "OneSignalSDKWorker.js",
+          serviceWorkerParam: { scope: central ? "/" : location.pathname.replace(/[^/]*$/, "") }, allowLocalhostAsSecureOrigin: true });
+        try { OS.User.addTag("nba", "1"); } catch (e) {}   // tema: avisos de la NBA (la Serie A usa "serie_a")
         AV.os = OS; OS.User.PushSubscription.addEventListener("change", avDraw); ok(OS);
       } catch (e) { ko(e); }
     });

@@ -252,6 +252,12 @@ def _post(payload, key):
         return json.loads(r.read().decode() or "{}")
 
 
+# Sitio central (22-nov): un solo OneSignal para NBA y Serie A. Cada suscriptor lleva un tag por liga ("nba",
+# "serie_a"). La NBA manda a quien tiene "nba" y también a quien no tiene "serie_a" (los suscritos de antes, sin tag).
+FILTRO_NBA = [{"field": "tag", "key": "nba", "relation": "=", "value": "1"}, {"operator": "OR"},
+              {"field": "tag", "key": "serie_a", "relation": "not_exists"}]
+
+
 def push(title, body, url, ident):
     app = (_load(CONF, {}) or {}).get("onesignal_app_id") or os.environ.get("ONESIGNAL_APP_ID")
     key = os.environ.get("ONESIGNAL_REST_API_KEY")
@@ -259,7 +265,7 @@ def push(title, body, url, ident):
         print("Falta onesignal_app_id en docs/data/push.json o el secreto ONESIGNAL_REST_API_KEY: no se envía.")
         return False
     uid = hashlib.md5(ident.encode()).hexdigest()
-    payload = dict(app_id=app, target_channel="push", included_segments=["Total Subscriptions"],
+    payload = dict(app_id=app, target_channel="push", filters=FILTRO_NBA,
                    headings={"en": title, "es": title}, contents={"en": body, "es": body}, web_url=url,
                    chrome_web_icon=SITE + "icons/icon-192.png", web_push_topic=ident.split("|")[0][:60],
                    idempotency_key=f"{uid[:8]}-{uid[8:12]}-4{uid[13:16]}-a{uid[17:20]}-{uid[20:32]}")
