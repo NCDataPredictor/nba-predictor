@@ -28,10 +28,11 @@ window.MU_ONE = async function (gid) {
       names[m.personId] = `${m.firstName} ${m.familyName}`.trim();
       if (side === "homeTeam") aw.add(m.personId);
       const s = m.statistics;
-      const sec = typeof s.matchupMinutesSort === "number" ? Math.round(s.matchupMinutesSort * 60)
+      // matchupMinutesSort viene en segundos (79 = "1:19")
+      const sec = typeof s.matchupMinutesSort === "number" ? Math.round(s.matchupMinutesSort)
         : (([mm, ss]) => n(mm) * 60 + n(ss))(String(s.matchupMinutes || "0:0").split(":"));
       const poss = n(s.partialPossessions);
-      if (poss < 0.5 && !n(s.helpFieldGoalsAttempted) && !n(s.helpBlocks)) continue;
+      if (poss < 0.5) continue;  // help* vienen siempre en 0 en v3 (verificado 23-nov)
       p.push([o.personId, m.personId, sec, +poss.toFixed(1), n(s.playerPoints), n(s.matchupFieldGoalsMade), n(s.matchupFieldGoalsAttempted),
         n(s.matchupThreePointersMade), n(s.matchupThreePointersAttempted), n(s.matchupAssists), n(s.matchupTurnovers), n(s.matchupBlocks),
         n(s.helpBlocks), n(s.helpFieldGoalsMade), n(s.helpFieldGoalsAttempted), n(s.matchupFreeThrowsMade), n(s.matchupFreeThrowsAttempted),

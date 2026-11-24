@@ -1928,6 +1928,12 @@ def main():
     for date in sorted({os.path.basename(p)[:10] for p in paths} | sim_dates):
         if any(g["date"] == date and "result" not in g for g in games) or not os.path.exists(os.path.join(OUT, "players", f"{date}.json")):
             player_cards.build(date)
+    try:  # emparejamientos defensivos (solo web, no toca picks): docs/data/defmatch/<id>.json de las jornadas tocadas
+        sys.path.insert(0, os.path.join(HERE, "matchups"))
+        import defmatch
+        defmatch.build({os.path.basename(p)[:10] for p in paths} | sim_dates)
+    except Exception as e:
+        print(f"ERROR defmatch: {e}")
     if sim_dates:  # bajas de última hora (bajas.py): las que ya entraron en la simulación quedan marcadas "sim"
         import bajas
         bajas.sync(sim_dates)

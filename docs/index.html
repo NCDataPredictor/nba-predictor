@@ -201,8 +201,8 @@ main .inner { display: grid; gap: 30px }
 .dm-def .bar{grid-column:1 / -1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
 .dm-def .bar i{display:block;height:100%;background:var(--tc,var(--accent))}
 .dm-def small,.dm-row small{color:var(--muted);font-size:12px}
-.dm-help{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;background:var(--accent-soft);color:var(--ink)}
-.dm-help.hi{background:var(--bad-soft);color:var(--bad)}
+.dm-mark{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;background:var(--accent-soft);color:var(--ink)}
+.dm-mark.hi{background:var(--bad-soft);color:var(--bad)}
 .dm-star{color:var(--hot);font-weight:700}
 .dm-sub{margin:18px 0 8px}
 .dm-row.dm-real{grid-template-columns:minmax(150px,1fr) minmax(200px,2fr)}
@@ -2886,24 +2886,25 @@ async function renderGame(id) {
 async function dmLoad(id, d) {
   let m; try { m = await getJSON(`data/defmatch/${id}.json`); } catch (e) { return; }
   const el = $("#dm"); if (!el || CUR_GAME.id !== id || !m || (!Object.keys(m.teams || {}).length && !m.actual)) return;
-  const g = d.game, teams = [g.away, g.home], hl = m.league && m.league.help;
+  const g = d.game, teams = [g.away, g.home], L = m.league;
   let t = g.away;
   const opp = x => x === g.away ? g.home : g.away;
-  const helpTag = o => !o || o.help_pg == null ? "" : `<span class="dm-help${hl && o.help_pg >= hl.p80 ? " hi" : ""}" title="Tiros suyos con un segundo defensor contestando (ayuda), por partido. Media de liga ${hl ? hl.mean : "—"}">${o.help_pg} con ayuda/PJ${hl && o.help_pg >= hl.p80 ? " · mucha ayuda" : ""}</span>`;
+  const many = n => L && n >= L.ndef_p80;
+  const markTag = o => !o || o.ndef == null ? "" : `<span class="dm-mark${many(o.ndef) ? " hi" : ""}" title="Por partido: defensores distintos que lo marcaron 1+ minuto y parte del tiempo con su defensor principal. Liga: ${L ? `${L.ndef} defensores, ${pct(L.conc, 0)}` : "—"}">${o.ndef} defensores/PJ · principal ${pct(o.conc, 0)}${many(o.ndef) ? " · le rotan la marca" : ""}</span>`;
   const vsTxt = v => !v ? "" : [v.cur ? `esta temporada ${v.cur.min} min, ${v.cur.pts} pts (${v.cur.fg} TC)` : "", v.prior ? `2025-26: ${v.prior.min} min, ${v.prior.pts} pts (${v.prior.fg} TC)` : ""].filter(Boolean).join(" · ");
   const predRow = (r, tt) => `<div class="dm-row">
       <div><span class="k">${esc(tt)} ataca${r.star ? ' · <span class="dm-star" title="Su mejor anotador">★ 1.ª opción</span>' : ""}</span>${pn(r.name, id)}<br><small>${esc(SLOT_TXT[r.slot] || r.slot || "")}</small>
-        ${r.o ? `<div><small>Esta temporada: ${r.o.pts100} pts/100 pos. emparejado · ${r.o.fgp ?? "—"}% TC</small></div><div>${helpTag(r.o)}</div>` : ""}</div>
+        ${r.o ? `<div><small>Esta temporada: ${r.o.pts100} pts/100 pos. emparejado · ${r.o.fgp ?? "—"}% TC</small></div><div>${markTag(r.o)}</div>` : ""}</div>
       <div><span class="k">Lo marcaría (% de su tiempo)</span>${r.defs.map(x => `<div class="dm-def" style="--tc:${tc(opp(tt))}"><b>${esc(x.name)}${x.starter ? "" : ' <small>(banca)</small>'}</b><span class="num">${pct(x.share, 0)}</span>
         <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span>
         ${x.d ? `<small style="grid-column:1/-1">Como defensor: ${x.d.pts100} pts/100 pos. permitidos · ${x.d.fgp ?? "—"}% TC</small>` : ""}
         ${x.vs ? `<small style="grid-column:1/-1">Cara a cara: ${esc(vsTxt(x.vs))}</small>` : ""}</div>`).join("")}</div>
-      <div><span class="k">Sus últimos partidos</span>${(r.last || []).map(l => `<div><small>${esc(l.date.slice(5))} vs ${esc(l.opp || "")}: ${l.top.map(x => `${esc(x.name)} ${pct(x.share, 0)}`).join(", ")} · ${l.pts} pts (${l.fg}) · ${l.help} con ayuda · ${l.ndef} defensores</small></div>`).join("") || "<small>Sin datos</small>"}</div>
+      <div><span class="k">Sus últimos partidos</span>${(r.last || []).map(l => `<div><small>${esc(l.date.slice(5))} vs ${esc(l.opp || "")}: ${l.top.map(x => `${esc(x.name)} ${pct(x.share, 0)}`).join(", ")} · ${l.pts} pts (${l.fg}) · ${l.ndef} defensores</small></div>`).join("") || "<small>Sin datos</small>"}</div>
     </div>`;
   const realRow = (r, tt) => `<div class="dm-row dm-real">
-      <div><span class="k">${esc(tt)} atacó</span>${pn(r.name, id)}<br><small>${r.pts} pts (${r.fg} TC) emparejado · ${r.ndef} defensores distintos</small><div><span class="dm-help${hl && r.help >= hl.p80 * 1.3 ? " hi" : ""}" title="Tiros suyos con un segundo defensor contestando">${r.help} tiros con ayuda (${r.help_fg})</span></div></div>
+      <div><span class="k">${esc(tt)} atacó</span>${pn(r.name, id)}<br><small>${r.pts} pts (${r.fg} TC) con defensor directo</small><div><span class="dm-mark${many(r.ndef) ? " hi" : ""}" title="Defensores distintos que lo marcaron 1+ minuto">${r.ndef} defensores distintos</span></div></div>
       <div><span class="k">Quién lo marcó</span>${r.defs.map(x => `<div class="dm-def" style="--tc:${tc(opp(tt))}"><b>${esc(x.name)}</b><span class="num">${pct(x.share, 0)}</span>
-        <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span><small style="grid-column:1/-1">${x.min} min · ${x.poss} pos. · ${x.pts} pts (${x.fg} TC)${x.help ? ` · ayudó en ${x.help} tiros` : ""}</small></div>`).join("")}</div>
+        <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span><small style="grid-column:1/-1">${x.min} min · ${x.poss} pos. · ${x.pts} pts (${x.fg} TC)</small></div>`).join("")}</div>
       </div>`;
   const draw = () => {
     const P = m.teams[t], R = m.actual && m.actual[t];
@@ -2913,7 +2914,7 @@ async function dmLoad(id, d) {
       ${R ? `<h3 class="dm-sub">Lo que pasó en el partido</h3><div class="dm-list">${R.map(r => realRow(r, t)).join("")}</div>` : ""}
       ${P ? (R ? `<details class="dm-sub"><summary><b>Emparejamientos que se esperaban antes del partido</b></summary><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div></details>`
         : `<h3 class="dm-sub">Emparejamientos probables</h3><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div>`) : ""}
-      <p class="foot">Con ${m.n_games} partidos de ${esc(m.season)} antes de esta fecha. "Con ayuda" = tiros del atacante contestados por un segundo defensor (lo más parecido a una marca doble que publica nba.com); en rojo si está en el 20% de jugadores que más ayuda reciben. Pts/100 pos. = puntos del atacante por cada 100 posesiones emparejado con ese defensor. Los rebotes no se cuentan por emparejamiento.</p>`;
+      <p class="foot">Con ${m.n_games} partidos de ${esc(m.season)} antes de esta fecha. nba.com no publica las dobles marcas (su dato de "ayuda" viene vacío): como pista se muestra cuántos defensores distintos lo marcaron 1+ minuto por partido y qué parte del tiempo lo marcó el principal; en rojo si está en el 20% de jugadores a los que más les rotan la marca. Pts/100 pos. = puntos del atacante por cada 100 posesiones emparejado con ese defensor. Los rebotes no se cuentan por emparejamiento.</p>`;
     el.querySelectorAll("button[data-dt]").forEach(b => b.addEventListener("click", () => { t = b.dataset.dt; draw(); }));
   };
   el.hidden = false; draw();

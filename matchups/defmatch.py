@@ -33,6 +33,14 @@ NBA_POS = {"G": 1.6, "F": 3.6, "C": 5.0}
 SD_FLOOR, STAR_B, H2H_G, SINK_IT = 0.75, 1.5, 3.0, 30
 
 
+def _secs(v):
+    """MATCHUP_MIN de leagueseasonmatchups viene como "mm:ss" (o minutos decimales)."""
+    if isinstance(v, str) and ":" in v:
+        m, x = v.split(":")
+        return int(m) * 60 + float(x)
+    return float(v or 0) * 60
+
+
 def season_of(date):
     y, m = int(date[:4]), int(date[5:7])
     y0 = y if m >= 8 else y - 1
@@ -78,6 +86,11 @@ class Store:
                 self.pos.setdefault(i, NBA_POS.get(v, 3.0))
         pp = os.path.join(HERE, "nba", f"{prior_season(season)}_pairs.json")
         self.prior = json.load(open(pp)) if os.path.exists(pp) else None
+        self.prior_idx = {}
+        if self.prior:
+            c = self.prior["cols"]
+            io, idf = c.index("OFF_PLAYER_ID"), c.index("DEF_PLAYER_ID")
+            self.prior_idx = {(str(r[io]), str(r[idf])): dict(zip(c, r)) for r in self.prior["rows"]}
 
     def name(self, i):
         return self.id2name.get(str(i)) or self.raw.get("players", {}).get(str(i)) or \
@@ -114,6 +127,7 @@ def profiles(store, before, extra_pairs=True):
     """Perfil de cada defensor y de cada atacante con los partidos anteriores a `before`."""
     dsum = defaultdict(lambda: [0.0, 0.0, 0.0, 0.0])  # tiempo, Σt·puesto, Σt·puesto², t sobre el mejor anotador
     pair = defaultdict(float)     # (off, def) -> segundos esta temporada
+    pstat = defaultdict(lambda: defaultdict(float))
     otime = defaultdict(float)    # off -> segundos totales
     ostats = defaultdict(lambda: defaultdict(float))
     dstats = defaultdict(lambda: defaultdict(float))
@@ -140,7 +154,11 @@ def profiles(store, before, extra_pairs=True):
             po = store.pos.get(o)
             otime[o] += t
             pair[(o, d)] += t
-            for k in ("poss", "pts", "fgm", "fga", "fg3m", "fg3a", "help_fga", "help_fgm", "help_blk", "ast", "tov"):
+            ps = pstat[(o, d)]
+            for k in ("sec", "poss", "pts", "fgm", "fga"):
+                ps[k] += r.get(k, 0)
+            ps["g"] += 1
+            for k in ("poss", "pts", "fgm", "fga", "fg3m", "fg3a", "ast", "tov"):
                 ostats[o][k] += r.get(k, 0)
                 dstats[d][k] += r.get(k, 0)
             ostats[o]["sec"] += t
@@ -152,8 +170,16 @@ def profiles(store, before, extra_pairs=True):
                 s[2] += t * po * po
                 if best.get(side.get(o), (None,))[0] == o:
                     s[3] += t
+        gsec = defaultdict(lambda: defaultdict(float))
+        for r in g["rows"]:
+            gsec[r["off"]][r["def"]] += r["sec"]
         for o in gp:
             ostats[o]["games"] += 1
+            tot = sum(gsec[o].values())
+            if tot >= 180:  # marca de ese partido: parte del 1.er defensor y defensores con 1+ min
+                ostats[o]["conc"] += max(gsec[o].values()) / tot
+                ostats[o]["ndef"] += sum(1 for v in gsec[o].values() if v >= 60)
+                ostats[o]["gm"] += 1
     prof = {}
     for d, (t, a, b, star) in dsum.items():
         if t <= 0:
@@ -166,9 +192,9 @@ def profiles(store, before, extra_pairs=True):
         cols = store.prior["cols"]
         io, idf, imin = cols.index("OFF_PLAYER_ID"), cols.index("DEF_PLAYER_ID"), cols.index("MATCHUP_MIN")
         for r in store.prior["rows"]:
-            prior[(str(r[io]), str(r[idf]))] += float(r[imin]) * 60
+            prior[(str(r[io]), str(r[idf]))] += _secs(r[imin])
     ppg = {o: v[0] / v[1] for o, v in pts_g.items() if v[1]}
-    return dict(prof=prof, pair=pair, prior=prior, otime=otime, ostats=ostats, dstats=dstats, ppg=ppg)
+    return dict(prof=prof, pair=pair, pstat=pstat, prior=prior, otime=otime, ostats=ostats, dstats=dstats, ppg=ppg)
 
 
 STAR_BASE = 0.2  # parte "normal" del tiempo sobre el mejor anotador rival (1 de 5)
@@ -291,16 +317,22 @@ def player_line(P, store, i, as_def=False):
     out = dict(poss=round(s["poss"]), pts100=_rate(s["pts"], s["poss"]),
                fg=f"{int(s['fgm'])}/{int(s['fga'])}", fgp=_rate(s["fgm"], s["fga"]) if s["fga"] else None)
     if not as_def:
-        g = max(s.get("games", 0), 1)
-        out.update(help_pg=round(s["help_fga"] / g, 1), help_share=_rate(s["help_fga"], s["fga"] + s["help_fga"]))
+        g = s.get("gm", 0)
+        if g:
+            out.update(conc=round(s["conc"] / g, 3), ndef=round(s["ndef"] / g, 1))
     return out
 
 
-def league_help(P):
-    """Media de liga de tiros con ayuda por partido de los atacantes con muestra (para comparar)."""
-    xs = [s["help_fga"] / s["games"] for s in P["ostats"].values() if s.get("games", 0) >= 5 and s["poss"] > 200]
-    xs.sort()
-    return dict(mean=round(sum(xs) / len(xs), 2), p80=round(xs[int(len(xs) * 0.8)], 2)) if xs else None
+def league_marks(P):
+    """Referencia de liga (atacantes con 5+ partidos): parte media del 1.er defensor y defensores distintos por partido.
+    nba.com publica la "ayuda" (help FGA) siempre en 0 en boxscorematchupsv3, así que no hay dato directo de dobles marcas."""
+    xs = [(s["conc"] / s["gm"], s["ndef"] / s["gm"]) for s in P["ostats"].values() if s.get("gm", 0) >= 5]
+    if not xs:
+        return None
+    c = sorted(x[0] for x in xs)
+    n = sorted(x[1] for x in xs)
+    return dict(conc=round(sum(c) / len(c), 3), conc_p20=round(c[int(len(c) * 0.2)], 3),
+                ndef=round(sum(n) / len(n), 1), ndef_p80=round(n[int(len(n) * 0.8)], 1))
 
 
 def view_for(store, cfg, P=None):
@@ -309,7 +341,7 @@ def view_for(store, cfg, P=None):
     date, a, h = g["date"], g["away"], g["home"]
     P = P or profiles(store, date)
     out = dict(date=date, season=store.season, n_games=sum(1 for x in store.games if x["d"] < date),
-               teams={}, league=dict(help=league_help(P)))
+               teams={}, league=league_marks(P))
     pos_of = lambda i: store.pos.get(i)
     names = {}
     for t_off, t_def in ((a, h), (h, a)):
@@ -335,7 +367,7 @@ def view_for(store, cfg, P=None):
                 if sh < 0.08 and cand:
                     break
                 pairs = P["pair"].get((i, d), 0)
-                vs = pair_stats(store, i, d, date)
+                vs = pair_stats(P, store, i, d)
                 cand.append(dict(name=names.get(d, store.name(d)), share=round(sh, 3),
                                  starter=next((q.get("starter", False) for dd, _, q in defs if dd == d), False),
                                  d=player_line(P, store, d, as_def=True), vs=vs, h2h_min=round(pairs / 60, 1)))
@@ -348,28 +380,17 @@ def view_for(store, cfg, P=None):
     return out
 
 
-def pair_stats(store, o, d, before):
+def pair_stats(P, store, o, d):
     """Lo que hizo O con D marcándolo (esta temporada antes de la fecha + temporada anterior)."""
-    cur = defaultdict(float)
-    for g in store.games:
-        if g["d"] >= before:
-            continue
-        for r in g["rows"]:
-            if r["off"] == o and r["def"] == d:
-                for k in ("sec", "poss", "pts", "fgm", "fga", "help_fga"):
-                    cur[k] += r.get(k, 0)
-                cur["g"] += 1
+    cur = P["pstat"].get((o, d)) or {}
     out = {}
-    if cur["poss"] >= 3:
+    if cur.get("poss", 0) >= 3:
         out["cur"] = dict(g=int(cur["g"]), min=round(cur["sec"] / 60, 1), poss=round(cur["poss"]), pts=int(cur["pts"]),
                           fg=f"{int(cur['fgm'])}/{int(cur['fga'])}")
-    if store.prior:
-        c = store.prior["cols"]
-        for r in store.prior["rows"]:
-            if str(r[c.index("OFF_PLAYER_ID")]) == o and str(r[c.index("DEF_PLAYER_ID")]) == d:
-                out["prior"] = dict(g=int(r[c.index("GP")]), min=round(float(r[c.index("MATCHUP_MIN")]), 1),
-                                    poss=round(float(r[c.index("PARTIAL_POSS")])), pts=int(r[c.index("PLAYER_PTS")]),
-                                    fg=f"{int(r[c.index('MATCHUP_FGM')])}/{int(r[c.index('MATCHUP_FGA')])}")
+    r = store.prior_idx.get((o, d))
+    if r:
+        out["prior"] = dict(g=int(r["GP"]), min=round(_secs(r["MATCHUP_MIN"]) / 60, 1), poss=round(float(r["PARTIAL_POSS"])),
+                            pts=int(r["PLAYER_PTS"]), fg=f"{int(r['MATCHUP_FGM'])}/{int(r['MATCHUP_FGA'])}")
     return out or None
 
 
@@ -388,7 +409,7 @@ def last_games(store, o, before, vs_team=None, n=3):
         opp = side.get(top[0]["def"])
         out.append(dict(date=g["d"], opp=opp, top=[dict(name=store.name(r["def"]), share=round(r["sec"] / tot, 2)) for r in top[:2]],
                         pts=int(sum(r["pts"] for r in rows)), fg=f"{int(sum(r['fgm'] for r in rows))}/{int(sum(r['fga'] for r in rows))}",
-                        help=int(sum(r.get("help_fga", 0) for r in rows)), ndef=sum(1 for r in rows if r["sec"] >= 60)))
+                        ndef=sum(1 for r in rows if r["sec"] >= 60)))
     return out
 
 
@@ -404,10 +425,9 @@ def actual_view(store, g, names=None):
             tot = sum(r["sec"] for r in rs) or 1
             rows.append(dict(name=names.get(o, store.name(o)), min=round(tot / 60, 1), ndef=sum(1 for r in rs if r["sec"] >= 60),
                              pts=int(sum(r["pts"] for r in rs)), fg=f"{int(sum(r['fgm'] for r in rs))}/{int(sum(r['fga'] for r in rs))}",
-                             help=int(sum(r.get("help_fga", 0) for r in rs)), help_fg=f"{int(sum(r.get('help_fgm', 0) for r in rs))}/{int(sum(r.get('help_fga', 0) for r in rs))}",
                              defs=[dict(name=names.get(r["def"], store.name(r["def"])), share=round(r["sec"] / tot, 3), min=round(r["sec"] / 60, 1),
                                         poss=r["poss"], pts=int(r["pts"]), fg=f"{int(r['fgm'])}/{int(r['fga'])}",
-                                        help=int(r.get("help_fga", 0))) for r in rs[:4] if r["sec"] >= 30]))
+                                        ) for r in rs[:4] if r["sec"] >= 30]))
         out[t] = rows
     return out
 
