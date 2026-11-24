@@ -8,10 +8,10 @@
   "neutral": false,
   "notes": [
    "OKC (back-to-back): SGA, Caruso, Mara, Jaylin Williams y Topić OUT (RotoWire 23-nov)",
-   "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire"
+   "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire",
+   "Revisión 18:20 ET: SGA disponible (fuera del parte final); Nesmith OUT (Athlon 15:30 ET); Siakam questionable"
   ],
   "out": [
-   "Shai Gilgeous-Alexander",
    "Alex Caruso",
    "Aday Mara",
    "Jaylin Williams",
@@ -23,11 +23,10 @@
    "Tyrese Haliburton",
    "T.J. McConnell",
    "Johnny Furphy",
-   "Ben Sheppard"
+   "Ben Sheppard",
+   "Aaron Nesmith"
   ],
-  "gtd": {
-   "Pascal Siakam": 0.85
-  },
+  "gtd": {},
   "reserves": {
    "OKC": [
     {
@@ -71,13 +70,13 @@
     "pace": 102.06
    },
    "adj": {
-    "o": -1.5,
+    "o": -2.0,
     "d": 1.0,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": "Haliburton y McConnell OUT"
+    "roster_note": "Haliburton, McConnell y Nesmith (pie) OUT"
    }
   },
   "OKC": {
@@ -93,13 +92,13 @@
     "pace": 100.65
    },
    "adj": {
-    "o": -4.0,
-    "d": 2.0,
+    "o": -2.5,
+    "d": 1.75,
     "pace": -0.5
    },
    "context": {
     "b2b": true,
-    "roster_note": "Gilgeous-Alexander (31.7 ppg) OUT (espalda/cuello, RotoWire y CBS) + Caruso, Mara, Jaylin Williams y Topić OUT; Holmgren, J. Williams y Wallace siguen fuera"
+    "roster_note": "Gilgeous-Alexander VUELVE (fuera del parte, NBC/RotoWire 23-nov); Caruso, Mara, Jaylin Williams, Topić, Holmgren, J. Williams y Wallace siguen fuera"
    }
   }
  },
@@ -113,7 +112,7 @@
    "name": "Andrew Nembhard",
    "pos": "SG",
    "starter": true,
-   "min": 29.3,
+   "min": 32.6,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -148,16 +147,16 @@
     "ftm": 3.39,
     "fta": 4.11
    },
-   "slot": "PG"
+   "slot": "SG"
   },
   {
    "team": "IND",
    "name": "Pascal Siakam",
    "pos": "PF",
    "starter": true,
-   "min": 28.8,
+   "min": 32.1,
    "g_cur": 16,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 32.2,
     "pts": 23.1,
@@ -194,52 +193,10 @@
   },
   {
    "team": "IND",
-   "name": "Aaron Nesmith",
-   "pos": "SF",
-   "starter": true,
-   "min": 24.4,
-   "g_cur": 15,
-   "p_play": 1.0,
-   "cur": {
-    "min": 27.3,
-    "pts": 10.7,
-    "reb": 3.2,
-    "ast": 2.3,
-    "fg3m": 1.3,
-    "fgm": 3.5,
-    "fga": 9.6,
-    "fg3a": 5.1,
-    "stl": 0.7,
-    "blk": 0.4,
-    "tov": 1.2,
-    "pf": 2.6,
-    "ftm": 2.3,
-    "fta": 2.7
-   },
-   "prior": {
-    "min": 29.6,
-    "pts": 13.8,
-    "reb": 4.16,
-    "ast": 1.91,
-    "fg3m": 2.33,
-    "fgm": 4.71,
-    "fga": 11.38,
-    "fg3a": 6.16,
-    "stl": 0.58,
-    "blk": 0.51,
-    "tov": 1.4,
-    "pf": 2.76,
-    "ftm": 2.04,
-    "fta": 2.47
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "IND",
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
    "starter": true,
-   "min": 21.8,
+   "min": 24.3,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -281,7 +238,7 @@
    "name": "Ivica Zubac",
    "pos": "C",
    "starter": true,
-   "min": 21.7,
+   "min": 24.2,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -323,7 +280,7 @@
    "name": "Quenton Jackson",
    "pos": "PG",
    "starter": false,
-   "min": 19.3,
+   "min": 21.5,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -364,7 +321,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "starter": false,
-   "min": 18.3,
+   "min": 20.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -405,7 +362,7 @@
    "name": "Jarace Walker",
    "pos": "PF",
    "starter": false,
-   "min": 16.5,
+   "min": 18.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -446,7 +403,7 @@
    "name": "Jay Huff",
    "pos": "C",
    "starter": false,
-   "min": 13.1,
+   "min": 14.5,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -487,7 +444,7 @@
    "name": "Jalen Slawson",
    "pos": "SF",
    "starter": false,
-   "min": 12.6,
+   "min": 14.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -527,8 +484,8 @@
    "team": "IND",
    "name": "Braden Smith",
    "pos": "PG",
-   "starter": false,
-   "min": 12.4,
+   "starter": true,
+   "min": 13.8,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -562,14 +519,15 @@
     "pf": 1.2,
     "ftm": 0.4,
     "fta": 0.5
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "IND",
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "starter": false,
-   "min": 11.9,
+   "min": 13.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -610,7 +568,7 @@
    "name": "Kobe Brown",
    "pos": "PF",
    "starter": false,
-   "min": 9.8,
+   "min": 10.9,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -648,10 +606,52 @@
   },
   {
    "team": "OKC",
+   "name": "Shai Gilgeous-Alexander",
+   "pos": "PG",
+   "starter": true,
+   "min": 38.0,
+   "g_cur": 16,
+   "p_play": 1.0,
+   "cur": {
+    "min": 33.4,
+    "pts": 31.7,
+    "reb": 4.1,
+    "ast": 4.5,
+    "fg3m": 2.4,
+    "fgm": 11.3,
+    "fga": 23.3,
+    "fg3a": 6.4,
+    "stl": 0.9,
+    "blk": 0.9,
+    "tov": 2.3,
+    "pf": 1.7,
+    "ftm": 6.8,
+    "fta": 8.3
+   },
+   "prior": {
+    "min": 33.2,
+    "pts": 31.13,
+    "reb": 4.29,
+    "ast": 6.59,
+    "fg3m": 1.69,
+    "fgm": 10.75,
+    "fga": 19.43,
+    "fg3a": 4.38,
+    "stl": 1.4,
+    "blk": 0.76,
+    "tov": 2.22,
+    "pf": 2.04,
+    "ftm": 7.94,
+    "fta": 9.03
+   },
+   "slot": "PG"
+  },
+  {
+   "team": "OKC",
    "name": "Ajay Mitchell",
    "pos": "SG",
    "starter": true,
-   "min": 38.0,
+   "min": 32.2,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -693,7 +693,7 @@
    "name": "Jared McCain",
    "pos": "SG",
    "starter": true,
-   "min": 38.0,
+   "min": 32.0,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -735,7 +735,7 @@
    "name": "Isaiah Hartenstein",
    "pos": "C",
    "starter": true,
-   "min": 35.0,
+   "min": 29.3,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -777,7 +777,7 @@
    "name": "Kenrich Williams",
    "pos": "PF",
    "starter": true,
-   "min": 29.4,
+   "min": 24.6,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -818,8 +818,8 @@
    "team": "OKC",
    "name": "Bennett Stirtz",
    "pos": "PG",
-   "starter": true,
-   "min": 26.7,
+   "starter": false,
+   "min": 22.4,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -853,15 +853,14 @@
     "pf": 1.66,
     "ftm": 0.8,
     "fta": 0.9
-   },
-   "slot": "PG"
+   }
   },
   {
    "team": "OKC",
    "name": "Nique Clifford",
    "pos": "SG",
    "starter": false,
-   "min": 24.9,
+   "min": 20.9,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -902,7 +901,7 @@
    "name": "Micah Peavy",
    "pos": "SG",
    "starter": false,
-   "min": 23.8,
+   "min": 20.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -943,7 +942,7 @@
    "name": "Josh Dix",
    "pos": "SG",
    "starter": false,
-   "min": 23.5,
+   "min": 19.7,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -984,12 +983,12 @@
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
   "ml_home": 160,
   "ml_away": -191,
-  "spread_home": 5.5,
-  "total": 222.5,
-  "spread_odds_home": -118,
-  "spread_odds_away": -103,
-  "over_odds": -110,
-  "under_odds": -110
+  "spread_home": 4.5,
+  "total": 226.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Jared McCain": {
@@ -999,11 +998,11 @@
     -110
    ]
   },
-  "Aaron Nesmith": {
+  "Shai Gilgeous-Alexander": {
    "fg3m": [
     1.5,
-    -165,
-    135
+    -160,
+    142
    ]
   },
   "Andrew Nembhard": {
@@ -1011,6 +1010,13 @@
     1.5,
     100,
     -106
+   ]
+  },
+  "Pascal Siakam": {
+   "pts": [
+    21.5,
+    -107,
+    -102
    ]
   }
  },

@@ -14,8 +14,7 @@
    "Evan Mobley",
    "Nae'Qwan Tomlin",
    "Norman Powell",
-   "Caleb Wilson",
-   "Nic Claxton"
+   "Caleb Wilson"
   ],
   "gtd": {
    "Jaylon Tyson": 0.85
@@ -99,7 +98,7 @@
    "name": "Josh Giddey",
    "pos": "PG",
    "starter": true,
-   "min": 29.7,
+   "min": 27.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -141,7 +140,7 @@
    "name": "Matas Buzelis",
    "pos": "SF",
    "starter": true,
-   "min": 29.0,
+   "min": 26.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -183,7 +182,7 @@
    "name": "Jalen Smith",
    "pos": "C",
    "starter": true,
-   "min": 26.3,
+   "min": 24.2,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -225,7 +224,7 @@
    "name": "Isaac Okoro",
    "pos": "SG",
    "starter": true,
-   "min": 25.4,
+   "min": 23.3,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -267,7 +266,7 @@
    "name": "Patrick Williams",
    "pos": "PF",
    "starter": false,
-   "min": 21.7,
+   "min": 20.0,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -305,10 +304,52 @@
   },
   {
    "team": "CHI",
+   "name": "Nic Claxton",
+   "pos": "C",
+   "starter": true,
+   "min": 19.6,
+   "g_cur": 6,
+   "p_play": 1.0,
+   "cur": {
+    "min": 20.5,
+    "pts": 9.3,
+    "reb": 4.8,
+    "ast": 1.7,
+    "fg3m": 0.0,
+    "fgm": 3.5,
+    "fga": 5.5,
+    "fg3a": 0.0,
+    "stl": 0.3,
+    "blk": 1.0,
+    "tov": 1.0,
+    "pf": 2.2,
+    "ftm": 2.3,
+    "fta": 2.8
+   },
+   "prior": {
+    "min": 27.8,
+    "pts": 11.74,
+    "reb": 6.93,
+    "ast": 3.67,
+    "fg3m": 0.04,
+    "fgm": 4.83,
+    "fga": 8.45,
+    "fg3a": 0.28,
+    "stl": 0.65,
+    "blk": 1.12,
+    "tov": 1.39,
+    "pf": 2.29,
+    "ftm": 2.04,
+    "fta": 3.32
+   },
+   "slot": "PF"
+  },
+  {
+   "team": "CHI",
    "name": "Tre Jones",
    "pos": "PG",
    "starter": false,
-   "min": 19.8,
+   "min": 18.1,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -349,7 +390,7 @@
    "name": "Buddy Hield",
    "pos": "SG",
    "starter": false,
-   "min": 18.6,
+   "min": 17.1,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -390,7 +431,7 @@
    "name": "Leonard Miller",
    "pos": "SF",
    "starter": false,
-   "min": 14.6,
+   "min": 13.4,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -431,7 +472,7 @@
    "name": "Noa Essengue",
    "pos": "PF",
    "starter": false,
-   "min": 13.4,
+   "min": 12.3,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -471,8 +512,8 @@
    "team": "CHI",
    "name": "Zach Collins",
    "pos": "C",
-   "starter": true,
-   "min": 12.0,
+   "starter": false,
+   "min": 11.0,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -506,15 +547,14 @@
     "pf": 1.8,
     "ftm": 1.4,
     "fta": 2.0
-   },
-   "slot": "PF"
+   }
   },
   {
    "team": "CHI",
    "name": "Tobe Awaka",
    "pos": "PF",
    "starter": false,
-   "min": 10.7,
+   "min": 9.8,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -555,7 +595,7 @@
    "name": "Jordan Hawkins",
    "pos": "SG",
    "starter": false,
-   "min": 10.5,
+   "min": 9.6,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -596,7 +636,7 @@
    "name": "Jaylin Sellers",
    "pos": "PG",
    "starter": false,
-   "min": 8.3,
+   "min": 7.6,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -1214,12 +1254,12 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": 270,
-  "ml_away": -336,
+  "ml_home": 282,
+  "ml_away": -352,
   "spread_home": 8.5,
-  "total": 240.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "total": 241.5,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
   "over_odds": -108,
   "under_odds": -112
  },

@@ -17,10 +17,7 @@
    "Trendon Watford"
   ],
   "gtd": {
-   "Ryan Dunn": 0.5,
-   "Zion Williamson": 0.8,
-   "Trey Murphy III": 0.8,
-   "Bryce McGowens": 0.75
+   "Zion Williamson": 0.9
   },
   "reserves": {
    "PHX": [
@@ -146,7 +143,7 @@
    "starter": true,
    "min": 28.4,
    "g_cur": 16,
-   "p_play": 0.8,
+   "p_play": 0.9,
    "cur": {
     "min": 32.4,
     "pts": 21.7,
@@ -188,7 +185,7 @@
    "starter": true,
    "min": 28.4,
    "g_cur": 10,
-   "p_play": 0.8,
+   "p_play": 1.0,
    "cur": {
     "min": 32.4,
     "pts": 15.7,
@@ -602,7 +599,7 @@
    "starter": false,
    "min": 9.3,
    "g_cur": 7,
-   "p_play": 0.75,
+   "p_play": 1.0,
    "cur": {
     "min": 10.6,
     "pts": 3.7,
@@ -1017,7 +1014,7 @@
    "starter": false,
    "min": 16.4,
    "g_cur": 15,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 16.3,
     "pts": 4.8,
@@ -1083,9 +1080,9 @@
     -155
    ],
    "pts": [
-    14.5,
+    15.5,
     -105,
-    -120
+    100
    ]
   },
   "Saddiq Bey": {
@@ -1139,9 +1136,9 @@
     -110
    ],
    "pts": [
-    18.5,
-    -120,
-    -105
+    17.5,
+    -110,
+    -108
    ]
   },
   "Herbert Jones": {
@@ -1153,9 +1150,10 @@
   },
   "Zion Williamson": {
    "pts": [
-    22.5,
-    -105,
-    -120
+    21.5,
+    -111,
+    -120,
+    22.5
    ]
   },
   "Jalen Green": {

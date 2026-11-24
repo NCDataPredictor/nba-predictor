@@ -15,10 +15,7 @@
    "Kawhi Leonard",
    "Nate Bittle"
   ],
-  "gtd": {
-   "Ousmane Dieng": 0.5,
-   "Collin Murray-Boyles": 0.85
-  },
+  "gtd": {},
   "reserves": {
    "MIL": [
     {
@@ -287,7 +284,7 @@
    "starter": true,
    "min": 25.1,
    "g_cur": 14,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 23.5,
     "pts": 9.3,
@@ -990,7 +987,7 @@
    "starter": false,
    "min": 10.1,
    "g_cur": 10,
-   "p_play": 0.5,
+   "p_play": 1.0,
    "cur": {
     "min": 12.2,
     "pts": 3.9,
@@ -1150,14 +1147,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -494,
-  "ml_away": 378,
+  "ml_home": -449,
+  "ml_away": 348,
   "spread_home": -10.5,
   "total": 222.5,
-  "spread_odds_home": -113,
-  "spread_odds_away": -107,
-  "over_odds": -113,
-  "under_odds": -107
+  "spread_odds_home": -107,
+  "spread_odds_away": -113,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Ja'Kobe Walter": {
