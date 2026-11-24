@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:23+00:00",
+ "updated": "2026-11-24T23:18+00:00",
  "source": "ESPN (espn.com/nba/injuries)",
  "list": [
   {
@@ -9,7 +9,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Cadera; fuera vs Pistons (21-nov)"
+   "note": "Nov 21: Hip; won't play Sunday vs. Pistons."
   },
   {
    "team": "ATL",
@@ -18,7 +18,7 @@
    "ret": "Mar 17",
    "ret_iso": "2027-03-17",
    "status": "Out",
-   "note": "Cirugía placa plantar; reevaluar en ~4 meses"
+   "note": "Nov 17: Plantar plate surgery, left great toe; re-evaluate in about four months."
   },
   {
    "team": "ATL",
@@ -27,7 +27,7 @@
    "ret": "Dec 19",
    "ret_iso": "2026-12-19",
    "status": "Out",
-   "note": "Pantorrilla; al menos 4 semanas"
+   "note": "Nov 17: Calf; to miss at least four weeks."
   },
   {
    "team": "ATL",
@@ -36,7 +36,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Pie; reevaluar en 4 semanas"
+   "note": "Nov 12: Foot; starting on-court work, re-evaluate in four weeks."
   },
   {
    "team": "ATL",
@@ -45,25 +45,16 @@
    "ret": "Jul 1",
    "ret_iso": "2027-07-01",
    "status": "Out",
-   "note": "LCA derecho roto; fuera la temporada"
-  },
-  {
-   "team": "BOS",
-   "player": "Paul George",
-   "pos": "F",
-   "ret": "Nov 24",
-   "ret_iso": "2026-11-24",
-   "status": "Day-To-Day",
-   "note": "Descanso"
+   "note": "Sep 21: Torn right ACL; expected to miss 2026-27 season."
   },
   {
    "team": "BOS",
    "player": "Mitchell Robinson",
    "pos": "C",
-   "ret": "Nov 24",
-   "ret_iso": "2026-11-24",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Enfermedad"
+   "note": "Nov 23: Illness; out for Tuesday vs. Washington."
   },
   {
    "team": "BKN",
@@ -72,16 +63,16 @@
    "ret": "Jan 27",
    "ret_iso": "2027-01-27",
    "status": "Out",
-   "note": "Isquio derecho; reevaluar en 8-10 semanas"
+   "note": "Nov 23: Right hamstring strain; re-evaluate in 8-10 weeks."
   },
   {
-   "team": "BKN",
-   "player": "Grant Nelson",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
+   "team": "CHA",
+   "player": "Ryan Kalkbrenner",
+   "pos": "C",
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
    "status": "Day-To-Day",
-   "note": "Tobillo; probable vs Timberwolves"
+   "note": "Nov 23: Left hip soreness; ruled out rest of Monday vs. Memphis."
   },
   {
    "team": "CHA",
@@ -90,16 +81,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Conmoción; fuera vs Grizzlies"
-  },
-  {
-   "team": "CHA",
-   "player": "Brandon Miller",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Rodilla derecha; probable vs Grizzlies"
+   "note": "Nov 22: Concussion; ruled out Monday vs. Memphis."
   },
   {
    "team": "CHA",
@@ -108,7 +90,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Isquio; fuera vs Grizzlies"
+   "note": "Nov 22: Hamstring; won't play Monday vs. Memphis."
   },
   {
    "team": "CHA",
@@ -117,7 +99,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Isquio izquierdo; reevaluar en 4 semanas"
+   "note": "Nov 8: Left hamstring strain; re-evaluate in four weeks."
   },
   {
    "team": "CHA",
@@ -126,16 +108,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Isquio izquierdo"
-  },
-  {
-   "team": "CHI",
-   "player": "Nic Claxton",
-   "pos": "C",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Enfermedad; questionable vs Cavaliers"
+   "note": "Nov 8: Left hamstring strain; re-evaluate in two weeks."
   },
   {
    "team": "CHI",
@@ -144,7 +117,7 @@
    "ret": "Nov 28",
    "ret_iso": "2026-11-28",
    "status": "Out",
-   "note": "Isquio derecho leve"
+   "note": "Nov 22: Mild right hamstring strain; re-evaluate later this week."
   },
   {
    "team": "CHI",
@@ -153,16 +126,7 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Mano; 4 a 6 semanas"
-  },
-  {
-   "team": "CLE",
-   "player": "Jaylon Tyson",
-   "pos": "G",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Tobillo; probable vs Bulls"
+   "note": "Nov 12: Hand; expected to miss four to six weeks."
   },
   {
    "team": "CLE",
@@ -171,7 +135,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Espalda"
+   "note": "Nov 17: Back; stays on inactive list for Wednesday vs. Memphis."
   },
   {
    "team": "CLE",
@@ -180,7 +144,16 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Dedo gordo del pie derecho; reevaluar en 7-10 días"
+   "note": "Nov 16: Right great toe sprain; re-evaluate in 7-10 days."
+  },
+  {
+   "team": "DAL",
+   "player": "Tobi Lawal",
+   "pos": "F",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
+   "status": "Out",
+   "note": "Nov 23: Groin; out for Tuesday vs. Denver."
   },
   {
    "team": "DAL",
@@ -189,16 +162,7 @@
    "ret": "Nov 24",
    "ret_iso": "2026-11-24",
    "status": "Day-To-Day",
-   "note": "Enfermedad"
-  },
-  {
-   "team": "DAL",
-   "player": "Tobi Lawal",
-   "pos": "F",
-   "ret": "Nov 24",
-   "ret_iso": "2026-11-24",
-   "status": "Out",
-   "note": "Ingle"
+   "note": "Nov 23: Illness; questionable for Tuesday vs. Denver."
   },
   {
    "team": "DAL",
@@ -207,7 +171,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Pie; cerca de volver"
+   "note": "Nov 20: Foot; moving well, told coach he is \"close\" to returning."
   },
   {
    "team": "DAL",
@@ -216,7 +180,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Nov 17: Knee; out for Wednesday vs. Golden State."
   },
   {
    "team": "DAL",
@@ -225,25 +189,34 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Talón"
-  },
-  {
-   "team": "DEN",
-   "player": "Julian Strawther",
-   "pos": "G",
-   "ret": "Nov 29",
-   "ret_iso": "2026-11-29",
-   "status": "Out",
-   "note": "Rodilla izquierda"
+   "note": "Nov 17: Heel; out for Wednesday vs. Golden State."
   },
   {
    "team": "DET",
    "player": "Ebuka Okorie",
    "pos": "G",
+   "ret": "Nov 30",
+   "ret_iso": "2026-11-30",
+   "status": "Out",
+   "note": "Nov 23: Oblique; won't play Tuesday at Orlando."
+  },
+  {
+   "team": "DET",
+   "player": "Jalen Duren",
+   "pos": "C",
+   "ret": "Nov 30",
+   "ret_iso": "2026-11-30",
+   "status": "Out",
+   "note": "Nov 23: Hamstring; ruled out for Tuesday vs. Orlando."
+  },
+  {
+   "team": "DET",
+   "player": "Cade Cunningham",
+   "pos": "G",
    "ret": "Nov 24",
    "ret_iso": "2026-11-24",
    "status": "Day-To-Day",
-   "note": "Oblicuo"
+   "note": "Nov 23: Knee; probable for Tuesday vs. Orlando."
   },
   {
    "team": "DET",
@@ -252,7 +225,7 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Cirugía de rodilla"
+   "note": "Nov 20: Knee; had surgery, no return timeline."
   },
   {
    "team": "DET",
@@ -261,16 +234,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Cuádriceps izquierdo"
-  },
-  {
-   "team": "DET",
-   "player": "Jalen Duren",
-   "pos": "C",
-   "ret": "Nov 24",
-   "ret_iso": "2026-11-24",
-   "status": "Out",
-   "note": "Isquio"
+   "note": "Nov 17: Left quadriceps strain; re-evaluate in one week."
   },
   {
    "team": "GSW",
@@ -279,7 +243,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Isquio"
+   "note": "Nov 23: Hamstring; on track to return Wednesday vs. Sacramento."
   },
   {
    "team": "GSW",
@@ -288,7 +252,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Desgarro oblicuo; reevaluar en 2 semanas"
+   "note": "Nov 12: Oblique abdominal tear; re-evaluate in two weeks."
   },
   {
    "team": "GSW",
@@ -297,7 +261,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Se aparta del baloncesto"
+   "note": "Nov 6: Announced on social media he is stepping away from basketball."
   },
   {
    "team": "GSW",
@@ -306,7 +270,7 @@
    "ret": "Dec 1",
    "ret_iso": "2026-12-01",
    "status": "Out",
-   "note": "Tendón rotuliano izquierdo"
+   "note": "Oct 16: Knee; ruptured left patellar tendon, possible Dec-Jan return."
   },
   {
    "team": "GSW",
@@ -315,34 +279,34 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "LCA derecho"
+   "note": "Oct 16: Knee; torn right ACL, could return Jan-Feb."
   },
   {
    "team": "IND",
-   "player": "Aaron Nesmith",
+   "player": "Larry Nance Jr.",
    "pos": "F",
-   "ret": "Nov 25",
-   "ret_iso": "2026-11-25",
-   "status": "Out",
-   "note": "Pie derecho; OUT vs Thunder (parte final)"
-  },
-  {
-   "team": "IND",
-   "player": "Pascal Siakam",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
    "status": "Day-To-Day",
-   "note": "Cadera; questionable vs Thunder"
+   "note": "Nov 23: Sore right ankle; exited Monday vs. OKC, did not return."
   },
   {
    "team": "IND",
    "player": "T.J. McConnell",
    "pos": "G",
-   "ret": "Nov 25",
-   "ret_iso": "2026-11-25",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Isquio; OUT vs Thunder"
+   "note": "Nov 23: Left hamstring soreness; out Monday vs. OKC."
+  },
+  {
+   "team": "IND",
+   "player": "Aaron Nesmith",
+   "pos": "G",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
+   "status": "Out",
+   "note": "Nov 23: Right foot soreness; out Monday vs. OKC."
   },
   {
    "team": "IND",
@@ -351,7 +315,7 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Isquio; al menos 2 semanas más"
+   "note": "Nov 20: Hamstring; expected to miss at least two more weeks."
   },
   {
    "team": "IND",
@@ -360,7 +324,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Oct 30: Knee; practicing with G League's Noblesville Boom."
   },
   {
    "team": "IND",
@@ -369,7 +333,7 @@
    "ret": "Jan 2",
    "ret_iso": "2027-01-02",
    "status": "Out",
-   "note": "Menisco izquierdo"
+   "note": "Oct 28: Torn left knee meniscus, surgery; expected to miss months."
   },
   {
    "team": "LAC",
@@ -378,7 +342,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Oct 14: Knee; not ready for start of regular season."
   },
   {
    "team": "LAC",
@@ -387,7 +351,7 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Cirugía del manguito rotador"
+   "note": "Aug 26: Torn left rotator cuff, surgery; re-evaluate in six months."
   },
   {
    "team": "LAL",
@@ -396,7 +360,16 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Talón; fuera vs Jazz"
+   "note": "Nov 23: Heel; team optimistic he returns for Friday vs. San Antonio."
+  },
+  {
+   "team": "MEM",
+   "player": "Cameron Boozer",
+   "pos": "F",
+   "ret": "Dec 21",
+   "ret_iso": "2026-12-21",
+   "status": "Out",
+   "note": "Nov 23: Ankle; re-evaluate in four weeks."
   },
   {
    "team": "MEM",
@@ -405,16 +378,7 @@
    "ret": "Dec 12",
    "ret_iso": "2026-12-12",
    "status": "Out",
-   "note": "Pantorrilla izquierda; reevaluar en 2 semanas"
-  },
-  {
-   "team": "MEM",
-   "player": "Cameron Boozer",
-   "pos": "F",
-   "ret": "Nov 25",
-   "ret_iso": "2026-11-25",
-   "status": "Out",
-   "note": "Tobillo; fuera vs Hornets"
+   "note": "Nov 22: Grade 1 left calf strain; re-evaluate in two weeks."
   },
   {
    "team": "MEM",
@@ -423,7 +387,7 @@
    "ret": "Jan 18",
    "ret_iso": "2027-01-18",
    "status": "Out",
-   "note": "Fractura 5.º metatarsiano"
+   "note": "Nov 17: Broken left fifth metatarsal, procedure; re-evaluate in about three months."
   },
   {
    "team": "MEM",
@@ -432,7 +396,16 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Espalda"
+   "note": "Nov 16: Back; progressing but still week-to-week."
+  },
+  {
+   "team": "MEM",
+   "player": "Richie Saunders",
+   "pos": "G",
+   "ret": "Dec 1",
+   "ret_iso": "2026-12-01",
+   "status": "Out",
+   "note": "Nov 7: Signed two-way contract with Memphis."
   },
   {
    "team": "MIA",
@@ -441,16 +414,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Day-To-Day",
-   "note": "Ingle"
-  },
-  {
-   "team": "MIL",
-   "player": "Ousmane Dieng",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Dedo; questionable vs Raptors"
+   "note": "Nov 23: Groin; won't play Sunday vs. Oklahoma City."
   },
   {
    "team": "MIN",
@@ -459,7 +423,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Isquio"
+   "note": "Nov 15: Hamstring; ruled out for next two weeks."
   },
   {
    "team": "MIN",
@@ -468,7 +432,7 @@
    "ret": "Dec 21",
    "ret_iso": "2026-12-21",
    "status": "Out",
-   "note": "Artroscopia rodilla derecha"
+   "note": "Oct 29: Successful arthroscopic right knee procedure."
   },
   {
    "team": "MIN",
@@ -477,34 +441,7 @@
    "ret": "Apr 2",
    "ret_iso": "2027-04-02",
    "status": "Out",
-   "note": "Aquiles"
-  },
-  {
-   "team": "NOP",
-   "player": "Trey Murphy III",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Rodillas; probable vs Suns"
-  },
-  {
-   "team": "NOP",
-   "player": "Bryce McGowens",
-   "pos": "G",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Codo; probable vs Suns"
-  },
-  {
-   "team": "NOP",
-   "player": "Zion Williamson",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Muslo; probable vs Suns"
+   "note": "Oct 5: Achilles; confident of return during 2026-27 season."
   },
   {
    "team": "NOP",
@@ -513,7 +450,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Tobillo"
+   "note": "Nov 21: Ankle; out for Saturday vs. San Antonio."
   },
   {
    "team": "NOP",
@@ -522,7 +459,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Pie"
+   "note": "Nov 19: Foot; ruled out for Friday vs. Oklahoma City."
   },
   {
    "team": "NOP",
@@ -531,7 +468,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Tobillo"
+   "note": "Nov 13: Ankle; out for Friday vs. Memphis."
   },
   {
    "team": "NYK",
@@ -540,7 +477,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Day-To-Day",
-   "note": "Abdomen"
+   "note": "Nov 23: Abdomen; ruled out for Sunday vs. Indiana."
   },
   {
    "team": "NYK",
@@ -549,7 +486,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Day-To-Day",
-   "note": "Pantorrilla"
+   "note": "Nov 23: Calf; won't play Sunday vs. Indiana."
   },
   {
    "team": "NYK",
@@ -558,16 +495,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Pie"
-  },
-  {
-   "team": "OKC",
-   "player": "Aday Mara",
-   "pos": "C",
-   "ret": "Nov 25",
-   "ret_iso": "2026-11-25",
-   "status": "Out",
-   "note": "Espinilla; OUT vs Pacers"
+   "note": "Nov 22: Foot; ruled out for Sunday vs. Indiana."
   },
   {
    "team": "OKC",
@@ -576,7 +504,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Espalda; OUT vs Pacers"
+   "note": "Nov 23: Back; ruled out for Monday vs. Indiana."
   },
   {
    "team": "OKC",
@@ -585,43 +513,16 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Cadera; OUT vs Pacers"
+   "note": "Nov 23: Hip; ruled out Monday vs. Indiana."
   },
   {
    "team": "OKC",
-   "player": "Alex Caruso",
-   "pos": "G",
+   "player": "Aday Mara",
+   "pos": "C",
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Cadera; OUT vs Pacers"
-  },
-  {
-   "team": "OKC",
-   "player": "Thomas Sorber",
-   "pos": "C",
-   "ret": "Jan 31",
-   "ret_iso": "2027-01-31",
-   "status": "Out",
-   "note": "Rodilla"
-  },
-  {
-   "team": "OKC",
-   "player": "Cason Wallace",
-   "pos": "G",
-   "ret": "Mar 2",
-   "ret_iso": "2027-03-02",
-   "status": "Out",
-   "note": "Labrum hombro izquierdo"
-  },
-  {
-   "team": "OKC",
-   "player": "Chet Holmgren",
-   "pos": "C",
-   "ret": "Jan 2",
-   "ret_iso": "2027-01-02",
-   "status": "Out",
-   "note": "Tendón rotuliano"
+   "note": "Nov 23: Shin; ruled out for Monday vs. Indiana."
   },
   {
    "team": "OKC",
@@ -630,7 +531,43 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Peroné y tobillo izquierdo"
+   "note": "Nov 23: Ankle; ruled out Monday vs. Indiana."
+  },
+  {
+   "team": "OKC",
+   "player": "Alex Caruso",
+   "pos": "G",
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
+   "status": "Out",
+   "note": "Nov 23: Hip; ruled out Monday vs. Indiana."
+  },
+  {
+   "team": "OKC",
+   "player": "Thomas Sorber",
+   "pos": "C",
+   "ret": "Jan 31",
+   "ret_iso": "2027-01-31",
+   "status": "Out",
+   "note": "Nov 17: Arthroscopic right knee procedure; 6-8 weeks to on-court activities."
+  },
+  {
+   "team": "OKC",
+   "player": "Cason Wallace",
+   "pos": "G",
+   "ret": "Mar 2",
+   "ret_iso": "2027-03-02",
+   "status": "Out",
+   "note": "Oct 30: Torn left shoulder labrum, surgery; re-evaluate before season ends."
+  },
+  {
+   "team": "OKC",
+   "player": "Chet Holmgren",
+   "pos": "C",
+   "ret": "Jan 2",
+   "ret_iso": "2027-01-02",
+   "status": "Out",
+   "note": "Oct 30: Biological treatment for patellar tendon tear; at least 8-10 weeks."
   },
   {
    "team": "ORL",
@@ -639,7 +576,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Nov 21: Knee; out for Sunday vs. Washington."
   },
   {
    "team": "ORL",
@@ -648,7 +585,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Tobillo"
+   "note": "Nov 18: Ankle; minimal on-court work, per head coach."
   },
   {
    "team": "ORL",
@@ -657,7 +594,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Isquio"
+   "note": "Nov 14: Hamstring; progressing, no return timetable."
   },
   {
    "team": "ORL",
@@ -666,43 +603,16 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Esguince alto de tobillo derecho"
+   "note": "Oct 24: Right high-ankle sprain; out four-to-six weeks."
   },
   {
    "team": "PHI",
    "player": "Joel Embiid",
    "pos": "C",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Enfermedad; questionable vs Trail Blazers"
-  },
-  {
-   "team": "PHI",
-   "player": "Adem Bona",
-   "pos": "C",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Cervical; probable vs Trail Blazers"
-  },
-  {
-   "team": "PHI",
-   "player": "Jaylen Brown",
-   "pos": "G",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Isquio; probable vs Trail Blazers"
-  },
-  {
-   "team": "PHI",
-   "player": "Dean Wade",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Isquio; probable vs Trail Blazers"
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
+   "status": "Out",
+   "note": "Nov 23: Illness; out for Monday vs. Portland."
   },
   {
    "team": "PHI",
@@ -711,16 +621,7 @@
    "ret": "Oct 1",
    "ret_iso": "2027-10-01",
    "status": "Out",
-   "note": "Aquiles; fuera la temporada"
-  },
-  {
-   "team": "PHX",
-   "player": "Ryan Dunn",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Cuádriceps; questionable vs Pelicans"
+   "note": "Oct 6: Ruptured right Achilles; season-ending."
   },
   {
    "team": "PHX",
@@ -729,7 +630,7 @@
    "ret": "Feb 3",
    "ret_iso": "2027-02-03",
    "status": "Out",
-   "note": "Labrum hombro izquierdo"
+   "note": "Sep 11: Torn left shoulder labrum, surgery; extended absence."
   },
   {
    "team": "POR",
@@ -738,7 +639,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Talón/pie"
+   "note": "Nov 20: Heel; ruled out for Saturday vs. Knicks."
   },
   {
    "team": "POR",
@@ -747,7 +648,7 @@
    "ret": "Jan 12",
    "ret_iso": "2027-01-12",
    "status": "Out",
-   "note": "Fractura tobillo izquierdo"
+   "note": "Nov 11: Fractured left ankle, surgery; re-evaluate in eight weeks."
   },
   {
    "team": "POR",
@@ -756,7 +657,7 @@
    "ret": "Dec 1",
    "ret_iso": "2026-12-01",
    "status": "Out",
-   "note": "Isquio izquierdo"
+   "note": "Nov 7: Hamstring; coach says he may not be out for as long as thought."
   },
   {
    "team": "POR",
@@ -765,7 +666,7 @@
    "ret": "Mar 2",
    "ret_iso": "2027-03-02",
    "status": "Out",
-   "note": "Menisco"
+   "note": "Aug 24: Torn knee meniscus; expected to miss six months."
   },
   {
    "team": "SAC",
@@ -774,7 +675,7 @@
    "ret": "Nov 25",
    "ret_iso": "2026-11-25",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Nov 18: Knee; inactive for Wednesday vs. Phoenix."
   },
   {
    "team": "SAC",
@@ -783,34 +684,25 @@
    "ret": "Oct 1",
    "ret_iso": "2027-10-01",
    "status": "Out",
-   "note": "Aquiles derecho"
-  },
-  {
-   "team": "SAS",
-   "player": "Victor Wembanyama",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Espalda; questionable vs Kings"
+   "note": "Oct 21: Torn right Achilles, surgery successful."
   },
   {
    "team": "SAS",
    "player": "De'Aaron Fox",
    "pos": "G",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Espinilla derecha; questionable vs Kings"
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
+   "status": "Out",
+   "note": "Nov 23: Shin; ruled out for Monday vs. Sacramento."
   },
   {
    "team": "SAS",
-   "player": "Jordan McLaughlin",
-   "pos": "G",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Hombro; questionable vs Kings"
+   "player": "Victor Wembanyama",
+   "pos": "F",
+   "ret": "Nov 25",
+   "ret_iso": "2026-11-25",
+   "status": "Out",
+   "note": "Nov 23: Back; will miss Monday vs. Sacramento."
   },
   {
    "team": "SAS",
@@ -819,7 +711,7 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Cadera; 2 a 3 semanas"
+   "note": "Nov 19: Hip; expected to miss 2-3 weeks."
   },
   {
    "team": "SAS",
@@ -828,7 +720,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Pantorrilla"
+   "note": "Nov 16: Calf; likely sidelined until early December."
   },
   {
    "team": "SAS",
@@ -837,16 +729,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Sin alta médica"
-  },
-  {
-   "team": "TOR",
-   "player": "Collin Murray-Boyles",
-   "pos": "F",
-   "ret": "Nov 23",
-   "ret_iso": "2026-11-23",
-   "status": "Day-To-Day",
-   "note": "Conmoción; probable vs Bucks"
+   "note": "Oct 5: Not yet cleared for basketball activities."
   },
   {
    "team": "TOR",
@@ -855,7 +738,7 @@
    "ret": "Nov 27",
    "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Pie; fuera vs Bucks"
+   "note": "Nov 22: Foot; ruled out for Monday vs. Milwaukee."
   },
   {
    "team": "TOR",
@@ -864,7 +747,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Nov 20: Knee; could return within a few weeks."
   },
   {
    "team": "TOR",
@@ -873,16 +756,16 @@
    "ret": "Dec 13",
    "ret_iso": "2026-12-13",
    "status": "Out",
-   "note": "Isquio derecho"
+   "note": "Nov 19: Right hamstring strain; re-evaluation in two weeks."
   },
   {
    "team": "UTA",
    "player": "Jaxson Hayes",
    "pos": "C",
-   "ret": "Nov 25",
-   "ret_iso": "2026-11-25",
+   "ret": "Nov 27",
+   "ret_iso": "2026-11-27",
    "status": "Out",
-   "note": "Rodilla"
+   "note": "Nov 23: Knee; ruled out for Monday vs. Lakers."
   },
   {
    "team": "UTA",
@@ -891,7 +774,7 @@
    "ret": "Nov 29",
    "ret_iso": "2026-11-29",
    "status": "Out",
-   "note": "Pie"
+   "note": "Nov 20: Foot; cleared for on-court work, re-evaluate in one week."
   },
   {
    "team": "UTA",
@@ -900,7 +783,7 @@
    "ret": "Jan 4",
    "ret_iso": "2027-01-04",
    "status": "Out",
-   "note": "Fractura mano derecha"
+   "note": "Nov 11: Non-displaced right hand fracture; out at least one month."
   },
   {
    "team": "UTA",
@@ -909,16 +792,16 @@
    "ret": "Dec 14",
    "ret_iso": "2026-12-14",
    "status": "Out",
-   "note": "LCM rodilla derecha"
+   "note": "Oct 27: Torn right MCL; out 6-8 weeks."
   },
   {
    "team": "WAS",
    "player": "Tristan Vukcevic",
    "pos": "F",
-   "ret": "Nov 24",
-   "ret_iso": "2026-11-24",
+   "ret": "Nov 30",
+   "ret_iso": "2026-11-30",
    "status": "Out",
-   "note": "Cadera"
+   "note": "Nov 23: Hip; ruled out for Tuesday vs. Boston."
   },
   {
    "team": "WAS",
@@ -927,7 +810,7 @@
    "ret": "Dec 3",
    "ret_iso": "2026-12-03",
    "status": "Out",
-   "note": "Hombro derecho"
+   "note": "Nov 2: Right AC joint injury; re-evaluate in about three weeks."
   },
   {
    "team": "WAS",
@@ -936,7 +819,7 @@
    "ret": "Feb 25",
    "ret_iso": "2027-02-25",
    "status": "Out",
-   "note": "Pie"
+   "note": "Oct 28: Foot; expected to miss several months."
   },
   {
    "team": "WAS",
@@ -945,7 +828,7 @@
    "ret": "Apr 2",
    "ret_iso": "2027-04-02",
    "status": "Out",
-   "note": "LCA"
+   "note": "Jul 30: Torn ACL; underwent surgery."
   }
  ]
 }

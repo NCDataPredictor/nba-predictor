@@ -492,6 +492,24 @@
       -115,
       -105
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 18:20 ET)",
+     "ml_away": 261,
+     "ml_home": -324,
+     "spread_away": [
+      8.5,
+      -118
+     ],
+     "spread_home": [
+      -8.5,
+      -103
+     ],
+     "total": [
+      233.5,
+      -109,
+      -111
+     ]
     }
    ]
   }
