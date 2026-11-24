@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T00:04+00:00",
+ "generated": "2026-11-24T00:33+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
@@ -74,7 +74,7 @@
   },
   "2026-11-23": {
    "morning": "2026-11-23T16:31+00:00",
-   "pregame": "2026-11-24T00:04+00:00"
+   "pregame": "2026-11-24T00:33+00:00"
   }
  },
  "history": [
@@ -194221,17 +194221,17 @@
      "odds": -135,
      "dec": 1.739,
      "odds_assumed": false,
-     "p": 0.574,
+     "p": 0.582,
      "implied": 0.575,
-     "fair": -135,
-     "edge": -0.001,
-     "ev": -0.001,
+     "fair": -139,
+     "edge": 0.007,
+     "ev": 0.012,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.7,
+     "p_model": 0.731,
      "p_mkt": 0.533,
      "cand": false,
      "hr": {
@@ -194251,7 +194251,7 @@
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 1.8,
      "open": [
       2.5,
       1.739
@@ -194400,13 +194400,13 @@
      "implied": 0.497,
      "fair": 103,
      "edge": -0.004,
-     "ev": -0.007,
+     "ev": -0.009,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": 115,
      "dec_ref": 2.15,
-     "p_model": 0.593,
+     "p_model": 0.59,
      "p_mkt": 0.46,
      "cand": false,
      "hr": {
@@ -194444,11 +194444,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 6.5,
-     "p": 0.566,
-     "fair": 1.77,
+     "p": 0.567,
+     "fair": 1.76,
      "min_dec": 1.82,
      "ref": 7.0,
-     "p_model": 0.721,
+     "p_model": 0.724,
      "label": "Donovan Mitchell Over 6.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -194460,7 +194460,7 @@
        3
       ]
      },
-     "mean": 9.7
+     "mean": 9.8
     },
     {
      "kind": "prop",
@@ -194470,11 +194470,11 @@
      "stat": "fga",
      "side": "over",
      "line": 14.5,
-     "p": 0.564,
+     "p": 0.565,
      "fair": 1.77,
-     "min_dec": 1.83,
+     "min_dec": 1.82,
      "ref": 14.2,
-     "p_model": 0.713,
+     "p_model": 0.715,
      "label": "Donovan Mitchell Over 14.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -194486,7 +194486,7 @@
        3
       ]
      },
-     "mean": 18.7
+     "mean": 18.8
     },
     {
      "kind": "prop",
@@ -194496,11 +194496,11 @@
      "stat": "fg3a",
      "side": "over",
      "line": 5.5,
-     "p": 0.558,
+     "p": 0.559,
      "fair": 1.79,
      "min_dec": 1.84,
      "ref": 5.8,
-     "p_model": 0.694,
+     "p_model": 0.696,
      "label": "James Harden Over 5.5 Triples intentados",
      "hr": {
       "l10": [
@@ -194522,11 +194522,11 @@
      "stat": "fga",
      "side": "over",
      "line": 10.5,
-     "p": 0.555,
+     "p": 0.556,
      "fair": 1.8,
-     "min_dec": 1.86,
+     "min_dec": 1.85,
      "ref": 10.6,
-     "p_model": 0.683,
+     "p_model": 0.685,
      "label": "James Harden Over 10.5 Tiros de campo intentados",
      "hr": {
       "l10": [
@@ -194543,28 +194543,54 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Tre Jones",
+     "player": "Josh Giddey",
      "team": "CHI",
      "stat": "fga",
      "side": "over",
-     "line": 7.5,
-     "p": 0.546,
-     "fair": 1.83,
-     "min_dec": 1.89,
-     "ref": 7.9,
-     "p_model": 0.652,
-     "label": "Tre Jones Over 7.5 Tiros de campo intentados",
+     "line": 9.5,
+     "p": 0.55,
+     "fair": 1.82,
+     "min_dec": 1.87,
+     "ref": 9.7,
+     "p_model": 0.667,
+     "label": "Josh Giddey Over 9.5 Tiros de campo intentados",
      "hr": {
       "l10": [
        6,
        10
       ],
       "h2h": [
-       3,
+       4,
        5
       ]
      },
-     "mean": 9.8
+     "mean": 11.8
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Giddey",
+     "team": "CHI",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.55,
+     "fair": 1.82,
+     "min_dec": 1.87,
+     "ref": 3.8,
+     "p_model": 0.666,
+     "label": "Josh Giddey Over 3.5 Triples intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 4.9
     },
     {
      "kind": "prop",
@@ -194574,11 +194600,11 @@
      "stat": "fgm",
      "side": "over",
      "line": 4.5,
-     "p": 0.541,
-     "fair": 1.85,
+     "p": 0.542,
+     "fair": 1.84,
      "min_dec": 1.9,
      "ref": 4.5,
-     "p_model": 0.636,
+     "p_model": 0.641,
      "label": "James Harden Over 4.5 Tiros de campo anotados",
      "hr": {
       "l10": [
@@ -194590,33 +194616,7 @@
        3
       ]
      },
-     "mean": 5.6
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Josh Giddey",
-     "team": "CHI",
-     "stat": "fga",
-     "side": "over",
-     "line": 10.5,
-     "p": 0.539,
-     "fair": 1.85,
-     "min_dec": 1.91,
-     "ref": 10.5,
-     "p_model": 0.63,
-     "label": "Josh Giddey Over 10.5 Tiros de campo intentados",
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       4,
-       5
-      ]
-     },
-     "mean": 12.4
+     "mean": 5.7
     },
     {
      "kind": "prop",
@@ -194626,11 +194626,11 @@
      "stat": "fg2m",
      "side": "over",
      "line": 4.5,
-     "p": 0.537,
+     "p": 0.538,
      "fair": 1.86,
      "min_dec": 1.92,
      "ref": 4.8,
-     "p_model": 0.623,
+     "p_model": 0.625,
      "label": "Donovan Mitchell Over 4.5 Dobles anotados",
      "hr": {
       "l10": [
@@ -194642,33 +194642,7 @@
        3
       ]
      },
-     "mean": 6.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Isaac Okoro",
-     "team": "CHI",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.536,
-     "fair": 1.86,
-     "min_dec": 1.92,
-     "ref": 3.8,
-     "p_model": 0.621,
-     "label": "Isaac Okoro Over 3.5 Triples intentados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 4.6
+     "mean": 6.8
     },
     {
      "kind": "prop",
@@ -194678,11 +194652,11 @@
      "stat": "fg2a",
      "side": "over",
      "line": 8.5,
-     "p": 0.536,
-     "fair": 1.87,
+     "p": 0.537,
+     "fair": 1.86,
      "min_dec": 1.92,
      "ref": 8.2,
-     "p_model": 0.62,
+     "p_model": 0.623,
      "label": "Donovan Mitchell Over 8.5 Dobles intentados",
      "hr": {
       "l10": [
@@ -194694,22 +194668,100 @@
        3
       ]
      },
-     "mean": 10.9
+     "mean": 11.0
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Tre Jones",
+     "player": "Donovan Mitchell",
+     "team": "CLE",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.529,
+     "fair": 1.89,
+     "min_dec": 1.95,
+     "ref": 6.0,
+     "p_model": 0.598,
+     "label": "Donovan Mitchell Over 6.5 Triples intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 7.8
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Matas Buzelis",
+     "team": "CHI",
+     "stat": "fg2m",
+     "side": "over",
+     "line": 2.5,
+     "p": 0.529,
+     "fair": 1.89,
+     "min_dec": 1.95,
+     "ref": 2.9,
+     "p_model": 0.596,
+     "label": "Matas Buzelis Over 2.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 3.7
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Giddey",
      "team": "CHI",
      "stat": "fg2a",
      "side": "over",
-     "line": 6.5,
-     "p": 0.53,
-     "fair": 1.89,
-     "min_dec": 1.94,
-     "ref": 6.6,
-     "p_model": 0.599,
-     "label": "Tre Jones Over 6.5 Dobles intentados",
+     "line": 5.5,
+     "p": 0.527,
+     "fair": 1.9,
+     "min_dec": 1.95,
+     "ref": 5.9,
+     "p_model": 0.591,
+     "label": "Josh Giddey Over 5.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       4,
+       5
+      ]
+     },
+     "mean": 6.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Isaac Okoro",
+     "team": "CHI",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 3.5,
+     "p": 0.522,
+     "fair": 1.91,
+     "min_dec": 1.97,
+     "ref": 3.5,
+     "p_model": 0.575,
+     "label": "Isaac Okoro Over 3.5 Triples intentados",
      "hr": {
       "l10": [
        5,
@@ -194717,10 +194769,140 @@
       ],
       "h2h": [
        2,
+       4
+      ]
+     },
+     "mean": 4.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Josh Giddey",
+     "team": "CHI",
+     "stat": "fgm",
+     "side": "over",
+     "line": 4.5,
+     "p": 0.517,
+     "fair": 1.94,
+     "min_dec": 1.99,
+     "ref": 4.3,
+     "p_model": 0.555,
+     "label": "Josh Giddey Over 4.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       3,
        5
       ]
      },
-     "mean": 8.1
+     "mean": 5.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "James Harden",
+     "team": "CLE",
+     "stat": "ftm",
+     "side": "under",
+     "line": 3.5,
+     "p": 0.516,
+     "fair": 1.94,
+     "min_dec": 1.99,
+     "ref": 4.2,
+     "p_model": 0.555,
+     "label": "James Harden Under 3.5 Tiros libres anotados",
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ]
+     },
+     "mean": 3.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "James Harden",
+     "team": "CLE",
+     "stat": "pf",
+     "side": "over",
+     "line": 1.5,
+     "p": 0.553,
+     "fair": 1.81,
+     "min_dec": 1.86,
+     "ref": 1.6,
+     "p_model": 0.553,
+     "label": "James Harden Over 1.5 Faltas",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       3,
+       3
+      ]
+     },
+     "mean": 1.9
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Jarrett Allen",
+     "team": "CLE",
+     "stat": "fg2a",
+     "side": "over",
+     "line": 6.5,
+     "p": 0.516,
+     "fair": 1.94,
+     "min_dec": 2.0,
+     "ref": 6.6,
+     "p_model": 0.552,
+     "label": "Jarrett Allen Over 6.5 Dobles intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       4,
+       4
+      ]
+     },
+     "mean": 7.4
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Buddy Hield",
+     "team": "CHI",
+     "stat": "fg2m",
+     "side": "under",
+     "line": 1.5,
+     "p": 0.515,
+     "fair": 1.94,
+     "min_dec": 2.0,
+     "ref": 2.1,
+     "p_model": 0.55,
+     "label": "Buddy Hield Under 1.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ]
+     },
+     "mean": 1.9
     },
     {
      "kind": "prop",
@@ -194730,11 +194912,11 @@
      "stat": "dd",
      "side": "over",
      "line": 0.5,
-     "p": 0.595,
-     "fair": 1.68,
-     "min_dec": 1.73,
+     "p": 0.534,
+     "fair": 1.87,
+     "min_dec": 1.93,
      "ref": null,
-     "p_model": 0.595,
+     "p_model": 0.534,
      "label": "Josh Giddey Doble-doble: Sí",
      "hr": {
       "l10": [
@@ -194752,221 +194934,14 @@
      "model_only": true,
      "player": "Josh Giddey",
      "team": "CHI",
-     "stat": "fgm",
-     "side": "over",
-     "line": 4.5,
-     "p": 0.528,
-     "fair": 1.89,
-     "min_dec": 1.95,
-     "ref": 4.6,
-     "p_model": 0.594,
-     "label": "Josh Giddey Over 4.5 Tiros de campo anotados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 5.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Donovan Mitchell",
-     "team": "CLE",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.528,
-     "fair": 1.89,
-     "min_dec": 1.95,
-     "ref": 6.0,
-     "p_model": 0.593,
-     "label": "Donovan Mitchell Over 6.5 Triples intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ]
-     },
-     "mean": 7.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Tre Jones",
-     "team": "CHI",
-     "stat": "fg2m",
-     "side": "over",
-     "line": 3.5,
-     "p": 0.526,
-     "fair": 1.9,
-     "min_dec": 1.96,
-     "ref": 3.7,
-     "p_model": 0.586,
-     "label": "Tre Jones Over 3.5 Dobles anotados",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 4.7
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "James Harden",
-     "team": "CLE",
-     "stat": "ftm",
-     "side": "under",
-     "line": 3.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 4.2,
-     "p_model": 0.557,
-     "label": "James Harden Under 3.5 Tiros libres anotados",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       2,
-       3
-      ]
-     },
-     "mean": 3.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jarrett Allen",
-     "team": "CLE",
-     "stat": "fg2a",
-     "side": "over",
-     "line": 6.5,
-     "p": 0.517,
-     "fair": 1.93,
-     "min_dec": 1.99,
-     "ref": 6.6,
-     "p_model": 0.556,
-     "label": "Jarrett Allen Over 6.5 Dobles intentados",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       4,
-       4
-      ]
-     },
-     "mean": 7.4
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Josh Giddey",
-     "team": "CHI",
-     "stat": "fg3a",
-     "side": "over",
-     "line": 4.5,
-     "p": 0.516,
-     "fair": 1.94,
-     "min_dec": 2.0,
-     "ref": 4.1,
-     "p_model": 0.554,
-     "label": "Josh Giddey Over 4.5 Triples intentados",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       3,
-       5
-      ]
-     },
-     "mean": 5.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "James Harden",
-     "team": "CLE",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.554,
-     "fair": 1.81,
-     "min_dec": 1.86,
-     "ref": 1.6,
-     "p_model": 0.554,
-     "label": "James Harden Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       3,
-       3
-      ]
-     },
-     "mean": 1.9
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Jalen Smith",
-     "team": "CHI",
-     "stat": "dd",
-     "side": "over",
-     "line": 0.5,
-     "p": 0.415,
-     "fair": 2.41,
-     "min_dec": 2.48,
-     "ref": null,
-     "p_model": 0.415,
-     "label": "Jalen Smith Doble-doble: Sí",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     }
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
-     "player": "Josh Giddey",
-     "team": "CHI",
      "stat": "td",
      "side": "over",
      "line": 0.5,
-     "p": 0.178,
-     "fair": 5.63,
-     "min_dec": 5.8,
+     "p": 0.143,
+     "fair": 6.99,
+     "min_dec": 7.2,
      "ref": null,
-     "p_model": 0.178,
+     "p_model": 0.143,
      "label": "Josh Giddey Triple-doble: Sí",
      "hr": {
       "l10": [
@@ -194990,16 +194965,16 @@
      "odds": -176,
      "dec": 1.569,
      "odds_assumed": false,
-     "p": 0.609,
+     "p": 0.596,
      "implied": 0.637,
-     "edge": -0.028,
-     "ev": -0.044,
+     "edge": -0.041,
+     "ev": -0.064,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -150,
      "dec_ref": 1.667,
-     "p_model": 0.667,
+     "p_model": 0.615,
      "p_mkt": 0.59,
      "cand": false,
      "err": {
@@ -195028,7 +195003,7 @@
        "n": 30
       }
      },
-     "mean": 2.6,
+     "mean": 2.3,
      "open": [
       1.5,
       1.569
@@ -195046,16 +195021,16 @@
      "odds": -135,
      "dec": 1.739,
      "odds_assumed": false,
-     "p": 0.574,
+     "p": 0.582,
      "implied": 0.575,
-     "edge": -0.001,
-     "ev": -0.001,
+     "edge": 0.007,
+     "ev": 0.012,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.7,
+     "p_model": 0.731,
      "p_mkt": 0.533,
      "cand": false,
      "hr": {
@@ -195075,7 +195050,7 @@
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 1.8,
      "open": [
       2.5,
       1.739
@@ -195124,13 +195099,13 @@
      "p": 0.493,
      "implied": 0.497,
      "edge": -0.004,
-     "ev": -0.007,
+     "ev": -0.009,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": 115,
      "dec_ref": 2.15,
-     "p_model": 0.593,
+     "p_model": 0.59,
      "p_mkt": 0.46,
      "cand": false,
      "hr": {
@@ -195165,16 +195140,16 @@
      "odds": -108,
      "dec": 1.929,
      "odds_assumed": false,
-     "p": 0.512,
+     "p": 0.511,
      "implied": 0.518,
-     "edge": -0.006,
-     "ev": -0.012,
+     "edge": -0.007,
+     "ev": -0.014,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 106,
      "dec_ref": 2.06,
-     "p_model": 0.609,
+     "p_model": 0.604,
      "p_mkt": 0.48,
      "cand": false,
      "hr": {
@@ -195264,60 +195239,6 @@
     },
     {
      "kind": "prop",
-     "label": "Jalen Smith Over 1.5 Triples",
-     "player": "Jalen Smith",
-     "team": "CHI",
-     "line": 1.5,
-     "odds": -176,
-     "dec": 1.569,
-     "odds_assumed": false,
-     "p": 0.609,
-     "implied": 0.637,
-     "edge": -0.028,
-     "ev": -0.044,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.667,
-     "p_mkt": 0.59,
-     "cand": false,
-     "err": {
-      "r": "A",
-      "why": "promedia 2.1 triples (25 min) y la línea es 1.5; la casa paga 1.57 (59% sin margen)",
-      "p": 0.674,
-      "ev": 0.058,
-      "hit": 0.63,
-      "casa": 0.546,
-      "n": 449
-     },
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 30,
-       "value": 2.1,
-       "lg": 1.3,
-       "n": 30
-      }
-     },
-     "mean": 2.6,
-     "open": [
-      1.5,
-      1.569
-     ],
-     "err_pick": true
-    },
-    {
-     "kind": "prop",
      "label": "Meleek Thomas Under 1.5 Triples",
      "player": "Meleek Thomas",
      "team": "CLE",
@@ -195325,16 +195246,16 @@
      "odds": -109,
      "dec": 1.922,
      "odds_assumed": false,
-     "p": 0.487,
+     "p": 0.489,
      "implied": 0.52,
-     "edge": -0.033,
-     "ev": -0.063,
+     "edge": -0.032,
+     "ev": -0.061,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -103,
      "dec_ref": 1.971,
-     "p_model": 0.504,
+     "p_model": 0.509,
      "p_mkt": 0.482,
      "cand": false,
      "hr": {
@@ -195363,6 +195284,60 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
      }
+    },
+    {
+     "kind": "prop",
+     "label": "Jalen Smith Over 1.5 Triples",
+     "player": "Jalen Smith",
+     "team": "CHI",
+     "line": 1.5,
+     "odds": -176,
+     "dec": 1.569,
+     "odds_assumed": false,
+     "p": 0.596,
+     "implied": 0.637,
+     "edge": -0.041,
+     "ev": -0.064,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -150,
+     "dec_ref": 1.667,
+     "p_model": 0.615,
+     "p_mkt": 0.59,
+     "cand": false,
+     "err": {
+      "r": "A",
+      "why": "promedia 2.1 triples (25 min) y la línea es 1.5; la casa paga 1.57 (59% sin margen)",
+      "p": 0.674,
+      "ev": 0.058,
+      "hit": 0.63,
+      "casa": 0.546,
+      "n": 449
+     },
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 30,
+       "value": 2.1,
+       "lg": 1.3,
+       "n": 30
+      }
+     },
+     "mean": 2.3,
+     "open": [
+      1.5,
+      1.569
+     ],
+     "err_pick": true
     },
     {
      "kind": "prop",
@@ -195554,16 +195529,16 @@
      "odds": -127,
      "dec": 1.787,
      "odds_assumed": false,
-     "p": 0.513,
+     "p": 0.511,
      "implied": 0.56,
-     "edge": -0.047,
-     "ev": -0.084,
+     "edge": -0.048,
+     "ev": -0.086,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.496,
+     "p_model": 0.491,
      "p_mkt": 0.518,
      "cand": false,
      "hr": {
@@ -195602,16 +195577,16 @@
      "odds": 126,
      "dec": 2.259,
      "odds_assumed": false,
-     "p": 0.391,
+     "p": 0.404,
      "implied": 0.443,
-     "edge": -0.052,
-     "ev": -0.118,
+     "edge": -0.039,
+     "ev": -0.088,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": 140,
      "dec_ref": 2.4,
-     "p_model": 0.333,
+     "p_model": 0.385,
      "p_mkt": 0.41,
      "cand": false,
      "hr": {
@@ -195631,54 +195606,10 @@
        "n": 30
       }
      },
-     "mean": 2.6,
+     "mean": 2.3,
      "open": [
       1.5,
       2.259
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jaylon Tyson Over 1.5 Triples",
-     "player": "Jaylon Tyson",
-     "team": "CLE",
-     "line": 1.5,
-     "odds": -140,
-     "dec": 1.715,
-     "odds_assumed": false,
-     "p": 0.507,
-     "implied": 0.583,
-     "edge": -0.076,
-     "ev": -0.131,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -120,
-     "dec_ref": 1.833,
-     "p_model": 0.407,
-     "p_mkt": 0.54,
-     "cand": false,
-     "hr": {
-      "l10": [
-       4,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 8,
-       "value": 2.4,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 1.5,
-     "open": [
-      1.5,
-      1.715
      ]
     },
     {
@@ -195690,16 +195621,16 @@
      "odds": -128,
      "dec": 1.78,
      "odds_assumed": false,
-     "p": 0.488,
+     "p": 0.489,
      "implied": 0.562,
-     "edge": -0.074,
-     "ev": -0.132,
+     "edge": -0.073,
+     "ev": -0.129,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -111,
      "dec_ref": 1.901,
-     "p_model": 0.391,
+     "p_model": 0.396,
      "p_mkt": 0.52,
      "cand": false,
      "hr": {
@@ -195727,6 +195658,50 @@
     },
     {
      "kind": "prop",
+     "label": "Jaylon Tyson Over 1.5 Triples",
+     "player": "Jaylon Tyson",
+     "team": "CLE",
+     "line": 1.5,
+     "odds": -140,
+     "dec": 1.715,
+     "odds_assumed": false,
+     "p": 0.507,
+     "implied": 0.583,
+     "edge": -0.076,
+     "ev": -0.13,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -120,
+     "dec_ref": 1.833,
+     "p_model": 0.41,
+     "p_mkt": 0.54,
+     "cand": false,
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 8,
+       "value": 2.4,
+       "lg": 2.7,
+       "n": 30
+      }
+     },
+     "mean": 1.5,
+     "open": [
+      1.5,
+      1.715
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Matas Buzelis Over 2.5 Triples",
      "player": "Matas Buzelis",
      "team": "CHI",
@@ -195734,16 +195709,16 @@
      "odds": -102,
      "dec": 1.981,
      "odds_assumed": false,
-     "p": 0.426,
+     "p": 0.418,
      "implied": 0.505,
-     "edge": -0.079,
-     "ev": -0.157,
+     "edge": -0.087,
+     "ev": -0.172,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 113,
      "dec_ref": 2.13,
-     "p_model": 0.3,
+     "p_model": 0.269,
      "p_mkt": 0.467,
      "cand": false,
      "hr": {
@@ -195763,7 +195738,7 @@
        "n": 30
       }
      },
-     "mean": 1.9,
+     "mean": 1.8,
      "open": [
       2.5,
       1.981
@@ -195776,30 +195751,30 @@
       "Donovan Mitchell": [
        [
         "James Harden",
-        4.4,
-        4.3
+        4.3,
+        4.4
        ],
        [
         "Jarrett Allen",
         2.9,
-        4.1
+        4.2
        ],
        [
-        "Jaylon Tyson",
-        2.4,
-        3.1
+        "Peyton Watson",
+        2.5,
+        3.4
        ]
       ],
       "James Harden": [
        [
         "Donovan Mitchell",
         3.9,
-        4.1
+        4.2
        ],
        [
         "Jarrett Allen",
-        2.0,
-        4.0
+        1.9,
+        4.1
        ],
        [
         "Jaylon Tyson",
@@ -195815,13 +195790,13 @@
        ],
        [
         "James Harden",
-        1.7,
+        1.6,
         3.3
        ],
        [
-        "Meleek Thomas",
+        "Jaylon Tyson",
         1.2,
-        2.8
+        2.7
        ]
       ],
       "Meleek Thomas": [
@@ -195838,24 +195813,24 @@
        [
         "Jarrett Allen",
         1.1,
-        2.4
+        2.5
        ]
       ],
       "Jaylon Tyson": [
        [
         "Donovan Mitchell",
-        1.9,
-        2.2
+        2.0,
+        2.3
        ],
        [
         "James Harden",
         1.3,
-        2.2
+        2.3
        ],
        [
         "Jarrett Allen",
         0.9,
-        2.0
+        2.1
        ]
       ],
       "Peyton Watson": [
@@ -195866,13 +195841,13 @@
        ],
        [
         "James Harden",
-        1.4,
+        1.3,
         2.6
        ],
        [
         "Jarrett Allen",
         0.9,
-        2.4
+        2.5
        ]
       ]
      },
@@ -195907,7 +195882,7 @@
      "planb": {
       "Donovan Mitchell": {
        "p_play": 1.0,
-       "min": 31.7,
+       "min": 31.8,
        "picks": [
         {
          "kind": "prop",
@@ -195918,11 +195893,33 @@
          "side": "over",
          "line": 2.5,
          "dec": 1.929,
-         "p": 0.564,
-         "base_p": 0.512,
-         "ev": 0.087,
+         "p": 0.563,
+         "base_p": 0.511,
+         "ev": 0.086,
          "if_out": "Donovan Mitchell",
-         "mean": 4.0,
+         "mean": 3.9,
+         "mean0": 3.5
+        }
+       ]
+      },
+      "Jarrett Allen": {
+       "p_play": 1.0,
+       "min": 25.7,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "James Harden Over 2.5 Triples",
+         "player": "James Harden",
+         "team": "CLE",
+         "stat": "fg3m",
+         "side": "over",
+         "line": 2.5,
+         "dec": 1.929,
+         "p": 0.553,
+         "base_p": 0.511,
+         "ev": 0.067,
+         "if_out": "Jarrett Allen",
+         "mean": 3.8,
          "mean0": 3.5
         }
        ]
@@ -195934,103 +195931,103 @@
       "Josh Giddey": [
        [
         "Matas Buzelis",
-        2.5,
-        4.6
+        2.4,
+        4.3
        ],
        [
         "Jalen Smith",
-        2.5,
-        4.4
+        2.2,
+        3.9
        ],
        [
         "Tre Jones",
-        2.3,
-        4.0
+        1.9,
+        3.4
        ]
       ],
       "Isaac Okoro": [
        [
         "Matas Buzelis",
-        2.0,
-        4.2
+        1.8,
+        3.8
        ],
        [
         "Jalen Smith",
-        1.9,
-        4.0
+        1.7,
+        3.5
        ],
        [
         "Tre Jones",
-        1.8,
-        3.5
+        1.5,
+        3.0
        ]
       ],
       "Matas Buzelis": [
        [
         "Jalen Smith",
-        2.8,
-        3.9
+        2.3,
+        3.4
        ],
        [
         "Tre Jones",
-        2.6,
-        3.6
+        2.2,
+        3.1
        ],
        [
         "Buddy Hield",
-        2.5,
-        4.1
+        2.1,
+        3.6
        ]
       ],
       "Jalen Smith": [
        [
         "Matas Buzelis",
-        2.6,
-        3.6
+        2.2,
+        3.1
        ],
        [
         "Tre Jones",
-        2.4,
-        3.2
+        1.9,
+        2.6
        ],
        [
-        "Buddy Hield",
-        2.2,
-        3.7
+        "Josh Giddey",
+        1.8,
+        3.2
        ]
       ],
       "Buddy Hield": [
        [
         "Matas Buzelis",
-        2.3,
-        3.2
+        1.9,
+        2.8
        ],
        [
         "Jalen Smith",
-        2.1,
-        3.0
+        1.7,
+        2.6
        ],
        [
         "Tre Jones",
-        2.0,
-        2.7
+        1.6,
+        2.2
        ]
       ],
       "Tre Jones": [
        [
         "Matas Buzelis",
-        2.3,
-        2.8
+        1.9,
+        2.4
        ],
        [
         "Jalen Smith",
-        2.1,
-        2.5
+        1.7,
+        2.2
        ],
        [
-        "Buddy Hield",
-        2.0,
-        2.8
+        "Josh Giddey",
+        1.6,
+        2.4
        ]
       ]
      },
@@ -196073,20 +196070,6 @@
         5.9,
         4,
         7
-       ]
-      ],
-      "Nic Claxton": [
-       [
-        "Leonard Miller",
-        3.9,
-        6,
-        3
-       ],
-       [
-        "Dailyn Swain",
-        1.5,
-        2,
-        2
        ]
       ]
      },
