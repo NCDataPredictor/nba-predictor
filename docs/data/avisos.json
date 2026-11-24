@@ -1,382 +1,6 @@
 {
  "list": [
   {
-   "id": "b4cff8e821e4975e",
-   "at": "2026-11-15T17:24+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-IND-at-PHI",
-   "title": "IND @ PHI (1:00 pm ET): cambian los picks",
-   "body": "Sale: Kelly Oubre Jr. Under 4.5 Rebotes.",
-   "label": "Revisión 12:15 ET",
-   "url": "https://ncerva1.github.io/nba-predictor/#2026-11-15-IND-at-PHI",
-   "added": [],
-   "removed": [
-    "Kelly Oubre Jr. Under 4.5 Rebotes"
-   ],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "779435567dc777c2",
-   "at": "2026-11-15T17:24+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-CHA-at-LAC",
-   "title": "CHA @ LAC (4:30 pm ET): cambian los picks",
-   "body": "Sale: Coby White Under 14.5 Puntos.",
-   "label": "Revisión 12:15 ET",
-   "url": "https://ncerva1.github.io/nba-predictor/#2026-11-15-CHA-at-LAC",
-   "added": [],
-   "removed": [
-    "Coby White Under 14.5 Puntos"
-   ],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "106d2a2d6de87bbc",
-   "at": "2026-11-15T17:24+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-ATL-at-MIL",
-   "title": "ATL @ MIL (8:00 pm ET): cambian los picks",
-   "body": "Sale: Onyeka Okongwu Under 13.5 Puntos.",
-   "label": "Revisión 12:15 ET",
-   "url": "https://ncerva1.github.io/nba-predictor/#2026-11-15-ATL-at-MIL",
-   "added": [],
-   "removed": [
-    "Onyeka Okongwu Under 13.5 Puntos"
-   ],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "59862b9a507e1bbb",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-LAL-at-PHX",
-   "title": "LAL @ PHX (4:00 pm ET): cambian los picks",
-   "body": "Picks nuevos: Dillon Brooks Under 5.5 REB+AST; Collin Sexton Under 15.5 PTS+REB; Devin Booker Under 1.5 Triples; Collin Gillespie Over 2.5 Triples.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-LAL-at-PHX",
-   "added": [
-    "Dillon Brooks Under 5.5 REB+AST",
-    "Collin Sexton Under 15.5 PTS+REB",
-    "Devin Booker Under 1.5 Triples",
-    "Collin Gillespie Over 2.5 Triples"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "198cdd1a9146be94",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-CHA-at-LAC",
-   "title": "CHA @ LAC (4:30 pm ET): cambian los picks",
-   "body": "Pick nuevo: Brook Lopez Under 6.5 REB+AST.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-CHA-at-LAC",
-   "added": [
-    "Brook Lopez Under 6.5 REB+AST"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "70ca3a2edbf13856",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-NYK-at-TOR",
-   "title": "NYK @ TOR (6:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: OG Anunoby Under 22.5 PTS+REB.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-NYK-at-TOR",
-   "added": [
-    "OG Anunoby Under 22.5 PTS+REB"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "3b2f53eca637aa3c",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-HOU-at-WAS",
-   "title": "HOU @ WAS (7:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: Amen Thompson Over 0.5 Triples.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-HOU-at-WAS",
-   "added": [
-    "Amen Thompson Over 0.5 Triples"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "29dd2632541b558f",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-ATL-at-MIL",
-   "title": "ATL @ MIL (8:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: Kyle Kuzma Under 7.5 REB+AST.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-ATL-at-MIL",
-   "added": [
-    "Kyle Kuzma Under 7.5 REB+AST"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "3fcaf6fe6c95b7f2",
-   "at": "2026-11-15T18:45+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-OKC-at-SAC",
-   "title": "OKC @ SAC (9:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: Keegan Murray Under 1.5 Triples.",
-   "label": "Revisión 13:25 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-OKC-at-SAC",
-   "added": [
-    "Keegan Murray Under 1.5 Triples"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "eb84c77a0959338f",
-   "at": "2026-11-15T21:06+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-SAS-at-UTA",
-   "title": "SAS @ UTA (5:00 pm ET): cambian los picks",
-   "body": "Bajas: Fox OUT. Picks nuevos: Dylan Harper Over 9.5 REB+AST; Keldon Johnson Over 14.5 PTS+REB.",
-   "label": "Revisión 16:00 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-SAS-at-UTA",
-   "added": [
-    "Dylan Harper Over 9.5 REB+AST",
-    "Keldon Johnson Over 14.5 PTS+REB"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [
-    "De'Aaron Fox"
-   ],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "ccf831121b575284",
-   "at": "2026-11-15T21:06+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-DAL-at-BOS",
-   "title": "DAL @ BOS (6:00 pm ET): picks plan B",
-   "body": "En duda: Irving, Aldama. Plan B: Naji Marshall Over 17.5 PTS+REB+AST; Cooper Flagg Over 28.5 PTS+REB.",
-   "label": "Revisión 16:00 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-DAL-at-BOS",
-   "added": [],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [
-    "Kyrie Irving",
-    "Santi Aldama"
-   ],
-   "back": [],
-   "planb": [
-    "Naji Marshall Over 17.5 PTS+REB+AST",
-    "Cooper Flagg Over 28.5 PTS+REB"
-   ],
-   "picks_changed": true
-  },
-  {
-   "id": "c6c94caa43e34907",
-   "at": "2026-11-15T21:35+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-DAL-at-BOS",
-   "title": "DAL @ BOS (6:00 pm ET): novedades de bajas",
-   "body": "Bajas: Irving OUT. Los picks del modelo no cambian.",
-   "label": "Revisión 16:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-DAL-at-BOS",
-   "added": [],
-   "removed": [],
-   "moved": [],
-   "outs": [
-    "Kyrie Irving"
-   ],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": false
-  },
-  {
-   "id": "47a14eb64fd75ee5",
-   "at": "2026-11-15T21:35+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-HOU-at-WAS",
-   "title": "HOU @ WAS (7:00 pm ET): cambian los picks",
-   "body": "Bajas: Smart OUT. Pick nuevo: Tre Johnson Under 11.5 PTS+AST.",
-   "label": "Revisión 16:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-HOU-at-WAS",
-   "added": [
-    "Tre Johnson Under 11.5 PTS+AST"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [
-    "Marcus Smart"
-   ],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "8e654bb1ddf6284e",
-   "at": "2026-11-15T22:33+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-NYK-at-TOR",
-   "title": "NYK @ TOR (6:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: Ja'Kobe Walter Under 3.5 Rebotes.",
-   "label": "Revisión 17:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-NYK-at-TOR",
-   "added": [
-    "Ja'Kobe Walter Under 3.5 Rebotes"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "663556e1594bcac4",
-   "at": "2026-11-15T23:34+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-HOU-at-WAS",
-   "title": "HOU @ WAS (7:00 pm ET): cambian los picks",
-   "body": "Bajas: Johnson OUT. Sale: Tre Johnson Under 11.5 PTS+AST.",
-   "label": "Revisión 18:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-HOU-at-WAS",
-   "added": [],
-   "removed": [
-    "Tre Johnson Under 11.5 PTS+AST"
-   ],
-   "moved": [],
-   "outs": [
-    "Tre Johnson"
-   ],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "98b1599d3f51595b",
-   "at": "2026-11-15T23:34+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-ATL-at-MIL",
-   "title": "ATL @ MIL (8:00 pm ET): cambian los picks",
-   "body": "Bajas: Rollins OUT. Sale: Kyle Kuzma Under 7.5 REB+AST.",
-   "label": "Revisión 18:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-ATL-at-MIL",
-   "added": [],
-   "removed": [
-    "Kyle Kuzma Under 7.5 REB+AST"
-   ],
-   "moved": [],
-   "outs": [
-    "Ryan Rollins"
-   ],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "e0dbf55c26250768",
-   "at": "2026-11-16T01:32+00:00",
-   "date": "2026-11-15",
-   "gid": "2026-11-15-OKC-at-SAC",
-   "title": "OKC @ SAC (9:00 pm ET): cambian los picks",
-   "body": "Pick nuevo: Kenrich Williams Under 8.5 Puntos.",
-   "label": "Revisión 20:30 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-15-OKC-at-SAC",
-   "added": [
-    "Kenrich Williams Under 8.5 Puntos"
-   ],
-   "removed": [],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
-   "id": "0ba6e77afcf19028",
-   "at": "2026-11-16T23:22+00:00",
-   "date": "2026-11-16",
-   "gid": "2026-11-16-HOU-at-MIA",
-   "title": "HOU @ MIA (7:30 pm ET): cambian los picks",
-   "body": "Sale: Alperen Sengun Under 6.5 Asistencias.",
-   "label": "Revisión 18:15 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-16-HOU-at-MIA",
-   "added": [],
-   "removed": [
-    "Alperen Sengun Under 6.5 Asistencias"
-   ],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
    "id": "9cd1fe02f6d8932a",
    "at": "2026-11-17T23:53+00:00",
    "date": "2026-11-17",
@@ -1539,7 +1163,167 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "7dd3fae3722d2feb",
+   "at": "2026-11-23T16:31+00:00",
+   "date": "2026-11-23",
+   "gid": "",
+   "kind": "jornada",
+   "title": "Ya están los picks del 23-nov (10 partidos)",
+   "body": "4 picks con valor en 3 partidos. Soñadora cuota 50.61 y escalonada cuota 50.28. Primer partido 7:00 pm ET.",
+   "label": "Picks del día",
+   "url": "https://ncdatapredictor.pages.dev/nba/",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "cb5670ad07722908",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-POR-at-PHI",
+   "title": "POR @ PHI (7:00 pm ET): novedades de bajas",
+   "body": "En duda: Embiid. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-POR-at-PHI",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [
+    "Joel Embiid"
+   ],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "8210664dd8989547",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-OKC-at-IND",
+   "title": "OKC @ IND (7:30 pm ET): novedades de bajas",
+   "body": "Bajas: Nesmith OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-OKC-at-IND",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Aaron Nesmith"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "218289701d8e5682",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-PHX-at-NOP",
+   "title": "PHX @ NOP (8:00 pm ET): cambian los picks",
+   "body": "Sale: Jeremiah Fears Under 18.5 Puntos.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-PHX-at-NOP",
+   "added": [],
+   "removed": [
+    "Jeremiah Fears Under 18.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "5a416a218af76e77",
+   "at": "2026-11-23T23:22+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): cambian los picks",
+   "body": "Sale: Keyonte George Over 2.5 Triples.",
+   "label": "Revisión 18:20 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-UTA-at-LAL",
+   "added": [],
+   "removed": [
+    "Keyonte George Over 2.5 Triples"
+   ],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "88d82141b0563154",
+   "at": "2026-11-24T00:04+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-PHX-at-NOP",
+   "title": "PHX @ NOP (8:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Jeremiah Fears Under 17.5 Puntos.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-PHX-at-NOP",
+   "added": [
+    "Jeremiah Fears Under 17.5 Puntos"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "cc5afcb293e25c78",
+   "at": "2026-11-24T00:04+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): novedades de bajas",
+   "body": "Bajas: Reaves OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-UTA-at-LAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Austin Reaves"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
+  },
+  {
+   "id": "f18fdd669350c053",
+   "at": "2026-11-24T02:08+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "title": "SAS @ SAC (10:00 pm ET): novedades de bajas",
+   "body": "Bajas: Fox, Wembanyama OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 21:05 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-SAS-at-SAC",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "De'Aaron Fox",
+    "Victor Wembanyama"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-22T23:33+00:00"
+ "updated": "2026-11-24T02:08+00:00"
 }

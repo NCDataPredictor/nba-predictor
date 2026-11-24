@@ -1,94 +1,6 @@
 {
- "updated": "2026-11-22T22:35+00:00",
+ "updated": "2026-11-24T02:08+00:00",
  "list": [
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-GSW-at-MEM",
-   "player": "Draymond Green",
-   "team": "GSW",
-   "status": "out",
-   "note": "codo, descartado vs MEM",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-GSW-at-MEM",
-   "player": "Ty Jerome",
-   "team": "MEM",
-   "status": "out",
-   "note": "cadera, descartado vs GSW",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-GSW-at-MEM",
-   "player": "Zach Edey",
-   "team": "MEM",
-   "status": "out",
-   "note": "cadera, descartado vs GSW",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-POR-at-MIL",
-   "player": "Kyle Kuzma",
-   "team": "MIL",
-   "status": "out",
-   "note": "contusión hombro derecho, descartado vs POR",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-POR-at-MIL",
-   "player": "Myles Turner",
-   "team": "MIL",
-   "status": "out",
-   "note": "contusión hombro izquierdo, descartado vs POR",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-POR-at-MIL",
-   "player": "Chris Youngblood",
-   "team": "POR",
-   "status": "out",
-   "note": "talón, descartado vs MIL",
-   "source": "ESPN 19:30 ET",
-   "at": "2026-11-20T00:18+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-19",
-   "gid": "2026-11-19-POR-at-MIL",
-   "player": "Deni Avdija",
-   "team": "POR",
-   "status": "out",
-   "note": "Descartado vs MIL",
-   "source": "Aviso de Nicolas 19-nov 19:33 ET",
-   "at": "2026-11-20T00:34+00:00",
-   "sim": true
-  },
-  {
-   "date": "2026-11-20",
-   "gid": "2026-11-20-SAC-at-LAL",
-   "player": "Precious Achiuwa",
-   "team": "SAC",
-   "status": "out",
-   "note": "Pierna (parte inferior)",
-   "source": "ESPN injuries 20:40 ET",
-   "at": "2026-11-21T01:38+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-21",
    "gid": "2026-11-21-BOS-at-SAC",
@@ -263,6 +175,61 @@
    "note": "espalda/cuello, descartado vs MIA",
    "source": "Marc Stein vía HotTakes 16:40 ET + Rotowire",
    "at": "2026-11-22T22:07+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-OKC-at-IND",
+   "player": "Aaron Nesmith",
+   "team": "IND",
+   "status": "out",
+   "note": "pie derecho; OUT vs OKC",
+   "source": "Parte final (Athlon) 15:30 ET",
+   "at": "2026-11-23T23:18+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-POR-at-PHI",
+   "player": "Joel Embiid",
+   "team": "PHI",
+   "status": "duda",
+   "note": "enfermedad; questionable vs POR",
+   "source": "Parte final (Athlon/ClutchPoints) 15:00 ET",
+   "at": "2026-11-23T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "player": "De'Aaron Fox",
+   "team": "SAS",
+   "status": "out",
+   "note": "contusión espinilla derecha; OUT vs SAC",
+   "source": "KSAT 20:46 ET",
+   "at": "2026-11-24T02:06+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "player": "Victor Wembanyama",
+   "team": "SAS",
+   "status": "out",
+   "note": "lumbar; Spurs lo descartaron vs SAC",
+   "source": "KSAT 20:46 ET",
+   "at": "2026-11-24T02:06+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "player": "Austin Reaves",
+   "team": "LAL",
+   "status": "out",
+   "note": "Descartado vs. Jazz (5.º partido seguido)",
+   "source": "Lakers/Yardbarker 23-nov",
+   "at": "2026-11-24T00:02+00:00",
    "sim": true
   }
  ]
