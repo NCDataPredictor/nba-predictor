@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "POR: Morant (isquio), Youngblood (talón), Krejčí y Sharpe OUT",
-   "PHI: Jaylen Brown, Dean Wade y Bona probables (RotoWire); Hukporti fuera la temporada"
+   "PHI: Jaylen Brown, Dean Wade y Bona probables (RotoWire); Hukporti fuera la temporada",
+   "Revisión 18:20 ET: Embiid questionable (enfermedad), parte final Athlon/ClutchPoints; PHI pasó de -4.5 a -1.5"
   ],
   "out": [
    "Ja Morant",
@@ -20,7 +21,8 @@
   "gtd": {
    "Jaylen Brown": 0.85,
    "Dean Wade": 0.75,
-   "Adem Bona": 0.8
+   "Adem Bona": 0.8,
+   "Joel Embiid": 0.5
   },
   "reserves": {
    "POR": [
@@ -308,7 +310,7 @@
    "starter": true,
    "min": 27.3,
    "g_cur": 14,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 32.1,
     "pts": 20.4,
@@ -1048,14 +1050,14 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -179,
-  "ml_away": 150,
-  "spread_home": -4.5,
-  "total": 229.5,
-  "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -115,
-  "under_odds": -105
+  "ml_home": -115,
+  "ml_away": -103,
+  "spread_home": -1.5,
+  "total": 231.5,
+  "spread_odds_home": -102,
+  "spread_odds_away": -119,
+  "over_odds": -105,
+  "under_odds": -115
  },
  "prop_lines": {
   "Damian Lillard": {
@@ -1106,6 +1108,14 @@
     1.5,
     -115,
     -102
+   ]
+  },
+  "Jaylen Brown": {
+   "pts": [
+    20.5,
+    -119,
+    -132,
+    22.5
    ]
   }
  },

@@ -1214,12 +1214,12 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": 270,
-  "ml_away": -336,
+  "ml_home": 282,
+  "ml_away": -352,
   "spread_home": 8.5,
-  "total": 240.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "total": 241.5,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
   "over_odds": -108,
   "under_odds": -112
  },

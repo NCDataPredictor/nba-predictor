@@ -1,17 +1,6 @@
 {
- "updated": "2026-11-23T16:31+00:00",
+ "updated": "2026-11-24T00:04+00:00",
  "list": [
-  {
-   "date": "2026-11-20",
-   "gid": "2026-11-20-SAC-at-LAL",
-   "player": "Precious Achiuwa",
-   "team": "SAC",
-   "status": "out",
-   "note": "Pierna (parte inferior)",
-   "source": "ESPN injuries 20:40 ET",
-   "at": "2026-11-21T01:38+00:00",
-   "sim": true
-  },
   {
    "date": "2026-11-21",
    "gid": "2026-11-21-BOS-at-SAC",
@@ -186,6 +175,39 @@
    "note": "espalda/cuello, descartado vs MIA",
    "source": "Marc Stein vía HotTakes 16:40 ET + Rotowire",
    "at": "2026-11-22T22:07+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-OKC-at-IND",
+   "player": "Aaron Nesmith",
+   "team": "IND",
+   "status": "out",
+   "note": "pie derecho; OUT vs OKC",
+   "source": "Parte final (Athlon) 15:30 ET",
+   "at": "2026-11-23T23:18+00:00",
+   "sim": true
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-POR-at-PHI",
+   "player": "Joel Embiid",
+   "team": "PHI",
+   "status": "duda",
+   "note": "enfermedad; questionable vs POR",
+   "source": "Parte final (Athlon/ClutchPoints) 15:00 ET",
+   "at": "2026-11-23T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "player": "Austin Reaves",
+   "team": "LAL",
+   "status": "out",
+   "note": "Descartado vs. Jazz (5.º partido seguido)",
+   "source": "Lakers/Yardbarker 23-nov",
+   "at": "2026-11-24T00:02+00:00",
    "sim": true
   }
  ]
