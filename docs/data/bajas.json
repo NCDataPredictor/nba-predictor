@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:04+00:00",
+ "updated": "2026-11-24T02:06+00:00",
  "list": [
   {
    "date": "2026-11-21",
@@ -197,6 +197,28 @@
    "note": "enfermedad; questionable vs POR",
    "source": "Parte final (Athlon/ClutchPoints) 15:00 ET",
    "at": "2026-11-23T23:18+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "player": "De'Aaron Fox",
+   "team": "SAS",
+   "status": "out",
+   "note": "contusión espinilla derecha; OUT vs SAC",
+   "source": "KSAT 20:46 ET",
+   "at": "2026-11-24T02:06+00:00",
+   "sim": false
+  },
+  {
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "player": "Victor Wembanyama",
+   "team": "SAS",
+   "status": "out",
+   "note": "lumbar; Spurs lo descartaron vs SAC",
+   "source": "KSAT 20:46 ET",
+   "at": "2026-11-24T02:06+00:00",
    "sim": false
   },
   {
