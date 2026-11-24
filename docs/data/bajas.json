@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:06+00:00",
+ "updated": "2026-11-24T02:08+00:00",
  "list": [
   {
    "date": "2026-11-21",
@@ -208,7 +208,7 @@
    "note": "contusión espinilla derecha; OUT vs SAC",
    "source": "KSAT 20:46 ET",
    "at": "2026-11-24T02:06+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-23",
@@ -219,7 +219,7 @@
    "note": "lumbar; Spurs lo descartaron vs SAC",
    "source": "KSAT 20:46 ET",
    "at": "2026-11-24T02:06+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-23",
