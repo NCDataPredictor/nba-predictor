@@ -791,6 +791,24 @@
       -112,
       -108
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:05 ET)",
+     "ml_away": -191,
+     "ml_home": 160,
+     "spread_away": [
+      -4.5,
+      -110
+     ],
+     "spread_home": [
+      4.5,
+      -110
+     ],
+     "total": [
+      226.5,
+      -107,
+      -113
+     ]
     }
    ]
   },
@@ -1379,6 +1397,24 @@
       -107,
       -113
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:05 ET)",
+     "ml_away": -352,
+     "ml_home": 282,
+     "spread_away": [
+      -8.5,
+      -115
+     ],
+     "spread_home": [
+      8.5,
+      -105
+     ],
+     "total": [
+      241.5,
+      -108,
+      -112
+     ]
     }
    ]
   },
@@ -1581,6 +1617,24 @@
       -107,
       -113
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:05 ET)",
+     "ml_away": 504,
+     "ml_home": -700,
+     "spread_away": [
+      12.5,
+      -106
+     ],
+     "spread_home": [
+      -12.5,
+      -115
+     ],
+     "total": [
+      223.5,
+      -107,
+      -113
+     ]
     }
    ]
   },
@@ -1770,6 +1824,24 @@
      "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": -597,
      "ml_home": 443,
+     "spread_away": [
+      -12.5,
+      -109
+     ],
+     "spread_home": [
+      12.5,
+      -111
+     ],
+     "total": [
+      224.5,
+      -110,
+      -110
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:05 ET)",
+     "ml_away": -640,
+     "ml_home": 467,
      "spread_away": [
       -12.5,
       -109

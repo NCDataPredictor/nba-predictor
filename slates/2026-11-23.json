@@ -890,9 +890,7 @@
     "Jaylen Clark",
     "Donte DiVincenzo"
    ],
-   "gtd": {
-    "Grant Nelson": 0.85
-   },
+   "gtd": {},
    "notes": [
     "BKN: Traoré (isquio) OUT; Grant Nelson probable",
     "MIN: Edwards (rodilla), Clark y DiVincenzo OUT"
@@ -926,10 +924,7 @@
     "Kawhi Leonard",
     "Nate Bittle"
    ],
-   "gtd": {
-    "Ousmane Dieng": 0.5,
-    "Collin Murray-Boyles": 0.85
-   },
+   "gtd": {},
    "notes": [
     "MIL: Dieng (dedo) en duda",
     "TOR: Barrett (isquio), Leonard (rodilla) y Bittle OUT; Murray-Boyles probable (conmoción)"
@@ -944,11 +939,11 @@
     "ml_home": 160,
     "ml_away": -191,
     "spread_home": 4.5,
-    "total": 225.5,
+    "total": 226.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
-    "over_odds": -112,
-    "under_odds": -108
+    "over_odds": -107,
+    "under_odds": -113
    },
    "b2b": [
     "OKC",
@@ -981,9 +976,7 @@
     "Ben Sheppard",
     "Aaron Nesmith"
    ],
-   "gtd": {
-    "Pascal Siakam": 0.85
-   },
+   "gtd": {},
    "notes": [
     "OKC (back-to-back): SGA, Caruso, Mara, Jaylin Williams y Topić OUT (RotoWire 23-nov)",
     "IND (back-to-back): Haliburton y McConnell OUT; Siakam (cadera) en el quinteto de RotoWire",
@@ -999,11 +992,11 @@
     "ml_home": 282,
     "ml_away": -352,
     "spread_home": 8.5,
-    "total": 242.5,
-    "spread_odds_home": -103,
-    "spread_odds_away": -117,
-    "over_odds": -107,
-    "under_odds": -113
+    "total": 241.5,
+    "spread_odds_home": -105,
+    "spread_odds_away": -115,
+    "over_odds": -108,
+    "under_odds": -112
    },
    "b2b": [
     "CHI"
@@ -1065,10 +1058,7 @@
     "Trendon Watford"
    ],
    "gtd": {
-    "Ryan Dunn": 0.5,
-    "Zion Williamson": 0.8,
-    "Trey Murphy III": 0.8,
-    "Bryce McGowens": 0.75
+    "Zion Williamson": 0.9
    },
    "notes": [
     "PHX: Mark Williams OUT; Ryan Dunn (cuádriceps) en duda",
@@ -1081,12 +1071,12 @@
    "tip_et": "20:30",
    "venue": "Toyota Center, Houston",
    "market": {
-    "ml_home": -650,
-    "ml_away": 470,
+    "ml_home": -700,
+    "ml_away": 504,
     "spread_home": -12.5,
     "total": 223.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
+    "spread_odds_home": -115,
+    "spread_odds_away": -106,
     "over_odds": -107,
     "under_odds": -113
    },
@@ -1102,10 +1092,7 @@
     "Bradley Beal",
     "Jordan Miller"
    ],
-   "gtd": {
-    "Brandon Ingram": 0.85,
-    "Clint Capela": 0.6
-   },
+   "gtd": {},
    "notes": [
     "LAC: Ingram debuta (ESPN); Beal y Jordan Miller OUT",
     "HOU: Capela (tobillo) en duda"
@@ -1117,8 +1104,8 @@
    "tip_et": "22:00",
    "venue": "Golden 1 Center, Sacramento",
    "market": {
-    "ml_home": 443,
-    "ml_away": -597,
+    "ml_home": 467,
+    "ml_away": -640,
     "spread_home": 12.5,
     "total": 224.5,
     "spread_odds_home": -111,
@@ -1180,11 +1167,10 @@
     "Lauri Markkanen",
     "Jaren Jackson Jr.",
     "Jaxson Hayes",
-    "Jusuf Nurkić"
+    "Jusuf Nurkić",
+    "Austin Reaves"
    ],
-   "gtd": {
-    "Austin Reaves": 0.35
-   },
+   "gtd": {},
    "notes": [
     "UTA (back-to-back): Markkanen, JJJ, Hayes y Nurkić OUT",
     "LAL: Austin Reaves (talón) OUT en ESPN, el técnico espera que vuelva hoy o el viernes"

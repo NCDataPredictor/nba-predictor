@@ -14,11 +14,10 @@
    "Lauri Markkanen",
    "Jaren Jackson Jr.",
    "Jaxson Hayes",
-   "Jusuf Nurkić"
+   "Jusuf Nurkić",
+   "Austin Reaves"
   ],
-  "gtd": {
-   "Austin Reaves": 0.35
-  },
+  "gtd": {},
   "reserves": {
    "UTA": [],
    "LAL": [
@@ -128,7 +127,7 @@
    "name": "Luka Dončić",
    "pos": "PG",
    "starter": true,
-   "min": 31.5,
+   "min": 36.1,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -167,52 +166,10 @@
   },
   {
    "team": "LAL",
-   "name": "Austin Reaves",
-   "pos": "SG",
-   "starter": true,
-   "min": 30.5,
-   "g_cur": 12,
-   "p_play": 0.35,
-   "cur": {
-    "min": 35.3,
-    "pts": 24.7,
-    "reb": 3.3,
-    "ast": 4.7,
-    "fg3m": 2.3,
-    "fgm": 8.1,
-    "fga": 15.8,
-    "fg3a": 5.5,
-    "stl": 1.2,
-    "blk": 0.3,
-    "tov": 3.4,
-    "pf": 2.8,
-    "ftm": 6.3,
-    "fta": 6.8
-   },
-   "prior": {
-    "min": 34.6,
-    "pts": 23.27,
-    "reb": 4.71,
-    "ast": 5.49,
-    "fg3m": 2.31,
-    "fgm": 7.31,
-    "fga": 14.94,
-    "fg3a": 6.43,
-    "stl": 1.1,
-    "blk": 0.39,
-    "tov": 2.96,
-    "pf": 2.16,
-    "ftm": 6.33,
-    "fta": 7.27
-   },
-   "slot": "SG"
-  },
-  {
-   "team": "LAL",
    "name": "Walker Kessler",
    "pos": "C",
    "starter": true,
-   "min": 26.7,
+   "min": 30.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -254,7 +211,7 @@
    "name": "Quentin Grimes",
    "pos": "SG",
    "starter": false,
-   "min": 25.2,
+   "min": 28.8,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -295,7 +252,7 @@
    "name": "Jake LaRavia",
    "pos": "PF",
    "starter": true,
-   "min": 21.8,
+   "min": 25.0,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -337,7 +294,7 @@
    "name": "Matisse Thybulle",
    "pos": "SF",
    "starter": true,
-   "min": 21.5,
+   "min": 24.7,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -372,14 +329,14 @@
     "ftm": 0.7,
     "fta": 0.83
    },
-   "slot": "SF"
+   "slot": "SG"
   },
   {
    "team": "LAL",
    "name": "Ziaire Williams",
    "pos": "SF",
-   "starter": false,
-   "min": 20.4,
+   "starter": true,
+   "min": 23.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -413,14 +370,15 @@
     "pf": 2.07,
     "ftm": 2.12,
     "fta": 2.5
-   }
+   },
+   "slot": "SF"
   },
   {
    "team": "LAL",
    "name": "Sandro Mamukelashvili",
    "pos": "C",
    "starter": false,
-   "min": 20.0,
+   "min": 22.9,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -461,7 +419,7 @@
    "name": "Collin Sexton",
    "pos": "SG",
    "starter": false,
-   "min": 16.3,
+   "min": 18.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -502,7 +460,7 @@
    "name": "Jarred Vanderbilt",
    "pos": "PF",
    "starter": false,
-   "min": 10.4,
+   "min": 11.9,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -543,7 +501,7 @@
    "name": "Carson Cooper",
    "pos": "PF",
    "starter": false,
-   "min": 8.6,
+   "min": 9.9,
    "g_cur": 2,
    "p_play": 1.0,
    "cur": {
@@ -584,7 +542,7 @@
    "name": "Adou Thiero",
    "pos": "SF",
    "starter": false,
-   "min": 7.1,
+   "min": 8.1,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {

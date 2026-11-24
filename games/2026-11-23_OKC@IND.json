@@ -26,9 +26,7 @@
    "Ben Sheppard",
    "Aaron Nesmith"
   ],
-  "gtd": {
-   "Pascal Siakam": 0.85
-  },
+  "gtd": {},
   "reserves": {
    "OKC": [
     {
@@ -158,7 +156,7 @@
    "starter": true,
    "min": 32.1,
    "g_cur": 16,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 32.2,
     "pts": 23.1,
@@ -986,11 +984,11 @@
   "ml_home": 160,
   "ml_away": -191,
   "spread_home": 4.5,
-  "total": 225.5,
+  "total": 226.5,
   "spread_odds_home": -110,
   "spread_odds_away": -110,
-  "over_odds": -112,
-  "under_odds": -108
+  "over_odds": -107,
+  "under_odds": -113
  },
  "prop_lines": {
   "Jared McCain": {

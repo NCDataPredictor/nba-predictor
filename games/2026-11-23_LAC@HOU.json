@@ -14,10 +14,7 @@
    "Bradley Beal",
    "Jordan Miller"
   ],
-  "gtd": {
-   "Brandon Ingram": 0.85,
-   "Clint Capela": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "LAC": [
     {
@@ -475,7 +472,7 @@
    "starter": false,
    "min": 12.7,
    "g_cur": 6,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 14.2,
     "pts": 3.2,
@@ -724,7 +721,7 @@
    "starter": true,
    "min": 21.5,
    "g_cur": 1,
-   "p_play": 0.85,
+   "p_play": 1.0,
    "cur": {
     "min": 26.0,
     "pts": 16.5,
@@ -1132,12 +1129,12 @@
  ],
  "market": {
   "source": "NBA.com/games 23-nov (10 partidos); consenso scoresandodds.com/nba?date=2026-11-23 (~11:30 ET) para el mercado; comparador Covers (10:09 ET, 9 casas) en odds/2026-11-23.json; Covers matchup/<id>/odds sin spread/total por casa",
-  "ml_home": -650,
-  "ml_away": 470,
+  "ml_home": -700,
+  "ml_away": 504,
   "spread_home": -12.5,
   "total": 223.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "spread_odds_home": -115,
+  "spread_odds_away": -106,
   "over_odds": -107,
   "under_odds": -113
  },

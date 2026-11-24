@@ -1,26 +1,6 @@
 {
  "list": [
   {
-   "id": "0ba6e77afcf19028",
-   "at": "2026-11-16T23:22+00:00",
-   "date": "2026-11-16",
-   "gid": "2026-11-16-HOU-at-MIA",
-   "title": "HOU @ MIA (7:30 pm ET): cambian los picks",
-   "body": "Sale: Alperen Sengun Under 6.5 Asistencias.",
-   "label": "Revisión 18:15 ET",
-   "url": "https://nba-predictor-9hf.pages.dev/#2026-11-16-HOU-at-MIA",
-   "added": [],
-   "removed": [
-    "Alperen Sengun Under 6.5 Asistencias"
-   ],
-   "moved": [],
-   "outs": [],
-   "doubts": [],
-   "back": [],
-   "planb": [],
-   "picks_changed": true
-  },
-  {
    "id": "9cd1fe02f6d8932a",
    "at": "2026-11-17T23:53+00:00",
    "date": "2026-11-17",
@@ -1282,7 +1262,47 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "88d82141b0563154",
+   "at": "2026-11-24T00:04+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-PHX-at-NOP",
+   "title": "PHX @ NOP (8:00 pm ET): cambian los picks",
+   "body": "Pick nuevo: Jeremiah Fears Under 17.5 Puntos.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-PHX-at-NOP",
+   "added": [
+    "Jeremiah Fears Under 17.5 Puntos"
+   ],
+   "removed": [],
+   "moved": [],
+   "outs": [],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
+  },
+  {
+   "id": "cc5afcb293e25c78",
+   "at": "2026-11-24T00:04+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-UTA-at-LAL",
+   "title": "UTA @ LAL (10:00 pm ET): novedades de bajas",
+   "body": "Bajas: Reaves OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 19:00 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-UTA-at-LAL",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Austin Reaves"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-23T23:22+00:00"
+ "updated": "2026-11-24T00:04+00:00"
 }
