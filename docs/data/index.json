@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-24T16:26+00:00",
+ "generated": "2026-11-24T23:19+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "morning",
+ "last_stage": "pregame",
  "updates": {
   "2026-11-11": {
    "morning": "2026-11-11T16:29+00:00",
@@ -73,7 +73,8 @@
    "results": "2026-11-24T08:14+00:00"
   },
   "2026-11-24": {
-   "morning": "2026-11-24T16:26+00:00"
+   "morning": "2026-11-24T16:26+00:00",
+   "pregame": "2026-11-24T23:19+00:00"
   }
  },
  "history": [
@@ -206928,7 +206929,7 @@
      "edge": -0.004,
      "ev": -0.014,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "bet365",
       "line": null,
@@ -207040,24 +207041,24 @@
      "team": "DAL",
      "line": 8.5,
      "odds": -114,
-     "dec": 1.879,
+     "dec": 1.875,
      "odds_assumed": false,
-     "p": 0.514,
-     "implied": 0.532,
+     "p": 0.515,
+     "implied": 0.533,
      "edge": -0.018,
      "ev": -0.034,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": 8.5,
       "odds": -110,
       "dec": 1.909,
-      "p": 0.514,
-      "ev": -0.019
+      "p": 0.515,
+      "ev": -0.017
      },
      "p_model": 0.532,
-     "p_mkt": 0.508,
+     "p_mkt": 0.509,
      "cand": false,
      "open": [
       8.5,
@@ -207243,12 +207244,12 @@
      "value": false,
      "n_books": 6,
      "best": {
-      "book": "BetMGM",
-      "line": 231.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.494,
-      "ev": -0.036
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 233.5,
+      "odds": -111,
+      "dec": 1.901,
+      "p": 0.533,
+      "ev": 0.013
      },
      "p_model": 0.492,
      "p_mkt": 0.494,
@@ -207714,7 +207715,7 @@
      "player": null,
      "team": "DEN",
      "line": null,
-     "odds": -328,
+     "odds": -327,
      "dec": 1.305,
      "odds_assumed": false,
      "p": 0.726,
@@ -207722,7 +207723,7 @@
      "edge": -0.04,
      "ev": -0.052,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "theScore Bet",
       "line": null,
@@ -207878,24 +207879,24 @@
      "team": "DEN",
      "line": -8.5,
      "odds": -106,
-     "dec": 1.943,
+     "dec": 1.946,
      "odds_assumed": false,
-     "p": 0.486,
-     "implied": 0.515,
+     "p": 0.485,
+     "implied": 0.514,
      "edge": -0.029,
      "ev": -0.056,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "BetMGM",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -8.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.486,
-      "ev": -0.051
+      "odds": -103,
+      "dec": 1.971,
+      "p": 0.485,
+      "ev": -0.044
      },
      "p_model": 0.468,
-     "p_mkt": 0.492,
+     "p_mkt": 0.491,
      "cand": false,
      "open": [
       -8.5,
