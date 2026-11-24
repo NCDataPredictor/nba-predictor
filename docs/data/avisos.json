@@ -1302,7 +1302,28 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "f18fdd669350c053",
+   "at": "2026-11-24T02:08+00:00",
+   "date": "2026-11-23",
+   "gid": "2026-11-23-SAS-at-SAC",
+   "title": "SAS @ SAC (10:00 pm ET): novedades de bajas",
+   "body": "Bajas: Fox, Wembanyama OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 21:05 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-23-SAS-at-SAC",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "De'Aaron Fox",
+    "Victor Wembanyama"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-24T00:04+00:00"
+ "updated": "2026-11-24T02:08+00:00"
 }
