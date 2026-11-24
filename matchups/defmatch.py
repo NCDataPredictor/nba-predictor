@@ -30,7 +30,7 @@ OUT = os.path.join(ROOT, "docs", "data", "defmatch")
 SLOT = {"PG": 1.0, "SG": 2.0, "SF": 3.0, "PF": 4.0, "C": 5.0, "G": 1.6, "F": 3.6, "G-F": 2.5, "F-G": 2.5, "F-C": 4.5, "C-F": 4.5}
 NBA_POS = {"G": 1.6, "F": 3.6, "C": 5.0}
 # parámetros del ajuste (elegidos con `backtest`, ver README)
-SD_FLOOR, STAR_B, H2H_G, SINK_IT = 0.75, 1.5, 3.0, 30
+SD_FLOOR, STAR_B, H2H_G, SINK_IT = 0.75, 3.0, 3.0, 30
 
 
 def _secs(v):
