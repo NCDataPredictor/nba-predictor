@@ -126,6 +126,20 @@ a { color: var(--accent) }
 .banner .logo { flex: none; width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center; background: var(--stripe); box-shadow: inset 0 -3px 0 rgba(0,0,0,.25) }
 :root[data-mode="cup"] .banner .logo { background: linear-gradient(150deg, #f6e2a6, var(--stripe) 45%, #7a5a14) }
 .banner .logo svg { width: 34px; height: 34px }
+/* Ambientación con el logo de la NBA (24-nov, pedido de Nicolas): logo en la marca, marca de agua difuminada en el
+   encabezado y una muy tenue en el fondo de la página (detrás de los paneles, solo asoma en los espacios). */
+.banner .logo.nba-mark { background: #fff; box-shadow: inset 0 -3px 0 rgba(0,0,0,.12) }
+.banner .logo.nba-mark img { width: 20px; height: 46px; display: block }
+:root[data-mode="cup"] .banner .logo.nba-mark img { filter: grayscale(1) sepia(.9) saturate(2.2) hue-rotate(-8deg) }
+.wm-box { position: absolute; inset: 0; overflow: hidden; pointer-events: none }
+.wm-box .wm { position: absolute; right: max(3%, 24px); top: -38%; height: 190%; aspect-ratio: 12.3 / 30; background: url(logos/nba-logoman.svg) center / contain no-repeat;
+  opacity: .13; transform: rotate(-14deg); filter: blur(1.2px) saturate(.8) }
+:root[data-mode="cup"] .wm-box .wm { filter: blur(1.2px) grayscale(1) sepia(1) saturate(2); opacity: .16 }
+.banner > .inner { position: relative }
+body::after { content: ""; position: fixed; z-index: -1; right: -40px; bottom: -60px; width: min(30vw, 300px); aspect-ratio: 12.3 / 30; pointer-events: none;
+  background: url(logos/nba-logoman.svg) center / contain no-repeat; opacity: .045; transform: rotate(-14deg); filter: grayscale(.3) }
+:root[data-mode="cup"] body::after { filter: grayscale(1) sepia(1); opacity: .06 }
+@media (max-width: 640px) { .wm-box .wm { right: -6px; height: 150%; top: -20%; opacity: .11 } body::after { width: 150px; right: -30px; bottom: -40px } }
 .banner .brand-t { display: grid; gap: 2px }
 .banner .brand-t > span { font: 500 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--banner-muted) }
 .banner h1 { font-size: clamp(34px, 6vw, 52px); letter-spacing: .02em }
@@ -1225,6 +1239,9 @@ dialog.psearch .g-head { gap: 8px }
 .dlg-m:hover, .dlg-m:focus-visible { transform: translateY(-2px); outline: 2px solid var(--accent) }
 .dlg-m small { font: 500 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; opacity: .8 }
 .dlg-m b { font: 700 19px var(--display); text-transform: uppercase }
+.dlg-m { overflow: hidden } .dlg-m small, .dlg-m b { position: relative }
+.dlg-wm { position: absolute; right: -8px; top: 50%; height: 120%; width: auto; transform: translateY(-50%) rotate(-12deg); opacity: .22; filter: blur(.6px); pointer-events: none }
+.dlg-wm.inv { filter: blur(.6px) brightness(0) invert(1) }
 .dlg-m.cur::after { content: "Estás aquí"; position: absolute; bottom: 8px; right: 8px; font: 600 9.5px var(--mono); text-transform: uppercase; background: rgba(255,255,255,.25); padding: 2px 6px; border-radius: 999px }
 .dlg-m.soon { opacity: .5; pointer-events: none }
 .dlg-m.soon::after { content: "Pronto"; position: absolute; bottom: 8px; right: 8px; font: 600 9.5px var(--mono); text-transform: uppercase; background: rgba(255,255,255,.2); padding: 2px 6px; border-radius: 999px }
@@ -1324,9 +1341,10 @@ td.pk[style*="--tc"] { box-shadow: inset 3px 0 0 var(--tc) }
 </style>
 
 <header class="banner gutter">
+  <div class="wm-box" aria-hidden="true"><span class="wm"></span></div>
   <div class="inner">
     <div class="brand-row"><button type="button" class="theme-btn back-btn" id="back-btn" aria-label="Volver" title="Volver"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
-    <a class="brand" href="#"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><circle cx="16" cy="16" r="13"/><path d="M3 16h26M16 3v26"/><path d="M7 6.5c4 3 6 6 6 9.5s-2 6.5-6 9.5M25 6.5c-4 3-6 6-6 9.5s2 6.5 6 9.5"/></svg></span>
+    <a class="brand" href="#"><span class="logo nba-mark" aria-hidden="true"><img src="logos/nba-logoman.svg" alt="" width="20" height="46"></span>
       <span class="brand-t"><span>Simulaciones Monte Carlo · NBA</span><h1>NBA Predictor</h1></span></a></div>
     <div class="side">
       <div class="meta" id="meta"></div>
@@ -1355,6 +1373,7 @@ td.pk[style*="--tc"] { box-shadow: inset 3px 0 0 var(--tc) }
       <a class="tab" href="#copa-grupos" id="tab-cg">Grupos Copa</a>
       <a class="tab" href="#rachas" id="tab-rk">Rachas</a>
       <a class="tab" href="#liga" id="tab-lg">Liga</a>
+      <a class="tab" href="#rendimiento" id="tab-perf">Rendimiento</a>
       <a class="tab" href="#mis-picks" id="tab-mine">Mis picks <span class="n" id="n-mine"></span></a>
     </nav>
   </div>
@@ -1961,52 +1980,6 @@ function renderIndex(scope = "reg") {
   const picks = allBets.filter(b => b.value);
   const mps = dayModelPicks(todays);
   const older = INDEX.games.filter(g => g.date !== DAY && inScope(g, scope));
-  const hist = INDEX.history || [];   // el récord del modelo es uno solo: se ve igual en Liga y en NBA Cup
-  const tot = hist.reduce((t, x) => ({ w: t.w + x.picks_won, l: t.l + x.picks_lost, u: t.u + x.units, g: t.g + x.games, ok: t.ok + x.winners_ok,
-    sw: t.sw + (x.sgp_won || 0), sl: t.sl + (x.sgp_lost || 0), cw: t.cw + (x.cross_won || 0), cl: t.cl + (x.cross_lost || 0),
-    vb: t.vb + (x.clv_beat || 0), vs: t.vs + (x.clv_same || 0), vl: t.vl + (x.clv_lost || 0) }), { w: 0, l: 0, u: 0, g: 0, ok: 0, sw: 0, sl: 0, cw: 0, cl: 0, vb: 0, vs: 0, vl: 0 });
-  const clvCell = (b, s, l) => b == null ? "—" : `<span title="${b} a favor, ${l} en contra, ${s} sin cambio">${b}–${l}</span>${s ? ` <span class="muted">(${s} =)</span>` : ""}`;
-  const recTxt = (w, l) => w || l ? `${w}–${l}` : "—";
-  const uTxt = u => `${u >= 0 ? "+" : ""}${u.toFixed(2)} u`;
-  // resumen = la última versión del modelo con jornadas liquidadas (las anteriores se ven en el detalle)
-  const lv = (INDEX.versions || []).at(-1), vh = lv ? hist.filter(x => x.model === lv.model).sort((x, y) => x.date < y.date ? -1 : 1) : hist;
-  const vt = vh.reduce((t, x) => ({ w: t.w + x.picks_won, l: t.l + x.picks_lost, u: t.u + x.units, vb: t.vb + (x.clv_beat || 0), vl: t.vl + (x.clv_lost || 0) }), { w: 0, l: 0, u: 0, vb: 0, vl: 0 });
-  const roi = vt.w + vt.l ? vt.u / (vt.w + vt.l) : null;
-  const evo = (() => {   // unidades acumuladas jornada a jornada de esa versión
-    if (vh.length < 2) return "";
-    let c = 0; const pts = [0, ...vh.map(x => (c += x.units))];
-    const lo = Math.min(0, ...pts), hi = Math.max(0, ...pts), sp = hi - lo || 1, X = i => (i / (pts.length - 1)) * 100, Y = v => 4 + (1 - (v - lo) / sp) * 52;
-    const line = pts.map((v, i) => `${X(i).toFixed(2)},${Y(v).toFixed(2)}`).join(" ");
-    return `<div class="evo panel"><div class="evo-h"><span class="eyebrow">Unidades acumuladas · modelo ${esc(lv.model)}</span><b class="num ${c >= 0 ? "pos" : "neg"}">${uTxt(c)}</b></div>
-      <svg viewBox="0 0 100 60" preserveAspectRatio="none" role="img" aria-label="Unidades acumuladas por jornada: ${pts.map(v => v.toFixed(1)).join(", ")}">
-        <line x1="0" x2="100" y1="${Y(0).toFixed(2)}" y2="${Y(0).toFixed(2)}" class="evo-0"/>
-        <polygon points="0,${Y(0).toFixed(2)} ${line} 100,${Y(0).toFixed(2)}" class="evo-a ${c >= 0 ? "pos" : "neg"}"/>
-        <polyline points="${line}" class="evo-l ${c >= 0 ? "pos" : "neg"}"/></svg>
-      <div class="evo-x"><span>${esc(vh[0].date.slice(5))}</span><span>${esc(vh.at(-1).date.slice(5))}</span></div></div>`;
-  })();
-  const histHtml = !hist.length ? "" : `<section class="section">
-    <h2>Cómo le ha ido al modelo ${qh("historial", "resultados del modelo")}</h2>
-    <p class="lede" style="margin-top:-4px">${lv ? `Modelo <b>${esc(lv.model)}</b>, del ${esc(lv.first.slice(5))} al ${esc(lv.last.slice(5))} (${vh.length} jornada${vh.length === 1 ? "" : "s"}).${INDEX.model && INDEX.model !== lv.model ? ` El ${esc(INDEX.model)} entra aquí cuando se liquide su primera jornada.` : ""} Las versiones anteriores están en el detalle.` : ""}</p>
-    <div class="kpis">
-      <div class="kpi"><span class="eyebrow">Picks</span><b class="num">${vt.w}–${vt.l}</b><span class="muted">${vt.w + vt.l ? (100 * vt.w / (vt.w + vt.l)).toFixed(1) + "% acierto" : ""}</span></div>
-      <div class="kpi"><span class="eyebrow">Unidades</span><b class="num cnt ${vt.u >= 0 ? "pos" : "neg"}">${uTxt(vt.u)}</b><span class="muted">${vh.length} jornadas</span></div>
-      <div class="kpi"><span class="eyebrow">ROI</span><b class="num cnt">${roi == null ? "—" : (roi >= 0 ? "+" : "") + (100 * roi).toFixed(1) + "%"}</b><span class="muted">a 1 u por pick</span></div>
-      <div class="kpi"><span class="eyebrow">Línea de cierre</span><b class="num">${vt.vb + vt.vl ? `${vt.vb}–${vt.vl}` : "—"}</b><span class="muted">a favor–en contra</span></div>
-    </div>
-    ${evo}
-    <details class="hist-d"><summary>Ver el detalle por versión y por jornada</summary>
-    <p class="lede">Picks con valor (EV ≥ +${(thr * 100).toFixed(0)}%) publicados antes de cada partido y liquidados con el resultado real. Unidades = ganancia apostando 1 a cada pick con la cuota promedio. SGP y parlays: combinadas recomendadas acertadas–falladas. <b>Línea de cierre</b>: picks cuya línea o cuota se movió a su favor–en contra entre el análisis de la mañana y el inicio del partido (entre paréntesis, los que no cambiaron); ganarle al cierre con frecuencia es la mejor señal de que el modelo encuentra valor real, más allá de la suerte del resultado${tot.vb + tot.vl ? `: en total <b>${tot.vb}–${tot.vl}</b>` : ""}. ${tot.w + tot.l < 100 ? "Con tan pocos picks el resultado es sobre todo suerte: hacen falta cientos para juzgar el modelo." : ""}</p>
-    ${(INDEX.versions || []).length > 1 ? `<h3>Por versión del modelo</h3>
-    <div class="panel tbl-wrap"><table class="stack"><thead><tr><th>Versión</th><th>Jornadas</th><th class="r">Picks ganados–perdidos</th><th class="r">% acierto</th><th class="r">Unidades</th><th class="r">ROI</th><th class="r">Picks por jornada</th><th class="r">Línea de cierre</th></tr></thead><tbody>
-      ${INDEX.versions.map(v => { const n = v.picks_won + v.picks_lost; return `<tr><td class="head"><b>${esc(v.model)}</b><br><span class="muted">${esc(v.desc)}</span></td><td data-label="Jornadas">${esc(v.first.slice(5))}${v.last !== v.first ? ` a ${esc(v.last.slice(5))}` : ""} (${v.days})</td><td class="r num" data-label="Picks">${v.picks_won}–${v.picks_lost}</td><td class="r num" data-label="% acierto">${n ? (100 * v.picks_won / n).toFixed(1) + "%" : "—"}</td><td class="r num" data-label="Unidades">${uTxt(v.units)}</td><td class="r num" data-label="ROI">${v.roi == null ? "—" : (v.roi >= 0 ? "+" : "") + (100 * v.roi).toFixed(1) + "%"}</td><td class="r num" data-label="Picks por jornada">${(n / v.days).toFixed(0)}</td><td class="r num" data-label="Línea de cierre">${clvCell(v.clv_beat, v.clv_same, v.clv_lost)}</td></tr>`; }).join("")}
-    </tbody></table></div>
-    <h3>Por jornada</h3>` : ""}
-    <div class="panel tbl-wrap"><table class="stack"><thead><tr><th>Jornada</th><th>Modelo</th><th class="r">Ganador acertado</th><th class="r">Picks ganados–perdidos</th><th class="r">Unidades</th><th class="r">SGP</th><th class="r">Parlays entre partidos</th><th class="r">Línea de cierre</th></tr></thead><tbody>
-      ${hist.map(x => `<tr><td class="head">${esc(x.date)}</td><td data-label="Modelo">${esc(x.model || "")}</td><td class="r num" data-label="Ganador acertado">${x.winners_ok} de ${x.games}</td><td class="r num" data-label="Picks">${x.picks_won}–${x.picks_lost}</td><td class="r num" data-label="Unidades">${uTxt(x.units)}</td><td class="r num" data-label="SGP">${recTxt(x.sgp_won, x.sgp_lost)}</td><td class="r num" data-label="Parlays entre partidos">${recTxt(x.cross_won, x.cross_lost)}</td><td class="r num" data-label="Línea de cierre">${clvCell(x.clv_beat, x.clv_same, x.clv_lost)}</td></tr>`).join("")}
-      ${hist.length > 1 ? `<tr><td class="head"><b>Total</b></td><td></td><td class="r num" data-label="Ganador acertado">${tot.ok} de ${tot.g}</td><td class="r num" data-label="Picks">${tot.w}–${tot.l}</td><td class="r num" data-label="Unidades">${uTxt(tot.u)}</td><td class="r num" data-label="SGP">${recTxt(tot.sw, tot.sl)}</td><td class="r num" data-label="Parlays entre partidos">${recTxt(tot.cw, tot.cl)}</td><td class="r num" data-label="Línea de cierre">${clvCell(tot.vb, tot.vs, tot.vl)}</td></tr>` : ""}
-    </tbody></table></div>
-    </details>
-  </section>`;
   const cup = scope === "cup";
   if (cup && !todays.length) {
     $("#app").innerHTML = INTRO() + CUP_HERO(0) + cupStudy() + olderSection(older, true);
@@ -2055,7 +2028,7 @@ function renderIndex(scope = "reg") {
     <div class="games">${todays.map((g, i) => card(g, i)).join("") || `<div class="empty">No hay partidos para esta jornada.</div>`}</div>
     ${todays.length ? `<p class="foot">El % es la probabilidad de ganar en las simulaciones (en verde, el favorito) y la barra la reparte con el color de cada equipo. La barrita del total va de ${TOT_LO} puntos (partido lento) a ${TOT_HI} (muy anotador); en verde desde 230. Horas de Bogotá.</p>` : ""}
   </section>
-  ${histHtml}
+  ${(INDEX.history || []).length ? `<a class="seeall perf-link" href="#rendimiento">Ver cómo le ha ido al modelo (récord, unidades y ROI) →</a>` : ""}
   ${olderSection(older, cup)}
   <p class="foot">EV alto (+15% o más) al inicio de temporada suele indicar que al modelo le falta información (lesiones, rotaciones); revisa el contexto del partido antes de apostar. Herramienta de análisis, no consejo de apuesta.</p>`;
   const open = new Set();   // acordeones abiertos, se conservan al cambiar de filtro
@@ -2111,6 +2084,74 @@ function renderIndex(scope = "reg") {
   drawEv();
   if ($("#picks-mp")) bindLinks($("#picks-mp"));
   bindParlays(todays, thr);
+  addFolds();
+}
+
+// Rendimiento del modelo en su propia pestaña (24-nov, pedido de Nicolas: fuera de la portada, como en la Serie A).
+function perfHtml() {
+  const thr = INDEX.value_ev;
+  const hist = INDEX.history || [];   // el récord del modelo es uno solo: se ve igual en Liga y en NBA Cup
+  const tot = hist.reduce((t, x) => ({ w: t.w + x.picks_won, l: t.l + x.picks_lost, u: t.u + x.units, g: t.g + x.games, ok: t.ok + x.winners_ok,
+    sw: t.sw + (x.sgp_won || 0), sl: t.sl + (x.sgp_lost || 0), cw: t.cw + (x.cross_won || 0), cl: t.cl + (x.cross_lost || 0),
+    vb: t.vb + (x.clv_beat || 0), vs: t.vs + (x.clv_same || 0), vl: t.vl + (x.clv_lost || 0) }), { w: 0, l: 0, u: 0, g: 0, ok: 0, sw: 0, sl: 0, cw: 0, cl: 0, vb: 0, vs: 0, vl: 0 });
+  const clvCell = (b, s, l) => b == null ? "—" : `<span title="${b} a favor, ${l} en contra, ${s} sin cambio">${b}–${l}</span>${s ? ` <span class="muted">(${s} =)</span>` : ""}`;
+  const recTxt = (w, l) => w || l ? `${w}–${l}` : "—";
+  const uTxt = u => `${u >= 0 ? "+" : ""}${u.toFixed(2)} u`;
+  // resumen = la última versión del modelo con jornadas liquidadas (las anteriores se ven en el detalle)
+  const lv = (INDEX.versions || []).at(-1), vh = lv ? hist.filter(x => x.model === lv.model).sort((x, y) => x.date < y.date ? -1 : 1) : hist;
+  const vt = vh.reduce((t, x) => ({ w: t.w + x.picks_won, l: t.l + x.picks_lost, u: t.u + x.units, vb: t.vb + (x.clv_beat || 0), vl: t.vl + (x.clv_lost || 0) }), { w: 0, l: 0, u: 0, vb: 0, vl: 0 });
+  const roi = vt.w + vt.l ? vt.u / (vt.w + vt.l) : null;
+  const evo = (() => {   // unidades acumuladas jornada a jornada de esa versión
+    if (vh.length < 2) return "";
+    let c = 0; const pts = [0, ...vh.map(x => (c += x.units))];
+    const lo = Math.min(0, ...pts), hi = Math.max(0, ...pts), sp = hi - lo || 1, X = i => (i / (pts.length - 1)) * 100, Y = v => 4 + (1 - (v - lo) / sp) * 52;
+    const line = pts.map((v, i) => `${X(i).toFixed(2)},${Y(v).toFixed(2)}`).join(" ");
+    return `<div class="evo panel"><div class="evo-h"><span class="eyebrow">Unidades acumuladas · modelo ${esc(lv.model)}</span><b class="num ${c >= 0 ? "pos" : "neg"}">${uTxt(c)}</b></div>
+      <svg viewBox="0 0 100 60" preserveAspectRatio="none" role="img" aria-label="Unidades acumuladas por jornada: ${pts.map(v => v.toFixed(1)).join(", ")}">
+        <line x1="0" x2="100" y1="${Y(0).toFixed(2)}" y2="${Y(0).toFixed(2)}" class="evo-0"/>
+        <polygon points="0,${Y(0).toFixed(2)} ${line} 100,${Y(0).toFixed(2)}" class="evo-a ${c >= 0 ? "pos" : "neg"}"/>
+        <polyline points="${line}" class="evo-l ${c >= 0 ? "pos" : "neg"}"/></svg>
+      <div class="evo-x"><span>${esc(vh[0].date.slice(5))}</span><span>${esc(vh.at(-1).date.slice(5))}</span></div></div>`;
+  })();
+  const histHtml = !hist.length ? "" : `<section class="section">
+    <h2>Cómo le ha ido al modelo ${qh("historial", "resultados del modelo")}</h2>
+    <p class="lede" style="margin-top:-4px">${lv ? `Modelo <b>${esc(lv.model)}</b>, del ${esc(lv.first.slice(5))} al ${esc(lv.last.slice(5))} (${vh.length} jornada${vh.length === 1 ? "" : "s"}).${INDEX.model && INDEX.model !== lv.model ? ` El ${esc(INDEX.model)} entra aquí cuando se liquide su primera jornada.` : ""} Las versiones anteriores están en el detalle.` : ""}</p>
+    <div class="kpis">
+      <div class="kpi"><span class="eyebrow">Picks</span><b class="num">${vt.w}–${vt.l}</b><span class="muted">${vt.w + vt.l ? (100 * vt.w / (vt.w + vt.l)).toFixed(1) + "% acierto" : ""}</span></div>
+      <div class="kpi"><span class="eyebrow">Unidades</span><b class="num cnt ${vt.u >= 0 ? "pos" : "neg"}">${uTxt(vt.u)}</b><span class="muted">${vh.length} jornadas</span></div>
+      <div class="kpi"><span class="eyebrow">ROI</span><b class="num cnt">${roi == null ? "—" : (roi >= 0 ? "+" : "") + (100 * roi).toFixed(1) + "%"}</b><span class="muted">a 1 u por pick</span></div>
+      <div class="kpi"><span class="eyebrow">Línea de cierre</span><b class="num">${vt.vb + vt.vl ? `${vt.vb}–${vt.vl}` : "—"}</b><span class="muted">a favor–en contra</span></div>
+    </div>
+    ${evo}
+    <details class="hist-d"><summary>Ver el detalle por versión y por jornada</summary>
+    <p class="lede">Picks con valor (EV ≥ +${(thr * 100).toFixed(0)}%) publicados antes de cada partido y liquidados con el resultado real. Unidades = ganancia apostando 1 a cada pick con la cuota promedio. SGP y parlays: combinadas recomendadas acertadas–falladas. <b>Línea de cierre</b>: picks cuya línea o cuota se movió a su favor–en contra entre el análisis de la mañana y el inicio del partido (entre paréntesis, los que no cambiaron); ganarle al cierre con frecuencia es la mejor señal de que el modelo encuentra valor real, más allá de la suerte del resultado${tot.vb + tot.vl ? `: en total <b>${tot.vb}–${tot.vl}</b>` : ""}. ${tot.w + tot.l < 100 ? "Con tan pocos picks el resultado es sobre todo suerte: hacen falta cientos para juzgar el modelo." : ""}</p>
+    ${(INDEX.versions || []).length > 1 ? `<h3>Por versión del modelo</h3>
+    <div class="panel tbl-wrap"><table class="stack"><thead><tr><th>Versión</th><th>Jornadas</th><th class="r">Picks ganados–perdidos</th><th class="r">% acierto</th><th class="r">Unidades</th><th class="r">ROI</th><th class="r">Picks por jornada</th><th class="r">Línea de cierre</th></tr></thead><tbody>
+      ${INDEX.versions.map(v => { const n = v.picks_won + v.picks_lost; return `<tr><td class="head"><b>${esc(v.model)}</b><br><span class="muted">${esc(v.desc)}</span></td><td data-label="Jornadas">${esc(v.first.slice(5))}${v.last !== v.first ? ` a ${esc(v.last.slice(5))}` : ""} (${v.days})</td><td class="r num" data-label="Picks">${v.picks_won}–${v.picks_lost}</td><td class="r num" data-label="% acierto">${n ? (100 * v.picks_won / n).toFixed(1) + "%" : "—"}</td><td class="r num" data-label="Unidades">${uTxt(v.units)}</td><td class="r num" data-label="ROI">${v.roi == null ? "—" : (v.roi >= 0 ? "+" : "") + (100 * v.roi).toFixed(1) + "%"}</td><td class="r num" data-label="Picks por jornada">${(n / v.days).toFixed(0)}</td><td class="r num" data-label="Línea de cierre">${clvCell(v.clv_beat, v.clv_same, v.clv_lost)}</td></tr>`; }).join("")}
+    </tbody></table></div>
+    <h3>Por jornada</h3>` : ""}
+    <div class="panel tbl-wrap"><table class="stack"><thead><tr><th>Jornada</th><th>Modelo</th><th class="r">Ganador acertado</th><th class="r">Picks ganados–perdidos</th><th class="r">Unidades</th><th class="r">SGP</th><th class="r">Parlays entre partidos</th><th class="r">Línea de cierre</th></tr></thead><tbody>
+      ${hist.map(x => `<tr><td class="head">${esc(x.date)}</td><td data-label="Modelo">${esc(x.model || "")}</td><td class="r num" data-label="Ganador acertado">${x.winners_ok} de ${x.games}</td><td class="r num" data-label="Picks">${x.picks_won}–${x.picks_lost}</td><td class="r num" data-label="Unidades">${uTxt(x.units)}</td><td class="r num" data-label="SGP">${recTxt(x.sgp_won, x.sgp_lost)}</td><td class="r num" data-label="Parlays entre partidos">${recTxt(x.cross_won, x.cross_lost)}</td><td class="r num" data-label="Línea de cierre">${clvCell(x.clv_beat, x.clv_same, x.clv_lost)}</td></tr>`).join("")}
+      ${hist.length > 1 ? `<tr><td class="head"><b>Total</b></td><td></td><td class="r num" data-label="Ganador acertado">${tot.ok} de ${tot.g}</td><td class="r num" data-label="Picks">${tot.w}–${tot.l}</td><td class="r num" data-label="Unidades">${uTxt(tot.u)}</td><td class="r num" data-label="SGP">${recTxt(tot.sw, tot.sl)}</td><td class="r num" data-label="Parlays entre partidos">${recTxt(tot.cw, tot.cl)}</td><td class="r num" data-label="Línea de cierre">${clvCell(tot.vb, tot.vs, tot.vl)}</td></tr>` : ""}
+    </tbody></table></div>
+    </details>
+  </section>`;
+  return histHtml;
+}
+// Récord acumulado de cada soñadora (todas sus jornadas, aunque en la portada solo se vean las 5 últimas).
+function perfDreams() {
+  const uTxt = x => `${x >= 0 ? "+" : ""}${x.toFixed(2)} u`;
+  const rows = DREAM_KINDS.map(([k, t]) => {
+    const all = INDEX[k] || {}, done = Object.keys(all).filter(d => all[d].units != null && all[d].result);
+    if (!done.length) return "";
+    const w = done.filter(d => all[d].result === "won").length, l = done.length - w, u = done.reduce((s, d) => s + all[d].units, 0);
+    return `<div class="kpi"><span class="eyebrow">${esc(t)}</span><b class="num ${u >= 0 ? "pos" : "neg"}">${uTxt(u)}</b><span class="muted">${w}–${l} · ROI ${(100 * u / done.length) >= 0 ? "+" : ""}${(100 * u / done.length).toFixed(1)}%</span></div>`;
+  }).join("");
+  return rows ? `<section class="section"><h2>Parlay soñador</h2><p class="lede" style="margin-top:-4px">Récord acumulado de cada soñadora, a 1 unidad por jornada. El detalle de las últimas 5 jornadas está en la pestaña <a href="#">Liga regular</a>, sección Parlay soñador.</p><div class="kpis">${rows}</div></section>` : "";
+}
+function renderPerf() {
+  const h = (INDEX.history || []).length ? perfHtml() : `<section class="section"><h2>Cómo le ha ido al modelo</h2><div class="panel"><div class="empty">Todavía no hay jornadas liquidadas.</div></div></section>`;
+  $("#app").innerHTML = `<div class="perf-page"><span class="eyebrow">NBA · temporada ${esc(seasonTxt(DAY))}</span>${h}${perfDreams()}</div>`;
   addFolds();
 }
 
@@ -2334,6 +2375,7 @@ function dreamPast(d, x, uTxt) {
 const dreamIn = (pl, scope) => !pl || !(pl.legs || []).length || pl.legs.some(l => { const g = INDEX.games.find(x => x.id === l.gid); return !g || inScope(g, scope); });
 const DREAM_KINDS = [["dream", "Soñadora normal", "Las líneas principales más probables del modelo, como mucho 2 por partido y como mucho la mitad al Under."],
   ["dream_ladder", "Soñadora escalonada (Bet Builder)", "En cada partido un Bet Builder de hasta 2 líneas X+ (más bajas que la principal, siempre al Over). Cuotas (≈) estimadas con el margen de una casa colombiana: confírmalas en tu casa."]];
+const DREAM_PAST_MAX = 5;   // 24-nov, pedido de Nicolas: el seguimiento muestra solo las 5 últimas jornadas de cada soñadora
 function dreamBlock(kind, title, note, scope, thr) {
   useDream(kind);
   const all0 = INDEX[kind] || {}, all = Object.fromEntries(Object.entries(all0).filter(([, x]) => dreamIn(x, scope))), pl = all[DAY];
@@ -2346,8 +2388,8 @@ function dreamBlock(kind, title, note, scope, thr) {
     ${pl ? `<div class="pl-list">${dreamCard(pl, thr)}</div>` : `<div class="panel"><div class="empty">Hoy ninguna combinación de patas con buena probabilidad llega a cuota 50.</div></div>`}
     ${done.length ? `<h3>Seguimiento${two ? ` · ${esc(title)}` : " del soñador"}</h3>
     <p class="muted">1 unidad por jornada. Acertados–fallados: ${w}–${l} · ${uTxt(u)}${w + l ? ` · ROI ${(100 * u / (w + l)) >= 0 ? "+" : ""}${(100 * u / (w + l)).toFixed(1)}%` : ""}</p>
-    <p class="muted">Toca una jornada para ver qué patas se acertaron y cuáles se fallaron.</p>
-    <div class="dream-past">${done.map(d => dreamPast(d, all[d], uTxt)).join("")}</div>` : ""}`;
+    <p class="muted">${done.length > DREAM_PAST_MAX ? `Las ${DREAM_PAST_MAX} últimas jornadas (el récord de arriba cuenta todas). ` : ""}Toca una jornada para ver qué patas se acertaron y cuáles se fallaron.</p>
+    <div class="dream-past">${done.slice(0, DREAM_PAST_MAX).map(d => dreamPast(d, all[d], uTxt)).join("")}</div>` : ""}`;
 }
 function dreamSection(scope = "reg") {
   const thr = INDEX.value_ev, prev = DK;
@@ -4727,14 +4769,14 @@ function route() {
   // días de Copa (13-nov, pedido de Nicolas): toda la web con la paleta de la Copa, no solo su pestaña
   const cupDay = INDEX.games.some(g => g.date === DAY && isCup(g));
   if (scope === "cup" || cupDay) document.documentElement.dataset.mode = "cup"; else delete document.documentElement.dataset.mode;
-  ["#tab-reg", "#tab-cup", "#tab-cg", "#tab-rk", "#tab-lg", "#tab-mine"].forEach(t => $(t).toggleAttribute("aria-current", false));
-  $(id === "mis-picks" ? "#tab-mine" : id === "copa-grupos" ? "#tab-cg" : id === "rachas" ? "#tab-rk" : id === "liga" ? "#tab-lg" : scope === "cup" ? "#tab-cup" : "#tab-reg").setAttribute("aria-current", "page");
+  ["#tab-reg", "#tab-cup", "#tab-cg", "#tab-rk", "#tab-lg", "#tab-perf", "#tab-mine"].forEach(t => $(t).toggleAttribute("aria-current", false));
+  $(id === "mis-picks" ? "#tab-mine" : id === "copa-grupos" ? "#tab-cg" : id === "rachas" ? "#tab-rk" : id === "liga" ? "#tab-lg" : id === "rendimiento" ? "#tab-perf" : scope === "cup" ? "#tab-cup" : "#tab-reg").setAttribute("aria-current", "page");
   { const tb = document.querySelector('.tabs [aria-current="page"]'), tw = tb && tb.parentElement; if (tw && tw.scrollWidth > tw.clientWidth) tw.scrollLeft = tb.offsetLeft - (tw.clientWidth - tb.offsetWidth) / 2; }
   markTicker(game ? id : null);
   $("#to-top-t").textContent = game ? "Inicio del partido" : "Arriba";
   SEG = game || id.startsWith("todos") ? "all" : "top";
   BS.k = "ev"; BS.asc = false;
-  if (game) renderGame(id); else if (id === "mis-picks") renderMine(); else if (id === "rachas") renderStreaks(); else if (id === "liga") renderLeague(); else if (id === "copa-grupos") cupGroupsPage(); else if (id.startsWith("todos")) renderAll(scope); else renderIndex(scope);
+  if (game) renderGame(id); else if (id === "mis-picks") renderMine(); else if (id === "rachas") renderStreaks(); else if (id === "liga") renderLeague(); else if (id === "rendimiento") renderPerf(); else if (id === "copa-grupos") cupGroupsPage(); else if (id.startsWith("todos")) renderAll(scope); else renderIndex(scope);
 }
 
 // Mi combinada: el usuario junta picks de cualquier parte de la página (botón "+" de cada pick, "Agregar a mi combinada"
@@ -5367,15 +5409,15 @@ $("#back-btn").addEventListener("click", () => {
   else location.href = "../";
 });
 const MODELOS_NAV = [
-  { n: "NBA", d: "Baloncesto", url: "./", m1: "#0b1a3a", m2: "#1d428a", cur: true },
-  { n: "Serie A", d: "Fútbol · Italia", url: "../serie-a/", m1: "#1a1659", m2: "#0032a0" },
+  { n: "NBA", d: "Baloncesto", url: "./", m1: "#0b1a3a", m2: "#1d428a", cur: true, lg: "logos/nba-logoman.svg" },
+  { n: "Serie A", d: "Fútbol · Italia", url: "../serie-a/", m1: "#1a1659", m2: "#0032a0", lg: "../logos/serie-a.png" },
   { n: "Premier League", d: "Fútbol · Inglaterra", m1: "#38003c", m2: "#5b0a63", pronto: true },
   { n: "LaLiga", d: "Fútbol · España", m1: "#1f1f1f", m2: "#3a3a3a", pronto: true },
-  { n: "Champions", d: "Fútbol · Europa", m1: "#0a1446", m2: "#1b2a7a", pronto: true },
+  { n: "Champions", d: "Fútbol · Europa", url: "../champions/", m1: "#0a1446", m2: "#1b2a7a", lg: "../logos/champions.png", inv: true },
   { n: "Europa League", d: "Fútbol · Europa", m1: "#2b1a00", m2: "#5a3600", pronto: true }];
 {
   const dlg = $("#modelos-dlg");
-  $("#modelos-grid").innerHTML = MODELOS_NAV.map(m => `<a class="dlg-m${m.cur ? " cur" : ""}${m.pronto ? " soon" : ""}" ${m.url ? `href="${m.url}"` : 'aria-disabled="true"'}${m.cur ? ' aria-current="page"' : ""} style="--m1:${m.m1};--m2:${m.m2}"><small>${m.d}</small><b>${m.n}</b></a>`).join("");
+  $("#modelos-grid").innerHTML = MODELOS_NAV.map(m => `<a class="dlg-m${m.cur ? " cur" : ""}${m.pronto ? " soon" : ""}" ${m.url ? `href="${m.url}"` : 'aria-disabled="true"'}${m.cur ? ' aria-current="page"' : ""} style="--m1:${m.m1};--m2:${m.m2}">${m.lg ? `<img class="dlg-wm${m.inv ? " inv" : ""}" src="${m.lg}" alt="" aria-hidden="true" onerror="this.remove()">` : ""}<small>${m.d}</small><b>${m.n}</b></a>`).join("");
   $("#modelos-btn").addEventListener("click", () => { if (dlg.showModal) dlg.showModal(); else location.href = "../"; });
   $("#modelos-x").addEventListener("click", () => dlg.close());
   dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
