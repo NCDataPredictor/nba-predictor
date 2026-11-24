@@ -105141,6 +105141,2137 @@
      ]
     ]
    }
+  },
+  {
+   "date": "2025-10-29",
+   "nba_id": "0022500129",
+   "away": "ORL",
+   "home": "DET",
+   "score": {
+    "ORL": 116,
+    "DET": 135
+   },
+   "ot": 0,
+   "players": {
+    "ORL": [
+     [
+      "Paolo Banchero",
+      35,
+      24,
+      11,
+      7,
+      0
+     ],
+     [
+      "Franz Wagner",
+      33,
+      22,
+      7,
+      2,
+      3
+     ],
+     [
+      "Desmond Bane",
+      31,
+      12,
+      5,
+      2,
+      1
+     ],
+     [
+      "Goga Bitadze",
+      27,
+      10,
+      6,
+      2,
+      0
+     ],
+     [
+      "Anthony Black",
+      24,
+      10,
+      4,
+      1,
+      1
+     ],
+     [
+      "Jalen Suggs",
+      21,
+      8,
+      2,
+      5,
+      1
+     ],
+     [
+      "Tristan da Silva",
+      21,
+      15,
+      3,
+      0,
+      3
+     ],
+     [
+      "Wendell Carter Jr.",
+      15,
+      8,
+      2,
+      1,
+      2
+     ],
+     [
+      "Noah Penda",
+      12,
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      "Tyus Jones",
+      9,
+      3,
+      0,
+      1,
+      1
+     ],
+     [
+      "Jonathan Isaac",
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Jase Richardson",
+      4,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      "Jett Howard",
+      4,
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "DET": [
+     [
+      "Cade Cunningham",
+      36,
+      30,
+      6,
+      10,
+      1
+     ],
+     [
+      "Jalen Duren",
+      33,
+      21,
+      13,
+      2,
+      0
+     ],
+     [
+      "Tobias Harris",
+      30,
+      23,
+      2,
+      3,
+      1
+     ],
+     [
+      "Ausar Thompson",
+      29,
+      12,
+      11,
+      6,
+      1
+     ],
+     [
+      "Duncan Robinson",
+      29,
+      15,
+      5,
+      2,
+      4
+     ],
+     [
+      "Ronald Holland II",
+      23,
+      10,
+      2,
+      1,
+      2
+     ],
+     [
+      "Isaiah Stewart",
+      18,
+      9,
+      4,
+      1,
+      1
+     ],
+     [
+      "Javonte Green",
+      17,
+      9,
+      2,
+      1,
+      3
+     ],
+     [
+      "Caris LeVert",
+      16,
+      4,
+      1,
+      2,
+      0
+     ],
+     [
+      "Chaz Lanier",
+      3,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      "Paul Reed",
+      3,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      "Daniss Jenkins",
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-05",
+   "nba_id": "0022500174",
+   "away": "WAS",
+   "home": "BOS",
+   "score": {
+    "WAS": 107,
+    "BOS": 136
+   },
+   "ot": 0,
+   "players": {
+    "WAS": [
+     [
+      "Bub Carrington",
+      31,
+      3,
+      5,
+      6,
+      1
+     ],
+     [
+      "Alex Sarr",
+      29,
+      31,
+      8,
+      2,
+      4
+     ],
+     [
+      "Kyshawn George",
+      28,
+      9,
+      2,
+      3,
+      0
+     ],
+     [
+      "Tre Johnson",
+      24,
+      7,
+      1,
+      1,
+      1
+     ],
+     [
+      "Justin Champagnie",
+      19,
+      12,
+      6,
+      0,
+      2
+     ],
+     [
+      "CJ McCollum",
+      18,
+      3,
+      1,
+      4,
+      0
+     ],
+     [
+      "Malaki Branham",
+      17,
+      10,
+      3,
+      0,
+      0
+     ],
+     [
+      "Bilal Coulibaly",
+      16,
+      1,
+      2,
+      3,
+      0
+     ],
+     [
+      "Marvin Bagley III",
+      13,
+      11,
+      5,
+      2,
+      0
+     ],
+     [
+      "Corey Kispert",
+      13,
+      8,
+      2,
+      1,
+      1
+     ],
+     [
+      "Will Riley",
+      12,
+      4,
+      2,
+      1,
+      0
+     ],
+     [
+      "Cam Whitmore",
+      8,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      "AJ Johnson",
+      6,
+      1,
+      2,
+      1,
+      0
+     ],
+     [
+      "Tristan Vukčević",
+      6,
+      5,
+      1,
+      1,
+      0
+     ]
+    ],
+    "BOS": [
+     [
+      "Josh Minott",
+      34,
+      21,
+      5,
+      0,
+      3
+     ],
+     [
+      "Anfernee Simons",
+      30,
+      18,
+      0,
+      2,
+      4
+     ],
+     [
+      "Derrick White",
+      29,
+      12,
+      3,
+      8,
+      2
+     ],
+     [
+      "Jaylen Brown",
+      26,
+      35,
+      5,
+      5,
+      2
+     ],
+     [
+      "Neemias Queta",
+      24,
+      15,
+      12,
+      5,
+      0
+     ],
+     [
+      "Jordan Walsh",
+      24,
+      7,
+      7,
+      1,
+      1
+     ],
+     [
+      "Payton Pritchard",
+      24,
+      18,
+      2,
+      5,
+      2
+     ],
+     [
+      "Sam Hauser",
+      22,
+      3,
+      2,
+      3,
+      1
+     ],
+     [
+      "Hugo González",
+      17,
+      5,
+      2,
+      1,
+      1
+     ],
+     [
+      "Luka Garza",
+      7,
+      2,
+      2,
+      1,
+      0
+     ],
+     [
+      "Baylor Scheierman",
+      4,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-28",
+   "nba_id": "0022500072",
+   "away": "ORL",
+   "home": "DET",
+   "score": {
+    "ORL": 112,
+    "DET": 109
+   },
+   "ot": 0,
+   "players": {
+    "ORL": [
+     [
+      "Desmond Bane",
+      39,
+      37,
+      8,
+      2,
+      0
+     ],
+     [
+      "Franz Wagner",
+      36,
+      21,
+      7,
+      1,
+      0
+     ],
+     [
+      "Jalen Suggs",
+      34,
+      14,
+      4,
+      1,
+      2
+     ],
+     [
+      "Wendell Carter Jr.",
+      32,
+      8,
+      11,
+      3,
+      2
+     ],
+     [
+      "Anthony Black",
+      32,
+      16,
+      4,
+      4,
+      1
+     ],
+     [
+      "Tristan da Silva",
+      21,
+      8,
+      3,
+      0,
+      0
+     ],
+     [
+      "Tyus Jones",
+      18,
+      0,
+      1,
+      3,
+      0
+     ],
+     [
+      "Goga Bitadze",
+      14,
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      "Jonathan Isaac",
+      14,
+      4,
+      3,
+      0,
+      0
+     ]
+    ],
+    "DET": [
+     [
+      "Cade Cunningham",
+      40,
+      39,
+      13,
+      11,
+      4
+     ],
+     [
+      "Duncan Robinson",
+      35,
+      9,
+      1,
+      3,
+      3
+     ],
+     [
+      "Jalen Duren",
+      31,
+      16,
+      12,
+      2,
+      0
+     ],
+     [
+      "Tobias Harris",
+      30,
+      18,
+      5,
+      1,
+      1
+     ],
+     [
+      "Caris LeVert",
+      24,
+      7,
+      1,
+      0,
+      1
+     ],
+     [
+      "Ausar Thompson",
+      23,
+      8,
+      7,
+      2,
+      0
+     ],
+     [
+      "Isaiah Stewart",
+      14,
+      8,
+      6,
+      1,
+      1
+     ],
+     [
+      "Javonte Green",
+      10,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      "Jaden Ivey",
+      10,
+      3,
+      0,
+      0,
+      1
+     ],
+     [
+      "Ronald Holland II",
+      9,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      "Daniss Jenkins",
+      8,
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      "Paul Reed",
+      6,
+      1,
+      1,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-01",
+   "nba_id": "0022500315",
+   "away": "DAL",
+   "home": "DEN",
+   "score": {
+    "DAL": 131,
+    "DEN": 121
+   },
+   "ot": 0,
+   "players": {
+    "DAL": [
+     [
+      "Ryan Nembhard",
+      35,
+      28,
+      3,
+      10,
+      4
+     ],
+     [
+      "Cooper Flagg",
+      33,
+      24,
+      8,
+      2,
+      1
+     ],
+     [
+      "Naji Marshall",
+      33,
+      9,
+      7,
+      6,
+      1
+     ],
+     [
+      "Anthony Davis",
+      32,
+      32,
+      13,
+      4,
+      2
+     ],
+     [
+      "Max Christie",
+      29,
+      9,
+      2,
+      1,
+      3
+     ],
+     [
+      "Klay Thompson",
+      23,
+      15,
+      5,
+      1,
+      3
+     ],
+     [
+      "D'Angelo Russell",
+      18,
+      8,
+      0,
+      2,
+      2
+     ],
+     [
+      "Dwight Powell",
+      16,
+      4,
+      2,
+      4,
+      0
+     ],
+     [
+      "Brandon Williams",
+      13,
+      2,
+      1,
+      4,
+      0
+     ],
+     [
+      "Caleb Martin",
+      7,
+      0,
+      2,
+      1,
+      0
+     ]
+    ],
+    "DEN": [
+     [
+      "Spencer Jones",
+      39,
+      28,
+      5,
+      0,
+      4
+     ],
+     [
+      "Nikola Jokić",
+      37,
+      29,
+      20,
+      13,
+      3
+     ],
+     [
+      "Cameron Johnson",
+      36,
+      10,
+      1,
+      2,
+      1
+     ],
+     [
+      "Peyton Watson",
+      35,
+      15,
+      5,
+      3,
+      1
+     ],
+     [
+      "Tim Hardaway Jr.",
+      31,
+      13,
+      1,
+      6,
+      1
+     ],
+     [
+      "Jamal Murray",
+      26,
+      10,
+      4,
+      9,
+      2
+     ],
+     [
+      "Bruce Brown",
+      20,
+      7,
+      4,
+      2,
+      0
+     ],
+     [
+      "Jonas Valanciunas",
+      11,
+      8,
+      7,
+      2,
+      0
+     ],
+     [
+      "Zeke Nnaji",
+      6,
+      1,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-04",
+   "nba_id": "0022500334",
+   "away": "BOS",
+   "home": "WAS",
+   "score": {
+    "BOS": 146,
+    "WAS": 101
+   },
+   "ot": 0,
+   "players": {
+    "BOS": [
+     [
+      "Payton Pritchard",
+      32,
+      20,
+      6,
+      8,
+      3
+     ],
+     [
+      "Jordan Walsh",
+      30,
+      22,
+      7,
+      3,
+      1
+     ],
+     [
+      "Derrick White",
+      29,
+      30,
+      7,
+      9,
+      5
+     ],
+     [
+      "Anfernee Simons",
+      25,
+      16,
+      2,
+      3,
+      4
+     ],
+     [
+      "Baylor Scheierman",
+      25,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      "Josh Minott",
+      22,
+      11,
+      4,
+      2,
+      2
+     ],
+     [
+      "Neemias Queta",
+      21,
+      17,
+      4,
+      2,
+      0
+     ],
+     [
+      "Sam Hauser",
+      21,
+      6,
+      2,
+      3,
+      2
+     ],
+     [
+      "Hugo González",
+      18,
+      14,
+      5,
+      0,
+      2
+     ],
+     [
+      "Luka Garza",
+      8,
+      5,
+      2,
+      1,
+      0
+     ],
+     [
+      "Xavier Tillman",
+      5,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Ron Harper Jr.",
+      5,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "WAS": [
+     [
+      "CJ McCollum",
+      31,
+      22,
+      2,
+      3,
+      3
+     ],
+     [
+      "Bub Carrington",
+      28,
+      7,
+      3,
+      2,
+      2
+     ],
+     [
+      "Kyshawn George",
+      28,
+      15,
+      3,
+      1,
+      3
+     ],
+     [
+      "Will Riley",
+      27,
+      7,
+      4,
+      2,
+      1
+     ],
+     [
+      "Marvin Bagley III",
+      26,
+      5,
+      6,
+      0,
+      0
+     ],
+     [
+      "Khris Middleton",
+      25,
+      16,
+      3,
+      4,
+      1
+     ],
+     [
+      "Cam Whitmore",
+      18,
+      4,
+      0,
+      2,
+      0
+     ],
+     [
+      "Jamir Watkins",
+      18,
+      2,
+      2,
+      3,
+      0
+     ],
+     [
+      "Justin Champagnie",
+      15,
+      9,
+      7,
+      1,
+      0
+     ],
+     [
+      "Tristan Vukčević",
+      11,
+      10,
+      4,
+      1,
+      0
+     ],
+     [
+      "Malaki Branham",
+      8,
+      2,
+      2,
+      2,
+      0
+     ],
+     [
+      "Anthony Gill",
+      5,
+      2,
+      1,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-23",
+   "nba_id": "0022500415",
+   "away": "DEN",
+   "home": "DAL",
+   "score": {
+    "DEN": 130,
+    "DAL": 131
+   },
+   "ot": 0,
+   "players": {
+    "DEN": [
+     [
+      "Jamal Murray",
+      37,
+      31,
+      7,
+      14,
+      3
+     ],
+     [
+      "Nikola Jokić",
+      36,
+      29,
+      7,
+      14,
+      5
+     ],
+     [
+      "Tim Hardaway Jr.",
+      29,
+      23,
+      2,
+      1,
+      7
+     ],
+     [
+      "Bruce Brown",
+      26,
+      13,
+      7,
+      3,
+      1
+     ],
+     [
+      "Spencer Jones",
+      26,
+      6,
+      4,
+      2,
+      0
+     ],
+     [
+      "Peyton Watson",
+      24,
+      4,
+      2,
+      1,
+      0
+     ],
+     [
+      "Cameron Johnson",
+      24,
+      8,
+      2,
+      3,
+      2
+     ],
+     [
+      "Jonas Valanciunas",
+      14,
+      8,
+      1,
+      1,
+      0
+     ],
+     [
+      "Julian Strawther",
+      12,
+      8,
+      2,
+      0,
+      2
+     ],
+     [
+      "Jalen Pickett",
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Curtis Jones",
+      4,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "DAL": [
+     [
+      "Cooper Flagg",
+      40,
+      33,
+      9,
+      9,
+      4
+     ],
+     [
+      "Anthony Davis",
+      36,
+      31,
+      9,
+      4,
+      1
+     ],
+     [
+      "Ryan Nembhard",
+      33,
+      11,
+      3,
+      7,
+      1
+     ],
+     [
+      "Naji Marshall",
+      32,
+      15,
+      4,
+      3,
+      2
+     ],
+     [
+      "Jaden Hardy",
+      28,
+      10,
+      2,
+      2,
+      0
+     ],
+     [
+      "Caleb Martin",
+      25,
+      9,
+      4,
+      3,
+      0
+     ],
+     [
+      "Daniel Gafford",
+      17,
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      "D'Angelo Russell",
+      15,
+      9,
+      2,
+      4,
+      3
+     ],
+     [
+      "Brandon Williams",
+      15,
+      9,
+      0,
+      2,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-01-14",
+   "nba_id": "0022500575",
+   "away": "DEN",
+   "home": "DAL",
+   "score": {
+    "DEN": 118,
+    "DAL": 109
+   },
+   "ot": 0,
+   "players": {
+    "DEN": [
+     [
+      "Jamal Murray",
+      38,
+      33,
+      2,
+      5,
+      2
+     ],
+     [
+      "Tim Hardaway Jr.",
+      36,
+      12,
+      3,
+      4,
+      4
+     ],
+     [
+      "Spencer Jones",
+      32,
+      10,
+      5,
+      2,
+      2
+     ],
+     [
+      "Peyton Watson",
+      31,
+      18,
+      5,
+      2,
+      2
+     ],
+     [
+      "Aaron Gordon",
+      30,
+      22,
+      6,
+      3,
+      3
+     ],
+     [
+      "Jalen Pickett",
+      28,
+      9,
+      6,
+      3,
+      2
+     ],
+     [
+      "Bruce Brown",
+      24,
+      7,
+      5,
+      1,
+      0
+     ],
+     [
+      "Zeke Nnaji",
+      17,
+      4,
+      5,
+      1,
+      0
+     ],
+     [
+      "DaRon Holmes II",
+      5,
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "DAL": [
+     [
+      "Naji Marshall",
+      38,
+      24,
+      5,
+      3,
+      0
+     ],
+     [
+      "P.J. Washington",
+      31,
+      12,
+      6,
+      2,
+      0
+     ],
+     [
+      "Jaden Hardy",
+      28,
+      8,
+      4,
+      1,
+      1
+     ],
+     [
+      "Brandon Williams",
+      25,
+      20,
+      7,
+      1,
+      0
+     ],
+     [
+      "Caleb Martin",
+      23,
+      15,
+      4,
+      3,
+      1
+     ],
+     [
+      "Klay Thompson",
+      23,
+      8,
+      1,
+      1,
+      2
+     ],
+     [
+      "Daniel Gafford",
+      18,
+      6,
+      10,
+      0,
+      0
+     ],
+     [
+      "Dwight Powell",
+      18,
+      5,
+      5,
+      0,
+      0
+     ],
+     [
+      "Ryan Nembhard",
+      15,
+      5,
+      3,
+      4,
+      1
+     ],
+     [
+      "Cooper Flagg",
+      15,
+      6,
+      1,
+      1,
+      0
+     ],
+     [
+      "Miles Kelly",
+      5,
+      0,
+      1,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-01",
+   "nba_id": "0022500875",
+   "away": "DET",
+   "home": "ORL",
+   "score": {
+    "DET": 106,
+    "ORL": 92
+   },
+   "ot": 0,
+   "players": {
+    "DET": [
+     [
+      "Cade Cunningham",
+      37,
+      29,
+      6,
+      11,
+      2
+     ],
+     [
+      "Jalen Duren",
+      34,
+      16,
+      10,
+      1,
+      0
+     ],
+     [
+      "Tobias Harris",
+      33,
+      23,
+      7,
+      1,
+      1
+     ],
+     [
+      "Ronald Holland II",
+      26,
+      11,
+      3,
+      2,
+      0
+     ],
+     [
+      "Duncan Robinson",
+      25,
+      0,
+      3,
+      2,
+      0
+     ],
+     [
+      "Ausar Thompson",
+      21,
+      9,
+      11,
+      3,
+      0
+     ],
+     [
+      "Caris LeVert",
+      20,
+      8,
+      2,
+      3,
+      0
+     ],
+     [
+      "Javonte Green",
+      18,
+      3,
+      8,
+      1,
+      1
+     ],
+     [
+      "Paul Reed",
+      14,
+      5,
+      6,
+      0,
+      0
+     ],
+     [
+      "Daniss Jenkins",
+      11,
+      2,
+      0,
+      0,
+      0
+     ]
+    ],
+    "ORL": [
+     [
+      "Desmond Bane",
+      38,
+      17,
+      4,
+      7,
+      1
+     ],
+     [
+      "Paolo Banchero",
+      38,
+      24,
+      11,
+      2,
+      1
+     ],
+     [
+      "Tristan da Silva",
+      37,
+      19,
+      6,
+      2,
+      3
+     ],
+     [
+      "Wendell Carter Jr.",
+      33,
+      4,
+      9,
+      2,
+      0
+     ],
+     [
+      "Jevon Carter",
+      30,
+      2,
+      3,
+      3,
+      0
+     ],
+     [
+      "Jalen Suggs",
+      26,
+      14,
+      3,
+      4,
+      4
+     ],
+     [
+      "Moritz Wagner",
+      13,
+      9,
+      3,
+      0,
+      1
+     ],
+     [
+      "Jett Howard",
+      13,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Jonathan Isaac",
+      9,
+      3,
+      1,
+      0,
+      0
+     ],
+     [
+      "Jase Richardson",
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-14",
+   "nba_id": "0022500971",
+   "away": "WAS",
+   "home": "BOS",
+   "score": {
+    "WAS": 100,
+    "BOS": 111
+   },
+   "ot": 0,
+   "players": {
+    "WAS": [
+     [
+      "Will Riley",
+      29,
+      5,
+      5,
+      3,
+      1
+     ],
+     [
+      "Tre Johnson",
+      24,
+      7,
+      1,
+      2,
+      1
+     ],
+     [
+      "Trae Young",
+      24,
+      11,
+      4,
+      6,
+      0
+     ],
+     [
+      "Bilal Coulibaly",
+      24,
+      12,
+      4,
+      1,
+      2
+     ],
+     [
+      "Jamir Watkins",
+      24,
+      15,
+      6,
+      2,
+      2
+     ],
+     [
+      "Alex Sarr",
+      22,
+      4,
+      5,
+      0,
+      1
+     ],
+     [
+      "Bub Carrington",
+      22,
+      2,
+      3,
+      8,
+      0
+     ],
+     [
+      "Justin Champagnie",
+      21,
+      10,
+      4,
+      1,
+      0
+     ],
+     [
+      "Tristan Vukčević",
+      20,
+      22,
+      3,
+      1,
+      6
+     ],
+     [
+      "Jaden Hardy",
+      15,
+      12,
+      3,
+      1,
+      2
+     ],
+     [
+      "Sharife Cooper",
+      8,
+      0,
+      0,
+      2,
+      0
+     ],
+     [
+      "Anthony Gill",
+      6,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "BOS": [
+     [
+      "Derrick White",
+      35,
+      15,
+      6,
+      5,
+      3
+     ],
+     [
+      "Jayson Tatum",
+      32,
+      20,
+      14,
+      7,
+      2
+     ],
+     [
+      "Jaylen Brown",
+      31,
+      16,
+      4,
+      3,
+      0
+     ],
+     [
+      "Neemias Queta",
+      31,
+      24,
+      10,
+      3,
+      0
+     ],
+     [
+      "Payton Pritchard",
+      30,
+      4,
+      4,
+      4,
+      0
+     ],
+     [
+      "Sam Hauser",
+      26,
+      12,
+      6,
+      2,
+      4
+     ],
+     [
+      "Baylor Scheierman",
+      25,
+      3,
+      9,
+      2,
+      1
+     ],
+     [
+      "Luka Garza",
+      15,
+      15,
+      1,
+      3,
+      2
+     ],
+     [
+      "Hugo González",
+      9,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Ron Harper Jr.",
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Amari Williams",
+      2,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Max Shulga",
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-25",
+   "nba_id": "0022501059",
+   "away": "DAL",
+   "home": "DEN",
+   "score": {
+    "DAL": 135,
+    "DEN": 142
+   },
+   "ot": 0,
+   "players": {
+    "DAL": [
+     [
+      "Cooper Flagg",
+      36,
+      26,
+      8,
+      7,
+      1
+     ],
+     [
+      "Max Christie",
+      32,
+      9,
+      1,
+      2,
+      3
+     ],
+     [
+      "P.J. Washington",
+      31,
+      19,
+      15,
+      1,
+      1
+     ],
+     [
+      "Naji Marshall",
+      30,
+      22,
+      4,
+      3,
+      1
+     ],
+     [
+      "Brandon Williams",
+      19,
+      11,
+      2,
+      6,
+      0
+     ],
+     [
+      "Khris Middleton",
+      18,
+      11,
+      3,
+      5,
+      1
+     ],
+     [
+      "Marvin Bagley III",
+      17,
+      7,
+      3,
+      3,
+      0
+     ],
+     [
+      "Dwight Powell",
+      16,
+      7,
+      4,
+      0,
+      0
+     ],
+     [
+      "Ryan Nembhard",
+      13,
+      4,
+      0,
+      4,
+      0
+     ],
+     [
+      "Klay Thompson",
+      11,
+      8,
+      0,
+      0,
+      2
+     ],
+     [
+      "John Poulakidas",
+      9,
+      3,
+      1,
+      0,
+      1
+     ],
+     [
+      "Tyler Smith",
+      8,
+      8,
+      1,
+      0,
+      2
+     ]
+    ],
+    "DEN": [
+     [
+      "Jamal Murray",
+      41,
+      53,
+      6,
+      4,
+      9
+     ],
+     [
+      "Nikola Jokić",
+      38,
+      23,
+      21,
+      19,
+      1
+     ],
+     [
+      "Cameron Johnson",
+      29,
+      12,
+      1,
+      3,
+      2
+     ],
+     [
+      "Tim Hardaway Jr.",
+      27,
+      4,
+      1,
+      2,
+      1
+     ],
+     [
+      "Christian Braun",
+      25,
+      11,
+      3,
+      4,
+      1
+     ],
+     [
+      "Peyton Watson",
+      23,
+      21,
+      4,
+      3,
+      2
+     ],
+     [
+      "Spencer Jones",
+      20,
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      "Bruce Brown",
+      20,
+      6,
+      2,
+      1,
+      1
+     ],
+     [
+      "Julian Strawther",
+      16,
+      8,
+      5,
+      0,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-04-06",
+   "nba_id": "0022501144",
+   "away": "DET",
+   "home": "ORL",
+   "score": {
+    "DET": 107,
+    "ORL": 123
+   },
+   "ot": 0,
+   "players": {
+    "DET": [
+     [
+      "Daniss Jenkins",
+      34,
+      18,
+      2,
+      7,
+      1
+     ],
+     [
+      "Jalen Duren",
+      32,
+      18,
+      9,
+      4,
+      0
+     ],
+     [
+      "Kevin Huerter",
+      32,
+      17,
+      3,
+      5,
+      3
+     ],
+     [
+      "Ausar Thompson",
+      31,
+      8,
+      3,
+      6,
+      0
+     ],
+     [
+      "Javonte Green",
+      27,
+      17,
+      6,
+      2,
+      3
+     ],
+     [
+      "Ronald Holland II",
+      19,
+      5,
+      0,
+      0,
+      1
+     ],
+     [
+      "Paul Reed",
+      19,
+      9,
+      6,
+      2,
+      1
+     ],
+     [
+      "Marcus Sasser",
+      18,
+      5,
+      2,
+      4,
+      1
+     ],
+     [
+      "Chaz Lanier",
+      16,
+      2,
+      1,
+      1,
+      0
+     ],
+     [
+      "Tolu Smith",
+      13,
+      8,
+      3,
+      1,
+      0
+     ]
+    ],
+    "ORL": [
+     [
+      "Paolo Banchero",
+      38,
+      31,
+      5,
+      3,
+      1
+     ],
+     [
+      "Jalen Suggs",
+      34,
+      12,
+      6,
+      12,
+      2
+     ],
+     [
+      "Tristan da Silva",
+      33,
+      12,
+      4,
+      1,
+      1
+     ],
+     [
+      "Desmond Bane",
+      32,
+      25,
+      3,
+      1,
+      4
+     ],
+     [
+      "Goga Bitadze",
+      24,
+      9,
+      4,
+      1,
+      0
+     ],
+     [
+      "Jevon Carter",
+      19,
+      0,
+      4,
+      3,
+      0
+     ],
+     [
+      "Wendell Carter Jr.",
+      18,
+      12,
+      3,
+      3,
+      1
+     ],
+     [
+      "Anthony Black",
+      15,
+      14,
+      1,
+      2,
+      1
+     ],
+     [
+      "Jamal Cain",
+      11,
+      3,
+      2,
+      1,
+      1
+     ],
+     [
+      "Jase Richardson",
+      6,
+      3,
+      1,
+      0,
+      0
+     ],
+     [
+      "Moritz Wagner",
+      4,
+      2,
+      1,
+      1,
+      0
+     ],
+     [
+      "Colin Castleton",
+      2,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Alex Morales",
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Noah Penda",
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
   }
  ]
 }
