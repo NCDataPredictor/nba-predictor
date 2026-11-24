@@ -2902,7 +2902,7 @@ async function dmLoad(id, d) {
       <div><span class="k">Sus últimos partidos</span>${(r.last || []).map(l => `<div><small>${esc(l.date.slice(5))} vs ${esc(l.opp || "")}: ${l.top.map(x => `${esc(x.name)} ${pct(x.share, 0)}`).join(", ")} · ${l.pts} pts (${l.fg}) · ${l.ndef} defensores</small></div>`).join("") || "<small>Sin datos</small>"}</div>
     </div>`;
   const realRow = (r, tt) => `<div class="dm-row dm-real">
-      <div><span class="k">${esc(tt)} atacó</span>${pn(r.name, id)}<br><small>${r.pts} pts (${r.fg} TC) con defensor directo</small><div><span class="dm-mark${many(r.ndef) ? " hi" : ""}" title="Defensores distintos que lo marcaron 1+ minuto">${r.ndef} defensores distintos</span></div></div>
+      <div><span class="k">${esc(tt)} atacó</span>${pn(r.name, id)}<br><small>${r.pts} pts (${r.fg} TC) con defensor directo</small><div><span class="dm-mark${many(r.ndef) ? " hi" : ""}" title="Defensores distintos que lo marcaron 1+ minuto">${r.ndef === 1 ? "1 solo defensor" : r.ndef + " defensores distintos"}</span></div></div>
       <div><span class="k">Quién lo marcó</span>${r.defs.map(x => `<div class="dm-def" style="--tc:${tc(opp(tt))}"><b>${esc(x.name)}</b><span class="num">${pct(x.share, 0)}</span>
         <span class="bar"><i style="width:${Math.min(100, x.share * 100).toFixed(0)}%"></i></span><small style="grid-column:1/-1">${x.min} min · ${x.poss} pos. · ${x.pts} pts (${x.fg} TC)</small></div>`).join("")}</div>
       </div>`;
@@ -2914,7 +2914,7 @@ async function dmLoad(id, d) {
       ${R ? `<h3 class="dm-sub">Lo que pasó en el partido</h3><div class="dm-list">${R.map(r => realRow(r, t)).join("")}</div>` : ""}
       ${P ? (R ? `<details class="dm-sub"><summary><b>Emparejamientos que se esperaban antes del partido</b></summary><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div></details>`
         : `<h3 class="dm-sub">Emparejamientos probables</h3><div class="dm-list">${P.rows.map(r => predRow(r, t)).join("")}</div>`) : ""}
-      <p class="foot">Con ${m.n_games} partidos de ${esc(m.season)} antes de esta fecha. nba.com no publica las dobles marcas (su dato de "ayuda" viene vacío): como pista se muestra cuántos defensores distintos lo marcaron 1+ minuto por partido y qué parte del tiempo lo marcó el principal; en rojo si está en el 20% de jugadores a los que más les rotan la marca. Pts/100 pos. = puntos del atacante por cada 100 posesiones emparejado con ese defensor. Los rebotes no se cuentan por emparejamiento.</p>`;
+      <p class="foot">Con ${m.n_games} partidos de ${esc(m.season)} antes de esta fecha. nba.com no publica las dobles marcas (su dato de "ayuda" viene vacío): como pista se muestra cuántos defensores distintos lo marcaron 1+ minuto por partido y qué parte del tiempo lo marcó el principal; en rojo si está en el 20% de jugadores a los que más les rotan la marca. Pts/100 pos. = puntos del atacante por cada 100 posesiones emparejado con ese defensor. Los minutos son solo los de sus posesiones en ataque (por eso suman menos que sus minutos jugados). Los rebotes no se cuentan por emparejamiento.</p>`;
     el.querySelectorAll("button[data-dt]").forEach(b => b.addEventListener("click", () => { t = b.dataset.dt; draw(); }));
   };
   el.hidden = false; draw();
