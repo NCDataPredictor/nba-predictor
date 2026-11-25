@@ -107272,6 +107272,4261 @@
      ]
     ]
    }
+  },
+  {
+   "date": "2025-11-05",
+   "nba_id": "0022500181",
+   "away": "GSW",
+   "home": "SAC",
+   "score": {
+    "GSW": 116,
+    "SAC": 121
+   },
+   "ot": 0,
+   "players": {
+    "GSW": [
+     [
+      "Moses Moody",
+      39,
+      28,
+      3,
+      3,
+      6
+     ],
+     [
+      "Jonathan Kuminga",
+      36,
+      24,
+      9,
+      3,
+      2
+     ],
+     [
+      "Will Richard",
+      34,
+      30,
+      7,
+      3,
+      5
+     ],
+     [
+      "Brandin Podziemski",
+      31,
+      14,
+      9,
+      9,
+      2
+     ],
+     [
+      "Al Horford",
+      27,
+      0,
+      7,
+      2,
+      0
+     ],
+     [
+      "Pat Spencer",
+      17,
+      6,
+      1,
+      1,
+      0
+     ],
+     [
+      "Quinten Post",
+      16,
+      0,
+      4,
+      1,
+      0
+     ],
+     [
+      "Buddy Hield",
+      14,
+      9,
+      1,
+      2,
+      1
+     ],
+     [
+      "Gary Payton II",
+      11,
+      3,
+      2,
+      3,
+      1
+     ],
+     [
+      "Trayce Jackson-Davis",
+      9,
+      2,
+      0,
+      1,
+      0
+     ],
+     [
+      "Gui Santos",
+      7,
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "SAC": [
+     [
+      "DeMar DeRozan",
+      36,
+      25,
+      2,
+      2,
+      0
+     ],
+     [
+      "Russell Westbrook",
+      35,
+      23,
+      16,
+      10,
+      3
+     ],
+     [
+      "Nique Clifford",
+      33,
+      12,
+      3,
+      3,
+      3
+     ],
+     [
+      "Drew Eubanks",
+      32,
+      12,
+      6,
+      0,
+      0
+     ],
+     [
+      "Dennis Schröder",
+      32,
+      18,
+      7,
+      7,
+      3
+     ],
+     [
+      "Malik Monk",
+      25,
+      21,
+      4,
+      2,
+      2
+     ],
+     [
+      "Keon Ellis",
+      17,
+      0,
+      2,
+      2,
+      0
+     ],
+     [
+      "Maxime Raynaud",
+      15,
+      6,
+      3,
+      0,
+      0
+     ],
+     [
+      "Precious Achiuwa",
+      9,
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      "Devin Carter",
+      5,
+      0,
+      1,
+      1,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-23",
+   "nba_id": "0022500275",
+   "away": "MIA",
+   "home": "PHI",
+   "score": {
+    "MIA": 127,
+    "PHI": 117
+   },
+   "ot": 0,
+   "players": {
+    "MIA": [
+     [
+      "Bam Adebayo",
+      33,
+      18,
+      13,
+      1,
+      1
+     ],
+     [
+      "Jaime Jaquez Jr.",
+      33,
+      22,
+      2,
+      7,
+      0
+     ],
+     [
+      "Pelle Larsson",
+      32,
+      6,
+      7,
+      8,
+      0
+     ],
+     [
+      "Davion Mitchell",
+      31,
+      8,
+      8,
+      12,
+      1
+     ],
+     [
+      "Norman Powell",
+      29,
+      32,
+      4,
+      1,
+      4
+     ],
+     [
+      "Kel'el Ware",
+      26,
+      20,
+      16,
+      0,
+      2
+     ],
+     [
+      "Simone Fontecchio",
+      19,
+      6,
+      3,
+      2,
+      2
+     ],
+     [
+      "Keshad Johnson",
+      19,
+      4,
+      1,
+      0,
+      0
+     ],
+     [
+      "Dru Smith",
+      17,
+      9,
+      4,
+      1,
+      1
+     ],
+     [
+      "Myron Gardner",
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Jahmir Young",
+      1,
+      2,
+      0,
+      0,
+      0
+     ]
+    ],
+    "PHI": [
+     [
+      "Andre Drummond",
+      38,
+      14,
+      24,
+      1,
+      1
+     ],
+     [
+      "Tyrese Maxey",
+      36,
+      27,
+      3,
+      6,
+      5
+     ],
+     [
+      "Quentin Grimes",
+      35,
+      15,
+      0,
+      3,
+      2
+     ],
+     [
+      "Justin Edwards",
+      32,
+      7,
+      4,
+      3,
+      1
+     ],
+     [
+      "Jared McCain",
+      26,
+      15,
+      1,
+      2,
+      3
+     ],
+     [
+      "Trendon Watford",
+      26,
+      19,
+      9,
+      7,
+      1
+     ],
+     [
+      "Paul George",
+      20,
+      10,
+      2,
+      5,
+      0
+     ],
+     [
+      "Dominick Barlow",
+      20,
+      9,
+      3,
+      0,
+      1
+     ],
+     [
+      "Jabari Walker",
+      4,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      "Hunter Sallis",
+      1,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      "Johni Broome",
+      1,
+      0,
+      1,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-26",
+   "nba_id": "0022500064",
+   "away": "MIN",
+   "home": "OKC",
+   "score": {
+    "MIN": 105,
+    "OKC": 113
+   },
+   "ot": 0,
+   "players": {
+    "MIN": [
+     [
+      "Anthony Edwards",
+      40,
+      31,
+      8,
+      5,
+      5
+     ],
+     [
+      "Julius Randle",
+      33,
+      10,
+      8,
+      4,
+      2
+     ],
+     [
+      "Rudy Gobert",
+      32,
+      5,
+      12,
+      3,
+      0
+     ],
+     [
+      "Donte DiVincenzo",
+      31,
+      11,
+      5,
+      2,
+      2
+     ],
+     [
+      "Jaden McDaniels",
+      30,
+      10,
+      6,
+      3,
+      2
+     ],
+     [
+      "Naz Reid",
+      24,
+      12,
+      2,
+      3,
+      2
+     ],
+     [
+      "Terrence Shannon Jr",
+      17,
+      18,
+      2,
+      1,
+      3
+     ],
+     [
+      "Mike Conley",
+      13,
+      2,
+      0,
+      2,
+      0
+     ],
+     [
+      "Rob Dillingham",
+      12,
+      6,
+      1,
+      2,
+      1
+     ],
+     [
+      "Jaylen Clark",
+      7,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "OKC": [
+     [
+      "Shai Gilgeous-Alexander",
+      37,
+      40,
+      6,
+      6,
+      1
+     ],
+     [
+      "Luguentz Dort",
+      32,
+      5,
+      1,
+      1,
+      1
+     ],
+     [
+      "Cason Wallace",
+      32,
+      9,
+      3,
+      2,
+      1
+     ],
+     [
+      "Chet Holmgren",
+      29,
+      12,
+      9,
+      2,
+      2
+     ],
+     [
+      "Isaiah Hartenstein",
+      28,
+      15,
+      7,
+      2,
+      0
+     ],
+     [
+      "Ajay Mitchell",
+      24,
+      13,
+      2,
+      3,
+      0
+     ],
+     [
+      "Alex Caruso",
+      22,
+      5,
+      2,
+      0,
+      1
+     ],
+     [
+      "Kenrich Williams",
+      13,
+      0,
+      4,
+      1,
+      0
+     ],
+     [
+      "Jaylin Williams",
+      12,
+      9,
+      5,
+      2,
+      1
+     ],
+     [
+      "Isaiah Joe",
+      12,
+      5,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-28",
+   "nba_id": "0022500079",
+   "away": "MEM",
+   "home": "LAC",
+   "score": {
+    "MEM": 112,
+    "LAC": 107
+   },
+   "ot": 0,
+   "players": {
+    "MEM": [
+     [
+      "Zach Edey",
+      32,
+      5,
+      19,
+      2,
+      0
+     ],
+     [
+      "Jaren Jackson Jr.",
+      31,
+      24,
+      2,
+      2,
+      3
+     ],
+     [
+      "Cedric Coward",
+      31,
+      7,
+      4,
+      1,
+      1
+     ],
+     [
+      "Jaylen Wells",
+      28,
+      13,
+      6,
+      2,
+      1
+     ],
+     [
+      "Cam Spencer",
+      25,
+      10,
+      2,
+      4,
+      2
+     ],
+     [
+      "Vince Williams Jr.",
+      23,
+      16,
+      1,
+      5,
+      2
+     ],
+     [
+      "Santi Aldama",
+      22,
+      13,
+      7,
+      5,
+      2
+     ],
+     [
+      "Kentavious Caldwell-Pope",
+      21,
+      12,
+      4,
+      1,
+      4
+     ],
+     [
+      "Jock Landale",
+      16,
+      12,
+      6,
+      0,
+      2
+     ],
+     [
+      "John Konchar",
+      11,
+      0,
+      2,
+      2,
+      0
+     ]
+    ],
+    "LAC": [
+     [
+      "James Harden",
+      40,
+      23,
+      7,
+      11,
+      4
+     ],
+     [
+      "Ivica Zubac",
+      39,
+      9,
+      12,
+      5,
+      0
+     ],
+     [
+      "John Collins",
+      33,
+      10,
+      7,
+      0,
+      0
+     ],
+     [
+      "Kris Dunn",
+      30,
+      11,
+      7,
+      1,
+      2
+     ],
+     [
+      "Kawhi Leonard",
+      29,
+      39,
+      3,
+      0,
+      3
+     ],
+     [
+      "Nicolas Batum",
+      23,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Kobe Brown",
+      16,
+      5,
+      0,
+      0,
+      1
+     ],
+     [
+      "Chris Paul",
+      15,
+      5,
+      2,
+      0,
+      1
+     ],
+     [
+      "Kobe Sanders",
+      14,
+      3,
+      0,
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-28",
+   "nba_id": "0022500071",
+   "away": "CHI",
+   "home": "CHA",
+   "score": {
+    "CHI": 116,
+    "CHA": 123
+   },
+   "ot": 0,
+   "players": {
+    "CHI": [
+     [
+      "Josh Giddey",
+      33,
+      25,
+      11,
+      9,
+      3
+     ],
+     [
+      "Nikola Vučević",
+      31,
+      13,
+      14,
+      3,
+      1
+     ],
+     [
+      "Matas Buzelis",
+      30,
+      8,
+      2,
+      3,
+      0
+     ],
+     [
+      "Coby White",
+      29,
+      25,
+      2,
+      4,
+      1
+     ],
+     [
+      "Tre Jones",
+      27,
+      16,
+      1,
+      4,
+      0
+     ],
+     [
+      "Kevin Huerter",
+      25,
+      11,
+      2,
+      4,
+      1
+     ],
+     [
+      "Ayo Dosunmu",
+      23,
+      5,
+      2,
+      2,
+      1
+     ],
+     [
+      "Jalen Smith",
+      17,
+      6,
+      5,
+      0,
+      0
+     ],
+     [
+      "Patrick Williams",
+      13,
+      5,
+      5,
+      0,
+      1
+     ],
+     [
+      "Jevon Carter",
+      10,
+      2,
+      0,
+      2,
+      0
+     ],
+     [
+      "Julian Phillips",
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "CHA": [
+     [
+      "Miles Bridges",
+      36,
+      22,
+      8,
+      7,
+      1
+     ],
+     [
+      "Kon Knueppel",
+      32,
+      12,
+      5,
+      4,
+      2
+     ],
+     [
+      "Brandon Miller",
+      32,
+      27,
+      5,
+      1,
+      5
+     ],
+     [
+      "Ryan Kalkbrenner",
+      30,
+      7,
+      5,
+      0,
+      0
+     ],
+     [
+      "LaMelo Ball",
+      29,
+      16,
+      7,
+      8,
+      3
+     ],
+     [
+      "Collin Sexton",
+      26,
+      21,
+      4,
+      3,
+      1
+     ],
+     [
+      "Sion James",
+      20,
+      9,
+      3,
+      3,
+      2
+     ],
+     [
+      "Moussa Diabaté",
+      18,
+      4,
+      8,
+      2,
+      0
+     ],
+     [
+      "Tre Mann",
+      14,
+      5,
+      1,
+      0,
+      1
+     ],
+     [
+      "Liam McNeeley",
+      4,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-11-29",
+   "nba_id": "0022500297",
+   "away": "BKN",
+   "home": "MIL",
+   "score": {
+    "BKN": 99,
+    "MIL": 116
+   },
+   "ot": 0,
+   "players": {
+    "BKN": [
+     [
+      "Danny Wolf",
+      30,
+      22,
+      4,
+      4,
+      5
+     ],
+     [
+      "Ben Saraf",
+      29,
+      10,
+      0,
+      7,
+      2
+     ],
+     [
+      "Nic Claxton",
+      25,
+      7,
+      4,
+      3,
+      0
+     ],
+     [
+      "Tyrese Martin",
+      24,
+      9,
+      6,
+      1,
+      1
+     ],
+     [
+      "Day'Ron Sharpe",
+      23,
+      7,
+      7,
+      2,
+      1
+     ],
+     [
+      "Drake Powell",
+      21,
+      3,
+      2,
+      1,
+      0
+     ],
+     [
+      "Terance Mann",
+      21,
+      4,
+      1,
+      1,
+      0
+     ],
+     [
+      "Noah Clowney",
+      21,
+      6,
+      1,
+      1,
+      2
+     ],
+     [
+      "Ziaire Williams",
+      19,
+      10,
+      2,
+      1,
+      2
+     ],
+     [
+      "Jalen Wilson",
+      16,
+      13,
+      3,
+      2,
+      1
+     ],
+     [
+      "E.J. Liddell",
+      5,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Tyson Etienne",
+      5,
+      6,
+      0,
+      0,
+      2
+     ]
+    ],
+    "MIL": [
+     [
+      "Ryan Rollins",
+      31,
+      10,
+      2,
+      4,
+      1
+     ],
+     [
+      "Kevin Porter Jr.",
+      25,
+      13,
+      4,
+      6,
+      3
+     ],
+     [
+      "Gary Trent Jr.",
+      25,
+      5,
+      2,
+      1,
+      1
+     ],
+     [
+      "Jericho Sims",
+      23,
+      2,
+      8,
+      2,
+      0
+     ],
+     [
+      "AJ Green",
+      23,
+      15,
+      3,
+      5,
+      5
+     ],
+     [
+      "Myles Turner",
+      22,
+      10,
+      3,
+      2,
+      1
+     ],
+     [
+      "Kyle Kuzma",
+      22,
+      11,
+      1,
+      3,
+      1
+     ],
+     [
+      "Bobby Portis Jr.",
+      21,
+      13,
+      6,
+      0,
+      3
+     ],
+     [
+      "Giannis Antetokounmpo",
+      19,
+      29,
+      8,
+      2,
+      1
+     ],
+     [
+      "Gary Harris",
+      12,
+      0,
+      5,
+      4,
+      0
+     ],
+     [
+      "Cole Anthony",
+      5,
+      2,
+      0,
+      1,
+      0
+     ],
+     [
+      "Andre Jackson Jr.",
+      5,
+      2,
+      1,
+      1,
+      0
+     ],
+     [
+      "Amir Coffey",
+      4,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      "Thanasis Antetokounmpo",
+      3,
+      2,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-05",
+   "nba_id": "0022500347",
+   "away": "LAC",
+   "home": "MEM",
+   "score": {
+    "LAC": 98,
+    "MEM": 107
+   },
+   "ot": 0,
+   "players": {
+    "LAC": [
+     [
+      "James Harden",
+      36,
+      18,
+      2,
+      7,
+      3
+     ],
+     [
+      "Ivica Zubac",
+      35,
+      10,
+      6,
+      1,
+      0
+     ],
+     [
+      "Kawhi Leonard",
+      35,
+      24,
+      8,
+      4,
+      2
+     ],
+     [
+      "Nicolas Batum",
+      31,
+      6,
+      3,
+      4,
+      2
+     ],
+     [
+      "Kobe Sanders",
+      27,
+      8,
+      7,
+      0,
+      2
+     ],
+     [
+      "John Collins",
+      25,
+      16,
+      2,
+      2,
+      2
+     ],
+     [
+      "Kris Dunn",
+      21,
+      0,
+      3,
+      3,
+      0
+     ],
+     [
+      "Kobe Brown",
+      21,
+      13,
+      4,
+      1,
+      2
+     ],
+     [
+      "Cam Christie",
+      10,
+      3,
+      2,
+      0,
+      1
+     ]
+    ],
+    "MEM": [
+     [
+      "Jaren Jackson Jr.",
+      31,
+      13,
+      3,
+      0,
+      0
+     ],
+     [
+      "Cam Spencer",
+      29,
+      17,
+      5,
+      7,
+      3
+     ],
+     [
+      "Zach Edey",
+      29,
+      10,
+      8,
+      1,
+      0
+     ],
+     [
+      "Cedric Coward",
+      28,
+      23,
+      14,
+      5,
+      1
+     ],
+     [
+      "Jaylen Wells",
+      27,
+      17,
+      3,
+      0,
+      3
+     ],
+     [
+      "Santi Aldama",
+      25,
+      7,
+      6,
+      4,
+      0
+     ],
+     [
+      "Vince Williams Jr.",
+      19,
+      3,
+      1,
+      4,
+      1
+     ],
+     [
+      "Kentavious Caldwell-Pope",
+      19,
+      5,
+      0,
+      5,
+      1
+     ],
+     [
+      "Jock Landale",
+      17,
+      7,
+      1,
+      1,
+      1
+     ],
+     [
+      "John Konchar",
+      16,
+      5,
+      1,
+      1,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-12",
+   "nba_id": "0022501209",
+   "away": "CHI",
+   "home": "CHA",
+   "score": {
+    "CHI": 129,
+    "CHA": 126
+   },
+   "ot": 0,
+   "players": {
+    "CHI": [
+     [
+      "Josh Giddey",
+      34,
+      26,
+      7,
+      11,
+      2
+     ],
+     [
+      "Coby White",
+      30,
+      20,
+      5,
+      2,
+      1
+     ],
+     [
+      "Isaac Okoro",
+      26,
+      15,
+      3,
+      1,
+      0
+     ],
+     [
+      "Patrick Williams",
+      26,
+      16,
+      5,
+      1,
+      3
+     ],
+     [
+      "Tre Jones",
+      25,
+      6,
+      2,
+      5,
+      0
+     ],
+     [
+      "Matas Buzelis",
+      24,
+      10,
+      0,
+      1,
+      0
+     ],
+     [
+      "Nikola Vučević",
+      22,
+      13,
+      3,
+      4,
+      1
+     ],
+     [
+      "Zach Collins",
+      20,
+      16,
+      8,
+      2,
+      2
+     ],
+     [
+      "Jalen Smith",
+      17,
+      5,
+      10,
+      1,
+      1
+     ],
+     [
+      "Dalen Terry",
+      14,
+      2,
+      1,
+      1,
+      0
+     ],
+     [
+      "Julian Phillips",
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "CHA": [
+     [
+      "Kon Knueppel",
+      36,
+      33,
+      5,
+      9,
+      5
+     ],
+     [
+      "Brandon Miller",
+      34,
+      18,
+      5,
+      4,
+      2
+     ],
+     [
+      "Miles Bridges",
+      34,
+      32,
+      2,
+      7,
+      4
+     ],
+     [
+      "Ryan Kalkbrenner",
+      31,
+      10,
+      6,
+      2,
+      0
+     ],
+     [
+      "Sion James",
+      26,
+      14,
+      4,
+      1,
+      2
+     ],
+     [
+      "KJ Simpson",
+      25,
+      10,
+      5,
+      3,
+      2
+     ],
+     [
+      "Tidjane Salaün",
+      17,
+      5,
+      2,
+      3,
+      1
+     ],
+     [
+      "Josh Green",
+      17,
+      2,
+      0,
+      1,
+      0
+     ],
+     [
+      "Moussa Diabaté",
+      13,
+      2,
+      3,
+      0,
+      0
+     ],
+     [
+      "Drew Peterson",
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-14",
+   "nba_id": "0022501219",
+   "away": "MIL",
+   "home": "BKN",
+   "score": {
+    "MIL": 82,
+    "BKN": 127
+   },
+   "ot": 0,
+   "players": {
+    "MIL": [
+     [
+      "Kevin Porter Jr.",
+      30,
+      5,
+      3,
+      7,
+      0
+     ],
+     [
+      "Jericho Sims",
+      30,
+      7,
+      7,
+      1,
+      0
+     ],
+     [
+      "Gary Trent Jr.",
+      29,
+      20,
+      2,
+      0,
+      4
+     ],
+     [
+      "Kyle Kuzma",
+      28,
+      13,
+      7,
+      3,
+      0
+     ],
+     [
+      "Myles Turner",
+      24,
+      9,
+      3,
+      1,
+      0
+     ],
+     [
+      "Ryan Rollins",
+      22,
+      11,
+      2,
+      5,
+      1
+     ],
+     [
+      "Cole Anthony",
+      20,
+      2,
+      4,
+      1,
+      0
+     ],
+     [
+      "Bobby Portis Jr.",
+      16,
+      10,
+      3,
+      1,
+      2
+     ],
+     [
+      "Andre Jackson Jr.",
+      15,
+      2,
+      2,
+      1,
+      0
+     ],
+     [
+      "Amir Coffey",
+      9,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Pete Nance",
+      9,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      "Gary Harris",
+      6,
+      3,
+      1,
+      0,
+      1
+     ]
+    ],
+    "BKN": [
+     [
+      "Nic Claxton",
+      26,
+      10,
+      3,
+      3,
+      0
+     ],
+     [
+      "Egor Dëmin",
+      26,
+      17,
+      3,
+      3,
+      2
+     ],
+     [
+      "Michael Porter Jr.",
+      26,
+      12,
+      6,
+      5,
+      2
+     ],
+     [
+      "Danny Wolf",
+      24,
+      8,
+      4,
+      2,
+      0
+     ],
+     [
+      "Drake Powell",
+      23,
+      13,
+      4,
+      3,
+      2
+     ],
+     [
+      "Noah Clowney",
+      22,
+      16,
+      3,
+      2,
+      4
+     ],
+     [
+      "Ziaire Williams",
+      22,
+      10,
+      3,
+      2,
+      2
+     ],
+     [
+      "Terance Mann",
+      21,
+      12,
+      5,
+      3,
+      2
+     ],
+     [
+      "Tyrese Martin",
+      18,
+      14,
+      1,
+      2,
+      4
+     ],
+     [
+      "Day'Ron Sharpe",
+      17,
+      10,
+      8,
+      5,
+      0
+     ],
+     [
+      "Nolan Traore",
+      9,
+      0,
+      2,
+      3,
+      0
+     ],
+     [
+      "Jalen Wilson",
+      7,
+      5,
+      1,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-15",
+   "nba_id": "0022501226",
+   "away": "MEM",
+   "home": "LAC",
+   "score": {
+    "MEM": 121,
+    "LAC": 103
+   },
+   "ot": 0,
+   "players": {
+    "MEM": [
+     [
+      "Jaren Jackson Jr.",
+      33,
+      31,
+      4,
+      4,
+      4
+     ],
+     [
+      "Santi Aldama",
+      31,
+      3,
+      2,
+      2,
+      0
+     ],
+     [
+      "Cam Spencer",
+      30,
+      27,
+      3,
+      6,
+      7
+     ],
+     [
+      "Jaylen Wells",
+      30,
+      16,
+      5,
+      3,
+      1
+     ],
+     [
+      "Jock Landale",
+      27,
+      8,
+      4,
+      3,
+      0
+     ],
+     [
+      "Kentavious Caldwell-Pope",
+      23,
+      4,
+      7,
+      6,
+      0
+     ],
+     [
+      "Cedric Coward",
+      23,
+      12,
+      2,
+      2,
+      1
+     ],
+     [
+      "Ja Morant",
+      21,
+      12,
+      3,
+      4,
+      1
+     ],
+     [
+      "Vince Williams Jr.",
+      18,
+      8,
+      1,
+      3,
+      2
+     ],
+     [
+      "Olivier-Maxence Prosper",
+      2,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Jahmai Mashack",
+      2,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "LAC": [
+     [
+      "Kawhi Leonard",
+      37,
+      21,
+      4,
+      3,
+      1
+     ],
+     [
+      "Ivica Zubac",
+      33,
+      6,
+      13,
+      2,
+      0
+     ],
+     [
+      "James Harden",
+      31,
+      13,
+      3,
+      6,
+      4
+     ],
+     [
+      "Kris Dunn",
+      27,
+      17,
+      1,
+      5,
+      3
+     ],
+     [
+      "John Collins",
+      26,
+      10,
+      2,
+      1,
+      0
+     ],
+     [
+      "Kobe Brown",
+      25,
+      9,
+      4,
+      1,
+      1
+     ],
+     [
+      "Jordan Miller",
+      22,
+      10,
+      6,
+      3,
+      1
+     ],
+     [
+      "Bogdan Bogdanović",
+      19,
+      7,
+      3,
+      3,
+      2
+     ],
+     [
+      "Kobe Sanders",
+      13,
+      5,
+      2,
+      0,
+      1
+     ],
+     [
+      "Yanic Konan Niederhäuser",
+      4,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Cam Christie",
+      4,
+      3,
+      0,
+      2,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2025-12-19",
+   "nba_id": "0022500385",
+   "away": "OKC",
+   "home": "MIN",
+   "score": {
+    "OKC": 107,
+    "MIN": 112
+   },
+   "ot": 0,
+   "players": {
+    "OKC": [
+     [
+      "Shai Gilgeous-Alexander",
+      37,
+      35,
+      5,
+      7,
+      3
+     ],
+     [
+      "Jalen Williams",
+      32,
+      17,
+      7,
+      2,
+      2
+     ],
+     [
+      "Luguentz Dort",
+      29,
+      11,
+      4,
+      2,
+      3
+     ],
+     [
+      "Isaiah Hartenstein",
+      28,
+      1,
+      10,
+      0,
+      0
+     ],
+     [
+      "Cason Wallace",
+      27,
+      2,
+      2,
+      0,
+      0
+     ],
+     [
+      "Chet Holmgren",
+      25,
+      14,
+      5,
+      0,
+      0
+     ],
+     [
+      "Ajay Mitchell",
+      23,
+      14,
+      2,
+      2,
+      0
+     ],
+     [
+      "Alex Caruso",
+      22,
+      7,
+      12,
+      1,
+      1
+     ],
+     [
+      "Isaiah Joe",
+      13,
+      6,
+      4,
+      2,
+      2
+     ],
+     [
+      "Kenrich Williams",
+      5,
+      0,
+      1,
+      0,
+      0
+     ]
+    ],
+    "MIN": [
+     [
+      "Anthony Edwards",
+      41,
+      26,
+      12,
+      3,
+      3
+     ],
+     [
+      "Jaden McDaniels",
+      37,
+      13,
+      4,
+      2,
+      1
+     ],
+     [
+      "Rudy Gobert",
+      33,
+      9,
+      14,
+      1,
+      0
+     ],
+     [
+      "Donte DiVincenzo",
+      33,
+      15,
+      4,
+      1,
+      4
+     ],
+     [
+      "Julius Randle",
+      32,
+      19,
+      8,
+      5,
+      1
+     ],
+     [
+      "Naz Reid",
+      31,
+      15,
+      6,
+      2,
+      0
+     ],
+     [
+      "Bones Hyland",
+      16,
+      13,
+      3,
+      3,
+      4
+     ],
+     [
+      "Rob Dillingham",
+      12,
+      0,
+      6,
+      3,
+      0
+     ],
+     [
+      "Terrence Shannon Jr",
+      5,
+      2,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-01-03",
+   "nba_id": "0022500489",
+   "away": "CHA",
+   "home": "CHI",
+   "score": {
+    "CHA": 112,
+    "CHI": 99
+   },
+   "ot": 0,
+   "players": {
+    "CHA": [
+     [
+      "Brandon Miller",
+      36,
+      22,
+      6,
+      4,
+      4
+     ],
+     [
+      "Miles Bridges",
+      35,
+      26,
+      14,
+      1,
+      3
+     ],
+     [
+      "Kon Knueppel",
+      33,
+      18,
+      5,
+      1,
+      2
+     ],
+     [
+      "Sion James",
+      30,
+      3,
+      7,
+      3,
+      1
+     ],
+     [
+      "LaMelo Ball",
+      26,
+      17,
+      6,
+      7,
+      3
+     ],
+     [
+      "Josh Green",
+      25,
+      3,
+      3,
+      3,
+      1
+     ],
+     [
+      "PJ Hall",
+      22,
+      10,
+      6,
+      0,
+      1
+     ],
+     [
+      "Collin Sexton",
+      20,
+      13,
+      2,
+      3,
+      0
+     ],
+     [
+      "Liam McNeeley",
+      13,
+      0,
+      3,
+      1,
+      0
+     ]
+    ],
+    "CHI": [
+     [
+      "Matas Buzelis",
+      34,
+      17,
+      8,
+      3,
+      2
+     ],
+     [
+      "Nikola Vučević",
+      34,
+      28,
+      7,
+      8,
+      3
+     ],
+     [
+      "Kevin Huerter",
+      31,
+      9,
+      11,
+      7,
+      1
+     ],
+     [
+      "Ayo Dosunmu",
+      28,
+      16,
+      4,
+      4,
+      2
+     ],
+     [
+      "Tre Jones",
+      28,
+      10,
+      2,
+      8,
+      0
+     ],
+     [
+      "Isaac Okoro",
+      27,
+      2,
+      2,
+      1,
+      0
+     ],
+     [
+      "Patrick Williams",
+      15,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      "Julian Phillips",
+      15,
+      3,
+      1,
+      0,
+      1
+     ],
+     [
+      "Jalen Smith",
+      15,
+      9,
+      5,
+      1,
+      1
+     ],
+     [
+      "Dalen Terry",
+      13,
+      5,
+      0,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-01-09",
+   "nba_id": "0022500539",
+   "away": "SAC",
+   "home": "GSW",
+   "score": {
+    "SAC": 103,
+    "GSW": 137
+   },
+   "ot": 0,
+   "players": {
+    "SAC": [
+     [
+      "DeMar DeRozan",
+      35,
+      24,
+      2,
+      3,
+      1
+     ],
+     [
+      "Zach LaVine",
+      30,
+      15,
+      3,
+      3,
+      1
+     ],
+     [
+      "Russell Westbrook",
+      28,
+      13,
+      4,
+      7,
+      1
+     ],
+     [
+      "Maxime Raynaud",
+      26,
+      8,
+      7,
+      2,
+      0
+     ],
+     [
+      "Nique Clifford",
+      25,
+      6,
+      0,
+      1,
+      2
+     ],
+     [
+      "Keon Ellis",
+      25,
+      5,
+      2,
+      1,
+      1
+     ],
+     [
+      "Dylan Cardwell",
+      22,
+      6,
+      8,
+      1,
+      0
+     ],
+     [
+      "Dennis Schröder",
+      20,
+      15,
+      3,
+      3,
+      1
+     ],
+     [
+      "Malik Monk",
+      19,
+      8,
+      2,
+      1,
+      0
+     ],
+     [
+      "Precious Achiuwa",
+      5,
+      1,
+      0,
+      1,
+      0
+     ],
+     [
+      "Devin Carter",
+      4,
+      2,
+      0,
+      0,
+      0
+     ]
+    ],
+    "GSW": [
+     [
+      "Stephen Curry",
+      32,
+      27,
+      0,
+      10,
+      6
+     ],
+     [
+      "Draymond Green",
+      27,
+      11,
+      6,
+      8,
+      3
+     ],
+     [
+      "Jimmy Butler III",
+      23,
+      15,
+      6,
+      6,
+      0
+     ],
+     [
+      "Moses Moody",
+      22,
+      7,
+      0,
+      2,
+      1
+     ],
+     [
+      "Brandin Podziemski",
+      22,
+      14,
+      4,
+      2,
+      0
+     ],
+     [
+      "De'Anthony Melton",
+      19,
+      19,
+      0,
+      1,
+      3
+     ],
+     [
+      "Gary Payton II",
+      18,
+      12,
+      9,
+      1,
+      0
+     ],
+     [
+      "Gui Santos",
+      18,
+      4,
+      1,
+      1,
+      0
+     ],
+     [
+      "Al Horford",
+      16,
+      9,
+      5,
+      2,
+      1
+     ],
+     [
+      "Will Richard",
+      16,
+      2,
+      2,
+      1,
+      0
+     ],
+     [
+      "Quinten Post",
+      13,
+      11,
+      2,
+      2,
+      3
+     ],
+     [
+      "Trayce Jackson-Davis",
+      4,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      "Buddy Hield",
+      4,
+      6,
+      3,
+      1,
+      2
+     ],
+     [
+      "Pat Spencer",
+      4,
+      0,
+      1,
+      2,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-01-29",
+   "nba_id": "0022500686",
+   "away": "OKC",
+   "home": "MIN",
+   "score": {
+    "OKC": 111,
+    "MIN": 123
+   },
+   "ot": 0,
+   "players": {
+    "OKC": [
+     [
+      "Shai Gilgeous-Alexander",
+      31,
+      30,
+      6,
+      8,
+      1
+     ],
+     [
+      "Chet Holmgren",
+      30,
+      15,
+      5,
+      2,
+      1
+     ],
+     [
+      "Luguentz Dort",
+      27,
+      5,
+      4,
+      2,
+      1
+     ],
+     [
+      "Jaylin Williams",
+      27,
+      5,
+      4,
+      1,
+      1
+     ],
+     [
+      "Cason Wallace",
+      26,
+      13,
+      1,
+      0,
+      1
+     ],
+     [
+      "Aaron Wiggins",
+      25,
+      10,
+      4,
+      5,
+      2
+     ],
+     [
+      "Isaiah Joe",
+      25,
+      6,
+      3,
+      3,
+      2
+     ],
+     [
+      "Kenrich Williams",
+      18,
+      7,
+      3,
+      1,
+      1
+     ],
+     [
+      "Isaiah Hartenstein",
+      18,
+      11,
+      5,
+      2,
+      0
+     ],
+     [
+      "Ousmane Dieng",
+      4,
+      2,
+      0,
+      1,
+      0
+     ],
+     [
+      "Brooks Barnhizer",
+      4,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Chris Youngblood",
+      4,
+      5,
+      0,
+      2,
+      1
+     ]
+    ],
+    "MIN": [
+     [
+      "Anthony Edwards",
+      35,
+      26,
+      5,
+      5,
+      4
+     ],
+     [
+      "Rudy Gobert",
+      34,
+      14,
+      11,
+      3,
+      0
+     ],
+     [
+      "Jaden McDaniels",
+      31,
+      21,
+      4,
+      4,
+      5
+     ],
+     [
+      "Donte DiVincenzo",
+      31,
+      11,
+      5,
+      5,
+      3
+     ],
+     [
+      "Naz Reid",
+      29,
+      18,
+      7,
+      2,
+      4
+     ],
+     [
+      "Julius Randle",
+      25,
+      13,
+      5,
+      5,
+      2
+     ],
+     [
+      "Bones Hyland",
+      23,
+      9,
+      4,
+      1,
+      3
+     ],
+     [
+      "Jaylen Clark",
+      15,
+      7,
+      3,
+      1,
+      1
+     ],
+     [
+      "Joe Ingles",
+      3,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Rob Dillingham",
+      3,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      "Johnny Juzang",
+      3,
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      "Joan Beringer",
+      3,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Leonard Miller",
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-02-24",
+   "nba_id": "0022500836",
+   "away": "CHA",
+   "home": "CHI",
+   "score": {
+    "CHA": 131,
+    "CHI": 99
+   },
+   "ot": 0,
+   "players": {
+    "CHA": [
+     [
+      "Moussa Diabaté",
+      31,
+      9,
+      7,
+      5,
+      0
+     ],
+     [
+      "Brandon Miller",
+      25,
+      23,
+      5,
+      3,
+      5
+     ],
+     [
+      "Kon Knueppel",
+      23,
+      21,
+      1,
+      2,
+      3
+     ],
+     [
+      "LaMelo Ball",
+      23,
+      16,
+      3,
+      7,
+      4
+     ],
+     [
+      "Miles Bridges",
+      22,
+      16,
+      7,
+      2,
+      4
+     ],
+     [
+      "Sion James",
+      20,
+      0,
+      1,
+      4,
+      0
+     ],
+     [
+      "Grant Williams",
+      19,
+      11,
+      4,
+      2,
+      2
+     ],
+     [
+      "Josh Green",
+      17,
+      11,
+      4,
+      0,
+      3
+     ],
+     [
+      "Ryan Kalkbrenner",
+      17,
+      0,
+      1,
+      1,
+      0
+     ],
+     [
+      "Coby White",
+      16,
+      10,
+      3,
+      4,
+      2
+     ],
+     [
+      "Pat Connaughton",
+      13,
+      5,
+      3,
+      0,
+      1
+     ],
+     [
+      "Tre Mann",
+      8,
+      7,
+      4,
+      1,
+      1
+     ],
+     [
+      "Xavier Tillman",
+      7,
+      2,
+      3,
+      0,
+      0
+     ]
+    ],
+    "CHI": [
+     [
+      "Matas Buzelis",
+      33,
+      32,
+      7,
+      2,
+      6
+     ],
+     [
+      "Collin Sexton",
+      28,
+      10,
+      2,
+      1,
+      2
+     ],
+     [
+      "Guerschon Yabusele",
+      27,
+      11,
+      4,
+      1,
+      3
+     ],
+     [
+      "Isaac Okoro",
+      27,
+      7,
+      2,
+      2,
+      1
+     ],
+     [
+      "Josh Giddey",
+      26,
+      8,
+      2,
+      5,
+      0
+     ],
+     [
+      "Patrick Williams",
+      26,
+      11,
+      2,
+      1,
+      3
+     ],
+     [
+      "Rob Dillingham",
+      23,
+      6,
+      5,
+      5,
+      0
+     ],
+     [
+      "Nick Richards",
+      22,
+      6,
+      5,
+      0,
+      0
+     ],
+     [
+      "Tre Jones",
+      20,
+      3,
+      2,
+      1,
+      0
+     ],
+     [
+      "Leonard Miller",
+      5,
+      5,
+      2,
+      0,
+      1
+     ],
+     [
+      "Lachlan Olbrich",
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-02-26",
+   "nba_id": "0022500849",
+   "away": "MIA",
+   "home": "PHI",
+   "score": {
+    "MIA": 117,
+    "PHI": 124
+   },
+   "ot": 0,
+   "players": {
+    "MIA": [
+     [
+      "Bam Adebayo",
+      36,
+      29,
+      14,
+      3,
+      4
+     ],
+     [
+      "Andrew Wiggins",
+      35,
+      18,
+      2,
+      2,
+      2
+     ],
+     [
+      "Pelle Larsson",
+      33,
+      9,
+      4,
+      6,
+      2
+     ],
+     [
+      "Tyler Herro",
+      32,
+      25,
+      4,
+      7,
+      4
+     ],
+     [
+      "Jaime Jaquez Jr.",
+      30,
+      19,
+      4,
+      2,
+      1
+     ],
+     [
+      "Davion Mitchell",
+      24,
+      3,
+      2,
+      2,
+      1
+     ],
+     [
+      "Kasparas Jakučionis",
+      17,
+      3,
+      5,
+      1,
+      1
+     ],
+     [
+      "Kel'el Ware",
+      12,
+      5,
+      6,
+      0,
+      1
+     ],
+     [
+      "Norman Powell",
+      10,
+      3,
+      3,
+      2,
+      1
+     ],
+     [
+      "Simone Fontecchio",
+      9,
+      3,
+      1,
+      0,
+      0
+     ]
+    ],
+    "PHI": [
+     [
+      "VJ Edgecombe",
+      39,
+      19,
+      8,
+      4,
+      1
+     ],
+     [
+      "Tyrese Maxey",
+      38,
+      28,
+      4,
+      11,
+      5
+     ],
+     [
+      "Kelly Oubre Jr.",
+      34,
+      21,
+      8,
+      3,
+      3
+     ],
+     [
+      "Joel Embiid",
+      31,
+      26,
+      11,
+      4,
+      2
+     ],
+     [
+      "Dominick Barlow",
+      31,
+      9,
+      2,
+      0,
+      1
+     ],
+     [
+      "Quentin Grimes",
+      21,
+      9,
+      4,
+      0,
+      3
+     ],
+     [
+      "Cameron Payne",
+      16,
+      6,
+      3,
+      1,
+      2
+     ],
+     [
+      "Adem Bona",
+      15,
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      "Trendon Watford",
+      11,
+      2,
+      6,
+      3,
+      0
+     ],
+     [
+      "Jabari Walker",
+      4,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-07",
+   "nba_id": "0022500918",
+   "away": "LAC",
+   "home": "MEM",
+   "score": {
+    "LAC": 123,
+    "MEM": 120
+   },
+   "ot": 0,
+   "players": {
+    "LAC": [
+     [
+      "Bennedict Mathurin",
+      35,
+      21,
+      10,
+      1,
+      0
+     ],
+     [
+      "Jordan Miller",
+      33,
+      14,
+      1,
+      2,
+      0
+     ],
+     [
+      "Derrick Jones Jr.",
+      30,
+      16,
+      4,
+      1,
+      0
+     ],
+     [
+      "Kawhi Leonard",
+      28,
+      28,
+      5,
+      2,
+      0
+     ],
+     [
+      "Darius Garland",
+      26,
+      21,
+      4,
+      6,
+      3
+     ],
+     [
+      "Isaiah Jackson",
+      25,
+      12,
+      12,
+      0,
+      0
+     ],
+     [
+      "Kris Dunn",
+      22,
+      0,
+      3,
+      3,
+      0
+     ],
+     [
+      "Kobe Sanders",
+      19,
+      7,
+      2,
+      0,
+      1
+     ],
+     [
+      "Brook Lopez",
+      12,
+      4,
+      1,
+      0,
+      0
+     ],
+     [
+      "Nicolas Batum",
+      5,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      "Cam Christie",
+      2,
+      0,
+      2,
+      0,
+      0
+     ],
+     [
+      "TyTy Washington Jr.",
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "MEM": [
+     [
+      "Taylor Hendricks",
+      26,
+      18,
+      4,
+      2,
+      3
+     ],
+     [
+      "Jaylen Wells",
+      26,
+      8,
+      1,
+      1,
+      2
+     ],
+     [
+      "Ty Jerome",
+      25,
+      23,
+      2,
+      7,
+      2
+     ],
+     [
+      "Jahmai Mashack",
+      25,
+      4,
+      1,
+      0,
+      0
+     ],
+     [
+      "Scotty Pippen Jr.",
+      23,
+      11,
+      3,
+      3,
+      1
+     ],
+     [
+      "GG Jackson",
+      22,
+      14,
+      7,
+      1,
+      1
+     ],
+     [
+      "Olivier-Maxence Prosper",
+      22,
+      11,
+      2,
+      2,
+      3
+     ],
+     [
+      "Cedric Coward",
+      22,
+      15,
+      7,
+      0,
+      2
+     ],
+     [
+      "Walter Clayton Jr.",
+      18,
+      2,
+      2,
+      6,
+      0
+     ],
+     [
+      "Cam Spencer",
+      16,
+      12,
+      3,
+      4,
+      2
+     ],
+     [
+      "Javon Small",
+      15,
+      2,
+      2,
+      3,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-15",
+   "nba_id": "0022500976",
+   "away": "MIN",
+   "home": "OKC",
+   "score": {
+    "MIN": 103,
+    "OKC": 116
+   },
+   "ot": 0,
+   "players": {
+    "MIN": [
+     [
+      "Anthony Edwards",
+      37,
+      19,
+      6,
+      5,
+      2
+     ],
+     [
+      "Julius Randle",
+      35,
+      32,
+      7,
+      6,
+      3
+     ],
+     [
+      "Ayo Dosunmu",
+      33,
+      18,
+      4,
+      0,
+      4
+     ],
+     [
+      "Donte DiVincenzo",
+      30,
+      16,
+      9,
+      1,
+      4
+     ],
+     [
+      "Rudy Gobert",
+      29,
+      2,
+      7,
+      2,
+      0
+     ],
+     [
+      "Naz Reid",
+      28,
+      6,
+      4,
+      0,
+      0
+     ],
+     [
+      "Jaden McDaniels",
+      16,
+      2,
+      1,
+      1,
+      0
+     ],
+     [
+      "Bones Hyland",
+      13,
+      3,
+      0,
+      2,
+      1
+     ],
+     [
+      "Kyle Anderson",
+      12,
+      0,
+      5,
+      0,
+      0
+     ],
+     [
+      "Terrence Shannon Jr",
+      2,
+      3,
+      0,
+      1,
+      1
+     ],
+     [
+      "Joe Ingles",
+      2,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Jaylen Clark",
+      2,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      "Rocco Zikarsky",
+      2,
+      2,
+      1,
+      0,
+      0
+     ]
+    ],
+    "OKC": [
+     [
+      "Shai Gilgeous-Alexander",
+      33,
+      20,
+      3,
+      10,
+      2
+     ],
+     [
+      "Chet Holmgren",
+      32,
+      21,
+      9,
+      2,
+      1
+     ],
+     [
+      "Ajay Mitchell",
+      27,
+      11,
+      5,
+      3,
+      1
+     ],
+     [
+      "Cason Wallace",
+      25,
+      4,
+      6,
+      7,
+      0
+     ],
+     [
+      "Alex Caruso",
+      22,
+      17,
+      2,
+      1,
+      1
+     ],
+     [
+      "Isaiah Hartenstein",
+      21,
+      0,
+      12,
+      3,
+      0
+     ],
+     [
+      "Isaiah Joe",
+      21,
+      20,
+      4,
+      0,
+      4
+     ],
+     [
+      "Jaylin Williams",
+      19,
+      5,
+      3,
+      2,
+      1
+     ],
+     [
+      "Luguentz Dort",
+      18,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      "Jared McCain",
+      17,
+      15,
+      0,
+      0,
+      5
+     ],
+     [
+      "Aaron Wiggins",
+      6,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-03-30",
+   "nba_id": "0022501091",
+   "away": "PHI",
+   "home": "MIA",
+   "score": {
+    "PHI": 109,
+    "MIA": 119
+   },
+   "ot": 0,
+   "players": {
+    "PHI": [
+     [
+      "Tyrese Maxey",
+      44,
+      23,
+      7,
+      9,
+      2
+     ],
+     [
+      "Paul George",
+      35,
+      19,
+      4,
+      2,
+      4
+     ],
+     [
+      "Joel Embiid",
+      34,
+      26,
+      7,
+      3,
+      2
+     ],
+     [
+      "Quentin Grimes",
+      32,
+      11,
+      5,
+      4,
+      2
+     ],
+     [
+      "Kelly Oubre Jr.",
+      31,
+      11,
+      11,
+      3,
+      1
+     ],
+     [
+      "VJ Edgecombe",
+      30,
+      13,
+      1,
+      5,
+      1
+     ],
+     [
+      "Dominick Barlow",
+      20,
+      4,
+      4,
+      0,
+      0
+     ],
+     [
+      "Adem Bona",
+      14,
+      2,
+      3,
+      0,
+      0
+     ],
+     [
+      "Justin Edwards",
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "MIA": [
+     [
+      "Bam Adebayo",
+      42,
+      23,
+      16,
+      6,
+      1
+     ],
+     [
+      "Tyler Herro",
+      42,
+      30,
+      4,
+      3,
+      3
+     ],
+     [
+      "Pelle Larsson",
+      36,
+      20,
+      10,
+      3,
+      0
+     ],
+     [
+      "Andrew Wiggins",
+      36,
+      14,
+      8,
+      0,
+      2
+     ],
+     [
+      "Jaime Jaquez Jr.",
+      32,
+      14,
+      6,
+      5,
+      2
+     ],
+     [
+      "Davion Mitchell",
+      30,
+      9,
+      4,
+      5,
+      1
+     ],
+     [
+      "Kel'el Ware",
+      13,
+      5,
+      6,
+      2,
+      1
+     ],
+     [
+      "Simone Fontecchio",
+      6,
+      3,
+      3,
+      0,
+      1
+     ],
+     [
+      "Dru Smith",
+      3,
+      1,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-04-07",
+   "nba_id": "0022501154",
+   "away": "SAC",
+   "home": "GSW",
+   "score": {
+    "SAC": 105,
+    "GSW": 110
+   },
+   "ot": 0,
+   "players": {
+    "SAC": [
+     [
+      "Nique Clifford",
+      36,
+      12,
+      6,
+      2,
+      1
+     ],
+     [
+      "Precious Achiuwa",
+      34,
+      13,
+      6,
+      4,
+      0
+     ],
+     [
+      "Killian Hayes",
+      32,
+      18,
+      4,
+      4,
+      3
+     ],
+     [
+      "Doug McDermott",
+      29,
+      16,
+      4,
+      2,
+      4
+     ],
+     [
+      "Dylan Cardwell",
+      26,
+      8,
+      9,
+      2,
+      0
+     ],
+     [
+      "Daeqwon Plowden",
+      26,
+      11,
+      1,
+      1,
+      3
+     ],
+     [
+      "Maxime Raynaud",
+      26,
+      17,
+      7,
+      1,
+      0
+     ],
+     [
+      "Devin Carter",
+      21,
+      6,
+      3,
+      5,
+      0
+     ],
+     [
+      "Malik Monk",
+      11,
+      4,
+      1,
+      1,
+      0
+     ]
+    ],
+    "GSW": [
+     [
+      "Pat Spencer",
+      41,
+      14,
+      2,
+      3,
+      3
+     ],
+     [
+      "Brandin Podziemski",
+      30,
+      20,
+      1,
+      3,
+      4
+     ],
+     [
+      "De'Anthony Melton",
+      29,
+      21,
+      4,
+      5,
+      4
+     ],
+     [
+      "Charles Bassey",
+      27,
+      14,
+      12,
+      0,
+      0
+     ],
+     [
+      "Draymond Green",
+      27,
+      1,
+      6,
+      7,
+      0
+     ],
+     [
+      "Stephen Curry",
+      25,
+      17,
+      5,
+      2,
+      4
+     ],
+     [
+      "Gary Payton II",
+      25,
+      12,
+      4,
+      3,
+      0
+     ],
+     [
+      "Malevy Leons",
+      21,
+      2,
+      5,
+      3,
+      0
+     ],
+     [
+      "Seth Curry",
+      16,
+      9,
+      0,
+      1,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-04-07",
+   "nba_id": "0022501150",
+   "away": "MIL",
+   "home": "BKN",
+   "score": {
+    "MIL": 90,
+    "BKN": 96
+   },
+   "ot": 0,
+   "players": {
+    "MIL": [
+     [
+      "AJ Green",
+      39,
+      20,
+      6,
+      1,
+      6
+     ],
+     [
+      "Taurean Prince",
+      37,
+      16,
+      11,
+      4,
+      4
+     ],
+     [
+      "Jericho Sims",
+      37,
+      12,
+      8,
+      6,
+      0
+     ],
+     [
+      "Cormac Ryan",
+      34,
+      14,
+      5,
+      2,
+      3
+     ],
+     [
+      "Ousmane Dieng",
+      32,
+      10,
+      7,
+      3,
+      0
+     ],
+     [
+      "Pete Nance",
+      26,
+      8,
+      2,
+      6,
+      1
+     ],
+     [
+      "Gary Harris",
+      21,
+      7,
+      3,
+      1,
+      1
+     ],
+     [
+      "Andre Jackson Jr.",
+      15,
+      3,
+      2,
+      2,
+      0
+     ]
+    ],
+    "BKN": [
+     [
+      "Trevon Scott",
+      40,
+      8,
+      5,
+      2,
+      2
+     ],
+     [
+      "Drake Powell",
+      40,
+      11,
+      4,
+      1,
+      1
+     ],
+     [
+      "Malachi Smith",
+      37,
+      11,
+      5,
+      4,
+      1
+     ],
+     [
+      "Ben Saraf",
+      36,
+      19,
+      5,
+      2,
+      0
+     ],
+     [
+      "Tyson Etienne",
+      29,
+      9,
+      5,
+      3,
+      1
+     ],
+     [
+      "E.J. Liddell",
+      21,
+      21,
+      4,
+      1,
+      2
+     ],
+     [
+      "Jalen Wilson",
+      19,
+      7,
+      1,
+      2,
+      0
+     ],
+     [
+      "Nolan Traore",
+      9,
+      5,
+      1,
+      2,
+      1
+     ],
+     [
+      "Chaney Johnson",
+      8,
+      5,
+      2,
+      1,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-04-10",
+   "nba_id": "0022501184",
+   "away": "GSW",
+   "home": "SAC",
+   "score": {
+    "GSW": 118,
+    "SAC": 124
+   },
+   "ot": 0,
+   "players": {
+    "GSW": [
+     [
+      "Brandin Podziemski",
+      32,
+      30,
+      3,
+      1,
+      3
+     ],
+     [
+      "De'Anthony Melton",
+      28,
+      17,
+      4,
+      3,
+      3
+     ],
+     [
+      "Gui Santos",
+      27,
+      7,
+      3,
+      6,
+      1
+     ],
+     [
+      "Stephen Curry",
+      27,
+      11,
+      3,
+      5,
+      2
+     ],
+     [
+      "Kristaps Porziņģis",
+      26,
+      11,
+      7,
+      2,
+      1
+     ],
+     [
+      "Draymond Green",
+      24,
+      7,
+      4,
+      6,
+      1
+     ],
+     [
+      "Al Horford",
+      18,
+      10,
+      0,
+      2,
+      2
+     ],
+     [
+      "Gary Payton II",
+      15,
+      10,
+      3,
+      0,
+      0
+     ],
+     [
+      "Charles Bassey",
+      15,
+      6,
+      4,
+      1,
+      0
+     ],
+     [
+      "Pat Spencer",
+      14,
+      2,
+      1,
+      4,
+      0
+     ],
+     [
+      "Malevy Leons",
+      12,
+      7,
+      2,
+      0,
+      1
+     ],
+     [
+      "Will Richard",
+      3,
+      0,
+      2,
+      0,
+      0
+     ]
+    ],
+    "SAC": [
+     [
+      "Maxime Raynaud",
+      39,
+      23,
+      9,
+      4,
+      2
+     ],
+     [
+      "Nique Clifford",
+      38,
+      20,
+      6,
+      6,
+      2
+     ],
+     [
+      "Daeqwon Plowden",
+      37,
+      20,
+      9,
+      3,
+      3
+     ],
+     [
+      "Devin Carter",
+      35,
+      29,
+      9,
+      4,
+      6
+     ],
+     [
+      "Precious Achiuwa",
+      25,
+      5,
+      6,
+      4,
+      0
+     ],
+     [
+      "Dylan Cardwell",
+      24,
+      7,
+      7,
+      1,
+      1
+     ],
+     [
+      "Killian Hayes",
+      19,
+      6,
+      1,
+      2,
+      0
+     ],
+     [
+      "Doug McDermott",
+      14,
+      3,
+      1,
+      1,
+      0
+     ],
+     [
+      "Malik Monk",
+      10,
+      11,
+      1,
+      0,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "date": "2026-04-10",
+   "nba_id": "0022501179",
+   "away": "BKN",
+   "home": "MIL",
+   "score": {
+    "BKN": 108,
+    "MIL": 125
+   },
+   "ot": 0,
+   "players": {
+    "BKN": [
+     [
+      "Malachi Smith",
+      43,
+      19,
+      8,
+      10,
+      5
+     ],
+     [
+      "Ben Saraf",
+      41,
+      15,
+      3,
+      3,
+      3
+     ],
+     [
+      "Trevon Scott",
+      41,
+      11,
+      5,
+      2,
+      1
+     ],
+     [
+      "Jalen Wilson",
+      34,
+      13,
+      7,
+      7,
+      1
+     ],
+     [
+      "Tyson Etienne",
+      32,
+      23,
+      4,
+      2,
+      6
+     ],
+     [
+      "E.J. Liddell",
+      32,
+      13,
+      6,
+      4,
+      1
+     ],
+     [
+      "Nolan Traore",
+      16,
+      14,
+      4,
+      0,
+      1
+     ]
+    ],
+    "MIL": [
+     [
+      "AJ Green",
+      41,
+      35,
+      5,
+      4,
+      11
+     ],
+     [
+      "Ousmane Dieng",
+      37,
+      12,
+      6,
+      12,
+      0
+     ],
+     [
+      "Taurean Prince",
+      35,
+      18,
+      10,
+      5,
+      6
+     ],
+     [
+      "Cormac Ryan",
+      34,
+      28,
+      5,
+      3,
+      5
+     ],
+     [
+      "Jericho Sims",
+      30,
+      11,
+      10,
+      3,
+      0
+     ],
+     [
+      "Myles Turner",
+      27,
+      13,
+      5,
+      3,
+      1
+     ],
+     [
+      "Kyle Kuzma",
+      21,
+      8,
+      1,
+      5,
+      1
+     ],
+     [
+      "Andre Jackson Jr.",
+      15,
+      0,
+      2,
+      1,
+      0
+     ]
+    ]
+   }
   }
  ]
 }

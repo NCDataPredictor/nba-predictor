@@ -1,0 +1,204 @@
+{
+ "date": "2026-11-25",
+ "source": "Consenso scoresandodds.com/nba?date=2026-11-25 (~11:40 ET; mejor precio por lado). Covers matchup/388235-388243/odds solo traía líneas de apertura vía resumen (4 partidos sin líneas): no se usó.",
+ "games": {
+  "MIA@PHI": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": -102,
+     "ml_home": -116,
+     "spread_away": [
+      1.5,
+      -118
+     ],
+     "spread_home": [
+      -1.5,
+      -102
+     ],
+     "total": [
+      236.5,
+      -113,
+      -107
+     ]
+    }
+   ]
+  },
+  "CHI@CHA": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 130,
+     "ml_home": -155,
+     "spread_away": [
+      3.5,
+      -115
+     ],
+     "spread_home": [
+      -3.5,
+      -105
+     ],
+     "total": [
+      222.5,
+      -105,
+      -115
+     ]
+    }
+   ]
+  },
+  "CLE@NYK": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 130,
+     "ml_home": -155,
+     "spread_away": [
+      3.5,
+      -115
+     ],
+     "spread_home": [
+      -3.5,
+      -105
+     ],
+     "total": [
+      217.5,
+      -115,
+      -105
+     ]
+    }
+   ]
+  },
+  "MIN@OKC": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 101,
+     "ml_home": -119,
+     "spread_away": [
+      1.5,
+      -110
+     ],
+     "spread_home": [
+      -1.5,
+      -110
+     ],
+     "total": [
+      224.5,
+      -113,
+      -107
+     ]
+    }
+   ]
+  },
+  "LAC@MEM": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 205,
+     "ml_home": -249,
+     "spread_away": [
+      6.5,
+      -110
+     ],
+     "spread_home": [
+      -6.5,
+      -110
+     ],
+     "total": [
+      229.5,
+      -115,
+      -105
+     ]
+    }
+   ]
+  },
+  "BKN@MIL": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": -106,
+     "ml_home": -111,
+     "spread_away": [
+      1.5,
+      -118
+     ],
+     "spread_home": [
+      -1.5,
+      -102
+     ],
+     "total": [
+      233.5,
+      -107,
+      -113
+     ]
+    }
+   ]
+  },
+  "PHX@HOU": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 319,
+     "ml_home": -406,
+     "spread_away": [
+      9.5,
+      -115
+     ],
+     "spread_home": [
+      -9.5,
+      -105
+     ],
+     "total": [
+      222.5,
+      -113,
+      -107
+     ]
+    }
+   ]
+  },
+  "SAC@GSW": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": 196,
+     "ml_home": -237,
+     "spread_away": [
+      5.5,
+      -107
+     ],
+     "spread_home": [
+      -5.5,
+      -113
+     ],
+     "total": [
+      217.5,
+      -107,
+      -113
+     ]
+    }
+   ]
+  },
+  "SAS@POR": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso)",
+     "ml_away": -148,
+     "ml_home": 124,
+     "spread_away": [
+      -2.5,
+      -115
+     ],
+     "spread_home": [
+      2.5,
+      -106
+     ],
+     "total": [
+      225.5,
+      -115,
+      -106
+     ]
+    }
+   ]
+  }
+ }
+}
