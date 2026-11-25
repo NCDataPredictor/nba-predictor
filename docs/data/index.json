@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T23:19+00:00",
+ "generated": "2026-11-25T00:22+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
@@ -74,7 +74,7 @@
   },
   "2026-11-24": {
    "morning": "2026-11-24T16:26+00:00",
-   "pregame": "2026-11-24T23:19+00:00"
+   "pregame": "2026-11-25T00:22+00:00"
   }
  },
  "history": [
@@ -200679,25 +200679,25 @@
      "player": null,
      "team": "BOS",
      "line": -10.5,
-     "odds": -110,
-     "dec": 1.907,
+     "odds": -111,
+     "dec": 1.903,
      "odds_assumed": false,
-     "p": 0.522,
-     "implied": 0.524,
+     "p": 0.523,
+     "implied": 0.526,
      "edge": -0.003,
-     "ev": -0.005,
+     "ev": -0.006,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "BetMGM",
       "line": -10.5,
       "odds": -110,
       "dec": 1.909,
-      "p": 0.522,
-      "ev": -0.004
+      "p": 0.523,
+      "ev": -0.002
      },
      "p_model": 0.586,
-     "p_mkt": 0.5,
+     "p_mkt": 0.501,
      "cand": false,
      "open": [
       -10.5,
@@ -200975,7 +200975,7 @@
      "player": null,
      "team": "BOS",
      "line": null,
-     "odds": -466,
+     "odds": -464,
      "dec": 1.215,
      "odds_assumed": false,
      "p": 0.8,
@@ -200983,7 +200983,7 @@
      "edge": -0.023,
      "ev": -0.027,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "FanDuel",
       "line": null,
@@ -202300,12 +202300,12 @@
      "value": false,
      "n_books": 5,
      "best": {
-      "book": "bet365",
-      "line": 217.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.499,
-      "ev": -0.047
+      "book": "scoresandodds (consenso 19:20 ET)",
+      "line": 218.5,
+      "odds": -108,
+      "dec": 1.926,
+      "p": 0.519,
+      "ev": -0.0
      },
      "p_model": 0.425,
      "p_mkt": 0.496,
@@ -202507,25 +202507,25 @@
      "player": null,
      "team": "WAS",
      "line": 10.5,
-     "odds": -110,
-     "dec": 1.909,
+     "odds": -109,
+     "dec": 1.914,
      "odds_assumed": false,
-     "p": 0.478,
-     "implied": 0.524,
-     "edge": -0.046,
-     "ev": -0.087,
+     "p": 0.477,
+     "implied": 0.522,
+     "edge": -0.045,
+     "ev": -0.086,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
-      "book": "BetMGM",
+      "book": "scoresandodds (consenso 19:20 ET)",
       "line": 10.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.478,
-      "ev": -0.087
+      "odds": -104,
+      "dec": 1.962,
+      "p": 0.477,
+      "ev": -0.064
      },
      "p_model": 0.414,
-     "p_mkt": 0.5,
+     "p_mkt": 0.499,
      "cand": false,
      "open": [
       10.5,
@@ -202671,14 +202671,14 @@
      "team": "WAS",
      "line": null,
      "odds": 353,
-     "dec": 4.534,
+     "dec": 4.532,
      "odds_assumed": false,
      "p": 0.2,
      "implied": 0.221,
      "edge": -0.021,
-     "ev": -0.095,
+     "ev": -0.096,
      "value": false,
-     "n_books": 9,
+     "n_books": 10,
      "best": {
       "book": "BetMGM",
       "line": null,
@@ -206921,15 +206921,15 @@
      "player": null,
      "team": "DAL",
      "line": null,
-     "odds": 261,
-     "dec": 3.606,
+     "odds": 260,
+     "dec": 3.597,
      "odds_assumed": false,
      "p": 0.274,
-     "implied": 0.277,
+     "implied": 0.278,
      "edge": -0.004,
      "ev": -0.014,
      "value": false,
-     "n_books": 10,
+     "n_books": 11,
      "best": {
       "book": "bet365",
       "line": null,
@@ -206939,7 +206939,7 @@
       "ev": 0.0
      },
      "p_model": 0.297,
-     "p_mkt": 0.266,
+     "p_mkt": 0.267,
      "cand": false,
      "open": [
       null,
@@ -207041,14 +207041,14 @@
      "team": "DAL",
      "line": 8.5,
      "odds": -114,
-     "dec": 1.875,
+     "dec": 1.877,
      "odds_assumed": false,
      "p": 0.515,
      "implied": 0.533,
      "edge": -0.018,
      "ev": -0.034,
      "value": false,
-     "n_books": 10,
+     "n_books": 11,
      "best": {
       "book": "FanDuel",
       "line": 8.5,
@@ -207244,12 +207244,12 @@
      "value": false,
      "n_books": 6,
      "best": {
-      "book": "scoresandodds (consenso 18:20 ET)",
-      "line": 233.5,
-      "odds": -111,
-      "dec": 1.901,
-      "p": 0.533,
-      "ev": 0.013
+      "book": "scoresandodds (consenso 19:20 ET)",
+      "line": 234.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.553,
+      "ev": 0.056
      },
      "p_model": 0.492,
      "p_mkt": 0.494,
@@ -207574,6 +207574,37 @@
      ]
     },
     {
+     "kind": "ml",
+     "label": "DEN gana",
+     "player": null,
+     "team": "DEN",
+     "line": null,
+     "odds": -326,
+     "dec": 1.307,
+     "odds_assumed": false,
+     "p": 0.726,
+     "implied": 0.765,
+     "edge": -0.039,
+     "ev": -0.051,
+     "value": false,
+     "n_books": 11,
+     "best": {
+      "book": "scoresandodds (consenso 19:20 ET)",
+      "line": null,
+      "odds": -310,
+      "dec": 1.323,
+      "p": 0.726,
+      "ev": -0.04
+     },
+     "p_model": 0.703,
+     "p_mkt": 0.733,
+     "cand": false,
+     "open": [
+      null,
+      1.305
+     ]
+    },
+    {
      "kind": "prop",
      "label": "Zaccharie Risacher Over 0.5 Asistencias",
      "player": "Zaccharie Risacher",
@@ -207707,37 +207738,6 @@
      "open": [
       2.5,
       2.208
-     ]
-    },
-    {
-     "kind": "ml",
-     "label": "DEN gana",
-     "player": null,
-     "team": "DEN",
-     "line": null,
-     "odds": -327,
-     "dec": 1.305,
-     "odds_assumed": false,
-     "p": 0.726,
-     "implied": 0.766,
-     "edge": -0.04,
-     "ev": -0.052,
-     "value": false,
-     "n_books": 10,
-     "best": {
-      "book": "theScore Bet",
-      "line": null,
-      "odds": -320,
-      "dec": 1.312,
-      "p": 0.726,
-      "ev": -0.047
-     },
-     "p_model": 0.703,
-     "p_mkt": 0.734,
-     "cand": false,
-     "open": [
-      null,
-      1.305
      ]
     },
     {
@@ -207879,14 +207879,14 @@
      "team": "DEN",
      "line": -8.5,
      "odds": -106,
-     "dec": 1.946,
+     "dec": 1.944,
      "odds_assumed": false,
      "p": 0.485,
      "implied": 0.514,
      "edge": -0.029,
      "ev": -0.056,
      "value": false,
-     "n_books": 10,
+     "n_books": 11,
      "best": {
       "book": "scoresandodds (consenso 18:20 ET)",
       "line": -8.5,

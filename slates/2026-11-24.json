@@ -918,11 +918,11 @@
    "venue": "Capital One Arena, Washington",
    "market": {
     "ml_home": 351,
-    "ml_away": -453,
+    "ml_away": -452,
     "spread_home": 10.5,
-    "total": 217.5,
-    "spread_odds_home": -110,
-    "spread_odds_away": -110,
+    "total": 218.5,
+    "spread_odds_home": -104,
+    "spread_odds_away": -116,
     "over_odds": -112,
     "under_odds": -108
    },
@@ -935,7 +935,9 @@
     "Justin Champagnie",
     "Jamir Watkins"
    ],
-   "gtd": {},
+   "gtd": {
+    "Tre Mann": 0.5
+   },
    "notes": [
     "BOS: Mitchell Robinson (enfermedad) OUT",
     "WAS: Vukcevic (cadera), Beekman (hombro), Champagnie (pie) y Watkins (rodilla) OUT"
@@ -947,14 +949,14 @@
    "tip_et": "22:00",
    "venue": "Ball Arena, Denver",
    "market": {
-    "ml_home": -324,
-    "ml_away": 261,
+    "ml_home": -310,
+    "ml_away": 251,
     "spread_home": -8.5,
-    "total": 233.5,
-    "spread_odds_home": -103,
-    "spread_odds_away": -118,
-    "over_odds": -109,
-    "under_odds": -111
+    "total": 234.5,
+    "spread_odds_home": -108,
+    "spread_odds_away": -112,
+    "over_odds": -110,
+    "under_odds": -110
    },
    "b2b": [],
    "adj": {},
