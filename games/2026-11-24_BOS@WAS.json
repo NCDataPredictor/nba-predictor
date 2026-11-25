@@ -17,7 +17,9 @@
    "Justin Champagnie",
    "Jamir Watkins"
   ],
-  "gtd": {},
+  "gtd": {
+   "Tre Mann": 0.5
+  },
   "reserves": {
    "BOS": [
     {
@@ -1045,11 +1047,11 @@
  "market": {
   "source": "NBA.com/games 24-nov (3 partidos de Copa); Covers matchup/388232-388234/odds (9 casas, ~11:40 ET, vía resumen) en odds/2026-11-24.json; consenso scoresandodds.com/nba?date=2026-11-24 para el mercado (total DAL@DEN de las casas de Covers, 231.5)",
   "ml_home": 351,
-  "ml_away": -453,
+  "ml_away": -452,
   "spread_home": 10.5,
-  "total": 217.5,
-  "spread_odds_home": -110,
-  "spread_odds_away": -110,
+  "total": 218.5,
+  "spread_odds_home": -104,
+  "spread_odds_away": -116,
   "over_odds": -112,
   "under_odds": -108
  },

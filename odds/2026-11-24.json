@@ -331,6 +331,24 @@
       -115,
       -105
      ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:20 ET)",
+     "ml_away": -452,
+     "ml_home": 351,
+     "spread_away": [
+      -10.5,
+      -116
+     ],
+     "spread_home": [
+      10.5,
+      -104
+     ],
+     "total": [
+      218.5,
+      -112,
+      -108
+     ]
     }
    ]
   },
@@ -509,6 +527,24 @@
       233.5,
       -109,
       -111
+     ]
+    },
+    {
+     "book": "scoresandodds (consenso 19:20 ET)",
+     "ml_away": 251,
+     "ml_home": -310,
+     "spread_away": [
+      8.5,
+      -112
+     ],
+     "spread_home": [
+      -8.5,
+      -108
+     ],
+     "total": [
+      234.5,
+      -110,
+      -110
      ]
     }
    ]
