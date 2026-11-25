@@ -8,7 +8,8 @@
   "neutral": false,
   "notes": [
    "DAL: Lawal (ingle), Lively (pie), de Larrea (rodilla) y Biberovic (talón) OUT; P.J. Washington en duda (enfermedad)",
-   "DEN: sin bajas en ESPN, CBS ni RotoWire"
+   "DEN: sin bajas en ESPN, CBS ni RotoWire",
+   "21:30 ET: P.J. Washington (enfermedad) disponible (NBC Sports player-news 24-nov)."
   ],
   "out": [
    "Tobi Lawal",
@@ -16,9 +17,7 @@
    "Sergio de Larrea",
    "Tarik Biberovic"
   ],
-  "gtd": {
-   "P.J. Washington": 0.6
-  },
+  "gtd": {},
   "reserves": {
    "DAL": [
     {
@@ -670,7 +669,7 @@
    "starter": true,
    "min": 27.5,
    "g_cur": 15,
-   "p_play": 0.6,
+   "p_play": 1.0,
    "cur": {
     "min": 30.8,
     "pts": 14.0,
