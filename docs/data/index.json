@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-25T02:30+00:00",
+ "generated": "2026-11-25T08:13+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7",
  "mkt_w": 0.25,
  "max_daily": 15,
- "last_stage": "pregame",
+ "last_stage": "results",
  "updates": {
   "2026-11-11": {
    "morning": "2026-11-11T16:29+00:00",
@@ -74,7 +74,8 @@
   },
   "2026-11-24": {
    "morning": "2026-11-24T16:26+00:00",
-   "pregame": "2026-11-25T02:30+00:00"
+   "pregame": "2026-11-25T02:30+00:00",
+   "results": "2026-11-25T08:13+00:00"
   }
  },
  "history": [
@@ -525,6 +526,22 @@
    "sgp_lost": 1,
    "cross_won": 0,
    "cross_lost": 0
+  },
+  {
+   "date": "2026-11-24",
+   "model": "1.7",
+   "games": 3,
+   "winners_ok": 2,
+   "clv_beat": 0,
+   "clv_same": 7,
+   "clv_lost": 0,
+   "picks_won": 4,
+   "picks_lost": 3,
+   "units": 0.58,
+   "sgp_won": 0,
+   "sgp_lost": 2,
+   "cross_won": 0,
+   "cross_lost": 1
   }
  ],
  "versions": [
@@ -652,20 +669,20 @@
    "model": "1.7",
    "desc": "minutos por los últimos partidos (rotación real y cambios de rol) y errores de cuota",
    "first": "2026-11-20",
-   "last": "2026-11-23",
-   "days": 4,
-   "games": 32,
-   "winners_ok": 20,
-   "picks_won": 11,
-   "picks_lost": 15,
-   "units": -5.23,
-   "roi": -0.2012,
+   "last": "2026-11-24",
+   "days": 5,
+   "games": 35,
+   "winners_ok": 22,
+   "picks_won": 15,
+   "picks_lost": 18,
+   "units": -4.65,
+   "roi": -0.1409,
    "sgp_won": 7,
-   "sgp_lost": 18,
+   "sgp_lost": 20,
    "cross_won": 2,
-   "cross_lost": 0,
+   "cross_lost": 1,
    "clv_beat": 3,
-   "clv_same": 21,
+   "clv_same": 28,
    "clv_lost": 2
   }
  ],
@@ -2141,7 +2158,9 @@
       "dec": 1.844,
       "ev": 0.086,
       "gid": "2026-11-24-DAL-at-DEN",
-      "game": "DAL @ DEN"
+      "game": "DAL @ DEN",
+      "result": "lost",
+      "actual": 13
      },
      {
       "kind": "prop",
@@ -2155,7 +2174,9 @@
       "dec": 1.701,
       "ev": 0.031,
       "gid": "2026-11-24-DET-at-ORL",
-      "game": "DET @ ORL"
+      "game": "DET @ ORL",
+      "result": "lost",
+      "actual": 4
      }
     ],
     "n": 2,
@@ -2166,7 +2187,7 @@
     "fair": 2.8,
     "ev": 0.12,
     "type": "cross",
-    "result": null
+    "result": "lost"
    }
   ]
  },
@@ -192069,7 +192090,8 @@
      "open": [
       8.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192115,7 +192137,8 @@
      "open": [
       4.5,
       1.598
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192161,7 +192184,8 @@
      "open": [
       11.5,
       1.829
-     ]
+     ],
+     "result": "won"
     }
    ],
    "value_bets": [
@@ -192208,7 +192232,8 @@
      "open": [
       6.5,
       1.932
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192253,7 +192278,8 @@
      "open": [
       4.5,
       1.843
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192298,7 +192324,8 @@
      "open": [
       3.5,
       1.701
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192343,7 +192370,8 @@
      "open": [
       4.5,
       1.865
-     ]
+     ],
+     "result": "won"
     }
    ],
    "parlays": [
@@ -192361,7 +192389,9 @@
        "dec": 1.701,
        "ev": 0.031,
        "gid": "2026-11-24-DET-at-ORL",
-       "game": "DET @ ORL"
+       "game": "DET @ ORL",
+       "result": "lost",
+       "actual": 4
       },
       {
        "kind": "prop",
@@ -192375,7 +192405,9 @@
        "dec": 1.843,
        "ev": 0.043,
        "gid": "2026-11-24-DET-at-ORL",
-       "game": "DET @ ORL"
+       "game": "DET @ ORL",
+       "result": "won",
+       "actual": 2
       }
      ],
      "n": 2,
@@ -192385,7 +192417,8 @@
      "dec": 3.13,
      "fair": 2.9,
      "ev": 0.081,
-     "type": "sgp"
+     "type": "sgp",
+     "result": "lost"
     }
    ],
    "model_picks": [
@@ -192413,7 +192446,8 @@
        4
       ]
      },
-     "mean": 5.1
+     "mean": 5.1,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192439,7 +192473,8 @@
        4
       ]
      },
-     "mean": 8.1
+     "mean": 8.1,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192465,7 +192500,8 @@
        3
       ]
      },
-     "mean": 22.1
+     "mean": 22.1,
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192491,7 +192527,8 @@
        4
       ]
      },
-     "mean": 15.3
+     "mean": 15.3,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192517,7 +192554,8 @@
        4
       ]
      },
-     "mean": 5.1
+     "mean": 5.1,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192543,7 +192581,8 @@
        4
       ]
      },
-     "mean": 7.3
+     "mean": 7.3,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192569,7 +192608,8 @@
        3
       ]
      },
-     "mean": 11.0
+     "mean": 11.0,
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192595,7 +192635,8 @@
        4
       ]
      },
-     "mean": 11.6
+     "mean": 11.6,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192621,7 +192662,8 @@
        4
       ]
      },
-     "mean": 4.4
+     "mean": 4.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192647,7 +192689,8 @@
        3
       ]
      },
-     "mean": 15.3
+     "mean": 15.3,
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192672,7 +192715,8 @@
        3,
        3
       ]
-     }
+     },
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192698,7 +192742,8 @@
        4
       ]
      },
-     "mean": 3.2
+     "mean": 3.2,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192724,7 +192769,8 @@
        3
       ]
      },
-     "mean": 8.8
+     "mean": 8.8,
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -192750,7 +192796,8 @@
        4
       ]
      },
-     "mean": 8.0
+     "mean": 8.0,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192776,7 +192823,8 @@
        4
       ]
      },
-     "mean": 2.1
+     "mean": 2.1,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192802,7 +192850,8 @@
        4
       ]
      },
-     "mean": 1.6
+     "mean": 1.6,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192828,7 +192877,8 @@
        2
       ]
      },
-     "mean": 13.2
+     "mean": 13.2,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192854,7 +192904,8 @@
        4
       ]
      },
-     "mean": 6.5
+     "mean": 6.5,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192880,7 +192931,8 @@
        3
       ]
      },
-     "mean": 10.2
+     "mean": 10.2,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192906,7 +192958,8 @@
        4
       ]
      },
-     "mean": 3.5
+     "mean": 3.5,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -192932,7 +192985,8 @@
        4
       ]
      },
-     "mean": 7.4
+     "mean": 7.4,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192958,7 +193012,8 @@
        4
       ]
      },
-     "mean": 4.3
+     "mean": 4.3,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -192984,7 +193039,8 @@
        3
       ]
      },
-     "mean": 2.9
+     "mean": 2.9,
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -193010,7 +193066,8 @@
        4
       ]
      },
-     "mean": 9.4
+     "mean": 9.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193036,7 +193093,8 @@
        2
       ]
      },
-     "mean": 17.8
+     "mean": 17.8,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193062,7 +193120,8 @@
        4
       ]
      },
-     "mean": 5.2
+     "mean": 5.2,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193088,7 +193147,8 @@
        4
       ]
      },
-     "mean": 7.5
+     "mean": 7.5,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193113,7 +193173,8 @@
        1,
        3
       ]
-     }
+     },
+     "result": "push"
     }
    ],
    "err_bets": [
@@ -193169,7 +193230,8 @@
       0.5,
       1.622
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193223,7 +193285,8 @@
       4.5,
       2.07
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193277,7 +193340,8 @@
       1.5,
       1.654
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193331,7 +193395,8 @@
       1.5,
       1.92
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193385,7 +193450,8 @@
       4.5,
       1.861
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193439,7 +193505,8 @@
       6.5,
       1.778
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     }
    ],
    "all_bets": [
@@ -193486,7 +193553,8 @@
      "open": [
       8.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193531,7 +193599,8 @@
      "open": [
       4.5,
       1.598
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -193576,7 +193645,8 @@
      "open": [
       11.5,
       1.829
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193621,7 +193691,8 @@
      "open": [
       10.5,
       1.695
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193666,7 +193737,8 @@
      "open": [
       7.5,
       1.598
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -193711,7 +193783,8 @@
      "open": [
       24.5,
       1.757
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -193756,7 +193829,8 @@
      "open": [
       2.5,
       1.512
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193800,7 +193874,8 @@
      "open": [
       6.5,
       1.932
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193845,7 +193920,8 @@
      "open": [
       0.5,
       4.647
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -193890,7 +193966,8 @@
      "open": [
       10.5,
       1.829
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193935,7 +194012,8 @@
      "open": [
       23.5,
       1.814
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -193980,7 +194058,8 @@
      "open": [
       15.5,
       1.871
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194024,7 +194103,8 @@
      "open": [
       4.5,
       1.843
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194068,7 +194148,8 @@
      "open": [
       3.5,
       1.701
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194112,7 +194193,8 @@
      "open": [
       4.5,
       1.865
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "total",
@@ -194143,7 +194225,8 @@
      "open": [
       212.5,
       1.926
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194187,7 +194270,8 @@
      "open": [
       1.5,
       2.557
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194231,7 +194315,8 @@
      "open": [
       10.5,
       1.892
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194275,7 +194360,8 @@
      "open": [
       2.5,
       1.462
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194319,7 +194405,8 @@
      "open": [
       3.5,
       2.17
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194363,7 +194450,8 @@
      "open": [
       5.5,
       1.871
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "spread",
@@ -194394,7 +194482,8 @@
      "open": [
       -2.5,
       1.93
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "ml",
@@ -194425,7 +194514,8 @@
      "open": [
       null,
       1.719
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194469,7 +194559,8 @@
      "open": [
       0.5,
       2.104
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194513,7 +194604,8 @@
      "open": [
       8.5,
       1.643
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194557,7 +194649,8 @@
      "open": [
       2.5,
       1.628
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194601,7 +194694,8 @@
      "open": [
       10.5,
       1.856
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194645,7 +194739,8 @@
      "open": [
       2.5,
       1.612
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194689,7 +194784,8 @@
      "open": [
       1.5,
       1.788
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194733,7 +194829,8 @@
      "open": [
       14.5,
       1.852
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194777,7 +194874,8 @@
      "open": [
       7.5,
       1.695
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194821,7 +194919,8 @@
      "open": [
       2.5,
       1.552
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -194865,7 +194964,8 @@
      "open": [
       17.5,
       1.881
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194909,7 +195009,8 @@
      "open": [
       4.5,
       1.641
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194953,7 +195054,8 @@
      "open": [
       1.5,
       1.612
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -194997,7 +195099,8 @@
      "open": [
       5.5,
       1.884
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195041,7 +195144,8 @@
      "open": [
       3.5,
       1.786
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195085,7 +195189,8 @@
      "open": [
       11.5,
       1.881
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195129,7 +195234,8 @@
      "open": [
       3.5,
       1.916
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195173,7 +195279,8 @@
      "open": [
       1.5,
       2.061
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195217,7 +195324,8 @@
      "open": [
       4.5,
       1.787
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195261,7 +195369,8 @@
      "open": [
       0.5,
       7.079
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195305,7 +195414,8 @@
      "open": [
       0.5,
       1.414
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195349,7 +195459,8 @@
      "open": [
       3.5,
       1.75
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195393,7 +195504,8 @@
      "open": [
       1.5,
       1.569
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195437,7 +195549,8 @@
      "open": [
       10.5,
       1.847
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195481,7 +195594,8 @@
      "open": [
       1.5,
       2.104
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195525,7 +195639,8 @@
      "open": [
       1.5,
       1.6
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195569,7 +195684,8 @@
      "open": [
       2.5,
       1.491
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -195613,7 +195729,8 @@
      "open": [
       6.5,
       1.792
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195657,7 +195774,8 @@
      "open": [
       3.5,
       2.016
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195711,7 +195829,8 @@
       0.5,
       1.622
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195755,7 +195874,8 @@
      "open": [
       6.5,
       1.98
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195799,7 +195919,8 @@
      "open": [
       10.5,
       1.816
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195853,7 +195974,8 @@
       4.5,
       2.07
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -195897,7 +196019,8 @@
      "open": [
       4.5,
       1.676
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195941,7 +196064,8 @@
      "open": [
       6.5,
       1.739
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -195985,7 +196109,8 @@
      "open": [
       10.5,
       1.889
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196029,7 +196154,8 @@
      "open": [
       0.5,
       1.065
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196073,7 +196199,8 @@
      "open": [
       3.5,
       1.712
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "ml",
@@ -196104,7 +196231,8 @@
      "open": [
       null,
       2.176
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196148,7 +196276,8 @@
      "open": [
       0.5,
       2.158
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "spread",
@@ -196179,7 +196308,8 @@
      "open": [
       2.5,
       1.89
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196233,7 +196363,8 @@
       1.5,
       1.654
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196277,7 +196408,8 @@
      "open": [
       1.5,
       1.506
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -196321,7 +196453,8 @@
      "open": [
       10.5,
       1.857
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196365,7 +196498,8 @@
      "open": [
       1.5,
       2.197
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196409,7 +196543,8 @@
      "open": [
       3.5,
       1.966
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196453,7 +196588,8 @@
      "open": [
       1.5,
       1.681
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196497,7 +196633,8 @@
      "open": [
       1.5,
       2.259
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196541,7 +196678,8 @@
      "open": [
       4.5,
       1.922
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196585,7 +196723,8 @@
      "open": [
       3.5,
       1.792
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196629,7 +196768,8 @@
      "open": [
       1.5,
       1.369
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196673,7 +196813,8 @@
      "open": [
       11.5,
       1.824
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196717,7 +196858,8 @@
      "open": [
       0.5,
       1.156
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196761,7 +196903,8 @@
      "open": [
       5.5,
       1.821
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "total",
@@ -196792,7 +196935,8 @@
      "open": [
       212.5,
       1.893
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196836,7 +196980,8 @@
      "open": [
       3.5,
       1.922
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -196880,7 +197025,8 @@
      "open": [
       17.5,
       1.824
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196924,7 +197070,8 @@
      "open": [
       0.5,
       1.654
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -196968,7 +197115,8 @@
      "open": [
       14.5,
       1.852
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197012,7 +197160,8 @@
      "open": [
       3.5,
       1.615
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197056,7 +197205,8 @@
      "open": [
       10.5,
       1.848
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197100,7 +197250,8 @@
      "open": [
       1.5,
       1.452
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197144,7 +197295,8 @@
      "open": [
       4.5,
       2.125
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197188,7 +197340,8 @@
      "open": [
       1.5,
       2.176
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197242,7 +197395,8 @@
       1.5,
       1.92
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197286,7 +197440,8 @@
      "open": [
       14.5,
       1.757
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197330,7 +197485,8 @@
      "open": [
       2.5,
       2.296
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197374,7 +197530,8 @@
      "open": [
       5.5,
       1.833
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197418,7 +197575,8 @@
      "open": [
       7.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197462,7 +197620,8 @@
      "open": [
       9.5,
       1.792
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197506,7 +197665,8 @@
      "open": [
       2.5,
       2.176
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197550,7 +197710,8 @@
      "open": [
       2.5,
       2.147
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197594,7 +197755,8 @@
      "open": [
       10.5,
       1.813
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197638,7 +197800,8 @@
      "open": [
       4.5,
       1.839
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197692,7 +197855,8 @@
       4.5,
       1.861
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197736,7 +197900,8 @@
      "open": [
       3.5,
       2.032
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197780,7 +197945,8 @@
      "open": [
       22.5,
       1.77
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197834,7 +198000,8 @@
       6.5,
       1.778
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197878,7 +198045,8 @@
      "open": [
       1.5,
       1.494
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -197922,7 +198090,8 @@
      "open": [
       10.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -197966,7 +198135,8 @@
      "open": [
       1.5,
       1.462
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -198010,7 +198180,8 @@
      "open": [
       25.5,
       1.792
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -198054,7 +198225,8 @@
      "open": [
       8.5,
       1.731
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -198098,7 +198270,8 @@
      "open": [
       9.5,
       1.713
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -198142,7 +198315,8 @@
      "open": [
       5.5,
       1.643
-     ]
+     ],
+     "result": "push"
     },
     {
      "kind": "prop",
@@ -198186,1026 +198360,24 @@
      "open": [
       7.5,
       1.557
-     ]
+     ],
+     "result": "won"
     }
    ],
-   "wo": {
-    "DET": {
-     "model": {
-      "Cade Cunningham": [
-       [
-        "Kevin Huerter",
-        3.8,
-        5.0
-       ],
-       [
-        "Daniss Jenkins",
-        3.6,
-        4.2
-       ],
-       [
-        "John Collins",
-        3.4,
-        4.5
-       ]
-      ],
-      "Daniss Jenkins": [
-       [
-        "Kevin Huerter",
-        2.3,
-        4.8
-       ],
-       [
-        "Cade Cunningham",
-        2.2,
-        2.5
-       ],
-       [
-        "John Collins",
-        2.2,
-        4.3
-       ]
-      ],
-      "Kevin Huerter": [
-       [
-        "Cade Cunningham",
-        2.2,
-        2.3
-       ],
-       [
-        "John Collins",
-        2.0,
-        3.7
-       ],
-       [
-        "Daniss Jenkins",
-        1.9,
-        3.5
-       ]
-      ],
-      "Ausar Thompson": [
-       [
-        "Kevin Huerter",
-        1.6,
-        3.9
-       ],
-       [
-        "John Collins",
-        1.5,
-        3.3
-       ],
-       [
-        "Paul Reed",
-        1.3,
-        3.2
-       ]
-      ],
-      "John Collins": [
-       [
-        "Cade Cunningham",
-        1.7,
-        2.0
-       ],
-       [
-        "Daniss Jenkins",
-        1.5,
-        2.8
-       ],
-       [
-        "Kevin Huerter",
-        1.5,
-        3.3
-       ]
-      ],
-      "Paul Reed": [
-       [
-        "Cade Cunningham",
-        1.6,
-        1.9
-       ],
-       [
-        "Kevin Huerter",
-        1.4,
-        3.1
-       ],
-       [
-        "John Collins",
-        1.4,
-        2.7
-       ]
-      ],
-      "Javonte Green": [
-       [
-        "Cade Cunningham",
-        1.2,
-        1.7
-       ],
-       [
-        "Kevin Huerter",
-        1.2,
-        2.8
-       ],
-       [
-        "Daniss Jenkins",
-        1.1,
-        2.5
-       ]
-      ]
-     },
-     "real": {
-      "Duncan Robinson": [
-       [
-        "Javonte Green",
-        5.4,
-        4,
-        9
-       ],
-       [
-        "John Collins",
-        4.1,
-        4,
-        9
-       ],
-       [
-        "Daniss Jenkins",
-        3.2,
-        4,
-        9
-       ]
-      ],
-      "Taurean Prince": [
-       [
-        "John Collins",
-        7.1,
-        10,
-        3
-       ],
-       [
-        "Daniss Jenkins",
-        3.7,
-        10,
-        3
-       ],
-       [
-        "Ausar Thompson",
-        3.0,
-        10,
-        3
-       ]
-      ],
-      "Ebuka Okorie": [
-       [
-        "Daniss Jenkins",
-        6.2,
-        9,
-        4
-       ],
-       [
-        "Cade Cunningham",
-        4.0,
-        8,
-        4
-       ],
-       [
-        "Kevin Huerter",
-        3.0,
-        9,
-        4
-       ]
-      ]
-     },
-     "doubt": [
-      [
-       "Cade Cunningham",
-       0.92
-      ]
-     ],
-     "planb": {
-      "Cade Cunningham": {
-       "p_play": 0.92,
-       "min": 38.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Kevin Huerter Over 11.5 Puntos",
-         "player": "Kevin Huerter",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.881,
-         "p": 0.631,
-         "base_p": 0.513,
-         "ev": 0.186,
-         "if_out": "Cade Cunningham",
-         "mean": 17.9,
-         "mean0": 14.1
-        },
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.624,
-         "base_p": 0.533,
-         "ev": 0.167,
-         "if_out": "Cade Cunningham",
-         "mean": 10.7,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "John Collins Over 10.5 Puntos",
-         "player": "John Collins",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.857,
-         "p": 0.625,
-         "base_p": 0.489,
-         "ev": 0.162,
-         "if_out": "Cade Cunningham",
-         "mean": 14.4,
-         "mean0": 11.0
-        },
-        {
-         "kind": "prop",
-         "label": "Ausar Thompson Over 10.5 Puntos",
-         "player": "Ausar Thompson",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.848,
-         "p": 0.61,
-         "base_p": 0.471,
-         "ev": 0.128,
-         "if_out": "Cade Cunningham",
-         "mean": 12.6,
-         "mean0": 9.7
-        }
-       ]
-      },
-      "Daniss Jenkins": {
-       "p_play": 1.0,
-       "min": 35.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.6,
-         "base_p": 0.533,
-         "ev": 0.122,
-         "if_out": "Daniss Jenkins",
-         "mean": 10.0,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "Kevin Huerter Over 11.5 Puntos",
-         "player": "Kevin Huerter",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.881,
-         "p": 0.588,
-         "base_p": 0.513,
-         "ev": 0.106,
-         "if_out": "Daniss Jenkins",
-         "mean": 16.4,
-         "mean0": 14.1
-        },
-        {
-         "kind": "prop",
-         "label": "Ausar Thompson Over 4.5 Asistencias",
-         "player": "Ausar Thompson",
-         "team": "DET",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 2.07,
-         "p": 0.525,
-         "base_p": 0.448,
-         "ev": 0.087,
-         "if_out": "Daniss Jenkins",
-         "mean": 5.3,
-         "mean0": 4.5
-        },
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 0.5 Asistencias",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "ast",
-         "side": "over",
-         "line": 0.5,
-         "dec": 2.104,
-         "p": 0.513,
-         "base_p": 0.472,
-         "ev": 0.08,
-         "if_out": "Daniss Jenkins",
-         "mean": 1.1,
-         "mean0": 0.9
-        }
-       ]
-      },
-      "Kevin Huerter": {
-       "p_play": 1.0,
-       "min": 33.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.594,
-         "base_p": 0.533,
-         "ev": 0.111,
-         "if_out": "Kevin Huerter",
-         "mean": 9.8,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "Ausar Thompson Over 4.5 Asistencias",
-         "player": "Ausar Thompson",
-         "team": "DET",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 2.07,
-         "p": 0.514,
-         "base_p": 0.448,
-         "ev": 0.064,
-         "if_out": "Kevin Huerter",
-         "mean": 5.2,
-         "mean0": 4.5
-        },
-        {
-         "kind": "prop",
-         "label": "John Collins Over 10.5 Puntos",
-         "player": "John Collins",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.857,
-         "p": 0.573,
-         "base_p": 0.489,
-         "ev": 0.064,
-         "if_out": "Kevin Huerter",
-         "mean": 13.0,
-         "mean0": 11.0
-        },
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 2.5 Rebotes",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "reb",
-         "side": "over",
-         "line": 2.5,
-         "dec": 1.612,
-         "p": 0.652,
-         "base_p": 0.61,
-         "ev": 0.051,
-         "if_out": "Kevin Huerter",
-         "mean": 5.1,
-         "mean0": 4.4
-        }
-       ]
-      },
-      "Ausar Thompson": {
-       "p_play": 1.0,
-       "min": 28.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.581,
-         "base_p": 0.533,
-         "ev": 0.087,
-         "if_out": "Ausar Thompson",
-         "mean": 9.4,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "Kevin Huerter Over 11.5 Puntos",
-         "player": "Kevin Huerter",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.881,
-         "p": 0.566,
-         "base_p": 0.513,
-         "ev": 0.064,
-         "if_out": "Ausar Thompson",
-         "mean": 15.7,
-         "mean0": 14.1
-        },
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 2.5 Rebotes",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "reb",
-         "side": "over",
-         "line": 2.5,
-         "dec": 1.612,
-         "p": 0.651,
-         "base_p": 0.61,
-         "ev": 0.049,
-         "if_out": "Ausar Thompson",
-         "mean": 5.0,
-         "mean0": 4.4
-        },
-        {
-         "kind": "prop",
-         "label": "Daniss Jenkins Over 4.5 Asistencias",
-         "player": "Daniss Jenkins",
-         "team": "DET",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.787,
-         "p": 0.582,
-         "base_p": 0.534,
-         "ev": 0.04,
-         "if_out": "Ausar Thompson",
-         "mean": 5.9,
-         "mean0": 5.5
-        }
-       ]
-      },
-      "John Collins": {
-       "p_play": 1.0,
-       "min": 24.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.577,
-         "base_p": 0.533,
-         "ev": 0.08,
-         "if_out": "John Collins",
-         "mean": 9.4,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "Kevin Huerter Over 11.5 Puntos",
-         "player": "Kevin Huerter",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.881,
-         "p": 0.562,
-         "base_p": 0.513,
-         "ev": 0.058,
-         "if_out": "John Collins",
-         "mean": 15.6,
-         "mean0": 14.1
-        }
-       ]
-      },
-      "Paul Reed": {
-       "p_play": 1.0,
-       "min": 23.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Javonte Green Over 5.5 Puntos",
-         "player": "Javonte Green",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.871,
-         "p": 0.576,
-         "base_p": 0.533,
-         "ev": 0.077,
-         "if_out": "Paul Reed",
-         "mean": 9.3,
-         "mean0": 8.3
-        },
-        {
-         "kind": "prop",
-         "label": "Kevin Huerter Over 11.5 Puntos",
-         "player": "Kevin Huerter",
-         "team": "DET",
-         "stat": "pts",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.881,
-         "p": 0.558,
-         "base_p": 0.513,
-         "ev": 0.05,
-         "if_out": "Paul Reed",
-         "mean": 15.5,
-         "mean0": 14.1
-        }
-       ]
-      }
-     }
+   "result": {
+    "score": {
+     "DET": 104,
+     "ORL": 86
     },
-    "ORL": {
-     "model": {
-      "Desmond Bane": [
-       [
-        "Franz Wagner",
-        3.9,
-        4.2
-       ],
-       [
-        "Anthony Black",
-        2.9,
-        4.3
-       ],
-       [
-        "Tristan da Silva",
-        2.6,
-        4.5
-       ]
-      ],
-      "Franz Wagner": [
-       [
-        "Desmond Bane",
-        3.9,
-        4.0
-       ],
-       [
-        "Anthony Black",
-        3.0,
-        4.2
-       ],
-       [
-        "Tristan da Silva",
-        2.7,
-        4.5
-       ]
-      ],
-      "Jalen Suggs": [
-       [
-        "Franz Wagner",
-        1.9,
-        3.4
-       ],
-       [
-        "Desmond Bane",
-        1.6,
-        3.3
-       ],
-       [
-        "Anthony Black",
-        1.4,
-        3.2
-       ]
-      ],
-      "Anthony Black": [
-       [
-        "Franz Wagner",
-        2.5,
-        3.3
-       ],
-       [
-        "Desmond Bane",
-        2.2,
-        3.3
-       ],
-       [
-        "Tristan da Silva",
-        1.6,
-        3.2
-       ]
-      ],
-      "Tristan da Silva": [
-       [
-        "Franz Wagner",
-        2.2,
-        3.0
-       ],
-       [
-        "Desmond Bane",
-        1.8,
-        2.9
-       ],
-       [
-        "Anthony Black",
-        1.5,
-        2.8
-       ]
-      ],
-      "Wendell Carter Jr.": [
-       [
-        "Franz Wagner",
-        1.6,
-        3.2
-       ],
-       [
-        "Desmond Bane",
-        1.3,
-        3.1
-       ],
-       [
-        "Anthony Black",
-        1.2,
-        3.1
-       ]
-      ],
-      "Jase Richardson": [
-       [
-        "Franz Wagner",
-        1.1,
-        2.5
-       ],
-       [
-        "Desmond Bane",
-        0.9,
-        2.4
-       ],
-       [
-        "Anthony Black",
-        0.8,
-        2.3
-       ]
-      ]
-     },
-     "real": {},
-     "doubt": [],
-     "planb": {
-      "Desmond Bane": {
-       "p_play": 1.0,
-       "min": 34.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Tristan da Silva Over 10.5 Puntos",
-         "player": "Tristan da Silva",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.889,
-         "p": 0.591,
-         "base_p": 0.489,
-         "ev": 0.116,
-         "if_out": "Desmond Bane",
-         "mean": 14.1,
-         "mean0": 11.5
-        },
-        {
-         "kind": "prop",
-         "label": "Anthony Black Over 14.5 Puntos",
-         "player": "Anthony Black",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 14.5,
-         "dec": 1.852,
-         "p": 0.578,
-         "base_p": 0.471,
-         "ev": 0.07,
-         "if_out": "Desmond Bane",
-         "mean": 16.4,
-         "mean0": 13.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jalen Suggs Over 3.5 Asistencias",
-         "player": "Jalen Suggs",
-         "team": "ORL",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.75,
-         "p": 0.611,
-         "base_p": 0.543,
-         "ev": 0.07,
-         "if_out": "Desmond Bane",
-         "mean": 5.2,
-         "mean0": 4.4
-        },
-        {
-         "kind": "prop",
-         "label": "Franz Wagner Over 6.5 Rebotes",
-         "player": "Franz Wagner",
-         "team": "ORL",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.98,
-         "p": 0.537,
-         "base_p": 0.468,
-         "ev": 0.063,
-         "if_out": "Desmond Bane",
-         "mean": 7.5,
-         "mean0": 6.7
-        }
-       ]
-      },
-      "Franz Wagner": {
-       "p_play": 1.0,
-       "min": 33.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Desmond Bane Over 17.5 Puntos",
-         "player": "Desmond Bane",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.881,
-         "p": 0.604,
-         "base_p": 0.517,
-         "ev": 0.136,
-         "if_out": "Franz Wagner",
-         "mean": 25.3,
-         "mean0": 21.4
-        },
-        {
-         "kind": "prop",
-         "label": "Tristan da Silva Over 10.5 Puntos",
-         "player": "Tristan da Silva",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.889,
-         "p": 0.596,
-         "base_p": 0.489,
-         "ev": 0.125,
-         "if_out": "Franz Wagner",
-         "mean": 14.2,
-         "mean0": 11.5
-        },
-        {
-         "kind": "prop",
-         "label": "Anthony Black Over 14.5 Puntos",
-         "player": "Anthony Black",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 14.5,
-         "dec": 1.852,
-         "p": 0.58,
-         "base_p": 0.471,
-         "ev": 0.074,
-         "if_out": "Franz Wagner",
-         "mean": 16.5,
-         "mean0": 13.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jalen Suggs Over 3.5 Asistencias",
-         "player": "Jalen Suggs",
-         "team": "ORL",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.75,
-         "p": 0.613,
-         "base_p": 0.543,
-         "ev": 0.072,
-         "if_out": "Franz Wagner",
-         "mean": 5.2,
-         "mean0": 4.4
-        }
-       ]
-      },
-      "Jalen Suggs": {
-       "p_play": 1.0,
-       "min": 26.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Desmond Bane Over 17.5 Puntos",
-         "player": "Desmond Bane",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.881,
-         "p": 0.56,
-         "base_p": 0.517,
-         "ev": 0.054,
-         "if_out": "Jalen Suggs",
-         "mean": 23.0,
-         "mean0": 21.4
-        },
-        {
-         "kind": "prop",
-         "label": "Desmond Bane Over 3.5 Rebotes",
-         "player": "Desmond Bane",
-         "team": "ORL",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.786,
-         "p": 0.582,
-         "base_p": 0.541,
-         "ev": 0.039,
-         "if_out": "Jalen Suggs",
-         "mean": 5.0,
-         "mean0": 4.5
-        },
-        {
-         "kind": "prop",
-         "label": "Franz Wagner Over 6.5 Rebotes",
-         "player": "Franz Wagner",
-         "team": "ORL",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.98,
-         "p": 0.523,
-         "base_p": 0.468,
-         "ev": 0.035,
-         "if_out": "Jalen Suggs",
-         "mean": 7.3,
-         "mean0": 6.7
-        }
-       ]
-      },
-      "Anthony Black": {
-       "p_play": 1.0,
-       "min": 26.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Desmond Bane Over 17.5 Puntos",
-         "player": "Desmond Bane",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.881,
-         "p": 0.574,
-         "base_p": 0.517,
-         "ev": 0.08,
-         "if_out": "Anthony Black",
-         "mean": 23.6,
-         "mean0": 21.4
-        },
-        {
-         "kind": "prop",
-         "label": "Tristan da Silva Over 10.5 Puntos",
-         "player": "Tristan da Silva",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.889,
-         "p": 0.556,
-         "base_p": 0.489,
-         "ev": 0.05,
-         "if_out": "Anthony Black",
-         "mean": 13.1,
-         "mean0": 11.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jalen Suggs Over 3.5 Asistencias",
-         "player": "Jalen Suggs",
-         "team": "ORL",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.75,
-         "p": 0.597,
-         "base_p": 0.543,
-         "ev": 0.045,
-         "if_out": "Anthony Black",
-         "mean": 5.0,
-         "mean0": 4.4
-        },
-        {
-         "kind": "prop",
-         "label": "Franz Wagner Over 6.5 Rebotes",
-         "player": "Franz Wagner",
-         "team": "ORL",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.98,
-         "p": 0.521,
-         "base_p": 0.468,
-         "ev": 0.031,
-         "if_out": "Anthony Black",
-         "mean": 7.3,
-         "mean0": 6.7
-        }
-       ]
-      },
-      "Tristan da Silva": {
-       "p_play": 1.0,
-       "min": 25.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Desmond Bane Over 17.5 Puntos",
-         "player": "Desmond Bane",
-         "team": "ORL",
-         "stat": "pts",
-         "side": "over",
-         "line": 17.5,
-         "dec": 1.881,
-         "p": 0.567,
-         "base_p": 0.517,
-         "ev": 0.066,
-         "if_out": "Tristan da Silva",
-         "mean": 23.2,
-         "mean0": 21.4
-        },
-        {
-         "kind": "prop",
-         "label": "Jalen Suggs Over 3.5 Asistencias",
-         "player": "Jalen Suggs",
-         "team": "ORL",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.75,
-         "p": 0.591,
-         "base_p": 0.543,
-         "ev": 0.034,
-         "if_out": "Tristan da Silva",
-         "mean": 4.9,
-         "mean0": 4.4
-        }
-       ]
-      },
-      "Wendell Carter Jr.": {
-       "p_play": 1.0,
-       "min": 24.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Jalen Suggs Over 3.5 Asistencias",
-         "player": "Jalen Suggs",
-         "team": "ORL",
-         "stat": "ast",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.75,
-         "p": 0.593,
-         "base_p": 0.543,
-         "ev": 0.037,
-         "if_out": "Wendell Carter Jr.",
-         "mean": 4.9,
-         "mean0": 4.4
-        },
-        {
-         "kind": "prop",
-         "label": "Franz Wagner Over 6.5 Rebotes",
-         "player": "Franz Wagner",
-         "team": "ORL",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.98,
-         "p": 0.522,
-         "base_p": 0.468,
-         "ev": 0.034,
-         "if_out": "Wendell Carter Jr.",
-         "mean": 7.3,
-         "mean0": 6.7
-        }
-       ]
-      }
-     }
-    }
+    "ot": 0,
+    "winner": "DET",
+    "winner_ok": true,
+    "picks_won": 3,
+    "picks_lost": 1,
+    "units": 1.64,
+    "err_won": 2,
+    "err_lost": 4,
+    "err_units": -2.31
    }
   },
   {
@@ -199277,7 +198449,8 @@
      "open": [
       2.5,
       1.522
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199323,7 +198496,8 @@
      "open": [
       3.5,
       1.643
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199369,7 +198543,8 @@
      "open": [
       2.5,
       1.522
-     ]
+     ],
+     "result": "won"
     }
    ],
    "value_bets": [],
@@ -199399,7 +198574,8 @@
        1
       ]
      },
-     "mean": 5.7
+     "mean": 5.7,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199425,7 +198601,8 @@
        1
       ]
      },
-     "mean": 4.8
+     "mean": 4.8,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199451,7 +198628,8 @@
        2
       ]
      },
-     "mean": 3.1
+     "mean": 3.1,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199477,7 +198655,8 @@
        2
       ]
      },
-     "mean": 6.8
+     "mean": 6.8,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199503,7 +198682,8 @@
        1
       ]
      },
-     "mean": 4.2
+     "mean": 4.2,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199529,7 +198709,8 @@
        3
       ]
      },
-     "mean": 5.7
+     "mean": 5.7,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199555,7 +198736,8 @@
        1
       ]
      },
-     "mean": 11.7
+     "mean": 11.7,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199581,7 +198763,8 @@
        2
       ]
      },
-     "mean": 12.6
+     "mean": 12.6,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199607,7 +198790,8 @@
        2
       ]
      },
-     "mean": 1.4
+     "mean": 1.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199633,7 +198817,8 @@
        2
       ]
      },
-     "mean": 5.3
+     "mean": 5.3,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199659,7 +198844,8 @@
        3
       ]
      },
-     "mean": 7.7
+     "mean": 7.7,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199685,7 +198871,8 @@
        0
       ]
      },
-     "mean": 4.5
+     "mean": 4.5,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199711,7 +198898,8 @@
        3
       ]
      },
-     "mean": 5.8
+     "mean": 5.8,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199737,7 +198925,8 @@
        2
       ]
      },
-     "mean": 1.7
+     "mean": 1.7,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199762,7 +198951,8 @@
        1,
        1
       ]
-     }
+     },
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199788,7 +198978,8 @@
        1
       ]
      },
-     "mean": 6.5
+     "mean": 6.5,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199813,7 +199004,8 @@
        0,
        0
       ]
-     }
+     },
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199839,7 +199031,8 @@
        1
       ]
      },
-     "mean": 1.9
+     "mean": 1.9,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -199865,7 +199058,8 @@
        1
       ]
      },
-     "mean": 5.6
+     "mean": 5.6,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -199890,7 +199084,8 @@
        0,
        1
       ]
-     }
+     },
+     "result": "lost"
     }
    ],
    "err_bets": [
@@ -199946,7 +199141,8 @@
       1.5,
       1.647
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200000,7 +199196,8 @@
       0.5,
       1.688
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     }
    ],
    "all_bets": [
@@ -200047,7 +199244,8 @@
      "open": [
       2.5,
       1.522
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200092,7 +199290,8 @@
      "open": [
       3.5,
       1.643
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200137,7 +199336,8 @@
      "open": [
       2.5,
       1.522
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200182,7 +199382,8 @@
      "open": [
       5.5,
       1.75
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200227,7 +199428,8 @@
      "open": [
       15.5,
       1.806
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200272,7 +199474,8 @@
      "open": [
       19.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200317,7 +199520,8 @@
      "open": [
       4.5,
       1.576
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200362,7 +199566,8 @@
      "open": [
       9.5,
       1.757
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200407,7 +199612,8 @@
      "open": [
       10.5,
       1.731
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200451,7 +199657,8 @@
      "open": [
       4.5,
       1.825
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200495,7 +199702,8 @@
      "open": [
       4.5,
       1.576
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200539,7 +199747,8 @@
      "open": [
       7.5,
       1.852
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200583,7 +199792,8 @@
      "open": [
       2.5,
       2.165
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200627,7 +199837,8 @@
      "open": [
       1.5,
       1.506
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200671,7 +199882,8 @@
      "open": [
       3.5,
       1.868
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "spread",
@@ -200702,7 +199914,8 @@
      "open": [
       -10.5,
       1.907
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200746,7 +199959,8 @@
      "open": [
       26.5,
       1.857
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -200790,7 +200004,8 @@
      "open": [
       2.5,
       1.462
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "total",
@@ -200821,7 +200036,8 @@
      "open": [
       216.5,
       1.89
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200866,6 +200082,7 @@
       1.5,
       1.603
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -200923,7 +200140,8 @@
       1.5,
       1.647
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -200967,7 +200185,8 @@
      "open": [
       0.5,
       1.912
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "ml",
@@ -200998,7 +200217,8 @@
      "open": [
       null,
       1.215
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201042,7 +200262,8 @@
      "open": [
       15.5,
       1.794
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201087,6 +200308,7 @@
       6.5,
       1.904
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -201134,7 +200356,8 @@
      "open": [
       6.5,
       1.705
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201178,7 +200401,8 @@
      "open": [
       4.5,
       1.593
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201223,6 +200447,7 @@
       16.5,
       1.792
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -201270,7 +200495,8 @@
      "open": [
       8.5,
       1.62
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201314,7 +200540,8 @@
      "open": [
       2.5,
       1.631
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201358,7 +200585,8 @@
      "open": [
       6.5,
       1.876
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201402,7 +200630,8 @@
      "open": [
       3.5,
       1.887
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201446,7 +200675,8 @@
      "open": [
       13.5,
       1.81
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201490,7 +200720,8 @@
      "open": [
       0.5,
       2.051
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201534,7 +200765,8 @@
      "open": [
       8.5,
       1.774
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201578,7 +200810,8 @@
      "open": [
       6.5,
       1.886
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201622,7 +200855,8 @@
      "open": [
       0.5,
       1.961
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201666,7 +200900,8 @@
      "open": [
       0.5,
       1.06
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201710,7 +200945,8 @@
      "open": [
       3.5,
       1.835
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201754,7 +200990,8 @@
      "open": [
       12.5,
       1.806
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201798,7 +201035,8 @@
      "open": [
       13.5,
       1.725
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201842,7 +201080,8 @@
      "open": [
       1.5,
       2.192
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -201886,7 +201125,8 @@
      "open": [
       10.5,
       1.797
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201930,7 +201170,8 @@
      "open": [
       0.5,
       1.616
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -201974,7 +201215,8 @@
      "open": [
       21.5,
       1.89
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202018,7 +201260,8 @@
      "open": [
       2.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202062,7 +201305,8 @@
      "open": [
       2.5,
       1.999
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202106,7 +201350,8 @@
      "open": [
       21.5,
       1.815
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202150,7 +201395,8 @@
      "open": [
       10.5,
       1.911
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202194,7 +201440,8 @@
      "open": [
       1.5,
       1.603
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202238,7 +201485,8 @@
      "open": [
       0.5,
       2.168
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202282,7 +201530,8 @@
      "open": [
       3.5,
       1.869
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "total",
@@ -202313,7 +201562,8 @@
      "open": [
       216.5,
       1.923
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202357,7 +201607,8 @@
      "open": [
       6.5,
       1.819
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202401,7 +201652,8 @@
      "open": [
       0.5,
       1.754
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202445,7 +201697,8 @@
      "open": [
       8.5,
       1.937
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202499,7 +201752,8 @@
       0.5,
       1.688
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "spread",
@@ -202530,7 +201784,8 @@
      "open": [
       10.5,
       1.909
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202574,7 +201829,8 @@
      "open": [
       13.5,
       1.896
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202618,7 +201874,8 @@
      "open": [
       3.5,
       1.818
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202662,7 +201919,8 @@
      "open": [
       6.5,
       1.828
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "ml",
@@ -202693,7 +201951,8 @@
      "open": [
       null,
       4.534
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202738,6 +201997,7 @@
       16.5,
       1.916
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -202786,6 +202046,7 @@
       6.5,
       1.802
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -202833,7 +202094,8 @@
      "open": [
       2.5,
       2.142
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -202877,7 +202139,8 @@
      "open": [
       0.5,
       7.338
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202921,7 +202184,8 @@
      "open": [
       6.5,
       2.027
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -202965,7 +202229,8 @@
      "open": [
       5.5,
       1.668
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203009,7 +202274,8 @@
      "open": [
       15.5,
       1.914
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203053,7 +202319,8 @@
      "open": [
       2.5,
       1.618
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203097,7 +202364,8 @@
      "open": [
       0.5,
       1.795
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203141,7 +202409,8 @@
      "open": [
       26.5,
       1.847
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203185,7 +202454,8 @@
      "open": [
       3.5,
       1.836
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203229,7 +202499,8 @@
      "open": [
       1.5,
       2.114
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203273,7 +202544,8 @@
      "open": [
       7.5,
       1.852
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203317,7 +202589,8 @@
      "open": [
       3.5,
       1.62
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203362,6 +202635,7 @@
       1.5,
       2.192
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 14 partidos esta temporada"
@@ -203409,7 +202683,8 @@
      "open": [
       4.5,
       1.879
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203453,7 +202728,8 @@
      "open": [
       1.5,
       1.506
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203497,7 +202773,8 @@
      "open": [
       7.5,
       1.623
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203541,7 +202818,8 @@
      "open": [
       10.5,
       1.668
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203585,7 +202863,8 @@
      "open": [
       4.5,
       1.829
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203629,7 +202908,8 @@
      "open": [
       2.5,
       1.462
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203673,7 +202953,8 @@
      "open": [
       11.5,
       1.725
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203717,7 +202998,8 @@
      "open": [
       3.5,
       1.643
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203761,7 +203043,8 @@
      "open": [
       14.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203805,7 +203088,8 @@
      "open": [
       18.5,
       1.799
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -203849,7 +203133,8 @@
      "open": [
       1.5,
       1.506
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203893,7 +203178,8 @@
      "open": [
       3.5,
       1.598
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -203937,980 +203223,24 @@
      "open": [
       4.5,
       1.522
-     ]
+     ],
+     "result": "won"
     }
    ],
-   "wo": {
-    "BOS": {
-     "model": {
-      "Jayson Tatum": [
-       [
-        "Paul George",
-        4.0,
-        4.8
-       ],
-       [
-        "Derrick White",
-        3.4,
-        4.9
-       ],
-       [
-        "Neemias Queta",
-        3.1,
-        4.4
-       ]
-      ],
-      "Derrick White": [
-       [
-        "Jayson Tatum",
-        2.8,
-        3.9
-       ],
-       [
-        "Paul George",
-        2.6,
-        4.2
-       ],
-       [
-        "Neemias Queta",
-        2.0,
-        3.8
-       ]
-      ],
-      "Payton Pritchard": [
-       [
-        "Jayson Tatum",
-        2.5,
-        3.4
-       ],
-       [
-        "Paul George",
-        2.3,
-        3.6
-       ],
-       [
-        "Derrick White",
-        2.1,
-        3.7
-       ]
-      ],
-      "Paul George": [
-       [
-        "Jayson Tatum",
-        3.3,
-        3.7
-       ],
-       [
-        "Derrick White",
-        2.6,
-        4.1
-       ],
-       [
-        "Neemias Queta",
-        2.4,
-        3.6
-       ]
-      ],
-      "Neemias Queta": [
-       [
-        "Jayson Tatum",
-        2.4,
-        3.2
-       ],
-       [
-        "Paul George",
-        2.2,
-        3.3
-       ],
-       [
-        "Derrick White",
-        1.9,
-        3.4
-       ]
-      ],
-      "Sam Hauser": [
-       [
-        "Jayson Tatum",
-        1.3,
-        2.5
-       ],
-       [
-        "Paul George",
-        1.1,
-        2.5
-       ],
-       [
-        "Derrick White",
-        1.1,
-        2.6
-       ]
-      ]
-     },
-     "real": {
-      "Mitchell Robinson": [
-       [
-        "Mike Conley",
-        9.5,
-        2,
-        4
-       ],
-       [
-        "Luka Garza",
-        4.0,
-        3,
-        12
-       ],
-       [
-        "Jayson Tatum",
-        3.3,
-        2,
-        11
-       ]
-      ]
-     },
-     "doubt": [],
-     "planb": {
-      "Jayson Tatum": {
-       "p_play": 1.0,
-       "min": 34.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 4.5 Asistencias",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.825,
-         "p": 0.62,
-         "base_p": 0.555,
-         "ev": 0.131,
-         "if_out": "Jayson Tatum",
-         "mean": 7.6,
-         "mean0": 6.5
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 13.5 Puntos",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "pts",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.81,
-         "p": 0.624,
-         "base_p": 0.519,
-         "ev": 0.129,
-         "if_out": "Jayson Tatum",
-         "mean": 18.9,
-         "mean0": 15.5
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 8.5 Rebotes",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.937,
-         "p": 0.569,
-         "base_p": 0.474,
-         "ev": 0.103,
-         "if_out": "Jayson Tatum",
-         "mean": 10.2,
-         "mean0": 8.6
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 1.5 Asistencias",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 1.5,
-         "dec": 1.647,
-         "p": 0.649,
-         "base_p": 0.599,
-         "ev": 0.069,
-         "if_out": "Jayson Tatum",
-         "mean": 3.2,
-         "mean0": 2.8
-        }
-       ]
-      },
-      "Derrick White": {
-       "p_play": 1.0,
-       "min": 30.7,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 7.5 Rebotes",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 7.5,
-         "dec": 1.852,
-         "p": 0.602,
-         "base_p": 0.544,
-         "ev": 0.114,
-         "if_out": "Derrick White",
-         "mean": 11.2,
-         "mean0": 10.0
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 8.5 Rebotes",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.937,
-         "p": 0.56,
-         "base_p": 0.474,
-         "ev": 0.085,
-         "if_out": "Derrick White",
-         "mean": 10.0,
-         "mean0": 8.6
-        },
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 6.5 Asistencias",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.886,
-         "p": 0.562,
-         "base_p": 0.495,
-         "ev": 0.061,
-         "if_out": "Derrick White",
-         "mean": 7.7,
-         "mean0": 7.0
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 1.5 Asistencias",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 1.5,
-         "dec": 1.647,
-         "p": 0.641,
-         "base_p": 0.599,
-         "ev": 0.056,
-         "if_out": "Derrick White",
-         "mean": 3.2,
-         "mean0": 2.8
-        }
-       ]
-      },
-      "Payton Pritchard": {
-       "p_play": 1.0,
-       "min": 30.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 7.5 Rebotes",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 7.5,
-         "dec": 1.852,
-         "p": 0.597,
-         "base_p": 0.544,
-         "ev": 0.105,
-         "if_out": "Payton Pritchard",
-         "mean": 11.0,
-         "mean0": 10.0
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 4.5 Asistencias",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.825,
-         "p": 0.604,
-         "base_p": 0.555,
-         "ev": 0.102,
-         "if_out": "Payton Pritchard",
-         "mean": 7.3,
-         "mean0": 6.5
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 13.5 Puntos",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "pts",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.81,
-         "p": 0.59,
-         "base_p": 0.519,
-         "ev": 0.067,
-         "if_out": "Payton Pritchard",
-         "mean": 17.6,
-         "mean0": 15.5
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 8.5 Rebotes",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.937,
-         "p": 0.547,
-         "base_p": 0.474,
-         "ev": 0.059,
-         "if_out": "Payton Pritchard",
-         "mean": 9.8,
-         "mean0": 8.6
-        }
-       ]
-      },
-      "Paul George": {
-       "p_play": 1.0,
-       "min": 29.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 7.5 Rebotes",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 7.5,
-         "dec": 1.852,
-         "p": 0.6,
-         "base_p": 0.544,
-         "ev": 0.11,
-         "if_out": "Paul George",
-         "mean": 11.1,
-         "mean0": 10.0
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 4.5 Asistencias",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.825,
-         "p": 0.608,
-         "base_p": 0.555,
-         "ev": 0.109,
-         "if_out": "Paul George",
-         "mean": 7.4,
-         "mean0": 6.5
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 13.5 Puntos",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "pts",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.81,
-         "p": 0.603,
-         "base_p": 0.519,
-         "ev": 0.091,
-         "if_out": "Paul George",
-         "mean": 18.1,
-         "mean0": 15.5
-        },
-        {
-         "kind": "prop",
-         "label": "Neemias Queta Over 8.5 Rebotes",
-         "player": "Neemias Queta",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 8.5,
-         "dec": 1.937,
-         "p": 0.553,
-         "base_p": 0.474,
-         "ev": 0.072,
-         "if_out": "Paul George",
-         "mean": 9.9,
-         "mean0": 8.6
-        }
-       ]
-      },
-      "Neemias Queta": {
-       "p_play": 1.0,
-       "min": 24.9,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 7.5 Rebotes",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "reb",
-         "side": "over",
-         "line": 7.5,
-         "dec": 1.852,
-         "p": 0.592,
-         "base_p": 0.544,
-         "ev": 0.096,
-         "if_out": "Neemias Queta",
-         "mean": 11.0,
-         "mean0": 10.0
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 4.5 Asistencias",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.825,
-         "p": 0.599,
-         "base_p": 0.555,
-         "ev": 0.094,
-         "if_out": "Neemias Queta",
-         "mean": 7.3,
-         "mean0": 6.5
-        },
-        {
-         "kind": "prop",
-         "label": "Derrick White Over 13.5 Puntos",
-         "player": "Derrick White",
-         "team": "BOS",
-         "stat": "pts",
-         "side": "over",
-         "line": 13.5,
-         "dec": 1.81,
-         "p": 0.585,
-         "base_p": 0.519,
-         "ev": 0.059,
-         "if_out": "Neemias Queta",
-         "mean": 17.4,
-         "mean0": 15.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jayson Tatum Over 6.5 Asistencias",
-         "player": "Jayson Tatum",
-         "team": "BOS",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.886,
-         "p": 0.55,
-         "base_p": 0.495,
-         "ev": 0.037,
-         "if_out": "Neemias Queta",
-         "mean": 7.6,
-         "mean0": 7.0
-        }
-       ]
-      }
-     }
+   "result": {
+    "score": {
+     "BOS": 131,
+     "WAS": 116
     },
-    "WAS": {
-     "model": {
-      "AJ Dybantsa": [
-       [
-        "Anthony Davis",
-        2.7,
-        3.8
-       ],
-       [
-        "Trae Young",
-        2.3,
-        4.7
-       ],
-       [
-        "Alex Sarr",
-        2.3,
-        4.3
-       ]
-      ],
-      "Anthony Davis": [
-       [
-        "Trae Young",
-        3.4,
-        4.5
-       ],
-       [
-        "Kyshawn George",
-        3.1,
-        4.2
-       ],
-       [
-        "Alex Sarr",
-        3.0,
-        4.1
-       ]
-      ],
-      "Kyshawn George": [
-       [
-        "Anthony Davis",
-        2.6,
-        3.6
-       ],
-       [
-        "Trae Young",
-        2.2,
-        4.4
-       ],
-       [
-        "Alex Sarr",
-        2.0,
-        3.9
-       ]
-      ],
-      "Trae Young": [
-       [
-        "Anthony Davis",
-        2.7,
-        3.5
-       ],
-       [
-        "Kyshawn George",
-        2.1,
-        4.0
-       ],
-       [
-        "Alex Sarr",
-        2.1,
-        3.7
-       ]
-      ],
-      "Bilal Coulibaly": [
-       [
-        "Anthony Davis",
-        1.3,
-        2.7
-       ],
-       [
-        "Trae Young",
-        1.1,
-        3.0
-       ],
-       [
-        "Alex Sarr",
-        1.1,
-        2.5
-       ]
-      ],
-      "Alex Sarr": [
-       [
-        "Anthony Davis",
-        2.1,
-        2.7
-       ],
-       [
-        "Trae Young",
-        1.7,
-        3.1
-       ],
-       [
-        "Kyshawn George",
-        1.5,
-        3.0
-       ]
-      ],
-      "Khris Middleton": [
-       [
-        "Anthony Davis",
-        1.6,
-        2.4
-       ],
-       [
-        "Trae Young",
-        1.2,
-        2.7
-       ],
-       [
-        "Kyshawn George",
-        1.2,
-        2.6
-       ]
-      ]
-     },
-     "real": {},
-     "doubt": [],
-     "planb": {
-      "AJ Dybantsa": {
-       "p_play": 1.0,
-       "min": 35.9,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 10.5 Puntos",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.911,
-         "p": 0.576,
-         "base_p": 0.484,
-         "ev": 0.101,
-         "if_out": "AJ Dybantsa",
-         "mean": 13.6,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.581,
-         "base_p": 0.501,
-         "ev": 0.097,
-         "if_out": "AJ Dybantsa",
-         "mean": 4.9,
-         "mean0": 4.1
-        },
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 6.5 Rebotes",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 2.027,
-         "p": 0.53,
-         "base_p": 0.439,
-         "ev": 0.074,
-         "if_out": "AJ Dybantsa",
-         "mean": 7.0,
-         "mean0": 6.0
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 6.5 Puntos",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.828,
-         "p": 0.581,
-         "base_p": 0.496,
-         "ev": 0.063,
-         "if_out": "AJ Dybantsa",
-         "mean": 8.3,
-         "mean0": 6.9
-        }
-       ]
-      },
-      "Anthony Davis": {
-       "p_play": 1.0,
-       "min": 35.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 10.5 Puntos",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.911,
-         "p": 0.6,
-         "base_p": 0.484,
-         "ev": 0.146,
-         "if_out": "Anthony Davis",
-         "mean": 14.3,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 6.5 Puntos",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.828,
-         "p": 0.614,
-         "base_p": 0.496,
-         "ev": 0.122,
-         "if_out": "Anthony Davis",
-         "mean": 8.9,
-         "mean0": 6.9
-        },
-        {
-         "kind": "prop",
-         "label": "Trae Young Over 15.5 Puntos",
-         "player": "Trae Young",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 15.5,
-         "dec": 1.914,
-         "p": 0.581,
-         "base_p": 0.464,
-         "ev": 0.112,
-         "if_out": "Anthony Davis",
-         "mean": 18.2,
-         "mean0": 14.8
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.584,
-         "base_p": 0.501,
-         "ev": 0.101,
-         "if_out": "Anthony Davis",
-         "mean": 5.0,
-         "mean0": 4.1
-        }
-       ]
-      },
-      "Kyshawn George": {
-       "p_play": 1.0,
-       "min": 33.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.575,
-         "base_p": 0.501,
-         "ev": 0.085,
-         "if_out": "Kyshawn George",
-         "mean": 4.9,
-         "mean0": 4.1
-        },
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 10.5 Puntos",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.911,
-         "p": 0.566,
-         "base_p": 0.484,
-         "ev": 0.081,
-         "if_out": "Kyshawn George",
-         "mean": 13.3,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "AJ Dybantsa Over 6.5 Rebotes",
-         "player": "AJ Dybantsa",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.904,
-         "p": 0.561,
-         "base_p": 0.504,
-         "ev": 0.068,
-         "if_out": "Kyshawn George",
-         "mean": 8.1,
-         "mean0": 7.4
-        },
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 6.5 Rebotes",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 2.027,
-         "p": 0.522,
-         "base_p": 0.439,
-         "ev": 0.059,
-         "if_out": "Kyshawn George",
-         "mean": 6.9,
-         "mean0": 6.0
-        }
-       ]
-      },
-      "Trae Young": {
-       "p_play": 1.0,
-       "min": 31.9,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Alex Sarr Over 10.5 Puntos",
-         "player": "Alex Sarr",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.911,
-         "p": 0.568,
-         "base_p": 0.484,
-         "ev": 0.085,
-         "if_out": "Trae Young",
-         "mean": 13.4,
-         "mean0": 11.3
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.574,
-         "base_p": 0.501,
-         "ev": 0.083,
-         "if_out": "Trae Young",
-         "mean": 4.8,
-         "mean0": 4.1
-        },
-        {
-         "kind": "prop",
-         "label": "AJ Dybantsa Over 6.5 Rebotes",
-         "player": "AJ Dybantsa",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.904,
-         "p": 0.559,
-         "base_p": 0.504,
-         "ev": 0.064,
-         "if_out": "Trae Young",
-         "mean": 8.1,
-         "mean0": 7.4
-        },
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 6.5 Puntos",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "pts",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.828,
-         "p": 0.575,
-         "base_p": 0.496,
-         "ev": 0.051,
-         "if_out": "Trae Young",
-         "mean": 8.2,
-         "mean0": 6.9
-        }
-       ]
-      },
-      "Bilal Coulibaly": {
-       "p_play": 1.0,
-       "min": 25.1,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "AJ Dybantsa Over 6.5 Rebotes",
-         "player": "AJ Dybantsa",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.904,
-         "p": 0.547,
-         "base_p": 0.504,
-         "ev": 0.041,
-         "if_out": "Bilal Coulibaly",
-         "mean": 8.0,
-         "mean0": 7.4
-        }
-       ]
-      },
-      "Alex Sarr": {
-       "p_play": 1.0,
-       "min": 23.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.556,
-         "base_p": 0.501,
-         "ev": 0.049,
-         "if_out": "Alex Sarr",
-         "mean": 4.6,
-         "mean0": 4.1
-        },
-        {
-         "kind": "prop",
-         "label": "AJ Dybantsa Over 6.5 Rebotes",
-         "player": "AJ Dybantsa",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.904,
-         "p": 0.547,
-         "base_p": 0.504,
-         "ev": 0.042,
-         "if_out": "Alex Sarr",
-         "mean": 8.0,
-         "mean0": 7.4
-        }
-       ]
-      },
-      "Khris Middleton": {
-       "p_play": 1.0,
-       "min": 22.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Bilal Coulibaly Over 3.5 Rebotes",
-         "player": "Bilal Coulibaly",
-         "team": "WAS",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.887,
-         "p": 0.547,
-         "base_p": 0.501,
-         "ev": 0.033,
-         "if_out": "Khris Middleton",
-         "mean": 4.6,
-         "mean0": 4.1
-        }
-       ]
-      }
-     }
-    }
+    "ot": 0,
+    "winner": "BOS",
+    "winner_ok": true,
+    "picks_won": 0,
+    "picks_lost": 0,
+    "units": 0,
+    "err_won": 2,
+    "err_lost": 0,
+    "err_units": 1.33
    }
   },
   {
@@ -204982,7 +203312,8 @@
      "open": [
       12.5,
       1.897
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205028,7 +203359,8 @@
      "open": [
       7.5,
       1.615
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205074,7 +203406,8 @@
      "open": [
       22.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     }
    ],
    "value_bets": [
@@ -205121,7 +203454,8 @@
      "open": [
       9.5,
       1.844
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205166,7 +203500,8 @@
      "open": [
       3.5,
       1.829
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205211,7 +203546,8 @@
      "open": [
       5.5,
       1.944
-     ]
+     ],
+     "result": "won"
     }
    ],
    "parlays": [
@@ -205229,7 +203565,9 @@
        "dec": 1.844,
        "ev": 0.097,
        "gid": "2026-11-24-DAL-at-DEN",
-       "game": "DAL @ DEN"
+       "game": "DAL @ DEN",
+       "result": "lost",
+       "actual": 13
       },
       {
        "kind": "prop",
@@ -205243,7 +203581,9 @@
        "dec": 1.829,
        "ev": 0.033,
        "gid": "2026-11-24-DAL-at-DEN",
-       "game": "DAL @ DEN"
+       "game": "DAL @ DEN",
+       "result": "lost",
+       "actual": 5
       }
      ],
      "n": 2,
@@ -205253,7 +203593,8 @@
      "dec": 3.37,
      "fair": 2.98,
      "ev": 0.133,
-     "type": "sgp"
+     "type": "sgp",
+     "result": "lost"
     }
    ],
    "model_picks": [
@@ -205280,7 +203621,8 @@
        3,
        3
       ]
-     }
+     },
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205306,7 +203648,8 @@
        4
       ]
      },
-     "mean": 19.3
+     "mean": 19.3,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205332,7 +203675,8 @@
        4
       ]
      },
-     "mean": 18.1
+     "mean": 18.1,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205358,7 +203702,8 @@
        4
       ]
      },
-     "mean": 7.9
+     "mean": 7.9,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205384,7 +203729,8 @@
        4
       ]
      },
-     "mean": 10.4
+     "mean": 10.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205410,7 +203756,8 @@
        1
       ]
      },
-     "mean": 4.4
+     "mean": 4.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205436,7 +203783,8 @@
        4
       ]
      },
-     "mean": 3.6
+     "mean": 3.6,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205462,7 +203810,8 @@
        2
       ]
      },
-     "mean": 5.7
+     "mean": 5.7,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205488,7 +203837,8 @@
        4
       ]
      },
-     "mean": 2.0
+     "mean": 2.0,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205514,7 +203864,8 @@
        4
       ]
      },
-     "mean": 11.4
+     "mean": 11.4,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205539,7 +203890,8 @@
        2,
        3
       ]
-     }
+     },
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205565,7 +203917,8 @@
        4
       ]
      },
-     "mean": 13.2
+     "mean": 13.2,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205591,7 +203944,8 @@
        2
       ]
      },
-     "mean": 2.0
+     "mean": 2.0,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205617,7 +203971,8 @@
        4
       ]
      },
-     "mean": 4.5
+     "mean": 4.5,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205643,7 +203998,8 @@
        3
       ]
      },
-     "mean": 5.3
+     "mean": 5.3,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205669,7 +204025,8 @@
        3
       ]
      },
-     "mean": 19.1
+     "mean": 19.1,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205695,7 +204052,8 @@
        4
       ]
      },
-     "mean": 9.7
+     "mean": 9.7,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205721,7 +204079,8 @@
        1
       ]
      },
-     "mean": 10.5
+     "mean": 10.5,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205747,7 +204106,8 @@
        4
       ]
      },
-     "mean": 8.8
+     "mean": 8.8,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205773,7 +204133,8 @@
        4
       ]
      },
-     "mean": 6.5
+     "mean": 6.5,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205799,7 +204160,8 @@
        2
       ]
      },
-     "mean": 10.5
+     "mean": 10.5,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205825,7 +204187,8 @@
        0
       ]
      },
-     "mean": 2.9
+     "mean": 2.9,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205851,7 +204214,8 @@
        1
       ]
      },
-     "mean": 3.6
+     "mean": 3.6,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -205876,7 +204240,8 @@
        1,
        4
       ]
-     }
+     },
+     "result": "lost"
     }
    ],
    "err_bets": [
@@ -205932,7 +204297,8 @@
       0.5,
       1.701
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -205986,7 +204352,8 @@
       1.5,
       1.569
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     }
    ],
    "all_bets": [
@@ -206033,7 +204400,8 @@
      "open": [
       12.5,
       1.897
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206078,7 +204446,8 @@
      "open": [
       7.5,
       1.615
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206123,7 +204492,8 @@
      "open": [
       22.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206168,7 +204538,8 @@
      "open": [
       11.5,
       1.695
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206213,7 +204584,8 @@
      "open": [
       13.5,
       1.731
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206258,7 +204630,8 @@
      "open": [
       8.5,
       1.837
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206302,7 +204675,8 @@
      "open": [
       9.5,
       1.844
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206347,7 +204721,8 @@
      "open": [
       9.5,
       1.814
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206392,7 +204767,8 @@
      "open": [
       1.5,
       2.259
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206437,7 +204813,8 @@
      "open": [
       1.5,
       1.522
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206482,7 +204859,8 @@
      "open": [
       2.5,
       1.438
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206526,7 +204904,8 @@
      "open": [
       3.5,
       1.829
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206570,7 +204949,8 @@
      "open": [
       5.5,
       1.944
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206614,7 +204994,8 @@
      "open": [
       9.5,
       1.821
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206659,6 +205040,7 @@
       6.5,
       1.795
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -206706,7 +205088,8 @@
      "open": [
       1.5,
       2.13
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206750,7 +205133,8 @@
      "open": [
       10.5,
       1.86
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206794,7 +205178,8 @@
      "open": [
       2.5,
       1.909
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206838,7 +205223,8 @@
      "open": [
       6.5,
       1.965
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -206882,7 +205268,8 @@
      "open": [
       3.5,
       1.871
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "ml",
@@ -206913,7 +205300,8 @@
      "open": [
       null,
       3.606
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -206958,6 +205346,7 @@
       23.5,
       1.792
      ],
+     "result": "won",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -207005,7 +205394,8 @@
      "open": [
       4.5,
       1.906
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207049,7 +205439,8 @@
      "open": [
       6.5,
       1.751
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207094,6 +205485,7 @@
       3.5,
       1.927
      ],
+     "result": "lost",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -207142,6 +205534,7 @@
       4.5,
       1.852
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -207176,7 +205569,8 @@
      "open": [
       8.5,
       1.879
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207220,7 +205614,8 @@
      "open": [
       4.5,
       1.941
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207264,7 +205659,8 @@
      "open": [
       14.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207308,7 +205704,8 @@
      "open": [
       1.5,
       1.384
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207352,7 +205749,8 @@
      "open": [
       5.5,
       1.831
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "total",
@@ -207383,7 +205781,8 @@
      "open": [
       231.5,
       1.888
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207427,7 +205826,8 @@
      "open": [
       1.5,
       2.259
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "total",
@@ -207458,7 +205858,8 @@
      "open": [
       231.5,
       1.932
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207502,7 +205903,8 @@
      "open": [
       0.5,
       1.912
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207547,6 +205949,7 @@
       0.5,
       1.373
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -207595,6 +205998,7 @@
       4.5,
       1.975
      ],
+     "result": "lost",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -207643,6 +206047,7 @@
       3.5,
       1.633
      ],
+     "result": "won",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -207690,7 +206095,8 @@
      "open": [
       1.5,
       2.058
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207734,7 +206140,8 @@
      "open": [
       0.5,
       2.104
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207776,7 +206183,8 @@
      "open": [
       0.5,
       1.091
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "ml",
@@ -207807,7 +206215,8 @@
      "open": [
       null,
       1.305
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207851,7 +206260,8 @@
      "open": [
       2.5,
       2.208
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207895,7 +206305,8 @@
      "open": [
       23.5,
       1.829
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -207939,7 +206350,8 @@
      "open": [
       1.5,
       1.67
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -207983,7 +206395,8 @@
      "open": [
       0.5,
       2.032
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "spread",
@@ -208014,7 +206427,8 @@
      "open": [
       -8.5,
       1.943
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208058,7 +206472,8 @@
      "open": [
       1.5,
       1.896
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208102,7 +206517,8 @@
      "open": [
       0.5,
       1.546
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208147,6 +206563,7 @@
       1.5,
       1.552
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -208194,7 +206611,8 @@
      "open": [
       3.5,
       2.104
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208238,7 +206656,8 @@
      "open": [
       5.5,
       1.734
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208282,7 +206701,8 @@
      "open": [
       1.5,
       2.396
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208326,7 +206746,8 @@
      "open": [
       3.5,
       2.064
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208370,7 +206791,8 @@
      "open": [
       6.5,
       1.929
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208414,7 +206836,8 @@
      "open": [
       12.5,
       1.757
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208458,7 +206881,8 @@
      "open": [
       0.5,
       2.141
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208502,7 +206926,8 @@
      "open": [
       25.5,
       1.814
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208546,7 +206971,8 @@
      "open": [
       6.5,
       1.781
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208590,7 +207016,8 @@
      "open": [
       0.5,
       1.631
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208634,7 +207061,8 @@
      "open": [
       10.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208678,7 +207106,8 @@
      "open": [
       1.5,
       1.509
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208722,7 +207151,8 @@
      "open": [
       3.5,
       1.679
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208766,7 +207196,8 @@
      "open": [
       3.5,
       1.654
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208810,7 +207241,8 @@
      "open": [
       5.5,
       1.987
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208854,7 +207286,8 @@
      "open": [
       1.5,
       1.81
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208908,7 +207341,8 @@
       0.5,
       1.701
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -208952,7 +207386,8 @@
      "open": [
       2.5,
       1.595
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -208996,7 +207431,8 @@
      "open": [
       22.5,
       1.814
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209040,7 +207476,8 @@
      "open": [
       1.5,
       1.569
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209084,7 +207521,8 @@
      "open": [
       1.5,
       1.684
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209128,7 +207566,8 @@
      "open": [
       0.5,
       1.654
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209172,7 +207611,8 @@
      "open": [
       26.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209217,6 +207657,7 @@
       4.5,
       1.743
      ],
+     "result": "won",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -209265,6 +207706,7 @@
       1.5,
       2.296
      ],
+     "result": "lost",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -209312,7 +207754,8 @@
      "open": [
       0.5,
       2.31
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209356,7 +207799,8 @@
      "open": [
       1.5,
       2.077
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209400,7 +207844,8 @@
      "open": [
       0.5,
       1.795
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209445,6 +207890,7 @@
       3.5,
       2.139
      ],
+     "result": "lost",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -209492,7 +207938,8 @@
      "open": [
       5.5,
       1.873
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209536,7 +207983,8 @@
      "open": [
       4.5,
       1.771
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209581,6 +208029,7 @@
       3.5,
       1.783
      ],
+     "result": "won",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -209629,6 +208078,7 @@
       4.5,
       1.852
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -209676,7 +208126,8 @@
      "open": [
       6.5,
       1.965
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209720,7 +208171,8 @@
      "open": [
       0.5,
       1.394
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209764,7 +208216,8 @@
      "open": [
       4.5,
       1.801
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209809,6 +208262,7 @@
       0.5,
       2.844
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -209856,7 +208310,8 @@
      "open": [
       6.5,
       1.751
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -209900,7 +208355,8 @@
      "open": [
       3.5,
       1.833
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -209945,6 +208401,7 @@
       21.5,
       1.757
      ],
+     "result": "lost",
      "flag": {
       "t": "lesion",
       "note": "No jugó la 2025-26 (ligamento cruzado de la rodilla); 14 partidos esta temporada"
@@ -209992,7 +208449,8 @@
      "open": [
       7.5,
       1.871
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210036,7 +208494,8 @@
      "open": [
       1.5,
       1.638
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210080,7 +208539,8 @@
      "open": [
       10.5,
       1.77
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210124,7 +208584,8 @@
      "open": [
       2.5,
       1.798
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210168,7 +208629,8 @@
      "open": [
       13.5,
       1.707
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210222,7 +208684,8 @@
       1.5,
       1.569
      ],
-     "err_pick": true
+     "err_pick": true,
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210266,7 +208729,8 @@
      "open": [
       10.5,
       1.844
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210310,7 +208774,8 @@
      "open": [
       2.5,
       1.539
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210354,7 +208819,8 @@
      "open": [
       5.5,
       1.768
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210399,6 +208865,7 @@
       6.5,
       1.912
      ],
+     "result": "won",
      "flag": {
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 16 partidos esta temporada"
@@ -210446,7 +208913,8 @@
      "open": [
       9.5,
       1.884
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210490,7 +208958,8 @@
      "open": [
       3.5,
       1.875
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210534,7 +209003,8 @@
      "open": [
       1.5,
       1.506
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210578,7 +209048,8 @@
      "open": [
       9.5,
       1.86
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210620,7 +209091,8 @@
      "open": [
       0.5,
       5.75
-     ]
+     ],
+     "result": "lost"
     },
     {
      "kind": "prop",
@@ -210664,7 +209136,8 @@
      "open": [
       12.5,
       1.871
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210708,7 +209181,8 @@
      "open": [
       12.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210752,7 +209226,8 @@
      "open": [
       23.5,
       1.822
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210796,7 +209271,8 @@
      "open": [
       11.5,
       1.725
-     ]
+     ],
+     "result": "won"
     },
     {
      "kind": "prop",
@@ -210840,801 +209316,24 @@
      "open": [
       6.5,
       1.829
-     ]
+     ],
+     "result": "lost"
     }
    ],
-   "wo": {
-    "DAL": {
-     "model": {
-      "Cooper Flagg": [
-       [
-        "Kyrie Irving",
-        4.5,
-        4.6
-       ],
-       [
-        "Naji Marshall",
-        3.2,
-        4.8
-       ],
-       [
-        "P.J. Washington",
-        3.1,
-        4.5
-       ]
-      ],
-      "Kyrie Irving": [
-       [
-        "Cooper Flagg",
-        3.7,
-        3.4
-       ],
-       [
-        "P.J. Washington",
-        2.5,
-        3.7
-       ],
-       [
-        "Naji Marshall",
-        2.5,
-        3.9
-       ]
-      ],
-      "P.J. Washington": [
-       [
-        "Kyrie Irving",
-        2.5,
-        3.8
-       ],
-       [
-        "Cooper Flagg",
-        2.4,
-        3.5
-       ],
-       [
-        "Naji Marshall",
-        1.7,
-        3.6
-       ]
-      ],
-      "Naji Marshall": [
-       [
-        "Cooper Flagg",
-        2.3,
-        2.9
-       ],
-       [
-        "Kyrie Irving",
-        2.2,
-        3.1
-       ],
-       [
-        "P.J. Washington",
-        1.6,
-        3.0
-       ]
-      ],
-      "Zaccharie Risacher": [
-       [
-        "Cooper Flagg",
-        1.5,
-        2.6
-       ],
-       [
-        "Kyrie Irving",
-        1.5,
-        2.7
-       ],
-       [
-        "P.J. Washington",
-        1.2,
-        2.6
-       ]
-      ],
-      "Caleb Martin": [
-       [
-        "Kyrie Irving",
-        1.4,
-        2.9
-       ],
-       [
-        "Cooper Flagg",
-        1.2,
-        2.7
-       ],
-       [
-        "P.J. Washington",
-        1.0,
-        2.8
-       ]
-      ]
-     },
-     "real": {
-      "Tobi Lawal": [
-       [
-        "Kyrie Irving",
-        13.1,
-        8,
-        4
-       ],
-       [
-        "Cooper Flagg",
-        6.9,
-        8,
-        6
-       ],
-       [
-        "Max Christie",
-        1.9,
-        6,
-        5
-       ]
-      ]
-     },
-     "doubt": [],
-     "planb": {
-      "Cooper Flagg": {
-       "p_play": 1.0,
-       "min": 34.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "P.J. Washington Over 5.5 Rebotes",
-         "player": "P.J. Washington",
-         "team": "DAL",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.944,
-         "p": 0.592,
-         "base_p": 0.53,
-         "ev": 0.151,
-         "if_out": "Cooper Flagg",
-         "mean": 9.1,
-         "mean0": 7.9
-        },
-        {
-         "kind": "prop",
-         "label": "P.J. Washington Over 12.5 Puntos",
-         "player": "P.J. Washington",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.932,
-         "p": 0.585,
-         "base_p": 0.477,
-         "ev": 0.13,
-         "if_out": "Cooper Flagg",
-         "mean": 16.2,
-         "mean0": 13.1
-        },
-        {
-         "kind": "prop",
-         "label": "Caleb Martin Over 5.5 Puntos",
-         "player": "Caleb Martin",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.831,
-         "p": 0.607,
-         "base_p": 0.524,
-         "ev": 0.112,
-         "if_out": "Cooper Flagg",
-         "mean": 8.8,
-         "mean0": 7.1
-        },
-        {
-         "kind": "prop",
-         "label": "Kyrie Irving Over 22.5 Puntos",
-         "player": "Kyrie Irving",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 22.5,
-         "dec": 1.881,
-         "p": 0.572,
-         "base_p": 0.459,
-         "ev": 0.076,
-         "if_out": "Cooper Flagg",
-         "mean": 24.8,
-         "mean0": 20.3
-        }
-       ]
-      },
-      "Kyrie Irving": {
-       "p_play": 1.0,
-       "min": 29.3,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "P.J. Washington Over 5.5 Rebotes",
-         "player": "P.J. Washington",
-         "team": "DAL",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.944,
-         "p": 0.582,
-         "base_p": 0.53,
-         "ev": 0.131,
-         "if_out": "Kyrie Irving",
-         "mean": 8.8,
-         "mean0": 7.9
-        },
-        {
-         "kind": "prop",
-         "label": "P.J. Washington Over 12.5 Puntos",
-         "player": "P.J. Washington",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.932,
-         "p": 0.569,
-         "base_p": 0.477,
-         "ev": 0.1,
-         "if_out": "Kyrie Irving",
-         "mean": 15.6,
-         "mean0": 13.1
-        },
-        {
-         "kind": "prop",
-         "label": "Caleb Martin Over 5.5 Puntos",
-         "player": "Caleb Martin",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.831,
-         "p": 0.597,
-         "base_p": 0.524,
-         "ev": 0.093,
-         "if_out": "Kyrie Irving",
-         "mean": 8.5,
-         "mean0": 7.1
-        },
-        {
-         "kind": "prop",
-         "label": "Cooper Flagg Over 24.5 Puntos",
-         "player": "Cooper Flagg",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 24.5,
-         "dec": 1.848,
-         "p": 0.575,
-         "base_p": 0.49,
-         "ev": 0.064,
-         "if_out": "Kyrie Irving",
-         "mean": 28.7,
-         "mean0": 25.0
-        }
-       ]
-      },
-      "P.J. Washington": {
-       "p_play": 1.0,
-       "min": 28.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Caleb Martin Over 5.5 Puntos",
-         "player": "Caleb Martin",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.831,
-         "p": 0.577,
-         "base_p": 0.524,
-         "ev": 0.056,
-         "if_out": "P.J. Washington",
-         "mean": 8.1,
-         "mean0": 7.1
-        },
-        {
-         "kind": "prop",
-         "label": "Caleb Martin Over 3.5 Rebotes",
-         "player": "Caleb Martin",
-         "team": "DAL",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 2.064,
-         "p": 0.508,
-         "base_p": 0.452,
-         "ev": 0.047,
-         "if_out": "P.J. Washington",
-         "mean": 4.1,
-         "mean0": 3.6
-        },
-        {
-         "kind": "prop",
-         "label": "Cooper Flagg Over 6.5 Rebotes",
-         "player": "Cooper Flagg",
-         "team": "DAL",
-         "stat": "reb",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.929,
-         "p": 0.539,
-         "base_p": 0.482,
-         "ev": 0.04,
-         "if_out": "P.J. Washington",
-         "mean": 7.5,
-         "mean0": 6.8
-        }
-       ]
-      },
-      "Naji Marshall": {
-       "p_play": 1.0,
-       "min": 25.6,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Caleb Martin Over 5.5 Puntos",
-         "player": "Caleb Martin",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.831,
-         "p": 0.573,
-         "base_p": 0.524,
-         "ev": 0.049,
-         "if_out": "Naji Marshall",
-         "mean": 8.0,
-         "mean0": 7.1
-        },
-        {
-         "kind": "prop",
-         "label": "P.J. Washington Over 12.5 Puntos",
-         "player": "P.J. Washington",
-         "team": "DAL",
-         "stat": "pts",
-         "side": "over",
-         "line": 12.5,
-         "dec": 1.932,
-         "p": 0.539,
-         "base_p": 0.477,
-         "ev": 0.042,
-         "if_out": "Naji Marshall",
-         "mean": 14.7,
-         "mean0": 13.1
-        }
-       ]
-      }
-     }
+   "result": {
+    "score": {
+     "DAL": 120,
+     "DEN": 101
     },
-    "DEN": {
-     "model": {
-      "Nikola Jokić": [
-       [
-        "Jamal Murray",
-        5.3,
-        3.3
-       ],
-       [
-        "Aaron Gordon",
-        4.2,
-        5.4
-       ],
-       [
-        "Christian Braun",
-        3.2,
-        5.5
-       ]
-      ],
-      "Jamal Murray": [
-       [
-        "Nikola Jokić",
-        5.5,
-        3.0
-       ],
-       [
-        "Aaron Gordon",
-        4.8,
-        5.3
-       ],
-       [
-        "Christian Braun",
-        3.7,
-        5.4
-       ]
-      ],
-      "Christian Braun": [
-       [
-        "Jamal Murray",
-        2.3,
-        2.8
-       ],
-       [
-        "Aaron Gordon",
-        2.2,
-        4.1
-       ],
-       [
-        "Nikola Jokić",
-        1.7,
-        2.5
-       ]
-      ],
-      "Cameron Johnson": [
-       [
-        "Jamal Murray",
-        2.0,
-        2.7
-       ],
-       [
-        "Aaron Gordon",
-        2.0,
-        3.9
-       ],
-       [
-        "Nikola Jokić",
-        1.5,
-        2.4
-       ]
-      ],
-      "Aaron Gordon": [
-       [
-        "Jamal Murray",
-        3.0,
-        2.7
-       ],
-       [
-        "Nikola Jokić",
-        2.5,
-        2.4
-       ],
-       [
-        "Christian Braun",
-        1.8,
-        4.0
-       ]
-      ],
-      "DeMar DeRozan": [
-       [
-        "Jamal Murray",
-        1.8,
-        1.9
-       ],
-       [
-        "Nikola Jokić",
-        1.4,
-        1.8
-       ],
-       [
-        "Aaron Gordon",
-        1.4,
-        2.4
-       ]
-      ]
-     },
-     "real": {},
-     "doubt": [],
-     "planb": {
-      "Nikola Jokić": {
-       "p_play": 1.0,
-       "min": 38.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Spencer Jones Over 3.5 Puntos",
-         "player": "Spencer Jones",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.871,
-         "p": 0.614,
-         "base_p": 0.528,
-         "ev": 0.148,
-         "if_out": "Nikola Jokić",
-         "mean": 7.0,
-         "mean0": 5.4
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 6.5 Asistencias",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.965,
-         "p": 0.559,
-         "base_p": 0.504,
-         "ev": 0.098,
-         "if_out": "Nikola Jokić",
-         "mean": 8.6,
-         "mean0": 7.8
-        },
-        {
-         "kind": "prop",
-         "label": "Aaron Gordon Over 5.5 Rebotes",
-         "player": "Aaron Gordon",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.987,
-         "p": 0.552,
-         "base_p": 0.461,
-         "ev": 0.096,
-         "if_out": "Nikola Jokić",
-         "mean": 6.5,
-         "mean0": 5.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 4.5 Rebotes",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.941,
-         "p": 0.547,
-         "base_p": 0.498,
-         "ev": 0.063,
-         "if_out": "Nikola Jokić",
-         "mean": 5.8,
-         "mean0": 5.3
-        }
-       ]
-      },
-      "Jamal Murray": {
-       "p_play": 1.0,
-       "min": 37.8,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Spencer Jones Over 3.5 Puntos",
-         "player": "Spencer Jones",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.871,
-         "p": 0.621,
-         "base_p": 0.528,
-         "ev": 0.162,
-         "if_out": "Jamal Murray",
-         "mean": 7.2,
-         "mean0": 5.4
-        },
-        {
-         "kind": "prop",
-         "label": "Nikola Jokić Over 9.5 Asistencias",
-         "player": "Nikola Jokić",
-         "team": "DEN",
-         "stat": "ast",
-         "side": "over",
-         "line": 9.5,
-         "dec": 1.821,
-         "p": 0.603,
-         "base_p": 0.563,
-         "ev": 0.099,
-         "if_out": "Jamal Murray",
-         "mean": 14.1,
-         "mean0": 13.1
-        },
-        {
-         "kind": "prop",
-         "label": "Aaron Gordon Over 5.5 Rebotes",
-         "player": "Aaron Gordon",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.987,
-         "p": 0.552,
-         "base_p": 0.461,
-         "ev": 0.098,
-         "if_out": "Jamal Murray",
-         "mean": 6.5,
-         "mean0": 5.5
-        },
-        {
-         "kind": "prop",
-         "label": "DeMar DeRozan Over 10.5 Puntos",
-         "player": "DeMar DeRozan",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 10.5,
-         "dec": 1.844,
-         "p": 0.584,
-         "base_p": 0.454,
-         "ev": 0.076,
-         "if_out": "Jamal Murray",
-         "mean": 11.5,
-         "mean0": 8.7
-        }
-       ]
-      },
-      "Christian Braun": {
-       "p_play": 1.0,
-       "min": 30.9,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Spencer Jones Over 3.5 Puntos",
-         "player": "Spencer Jones",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.871,
-         "p": 0.58,
-         "base_p": 0.528,
-         "ev": 0.085,
-         "if_out": "Christian Braun",
-         "mean": 6.2,
-         "mean0": 5.4
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 6.5 Asistencias",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.965,
-         "p": 0.548,
-         "base_p": 0.504,
-         "ev": 0.077,
-         "if_out": "Christian Braun",
-         "mean": 8.4,
-         "mean0": 7.8
-        },
-        {
-         "kind": "prop",
-         "label": "Aaron Gordon Over 5.5 Rebotes",
-         "player": "Aaron Gordon",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.987,
-         "p": 0.535,
-         "base_p": 0.461,
-         "ev": 0.064,
-         "if_out": "Christian Braun",
-         "mean": 6.3,
-         "mean0": 5.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 4.5 Rebotes",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.941,
-         "p": 0.541,
-         "base_p": 0.498,
-         "ev": 0.05,
-         "if_out": "Christian Braun",
-         "mean": 5.7,
-         "mean0": 5.3
-        }
-       ]
-      },
-      "Cameron Johnson": {
-       "p_play": 1.0,
-       "min": 29.4,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Spencer Jones Over 3.5 Puntos",
-         "player": "Spencer Jones",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.871,
-         "p": 0.575,
-         "base_p": 0.528,
-         "ev": 0.075,
-         "if_out": "Cameron Johnson",
-         "mean": 6.2,
-         "mean0": 5.4
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 6.5 Asistencias",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.965,
-         "p": 0.544,
-         "base_p": 0.504,
-         "ev": 0.07,
-         "if_out": "Cameron Johnson",
-         "mean": 8.4,
-         "mean0": 7.8
-        },
-        {
-         "kind": "prop",
-         "label": "Aaron Gordon Over 5.5 Rebotes",
-         "player": "Aaron Gordon",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 5.5,
-         "dec": 1.987,
-         "p": 0.528,
-         "base_p": 0.461,
-         "ev": 0.049,
-         "if_out": "Cameron Johnson",
-         "mean": 6.2,
-         "mean0": 5.5
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 4.5 Rebotes",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "reb",
-         "side": "over",
-         "line": 4.5,
-         "dec": 1.941,
-         "p": 0.538,
-         "base_p": 0.498,
-         "ev": 0.045,
-         "if_out": "Cameron Johnson",
-         "mean": 5.7,
-         "mean0": 5.3
-        }
-       ]
-      },
-      "Aaron Gordon": {
-       "p_play": 1.0,
-       "min": 29.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Spencer Jones Over 3.5 Puntos",
-         "player": "Spencer Jones",
-         "team": "DEN",
-         "stat": "pts",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.871,
-         "p": 0.582,
-         "base_p": 0.528,
-         "ev": 0.089,
-         "if_out": "Aaron Gordon",
-         "mean": 6.3,
-         "mean0": 5.4
-        },
-        {
-         "kind": "prop",
-         "label": "Jamal Murray Over 6.5 Asistencias",
-         "player": "Jamal Murray",
-         "team": "DEN",
-         "stat": "ast",
-         "side": "over",
-         "line": 6.5,
-         "dec": 1.965,
-         "p": 0.546,
-         "base_p": 0.504,
-         "ev": 0.073,
-         "if_out": "Aaron Gordon",
-         "mean": 8.4,
-         "mean0": 7.8
-        }
-       ]
-      }
-     }
-    }
+    "ot": 0,
+    "winner": "DAL",
+    "winner_ok": false,
+    "picks_won": 1,
+    "picks_lost": 2,
+    "units": -1.06,
+    "err_won": 1,
+    "err_lost": 1,
+    "err_units": -0.3
    }
   }
  ]
