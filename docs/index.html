@@ -349,6 +349,17 @@ tr.detail td { background: var(--bg) }
 .h2h-g .sc { display: grid; grid-template-columns: 1fr auto; font: 600 17px/1.3 var(--mono) }
 .h2h-g .sc .w { color: var(--ink) } .h2h-g .sc .l { color: var(--muted); font-weight: 500 }
 .h2h-g .ld { font-size: 12px; color: var(--muted) }
+/* Enfrentamientos tocables (26-nov, pedido de Nicolas): cada cruce abre su partido; logos en cada fila */
+button.h2h-g { font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s, transform .15s, box-shadow .15s }
+button.h2h-g:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.08); transform: translateY(-1px) }
+button.h2h-g:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.h2h-g .sc > span:nth-child(odd) { display: flex; align-items: center; gap: 7px; min-width: 0 }
+.h2h-g .go { font: 600 11.5px var(--mono); color: var(--accent); justify-self: end }
+@media (prefers-reduced-motion: reduce) { button.h2h-g { transition: none } button.h2h-g:hover { transform: none } }
+.gb-score .tlogo { margin: 0 2px }
+.gb-info { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px }
+.gb-info span { border: 1px solid var(--line); border-radius: 99px; padding: 3px 10px; font: 500 12px var(--mono); color: var(--muted) }
+.gb-info b { color: var(--ink) }
 .h2h-cell .vals { display: block; font: 11px var(--mono); color: var(--muted) }
 .h2h-btn { all: unset; cursor: pointer; display: inline-block; border-radius: 6px; padding: 2px 4px; margin: -2px -4px; text-decoration: underline dotted; text-underline-offset: 3px }
 .h2h-btn:hover, .h2h-btn:focus-visible { background: var(--accent-soft); outline: none }
@@ -2555,8 +2566,10 @@ function mvDraw(d, t) {
 
 // Enfrentamientos de esta temporada y la anterior, de liga y de Copa (d.h2h, de results/ y h2h/<temporada>.json vía build_site.py)
 const h2hSeasons = H => H.seasons || [H.season];
+let H2HG = null; // enfrentamientos del partido abierto (para abrir cada cruce)
 function h2hSection(d) {
   const H = d.h2h; if (!H || !H.games.length) return "";
+  H2HG = H;
   const a = d.game.away, h = d.game.home;
   const rec = G => { const w = t => G.filter(x => x.score[t] > x.score[t === a ? h : a]).length; return `${esc(a)} ${w(a)}–${w(h)} ${esc(h)}`; };
   const per = h2hSeasons(H).map(s => { const G = H.games.filter(x => (x.season || H.season) === s), nc = G.filter(x => x.comp === "cup").length;
@@ -2565,13 +2578,13 @@ function h2hSection(d) {
   return `<section class="section">
     <h2>Enfrentamientos esta temporada y la pasada ${qh("h2h", "enfrentamientos")}</h2>
     <p class="lede">${per}${nb ? `. ${nb} con paliza (ventaja de 20+ en algún momento)` : ". Ninguno con paliza (ventaja de 20+)"}. Incluye liga y Copa. Lo que hizo cada jugador en esos partidos está en la columna <b>Vs rival</b> de los player props.</p>
-    <div class="h2h-games">${H.games.map(x => { const t1 = x.away, t2 = x.home, w = x.score[t1] > x.score[t2] ? t1 : t2;
-      return `<div class="h2h-g"><span class="eyebrow">${esc(x.date)} · ${x.comp === "cup" ? `Copa${x.cup_round ? " (" + esc(x.cup_round) + ")" : ""}` : "Liga"}${x.ot ? ` · ${x.ot > 1 ? x.ot : ""}OT` : ""}</span>
-        <div class="sc"><span class="${w === t1 ? "w" : "l"}">${esc(t1)}</span><span class="${w === t1 ? "w" : "l"}">${x.score[t1]}</span>
-        <span class="${w === t2 ? "w" : "l"}">@ ${esc(t2)}</span><span class="${w === t2 ? "w" : "l"}">${x.score[t2]}</span></div>
-        <span class="ld">Máx. ventaja: ${esc(t1)} ${x.largest_lead[t1] ?? "—"} · ${esc(t2)} ${x.largest_lead[t2] ?? "—"}</span>
+    <div class="h2h-games">${H.games.map((x, i) => { const t1 = x.away, t2 = x.home, w = x.score[t1] > x.score[t2] ? t1 : t2;
+      return `<button type="button" class="h2h-g" data-h2g="${i}" aria-label="Ver el partido ${esc(t1)} ${x.score[t1]} @ ${esc(t2)} ${x.score[t2]} del ${esc(x.date)}"><span class="eyebrow">${esc(x.date)} · ${x.comp === "cup" ? `Copa${x.cup_round ? " (" + esc(x.cup_round) + ")" : ""}` : "Liga"}${x.ot ? ` · ${x.ot > 1 ? x.ot : ""}OT` : ""}</span>
+        <span class="sc"><span class="${w === t1 ? "w" : "l"}">${logo(t1, "sm")}${esc(t1)}</span><span class="${w === t1 ? "w" : "l"}">${x.score[t1]}</span>
+        <span class="${w === t2 ? "w" : "l"}">${logo(t2, "sm")}@ ${esc(t2)}</span><span class="${w === t2 ? "w" : "l"}">${x.score[t2]}</span></span>
+        ${Object.keys(x.largest_lead || {}).length ? `<span class="ld">Máx. ventaja: ${esc(t1)} ${x.largest_lead[t1] ?? "—"} · ${esc(t2)} ${x.largest_lead[t2] ?? "—"}</span>` : ""}
         ${x.blowout.length ? `<span class="pill flat" style="justify-self:start">Paliza de ${x.blowout.map(esc).join(" y ")}</span>` : ""}
-        ${x.season && h2hSeasons(H).length > 1 ? `<span class="ld">Temporada ${esc(x.season)}</span>` : ""}</div>`; }).join("")}</div>
+        ${x.season && h2hSeasons(H).length > 1 ? `<span class="ld">Temporada ${esc(x.season)}</span>` : ""}<span class="go">Ver partido →</span></button>`; }).join("")}</div>
   </section>`;
 }
 // Copa: cruces previos de Copa entre ambos equipos y cómo anotó cada uno en la Copa frente a la liga (cup/history.json)
@@ -4164,6 +4177,7 @@ const boxesOf = date => BXF[date] || (BXF[date] = getJSON(`data/boxes/${date}.js
 const GB = { t: null };
 async function openBox(key) {
   const [date, k, name] = key.split("|"), dlg = $("#gbox");
+  GB.extra = ""; GB.draw = null;
   $("#gb-title").textContent = "Partido"; $("#gb-sub").textContent = ""; $("#gb-body").innerHTML = `<p class="muted">Cargando…</p>`;
   if (!dlg.open) { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); }
   const B = await boxesOf(date), G = B && B.games[+k];
@@ -4180,7 +4194,7 @@ function drawBox() {
   const sh = (r, m, at) => v(r, at) == null ? "—" : `${v(r, m)}/${v(r, at)}`;
   const row = (T[GB.t] || []).find(r => pnorm(r[0]) === me) || Object.values(T).flat().find(r => pnorm(r[0]) === me);
   const dd = `${d.slice(8, 10)}/${d.slice(5, 7)}/${d.slice(0, 4)}`;
-  $("#gb-title").innerHTML = `${badge(a)} <span class="muted">@</span> ${badge(h)}`;
+  $("#gb-title").innerHTML = `${logo(a, "sm")} ${esc(a)} <span class="muted">@</span> ${logo(h, "sm")} ${esc(h)}`;
   $("#gb-sub").textContent = `${dd} · temporada ${seasonTxt(d)}`;
   const won = pa > ph ? a : h, full = pa > 40 && ph > 40;
   const st = [["Min", "min"], ["Pts", "pts"], ["Reb", "reb"], ["Ast", "ast"], ["P+R+A", null], ["Triples", ["fg3m", "fg3a"]], ["Tiros de campo", ["fgm", "fga"]], ["Libres", ["ftm", "fta"]], ["Robos", "stl"], ["Tapones", "blk"], ["Pérdidas", "tov"], ["Faltas", "pf"]];
@@ -4192,15 +4206,40 @@ function drawBox() {
   const cols = [["MIN", "min"], ["PTS", "pts"], ["REB", "reb"], ["AST", "ast"], ["3PM", ["fg3m", "fg3a"]], ["TC", ["fgm", "fga"]], ["TL", ["ftm", "fta"]], ["ROB", "stl"], ["TAP", "blk"], ["PÉR", "tov"]];
   const tb = (T[GB.t] || []).map(r => `<tr${pnorm(r[0]) === me ? ` class="me"` : ""}><td>${esc(r[0])}</td>${cols.map(([, c]) => `<td class="num">${Array.isArray(c) ? sh(r, c[0], c[1]) : dash(v(r, c))}</td>`).join("")}</tr>`).join("");
   $("#gb-body").innerHTML = `
-    ${full ? `<div class="gb-score"><span class="${won === a ? "w" : "l"}">${esc(a)} <b>${pa}</b></span><span class="muted">–</span><span class="${won === h ? "w" : "l"}"><b>${ph}</b> ${esc(h)}</span></div>
-      <p class="muted" style="text-align:center">Ganó <b>${esc(won)}</b> por ${Math.abs(pa - ph)}${Math.abs(pa - ph) >= 15 ? " (paliza: los titulares suelen jugar menos)" : ""}.</p>` : ""}
+    ${full ? `<div class="gb-score"><span class="${won === a ? "w" : "l"}">${logo(a, "lg")} ${esc(a)} <b>${pa}</b></span><span class="muted">–</span><span class="${won === h ? "w" : "l"}"><b>${ph}</b> ${esc(h)} ${logo(h, "lg")}</span></div>
+      <p class="muted" style="text-align:center">Ganó <b>${esc(won)}</b> por ${Math.abs(pa - ph)}${Math.abs(pa - ph) >= 15 ? " (paliza: los titulares suelen jugar menos)" : ""}.</p>` : ""}${GB.extra || ""}
     ${row ? `<div><h3 class="pc-h3">${face(name)} ${esc(name)} en ese partido</h3><div class="gb-me">${st.map(cellMe).join("")}</div></div>` : ""}
     <div class="gb-tm" role="group" aria-label="Equipo">${teams.map(t => `<button type="button" data-gbt="${esc(t)}" aria-pressed="${t === GB.t}">${esc(t)}</button>`).join("")}</div>
     <div class="tbl-wrap"><table class="gb-t"><thead><tr><th>Jugador</th>${cols.map(([l]) => `<th>${l}</th>`).join("")}</tr></thead><tbody>${tb}</tbody></table></div>
     <p class="muted">Box score de los game logs oficiales de nba.com (o del box score cargado esa noche). TC = tiros de campo, TL = tiros libres.</p>`;
 }
 $("#gb-close").addEventListener("click", () => $("#gbox").close());
-$("#gb-body").addEventListener("click", e => { const t = e.target.closest("[data-gbt]"); if (t) { GB.t = t.dataset.gbt; drawBox(); } });
+$("#gb-body").addEventListener("click", e => { const t = e.target.closest("[data-gbt]"); if (t) { GB.t = t.dataset.gbt; (GB.draw || drawBox)(); } });
+// Enfrentamiento tocable (26-nov, pedido de Nicolas): abre ese partido. Si hay box score (esta temporada) se ve
+// completo; si no, el marcador y lo que hizo cada jugador de las plantillas actuales (d.h2h.players).
+const h2hInfo = x => `<div class="gb-info"><span>${x.comp === "cup" ? `Copa${x.cup_round ? " · " + esc(x.cup_round) : ""}` : "Liga regular"}</span>${x.season ? `<span>Temporada <b>${esc(x.season)}</b></span>` : ""}${x.ot ? `<span><b>${x.ot > 1 ? x.ot : ""}OT</b></span>` : ""}${Object.keys(x.largest_lead || {}).length ? `<span>Máx. ventaja ${esc(x.away)} <b>${x.largest_lead[x.away] ?? "—"}</b> · ${esc(x.home)} <b>${x.largest_lead[x.home] ?? "—"}</b></span>` : ""}${x.blowout.length ? `<span>Paliza de <b>${x.blowout.map(esc).join(" y ")}</b></span>` : ""}</div>`;
+async function openH2HG(i) {
+  const x = H2HG && H2HG.games[i], dlg = $("#gbox"); if (!x) return;
+  const a = x.away, h = x.home, dd = `${x.date.slice(8, 10)}/${x.date.slice(5, 7)}/${x.date.slice(0, 4)}`;
+  $("#gb-title").innerHTML = `${logo(a, "sm")} ${esc(a)} <span class="muted">@</span> ${logo(h, "sm")} ${esc(h)}`;
+  $("#gb-sub").textContent = `${dd} · temporada ${x.season || seasonTxt(x.date)}`; $("#gb-body").innerHTML = `<p class="muted">Cargando…</p>`;
+  if (!dlg.open) { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); }
+  const B = await boxesOf(x.date), k = B ? B.games.findIndex(g => g[1] === a && g[2] === h) : -1;
+  if (k >= 0) { Object.assign(GB, { B, G: B.games[k], name: "", me: "\u0000", t: a, back: false, extra: h2hInfo(x), draw: null }); drawBox(); return; }
+  Object.assign(GB, { t: a, back: false, draw: () => drawH2HG(x) }); drawH2HG(x);
+}
+function drawH2HG(x) {
+  const a = x.away, h = x.home, pa = x.score[a], ph = x.score[h], won = pa > ph ? a : h;
+  const rows = Object.entries(H2HG.players || {}).map(([n, L]) => [n, L.find(r => r.date === x.date && r.team === GB.t)]).filter(r => r[1]).sort((p, q) => q[1].pts - p[1].pts);
+  const cols = [["MIN", "min"], ["PTS", "pts"], ["REB", "reb"], ["AST", "ast"], ["3PM", "fg3m"], ["P+R+A", "pra"]];
+  $("#gb-body").innerHTML = `
+    <div class="gb-score"><span class="${won === a ? "w" : "l"}">${logo(a, "lg")} ${esc(a)} <b>${pa}</b></span><span class="muted">–</span><span class="${won === h ? "w" : "l"}"><b>${ph}</b> ${esc(h)} ${logo(h, "lg")}</span></div>
+    <p class="muted" style="text-align:center">Ganó <b>${esc(won)}</b> por ${Math.abs(pa - ph)}.</p>${h2hInfo(x)}
+    <div class="gb-tm" role="group" aria-label="Equipo">${[a, h].map(t => `<button type="button" data-gbt="${esc(t)}" aria-pressed="${t === GB.t}">${esc(t)}</button>`).join("")}</div>
+    ${rows.length ? `<div class="tbl-wrap"><table class="gb-t"><thead><tr><th>Jugador</th>${cols.map(([l]) => `<th>${l}</th>`).join("")}</tr></thead><tbody>${rows.map(([n, r]) => `<tr><td>${esc(n)}</td>${cols.map(([, c]) => `<td class="num">${r[c] ?? "—"}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : `<p class="muted">Sin líneas de jugadores de ${esc(GB.t)} en ese partido.</p>`}
+    <p class="muted">Solo los jugadores que siguen en las plantillas actuales (game logs de nba.com). El box score completo está para los partidos de esta temporada.</p>`;
+}
+document.addEventListener("click", e => { const t = e.target.closest("[data-h2g]"); if (t) openH2HG(+t.dataset.h2g); });
 document.addEventListener("click", e => { const t = e.target.closest("[data-bx]"); if (!t) return; e.preventDefault(); e.stopPropagation(); GB.back = !!t.closest(".h2h-list"); openBox(t.dataset.bx); }, true);
 document.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches("[data-bx]")) { e.preventDefault(); openBox(e.target.dataset.bx); } });
 $("#pcard").addEventListener("click", e => { if (e.target === e.currentTarget) e.currentTarget.close(); });
