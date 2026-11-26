@@ -1,5 +1,13 @@
 # Cambios del modelo
 
+## Modelo 1.7.1 — 2026-11-26: minutos según qué compañeros clave juegan hoy
+- Re-prueba del contexto de rol (context.py, apagado desde el 12-nov) con todas las jornadas 1-24 nov (7.668 líneas
+  de casa, `BT_FROM=2026-11-01 BT_TO=2026-11-24 python bt_stars.py 0.93 1.1 1.3 3000 0 0 4 1e9`), sobre el 1.7.
+- Solo los minutos: el jugador toma n / (n + 4) de sus minutos en los partidos con la misma situación de compañeros
+  clave (≥28 min) que hoy. Log loss en las líneas 0.7180 → 0.7165 (1-11 nov 0.7060 → 0.7040; 12-24 nov
+  0.7240 → 0.7227), MAE de minutos 4.99 → 4.98 y de puntos 4.810 → 4.804. Ajustar también las tasas por minuto
+  empeora (0.7189), así que CTX_RK queda sin uso. Activado por Nicolas desde la jornada del 26-nov.
+
 ## 2026-11-15: probabilidad mínima de 50% para los picks con valor
 - Pedido de Nicolas: salían como pick con valor (y pick del día) Overs 0.5 triples a cuota ~4 con 26-29% de
   probabilidad (Paul Reed 14-nov, Amen Thompson 15-nov). `MIN_P = 0.50` en build_site: por debajo se muestran pero no

@@ -71,7 +71,9 @@ MAX_MIN = 44
 GARBAGE_CUT, PTS_GAMMA, MIN_BETA = 0.93, 1.1, 1.3
 # 1.7, contexto del jugador (context.py): forma reciente (últimos 5) y partidos con la misma situación de compañeros
 # clave que hoy. RECENT_W / RECENT_MW = peso de las tasas por minuto / minutos recientes; el contexto pesa n / (n + CTX_K)
-USE_CTX, RECENT_W, RECENT_MW, CTX_K, CTX_RK = False, 0.0, 0.0, 4.0, 12.0
+# 1.7.1 (re-prueba 25-nov, 1-24 nov, 7.668 líneas): solo los minutos según los compañeros clave (CTX_RK sin uso);
+# log loss 0.7180 -> 0.7165, mejora en 1-11 y en 12-24 nov. Ajustar también las tasas por minuto empeora.
+USE_CTX, RECENT_W, RECENT_MW, CTX_K, CTX_RK = True, 0.0, 0.0, 4.0, 1e9
 # USE_MIN2: proyección de minutos 1.7 (minutes.py: últimos partidos del equipo, fuera de rotación, cambios de rol)
 USE_MIN2 = True
 # 1.6.2 (13-nov, props de tiros, pérdidas y faltas): puntos y triples se simulan por separado, y en las simulaciones

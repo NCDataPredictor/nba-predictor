@@ -81,6 +81,7 @@ MODEL_VERSIONS = [
     ("1.6.1", "2026-11-12", "Betano, anotación de esta temporada, puntos más abiertos y más minutos y puntos para las estrellas"),
     ("1.6.2", "2026-11-14", "tiros, libres, pérdidas y faltas calibrados; picks sin cuota de pérdidas y faltas"),
     ("1.7", "2026-11-20", "minutos por los últimos partidos (rotación real y cambios de rol) y errores de cuota"),
+    ("1.7.1", "2026-11-26", "minutos según qué compañeros clave juegan hoy (cambio de rol por bajas)"),
 ]
 MODEL = MODEL_VERSIONS[-1][0]
 
