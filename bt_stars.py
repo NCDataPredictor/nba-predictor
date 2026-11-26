@@ -1,4 +1,4 @@
-"""Backtest 1.6.1/1.7: proyección de minutos y puntos frente a lo real por nivel de anotador (cur pts), jornadas 1-11 nov.
+"""Backtest 1.6.1/1.7: proyección de minutos y puntos frente a lo real por nivel de anotador (cur pts), jornadas BT_FROM..BT_TO (por defecto 1-11 nov).
     python bt_stars.py GARBAGE_CUT PTS_GAMMA MIN_BETA [n] [RECENT_W RECENT_MW CTX_K]   (CTX_K 0 = sin contexto)
 """
 import glob, json, sys, statistics as st
@@ -13,7 +13,9 @@ if len(sys.argv) > 7:
     if len(sys.argv) > 8: model.CTX_RK = float(sys.argv[8])
     model.USE_CTX = model.CTX_K > 0
 rows, props = [], []
-for f in sorted(glob.glob("games/2026-11-0[1-9]_*.json")) + sorted(glob.glob("games/2026-11-1[01]_*.json")):
+import os
+D0, D1 = os.environ.get("BT_FROM", "2026-11-01"), os.environ.get("BT_TO", "2026-11-11")  # jornadas a probar
+for f in sorted(x for x in glob.glob("games/2026-1?-??_*.json") if D0 <= x[6:16] <= D1):
     if f.endswith("_results.json"):
         continue
     date = f[6:16]
