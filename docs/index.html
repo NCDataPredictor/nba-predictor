@@ -1030,6 +1030,9 @@ table.gb-t tr.me td:first-child { background: var(--accent-soft) }
 #tipx.on { opacity: 1; transform: none }
 #tipx::after { content: ""; position: absolute; left: calc(var(--ax, 50%) - 6px); width: 12px; height: 12px; background: inherit; transform: rotate(45deg) }
 #tipx.up::after { bottom: -5px } #tipx.down::after { top: -5px }
+#tipx.sheet { left: 12px; right: 12px; top: auto; bottom: calc(80px + env(safe-area-inset-bottom, 0px)); max-width: 520px; margin: 0 auto; padding: 12px 14px;
+  font-size: 14px; pointer-events: auto; box-shadow: 0 10px 30px rgba(0, 0, 0, .35) }
+#tipx.sheet::after { display: none }
 /* barras de sus últimos 10: verde = se cumplió, rojo = no; crecen al entrar */
 .spk i { background: var(--bad); opacity: .8; transform-origin: bottom; animation: spkUp .45s cubic-bezier(.2, .7, .3, 1) both; animation-delay: calc(var(--i, 0) * 25ms) }
 @keyframes spkUp { from { transform: scaleY(0) } }
@@ -2296,9 +2299,9 @@ function dreamOpts(pl, i) {
 const SOFT_TXT = { p: "algo menos probable que las demás", dec: "la cuota total sale de 50–200" };
 function dreamLegLi(pl, i, open) {
   const o = pl.legs[i], l = dreamCur(pl)[i], sw = l !== o, live = pl.result == null && (o.swaps || []).length && !o._out;
-  if (o._out && pl.result == null) return `<li class="ds-swapped bj-leg"><div><div class="lg">${esc(sw ? l.label : o.label)}${sw ? ftag(l.flag) : ""}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a> · <span class="bj-w">${sw ? `en lugar de ${esc(o.player)} (baja)` : `${esc(o.player)} es baja: tu casa anula esta pata`}</span></div></div>
+  if (o._out && pl.result == null) return `<li class="ds-swapped bj-leg"><div><div class="lg">${dlbl(sw ? l : o)}${sw ? ftag(l.flag) : ""}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a> · <span class="bj-w">${sw ? `en lugar de ${esc(o.player)} (baja)` : `${esc(o.player)} es baja: tu casa anula esta pata`}</span></div></div>
       <div class="lp"><span>${sw ? `${pct(l.p, 0)} · @ ${l.dec.toFixed(2)}` : "anulada"}</span></div></li>`;
-  const main = `<div><div class="lg">${esc(l.label)}${ftag(l.flag)}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a>${sw ? ` · <span class="ds-was">en lugar de ${esc(o.label)}</span>` : ""}</div>
+  const main = `<div><div class="lg">${dlbl(l)}${ftag(l.flag)}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a>${sw ? ` · <span class="ds-was">en lugar de ${esc(o.label)}</span>` : ""}</div>
       ${live ? (sw ? `<button type="button" class="ds-btn" data-dsw-undo="${i}">Deshacer cambio</button>`
         : `<button type="button" class="ds-btn" data-dsw-open="${i}" aria-expanded="${open}">${open ? "Cerrar" : "No está en mi casa: ver reemplazos"}</button>`) : ""}</div>
       <div class="lp"><span>${pct(l.p, 0)} · @ ${l.est ? "≈ " : ""}${l.dec.toFixed(2)}</span>${resPill(l.result)}</div>`;
@@ -2367,7 +2370,7 @@ function dreamPast(d, x, uTxt) {
       <span class="pg-r">${resPill(x.result)}<span class="pg-u ${x.units >= 0 ? "up" : "down"}">${uTxt(x.units)}</span></span>
     </summary><div class="pg-body">
       <p class="muted dp-sum">${x.result === "won" ? "Entraron todas las patas." : lost === 1 ? "Se cayó por una sola pata." : `Fallaron ${lost} patas.`}</p>
-      <ol class="pl-legs">${x.legs.map(l => `<li class="leg-${l.result || "na"}"><div><div class="lg">${esc(l.label)}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a>${l.actual != null ? ` · <b>hizo ${l.actual}</b>` : l.result === "push" ? " · no jugó" : ""}</div></div>
+      <ol class="pl-legs">${x.legs.map(l => `<li class="leg-${l.result || "na"}"><div><div class="lg">${dlbl(l)}</div><div class="kind">${KIND[l.kind] || l.kind} · <a href="#${l.gid}">${esc(l.game)}</a>${l.actual != null ? ` · <b>hizo ${l.actual}</b>` : l.result === "push" ? " · no jugó" : ""}</div></div>
         <div class="lp"><span>${pct(l.p, 0)} · @ ${l.dec.toFixed(2)}</span>${resPill(l.result)}</div></li>`).join("")}</ol>
     </div></details>`;
 }
@@ -2385,7 +2388,7 @@ function dreamBlock(kind, title, note, scope, thr) {
   const u = done.reduce((s, d) => s + all[d].units, 0), uTxt = x => `${x >= 0 ? "+" : ""}${x.toFixed(2)} u`;
   const two = INDEX.dream_ladder && Object.keys(INDEX.dream_ladder).length;
   return `${two ? `<h3>${esc(title)}</h3><p class="muted">${note}</p>` : ""}
-    ${pl ? `<div class="pl-list">${dreamCard(pl, thr)}</div>` : `<div class="panel"><div class="empty">Hoy ninguna combinación de patas con buena probabilidad llega a cuota 50.</div></div>`}
+    ${pl ? `<p class="muted dl-hint">Toca el nombre de un jugador para ver su ficha con la línea de esa pata: sus últimos partidos, H2H y cuántas veces la habría pasado.</p><div class="pl-list">${dreamCard(pl, thr)}</div>` : `<div class="panel"><div class="empty">Hoy ninguna combinación de patas con buena probabilidad llega a cuota 50.</div></div>`}
     ${done.length ? `<h3>Seguimiento${two ? ` · ${esc(title)}` : " del soñador"}</h3>
     <p class="muted">1 unidad por jornada. Acertados–fallados: ${w}–${l} · ${uTxt(u)}${w + l ? ` · ROI ${(100 * u / (w + l)) >= 0 ? "+" : ""}${(100 * u / (w + l)).toFixed(1)}%` : ""}</p>
     <p class="muted">${done.length > DREAM_PAST_MAX ? `Las ${DREAM_PAST_MAX} últimas jornadas (el récord de arriba cuenta todas). ` : ""}Toca una jornada para ver qué patas se acertaron y cuáles se fallaron.</p>
@@ -3996,17 +3999,21 @@ const face = (name, big, team) => {   // team (opcional): las iniciales y el aro
   return `<span class="av${big ? " av-lg" : ""}${team && TEAM[team] ? " av-tm" : ""}"${team && TEAM[team] ? ` style="--tc:${tc(team)};--tf:${tf(team)}"` : ""} aria-hidden="true">${esc((ini[0] || "") + (ini.length > 1 ? ini.at(-1) : ""))}${id ? `<img src="https://cdn.nba.com/headshots/nba/latest/260x190/${id}.png" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : ""}</span>`;
 };
 const pn = (name, gid, st, noFace, team) => `<button type="button" class="pname" data-pc="${esc(name)}" data-gid="${esc(gid || "")}"${st ? ` data-st="${esc(st)}"` : ""} title="Ver la ficha de ${esc(name)}">${noFace ? "" : face(name, false, team)}${esc(name)}</button>`;
+// pata del soñador (26-nov, pedido de Nicolas): el nombre abre la ficha del jugador con la estadística y la línea de esa pata
+const dlbl = l => l.player && l.label.startsWith(l.player)
+  ? `<button type="button" class="pname dl-pn" data-pc="${esc(l.player)}" data-gid="${esc(l.gid || "")}"${l.stat ? ` data-st="${esc(l.stat)}"` : ""}${l.line != null ? ` data-ln="${l.line}"` : ""} title="Ver la ficha de ${esc(l.player)}">${face(l.player, false, l.team)}${esc(l.player)}</button><span class="lb-st">${sti(stOf(l))}${esc(l.label.slice(l.player.length))}</span>`
+  : esc(l.label);
 const lbl = (b, gid) => b.player && b.label.startsWith(b.player) ? pn(b.player, gid, b.stat, false, b.team) + `<span class="lb-st">${sti(stOf(b))}${esc(b.label.slice(b.player.length))}</span>` : `${sti(stOf(b))}${esc(b.label)}`;
 document.addEventListener("click", e => {
   const t = e.target.closest("[data-pc]"); if (!t) return;
   e.preventDefault(); e.stopPropagation();
-  openCard(t.dataset.pc, t.dataset.gid, t.dataset.st);
+  openCard(t.dataset.pc, t.dataset.gid, t.dataset.st, t.dataset.ln != null ? +t.dataset.ln : null);
 }, true);
 
 let PC = null;
-async function openCard(name, gid, st) {
+async function openCard(name, gid, st, line) {
   const date = (gid || "").slice(0, 10) || DAY;
-  PC = { name, gid, date, st: PC_ST.includes(st) ? st : "pts", line: null, sede: "all", min: 0, rival: "all", ss: "all", n: 20 };
+  PC = { name, gid, date, st: PC_ST.includes(st) ? st : "pts", line: PC_ST.includes(st) && line != null && isFinite(line) ? +line : null, sede: "all", min: 0, rival: "all", ss: "all", n: 20 };
   const dlg = $("#pcard");
   $("#pc-title").textContent = name; $("#pc-sub").textContent = ""; $("#pc-body").innerHTML = `<p class="muted">Cargando…</p>`;
   if (!dlg.open) { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); }
@@ -4266,7 +4273,8 @@ document.addEventListener("click", e => {
 
 // globito de explicación ([data-tip]): mouse = al pasar; teclado = al enfocar (Esc lo cierra); táctil = al tocar
 // (los botones .tipb; Últ. 10 y H2H abren sus partidos al tocar, así que su globito es de mouse y teclado)
-const TIP = { el: null, at: null, pin: false };
+const TIP = { el: null, at: null, pin: false, sheet: false, pt: "mouse" };
+addEventListener("pointerdown", e => { TIP.pt = e.pointerType || "mouse"; }, { passive: true, capture: true });
 function tipShow(a, pin) {
   if (!TIP.el) { TIP.el = document.createElement("div"); TIP.el.id = "tipx"; TIP.el.setAttribute("role", "tooltip"); document.body.append(TIP.el); }
   const t = TIP.el;
@@ -4274,6 +4282,10 @@ function tipShow(a, pin) {
   TIP.at = a; TIP.pin = !!pin;
   t.textContent = a.dataset.tip; t.className = ""; t.style.left = "0px"; t.style.top = "0px"; t.hidden = false;
   a.setAttribute("aria-describedby", "tipx"); if (a.classList.contains("tipb")) a.setAttribute("aria-expanded", "true");
+  // táctil (26-nov): en el celular el globito flotante no aparecía al tocar el DvP de las tarjetas; ahora sale como
+  // una hoja fija abajo de la pantalla, que no depende de dónde esté el número ni de que la barra del navegador se mueva
+  TIP.sheet = !!pin && TIP.pt !== "mouse";
+  if (TIP.sheet) { t.style.left = ""; t.style.top = ""; t.className = "sheet on"; return; }
   const r = a.getBoundingClientRect(), w = t.offsetWidth, h = t.offsetHeight, W = document.documentElement.clientWidth;
   const x = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), W - w - 8), up = r.top - h - 10 >= 8;
   t.style.left = x + "px"; t.style.top = (up ? r.top - h - 10 : r.bottom + 10) + "px";
@@ -4283,7 +4295,7 @@ function tipShow(a, pin) {
 function tipHide() {
   if (!TIP.at) return;
   TIP.at.removeAttribute("aria-describedby"); if (TIP.at.classList.contains("tipb")) TIP.at.setAttribute("aria-expanded", "false");
-  TIP.at = null; TIP.pin = false; if (TIP.el) { TIP.el.hidden = true; TIP.el.className = ""; }
+  TIP.at = null; TIP.pin = false; TIP.sheet = false; if (TIP.el) { TIP.el.hidden = true; TIP.el.className = ""; }
 }
 document.addEventListener("pointerover", e => { if (e.pointerType !== "mouse") return; const a = e.target.closest("[data-tip]"); if (a && a !== TIP.at) tipShow(a); });
 document.addEventListener("pointerout", e => { if (e.pointerType !== "mouse" || TIP.pin) return; const a = e.target.closest("[data-tip]"); if (a && a === TIP.at && !a.contains(e.relatedTarget)) tipHide(); });
@@ -4297,10 +4309,11 @@ document.addEventListener("click", e => {
   if (TIP.at === a && TIP.pin) tipHide(); else tipShow(a, true);
 }, true);
 addEventListener("scroll", () => {   // acompaña al número mientras se ve; si sale de la pantalla, se cierra
-  if (!TIP.at) return; const r = TIP.at.getBoundingClientRect();
+  if (!TIP.at) return; if (TIP.sheet) { if (!TIP.at.isConnected) tipHide(); return; }
+  const r = TIP.at.getBoundingClientRect();
   r.bottom < 0 || r.top > innerHeight || !TIP.at.isConnected ? tipHide() : tipShow(TIP.at, TIP.pin);
 }, { passive: true, capture: true });
-addEventListener("resize", () => { if (TIP.at) tipHide(); });
+addEventListener("resize", () => { if (TIP.at && !TIP.sheet) tipHide(); });
 // Rachas (#rachas): jugadores que llevan varios partidos seguidos por encima o por debajo de su línea de HOY
 let RK = { side: "all", mk: "all", min: 4, agree: "all" };
 const RK_MK = { all: "Todos", pts: "Puntos", reb: "Rebotes", ast: "Asistencias", fg3m: "Triples", combo: "Combinadas", def: "Robos y tapones", shots: "Tiros", other: "Pérdidas y faltas" };
@@ -4760,9 +4773,50 @@ const projTxt = b => {
   return `<div class="kind proj ${Math.abs(d) < .05 ? "" : good ? "good" : "bad"}" title="Proyección media del modelo frente a la línea">proy. ${b.mean} (${d >= 0 ? "+" : "−"}${Math.abs(d).toFixed(1)})</div>`;
 };
 
+/* ---------- Volver al mismo punto (26-nov, pedido de Nicolas) ----------
+   Cada vista (#partido, Mis picks, inicio…) recuerda hasta dónde bajaste, qué plegables abriste y dónde quedó cada
+   carrusel de tarjetas. Al volver (botón ←, atrás del navegador o el gesto del celular) la página regresa a ese punto;
+   al entrar a una vista nueva (tocar un partido, una pestaña o un enlace) arranca arriba, como antes. */
+const VISTA = { est: {}, hist: [], actual: null, atras: false, clic: 0, yClic: 0 };
+try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) {}
+// la altura se toma al tocar (antes de que el navegador salte a un ancla con el mismo nombre)
+document.addEventListener("click", e => { VISTA.yClic = scrollY; if (e.target.closest && e.target.closest('a[href^="#"], [data-go]')) VISTA.clic = Date.now(); else VISTA.clic = 0; }, true);
+const VISTA_CAR = "#app .mcards, #app .pcards, #app .grid";
+function vistaAntes() {   // al empezar route(): guarda la vista que se deja y decide si esto es "volver"
+  const h = location.hash === "#" ? "" : location.hash, prev = VISTA.actual, H = VISTA.hist;
+  if (h === prev) return { h, misma: true };
+  const reciente = Date.now() - VISTA.clic < 700; VISTA.clic = 0;   // el toque cuenta solo para la navegación que provoca
+  if (prev != null) VISTA.est[prev] = { y: reciente ? VISTA.yClic : scrollY, ab: [...document.querySelectorAll("#app details")].map(d => d.open),
+    car: [...document.querySelectorAll(VISTA_CAR)].map(c => c.scrollLeft) };
+  let atras = VISTA.atras; VISTA.atras = false;
+  const anterior = H.length > 1 && H[H.length - 2] === h;
+  if (anterior && (atras || !reciente)) { H.pop(); atras = true; } else H.push(h);
+  if (H.length > 80) H.splice(0, H.length - 80);
+  VISTA.actual = h;
+  return { h, atras };
+}
+function vistaDespues(v) {   // al terminar route(): arriba si es vista nueva; si es volver, al mismo punto (espera lo que carga aparte)
+  const e = v.atras && VISTA.est[v.h];
+  if (!e) { scrollTo(0, 0); return; }
+  let ab = false, car = false, n = 0, parar = false;
+  const stop = () => { parar = true; };
+  const aplicar = () => {
+    if (!ab) { const ds = document.querySelectorAll("#app details"); if (ds.length && ds.length === e.ab.length) { ds.forEach((d, i) => { if (d.open !== e.ab[i]) d.open = e.ab[i]; }); ab = true; } }
+    if (!car) { const cs = document.querySelectorAll(VISTA_CAR); if (cs.length && cs.length === e.car.length) { cs.forEach((c, i) => { if (e.car[i]) c.scrollLeft = e.car[i]; }); car = true; } }
+    if (Math.abs(scrollY - e.y) > 2) scrollTo(0, e.y);
+  };
+  aplicar();
+  addEventListener("touchstart", stop, { passive: true }); addEventListener("wheel", stop, { passive: true }); addEventListener("keydown", stop);
+  const t = () => {
+    if (parar || VISTA.actual !== v.h || ++n > 16) { removeEventListener("touchstart", stop); removeEventListener("wheel", stop); removeEventListener("keydown", stop); return; }
+    aplicar(); setTimeout(t, 90);
+  };
+  requestAnimationFrame(() => setTimeout(t, 30));
+}
+
 function route() {
   const id = location.hash.slice(1);
-  window.scrollTo(0, 0);
+  const VV = vistaAntes();
   const game = id && INDEX.games.find(g => g.id === id);
   const scope = game ? (isCup(game) ? "cup" : "reg") : id === "cup" || id === "todos-cup" || id === "copa-grupos" ? "cup" : "reg";
   // la pestaña NBA Cup (y sus partidos) cambia la paleta y la tipografía
@@ -4777,6 +4831,7 @@ function route() {
   SEG = game || id.startsWith("todos") ? "all" : "top";
   BS.k = "ev"; BS.asc = false;
   if (game) renderGame(id); else if (id === "mis-picks") renderMine(); else if (id === "rachas") renderStreaks(); else if (id === "liga") renderLeague(); else if (id === "rendimiento") renderPerf(); else if (id === "copa-grupos") cupGroupsPage(); else if (id.startsWith("todos")) renderAll(scope); else renderIndex(scope);
+  vistaDespues(VV);
 }
 
 // Mi combinada: el usuario junta picks de cualquier parte de la página (botón "+" de cada pick, "Agregar a mi combinada"
@@ -5404,8 +5459,8 @@ addEventListener("hashchange", () => { if (!NAV_VOLV && NAV_ULT !== location.has
 $("#back-btn").addEventListener("click", () => {
   let prev = NAV_PILA.pop();
   while (prev !== undefined && prev === location.hash) prev = NAV_PILA.pop();
-  if (prev !== undefined) { NAV_VOLV = true; location.hash = prev; }
-  else if (location.hash && location.hash !== "#") location.hash = "";
+  if (prev !== undefined) { NAV_VOLV = true; VISTA.atras = true; location.hash = prev; }
+  else if (location.hash && location.hash !== "#") { VISTA.atras = true; location.hash = ""; }
   else location.href = "../";
 });
 const MODELOS_NAV = [
