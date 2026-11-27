@@ -1244,7 +1244,10 @@ dialog.psearch .g-head { gap: 8px }
   display: grid; place-items: center; background: var(--surface); color: var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.25); opacity: 0; pointer-events: none;
   transform: translateY(-60px) }
 .ptr svg { width: 22px; height: 22px } .ptr.ready { color: var(--good) } .ptr.go svg { animation: rl-spin .8s linear infinite }
-@media (max-width: 640px) { html.app .banner .side { gap: 6px } html.app .banner .side .theme-btn { width: 36px; height: 36px } html.app .banner .side .theme-btn svg { width: 18px; height: 18px } html.app .banner .meta { flex: 1; min-width: 0 } }
+@media (max-width: 640px) { html.app .banner .side { gap: 6px } html.app .banner .side .theme-btn { width: 36px; height: 36px } html.app .banner .side .theme-btn svg { width: 18px; height: 18px } html.app .banner .meta { flex: 1 1 100%; min-width: 0 } }
+/* 27-nov: en móvil el texto de la jornada va en su propia línea, compacto ("27-nov · 11 partidos · act. 5:02 p. m.") */
+.banner .meta .m-s { display: none }
+@media (max-width: 640px) { .banner .meta { letter-spacing: 0; text-wrap: balance } .banner .meta .m-l { display: none } .banner .meta .m-s { display: inline } }
 
 /* ===== Rediseño UX (nov-2026), mismo patrón que Serie A ===== */
 /* navegación: volver y modal de modelos */
@@ -5555,7 +5558,7 @@ Promise.all([getJSON("data/index.json"), getJSON("data/bajas.json").catch(() => 
   const nCup = todays.filter(isCup).length;
   $("#n-reg").textContent = todays.length - nCup || ""; $("#n-cup").textContent = nCup || ""; syncMineCount();
   const gen = toDate(d.generated);
-  $("#meta").innerHTML = `Jornada ${esc(DAY)} · ${todays.length} partidos · act. ${gen ? esc(hm(gen)) : ""}`;
+  $("#meta").innerHTML = `<span class="m-l">Jornada ${esc(DAY)}</span><span class="m-s">${+DAY.slice(8)}-${MON[+DAY.slice(5, 7) - 1]}</span> · ${todays.length} partidos${gen ? ` · act. ${esc(hm(gen))}` : ""}`;
   $("#meta").title = gen ? `Actualizado ${whenTxt(gen)}${d.last_stage ? ` · ${STAGE[d.last_stage] || ""}` : ""}` : "";
   const prevDay = dates[1], prev = prevDay ? d.games.filter(g => g.date === prevDay) : [];
   setupTicker();
