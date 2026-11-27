@@ -970,9 +970,9 @@
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
   "ml_home": -155,
   "ml_away": 130,
-  "spread_home": -3.5,
-  "total": 219.5,
-  "spread_odds_home": -102,
+  "spread_home": -2.5,
+  "total": 220.5,
+  "spread_odds_home": -118,
   "spread_odds_away": -119,
   "over_odds": -114,
   "under_odds": -106

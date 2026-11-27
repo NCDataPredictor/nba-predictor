@@ -2386,7 +2386,7 @@
     "ml_home": -148,
     "ml_away": 124,
     "spread_home": -2.5,
-    "total": 222.5,
+    "total": 221.5,
     "spread_odds_home": -112,
     "spread_odds_away": -108,
     "over_odds": -105,
@@ -2407,7 +2407,6 @@
     "Andre Drummond"
    ],
    "gtd": {
-    "Giannis Antetokounmpo": 0.85,
     "Karl-Anthony Towns": 0.5
    },
    "notes": [
@@ -2461,7 +2460,7 @@
     "ml_home": 142,
     "ml_away": -170,
     "spread_home": 3.5,
-    "total": 229.5,
+    "total": 228.5,
     "spread_odds_home": -112,
     "spread_odds_away": -108,
     "over_odds": -110,
@@ -2504,7 +2503,7 @@
     "ml_home": -374,
     "ml_away": 297,
     "spread_home": -9.5,
-    "total": 219.5,
+    "total": 218.5,
     "spread_odds_home": -108,
     "spread_odds_away": -112,
     "over_odds": -108,
@@ -2546,9 +2545,9 @@
    "market": {
     "ml_home": -378,
     "ml_away": 300,
-    "spread_home": -8.5,
+    "spread_home": -9.5,
     "total": 223.5,
-    "spread_odds_home": -118,
+    "spread_odds_home": -108,
     "spread_odds_away": -103,
     "over_odds": -112,
     "under_odds": -108
@@ -2583,9 +2582,9 @@
    "market": {
     "ml_home": -155,
     "ml_away": 130,
-    "spread_home": -3.5,
-    "total": 219.5,
-    "spread_odds_home": -102,
+    "spread_home": -2.5,
+    "total": 220.5,
+    "spread_odds_home": -118,
     "spread_odds_away": -119,
     "over_odds": -114,
     "under_odds": -106
@@ -2628,8 +2627,8 @@
    "tip_et": "21:00",
    "venue": "",
    "market": {
-    "ml_home": -155,
-    "ml_away": 130,
+    "ml_home": -148,
+    "ml_away": 124,
     "spread_home": -3.5,
     "total": 225.5,
     "spread_odds_home": -106,
@@ -2663,8 +2662,8 @@
     "ml_home": -217,
     "ml_away": 180,
     "spread_home": -6.5,
-    "total": 225.5,
-    "spread_odds_home": -102,
+    "total": 226.5,
+    "spread_odds_home": -103,
     "spread_odds_away": -119,
     "over_odds": -115,
     "under_odds": -105
@@ -2696,11 +2695,11 @@
    "tip_et": "21:30",
    "venue": "",
    "market": {
-    "ml_home": 341,
-    "ml_away": -438,
+    "ml_home": 322,
+    "ml_away": -410,
     "spread_home": 9.5,
     "total": 232.5,
-    "spread_odds_home": -105,
+    "spread_odds_home": -112,
     "spread_odds_away": -116,
     "over_odds": -105,
     "under_odds": -115
@@ -2733,11 +2732,11 @@
    "tip_et": "21:30",
    "venue": "",
    "market": {
-    "ml_home": -297,
-    "ml_away": 241,
-    "spread_home": -7.5,
+    "ml_home": -310,
+    "ml_away": 251,
+    "spread_home": -8.5,
     "total": 217.5,
-    "spread_odds_home": -108,
+    "spread_odds_home": -103,
     "spread_odds_away": -112,
     "over_odds": -110,
     "under_odds": -110
@@ -2781,7 +2780,7 @@
     "ml_home": -135,
     "ml_away": 114,
     "spread_home": -2.5,
-    "total": 230.5,
+    "total": 229.5,
     "spread_odds_home": -110,
     "spread_odds_away": -110,
     "over_odds": -110,
