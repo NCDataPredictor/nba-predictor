@@ -801,7 +801,31 @@
    "back": [],
    "planb": [],
    "picks_changed": true
+  },
+  {
+   "id": "6d6779e9283f7a48",
+   "at": "2026-11-27T22:10+00:00",
+   "date": "2026-11-27",
+   "gid": "2026-11-27-GSW-at-POR",
+   "title": "GSW @ POR (9:30 pm ET): cambian los picks",
+   "body": "Bajas: Lillard OUT. Pick nuevo: Jrue Holiday Over 3.5 Rebotes. Sale: Scoot Henderson Under 14.5 Puntos.",
+   "label": "Revisión 17:15 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-27-GSW-at-POR",
+   "added": [
+    "Jrue Holiday Over 3.5 Rebotes"
+   ],
+   "removed": [
+    "Scoot Henderson Under 14.5 Puntos"
+   ],
+   "moved": [],
+   "outs": [
+    "Damian Lillard"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": true
   }
  ],
- "updated": "2026-11-27T22:03+00:00"
+ "updated": "2026-11-27T22:10+00:00"
 }

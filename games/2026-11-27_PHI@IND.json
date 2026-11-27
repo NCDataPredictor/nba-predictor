@@ -22,7 +22,8 @@
    "Aaron Nesmith": 0.75,
    "Kelly Oubre Jr.": 0.6,
    "T.J. McConnell": 0.5,
-   "Larry Nance Jr.": 0.85
+   "Larry Nance Jr.": 0.85,
+   "Dean Wade": 0.4
   },
   "reserves": {
    "PHI": [
@@ -876,7 +877,7 @@
    "starter": true,
    "min": 25.5,
    "g_cur": 15,
-   "p_play": 1.0,
+   "p_play": 0.4,
    "cur": {
     "min": 26.6,
     "pts": 4.7,

@@ -2408,7 +2408,6 @@
    ],
    "gtd": {
     "Giannis Antetokounmpo": 0.85,
-    "Andrew Wiggins": 0.85,
     "Karl-Anthony Towns": 0.5
    },
    "notes": [
@@ -2444,7 +2443,8 @@
     "Duncan Robinson",
     "Jalen Duren",
     "Ebuka Okorie",
-    "Taurean Prince"
+    "Taurean Prince",
+    "Kasparas Jakucionis"
    ],
    "gtd": {},
    "notes": [
@@ -2487,7 +2487,8 @@
     "Aaron Nesmith": 0.75,
     "Kelly Oubre Jr.": 0.6,
     "T.J. McConnell": 0.5,
-    "Larry Nance Jr.": 0.85
+    "Larry Nance Jr.": 0.85,
+    "Dean Wade": 0.4
    },
    "notes": [
     "PHI: J. Brown (isquiotibial) OUT; Embiid (enfermedad) cuestionable",
@@ -2673,7 +2674,7 @@
     "SAS": {
      "o": -0.6,
      "d": 0.15,
-     "why": "Tobias Harris OUT; Dylan Harper (18.4 ppg) y Fox en duda"
+     "why": "Tobias Harris OUT; Harper (hizo shootaround) y Fox en duda"
     }
    },
    "out": [
@@ -2681,9 +2682,8 @@
     "Jayden Quaintance"
    ],
    "gtd": {
-    "Austin Reaves": 0.65,
     "De'Aaron Fox": 0.5,
-    "Dylan Harper": 0.5
+    "Dylan Harper": 0.7
    },
    "notes": [
     "LAL: Reaves (talón) cuestionable, entrenó completo el 25-nov",
@@ -2719,7 +2719,8 @@
    ],
    "gtd": {
     "Jaxson Hayes": 0.5,
-    "Jusuf Nurkic": 0.3
+    "Jusuf Nurkic": 0.6,
+    "Mo Bamba": 0.5
    },
    "notes": [
     "UTA: Markkanen y Jaren Jackson Jr. OUT; Hayes (rodilla) cuestionable",
@@ -2747,6 +2748,11 @@
      "o": -1.5,
      "d": 0.25,
      "why": "Stephen Curry (27.8 ppg) OUT (abdomen, re-evaluación el 27-nov)"
+    },
+    "POR": {
+     "o": -1.0,
+     "d": 0.25,
+     "why": "Damian Lillard (20.9 ppg) OUT (pantorrilla)"
     }
    },
    "out": [
@@ -2757,7 +2763,8 @@
     "Ja Morant",
     "Vít Krejčí",
     "Shaedon Sharpe",
-    "Chris Youngblood"
+    "Chris Youngblood",
+    "Damian Lillard"
    ],
    "gtd": {},
    "notes": [
