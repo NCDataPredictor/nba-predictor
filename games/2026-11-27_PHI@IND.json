@@ -22,7 +22,7 @@
    "Aaron Nesmith": 0.75,
    "Kelly Oubre Jr.": 0.6,
    "T.J. McConnell": 0.5,
-   "Larry Nance Jr.": 0.5
+   "Larry Nance Jr.": 0.85
   },
   "reserves": {
    "PHI": [
@@ -626,7 +626,7 @@
    "starter": false,
    "min": 10.9,
    "g_cur": 17,
-   "p_play": 0.5,
+   "p_play": 0.85,
    "cur": {
     "min": 12.8,
     "pts": 4.2,
@@ -1119,20 +1119,20 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": 130,
-  "ml_away": -155,
+  "ml_home": 142,
+  "ml_away": -170,
   "spread_home": 3.5,
-  "total": 230.5,
-  "spread_odds_home": -117,
-  "spread_odds_away": -103,
+  "total": 229.5,
+  "spread_odds_home": -112,
+  "spread_odds_away": -108,
   "over_odds": -110,
-  "under_odds": -109
+  "under_odds": -110
  },
  "prop_lines": {
   "Tyrese Maxey": {
    "pts": [
-    25.5,
-    -110,
+    24.5,
+    -125,
     -120,
     26.5
    ],
@@ -1150,8 +1150,9 @@
   "Joel Embiid": {
    "pts": [
     23.5,
-    -105,
-    -109
+    -111,
+    -115,
+    24.5
    ],
    "reb": [
     8.5,
@@ -1167,8 +1168,8 @@
   "Pascal Siakam": {
    "pts": [
     22.5,
-    -119,
-    -114,
+    -120,
+    -111,
     23.5
    ],
    "reb": [
@@ -1190,7 +1191,7 @@
   "LeBron James": {
    "pts": [
     18.5,
-    -104,
+    -100,
     -115
    ],
    "reb": [
@@ -1208,8 +1209,9 @@
   "Andrew Nembhard": {
    "pts": [
     15.5,
-    -115,
-    102
+    -120,
+    -125,
+    16.5
    ],
    "ast": [
     7.5,
@@ -1226,8 +1228,7 @@
    "pts": [
     14.5,
     -111,
-    -112,
-    15.5
+    100
    ],
    "reb": [
     5.5,
@@ -1260,8 +1261,8 @@
    ],
    "fg3m": [
     1.5,
-    -140,
-    135
+    -135,
+    130
    ]
   },
   "Ivica Zubac": {
@@ -1324,8 +1325,8 @@
   "Anfernee Simons": {
    "fg3m": [
     1.5,
-    -165,
-    130
+    -170,
+    135
    ]
   }
  },

@@ -11,13 +11,13 @@
    "SAS: Harper y Harris OUT; Fox (espinilla) cuestionable"
   ],
   "out": [
-   "Dylan Harper",
    "Tobias Harris",
    "Jayden Quaintance"
   ],
   "gtd": {
    "Austin Reaves": 0.65,
-   "De'Aaron Fox": 0.5
+   "De'Aaron Fox": 0.5,
+   "Dylan Harper": 0.5
   },
   "reserves": {
    "LAL": [
@@ -111,13 +111,13 @@
     "pace": 101.0
    },
    "adj": {
-    "o": -1.0,
-    "d": 0.25,
+    "o": -0.6,
+    "d": 0.15,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": "Dylan Harper (18.4 ppg) y Tobias Harris OUT; Fox en duda"
+    "roster_note": "Tobias Harris OUT; Dylan Harper (18.4 ppg) y Fox en duda"
    }
   },
   "LAL": {
@@ -150,10 +150,52 @@
  "players": [
   {
    "team": "SAS",
+   "name": "Dylan Harper",
+   "pos": "SG",
+   "starter": true,
+   "min": 29.7,
+   "g_cur": 15,
+   "p_play": 0.5,
+   "cur": {
+    "min": 31.7,
+    "pts": 18.4,
+    "reb": 5.4,
+    "ast": 4.5,
+    "fg3m": 1.1,
+    "fgm": 7.1,
+    "fga": 14.1,
+    "fg3a": 3.6,
+    "stl": 0.9,
+    "blk": 0.1,
+    "tov": 1.4,
+    "pf": 2.2,
+    "ftm": 3.0,
+    "fta": 3.5
+   },
+   "prior": {
+    "min": 22.6,
+    "pts": 11.78,
+    "reb": 3.39,
+    "ast": 3.86,
+    "fg3m": 0.88,
+    "fgm": 4.8,
+    "fga": 9.51,
+    "fg3a": 2.58,
+    "stl": 0.78,
+    "blk": 0.35,
+    "tov": 1.43,
+    "pf": 2.01,
+    "ftm": 1.3,
+    "fta": 1.72
+   },
+   "slot": "SG"
+  },
+  {
+   "team": "SAS",
    "name": "Devin Vassell",
    "pos": "SG",
    "starter": true,
-   "min": 32.6,
+   "min": 28.5,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -188,14 +230,14 @@
     "ftm": 1.58,
     "fta": 1.94
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "SAS",
    "name": "Victor Wembanyama",
    "pos": "C",
    "starter": true,
-   "min": 32.6,
+   "min": 28.5,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -237,7 +279,7 @@
    "name": "Stephon Castle",
    "pos": "SG",
    "starter": true,
-   "min": 32.3,
+   "min": 28.4,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -272,14 +314,14 @@
     "ftm": 4.15,
     "fta": 5.65
    },
-   "slot": "SF"
+   "slot": "PF"
   },
   {
    "team": "SAS",
    "name": "De'Aaron Fox",
    "pos": "PG",
    "starter": true,
-   "min": 30.9,
+   "min": 27.0,
    "g_cur": 16,
    "p_play": 0.5,
    "cur": {
@@ -320,8 +362,8 @@
    "team": "SAS",
    "name": "Julian Champagnie",
    "pos": "SF",
-   "starter": true,
-   "min": 29.0,
+   "starter": false,
+   "min": 25.5,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -355,15 +397,14 @@
     "pf": 1.6,
     "ftm": 1.39,
     "fta": 1.65
-   },
-   "slot": "PF"
+   }
   },
   {
    "team": "SAS",
    "name": "Keldon Johnson",
    "pos": "PF",
    "starter": false,
-   "min": 26.3,
+   "min": 23.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -404,7 +445,7 @@
    "name": "Luke Kornet",
    "pos": "C",
    "starter": false,
-   "min": 16.3,
+   "min": 14.3,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -445,7 +486,7 @@
    "name": "Harrison Barnes",
    "pos": "PF",
    "starter": false,
-   "min": 16.2,
+   "min": 14.2,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -486,7 +527,7 @@
    "name": "Carter Bryant",
    "pos": "PF",
    "starter": false,
-   "min": 12.1,
+   "min": 10.6,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -527,7 +568,7 @@
    "name": "Jordan McLaughlin",
    "pos": "PG",
    "starter": false,
-   "min": 11.7,
+   "min": 10.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -1065,20 +1106,19 @@
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
   "ml_home": -217,
   "ml_away": 180,
-  "spread_home": -5.5,
+  "spread_home": -6.5,
   "total": 225.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -105,
-  "over_odds": -104,
-  "under_odds": -116
+  "spread_odds_home": -102,
+  "spread_odds_away": -119,
+  "over_odds": -115,
+  "under_odds": -105
  },
  "prop_lines": {
   "Luka Dončić": {
    "pts": [
     33.5,
-    -120,
-    -110,
-    34.5
+    -102,
+    -112
    ],
    "reb": [
     6.5,
@@ -1099,9 +1139,9 @@
   "Victor Wembanyama": {
    "pts": [
     29.5,
-    -112,
-    -117,
-    31.5
+    -120,
+    -119,
+    30.5
    ],
    "reb": [
     12.5,
@@ -1125,7 +1165,7 @@
    "pts": [
     16.5,
     -120,
-    -120,
+    -125,
     17.5
    ],
    "ast": [
@@ -1141,8 +1181,8 @@
   },
   "Stephon Castle": {
    "pts": [
-    17.5,
-    100,
+    16.5,
+    -120,
     -150,
     18.5
    ],
@@ -1159,8 +1199,8 @@
    ],
    "fg3m": [
     1.5,
-    -150,
-    126
+    -140,
+    125
    ]
   },
   "De'Aaron Fox": {

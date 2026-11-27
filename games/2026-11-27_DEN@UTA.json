@@ -1091,21 +1091,22 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": 380,
-  "ml_away": -497,
+  "ml_home": 341,
+  "ml_away": -438,
   "spread_home": 9.5,
-  "total": 229.5,
+  "total": 232.5,
   "spread_odds_home": -105,
-  "spread_odds_away": -115,
-  "over_odds": -107,
-  "under_odds": -113
+  "spread_odds_away": -116,
+  "over_odds": -105,
+  "under_odds": -115
  },
  "prop_lines": {
   "Nikola Jokić": {
    "pts": [
-    27.5,
-    -105,
-    -111
+    26.5,
+    -103,
+    -120,
+    27.5
    ],
    "reb": [
     11.5,
@@ -1127,8 +1128,8 @@
   "Jamal Murray": {
    "pts": [
     24.5,
-    -115,
-    -114,
+    -120,
+    -130,
     25.5
    ],
    "reb": [
@@ -1151,9 +1152,8 @@
   "Keyonte George": {
    "pts": [
     20.5,
-    -120,
-    -116,
-    21.5
+    -105,
+    -105
    ],
    "ast": [
     6.5,
@@ -1170,8 +1170,8 @@
   "Darryn Peterson": {
    "pts": [
     16.5,
-    -107,
     -120,
+    -125,
     17.5
    ],
    "reb": [
@@ -1195,8 +1195,8 @@
   "Ace Bailey": {
    "pts": [
     14.5,
-    -105,
-    -114,
+    -125,
+    -116,
     15.5
    ],
    "reb": [
@@ -1207,7 +1207,7 @@
    ],
    "fg3m": [
     1.5,
-    -192,
+    -184,
     -180,
     2.5
    ]
@@ -1231,7 +1231,7 @@
    ],
    "fg3m": [
     1.5,
-    -195,
+    -185,
     -150,
     2.5
    ]
@@ -1303,6 +1303,13 @@
     1.5,
     -170,
     135
+   ]
+  },
+  "Mo Bamba": {
+   "pts": [
+    6.5,
+    -104,
+    -128
    ]
   }
  },

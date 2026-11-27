@@ -15,11 +15,10 @@
    "Asa Newell",
    "CJ McCollum",
    "Mouhamed Gueye",
-   "Henri Veesaar"
+   "Henri Veesaar",
+   "Mitchell Robinson"
   ],
-  "gtd": {
-   "Mitchell Robinson": 0.5
-  },
+  "gtd": {},
   "reserves": {
    "ATL": [
     {
@@ -118,7 +117,7 @@
    "name": "Jayson Tatum",
    "pos": "SF",
    "starter": true,
-   "min": 31.4,
+   "min": 33.7,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -160,7 +159,7 @@
    "name": "Paul George",
    "pos": "PF",
    "starter": true,
-   "min": 27.6,
+   "min": 29.6,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -202,7 +201,7 @@
    "name": "Derrick White",
    "pos": "PG",
    "starter": true,
-   "min": 27.3,
+   "min": 29.3,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -244,7 +243,7 @@
    "name": "Payton Pritchard",
    "pos": "PG",
    "starter": false,
-   "min": 25.2,
+   "min": 27.0,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -285,7 +284,7 @@
    "name": "Neemias Queta",
    "pos": "C",
    "starter": true,
-   "min": 21.3,
+   "min": 22.8,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -327,7 +326,7 @@
    "name": "Sam Hauser",
    "pos": "PF",
    "starter": false,
-   "min": 19.2,
+   "min": 20.6,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -368,7 +367,7 @@
    "name": "Baylor Scheierman",
    "pos": "SF",
    "starter": false,
-   "min": 17.4,
+   "min": 18.6,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -406,51 +405,10 @@
   },
   {
    "team": "BOS",
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "starter": false,
-   "min": 16.0,
-   "g_cur": 14,
-   "p_play": 0.5,
-   "cur": {
-    "min": 17.6,
-    "pts": 5.1,
-    "reb": 5.4,
-    "ast": 0.9,
-    "fg3m": 0.0,
-    "fgm": 2.3,
-    "fga": 3.5,
-    "fg3a": 0.0,
-    "stl": 0.7,
-    "blk": 0.8,
-    "tov": 0.9,
-    "pf": 2.4,
-    "ftm": 0.6,
-    "fta": 1.6
-   },
-   "prior": {
-    "min": 19.6,
-    "pts": 5.67,
-    "reb": 8.75,
-    "ast": 0.87,
-    "fg3m": 0.0,
-    "fgm": 2.48,
-    "fga": 3.43,
-    "fg3a": 0.0,
-    "stl": 0.93,
-    "blk": 1.17,
-    "tov": 0.68,
-    "pf": 2.12,
-    "ftm": 0.7,
-    "fta": 1.72
-   }
-  },
-  {
-   "team": "BOS",
    "name": "Jordan Walsh",
    "pos": "PF",
    "starter": true,
-   "min": 13.0,
+   "min": 14.0,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -492,7 +450,7 @@
    "name": "Hugo González",
    "pos": "SG",
    "starter": false,
-   "min": 12.1,
+   "min": 13.0,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -533,7 +491,7 @@
    "name": "Luka Garza",
    "pos": "C",
    "starter": false,
-   "min": 11.9,
+   "min": 12.8,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -574,7 +532,7 @@
    "name": "Mike Conley",
    "pos": "PG",
    "starter": false,
-   "min": 10.0,
+   "min": 10.7,
    "g_cur": 6,
    "p_play": 1.0,
    "cur": {
@@ -615,7 +573,7 @@
    "name": "Devin Carter",
    "pos": "PG",
    "starter": false,
-   "min": 7.3,
+   "min": 7.8,
    "g_cur": 2,
    "p_play": 1.0,
    "cur": {
@@ -1072,19 +1030,18 @@
   "ml_home": -378,
   "ml_away": 300,
   "spread_home": -8.5,
-  "total": 221.5,
-  "spread_odds_home": -113,
-  "spread_odds_away": -107,
-  "over_odds": -110,
-  "under_odds": -110
+  "total": 223.5,
+  "spread_odds_home": -118,
+  "spread_odds_away": -103,
+  "over_odds": -112,
+  "under_odds": -108
  },
  "prop_lines": {
   "Jayson Tatum": {
    "pts": [
     26.5,
-    -125,
-    -112,
-    27.5
+    -104,
+    -110
    ],
    "reb": [
     7.5,
@@ -1099,7 +1056,7 @@
    ],
    "fg3m": [
     2.5,
-    -155,
+    -165,
     -165,
     3.5
    ]
@@ -1107,8 +1064,8 @@
   "Nickeil Alexander-Walker": {
    "pts": [
     19.5,
+    -121,
     -120,
-    -132,
     20.5
    ],
    "ast": [
@@ -1125,8 +1082,8 @@
   "Jalen Johnson": {
    "pts": [
     18.5,
-    -110,
-    -105
+    -104,
+    -112
    ],
    "reb": [
     8.5,
@@ -1143,9 +1100,8 @@
   "Paul George": {
    "pts": [
     18.5,
-    -110,
-    -120,
-    19.5
+    -105,
+    -113
    ],
    "reb": [
     5.5,
@@ -1178,7 +1134,7 @@
    "fg3m": [
     2.5,
     135,
-    -127
+    -130
    ]
   },
   "Onyeka Okongwu": {
@@ -1200,7 +1156,7 @@
    ],
    "fg3m": [
     1.5,
-    -170,
+    -165,
     144
    ]
   },
@@ -1276,7 +1232,7 @@
   "Sam Hauser": {
    "fg3m": [
     1.5,
-    -160,
+    -162,
     136
    ]
   },
