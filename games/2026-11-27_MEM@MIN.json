@@ -17,12 +17,12 @@
    "GG Jackson",
    "Donte DiVincenzo",
    "Jaylen Clark",
-   "Anthony Edwards"
+   "Anthony Edwards",
+   "LaMelo Ball"
   ],
   "gtd": {
    "Zach Edey": 0.5,
-   "Isaiah Stewart": 0.5,
-   "LaMelo Ball": 0.6
+   "Isaiah Stewart": 0.5
   },
   "reserves": {
    "MEM": [
@@ -98,13 +98,13 @@
     "pace": 101.78
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -1.0,
+    "d": 0.25,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "LaMelo Ball (17.3 ppg) OUT"
    }
   },
   "MEM": {
@@ -140,7 +140,7 @@
    "name": "Jaden McDaniels",
    "pos": "PF",
    "starter": true,
-   "min": 35.9,
+   "min": 38.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -175,14 +175,14 @@
     "ftm": 2.01,
     "fta": 2.41
    },
-   "slot": "PF"
+   "slot": "SF"
   },
   {
    "team": "MIN",
    "name": "Ayo Dosunmu",
    "pos": "SG",
    "starter": true,
-   "min": 33.5,
+   "min": 38.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -217,14 +217,14 @@
     "ftm": 1.84,
     "fta": 2.1
    },
-   "slot": "SG"
+   "slot": "PG"
   },
   {
    "team": "MIN",
    "name": "Jonathan Kuminga",
    "pos": "SF",
    "starter": true,
-   "min": 32.6,
+   "min": 37.2,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -259,14 +259,14 @@
     "ftm": 2.47,
     "fta": 3.42
    },
-   "slot": "SF"
+   "slot": "SG"
   },
   {
    "team": "MIN",
    "name": "Rudy Gobert",
    "pos": "C",
    "starter": true,
-   "min": 31.0,
+   "min": 35.4,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -301,56 +301,14 @@
     "ftm": 2.09,
     "fta": 3.97
    },
-   "slot": "C"
-  },
-  {
-   "team": "MIN",
-   "name": "LaMelo Ball",
-   "pos": "PG",
-   "starter": true,
-   "min": 29.9,
-   "g_cur": 19,
-   "p_play": 0.6,
-   "cur": {
-    "min": 28.4,
-    "pts": 17.3,
-    "reb": 4.4,
-    "ast": 5.7,
-    "fg3m": 3.3,
-    "fgm": 6.2,
-    "fga": 15.3,
-    "fg3a": 9.2,
-    "stl": 1.6,
-    "blk": 0.2,
-    "tov": 3.3,
-    "pf": 3.6,
-    "ftm": 1.6,
-    "fta": 2.1
-   },
-   "prior": {
-    "min": 28.0,
-    "pts": 20.07,
-    "reb": 4.82,
-    "ast": 7.14,
-    "fg3m": 3.78,
-    "fgm": 7.03,
-    "fga": 17.28,
-    "fg3a": 10.28,
-    "stl": 1.21,
-    "blk": 0.24,
-    "tov": 2.81,
-    "pf": 2.71,
-    "ftm": 2.24,
-    "fta": 2.49
-   },
-   "slot": "PG"
+   "slot": "PF"
   },
   {
    "team": "MIN",
    "name": "Terrence Shannon Jr",
    "pos": "SG",
    "starter": false,
-   "min": 24.1,
+   "min": 27.6,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -391,7 +349,7 @@
    "name": "Trey Lyles",
    "pos": "PF",
    "starter": false,
-   "min": 20.1,
+   "min": 23.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -431,8 +389,8 @@
    "team": "MIN",
    "name": "Joan Beringer",
    "pos": "C",
-   "starter": false,
-   "min": 17.7,
+   "starter": true,
+   "min": 20.2,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -466,14 +424,15 @@
     "pf": 1.18,
     "ftm": 0.65,
     "fta": 0.93
-   }
+   },
+   "slot": "C"
   },
   {
    "team": "MIN",
    "name": "Bones Hyland",
    "pos": "PG",
    "starter": false,
-   "min": 15.1,
+   "min": 17.2,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -1009,21 +968,21 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -162,
-  "ml_away": 136,
+  "ml_home": -155,
+  "ml_away": 130,
   "spread_home": -3.5,
-  "total": 220.5,
-  "spread_odds_home": -112,
-  "spread_odds_away": -108,
-  "over_odds": -113,
-  "under_odds": -107
+  "total": 219.5,
+  "spread_odds_home": -102,
+  "spread_odds_away": -119,
+  "over_odds": -114,
+  "under_odds": -106
  },
  "prop_lines": {
   "Ty Jerome": {
    "pts": [
     21.5,
-    -125,
-    -108,
+    -124,
+    -112,
     22.5
    ],
    "ast": [
@@ -1039,10 +998,9 @@
   },
   "Jaden McDaniels": {
    "pts": [
-    18.5,
-    -120,
-    -108,
-    19.5
+    19.5,
+    -113,
+    -110
    ],
    "reb": [
     5.5,
@@ -1056,15 +1014,16 @@
    ],
    "fg3m": [
     1.5,
-    -112,
-    115
+    -120,
+    120
    ]
   },
   "Ayo Dosunmu": {
    "pts": [
-    18.5,
-    -110,
-    -102
+    19.5,
+    -120,
+    -120,
+    20.5
    ],
    "reb": [
     4.5,
@@ -1084,37 +1043,11 @@
     2.5
    ]
   },
-  "LaMelo Ball": {
-   "pts": [
-    17.5,
-    -124,
-    -112,
-    18.5
-   ],
-   "reb": [
-    4.5,
-    105,
-    -114
-   ],
-   "ast": [
-    5.5,
-    -108,
-    -145,
-    6.5
-   ],
-   "fg3m": [
-    2.5,
-    -165,
-    -140,
-    3.5
-   ]
-  },
   "Cedric Coward": {
    "pts": [
-    15.5,
-    -110,
-    -120,
-    17.5
+    16.5,
+    -102,
+    -105
    ],
    "reb": [
     7.5,
@@ -1129,14 +1062,16 @@
    "fg3m": [
     1.5,
     -165,
-    145
+    -193,
+    2.5
    ]
   },
   "Jonathan Kuminga": {
    "pts": [
     14.5,
-    -115,
-    102
+    -120,
+    -102,
+    15.5
    ],
    "reb": [
     4.5,
@@ -1199,6 +1134,14 @@
     1.5,
     110,
     -136
+   ]
+  },
+  "Terrence Shannon Jr": {
+   "pts": [
+    15.5,
+    -145,
+    -111,
+    16.5
    ]
   }
  },

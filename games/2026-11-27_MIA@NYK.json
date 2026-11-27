@@ -10,14 +10,16 @@
    "MIA: Antetokounmpo (ingle) y Wiggins (tobillo) probables (ESPN 26-nov)",
    "NYK: Anunoby (gemelo) dudoso; Clarkson, McBride y Drummond cuestionables"
   ],
-  "out": [],
+  "out": [
+   "OG Anunoby",
+   "Jordan Clarkson",
+   "Miles McBride",
+   "Andre Drummond"
+  ],
   "gtd": {
    "Giannis Antetokounmpo": 0.85,
    "Andrew Wiggins": 0.85,
-   "OG Anunoby": 0.2,
-   "Jordan Clarkson": 0.4,
-   "Miles McBride": 0.5,
-   "Andre Drummond": 0.5
+   "Karl-Anthony Towns": 0.5
   },
   "reserves": {
    "MIA": [
@@ -81,13 +83,13 @@
     "pace": 97.99
    },
    "adj": {
-    "o": -0.5,
-    "d": 0.25,
+    "o": -1.0,
+    "d": 0.5,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": "Anunoby (16.3 ppg) dudoso"
+    "roster_note": "Anunoby (16.3 ppg), Clarkson, McBride y Drummond OUT; Towns en duda"
    }
   },
   "MIA": {
@@ -123,7 +125,7 @@
    "name": "Jalen Brunson",
    "pos": "PG",
    "starter": true,
-   "min": 28.8,
+   "min": 38.0,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -162,54 +164,12 @@
   },
   {
    "team": "NYK",
-   "name": "OG Anunoby",
-   "pos": "PF",
-   "starter": true,
-   "min": 28.3,
-   "g_cur": 15,
-   "p_play": 0.2,
-   "cur": {
-    "min": 33.9,
-    "pts": 16.3,
-    "reb": 5.4,
-    "ast": 2.0,
-    "fg3m": 2.0,
-    "fgm": 4.7,
-    "fga": 11.8,
-    "fg3a": 6.2,
-    "stl": 1.1,
-    "blk": 0.9,
-    "tov": 2.1,
-    "pf": 3.3,
-    "ftm": 4.8,
-    "fta": 5.5
-   },
-   "prior": {
-    "min": 33.2,
-    "pts": 16.69,
-    "reb": 5.24,
-    "ast": 2.16,
-    "fg3m": 2.34,
-    "fgm": 5.81,
-    "fga": 12.0,
-    "fg3a": 6.07,
-    "stl": 1.55,
-    "blk": 0.72,
-    "tov": 1.84,
-    "pf": 2.45,
-    "ftm": 2.73,
-    "fta": 3.3
-   },
-   "slot": "PF"
-  },
-  {
-   "team": "NYK",
    "name": "Karl-Anthony Towns",
    "pos": "C",
    "starter": true,
-   "min": 27.2,
+   "min": 36.7,
    "g_cur": 17,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 32.6,
     "pts": 21.2,
@@ -249,7 +209,7 @@
    "name": "Josh Hart",
    "pos": "SF",
    "starter": true,
-   "min": 26.0,
+   "min": 35.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -284,14 +244,14 @@
     "ftm": 1.36,
     "fta": 1.89
    },
-   "slot": "SG"
+   "slot": "SF"
   },
   {
    "team": "NYK",
    "name": "Landry Shamet",
    "pos": "SG",
-   "starter": false,
-   "min": 22.6,
+   "starter": true,
+   "min": 30.5,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -325,14 +285,15 @@
     "pf": 1.51,
     "ftm": 1.06,
     "fta": 1.49
-   }
+   },
+   "slot": "SG"
   },
   {
    "team": "NYK",
    "name": "Mikal Bridges",
    "pos": "SF",
    "starter": true,
-   "min": 22.5,
+   "min": 30.4,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -367,96 +328,14 @@
     "ftm": 1.0,
     "fta": 1.21
    },
-   "slot": "SF"
-  },
-  {
-   "team": "NYK",
-   "name": "Miles McBride",
-   "pos": "SG",
-   "starter": false,
-   "min": 14.4,
-   "g_cur": 16,
-   "p_play": 0.5,
-   "cur": {
-    "min": 17.2,
-    "pts": 6.8,
-    "reb": 1.2,
-    "ast": 1.0,
-    "fg3m": 1.8,
-    "fgm": 2.3,
-    "fga": 5.4,
-    "fg3a": 4.3,
-    "stl": 0.6,
-    "blk": 0.3,
-    "tov": 0.3,
-    "pf": 1.5,
-    "ftm": 0.3,
-    "fta": 0.4
-   },
-   "prior": {
-    "min": 26.3,
-    "pts": 11.98,
-    "reb": 2.44,
-    "ast": 2.59,
-    "fg3m": 2.73,
-    "fgm": 4.17,
-    "fga": 9.85,
-    "fg3a": 6.61,
-    "stl": 0.85,
-    "blk": 0.22,
-    "tov": 0.8,
-    "pf": 1.71,
-    "ftm": 0.9,
-    "fta": 1.15
-   }
-  },
-  {
-   "team": "NYK",
-   "name": "Andre Drummond",
-   "pos": "C",
-   "starter": false,
-   "min": 11.4,
-   "g_cur": 18,
-   "p_play": 0.5,
-   "cur": {
-    "min": 13.7,
-    "pts": 3.7,
-    "reb": 7.4,
-    "ast": 0.9,
-    "fg3m": 0.1,
-    "fgm": 1.6,
-    "fga": 3.8,
-    "fg3a": 0.2,
-    "stl": 0.3,
-    "blk": 0.7,
-    "tov": 0.9,
-    "pf": 1.6,
-    "ftm": 0.4,
-    "fta": 0.7
-   },
-   "prior": {
-    "min": 19.6,
-    "pts": 6.4,
-    "reb": 8.44,
-    "ast": 1.27,
-    "fg3m": 0.51,
-    "fgm": 2.52,
-    "fga": 5.35,
-    "fg3a": 1.43,
-    "stl": 0.6,
-    "blk": 0.78,
-    "tov": 0.97,
-    "pf": 1.98,
-    "ftm": 0.84,
-    "fta": 1.33
-   }
+   "slot": "PF"
   },
   {
    "team": "NYK",
    "name": "Tyler Kolek",
    "pos": "PG",
    "starter": false,
-   "min": 10.8,
+   "min": 14.5,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -497,7 +376,7 @@
    "name": "Jose Alvarado",
    "pos": "PG",
    "starter": false,
-   "min": 9.8,
+   "min": 13.3,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -538,7 +417,7 @@
    "name": "Mohamed Diawara",
    "pos": "SF",
    "starter": false,
-   "min": 8.7,
+   "min": 11.7,
    "g_cur": 8,
    "p_play": 1.0,
    "cur": {
@@ -576,51 +455,10 @@
   },
   {
    "team": "NYK",
-   "name": "Jordan Clarkson",
-   "pos": "SG",
-   "starter": false,
-   "min": 8.2,
-   "g_cur": 12,
-   "p_play": 0.4,
-   "cur": {
-    "min": 9.8,
-    "pts": 4.9,
-    "reb": 1.6,
-    "ast": 0.4,
-    "fg3m": 0.5,
-    "fgm": 2.1,
-    "fga": 4.2,
-    "fg3a": 1.0,
-    "stl": 0.2,
-    "blk": 0.2,
-    "tov": 0.3,
-    "pf": 1.7,
-    "ftm": 0.3,
-    "fta": 0.3
-   },
-   "prior": {
-    "min": 17.8,
-    "pts": 8.64,
-    "reb": 1.76,
-    "ast": 1.33,
-    "fg3m": 0.97,
-    "fgm": 3.29,
-    "fga": 7.31,
-    "fg3a": 2.97,
-    "stl": 0.42,
-    "blk": 0.12,
-    "tov": 0.88,
-    "pf": 1.71,
-    "ftm": 1.08,
-    "fta": 1.31
-   }
-  },
-  {
-   "team": "NYK",
    "name": "Tyler Nickel",
    "pos": "SF",
    "starter": false,
-   "min": 7.5,
+   "min": 10.1,
    "g_cur": 1,
    "p_play": 1.0,
    "cur": {
@@ -661,7 +499,7 @@
    "name": "Pacôme Dadiet",
    "pos": "SG",
    "starter": false,
-   "min": 7.2,
+   "min": 9.7,
    "g_cur": 7,
    "p_play": 1.0,
    "cur": {
@@ -702,7 +540,7 @@
    "name": "Dalton Knecht",
    "pos": "SF",
    "starter": false,
-   "min": 6.7,
+   "min": 9.0,
    "g_cur": 4,
    "p_play": 1.0,
    "cur": {
@@ -1279,21 +1117,22 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -174,
-  "ml_away": 146,
-  "spread_home": -3.5,
+  "ml_home": -148,
+  "ml_away": 124,
+  "spread_home": -2.5,
   "total": 222.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -105,
-  "over_odds": -113,
-  "under_odds": -107
+  "spread_odds_home": -112,
+  "spread_odds_away": -108,
+  "over_odds": -105,
+  "under_odds": -115
  },
  "prop_lines": {
   "Jalen Brunson": {
    "pts": [
-    27.5,
+    28.5,
     -110,
-    -105
+    -112,
+    29.5
    ],
    "ast": [
     6.5,
@@ -1302,7 +1141,7 @@
    ],
    "fg3m": [
     2.5,
-    -160,
+    -164,
     -188,
     3.5
    ]
@@ -1311,7 +1150,7 @@
    "pts": [
     26.5,
     -120,
-    -116,
+    -120,
     27.5
    ],
    "reb": [
@@ -1327,9 +1166,10 @@
   },
   "Karl-Anthony Towns": {
    "pts": [
-    21.5,
-    -105,
-    -103
+    20.5,
+    -112,
+    -102,
+    21.5
    ],
    "reb": [
     12.5,
@@ -1343,15 +1183,15 @@
    ],
    "fg3m": [
     1.5,
-    -145,
-    132
+    -140,
+    130
    ]
   },
   "Bam Adebayo": {
    "pts": [
     16.5,
     -125,
-    -104,
+    -111,
     17.5
    ],
    "reb": [
@@ -1370,8 +1210,8 @@
   "Davion Mitchell": {
    "pts": [
     13.5,
-    -120,
-    -118,
+    -127,
+    -110,
     14.5
    ],
    "ast": [
@@ -1382,7 +1222,7 @@
    "fg3m": [
     1.5,
     -150,
-    130
+    129
    ]
   },
   "Landry Shamet": {
@@ -1395,7 +1235,7 @@
    "fg3m": [
     2.5,
     -115,
-    110
+    108
    ]
   },
   "Mikal Bridges": {
@@ -1423,9 +1263,10 @@
     12.5
    ],
    "fg3m": [
-    3.5,
-    140,
-    -150
+    2.5,
+    -180,
+    -150,
+    3.5
    ]
   },
   "Josh Hart": {
@@ -1466,13 +1307,6 @@
     1.5,
     130,
     -165
-   ]
-  },
-  "OG Anunoby": {
-   "fg3m": [
-    2.5,
-    140,
-    -195
    ]
   }
  },

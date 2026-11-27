@@ -17,7 +17,9 @@
    "Tarik Biberovic",
    "Mark Williams"
   ],
-  "gtd": {},
+  "gtd": {
+   "Kyrie Irving": 0.5
+  },
   "reserves": {
    "DAL": [
     {
@@ -593,7 +595,7 @@
    "starter": true,
    "min": 27.7,
    "g_cur": 15,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 30.9,
     "pts": 21.3,
@@ -1044,21 +1046,21 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -130,
-  "ml_away": 110,
-  "spread_home": -1.5,
-  "total": 226.5,
-  "spread_odds_home": -116,
-  "spread_odds_away": -104,
-  "over_odds": -108,
-  "under_odds": -112
+  "ml_home": -155,
+  "ml_away": 130,
+  "spread_home": -3.5,
+  "total": 225.5,
+  "spread_odds_home": -106,
+  "spread_odds_away": -114,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Devin Booker": {
    "pts": [
     24.5,
-    -120,
-    -110,
+    -115,
+    -105,
     25.5
    ],
    "ast": [
@@ -1074,10 +1076,9 @@
   },
   "Cooper Flagg": {
    "pts": [
-    23.5,
-    -115,
-    -123,
-    24.5
+    25.5,
+    -106,
+    -110
    ],
    "reb": [
     6.5,
@@ -1098,8 +1099,8 @@
   "Kyrie Irving": {
    "pts": [
     22.5,
-    -108,
-    -110
+    -105,
+    -105
    ],
    "reb": [
     3.5,
@@ -1114,7 +1115,7 @@
    ],
    "fg3m": [
     2.5,
-    -170,
+    -180,
     -145,
     3.5
    ]
@@ -1122,21 +1123,21 @@
   "Dillon Brooks": {
    "pts": [
     14.5,
+    -115,
     -120,
-    -110,
     15.5
    ],
    "fg3m": [
     1.5,
     -130,
-    134
+    126
    ]
   },
   "Jalen Green": {
    "pts": [
     15.5,
-    -103,
-    -105
+    -107,
+    -115
    ],
    "reb": [
     3.5,
@@ -1157,7 +1158,7 @@
   "Miles Bridges": {
    "pts": [
     13.5,
-    -130,
+    -120,
     -110,
     14.5
    ],

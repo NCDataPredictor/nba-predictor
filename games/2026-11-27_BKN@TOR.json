@@ -1005,22 +1005,21 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -304,
-  "ml_away": 247,
-  "spread_home": -7.5,
-  "total": 220.5,
-  "spread_odds_home": -115,
-  "spread_odds_away": -105,
-  "over_odds": -110,
-  "under_odds": -110
+  "ml_home": -374,
+  "ml_away": 297,
+  "spread_home": -9.5,
+  "total": 219.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -108,
+  "under_odds": -112
  },
  "prop_lines": {
   "Scottie Barnes": {
    "pts": [
-    24.5,
-    -120,
-    -122,
-    25.5
+    25.5,
+    -105,
+    -115
    ],
    "reb": [
     6.5,
@@ -1037,10 +1036,10 @@
   },
   "Julius Randle": {
    "pts": [
-    21.5,
+    20.5,
+    -118,
     -115,
-    -112,
-    22.5
+    21.5
    ],
    "reb": [
     6.5,
@@ -1062,9 +1061,9 @@
   "Michael Porter Jr.": {
    "pts": [
     18.5,
-    -125,
-    -124,
-    20.5
+    -115,
+    -128,
+    19.5
    ],
    "reb": [
     6.5,
@@ -1074,14 +1073,14 @@
    "fg3m": [
     2.5,
     -125,
-    110
+    107
    ]
   },
   "Immanuel Quickley": {
    "pts": [
     18.5,
-    -124,
-    -112,
+    -128,
+    -110,
     19.5
    ],
    "ast": [
@@ -1092,7 +1091,7 @@
    "fg3m": [
     2.5,
     -128,
-    116
+    120
    ]
   },
   "Mikel Brown Jr.": {
@@ -1133,8 +1132,8 @@
    ],
    "fg3m": [
     2.5,
-    -135,
-    124
+    -145,
+    128
    ]
   },
   "Egor Dëmin": {
@@ -1151,7 +1150,7 @@
    "fg3m": [
     1.5,
     -150,
-    121
+    135
    ]
   },
   "Collin Murray-Boyles": {

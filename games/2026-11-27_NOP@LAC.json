@@ -1216,22 +1216,21 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -158,
-  "ml_away": 133,
-  "spread_home": -3.5,
-  "total": 231.5,
-  "spread_odds_home": -106,
-  "spread_odds_away": -114,
-  "over_odds": -105,
-  "under_odds": -115
+  "ml_home": -135,
+  "ml_away": 114,
+  "spread_home": -2.5,
+  "total": 230.5,
+  "spread_odds_home": -110,
+  "spread_odds_away": -110,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Zion Williamson": {
    "pts": [
     22.5,
-    -105,
-    -122,
-    23.5
+    -110,
+    -112
    ],
    "reb": [
     5.5,
@@ -1246,10 +1245,10 @@
   },
   "Darius Garland": {
    "pts": [
-    20.5,
-    -102,
-    -125,
-    21.5
+    19.5,
+    -120,
+    -109,
+    20.5
    ],
    "ast": [
     6.5,
@@ -1266,9 +1265,8 @@
   "Jeremiah Fears": {
    "pts": [
     17.5,
-    -112,
-    -114,
-    18.5
+    -109,
+    -109
    ],
    "reb": [
     4.5,
@@ -1289,9 +1287,10 @@
   },
   "Brandon Ingram": {
    "pts": [
-    18.5,
-    100,
-    -115
+    17.5,
+    -145,
+    -112,
+    18.5
    ],
    "reb": [
     4.5,
@@ -1312,7 +1311,7 @@
   "Trey Murphy III": {
    "pts": [
     15.5,
-    100,
+    -110,
     -108
    ],
    "reb": [
@@ -1327,7 +1326,7 @@
    ],
    "fg3m": [
     1.5,
-    -185,
+    -180,
     -173,
     2.5
    ]
@@ -1335,8 +1334,9 @@
   "Saddiq Bey": {
    "pts": [
     14.5,
-    -110,
-    100
+    -125,
+    -108,
+    15.5
    ],
    "reb": [
     4.5,
@@ -1358,8 +1358,8 @@
   "Rui Hachimura": {
    "pts": [
     13.5,
-    -102,
     -125,
+    -110,
     14.5
    ],
    "reb": [
@@ -1369,8 +1369,8 @@
    ],
    "fg3m": [
     1.5,
-    -140,
-    135
+    -135,
+    129
    ]
   },
   "Jordan Poole": {
@@ -1462,7 +1462,7 @@
    ],
    "fg3m": [
     1.5,
-    -125,
+    -120,
     140
    ]
   }

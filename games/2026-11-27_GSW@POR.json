@@ -1105,22 +1105,22 @@
  ],
  "market": {
   "source": "NBA.com/games 27-nov (11 partidos: 10 de Copa + GSW@POR de liga); consenso scoresandodds.com/nba?date=2026-11-27 (~11:40 ET) en odds/2026-11-27.json",
-  "ml_home": -378,
-  "ml_away": 300,
-  "spread_home": -8.5,
-  "total": 221.5,
-  "spread_odds_home": -118,
-  "spread_odds_away": -103,
-  "over_odds": -107,
-  "under_odds": -113
+  "ml_home": -297,
+  "ml_away": 241,
+  "spread_home": -7.5,
+  "total": 217.5,
+  "spread_odds_home": -108,
+  "spread_odds_away": -112,
+  "over_odds": -110,
+  "under_odds": -110
  },
  "prop_lines": {
   "Deni Avdija": {
    "pts": [
-    23.5,
+    25.5,
     -115,
-    -115,
-    24.5
+    -110,
+    26.5
    ],
    "reb": [
     6.5,
@@ -1144,8 +1144,8 @@
    "pts": [
     20.5,
     -125,
-    -120,
-    22.5
+    -122,
+    21.5
    ],
    "ast": [
     3.5,
@@ -1154,16 +1154,17 @@
     4.5
    ],
    "fg3m": [
-    3.5,
-    132,
-    -125
+    2.5,
+    -178,
+    -125,
+    3.5
    ]
   },
   "Yaxel Lendeborg": {
    "pts": [
-    18.5,
-    -110,
+    17.5,
     -125,
+    -121,
     19.5
    ],
    "reb": [
@@ -1185,7 +1186,7 @@
   "Brandin Podziemski": {
    "pts": [
     15.5,
-    -115,
+    -120,
     -125,
     16.5
    ],
@@ -1207,10 +1208,9 @@
   },
   "Jrue Holiday": {
    "pts": [
-    12.5,
-    -125,
-    -115,
-    14.5
+    16.5,
+    102,
+    -105
    ],
    "reb": [
     3.5,
@@ -1226,7 +1226,7 @@
    "fg3m": [
     1.5,
     -180,
-    -140,
+    -145,
     2.5
    ]
   },
@@ -1261,7 +1261,7 @@
    ],
    "fg3m": [
     1.5,
-    -180,
+    -170,
     -185,
     2.5
    ]
@@ -1282,10 +1282,9 @@
   },
   "Scoot Henderson": {
    "pts": [
-    9.5,
-    -125,
-    -120,
-    10.5
+    14.5,
+    -110,
+    -108
    ],
    "fg3m": [
     1.5,
