@@ -5,7 +5,7 @@
   "MIA@NYK": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 124,
      "ml_home": -148,
      "spread_away": [
@@ -17,7 +17,7 @@
       -112
      ],
      "total": [
-      222.5,
+      221.5,
       -105,
       -115
      ]
@@ -27,7 +27,7 @@
   "MIL@DET": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 351,
      "ml_home": -452,
      "spread_away": [
@@ -49,7 +49,7 @@
   "PHI@IND": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": -170,
      "ml_home": 142,
      "spread_away": [
@@ -61,7 +61,7 @@
       -112
      ],
      "total": [
-      229.5,
+      228.5,
       -110,
       -110
      ]
@@ -71,7 +71,7 @@
   "BKN@TOR": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 297,
      "ml_home": -374,
      "spread_away": [
@@ -83,7 +83,7 @@
       -108
      ],
      "total": [
-      219.5,
+      218.5,
       -108,
       -112
      ]
@@ -93,16 +93,16 @@
   "ATL@BOS": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 300,
      "ml_home": -378,
      "spread_away": [
-      8.5,
+      9.5,
       -103
      ],
      "spread_home": [
-      -8.5,
-      -118
+      -9.5,
+      -108
      ],
      "total": [
       223.5,
@@ -115,19 +115,19 @@
   "MEM@MIN": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 130,
      "ml_home": -155,
      "spread_away": [
-      3.5,
+      2.5,
       -119
      ],
      "spread_home": [
-      -3.5,
-      -102
+      -2.5,
+      -118
      ],
      "total": [
-      219.5,
+      220.5,
       -114,
       -106
      ]
@@ -137,9 +137,9 @@
   "DAL@PHX": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
-     "ml_away": 130,
-     "ml_home": -155,
+     "book": "scoresandodds (consenso 18:20 ET)",
+     "ml_away": 124,
+     "ml_home": -148,
      "spread_away": [
       3.5,
       -114
@@ -159,7 +159,7 @@
   "LAL@SAS": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 180,
      "ml_home": -217,
      "spread_away": [
@@ -168,10 +168,10 @@
      ],
      "spread_home": [
       -6.5,
-      -102
+      -103
      ],
      "total": [
-      225.5,
+      226.5,
       -115,
       -105
      ]
@@ -181,16 +181,16 @@
   "DEN@UTA": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
-     "ml_away": -438,
-     "ml_home": 341,
+     "book": "scoresandodds (consenso 18:20 ET)",
+     "ml_away": -410,
+     "ml_home": 322,
      "spread_away": [
       -9.5,
       -116
      ],
      "spread_home": [
       9.5,
-      -105
+      -112
      ],
      "total": [
       232.5,
@@ -203,16 +203,16 @@
   "GSW@POR": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
-     "ml_away": 241,
-     "ml_home": -297,
+     "book": "scoresandodds (consenso 18:20 ET)",
+     "ml_away": 251,
+     "ml_home": -310,
      "spread_away": [
-      7.5,
+      8.5,
       -112
      ],
      "spread_home": [
-      -7.5,
-      -108
+      -8.5,
+      -103
      ],
      "total": [
       217.5,
@@ -225,7 +225,7 @@
   "NOP@LAC": {
    "books": [
     {
-     "book": "scoresandodds (consenso 17:00 ET)",
+     "book": "scoresandodds (consenso 18:20 ET)",
      "ml_away": 114,
      "ml_home": -135,
      "spread_away": [
@@ -237,7 +237,7 @@
       -110
      ],
      "total": [
-      230.5,
+      229.5,
       -110,
       -110
      ]

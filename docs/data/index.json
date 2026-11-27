@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T22:10+00:00",
+ "generated": "2026-11-27T23:21+00:00",
  "value_ev": 0.03,
  "min_p": 0.5,
  "model": "1.7.1",
@@ -73,7 +73,7 @@
   },
   "2026-11-27": {
    "morning": "2026-11-27T16:33+00:00",
-   "pregame": "2026-11-27T22:10+00:00"
+   "pregame": "2026-11-27T23:21+00:00"
   }
  },
  "history": [
@@ -2256,40 +2256,40 @@
     "legs": [
      {
       "kind": "prop",
-      "label": "Ja'Kobe Walter Under 4.5 Rebotes",
-      "player": "Ja'Kobe Walter",
-      "team": "TOR",
-      "line": 4.5,
-      "stat": "reb",
-      "side": "under",
-      "p": 0.589,
-      "dec": 1.78,
-      "ev": 0.049,
-      "gid": "2026-11-27-BKN-at-TOR",
-      "game": "BKN @ TOR"
-     },
-     {
-      "kind": "prop",
       "label": "Jamal Murray Over 2.5 Triples",
       "player": "Jamal Murray",
       "team": "DEN",
       "line": 2.5,
       "stat": "fg3m",
       "side": "over",
-      "p": 0.604,
+      "p": 0.605,
       "dec": 1.766,
-      "ev": 0.067,
+      "ev": 0.068,
       "gid": "2026-11-27-DEN-at-UTA",
       "game": "DEN @ UTA"
+     },
+     {
+      "kind": "prop",
+      "label": "Jrue Holiday Over 3.5 Rebotes",
+      "player": "Jrue Holiday",
+      "team": "POR",
+      "line": 3.5,
+      "stat": "reb",
+      "side": "over",
+      "p": 0.602,
+      "dec": 1.73,
+      "ev": 0.041,
+      "gid": "2026-11-27-GSW-at-POR",
+      "game": "GSW @ POR"
      }
     ],
     "n": 2,
-    "p": 0.356,
-    "p_indep": 0.356,
+    "p": 0.364,
+    "p_indep": 0.364,
     "corr": 1.0,
-    "dec": 3.14,
-    "fair": 2.81,
-    "ev": 0.118,
+    "dec": 3.06,
+    "fair": 2.75,
+    "ev": 0.113,
     "type": "cross",
     "result": null
    }
@@ -208271,6 +208271,52 @@
     },
     {
      "kind": "prop",
+     "label": "Davion Mitchell Under 14.5 Puntos",
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "line": 14.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.671,
+     "implied": 0.547,
+     "fair": -204,
+     "edge": 0.124,
+     "ev": 0.227,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.671,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 5,
+       "value": 24.2,
+       "lg": 26.8,
+       "n": 30
+      }
+     },
+     "mean": 12.4,
+     "open": [
+      14.5,
+      1.77
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Josh Hart Over 4.5 Asistencias",
      "player": "Josh Hart",
      "team": "NYK",
@@ -208313,52 +208359,6 @@
      "open": [
       4.5,
       1.576
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Jalen Brunson Over 2.5 Triples",
-     "player": "Jalen Brunson",
-     "team": "NYK",
-     "line": 2.5,
-     "odds": -184,
-     "dec": 1.543,
-     "odds_assumed": false,
-     "p": 0.762,
-     "implied": 0.648,
-     "fair": -320,
-     "edge": 0.114,
-     "ev": 0.176,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -164,
-     "dec_ref": 1.61,
-     "p_model": 0.762,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 30,
-       "value": 4.7,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 4.7,
-     "open": [
-      2.5,
-      1.557
      ]
     }
    ],
@@ -208524,6 +208524,31 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Giannis Antetokounmpo",
+     "team": "MIA",
+     "stat": "dd",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.644,
+     "fair": 1.55,
+     "min_dec": 1.6,
+     "ref": null,
+     "p_model": 0.644,
+     "label": "Giannis Antetokounmpo Doble-doble: Sí",
+     "hr": {
+      "l10": [
+       9,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Jalen Brunson",
      "team": "NYK",
      "stat": "fg2a",
@@ -208550,32 +208575,6 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Andrew Wiggins",
-     "team": "MIA",
-     "stat": "pf",
-     "side": "over",
-     "line": 1.5,
-     "p": 0.623,
-     "fair": 1.61,
-     "min_dec": 1.65,
-     "ref": 1.8,
-     "p_model": 0.623,
-     "label": "Andrew Wiggins Over 1.5 Faltas",
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ]
-     },
-     "mean": 2.2
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Mikal Bridges",
      "team": "NYK",
      "stat": "pf",
@@ -208598,6 +208597,32 @@
       ]
      },
      "mean": 2.1
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Andrew Wiggins",
+     "team": "MIA",
+     "stat": "pf",
+     "side": "over",
+     "line": 1.5,
+     "p": 0.618,
+     "fair": 1.62,
+     "min_dec": 1.67,
+     "ref": 1.8,
+     "p_model": 0.618,
+     "label": "Andrew Wiggins Over 1.5 Faltas",
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ]
+     },
+     "mean": 2.2
     },
     {
      "kind": "prop",
@@ -208633,11 +208658,11 @@
      "stat": "pf",
      "side": "over",
      "line": 1.5,
-     "p": 0.601,
-     "fair": 1.66,
-     "min_dec": 1.71,
+     "p": 0.591,
+     "fair": 1.69,
+     "min_dec": 1.74,
      "ref": 1.8,
-     "p_model": 0.601,
+     "p_model": 0.591,
      "label": "Bam Adebayo Over 1.5 Faltas",
      "hr": {
       "l10": [
@@ -208706,6 +208731,32 @@
     {
      "kind": "prop",
      "model_only": true,
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "stat": "fg2m",
+     "side": "under",
+     "line": 2.5,
+     "p": 0.526,
+     "fair": 1.9,
+     "min_dec": 1.96,
+     "ref": 3.1,
+     "p_model": 0.587,
+     "label": "Davion Mitchell Under 2.5 Dobles anotados",
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ]
+     },
+     "mean": 2.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
      "player": "Mikal Bridges",
      "team": "NYK",
      "stat": "fg2a",
@@ -208732,17 +208783,17 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Klay Thompson",
+     "player": "Giannis Antetokounmpo",
      "team": "MIA",
-     "stat": "fg3a",
+     "stat": "fg2a",
      "side": "over",
-     "line": 7.5,
+     "line": 14.5,
      "p": 0.521,
      "fair": 1.92,
      "min_dec": 1.98,
-     "ref": 8.0,
-     "p_model": 0.57,
-     "label": "Klay Thompson Over 7.5 Triples intentados",
+     "ref": 14.4,
+     "p_model": 0.571,
+     "label": "Giannis Antetokounmpo Over 14.5 Dobles intentados",
      "hr": {
       "l10": [
        6,
@@ -208753,7 +208804,7 @@
        2
       ]
      },
-     "mean": 8.7
+     "mean": 16.3
     },
     {
      "kind": "prop",
@@ -208784,17 +208835,69 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Bam Adebayo",
+     "player": "Giannis Antetokounmpo",
      "team": "MIA",
      "stat": "fga",
      "side": "over",
-     "line": 11.5,
-     "p": 0.519,
-     "fair": 1.93,
+     "line": 16.5,
+     "p": 0.52,
+     "fair": 1.92,
      "min_dec": 1.98,
-     "ref": 11.7,
-     "p_model": 0.563,
-     "label": "Bam Adebayo Over 11.5 Tiros de campo intentados",
+     "ref": 16.1,
+     "p_model": 0.566,
+     "label": "Giannis Antetokounmpo Over 16.5 Tiros de campo intentados",
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ]
+     },
+     "mean": 18.3
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "stat": "fgm",
+     "side": "under",
+     "line": 4.5,
+     "p": 0.518,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 5.2,
+     "p_model": 0.561,
+     "label": "Davion Mitchell Under 4.5 Tiros de campo anotados",
+     "hr": {
+      "l10": [
+       1,
+       10
+      ],
+      "h2h": [
+       2,
+       4
+      ]
+     },
+     "mean": 4.5
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Klay Thompson",
+     "team": "MIA",
+     "stat": "fg3a",
+     "side": "over",
+     "line": 7.5,
+     "p": 0.517,
+     "fair": 1.93,
+     "min_dec": 1.99,
+     "ref": 8.0,
+     "p_model": 0.558,
+     "label": "Klay Thompson Over 7.5 Triples intentados",
      "hr": {
       "l10": [
        6,
@@ -208805,33 +208908,33 @@
        2
       ]
      },
-     "mean": 12.7
+     "mean": 8.6
     },
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Davion Mitchell",
+     "player": "Giannis Antetokounmpo",
      "team": "MIA",
-     "stat": "fg2m",
-     "side": "under",
-     "line": 2.5,
-     "p": 0.518,
+     "stat": "fgm",
+     "side": "over",
+     "line": 9.5,
+     "p": 0.517,
      "fair": 1.93,
      "min_dec": 1.99,
-     "ref": 3.1,
-     "p_model": 0.56,
-     "label": "Davion Mitchell Under 2.5 Dobles anotados",
+     "ref": 9.8,
+     "p_model": 0.557,
+     "label": "Giannis Antetokounmpo Over 9.5 Tiros de campo anotados",
      "hr": {
       "l10": [
-       3,
+       6,
        10
       ],
       "h2h": [
-       3,
-       4
+       2,
+       2
       ]
      },
-     "mean": 2.7
+     "mean": 11.0
     },
     {
      "kind": "prop",
@@ -208913,31 +209016,6 @@
     {
      "kind": "prop",
      "model_only": true,
-     "player": "Bam Adebayo",
-     "team": "MIA",
-     "stat": "dd",
-     "side": "over",
-     "line": 0.5,
-     "p": 0.365,
-     "fair": 2.74,
-     "min_dec": 2.82,
-     "ref": null,
-     "p_model": 0.365,
-     "label": "Bam Adebayo Doble-doble: Sí",
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ]
-     }
-    },
-    {
-     "kind": "prop",
-     "model_only": true,
      "player": "Josh Hart",
      "team": "NYK",
      "stat": "td",
@@ -208959,6 +209037,31 @@
        4
       ]
      }
+    },
+    {
+     "kind": "prop",
+     "model_only": true,
+     "player": "Giannis Antetokounmpo",
+     "team": "MIA",
+     "stat": "td",
+     "side": "over",
+     "line": 0.5,
+     "p": 0.072,
+     "fair": 13.9,
+     "min_dec": 14.32,
+     "ref": null,
+     "p_model": 0.072,
+     "label": "Giannis Antetokounmpo Triple-doble: Sí",
+     "hr": {
+      "l10": [
+       0,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ]
+     }
     }
    ],
    "err_bets": [
@@ -208971,16 +209074,16 @@
      "odds": -132,
      "dec": 1.758,
      "odds_assumed": false,
-     "p": 0.509,
+     "p": 0.504,
      "implied": 0.569,
-     "edge": -0.06,
-     "ev": -0.105,
+     "edge": -0.065,
+     "ev": -0.114,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -115,
      "dec_ref": 1.87,
-     "p_model": 0.456,
+     "p_model": 0.437,
      "p_mkt": 0.527,
      "cand": false,
      "err": {
@@ -209009,7 +209112,7 @@
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 7.4,
      "open": [
       7.5,
       1.758
@@ -209061,6 +209164,51 @@
      "open": [
       27.5,
       1.831
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Davion Mitchell Under 14.5 Puntos",
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "line": 14.5,
+     "odds": -121,
+     "dec": 1.829,
+     "odds_assumed": false,
+     "p": 0.671,
+     "implied": 0.547,
+     "edge": 0.124,
+     "ev": 0.227,
+     "value": false,
+     "stat": "pts",
+     "side": "under",
+     "odds_ref": -110,
+     "dec_ref": 1.909,
+     "p_model": 0.671,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       2,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 5,
+       "value": 24.2,
+       "lg": 26.8,
+       "n": 30
+      }
+     },
+     "mean": 12.4,
+     "open": [
+      14.5,
+      1.77
      ]
     },
     {
@@ -209155,47 +209303,47 @@
     },
     {
      "kind": "prop",
-     "label": "Davion Mitchell Under 14.5 Puntos",
-     "player": "Davion Mitchell",
+     "label": "Bam Adebayo Under 17.5 Puntos",
+     "player": "Bam Adebayo",
      "team": "MIA",
-     "line": 14.5,
-     "odds": -121,
-     "dec": 1.829,
+     "line": 17.5,
+     "odds": -122,
+     "dec": 1.822,
      "odds_assumed": false,
-     "p": 0.64,
-     "implied": 0.547,
-     "edge": 0.093,
-     "ev": 0.171,
+     "p": 0.623,
+     "implied": 0.549,
+     "edge": 0.074,
+     "ev": 0.135,
      "value": false,
      "stat": "pts",
      "side": "under",
-     "odds_ref": -110,
-     "dec_ref": 1.909,
-     "p_model": 0.64,
+     "odds_ref": -111,
+     "dec_ref": 1.901,
+     "p_model": 0.623,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
      "hr": {
       "l10": [
-       2,
+       3,
        10
       ],
       "h2h": [
-       3,
-       4
+       1,
+       2
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 5,
-       "value": 24.2,
-       "lg": 26.8,
+       "pos": "C",
+       "rank": 1,
+       "value": 17.7,
+       "lg": 22.0,
        "n": 30
       }
      },
-     "mean": 13.0,
+     "mean": 16.1,
      "open": [
-      14.5,
-      1.77
+      17.5,
+      1.88
      ]
     },
     {
@@ -209245,51 +209393,6 @@
     },
     {
      "kind": "prop",
-     "label": "Bam Adebayo Under 17.5 Puntos",
-     "player": "Bam Adebayo",
-     "team": "MIA",
-     "line": 17.5,
-     "odds": -122,
-     "dec": 1.822,
-     "odds_assumed": false,
-     "p": 0.592,
-     "implied": 0.549,
-     "edge": 0.043,
-     "ev": 0.079,
-     "value": false,
-     "stat": "pts",
-     "side": "under",
-     "odds_ref": -111,
-     "dec_ref": 1.901,
-     "p_model": 0.592,
-     "p_mkt": null,
-     "cand": false,
-     "no_value_why": "sin cuota de la casa para el otro lado",
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 1,
-       "value": 17.7,
-       "lg": 22.0,
-       "n": 30
-      }
-     },
-     "mean": 16.9,
-     "open": [
-      17.5,
-      1.88
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Bam Adebayo Under 3.5 Asistencias",
      "player": "Bam Adebayo",
      "team": "MIA",
@@ -209297,16 +209400,16 @@
      "odds": -192,
      "dec": 1.522,
      "odds_assumed": false,
-     "p": 0.706,
+     "p": 0.715,
      "implied": 0.657,
-     "edge": 0.049,
-     "ev": 0.075,
+     "edge": 0.058,
+     "ev": 0.088,
      "value": false,
      "stat": "ast",
      "side": "under",
      "odds_ref": -170,
      "dec_ref": 1.588,
-     "p_model": 0.706,
+     "p_model": 0.715,
      "p_mkt": null,
      "cand": false,
      "no_value_why": "sin cuota de la casa para el otro lado",
@@ -209327,10 +209430,55 @@
        "n": 30
       }
      },
-     "mean": 2.7,
+     "mean": 2.6,
      "open": [
       3.5,
       1.522
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Pelle Larsson Under 2.5 Asistencias",
+     "player": "Pelle Larsson",
+     "team": "MIA",
+     "line": 2.5,
+     "odds": 115,
+     "dec": 2.147,
+     "odds_assumed": false,
+     "p": 0.487,
+     "implied": 0.466,
+     "edge": 0.021,
+     "ev": 0.046,
+     "value": false,
+     "stat": "ast",
+     "side": "under",
+     "odds_ref": 124,
+     "dec_ref": 2.24,
+     "p_model": 0.487,
+     "p_mkt": null,
+     "cand": false,
+     "no_value_why": "sin cuota de la casa para el otro lado",
+     "hr": {
+      "l10": [
+       4,
+       10
+      ],
+      "h2h": [
+       2,
+       3
+      ],
+      "dvp": {
+       "pos": "SG",
+       "rank": 3,
+       "value": 4.7,
+       "lg": 5.8,
+       "n": 30
+      }
+     },
+     "mean": 2.9,
+     "open": [
+      2.5,
+      2.147
      ]
     },
     {
@@ -209379,23 +209527,23 @@
     },
     {
      "kind": "prop",
-     "label": "Pelle Larsson Under 2.5 Asistencias",
-     "player": "Pelle Larsson",
+     "label": "Klay Thompson Under 12.5 Puntos",
+     "player": "Klay Thompson",
      "team": "MIA",
-     "line": 2.5,
-     "odds": 115,
-     "dec": 2.147,
+     "line": 12.5,
+     "odds": -138,
+     "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.471,
-     "implied": 0.466,
-     "edge": 0.005,
-     "ev": 0.011,
+     "p": 0.593,
+     "implied": 0.58,
+     "edge": 0.013,
+     "ev": 0.023,
      "value": false,
-     "stat": "ast",
+     "stat": "pts",
      "side": "under",
-     "odds_ref": 124,
-     "dec_ref": 2.24,
-     "p_model": 0.471,
+     "odds_ref": -125,
+     "dec_ref": 1.8,
+     "p_model": 0.593,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -209404,21 +209552,52 @@
        10
       ],
       "h2h": [
-       2,
-       3
+       0,
+       2
       ],
       "dvp": {
-       "pos": "SG",
-       "rank": 3,
-       "value": 4.7,
-       "lg": 5.8,
+       "pos": "SF",
+       "rank": 4,
+       "value": 18.0,
+       "lg": 20.5,
        "n": 30
       }
      },
-     "mean": 3.0,
+     "mean": 12.1,
      "open": [
-      2.5,
-      2.147
+      12.5,
+      1.725
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 221.5",
+     "player": null,
+     "team": null,
+     "line": 221.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.519,
+     "implied": 0.512,
+     "edge": 0.007,
+     "ev": 0.014,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 221.5,
+      "odds": -105,
+      "dec": 1.952,
+      "p": 0.519,
+      "ev": 0.013
+     },
+     "p_model": 0.61,
+     "p_mkt": 0.489,
+     "cand": false,
+     "open": [
+      222.5,
+      1.885
      ]
     },
     {
@@ -209463,37 +209642,6 @@
      "open": [
       12.5,
       1.814
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Over 222.5",
-     "player": null,
-     "team": null,
-     "line": 222.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.515,
-     "implied": 0.512,
-     "edge": 0.002,
-     "ev": 0.005,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 222.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.515,
-      "ev": 0.005
-     },
-     "p_model": 0.591,
-     "p_mkt": 0.489,
-     "cand": false,
-     "open": [
-      222.5,
-      1.885
      ]
     },
     {
@@ -209585,50 +209733,6 @@
      ]
     },
     {
-     "kind": "prop",
-     "label": "Bam Adebayo Over 7.5 Rebotes",
-     "player": "Bam Adebayo",
-     "team": "MIA",
-     "line": 7.5,
-     "odds": -156,
-     "dec": 1.643,
-     "odds_assumed": false,
-     "p": 0.607,
-     "implied": 0.609,
-     "edge": -0.002,
-     "ev": -0.003,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -140,
-     "dec_ref": 1.714,
-     "p_model": 0.607,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 10,
-       "value": 14.1,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 9.2,
-     "open": [
-      7.5,
-      1.643
-     ]
-    },
-    {
      "kind": "spread",
      "label": "NYK -2.5",
      "player": null,
@@ -209644,7 +209748,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -2.5,
       "odds": -112,
       "dec": 1.893,
@@ -209675,7 +209779,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -148,
       "dec": 1.676,
@@ -209736,6 +209840,50 @@
     },
     {
      "kind": "prop",
+     "label": "Bam Adebayo Over 7.5 Rebotes",
+     "player": "Bam Adebayo",
+     "team": "MIA",
+     "line": 7.5,
+     "odds": -156,
+     "dec": 1.643,
+     "odds_assumed": false,
+     "p": 0.594,
+     "implied": 0.609,
+     "edge": -0.015,
+     "ev": -0.024,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -140,
+     "dec_ref": 1.714,
+     "p_model": 0.594,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 10,
+       "value": 14.1,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 9.0,
+     "open": [
+      7.5,
+      1.643
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Josh Hart Over 7.5 Rebotes",
      "player": "Josh Hart",
      "team": "NYK",
@@ -209780,46 +209928,46 @@
     },
     {
      "kind": "prop",
-     "label": "Klay Thompson Under 12.5 Puntos",
-     "player": "Klay Thompson",
+     "label": "Davion Mitchell Under 7.5 Asistencias",
+     "player": "Davion Mitchell",
      "team": "MIA",
-     "line": 12.5,
-     "odds": -138,
-     "dec": 1.725,
+     "line": 7.5,
+     "odds": -105,
+     "dec": 1.956,
      "odds_assumed": false,
-     "p": 0.558,
-     "implied": 0.58,
-     "edge": -0.022,
-     "ev": -0.037,
+     "p": 0.496,
+     "implied": 0.511,
+     "edge": -0.015,
+     "ev": -0.03,
      "value": false,
-     "stat": "pts",
+     "stat": "ast",
      "side": "under",
-     "odds_ref": -125,
-     "dec_ref": 1.8,
-     "p_model": 0.558,
-     "p_mkt": null,
+     "odds_ref": 108,
+     "dec_ref": 2.08,
+     "p_model": 0.563,
+     "p_mkt": 0.473,
      "cand": false,
      "hr": {
       "l10": [
-       4,
+       2,
        10
       ],
       "h2h": [
-       0,
-       2
+       2,
+       4
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 4,
-       "value": 18.0,
-       "lg": 20.5,
+       "pos": "PG",
+       "rank": 2,
+       "value": 6.5,
+       "lg": 7.9,
        "n": 30
       }
      },
-     "mean": 12.8,
+     "mean": 7.4,
      "open": [
-      12.5,
-      1.725
+      7.5,
+      1.956
      ]
     },
     {
@@ -209834,13 +209982,13 @@
      "p": 0.613,
      "implied": 0.636,
      "edge": -0.023,
-     "ev": -0.037,
+     "ev": -0.036,
      "value": false,
      "stat": "fg3m",
      "side": "under",
      "odds_ref": -165,
      "dec_ref": 1.606,
-     "p_model": 0.684,
+     "p_model": 0.686,
      "p_mkt": 0.589,
      "cand": false,
      "hr": {
@@ -209869,50 +210017,6 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 15 partidos esta temporada"
      }
-    },
-    {
-     "kind": "prop",
-     "label": "Davion Mitchell Under 7.5 Asistencias",
-     "player": "Davion Mitchell",
-     "team": "MIA",
-     "line": 7.5,
-     "odds": -105,
-     "dec": 1.956,
-     "odds_assumed": false,
-     "p": 0.491,
-     "implied": 0.511,
-     "edge": -0.02,
-     "ev": -0.04,
-     "value": false,
-     "stat": "ast",
-     "side": "under",
-     "odds_ref": 108,
-     "dec_ref": 2.08,
-     "p_model": 0.544,
-     "p_mkt": 0.473,
-     "cand": false,
-     "hr": {
-      "l10": [
-       2,
-       10
-      ],
-      "h2h": [
-       2,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 2,
-       "value": 6.5,
-       "lg": 7.9,
-       "n": 30
-      }
-     },
-     "mean": 7.5,
-     "open": [
-      7.5,
-      1.956
-     ]
     },
     {
      "kind": "prop",
@@ -209960,50 +210064,6 @@
     },
     {
      "kind": "prop",
-     "label": "Bobby Portis Jr. Over 3.5 Rebotes",
-     "player": "Bobby Portis Jr.",
-     "team": "MIA",
-     "line": 3.5,
-     "odds": -158,
-     "dec": 1.633,
-     "odds_assumed": false,
-     "p": 0.581,
-     "implied": 0.612,
-     "edge": -0.032,
-     "ev": -0.052,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.622,
-     "p_mkt": 0.567,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       0,
-       3
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 4,
-       "value": 9.1,
-       "lg": 10.2,
-       "n": 30
-      }
-     },
-     "mean": 5.0,
-     "open": [
-      3.5,
-      1.633
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Karl-Anthony Towns Over 12.5 Rebotes",
      "player": "Karl-Anthony Towns",
      "team": "NYK",
@@ -210044,6 +210104,50 @@
      "open": [
       12.5,
       1.794
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Bobby Portis Jr. Over 3.5 Rebotes",
+     "player": "Bobby Portis Jr.",
+     "team": "MIA",
+     "line": 3.5,
+     "odds": -158,
+     "dec": 1.633,
+     "odds_assumed": false,
+     "p": 0.578,
+     "implied": 0.612,
+     "edge": -0.034,
+     "ev": -0.056,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.611,
+     "p_mkt": 0.567,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       0,
+       3
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 4,
+       "value": 9.1,
+       "lg": 10.2,
+       "n": 30
+      }
+     },
+     "mean": 4.9,
+     "open": [
+      3.5,
+      1.633
      ]
     },
     {
@@ -210099,16 +210203,16 @@
      "odds": -117,
      "dec": 1.852,
      "odds_assumed": false,
-     "p": 0.503,
+     "p": 0.504,
      "implied": 0.54,
-     "edge": -0.037,
-     "ev": -0.068,
+     "edge": -0.036,
+     "ev": -0.067,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": 102,
      "dec_ref": 2.02,
-     "p_model": 0.513,
+     "p_model": 0.515,
      "p_mkt": 0.5,
      "cand": false,
      "hr": {
@@ -210132,6 +210236,50 @@
      "open": [
       11.5,
       1.852
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Davion Mitchell Under 1.5 Triples",
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "line": 1.5,
+     "odds": 120,
+     "dec": 2.198,
+     "odds_assumed": false,
+     "p": 0.423,
+     "implied": 0.455,
+     "edge": -0.032,
+     "ev": -0.069,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": 129,
+     "dec_ref": 2.29,
+     "p_model": 0.43,
+     "p_mkt": 0.421,
+     "cand": false,
+     "hr": {
+      "l10": [
+       3,
+       10
+      ],
+      "h2h": [
+       1,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 13,
+       "value": 3.6,
+       "lg": 3.7,
+       "n": 30
+      }
+     },
+     "mean": 2.1,
+     "open": [
+      1.5,
+      2.203
      ]
     },
     {
@@ -210180,50 +210328,6 @@
     },
     {
      "kind": "prop",
-     "label": "Davion Mitchell Under 1.5 Triples",
-     "player": "Davion Mitchell",
-     "team": "MIA",
-     "line": 1.5,
-     "odds": 120,
-     "dec": 2.198,
-     "odds_assumed": false,
-     "p": 0.422,
-     "implied": 0.455,
-     "edge": -0.033,
-     "ev": -0.073,
-     "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": 129,
-     "dec_ref": 2.29,
-     "p_model": 0.424,
-     "p_mkt": 0.421,
-     "cand": false,
-     "hr": {
-      "l10": [
-       3,
-       10
-      ],
-      "h2h": [
-       1,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 13,
-       "value": 3.6,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 2.1,
-     "open": [
-      1.5,
-      2.203
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Landry Shamet Over 2.5 Triples",
      "player": "Landry Shamet",
      "team": "NYK",
@@ -210264,59 +210368,6 @@
      "open": [
       2.5,
       1.75
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Davion Mitchell Over 1.5 Triples",
-     "player": "Davion Mitchell",
-     "team": "MIA",
-     "line": 1.5,
-     "odds": -167,
-     "dec": 1.6,
-     "odds_assumed": false,
-     "p": 0.578,
-     "implied": 0.625,
-     "edge": -0.047,
-     "ev": -0.075,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.576,
-     "p_mkt": 0.579,
-     "cand": false,
-     "err": {
-      "r": "A",
-      "why": "promedia 2.5 triples (36 min) y la línea es 1.5; la casa paga 1.60 (58% sin margen)",
-      "p": 0.663,
-      "ev": 0.061,
-      "hit": 0.63,
-      "casa": 0.546,
-      "n": 449
-     },
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       3,
-       4
-      ],
-      "dvp": {
-       "pos": "PG",
-       "rank": 13,
-       "value": 3.6,
-       "lg": 3.7,
-       "n": 30
-      }
-     },
-     "mean": 2.1,
-     "open": [
-      1.5,
-      1.597
      ]
     },
     {
@@ -210379,7 +210430,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 124,
       "dec": 2.24,
@@ -210392,6 +210443,59 @@
      "open": [
       null,
       2.46
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Davion Mitchell Over 1.5 Triples",
+     "player": "Davion Mitchell",
+     "team": "MIA",
+     "line": 1.5,
+     "odds": -167,
+     "dec": 1.6,
+     "odds_assumed": false,
+     "p": 0.577,
+     "implied": 0.625,
+     "edge": -0.048,
+     "ev": -0.078,
+     "value": false,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -150,
+     "dec_ref": 1.667,
+     "p_model": 0.57,
+     "p_mkt": 0.579,
+     "cand": false,
+     "err": {
+      "r": "A",
+      "why": "promedia 2.5 triples (36 min) y la línea es 1.5; la casa paga 1.60 (58% sin margen)",
+      "p": 0.663,
+      "ev": 0.061,
+      "hit": 0.63,
+      "casa": 0.546,
+      "n": 449
+     },
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       3,
+       4
+      ],
+      "dvp": {
+       "pos": "PG",
+       "rank": 13,
+       "value": 3.6,
+       "lg": 3.7,
+       "n": 30
+      }
+     },
+     "mean": 2.1,
+     "open": [
+      1.5,
+      1.597
      ]
     },
     {
@@ -210410,7 +210514,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 2.5,
       "odds": -108,
       "dec": 1.926,
@@ -210423,50 +210527,6 @@
      "open": [
       3.5,
       1.952
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Giannis Antetokounmpo Over 11.5 Rebotes",
-     "player": "Giannis Antetokounmpo",
-     "team": "MIA",
-     "line": 11.5,
-     "odds": -117,
-     "dec": 1.852,
-     "odds_assumed": false,
-     "p": 0.497,
-     "implied": 0.54,
-     "edge": -0.043,
-     "ev": -0.08,
-     "value": false,
-     "stat": "reb",
-     "side": "over",
-     "odds_ref": 102,
-     "dec_ref": 2.02,
-     "p_model": 0.487,
-     "p_mkt": 0.5,
-     "cand": false,
-     "hr": {
-      "l10": [
-       8,
-       10
-      ],
-      "h2h": [
-       1,
-       2
-      ],
-      "dvp": {
-       "pos": "PF",
-       "rank": 4,
-       "value": 9.1,
-       "lg": 10.2,
-       "n": 30
-      }
-     },
-     "mean": 11.9,
-     "open": [
-      11.5,
-      1.852
      ]
     },
     {
@@ -210515,6 +210575,50 @@
     },
     {
      "kind": "prop",
+     "label": "Giannis Antetokounmpo Over 11.5 Rebotes",
+     "player": "Giannis Antetokounmpo",
+     "team": "MIA",
+     "line": 11.5,
+     "odds": -117,
+     "dec": 1.852,
+     "odds_assumed": false,
+     "p": 0.496,
+     "implied": 0.54,
+     "edge": -0.044,
+     "ev": -0.081,
+     "value": false,
+     "stat": "reb",
+     "side": "over",
+     "odds_ref": 102,
+     "dec_ref": 2.02,
+     "p_model": 0.485,
+     "p_mkt": 0.5,
+     "cand": false,
+     "hr": {
+      "l10": [
+       8,
+       10
+      ],
+      "h2h": [
+       1,
+       2
+      ],
+      "dvp": {
+       "pos": "PF",
+       "rank": 4,
+       "value": 9.1,
+       "lg": 10.2,
+       "n": 30
+      }
+     },
+     "mean": 11.9,
+     "open": [
+      11.5,
+      1.852
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Giannis Antetokounmpo Under 27.5 Puntos",
      "player": "Giannis Antetokounmpo",
      "team": "MIA",
@@ -210522,16 +210626,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.523,
+     "p": 0.522,
      "implied": 0.569,
-     "edge": -0.046,
-     "ev": -0.081,
+     "edge": -0.047,
+     "ev": -0.083,
      "value": false,
      "stat": "pts",
      "side": "under",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.523,
+     "p_model": 0.522,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -210551,54 +210655,10 @@
        "n": 30
       }
      },
-     "mean": 28.8,
+     "mean": 28.7,
      "open": [
       27.5,
       1.784
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Klay Thompson Over 2.5 Triples",
-     "player": "Klay Thompson",
-     "team": "MIA",
-     "line": 2.5,
-     "odds": -204,
-     "dec": 1.491,
-     "odds_assumed": false,
-     "p": 0.612,
-     "implied": 0.671,
-     "edge": -0.059,
-     "ev": -0.088,
-     "value": false,
-     "stat": "fg3m",
-     "side": "over",
-     "odds_ref": -180,
-     "dec_ref": 1.556,
-     "p_model": 0.612,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       7,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 12,
-       "value": 2.6,
-       "lg": 2.7,
-       "n": 30
-      }
-     },
-     "mean": 3.6,
-     "open": [
-      3.5,
-      2.259
      ]
     },
     {
@@ -210646,34 +210706,47 @@
      ]
     },
     {
-     "kind": "total",
-     "label": "Under 222.5",
-     "player": null,
-     "team": null,
-     "line": 222.5,
-     "odds": -115,
-     "dec": 1.87,
+     "kind": "prop",
+     "label": "Klay Thompson Over 2.5 Triples",
+     "player": "Klay Thompson",
+     "team": "MIA",
+     "line": 2.5,
+     "odds": -204,
+     "dec": 1.491,
      "odds_assumed": false,
-     "p": 0.485,
-     "implied": 0.535,
-     "edge": -0.049,
-     "ev": -0.092,
+     "p": 0.607,
+     "implied": 0.671,
+     "edge": -0.064,
+     "ev": -0.095,
      "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 222.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.485,
-      "ev": -0.093
-     },
-     "p_model": 0.409,
-     "p_mkt": 0.511,
+     "stat": "fg3m",
+     "side": "over",
+     "odds_ref": -180,
+     "dec_ref": 1.556,
+     "p_model": 0.607,
+     "p_mkt": null,
      "cand": false,
+     "hr": {
+      "l10": [
+       7,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 12,
+       "value": 2.6,
+       "lg": 2.7,
+       "n": 30
+      }
+     },
+     "mean": 3.5,
      "open": [
-      222.5,
-      1.935
+      3.5,
+      2.259
      ]
     },
     {
@@ -210729,16 +210802,16 @@
      "odds": 114,
      "dec": 2.139,
      "odds_assumed": false,
-     "p": 0.419,
+     "p": 0.422,
      "implied": 0.468,
-     "edge": -0.048,
-     "ev": -0.103,
+     "edge": -0.046,
+     "ev": -0.097,
      "value": false,
      "stat": "reb",
      "side": "under",
      "odds_ref": 128,
      "dec_ref": 2.28,
-     "p_model": 0.378,
+     "p_model": 0.389,
      "p_mkt": 0.433,
      "cand": false,
      "hr": {
@@ -210758,65 +210831,86 @@
        "n": 30
       }
      },
-     "mean": 5.0,
+     "mean": 4.9,
      "open": [
       3.5,
       2.139
      ]
     },
     {
-     "kind": "prop",
-     "label": "Davion Mitchell Over 7.5 Asistencias",
-     "player": "Davion Mitchell",
-     "team": "MIA",
-     "line": 7.5,
-     "odds": -132,
-     "dec": 1.758,
+     "kind": "total",
+     "label": "Under 221.5",
+     "player": null,
+     "team": null,
+     "line": 221.5,
+     "odds": -115,
+     "dec": 1.87,
      "odds_assumed": false,
-     "p": 0.509,
-     "implied": 0.569,
-     "edge": -0.06,
-     "ev": -0.105,
+     "p": 0.481,
+     "implied": 0.535,
+     "edge": -0.054,
+     "ev": -0.101,
      "value": false,
-     "stat": "ast",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.456,
-     "p_mkt": 0.527,
-     "cand": false,
-     "err": {
-      "r": "B",
-      "why": "promedia 8.7 asistencias (36 min) y la línea es 7.5; la casa paga 1.76 (53% sin margen)",
-      "p": 0.647,
-      "ev": 0.137,
-      "hit": 0.643,
-      "casa": 0.521,
-      "n": 115
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 221.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.481,
+      "ev": -0.101
      },
+     "p_model": 0.39,
+     "p_mkt": 0.511,
+     "cand": false,
+     "open": [
+      222.5,
+      1.935
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Klay Thompson Under 3.5 Triples",
+     "player": "Klay Thompson",
+     "team": "MIA",
+     "line": 3.5,
+     "odds": -167,
+     "dec": 1.598,
+     "odds_assumed": false,
+     "p": 0.562,
+     "implied": 0.626,
+     "edge": -0.064,
+     "ev": -0.102,
+     "value": false,
+     "stat": "fg3m",
+     "side": "under",
+     "odds_ref": -150,
+     "dec_ref": 1.667,
+     "p_model": 0.562,
+     "p_mkt": null,
+     "cand": false,
      "hr": {
       "l10": [
-       8,
+       4,
        10
       ],
       "h2h": [
-       2,
-       4
+       1,
+       2
       ],
       "dvp": {
-       "pos": "PG",
-       "rank": 2,
-       "value": 6.5,
-       "lg": 7.9,
+       "pos": "SF",
+       "rank": 12,
+       "value": 2.6,
+       "lg": 2.7,
        "n": 30
       }
      },
-     "mean": 7.5,
+     "mean": 3.5,
      "open": [
-      7.5,
-      1.758
-     ],
-     "err_pick": true
+      3.5,
+      1.569
+     ]
     },
     {
      "kind": "prop",
@@ -210827,16 +210921,16 @@
      "odds": -132,
      "dec": 1.757,
      "odds_assumed": false,
-     "p": 0.508,
+     "p": 0.509,
      "implied": 0.569,
-     "edge": -0.061,
-     "ev": -0.107,
+     "edge": -0.06,
+     "ev": -0.106,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -120,
      "dec_ref": 1.833,
-     "p_model": 0.508,
+     "p_model": 0.509,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -210856,54 +210950,10 @@
        "n": 30
       }
      },
-     "mean": 28.8,
+     "mean": 28.7,
      "open": [
       26.5,
       1.757
-     ]
-    },
-    {
-     "kind": "prop",
-     "label": "Klay Thompson Over 11.5 Puntos",
-     "player": "Klay Thompson",
-     "team": "MIA",
-     "line": 11.5,
-     "odds": -126,
-     "dec": 1.792,
-     "odds_assumed": false,
-     "p": 0.498,
-     "implied": 0.558,
-     "edge": -0.06,
-     "ev": -0.108,
-     "value": false,
-     "stat": "pts",
-     "side": "over",
-     "odds_ref": -115,
-     "dec_ref": 1.87,
-     "p_model": 0.498,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       6,
-       10
-      ],
-      "h2h": [
-       2,
-       2
-      ],
-      "dvp": {
-       "pos": "SF",
-       "rank": 4,
-       "value": 18.0,
-       "lg": 20.5,
-       "n": 30
-      }
-     },
-     "mean": 12.8,
-     "open": [
-      11.5,
-      1.792
      ]
     },
     {
@@ -210952,47 +211002,57 @@
     },
     {
      "kind": "prop",
-     "label": "Klay Thompson Under 3.5 Triples",
-     "player": "Klay Thompson",
+     "label": "Davion Mitchell Over 7.5 Asistencias",
+     "player": "Davion Mitchell",
      "team": "MIA",
-     "line": 3.5,
-     "odds": -167,
-     "dec": 1.598,
+     "line": 7.5,
+     "odds": -132,
+     "dec": 1.758,
      "odds_assumed": false,
-     "p": 0.554,
-     "implied": 0.626,
-     "edge": -0.072,
-     "ev": -0.115,
+     "p": 0.504,
+     "implied": 0.569,
+     "edge": -0.065,
+     "ev": -0.114,
      "value": false,
-     "stat": "fg3m",
-     "side": "under",
-     "odds_ref": -150,
-     "dec_ref": 1.667,
-     "p_model": 0.554,
-     "p_mkt": null,
+     "stat": "ast",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.437,
+     "p_mkt": 0.527,
      "cand": false,
+     "err": {
+      "r": "B",
+      "why": "promedia 8.7 asistencias (36 min) y la línea es 7.5; la casa paga 1.76 (53% sin margen)",
+      "p": 0.647,
+      "ev": 0.137,
+      "hit": 0.643,
+      "casa": 0.521,
+      "n": 115
+     },
      "hr": {
       "l10": [
-       4,
+       8,
        10
       ],
       "h2h": [
-       1,
-       2
+       2,
+       4
       ],
       "dvp": {
-       "pos": "SF",
-       "rank": 12,
-       "value": 2.6,
-       "lg": 2.7,
+       "pos": "PG",
+       "rank": 2,
+       "value": 6.5,
+       "lg": 7.9,
        "n": 30
       }
      },
-     "mean": 3.6,
+     "mean": 7.4,
      "open": [
-      3.5,
-      1.569
-     ]
+      7.5,
+      1.758
+     ],
+     "err_pick": true
     },
     {
      "kind": "prop",
@@ -211094,13 +211154,13 @@
      "p": 0.387,
      "implied": 0.444,
      "edge": -0.057,
-     "ev": -0.128,
+     "ev": -0.129,
      "value": false,
      "stat": "fg3m",
      "side": "over",
      "odds_ref": 130,
      "dec_ref": 2.3,
-     "p_model": 0.316,
+     "p_model": 0.314,
      "p_mkt": 0.411,
      "cand": false,
      "hr": {
@@ -211264,6 +211324,94 @@
     },
     {
      "kind": "prop",
+     "label": "Bam Adebayo Under 8.5 Rebotes",
+     "player": "Bam Adebayo",
+     "team": "MIA",
+     "line": 8.5,
+     "odds": -150,
+     "dec": 1.668,
+     "odds_assumed": false,
+     "p": 0.498,
+     "implied": 0.599,
+     "edge": -0.102,
+     "ev": -0.169,
+     "value": false,
+     "stat": "reb",
+     "side": "under",
+     "odds_ref": -135,
+     "dec_ref": 1.741,
+     "p_model": 0.498,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       5,
+       10
+      ],
+      "h2h": [
+       0,
+       2
+      ],
+      "dvp": {
+       "pos": "C",
+       "rank": 10,
+       "value": 14.1,
+       "lg": 14.7,
+       "n": 30
+      }
+     },
+     "mean": 9.0,
+     "open": [
+      8.5,
+      1.668
+     ]
+    },
+    {
+     "kind": "prop",
+     "label": "Klay Thompson Over 11.5 Puntos",
+     "player": "Klay Thompson",
+     "team": "MIA",
+     "line": 11.5,
+     "odds": -126,
+     "dec": 1.792,
+     "odds_assumed": false,
+     "p": 0.462,
+     "implied": 0.558,
+     "edge": -0.096,
+     "ev": -0.172,
+     "value": false,
+     "stat": "pts",
+     "side": "over",
+     "odds_ref": -115,
+     "dec_ref": 1.87,
+     "p_model": 0.462,
+     "p_mkt": null,
+     "cand": false,
+     "hr": {
+      "l10": [
+       6,
+       10
+      ],
+      "h2h": [
+       2,
+       2
+      ],
+      "dvp": {
+       "pos": "SF",
+       "rank": 4,
+       "value": 18.0,
+       "lg": 20.5,
+       "n": 30
+      }
+     },
+     "mean": 12.1,
+     "open": [
+      11.5,
+      1.792
+     ]
+    },
+    {
+     "kind": "prop",
      "label": "Mikal Bridges Under 1.5 Triples",
      "player": "Mikal Bridges",
      "team": "NYK",
@@ -211352,50 +211500,6 @@
     },
     {
      "kind": "prop",
-     "label": "Bam Adebayo Under 8.5 Rebotes",
-     "player": "Bam Adebayo",
-     "team": "MIA",
-     "line": 8.5,
-     "odds": -150,
-     "dec": 1.668,
-     "odds_assumed": false,
-     "p": 0.484,
-     "implied": 0.599,
-     "edge": -0.116,
-     "ev": -0.193,
-     "value": false,
-     "stat": "reb",
-     "side": "under",
-     "odds_ref": -135,
-     "dec_ref": 1.741,
-     "p_model": 0.484,
-     "p_mkt": null,
-     "cand": false,
-     "hr": {
-      "l10": [
-       5,
-       10
-      ],
-      "h2h": [
-       0,
-       2
-      ],
-      "dvp": {
-       "pos": "C",
-       "rank": 10,
-       "value": 14.1,
-       "lg": 14.7,
-       "n": 30
-      }
-     },
-     "mean": 9.2,
-     "open": [
-      8.5,
-      1.668
-     ]
-    },
-    {
-     "kind": "prop",
      "label": "Bam Adebayo Over 16.5 Puntos",
      "player": "Bam Adebayo",
      "team": "MIA",
@@ -211403,16 +211507,16 @@
      "odds": -138,
      "dec": 1.725,
      "odds_assumed": false,
-     "p": 0.451,
+     "p": 0.422,
      "implied": 0.58,
-     "edge": -0.129,
-     "ev": -0.222,
+     "edge": -0.158,
+     "ev": -0.272,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -125,
      "dec_ref": 1.8,
-     "p_model": 0.451,
+     "p_model": 0.422,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -211432,7 +211536,7 @@
        "n": 30
       }
      },
-     "mean": 16.9,
+     "mean": 16.1,
      "open": [
       16.5,
       1.725
@@ -211447,16 +211551,16 @@
      "odds": -196,
      "dec": 1.509,
      "odds_assumed": false,
-     "p": 0.48,
+     "p": 0.465,
      "implied": 0.663,
-     "edge": -0.183,
-     "ev": -0.276,
+     "edge": -0.198,
+     "ev": -0.298,
      "value": false,
      "stat": "ast",
      "side": "over",
      "odds_ref": -174,
      "dec_ref": 1.575,
-     "p_model": 0.48,
+     "p_model": 0.465,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -211476,7 +211580,7 @@
        "n": 30
       }
      },
-     "mean": 2.7,
+     "mean": 2.6,
      "open": [
       2.5,
       1.509
@@ -211491,16 +211595,16 @@
      "odds": -140,
      "dec": 1.713,
      "odds_assumed": false,
-     "p": 0.412,
+     "p": 0.378,
      "implied": 0.584,
-     "edge": -0.172,
-     "ev": -0.294,
+     "edge": -0.206,
+     "ev": -0.352,
      "value": false,
      "stat": "pts",
      "side": "over",
      "odds_ref": -127,
      "dec_ref": 1.787,
-     "p_model": 0.412,
+     "p_model": 0.378,
      "p_mkt": null,
      "cand": false,
      "hr": {
@@ -211520,7 +211624,7 @@
        "n": 30
       }
      },
-     "mean": 13.0,
+     "mean": 12.4,
      "open": [
       13.5,
       1.757
@@ -211706,38 +211810,38 @@
    "wo": {
     "MIA": {
      "model": {
+      "Giannis Antetokounmpo": [
+       [
+        "Bam Adebayo",
+        3.9,
+        4.0
+       ],
+       [
+        "Klay Thompson",
+        3.5,
+        3.6
+       ],
+       [
+        "Davion Mitchell",
+        3.3,
+        4.1
+       ]
+      ],
       "Bam Adebayo": [
        [
         "Giannis Antetokounmpo",
-        3.6,
+        3.7,
         4.1
        ],
        [
         "Klay Thompson",
-        2.2,
-        3.9
-       ],
-       [
-        "Pelle Larsson",
         2.0,
-        4.4
-       ]
-      ],
-      "Giannis Antetokounmpo": [
-       [
-        "Bam Adebayo",
-        3.3,
-        3.5
-       ],
-       [
-        "Klay Thompson",
-        2.9,
-        3.1
+        3.7
        ],
        [
         "Davion Mitchell",
-        2.8,
-        3.5
+        1.8,
+        4.2
        ]
       ],
       "Davion Mitchell": [
@@ -211748,30 +211852,30 @@
        ],
        [
         "Klay Thompson",
-        1.8,
-        3.8
+        1.7,
+        3.6
        ],
        [
         "Bam Adebayo",
         1.6,
-        4.0
+        4.1
        ]
       ],
       "Andrew Wiggins": [
        [
         "Giannis Antetokounmpo",
-        1.8,
+        1.9,
         3.5
-       ],
-       [
-        "Klay Thompson",
-        1.2,
-        3.3
        ],
        [
         "Bam Adebayo",
         1.1,
-        3.5
+        3.6
+       ],
+       [
+        "Klay Thompson",
+        1.1,
+        3.0
        ]
       ],
       "Pelle Larsson": [
@@ -211787,39 +211891,56 @@
        ],
        [
         "Klay Thompson",
-        1.5,
-        2.7
+        1.3,
+        2.5
        ]
       ],
       "Klay Thompson": [
        [
         "Giannis Antetokounmpo",
-        2.7,
+        2.8,
         2.9
        ],
        [
         "Bam Adebayo",
-        1.7,
-        2.9
+        1.6,
+        3.0
        ],
        [
         "Davion Mitchell",
-        1.5,
-        2.9
+        1.3,
+        3.0
        ]
       ]
      },
      "real": {},
-     "doubt": [
-      [
-       "Giannis Antetokounmpo",
-       0.85
-      ]
-     ],
+     "doubt": [],
      "planb": {
+      "Giannis Antetokounmpo": {
+       "p_play": 1.0,
+       "min": 33.2,
+       "picks": [
+        {
+         "kind": "prop",
+         "label": "Bobby Portis Jr. Over 3.5 Rebotes",
+         "player": "Bobby Portis Jr.",
+         "team": "MIA",
+         "stat": "reb",
+         "side": "over",
+         "line": 3.5,
+         "dec": 1.633,
+         "p": 0.645,
+         "base_p": 0.578,
+         "ev": 0.053,
+         "if_out": "Giannis Antetokounmpo",
+         "mean": 5.8,
+         "mean0": 4.9
+        }
+       ]
+      },
       "Bam Adebayo": {
        "p_play": 1.0,
-       "min": 33.4,
+       "min": 32.8,
        "picks": [
         {
          "kind": "prop",
@@ -211830,9 +211951,9 @@
          "side": "over",
          "line": 11.5,
          "dec": 1.852,
-         "p": 0.574,
-         "base_p": 0.497,
-         "ev": 0.062,
+         "p": 0.573,
+         "base_p": 0.496,
+         "ev": 0.06,
          "if_out": "Bam Adebayo",
          "mean": 13.3,
          "mean0": 11.9
@@ -211846,9 +211967,9 @@
          "side": "over",
          "line": 5.5,
          "dec": 2.069,
-         "p": 0.513,
+         "p": 0.511,
          "base_p": 0.445,
-         "ev": 0.062,
+         "ev": 0.057,
          "if_out": "Bam Adebayo",
          "mean": 6.1,
          "mean0": 5.4
@@ -211862,40 +211983,18 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.633,
-         "p": 0.642,
-         "base_p": 0.581,
-         "ev": 0.048,
+         "p": 0.638,
+         "base_p": 0.578,
+         "ev": 0.042,
          "if_out": "Bam Adebayo",
-         "mean": 5.9,
-         "mean0": 5.0
-        }
-       ]
-      },
-      "Giannis Antetokounmpo": {
-       "p_play": 0.85,
-       "min": 33.2,
-       "picks": [
-        {
-         "kind": "prop",
-         "label": "Bobby Portis Jr. Over 3.5 Rebotes",
-         "player": "Bobby Portis Jr.",
-         "team": "MIA",
-         "stat": "reb",
-         "side": "over",
-         "line": 3.5,
-         "dec": 1.633,
-         "p": 0.636,
-         "base_p": 0.581,
-         "ev": 0.038,
-         "if_out": "Giannis Antetokounmpo",
-         "mean": 5.8,
-         "mean0": 5.0
+         "mean": 5.7,
+         "mean0": 4.9
         }
        ]
       },
       "Davion Mitchell": {
        "p_play": 1.0,
-       "min": 32.6,
+       "min": 31.9,
        "picks": [
         {
          "kind": "prop",
@@ -211906,9 +212005,9 @@
          "side": "over",
          "line": 5.5,
          "dec": 2.069,
-         "p": 0.512,
+         "p": 0.511,
          "base_p": 0.445,
-         "ev": 0.059,
+         "ev": 0.057,
          "if_out": "Davion Mitchell",
          "mean": 6.1,
          "mean0": 5.4
@@ -211923,7 +212022,7 @@
          "line": 11.5,
          "dec": 1.852,
          "p": 0.57,
-         "base_p": 0.497,
+         "base_p": 0.496,
          "ev": 0.055,
          "if_out": "Davion Mitchell",
          "mean": 13.3,
@@ -211938,35 +212037,19 @@
          "side": "over",
          "line": 3.5,
          "dec": 1.633,
-         "p": 0.639,
-         "base_p": 0.581,
-         "ev": 0.043,
+         "p": 0.635,
+         "base_p": 0.578,
+         "ev": 0.037,
          "if_out": "Davion Mitchell",
-         "mean": 5.8,
-         "mean0": 5.0
+         "mean": 5.7,
+         "mean0": 4.9
         }
        ]
       },
       "Andrew Wiggins": {
        "p_play": 1.0,
-       "min": 28.4,
+       "min": 27.7,
        "picks": [
-        {
-         "kind": "prop",
-         "label": "Giannis Antetokounmpo Over 11.5 Rebotes",
-         "player": "Giannis Antetokounmpo",
-         "team": "MIA",
-         "stat": "reb",
-         "side": "over",
-         "line": 11.5,
-         "dec": 1.852,
-         "p": 0.568,
-         "base_p": 0.497,
-         "ev": 0.051,
-         "if_out": "Andrew Wiggins",
-         "mean": 13.2,
-         "mean0": 11.9
-        },
         {
          "kind": "prop",
          "label": "Giannis Antetokounmpo Over 5.5 Asistencias",
@@ -211978,16 +212061,32 @@
          "dec": 2.069,
          "p": 0.507,
          "base_p": 0.445,
-         "ev": 0.048,
+         "ev": 0.05,
          "if_out": "Andrew Wiggins",
          "mean": 6.0,
          "mean0": 5.4
+        },
+        {
+         "kind": "prop",
+         "label": "Giannis Antetokounmpo Over 11.5 Rebotes",
+         "player": "Giannis Antetokounmpo",
+         "team": "MIA",
+         "stat": "reb",
+         "side": "over",
+         "line": 11.5,
+         "dec": 1.852,
+         "p": 0.567,
+         "base_p": 0.496,
+         "ev": 0.049,
+         "if_out": "Andrew Wiggins",
+         "mean": 13.2,
+         "mean0": 11.9
         }
        ]
       },
-      "Klay Thompson": {
+      "Pelle Larsson": {
        "p_play": 1.0,
-       "min": 24.0,
+       "min": 25.6,
        "picks": [
         {
          "kind": "prop",
@@ -211998,10 +212097,10 @@
          "side": "over",
          "line": 11.5,
          "dec": 1.852,
-         "p": 0.556,
-         "base_p": 0.497,
-         "ev": 0.03,
-         "if_out": "Klay Thompson",
+         "p": 0.558,
+         "base_p": 0.496,
+         "ev": 0.034,
+         "if_out": "Pelle Larsson",
          "mean": 13.0,
          "mean0": 11.9
         }
@@ -213744,28 +213843,28 @@
     },
     {
      "kind": "total",
-     "label": "Over 219.5",
+     "label": "Over 218.5",
      "player": null,
      "team": null,
-     "line": 219.5,
+     "line": 218.5,
      "odds": -108,
      "dec": 1.926,
      "odds_assumed": false,
-     "p": 0.512,
+     "p": 0.517,
      "implied": 0.519,
-     "edge": -0.008,
-     "ev": -0.015,
+     "edge": -0.002,
+     "ev": -0.005,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 219.5,
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 218.5,
       "odds": -108,
       "dec": 1.926,
-      "p": 0.512,
-      "ev": -0.014
+      "p": 0.517,
+      "ev": -0.004
      },
-     "p_model": 0.559,
+     "p_model": 0.58,
      "p_mkt": 0.496,
      "cand": false,
      "open": [
@@ -213833,7 +213932,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -9.5,
       "odds": -108,
       "dec": 1.926,
@@ -213908,7 +214007,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -374,
       "dec": 1.267,
@@ -214876,7 +214975,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 9.5,
       "odds": -112,
       "dec": 1.893,
@@ -214951,7 +215050,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 297,
       "dec": 3.97,
@@ -214964,37 +215063,6 @@
      "open": [
       null,
       3.47
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 219.5",
-     "player": null,
-     "team": null,
-     "line": 219.5,
-     "odds": -112,
-     "dec": 1.893,
-     "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.528,
-     "edge": -0.04,
-     "ev": -0.075,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 219.5,
-      "odds": -112,
-      "dec": 1.893,
-      "p": 0.488,
-      "ev": -0.076
-     },
-     "p_model": 0.441,
-     "p_mkt": 0.504,
-     "cand": false,
-     "open": [
-      220.5,
-      1.909
      ]
     },
     {
@@ -215127,6 +215195,37 @@
      "open": [
       6.5,
       1.773
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 218.5",
+     "player": null,
+     "team": null,
+     "line": 218.5,
+     "odds": -112,
+     "dec": 1.893,
+     "odds_assumed": false,
+     "p": 0.483,
+     "implied": 0.528,
+     "edge": -0.045,
+     "ev": -0.085,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 218.5,
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.483,
+      "ev": -0.086
+     },
+     "p_model": 0.42,
+     "p_mkt": 0.504,
+     "cand": false,
+     "open": [
+      220.5,
+      1.909
      ]
     },
     {
@@ -218465,7 +218564,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -9.5,
       "odds": -117,
       "dec": 1.855,
@@ -218717,7 +218816,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -452,
       "dec": 1.221,
@@ -218880,7 +218979,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 219.5,
       "odds": -107,
       "dec": 1.935,
@@ -219571,7 +219670,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 219.5,
       "odds": -113,
       "dec": 1.885,
@@ -220482,7 +220581,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 9.5,
       "odds": -103,
       "dec": 1.971,
@@ -220645,7 +220744,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 351,
       "dec": 4.51,
@@ -224210,7 +224309,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -3.5,
       "odds": -108,
       "dec": 1.926,
@@ -224223,6 +224322,37 @@
      "open": [
       -3.5,
       1.971
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 228.5",
+     "player": null,
+     "team": null,
+     "line": 228.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.507,
+     "implied": 0.524,
+     "edge": -0.017,
+     "ev": -0.032,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 228.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.507,
+      "ev": -0.032
+     },
+     "p_model": 0.529,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      230.5,
+      1.909
      ]
     },
     {
@@ -224329,7 +224459,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -170,
       "dec": 1.588,
@@ -224430,37 +224560,6 @@
      "open": [
       3.5,
       2.208
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Over 229.5",
-     "player": null,
-     "team": null,
-     "line": 229.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.502,
-     "implied": 0.524,
-     "edge": -0.022,
-     "ev": -0.041,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 229.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.502,
-      "ev": -0.042
-     },
-     "p_model": 0.509,
-     "p_mkt": 0.5,
-     "cand": false,
-     "open": [
-      230.5,
-      1.909
      ]
     },
     {
@@ -224611,7 +224710,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 142,
       "dec": 2.42,
@@ -224624,37 +224723,6 @@
      "open": [
       null,
       2.3
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 229.5",
-     "player": null,
-     "team": null,
-     "line": 229.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.498,
-     "implied": 0.524,
-     "edge": -0.026,
-     "ev": -0.05,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 229.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.498,
-      "ev": -0.049
-     },
-     "p_model": 0.491,
-     "p_mkt": 0.5,
-     "cand": false,
-     "open": [
-      230.5,
-      1.917
      ]
     },
     {
@@ -224843,6 +224911,37 @@
      ]
     },
     {
+     "kind": "total",
+     "label": "Under 228.5",
+     "player": null,
+     "team": null,
+     "line": 228.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.493,
+     "implied": 0.524,
+     "edge": -0.031,
+     "ev": -0.059,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 228.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.493,
+      "ev": -0.059
+     },
+     "p_model": 0.471,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      230.5,
+      1.917
+     ]
+    },
+    {
      "kind": "spread",
      "label": "IND +3.5",
      "player": null,
@@ -224858,7 +224957,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 3.5,
       "odds": -112,
       "dec": 1.893,
@@ -228466,6 +228565,37 @@
      ]
     },
     {
+     "kind": "spread",
+     "label": "ATL +9.5",
+     "player": null,
+     "team": "ATL",
+     "line": 9.5,
+     "odds": -103,
+     "dec": 1.971,
+     "odds_assumed": false,
+     "p": 0.501,
+     "implied": 0.507,
+     "edge": -0.007,
+     "ev": -0.013,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 9.5,
+      "odds": -103,
+      "dec": 1.971,
+      "p": 0.501,
+      "ev": -0.013
+     },
+     "p_model": 0.52,
+     "p_mkt": 0.494,
+     "cand": false,
+     "open": [
+      8.5,
+      1.935
+     ]
+    },
+    {
      "kind": "total",
      "label": "Under 223.5",
      "player": null,
@@ -228481,7 +228611,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 223.5,
       "odds": -108,
       "dec": 1.926,
@@ -228512,7 +228642,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 300,
       "dec": 4.0,
@@ -228748,6 +228878,37 @@
      ]
     },
     {
+     "kind": "spread",
+     "label": "BOS -9.5",
+     "player": null,
+     "team": "BOS",
+     "line": -9.5,
+     "odds": -108,
+     "dec": 1.926,
+     "odds_assumed": false,
+     "p": 0.499,
+     "implied": 0.519,
+     "edge": -0.02,
+     "ev": -0.038,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": -9.5,
+      "odds": -108,
+      "dec": 1.926,
+      "p": 0.499,
+      "ev": -0.039
+     },
+     "p_model": 0.48,
+     "p_mkt": 0.506,
+     "cand": false,
+     "open": [
+      -8.5,
+      1.885
+     ]
+    },
+    {
      "kind": "prop",
      "label": "Derrick White Over 4.5 Asistencias",
      "player": "Derrick White",
@@ -228789,37 +228950,6 @@
      "open": [
       4.5,
       1.794
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "ATL +8.5",
-     "player": null,
-     "team": "ATL",
-     "line": 8.5,
-     "odds": -103,
-     "dec": 1.971,
-     "odds_assumed": false,
-     "p": 0.486,
-     "implied": 0.507,
-     "edge": -0.022,
-     "ev": -0.042,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 8.5,
-      "odds": -103,
-      "dec": 1.971,
-      "p": 0.486,
-      "ev": -0.042
-     },
-     "p_model": 0.492,
-     "p_mkt": 0.484,
-     "cand": false,
-     "open": [
-      8.5,
-      1.935
      ]
     },
     {
@@ -228882,7 +229012,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -378,
       "dec": 1.265,
@@ -228983,37 +229113,6 @@
      "open": [
       13.5,
       1.846
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "BOS -8.5",
-     "player": null,
-     "team": "BOS",
-     "line": -8.5,
-     "odds": -118,
-     "dec": 1.847,
-     "odds_assumed": false,
-     "p": 0.514,
-     "implied": 0.541,
-     "edge": -0.027,
-     "ev": -0.05,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": -8.5,
-      "odds": -118,
-      "dec": 1.847,
-      "p": 0.514,
-      "ev": -0.051
-     },
-     "p_model": 0.508,
-     "p_mkt": 0.516,
-     "cand": false,
-     "open": [
-      -8.5,
-      1.885
      ]
     },
     {
@@ -229701,7 +229800,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 223.5,
       "odds": -112,
       "dec": 1.893,
@@ -233135,68 +233234,6 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "MIN -3.5",
-     "player": null,
-     "team": "MIN",
-     "line": -3.5,
-     "odds": -102,
-     "dec": 1.98,
-     "odds_assumed": false,
-     "p": 0.511,
-     "implied": 0.505,
-     "edge": 0.005,
-     "ev": 0.011,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": -3.5,
-      "odds": -102,
-      "dec": 1.98,
-      "p": 0.511,
-      "ev": 0.012
-     },
-     "p_model": 0.597,
-     "p_mkt": 0.482,
-     "cand": false,
-     "open": [
-      -3.5,
-      1.893
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Over 219.5",
-     "player": null,
-     "team": null,
-     "line": 219.5,
-     "odds": -114,
-     "dec": 1.877,
-     "odds_assumed": false,
-     "p": 0.536,
-     "implied": 0.533,
-     "edge": 0.003,
-     "ev": 0.007,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 219.5,
-      "odds": -114,
-      "dec": 1.877,
-      "p": 0.536,
-      "ev": 0.006
-     },
-     "p_model": 0.619,
-     "p_mkt": 0.509,
-     "cand": false,
-     "open": [
-      220.5,
-      1.885
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Cedric Coward Under 7.5 Rebotes",
      "player": "Cedric Coward",
@@ -233256,7 +233293,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -155,
       "dec": 1.645,
@@ -233269,6 +233306,37 @@
      "open": [
       null,
       1.617
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 220.5",
+     "player": null,
+     "team": null,
+     "line": 220.5,
+     "odds": -114,
+     "dec": 1.877,
+     "odds_assumed": false,
+     "p": 0.531,
+     "implied": 0.533,
+     "edge": -0.001,
+     "ev": -0.002,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 220.5,
+      "odds": -114,
+      "dec": 1.877,
+      "p": 0.531,
+      "ev": -0.003
+     },
+     "p_model": 0.6,
+     "p_mkt": 0.509,
+     "cand": false,
+     "open": [
+      220.5,
+      1.885
      ]
     },
     {
@@ -233357,6 +233425,37 @@
      "open": [
       3.5,
       1.597
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "MIN -2.5",
+     "player": null,
+     "team": "MIN",
+     "line": -2.5,
+     "odds": -118,
+     "dec": 1.847,
+     "odds_assumed": false,
+     "p": 0.531,
+     "implied": 0.541,
+     "edge": -0.011,
+     "ev": -0.02,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": -2.5,
+      "odds": -118,
+      "dec": 1.847,
+      "p": 0.531,
+      "ev": -0.019
+     },
+     "p_model": 0.626,
+     "p_mkt": 0.499,
+     "cand": false,
+     "open": [
+      -3.5,
+      1.893
      ]
     },
     {
@@ -234137,6 +234236,37 @@
      ]
     },
     {
+     "kind": "total",
+     "label": "Under 220.5",
+     "player": null,
+     "team": null,
+     "line": 220.5,
+     "odds": -106,
+     "dec": 1.943,
+     "odds_assumed": false,
+     "p": 0.469,
+     "implied": 0.515,
+     "edge": -0.046,
+     "ev": -0.09,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 220.5,
+      "odds": -106,
+      "dec": 1.943,
+      "p": 0.469,
+      "ev": -0.089
+     },
+     "p_model": 0.4,
+     "p_mkt": 0.491,
+     "cand": false,
+     "open": [
+      220.5,
+      1.935
+     ]
+    },
+    {
      "kind": "prop",
      "label": "Cam Spencer Under 4.5 Asistencias",
      "player": "Cam Spencer",
@@ -234269,68 +234399,6 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "MEM +3.5",
-     "player": null,
-     "team": "MEM",
-     "line": 3.5,
-     "odds": -119,
-     "dec": 1.84,
-     "odds_assumed": false,
-     "p": 0.489,
-     "implied": 0.543,
-     "edge": -0.054,
-     "ev": -0.099,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 3.5,
-      "odds": -119,
-      "dec": 1.84,
-      "p": 0.489,
-      "ev": -0.1
-     },
-     "p_model": 0.403,
-     "p_mkt": 0.518,
-     "cand": false,
-     "open": [
-      3.5,
-      1.926
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 219.5",
-     "player": null,
-     "team": null,
-     "line": 219.5,
-     "odds": -106,
-     "dec": 1.943,
-     "odds_assumed": false,
-     "p": 0.464,
-     "implied": 0.515,
-     "edge": -0.051,
-     "ev": -0.099,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 219.5,
-      "odds": -106,
-      "dec": 1.943,
-      "p": 0.464,
-      "ev": -0.098
-     },
-     "p_model": 0.381,
-     "p_mkt": 0.491,
-     "cand": false,
-     "open": [
-      220.5,
-      1.935
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Terrence Shannon Jr Over 15.5 Puntos",
      "player": "Terrence Shannon Jr",
@@ -234390,7 +234458,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 130,
       "dec": 2.3,
@@ -234579,6 +234647,37 @@
      "open": [
       16.5,
       1.822
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "MEM +2.5",
+     "player": null,
+     "team": "MEM",
+     "line": 2.5,
+     "odds": -119,
+     "dec": 1.84,
+     "odds_assumed": false,
+     "p": 0.469,
+     "implied": 0.543,
+     "edge": -0.074,
+     "ev": -0.137,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 2.5,
+      "odds": -119,
+      "dec": 1.84,
+      "p": 0.469,
+      "ev": -0.137
+     },
+     "p_model": 0.374,
+     "p_mkt": 0.501,
+     "cand": false,
+     "open": [
+      3.5,
+      1.926
      ]
     },
     {
@@ -237414,7 +237513,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 225.5,
       "odds": -110,
       "dec": 1.909,
@@ -237431,33 +237530,33 @@
     },
     {
      "kind": "ml",
-     "label": "DAL gana",
+     "label": "PHX gana",
      "player": null,
-     "team": "DAL",
+     "team": "PHX",
      "line": null,
-     "odds": 130,
-     "dec": 2.3,
+     "odds": -148,
+     "dec": 1.676,
      "odds_assumed": false,
-     "p": 0.418,
-     "implied": 0.435,
-     "edge": -0.017,
-     "ev": -0.039,
+     "p": 0.574,
+     "implied": 0.597,
+     "edge": -0.023,
+     "ev": -0.038,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
-      "odds": 130,
-      "dec": 2.3,
-      "p": 0.418,
-      "ev": -0.039
+      "odds": -148,
+      "dec": 1.676,
+      "p": 0.574,
+      "ev": -0.038
      },
-     "p_model": 0.421,
-     "p_mkt": 0.417,
+     "p_model": 0.579,
+     "p_mkt": 0.572,
      "cand": false,
      "open": [
       null,
-      2.1
+      1.769
      ]
     },
     {
@@ -237549,37 +237648,6 @@
      ]
     },
     {
-     "kind": "ml",
-     "label": "PHX gana",
-     "player": null,
-     "team": "PHX",
-     "line": null,
-     "odds": -155,
-     "dec": 1.645,
-     "odds_assumed": false,
-     "p": 0.582,
-     "implied": 0.608,
-     "edge": -0.026,
-     "ev": -0.043,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": null,
-      "odds": -155,
-      "dec": 1.645,
-      "p": 0.582,
-      "ev": -0.043
-     },
-     "p_model": 0.579,
-     "p_mkt": 0.583,
-     "cand": false,
-     "open": [
-      null,
-      1.769
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Cooper Flagg Over 6.5 Rebotes",
      "player": "Cooper Flagg",
@@ -237639,7 +237707,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 3.5,
       "odds": -114,
       "dec": 1.877,
@@ -237696,6 +237764,37 @@
      "open": [
       6.5,
       1.693
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "DAL gana",
+     "player": null,
+     "team": "DAL",
+     "line": null,
+     "odds": 124,
+     "dec": 2.24,
+     "odds_assumed": false,
+     "p": 0.426,
+     "implied": 0.446,
+     "edge": -0.02,
+     "ev": -0.045,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": null,
+      "odds": 124,
+      "dec": 2.24,
+      "p": 0.426,
+      "ev": -0.046
+     },
+     "p_model": 0.421,
+     "p_mkt": 0.428,
+     "cand": false,
+     "open": [
+      null,
+      2.1
      ]
     },
     {
@@ -237758,7 +237857,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -3.5,
       "odds": -106,
       "dec": 1.943,
@@ -237944,7 +238043,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 225.5,
       "odds": -110,
       "dec": 1.909,
@@ -242132,25 +242231,25 @@
      "player": null,
      "team": "UTA",
      "line": null,
-     "odds": 341,
-     "dec": 4.41,
+     "odds": 322,
+     "dec": 4.22,
      "odds_assumed": false,
-     "p": 0.225,
-     "implied": 0.227,
-     "edge": -0.002,
-     "ev": -0.008,
+     "p": 0.232,
+     "implied": 0.237,
+     "edge": -0.005,
+     "ev": -0.02,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
-      "odds": 341,
-      "dec": 4.41,
-      "p": 0.225,
-      "ev": -0.008
+      "odds": 322,
+      "dec": 4.22,
+      "p": 0.232,
+      "ev": -0.021
      },
      "p_model": 0.246,
-     "p_mkt": 0.218,
+     "p_mkt": 0.228,
      "cand": false,
      "open": [
       null,
@@ -242514,37 +242613,6 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "UTA +9.5",
-     "player": null,
-     "team": "UTA",
-     "line": 9.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.492,
-     "implied": 0.512,
-     "edge": -0.021,
-     "ev": -0.04,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 9.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.492,
-      "ev": -0.04
-     },
-     "p_model": 0.502,
-     "p_mkt": 0.488,
-     "cand": false,
-     "open": [
-      9.5,
-      1.952
-     ]
-    },
-    {
      "kind": "total",
      "label": "Under 232.5",
      "player": null,
@@ -242560,7 +242628,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 232.5,
       "odds": -115,
       "dec": 1.87,
@@ -242620,6 +242688,37 @@
      ]
     },
     {
+     "kind": "ml",
+     "label": "DEN gana",
+     "player": null,
+     "team": "DEN",
+     "line": null,
+     "odds": -410,
+     "dec": 1.244,
+     "odds_assumed": false,
+     "p": 0.768,
+     "implied": 0.804,
+     "edge": -0.036,
+     "ev": -0.045,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": null,
+      "odds": -410,
+      "dec": 1.244,
+      "p": 0.768,
+      "ev": -0.045
+     },
+     "p_model": 0.754,
+     "p_mkt": 0.772,
+     "cand": false,
+     "open": [
+      null,
+      1.201
+     ]
+    },
+    {
      "kind": "prop",
      "label": "Cameron Johnson Over 3.5 Rebotes",
      "player": "Cameron Johnson",
@@ -242661,37 +242760,6 @@
      "open": [
       3.5,
       1.775
-     ]
-    },
-    {
-     "kind": "ml",
-     "label": "DEN gana",
-     "player": null,
-     "team": "DEN",
-     "line": null,
-     "odds": -439,
-     "dec": 1.228,
-     "odds_assumed": false,
-     "p": 0.775,
-     "implied": 0.814,
-     "edge": -0.039,
-     "ev": -0.048,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": null,
-      "odds": -438,
-      "dec": 1.228,
-      "p": 0.775,
-      "ev": -0.048
-     },
-     "p_model": 0.754,
-     "p_mkt": 0.782,
-     "cand": false,
-     "open": [
-      null,
-      1.201
      ]
     },
     {
@@ -242754,7 +242822,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 232.5,
       "odds": -105,
       "dec": 1.952,
@@ -242855,37 +242923,6 @@
      "open": [
       6.5,
       1.8
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "DEN -9.5",
-     "player": null,
-     "team": "DEN",
-     "line": -9.5,
-     "odds": -116,
-     "dec": 1.862,
-     "odds_assumed": false,
-     "p": 0.508,
-     "implied": 0.537,
-     "edge": -0.029,
-     "ev": -0.053,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": -9.5,
-      "odds": -116,
-      "dec": 1.862,
-      "p": 0.508,
-      "ev": -0.054
-     },
-     "p_model": 0.498,
-     "p_mkt": 0.512,
-     "cand": false,
-     "open": [
-      -9.5,
-      1.87
      ]
     },
     {
@@ -243018,6 +243055,68 @@
      "open": [
       2.5,
       1.598
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "UTA +9.5",
+     "player": null,
+     "team": "UTA",
+     "line": 9.5,
+     "odds": -112,
+     "dec": 1.893,
+     "odds_assumed": false,
+     "p": 0.497,
+     "implied": 0.528,
+     "edge": -0.031,
+     "ev": -0.058,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 9.5,
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.497,
+      "ev": -0.059
+     },
+     "p_model": 0.502,
+     "p_mkt": 0.496,
+     "cand": false,
+     "open": [
+      9.5,
+      1.952
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "DEN -9.5",
+     "player": null,
+     "team": "DEN",
+     "line": -9.5,
+     "odds": -116,
+     "dec": 1.862,
+     "odds_assumed": false,
+     "p": 0.503,
+     "implied": 0.537,
+     "edge": -0.034,
+     "ev": -0.064,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": -9.5,
+      "odds": -116,
+      "dec": 1.862,
+      "p": 0.503,
+      "ev": -0.063
+     },
+     "p_model": 0.498,
+     "p_mkt": 0.504,
+     "cand": false,
+     "open": [
+      -9.5,
+      1.87
      ]
     },
     {
@@ -246670,7 +246769,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 217.5,
       "odds": -110,
       "dec": 1.909,
@@ -247087,29 +247186,91 @@
     },
     {
      "kind": "spread",
-     "label": "POR -7.5",
+     "label": "GSW +8.5",
+     "player": null,
+     "team": "GSW",
+     "line": 8.5,
+     "odds": -112,
+     "dec": 1.893,
+     "odds_assumed": false,
+     "p": 0.511,
+     "implied": 0.528,
+     "edge": -0.018,
+     "ev": -0.033,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 8.5,
+      "odds": -112,
+      "dec": 1.893,
+      "p": 0.511,
+      "ev": -0.033
+     },
+     "p_model": 0.512,
+     "p_mkt": 0.51,
+     "cand": false,
+     "open": [
+      8.5,
+      1.971
+     ]
+    },
+    {
+     "kind": "ml",
+     "label": "GSW gana",
+     "player": null,
+     "team": "GSW",
+     "line": null,
+     "odds": 251,
+     "dec": 3.51,
+     "odds_assumed": false,
+     "p": 0.275,
+     "implied": 0.285,
+     "edge": -0.01,
+     "ev": -0.035,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": null,
+      "odds": 251,
+      "dec": 3.51,
+      "p": 0.275,
+      "ev": -0.035
+     },
+     "p_model": 0.279,
+     "p_mkt": 0.274,
+     "cand": false,
+     "open": [
+      null,
+      4.0
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "POR -8.5",
      "player": null,
      "team": "POR",
-     "line": -7.5,
-     "odds": -108,
-     "dec": 1.926,
+     "line": -8.5,
+     "odds": -103,
+     "dec": 1.971,
      "odds_assumed": false,
-     "p": 0.501,
-     "implied": 0.519,
+     "p": 0.489,
+     "implied": 0.507,
      "edge": -0.018,
      "ev": -0.035,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": -7.5,
-      "odds": -108,
-      "dec": 1.926,
-      "p": 0.501,
-      "ev": -0.035
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": -8.5,
+      "odds": -103,
+      "dec": 1.971,
+      "p": 0.489,
+      "ev": -0.036
      },
-     "p_model": 0.517,
-     "p_mkt": 0.496,
+     "p_model": 0.488,
+     "p_mkt": 0.49,
      "cand": false,
      "open": [
       -8.5,
@@ -247209,37 +247370,6 @@
      }
     },
     {
-     "kind": "ml",
-     "label": "POR gana",
-     "player": null,
-     "team": "POR",
-     "line": null,
-     "odds": -297,
-     "dec": 1.337,
-     "odds_assumed": false,
-     "p": 0.719,
-     "implied": 0.748,
-     "edge": -0.029,
-     "ev": -0.039,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": null,
-      "odds": -297,
-      "dec": 1.337,
-      "p": 0.719,
-      "ev": -0.039
-     },
-     "p_model": 0.721,
-     "p_mkt": 0.718,
-     "cand": false,
-     "open": [
-      null,
-      1.265
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Brandin Podziemski Under 2.5 Triples",
      "player": "Brandin Podziemski",
@@ -247285,33 +247415,33 @@
     },
     {
      "kind": "ml",
-     "label": "GSW gana",
+     "label": "POR gana",
      "player": null,
-     "team": "GSW",
+     "team": "POR",
      "line": null,
-     "odds": 241,
-     "dec": 3.41,
+     "odds": -310,
+     "dec": 1.323,
      "odds_assumed": false,
-     "p": 0.281,
-     "implied": 0.293,
-     "edge": -0.012,
-     "ev": -0.042,
+     "p": 0.725,
+     "implied": 0.756,
+     "edge": -0.031,
+     "ev": -0.041,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
-      "odds": 241,
-      "dec": 3.41,
-      "p": 0.281,
-      "ev": -0.042
+      "odds": -310,
+      "dec": 1.323,
+      "p": 0.725,
+      "ev": -0.041
      },
-     "p_model": 0.279,
-     "p_mkt": 0.282,
+     "p_model": 0.721,
+     "p_mkt": 0.726,
      "cand": false,
      "open": [
       null,
-      4.0
+      1.265
      ]
     },
     {
@@ -247404,37 +247534,6 @@
      "open": [
       1.5,
       1.844
-     ]
-    },
-    {
-     "kind": "spread",
-     "label": "GSW +7.5",
-     "player": null,
-     "team": "GSW",
-     "line": 7.5,
-     "odds": -112,
-     "dec": 1.893,
-     "odds_assumed": false,
-     "p": 0.499,
-     "implied": 0.528,
-     "edge": -0.029,
-     "ev": -0.055,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 7.5,
-      "odds": -112,
-      "dec": 1.893,
-      "p": 0.499,
-      "ev": -0.055
-     },
-     "p_model": 0.483,
-     "p_mkt": 0.504,
-     "cand": false,
-     "open": [
-      8.5,
-      1.971
      ]
     },
     {
@@ -248050,7 +248149,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 217.5,
       "odds": -110,
       "dec": 1.909,
@@ -251296,37 +251395,6 @@
      ]
     },
     {
-     "kind": "total",
-     "label": "Over 225.5",
-     "player": null,
-     "team": null,
-     "line": 225.5,
-     "odds": -115,
-     "dec": 1.87,
-     "odds_assumed": false,
-     "p": 0.523,
-     "implied": 0.535,
-     "edge": -0.011,
-     "ev": -0.021,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 225.5,
-      "odds": -115,
-      "dec": 1.87,
-      "p": 0.523,
-      "ev": -0.022
-     },
-     "p_model": 0.561,
-     "p_mkt": 0.511,
-     "cand": false,
-     "open": [
-      225.5,
-      1.962
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Sandro Mamukelashvili Under 3.5 Rebotes",
      "player": "Sandro Mamukelashvili",
@@ -251562,7 +251630,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -217,
       "dec": 1.461,
@@ -251575,6 +251643,37 @@
      "open": [
       null,
       1.461
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Over 226.5",
+     "player": null,
+     "team": null,
+     "line": 226.5,
+     "odds": -115,
+     "dec": 1.87,
+     "odds_assumed": false,
+     "p": 0.519,
+     "implied": 0.535,
+     "edge": -0.016,
+     "ev": -0.03,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 226.5,
+      "odds": -115,
+      "dec": 1.87,
+      "p": 0.519,
+      "ev": -0.029
+     },
+     "p_model": 0.542,
+     "p_mkt": 0.511,
+     "cand": false,
+     "open": [
+      225.5,
+      1.962
      ]
     },
     {
@@ -251627,25 +251726,25 @@
      "player": null,
      "team": "SAS",
      "line": -6.5,
-     "odds": -102,
-     "dec": 1.98,
+     "odds": -103,
+     "dec": 1.971,
      "odds_assumed": false,
-     "p": 0.488,
-     "implied": 0.505,
-     "edge": -0.017,
-     "ev": -0.034,
+     "p": 0.489,
+     "implied": 0.507,
+     "edge": -0.019,
+     "ev": -0.037,
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -6.5,
-      "odds": -102,
-      "dec": 1.98,
-      "p": 0.488,
-      "ev": -0.034
+      "odds": -103,
+      "dec": 1.971,
+      "p": 0.489,
+      "ev": -0.036
      },
      "p_model": 0.506,
-     "p_mkt": 0.482,
+     "p_mkt": 0.483,
      "cand": false,
      "open": [
       -5.5,
@@ -252005,37 +252104,6 @@
      ]
     },
     {
-     "kind": "spread",
-     "label": "LAL +6.5",
-     "player": null,
-     "team": "LAL",
-     "line": 6.5,
-     "odds": -119,
-     "dec": 1.84,
-     "odds_assumed": false,
-     "p": 0.512,
-     "implied": 0.543,
-     "edge": -0.031,
-     "ev": -0.057,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 6.5,
-      "odds": -119,
-      "dec": 1.84,
-      "p": 0.512,
-      "ev": -0.058
-     },
-     "p_model": 0.494,
-     "p_mkt": 0.518,
-     "cand": false,
-     "open": [
-      5.5,
-      1.952
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Luka Dončić Under 33.5 Puntos",
      "player": "Luka Dončić",
@@ -252095,7 +252163,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 180,
       "dec": 2.8,
@@ -252108,6 +252176,68 @@
      "open": [
       null,
       2.8
+     ]
+    },
+    {
+     "kind": "spread",
+     "label": "LAL +6.5",
+     "player": null,
+     "team": "LAL",
+     "line": 6.5,
+     "odds": -119,
+     "dec": 1.84,
+     "odds_assumed": false,
+     "p": 0.511,
+     "implied": 0.543,
+     "edge": -0.032,
+     "ev": -0.059,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 6.5,
+      "odds": -119,
+      "dec": 1.84,
+      "p": 0.511,
+      "ev": -0.06
+     },
+     "p_model": 0.494,
+     "p_mkt": 0.517,
+     "cand": false,
+     "open": [
+      5.5,
+      1.952
+     ]
+    },
+    {
+     "kind": "total",
+     "label": "Under 226.5",
+     "player": null,
+     "team": null,
+     "line": 226.5,
+     "odds": -105,
+     "dec": 1.952,
+     "odds_assumed": false,
+     "p": 0.481,
+     "implied": 0.512,
+     "edge": -0.031,
+     "ev": -0.06,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 226.5,
+      "odds": -105,
+      "dec": 1.952,
+      "p": 0.481,
+      "ev": -0.061
+     },
+     "p_model": 0.458,
+     "p_mkt": 0.489,
+     "cand": false,
+     "open": [
+      225.5,
+      1.862
      ]
     },
     {
@@ -252338,37 +252468,6 @@
      "open": [
       1.5,
       1.675
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 225.5",
-     "player": null,
-     "team": null,
-     "line": 225.5,
-     "odds": -105,
-     "dec": 1.952,
-     "odds_assumed": false,
-     "p": 0.477,
-     "implied": 0.512,
-     "edge": -0.036,
-     "ev": -0.069,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 225.5,
-      "odds": -105,
-      "dec": 1.952,
-      "p": 0.477,
-      "ev": -0.069
-     },
-     "p_model": 0.439,
-     "p_mkt": 0.489,
-     "cand": false,
-     "open": [
-      225.5,
-      1.862
      ]
     },
     {
@@ -255924,7 +256023,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": -135,
       "dec": 1.741,
@@ -256043,7 +256142,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": -2.5,
       "odds": -110,
       "dec": 1.909,
@@ -256503,6 +256602,37 @@
      ]
     },
     {
+     "kind": "total",
+     "label": "Over 229.5",
+     "player": null,
+     "team": null,
+     "line": 229.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.504,
+     "implied": 0.524,
+     "edge": -0.019,
+     "ev": -0.037,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 229.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.504,
+      "ev": -0.038
+     },
+     "p_model": 0.518,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      231.5,
+      1.952
+     ]
+    },
+    {
      "kind": "prop",
      "label": "Keaton Wagler Over 1.5 Triples",
      "player": "Keaton Wagler",
@@ -256683,68 +256813,6 @@
      ]
     },
     {
-     "kind": "total",
-     "label": "Over 230.5",
-     "player": null,
-     "team": null,
-     "line": 230.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.524,
-     "edge": -0.024,
-     "ev": -0.045,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 230.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.5,
-      "ev": -0.045
-     },
-     "p_model": 0.5,
-     "p_mkt": 0.5,
-     "cand": false,
-     "open": [
-      231.5,
-      1.952
-     ]
-    },
-    {
-     "kind": "total",
-     "label": "Under 230.5",
-     "player": null,
-     "team": null,
-     "line": 230.5,
-     "odds": -110,
-     "dec": 1.909,
-     "odds_assumed": false,
-     "p": 0.5,
-     "implied": 0.524,
-     "edge": -0.024,
-     "ev": -0.045,
-     "value": false,
-     "n_books": 1,
-     "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
-      "line": 230.5,
-      "odds": -110,
-      "dec": 1.909,
-      "p": 0.5,
-      "ev": -0.045
-     },
-     "p_model": 0.5,
-     "p_mkt": 0.5,
-     "cand": false,
-     "open": [
-      231.5,
-      1.87
-     ]
-    },
-    {
      "kind": "prop",
      "label": "Brook Lopez Under 1.5 Triples",
      "player": "Brook Lopez",
@@ -256835,6 +256903,37 @@
       "t": "rookie",
       "note": "Rookie 2026-27: sin temporada NBA previa, 17 partidos esta temporada"
      }
+    },
+    {
+     "kind": "total",
+     "label": "Under 229.5",
+     "player": null,
+     "team": null,
+     "line": 229.5,
+     "odds": -110,
+     "dec": 1.909,
+     "odds_assumed": false,
+     "p": 0.495,
+     "implied": 0.524,
+     "edge": -0.028,
+     "ev": -0.054,
+     "value": false,
+     "n_books": 1,
+     "best": {
+      "book": "scoresandodds (consenso 18:20 ET)",
+      "line": 229.5,
+      "odds": -110,
+      "dec": 1.909,
+      "p": 0.495,
+      "ev": -0.055
+     },
+     "p_model": 0.482,
+     "p_mkt": 0.5,
+     "cand": false,
+     "open": [
+      231.5,
+      1.87
+     ]
     },
     {
      "kind": "prop",
@@ -257257,7 +257356,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": 2.5,
       "odds": -110,
       "dec": 1.909,
@@ -257384,7 +257483,7 @@
      "value": false,
      "n_books": 1,
      "best": {
-      "book": "scoresandodds (consenso 17:00 ET)",
+      "book": "scoresandodds (consenso 18:20 ET)",
       "line": null,
       "odds": 114,
       "dec": 2.14,
