@@ -18,7 +18,8 @@
    "Ja Morant",
    "Vít Krejčí",
    "Shaedon Sharpe",
-   "Chris Youngblood"
+   "Chris Youngblood",
+   "Damian Lillard"
   ],
   "gtd": {},
   "reserves": {
@@ -71,13 +72,13 @@
     "pace": 101.91
    },
    "adj": {
-    "o": 0.0,
-    "d": 0.0,
+    "o": -1.0,
+    "d": 0.25,
     "pace": 0.0
    },
    "context": {
     "b2b": false,
-    "roster_note": ""
+    "roster_note": "Damian Lillard (20.9 ppg) OUT (pantorrilla)"
    }
   },
   "GSW": {
@@ -113,7 +114,7 @@
    "name": "Deni Avdija",
    "pos": "SF",
    "starter": true,
-   "min": 32.8,
+   "min": 37.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -155,7 +156,7 @@
    "name": "Toumani Camara",
    "pos": "PF",
    "starter": true,
-   "min": 29.9,
+   "min": 34.1,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -194,52 +195,10 @@
   },
   {
    "team": "POR",
-   "name": "Damian Lillard",
-   "pos": "PG",
-   "starter": true,
-   "min": 29.9,
-   "g_cur": 18,
-   "p_play": 1.0,
-   "cur": {
-    "min": 29.9,
-    "pts": 20.9,
-    "reb": 3.2,
-    "ast": 4.2,
-    "fg3m": 3.1,
-    "fgm": 5.9,
-    "fga": 15.1,
-    "fg3a": 9.1,
-    "stl": 0.7,
-    "blk": 0.2,
-    "tov": 2.1,
-    "pf": 1.2,
-    "ftm": 6.0,
-    "fta": 6.6
-   },
-   "prior": {
-    "min": 29.9,
-    "pts": 20.9,
-    "reb": 3.2,
-    "ast": 4.2,
-    "fg3m": 3.1,
-    "fgm": 5.9,
-    "fga": 15.1,
-    "fg3a": 9.1,
-    "stl": 1.13,
-    "blk": 0.35,
-    "tov": 1.93,
-    "pf": 2.57,
-    "ftm": 6.0,
-    "fta": 6.6
-   },
-   "slot": "PG"
-  },
-  {
-   "team": "POR",
    "name": "Jrue Holiday",
    "pos": "PG",
    "starter": false,
-   "min": 27.3,
+   "min": 31.1,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -280,7 +239,7 @@
    "name": "Donovan Clingan",
    "pos": "C",
    "starter": true,
-   "min": 25.9,
+   "min": 29.5,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -322,7 +281,7 @@
    "name": "Sidy Cissoko",
    "pos": "SF",
    "starter": true,
-   "min": 24.9,
+   "min": 28.4,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -363,8 +322,8 @@
    "team": "POR",
    "name": "Scoot Henderson",
    "pos": "PG",
-   "starter": false,
-   "min": 23.2,
+   "starter": true,
+   "min": 26.5,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -398,14 +357,15 @@
     "pf": 2.83,
     "ftm": 2.8,
     "fta": 3.33
-   }
+   },
+   "slot": "PG"
   },
   {
    "team": "POR",
    "name": "Robert Williams III",
    "pos": "C",
    "starter": false,
-   "min": 16.7,
+   "min": 19.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -446,7 +406,7 @@
    "name": "Jayson Kent",
    "pos": "SF",
    "starter": false,
-   "min": 12.0,
+   "min": 13.7,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -487,7 +447,7 @@
    "name": "Branden Carlson",
    "pos": "C",
    "starter": false,
-   "min": 9.3,
+   "min": 10.6,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -528,7 +488,7 @@
    "name": "Yang Hansen",
    "pos": "C",
    "starter": false,
-   "min": 8.4,
+   "min": 9.6,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -1138,26 +1098,6 @@
     -148,
     -160,
     2.5
-   ]
-  },
-  "Damian Lillard": {
-   "pts": [
-    20.5,
-    -125,
-    -122,
-    21.5
-   ],
-   "ast": [
-    3.5,
-    -154,
-    -130,
-    4.5
-   ],
-   "fg3m": [
-    2.5,
-    -178,
-    -125,
-    3.5
    ]
   },
   "Yaxel Lendeborg": {

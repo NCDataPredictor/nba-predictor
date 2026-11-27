@@ -16,7 +16,8 @@
   ],
   "gtd": {
    "Jaxson Hayes": 0.5,
-   "Jusuf Nurkic": 0.3
+   "Jusuf Nurkic": 0.6,
+   "Mo Bamba": 0.5
   },
   "reserves": {
    "DEN": [
@@ -310,7 +311,7 @@
    "starter": false,
    "min": 20.5,
    "g_cur": 15,
-   "p_play": 1.0,
+   "p_play": 0.5,
    "cur": {
     "min": 21.3,
     "pts": 8.5,

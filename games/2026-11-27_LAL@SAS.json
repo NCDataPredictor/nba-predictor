@@ -15,9 +15,8 @@
    "Jayden Quaintance"
   ],
   "gtd": {
-   "Austin Reaves": 0.65,
    "De'Aaron Fox": 0.5,
-   "Dylan Harper": 0.5
+   "Dylan Harper": 0.7
   },
   "reserves": {
    "LAL": [
@@ -117,7 +116,7 @@
    },
    "context": {
     "b2b": false,
-    "roster_note": "Tobias Harris OUT; Dylan Harper (18.4 ppg) y Fox en duda"
+    "roster_note": "Tobias Harris OUT; Harper (hizo shootaround) y Fox en duda"
    }
   },
   "LAL": {
@@ -155,7 +154,7 @@
    "starter": true,
    "min": 29.7,
    "g_cur": 15,
-   "p_play": 0.5,
+   "p_play": 0.7,
    "cur": {
     "min": 31.7,
     "pts": 18.4,
@@ -653,7 +652,7 @@
    "starter": true,
    "min": 30.5,
    "g_cur": 12,
-   "p_play": 0.65,
+   "p_play": 1.0,
    "cur": {
     "min": 35.3,
     "pts": 24.7,
