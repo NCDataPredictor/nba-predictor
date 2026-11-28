@@ -18,11 +18,11 @@
    "Donte DiVincenzo",
    "Jaylen Clark",
    "Anthony Edwards",
-   "LaMelo Ball"
+   "LaMelo Ball",
+   "Isaiah Stewart"
   ],
   "gtd": {
-   "Zach Edey": 0.5,
-   "Isaiah Stewart": 0.5
+   "Zach Edey": 0.5
   },
   "reserves": {
    "MEM": [
@@ -473,7 +473,7 @@
    "name": "Ty Jerome",
    "pos": "PG",
    "starter": true,
-   "min": 31.2,
+   "min": 33.9,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -515,7 +515,7 @@
    "name": "Cedric Coward",
    "pos": "SG",
    "starter": true,
-   "min": 30.0,
+   "min": 32.6,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -557,7 +557,7 @@
    "name": "Jaylen Wells",
    "pos": "SG",
    "starter": true,
-   "min": 27.6,
+   "min": 30.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -599,7 +599,7 @@
    "name": "Cam Spencer",
    "pos": "SG",
    "starter": true,
-   "min": 24.0,
+   "min": 26.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -641,7 +641,7 @@
    "name": "Javon Small",
    "pos": "PG",
    "starter": false,
-   "min": 22.5,
+   "min": 24.4,
    "g_cur": 11,
    "p_play": 1.0,
    "cur": {
@@ -682,7 +682,7 @@
    "name": "Zach Edey",
    "pos": "C",
    "starter": true,
-   "min": 21.1,
+   "min": 23.0,
    "g_cur": 15,
    "p_play": 0.5,
    "cur": {
@@ -721,51 +721,10 @@
   },
   {
    "team": "MEM",
-   "name": "Isaiah Stewart",
-   "pos": "C",
-   "starter": false,
-   "min": 19.0,
-   "g_cur": 14,
-   "p_play": 0.5,
-   "cur": {
-    "min": 18.2,
-    "pts": 10.6,
-    "reb": 3.3,
-    "ast": 0.9,
-    "fg3m": 0.9,
-    "fgm": 4.3,
-    "fga": 7.2,
-    "fg3a": 2.4,
-    "stl": 0.1,
-    "blk": 1.0,
-    "tov": 1.0,
-    "pf": 3.1,
-    "ftm": 1.1,
-    "fta": 1.2
-   },
-   "prior": {
-    "min": 22.7,
-    "pts": 10.02,
-    "reb": 5.0,
-    "ast": 1.14,
-    "fg3m": 0.69,
-    "fgm": 3.81,
-    "fga": 6.93,
-    "fg3a": 2.07,
-    "stl": 0.28,
-    "blk": 1.6,
-    "tov": 1.16,
-    "pf": 2.86,
-    "ftm": 1.71,
-    "fta": 2.26
-   }
-  },
-  {
-   "team": "MEM",
    "name": "Taylor Hendricks",
    "pos": "PF",
    "starter": false,
-   "min": 17.0,
+   "min": 18.4,
    "g_cur": 14,
    "p_play": 1.0,
    "cur": {
@@ -806,7 +765,7 @@
    "name": "Kris Murray",
    "pos": "SF",
    "starter": false,
-   "min": 13.8,
+   "min": 15.0,
    "g_cur": 15,
    "p_play": 1.0,
    "cur": {
@@ -847,7 +806,7 @@
    "name": "Olivier-Maxence Prosper",
    "pos": "PF",
    "starter": false,
-   "min": 13.2,
+   "min": 14.3,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -888,7 +847,7 @@
    "name": "Quinten Post",
    "pos": "C",
    "starter": false,
-   "min": 11.7,
+   "min": 12.7,
    "g_cur": 13,
    "p_play": 1.0,
    "cur": {
@@ -929,7 +888,7 @@
    "name": "Jahmai Mashack",
    "pos": "SG",
    "starter": false,
-   "min": 8.8,
+   "min": 9.5,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
