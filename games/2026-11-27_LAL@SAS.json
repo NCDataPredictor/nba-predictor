@@ -15,8 +15,7 @@
    "Jayden Quaintance"
   ],
   "gtd": {
-   "De'Aaron Fox": 0.5,
-   "Dylan Harper": 0.7
+   "De'Aaron Fox": 0.5
   },
   "reserves": {
    "LAL": [
@@ -154,7 +153,7 @@
    "starter": true,
    "min": 29.7,
    "g_cur": 15,
-   "p_play": 0.7,
+   "p_play": 1.0,
    "cur": {
     "min": 31.7,
     "pts": 18.4,
