@@ -1381,9 +1381,9 @@
     -105
    ],
    "reb": [
-    3.5,
-    -112,
-    118
+    4.5,
+    105,
+    -123
    ],
    "ast": [
     4.5,
@@ -2610,11 +2610,11 @@
     "Donte DiVincenzo",
     "Jaylen Clark",
     "Anthony Edwards",
-    "LaMelo Ball"
+    "LaMelo Ball",
+    "Isaiah Stewart"
    ],
    "gtd": {
-    "Zach Edey": 0.5,
-    "Isaiah Stewart": 0.5
+    "Zach Edey": 0.5
    },
    "notes": [
     "MEM: Boozer, Grant, Pippen, GG Jackson OUT; Edey (tobillo) e I. Stewart (cadera) cuestionables",
@@ -2643,11 +2643,10 @@
     "Dereck Lively II",
     "Sergio de Larrea",
     "Tarik Biberovic",
-    "Mark Williams"
+    "Mark Williams",
+    "Kyrie Irving"
    ],
-   "gtd": {
-    "Kyrie Irving": 0.5
-   },
+   "gtd": {},
    "notes": [
     "DAL: Lively, Lawal, de Larrea y Biberovic OUT",
     "PHX: Mark Williams OUT"
