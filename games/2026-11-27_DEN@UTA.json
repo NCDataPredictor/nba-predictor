@@ -12,12 +12,12 @@
   ],
   "out": [
    "Lauri Markkanen",
-   "Jaren Jackson Jr."
+   "Jaren Jackson Jr.",
+   "Mo Bamba"
   ],
   "gtd": {
    "Jaxson Hayes": 0.5,
-   "Jusuf Nurkic": 0.6,
-   "Mo Bamba": 0.5
+   "Jusuf Nurkic": 0.6
   },
   "reserves": {
    "DEN": [
@@ -141,7 +141,7 @@
    "name": "Keyonte George",
    "pos": "PG",
    "starter": true,
-   "min": 31.9,
+   "min": 34.9,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -183,7 +183,7 @@
    "name": "Ace Bailey",
    "pos": "SF",
    "starter": true,
-   "min": 29.3,
+   "min": 32.0,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -225,7 +225,7 @@
    "name": "Darryn Peterson",
    "pos": "SG",
    "starter": true,
-   "min": 29.1,
+   "min": 31.8,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -267,7 +267,7 @@
    "name": "Jaxson Hayes",
    "pos": "C",
    "starter": true,
-   "min": 22.8,
+   "min": 25.0,
    "g_cur": 15,
    "p_play": 0.5,
    "cur": {
@@ -306,51 +306,10 @@
   },
   {
    "team": "UTA",
-   "name": "Mo Bamba",
-   "pos": "C",
-   "starter": false,
-   "min": 20.5,
-   "g_cur": 15,
-   "p_play": 0.5,
-   "cur": {
-    "min": 21.3,
-    "pts": 8.5,
-    "reb": 6.9,
-    "ast": 1.1,
-    "fg3m": 0.5,
-    "fgm": 3.6,
-    "fga": 5.3,
-    "fg3a": 0.9,
-    "stl": 0.3,
-    "blk": 1.7,
-    "tov": 0.9,
-    "pf": 2.2,
-    "ftm": 0.9,
-    "fta": 1.5
-   },
-   "prior": {
-    "min": 11.0,
-    "pts": 2.5,
-    "reb": 5.5,
-    "ast": 0.25,
-    "fg3m": 0.0,
-    "fgm": 1.25,
-    "fga": 2.75,
-    "fg3a": 0.0,
-    "stl": 0.0,
-    "blk": 0.75,
-    "tov": 0.5,
-    "pf": 1.5,
-    "ftm": 0.0,
-    "fta": 0.0
-   }
-  },
-  {
-   "team": "UTA",
    "name": "Josh Green",
    "pos": "SG",
    "starter": true,
-   "min": 19.4,
+   "min": 21.2,
    "g_cur": 17,
    "p_play": 1.0,
    "cur": {
@@ -392,7 +351,7 @@
    "name": "Svi Mykhailiuk",
    "pos": "SF",
    "starter": false,
-   "min": 19.0,
+   "min": 20.8,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -433,7 +392,7 @@
    "name": "Josh Okogie",
    "pos": "SG",
    "starter": false,
-   "min": 17.6,
+   "min": 19.3,
    "g_cur": 18,
    "p_play": 1.0,
    "cur": {
@@ -474,7 +433,7 @@
    "name": "Brice Sensabaugh",
    "pos": "SF",
    "starter": false,
-   "min": 17.4,
+   "min": 19.1,
    "g_cur": 19,
    "p_play": 1.0,
    "cur": {
@@ -515,7 +474,7 @@
    "name": "Isaiah Collier",
    "pos": "PG",
    "starter": false,
-   "min": 15.0,
+   "min": 16.4,
    "g_cur": 16,
    "p_play": 1.0,
    "cur": {
@@ -556,7 +515,7 @@
    "name": "Kyle Filipowski",
    "pos": "C",
    "starter": false,
-   "min": 9.0,
+   "min": 9.8,
    "g_cur": 12,
    "p_play": 1.0,
    "cur": {
@@ -597,7 +556,7 @@
    "name": "Tony Bradley",
    "pos": "C",
    "starter": false,
-   "min": 9.0,
+   "min": 9.8,
    "g_cur": 9,
    "p_play": 1.0,
    "cur": {
@@ -1304,13 +1263,6 @@
     1.5,
     -170,
     135
-   ]
-  },
-  "Mo Bamba": {
-   "pts": [
-    6.5,
-    -104,
-    -128
    ]
   }
  },

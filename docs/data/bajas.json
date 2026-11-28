@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:02+00:00",
+ "updated": "2026-11-28T02:03+00:00",
  "list": [
   {
    "date": "2026-11-27",
@@ -21,7 +21,7 @@
    "note": "Enfermedad, descartado vs DEN",
    "source": "ESPN injuries 21:05 ET",
    "at": "2026-11-28T02:02+00:00",
-   "sim": false
+   "sim": true
   },
   {
    "date": "2026-11-27",

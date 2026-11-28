@@ -866,7 +866,27 @@
    "back": [],
    "planb": [],
    "picks_changed": false
+  },
+  {
+   "id": "044f91e5bbbb8448",
+   "at": "2026-11-28T02:03+00:00",
+   "date": "2026-11-27",
+   "gid": "2026-11-27-DEN-at-UTA",
+   "title": "DEN @ UTA (9:30 pm ET): novedades de bajas",
+   "body": "Bajas: Bamba OUT. Los picks del modelo no cambian.",
+   "label": "Revisión 21:05 ET",
+   "url": "https://ncdatapredictor.pages.dev/nba/#2026-11-27-DEN-at-UTA",
+   "added": [],
+   "removed": [],
+   "moved": [],
+   "outs": [
+    "Mo Bamba"
+   ],
+   "doubts": [],
+   "back": [],
+   "planb": [],
+   "picks_changed": false
   }
  ],
- "updated": "2026-11-28T01:32+00:00"
+ "updated": "2026-11-28T02:03+00:00"
 }
