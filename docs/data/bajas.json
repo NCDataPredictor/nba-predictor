@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:32+00:00",
+ "updated": "2026-11-28T02:02+00:00",
  "list": [
   {
    "date": "2026-11-27",
@@ -11,6 +11,17 @@
    "source": "RotoWire/The Smoking Cuban 27-nov ~20:00 ET",
    "at": "2026-11-28T01:01+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-27",
+   "gid": "2026-11-27-DEN-at-UTA",
+   "player": "Mo Bamba",
+   "team": "UTA",
+   "status": "out",
+   "note": "Enfermedad, descartado vs DEN",
+   "source": "ESPN injuries 21:05 ET",
+   "at": "2026-11-28T02:02+00:00",
+   "sim": false
   },
   {
    "date": "2026-11-27",
