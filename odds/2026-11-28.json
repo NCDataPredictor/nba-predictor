@@ -1,0 +1,116 @@
+{
+ "date": "2026-11-28",
+ "source": "Consenso scoresandodds.com/nba?date=2026-11-28 (~11:30 ET; mejor precio por lado). Covers matchups 388783-388787 (sin líneas en la página de matchups).",
+ "games": {
+  "ORL@WAS": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 11:30 ET)",
+     "ml_away": -167,
+     "ml_home": 140,
+     "spread_away": [
+      -3.5,
+      -111
+     ],
+     "spread_home": [
+      3.5,
+      -109
+     ],
+     "total": [
+      220.5,
+      -105,
+      -115
+     ]
+    }
+   ]
+  },
+  "BKN@CHA": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 11:30 ET)",
+     "ml_away": 197,
+     "ml_home": -238,
+     "spread_away": [
+      5.5,
+      -105
+     ],
+     "spread_home": [
+      -5.5,
+      -115
+     ],
+     "total": [
+      213.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "IND@CHI": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 11:30 ET)",
+     "ml_away": 120,
+     "ml_home": -142,
+     "spread_away": [
+      2.5,
+      -105
+     ],
+     "spread_home": [
+      -2.5,
+      -115
+     ],
+     "total": [
+      234.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "OKC@MIL": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 11:30 ET)",
+     "ml_away": -561,
+     "ml_home": 420,
+     "spread_away": [
+      -11.5,
+      -110
+     ],
+     "spread_home": [
+      11.5,
+      -110
+     ],
+     "total": [
+      228.5,
+      -110,
+      -110
+     ]
+    }
+   ]
+  },
+  "PHI@HOU": {
+   "books": [
+    {
+     "book": "scoresandodds (consenso 11:30 ET)",
+     "ml_away": 394,
+     "ml_home": -518,
+     "spread_away": [
+      12.5,
+      -114
+     ],
+     "spread_home": [
+      -12.5,
+      -106
+     ],
+     "total": [
+      220.5,
+      -105,
+      -115
+     ]
+    }
+   ]
+  }
+ }
+}
