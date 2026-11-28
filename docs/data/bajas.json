@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-27T22:10+00:00",
+ "updated": "2026-11-28T01:02+00:00",
  "list": [
+  {
+   "date": "2026-11-27",
+   "gid": "2026-11-27-DAL-at-PHX",
+   "player": "Kyrie Irving",
+   "team": "DAL",
+   "status": "out",
+   "note": "Rodilla izquierda (gestión), descartado vs PHX",
+   "source": "RotoWire/The Smoking Cuban 27-nov ~20:00 ET",
+   "at": "2026-11-28T01:01+00:00",
+   "sim": false
+  },
   {
    "date": "2026-11-27",
    "gid": "2026-11-27-GSW-at-POR",
@@ -11,6 +22,17 @@
    "source": "Underdog NBA (captura de Nicolas) 17:08 ET",
    "at": "2026-11-27T22:08+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-27",
+   "gid": "2026-11-27-MEM-at-MIN",
+   "player": "Isaiah Stewart",
+   "team": "MEM",
+   "status": "out",
+   "note": "Cadera derecha, OUT en RotoWire lineups",
+   "source": "RotoWire lineups 27-nov ~20:05 ET",
+   "at": "2026-11-28T01:02+00:00",
+   "sim": false
   }
  ]
 }
