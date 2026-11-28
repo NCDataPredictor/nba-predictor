@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:04+00:00",
+ "updated": "2026-11-28T01:31+00:00",
  "list": [
   {
    "date": "2026-11-27",
@@ -33,6 +33,17 @@
    "source": "RotoWire lineups 27-nov ~20:05 ET",
    "at": "2026-11-28T01:02+00:00",
    "sim": true
+  },
+  {
+   "date": "2026-11-27",
+   "gid": "2026-11-27-NOP-at-LAC",
+   "player": "Bennedict Mathurin",
+   "team": "NOP",
+   "status": "out",
+   "note": "Pie (fascitis plantar): descartado para el partido ante Clippers",
+   "source": "RotoWire 27-nov",
+   "at": "2026-11-28T01:31+00:00",
+   "sim": false
   }
  ]
 }
